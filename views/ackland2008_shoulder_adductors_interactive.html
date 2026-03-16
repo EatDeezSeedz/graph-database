@@ -129,6 +129,21 @@
         backdrop-filter: blur(8px);
       }
       .tooltip .muted { color: var(--muted); font-weight: 650; }
+      @media (max-width: 860px) {
+        html, body { height: auto; overflow: auto; }
+        body { overflow: auto; }
+        .wrap { height: auto; min-height: 100vh; grid-template-rows: auto auto; }
+        .top { grid-template-columns: 1fr; }
+        .controls { justify-content: flex-start; }
+        .main { grid-template-columns: 1fr; grid-template-rows: auto minmax(420px, 70vh); }
+        .left {
+          border-right: none;
+          border-bottom: 1px solid var(--border);
+          max-height: 38vh;
+        }
+        .stage { min-height: 420px; }
+        .overlay { display: none; }
+      }
     </style>
   </head>
   <body>
@@ -275,12 +290,48 @@
       const btnNone = document.getElementById("none");
 
       // View transform in plot-space (deg/mm) -> screen
-      let view = {
-        xMin: 0,
-        xMax: 180,
-        yMin: -45,
-        yMax: 0,
-      };
+      const X_BOUNDS = { min: 0, max: 180 };
+      const allY = muscles.flatMap(m => m.y);
+      const Y_BOUNDS = { min: Math.min(...allY), max: 0 };
+      const MIN_X_RANGE = 8;
+      const MIN_Y_RANGE = 2;
+      let view = { xMin: X_BOUNDS.min, xMax: X_BOUNDS.max, yMin: Y_BOUNDS.min, yMax: Y_BOUNDS.max };
+
+      function clampView(next) {
+        let xMin = next.xMin;
+        let xMax = next.xMax;
+        let yMin = Math.max(Y_BOUNDS.min, next.yMin);
+        let yMax = Math.min(Y_BOUNDS.max, next.yMax);
+        let xRange = xMax - xMin;
+        let yRange = yMax - yMin;
+        if (xRange < MIN_X_RANGE) {
+          const mid = (xMin + xMax) / 2;
+          xMin = mid - MIN_X_RANGE / 2;
+          xMax = mid + MIN_X_RANGE / 2;
+          xRange = MIN_X_RANGE;
+        }
+        if (yRange < MIN_Y_RANGE) {
+          const mid = (yMin + yMax) / 2;
+          yMin = mid - MIN_Y_RANGE / 2;
+          yMax = mid + MIN_Y_RANGE / 2;
+          yRange = MIN_Y_RANGE;
+        }
+        if (xRange > (X_BOUNDS.max - X_BOUNDS.min)) {
+          xMin = X_BOUNDS.min;
+          xMax = X_BOUNDS.max;
+        } else {
+          if (xMin < X_BOUNDS.min) { xMax += X_BOUNDS.min - xMin; xMin = X_BOUNDS.min; }
+          if (xMax > X_BOUNDS.max) { xMin -= xMax - X_BOUNDS.max; xMax = X_BOUNDS.max; }
+        }
+        if (yRange > (Y_BOUNDS.max - Y_BOUNDS.min)) {
+          yMin = Y_BOUNDS.min;
+          yMax = Y_BOUNDS.max;
+        } else {
+          if (yMin < Y_BOUNDS.min) { yMax += Y_BOUNDS.min - yMin; yMin = Y_BOUNDS.min; }
+          if (yMax > Y_BOUNDS.max) { yMin -= yMax - Y_BOUNDS.max; yMax = Y_BOUNDS.max; }
+        }
+        return { xMin, xMax, yMin, yMax };
+      }
 
       function fit() {
         const visible = muscles.filter(m => m.visible);
@@ -289,12 +340,12 @@
         const yMin = yAll.length ? Math.min(...yAll) : -45;
         const yMax = 0;
         const pad = 0.08 * (yMax - yMin || 1);
-        view = { xMin: 0, xMax: 180, yMin: yMin - pad, yMax };
+        view = clampView({ xMin: X_BOUNDS.min, xMax: X_BOUNDS.max, yMin: yMin - pad, yMax });
         draw();
       }
 
       function reset() {
-        view = { xMin: 0, xMax: 180, yMin: -45, yMax: 0 };
+        view = clampView({ xMin: X_BOUNDS.min, xMax: X_BOUNDS.max, yMin: Y_BOUNDS.min, yMax: Y_BOUNDS.max });
         draw();
       }
 
@@ -369,6 +420,43 @@
         const mult = rough / pow;
         const niceMult = mult < 1.5 ? 1 : mult < 3 ? 2 : mult < 7 ? 5 : 10;
         return niceMult * pow;
+      }
+
+      function computeBestRelativeAngle() {
+        if (!activeMuscle) return null;
+        const active = muscles.find(m => m.name === activeMuscle && m.visible);
+        if (!active) return null;
+        let best = null;
+        const from = Math.max(0, Math.ceil(view.xMin));
+        const to = Math.min(180, Math.floor(view.xMax));
+        for (let deg = from; deg <= to; deg += 1) {
+          const activeY = yAt(active, deg);
+          if (activeY === null) continue;
+          let strongestOther = 0;
+          for (const m of muscles) {
+            if (!m.visible || m.name === active.name) continue;
+            const y = yAt(m, deg);
+            if (y === null) continue;
+            strongestOther = Math.max(strongestOther, Math.abs(y));
+          }
+          const ratio = Math.abs(activeY) / Math.max(strongestOther, 1e-6);
+          if (!best || ratio > best.ratio) {
+            best = { deg, ratio };
+          }
+        }
+        return best;
+      }
+
+      function drawBestMarker(marker, padL, padT, w, h, color) {
+        if (!marker) return;
+        const x = xToPx(marker.deg, w, padL);
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.globalAlpha = 0.8;
+        ctx.setLineDash([6, 6]);
+        ctx.lineWidth = 2.5;
+        ctx.beginPath(); ctx.moveTo(x, padT); ctx.lineTo(x, padT + h); ctx.stroke();
+        ctx.restore();
       }
 
       function drawAxes(padL, padT, w, h) {
@@ -460,6 +548,10 @@
         ctx.restore();
 
         drawAxes(padL, padT, w, h);
+        if (activeMuscle) {
+          const active = muscles.find(m => m.name === activeMuscle);
+          if (active) drawBestMarker(computeBestRelativeAngle(), padL, padT, w, h, active.color);
+        }
 
         // Lines
         for (const m of muscles) {
@@ -566,12 +658,12 @@
         const yRange = (view.yMax - view.yMin);
         const xShift = -dx * xRange / w;
         const yShift = dy * yRange / h;
-        view.xMin += xShift; view.xMax += xShift;
-        view.yMin += yShift; view.yMax += yShift;
-        if (view.yMax > 0) {
-          view.yMin -= view.yMax;
-          view.yMax = 0;
-        }
+        view = clampView({
+          xMin: view.xMin + xShift,
+          xMax: view.xMax + xShift,
+          yMin: view.yMin + yShift,
+          yMax: view.yMax + yShift,
+        });
         draw();
       });
       stage.addEventListener("pointerup", () => { dragging = false; });
@@ -640,8 +732,7 @@
         // Keep some sanity bounds
         if ((xMax - xMin) < 2) return;
         if ((yMax - yMin) < 1) return;
-        view = { xMin, xMax, yMin, yMax: Math.min(0, yMax) };
-        if (view.yMax < yMin) view.yMin = yMin;
+        view = clampView({ xMin, xMax, yMin, yMax });
         draw();
       }, { passive: false });
 

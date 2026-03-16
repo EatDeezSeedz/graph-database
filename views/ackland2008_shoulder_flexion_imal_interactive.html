@@ -109,6 +109,21 @@
         backdrop-filter: blur(8px);
       }
       .tooltip .muted { color: var(--muted); font-weight: 650; }
+      @media (max-width: 860px) {
+        html, body { height: auto; overflow: auto; }
+        body { overflow: auto; }
+        .wrap { height: auto; min-height: 100vh; grid-template-rows: auto auto; }
+        .top { grid-template-columns: 1fr; }
+        .controls { justify-content: flex-start; }
+        .main { grid-template-columns: 1fr; grid-template-rows: auto minmax(420px, 70vh); }
+        .left {
+          border-right: none;
+          border-bottom: 1px solid var(--border);
+          max-height: 38vh;
+        }
+        .stage { min-height: 420px; }
+        .overlay { display: none; }
+      }
     </style>
   </head>
   <body>
@@ -136,7 +151,6 @@
         </div>
         <div class="stage" id="stage">
           <canvas id="c"></canvas>
-          <div class="overlay">Green = reported domain (0-120°)</div>
           <div id="tip" class="tooltip"></div>
         </div>
       </div>
@@ -406,6 +420,43 @@
         return niceMult * pow;
       }
 
+      function computeBestRelativeAngle() {
+        if (!activeMuscle) return null;
+        const active = muscles.find(m => m.name === activeMuscle && m.visible);
+        if (!active) return null;
+        let best = null;
+        const from = Math.max(-45, Math.ceil(view.xMin));
+        const to = Math.min(180, Math.floor(view.xMax));
+        for (let deg = from; deg <= to; deg += 1) {
+          const activeY = yAtVisible(active, deg);
+          if (activeY === null) continue;
+          let strongestOther = 0;
+          for (const m of muscles) {
+            if (!m.visible || m.name === active.name) continue;
+            const y = yAtVisible(m, deg);
+            if (y === null) continue;
+            strongestOther = Math.max(strongestOther, Math.abs(y));
+          }
+          const ratio = Math.abs(activeY) / Math.max(strongestOther, 1e-6);
+          if (!best || ratio > best.ratio) {
+            best = { deg, ratio };
+          }
+        }
+        return best;
+      }
+
+      function drawBestMarker(marker, padL, padT, w, h, color) {
+        if (!marker) return;
+        const x = xToPx(marker.deg, w, padL);
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.globalAlpha = 0.8;
+        ctx.setLineDash([6, 6]);
+        ctx.lineWidth = 2.5;
+        ctx.beginPath(); ctx.moveTo(x, padT); ctx.lineTo(x, padT + h); ctx.stroke();
+        ctx.restore();
+      }
+
       function drawAxes(padL, padT, w, h) {
         ctx.save();
         ctx.lineWidth = 1;
@@ -474,6 +525,10 @@
         ctx.restore();
 
         drawAxes(padL, padT, w, h);
+        if (activeMuscle) {
+          const active = muscles.find(m => m.name === activeMuscle);
+          if (active) drawBestMarker(computeBestRelativeAngle(), padL, padT, w, h, active.color);
+        }
 
         for (const m of muscles) {
           if (!m.visible) continue;

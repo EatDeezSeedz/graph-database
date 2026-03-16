@@ -119,6 +119,21 @@
       .small .btn { padding: 6px 8px; font-size: 11px; }
       a.link { color: #93c5fd; text-decoration: none; }
       a.link:hover { text-decoration: underline; }
+      @media (max-width: 860px) {
+        html, body { height: auto; overflow: auto; }
+        body { overflow: auto; }
+        .wrap { height: auto; min-height: 100vh; grid-template-rows: auto auto; }
+        .top { grid-template-columns: 1fr; }
+        .controls { justify-content: flex-start; }
+        .main { grid-template-columns: 1fr; grid-template-rows: auto minmax(420px, 70vh); }
+        .left {
+          border-right: none;
+          border-bottom: 1px solid var(--border);
+          max-height: 38vh;
+        }
+        .stage { min-height: 420px; }
+        .overlay { display: none; }
+      }
     </style>
   </head>
   <body>
@@ -304,7 +319,51 @@
         draw();
       });
 
-      let view = { xMin: 0, xMax: 120, yMin: 0, yMax: 6 };
+      const X_BOUNDS = { min: 0, max: 120 };
+      const allSeriesPoints = series.flatMap(s => [...s.measured, ...s.estimate]);
+      const Y_BOUNDS = {
+        min: Math.min(...allSeriesPoints.map(p => p.y)),
+        max: Math.max(...allSeriesPoints.map(p => p.y)),
+      };
+      const MIN_X_RANGE = 8;
+      const MIN_Y_RANGE = 0.5;
+      let view = { xMin: X_BOUNDS.min, xMax: X_BOUNDS.max, yMin: Y_BOUNDS.min, yMax: Y_BOUNDS.max };
+
+      function clampView(next) {
+        let xMin = next.xMin;
+        let xMax = next.xMax;
+        let yMin = Math.max(Y_BOUNDS.min, next.yMin);
+        let yMax = Math.min(Y_BOUNDS.max, next.yMax);
+        let xRange = xMax - xMin;
+        let yRange = yMax - yMin;
+        if (xRange < MIN_X_RANGE) {
+          const mid = (xMin + xMax) / 2;
+          xMin = mid - MIN_X_RANGE / 2;
+          xMax = mid + MIN_X_RANGE / 2;
+          xRange = MIN_X_RANGE;
+        }
+        if (yRange < MIN_Y_RANGE) {
+          const mid = (yMin + yMax) / 2;
+          yMin = mid - MIN_Y_RANGE / 2;
+          yMax = mid + MIN_Y_RANGE / 2;
+          yRange = MIN_Y_RANGE;
+        }
+        if (xRange > (X_BOUNDS.max - X_BOUNDS.min)) {
+          xMin = X_BOUNDS.min;
+          xMax = X_BOUNDS.max;
+        } else {
+          if (xMin < X_BOUNDS.min) { xMax += X_BOUNDS.min - xMin; xMin = X_BOUNDS.min; }
+          if (xMax > X_BOUNDS.max) { xMin -= xMax - X_BOUNDS.max; xMax = X_BOUNDS.max; }
+        }
+        if (yRange > (Y_BOUNDS.max - Y_BOUNDS.min)) {
+          yMin = Y_BOUNDS.min;
+          yMax = Y_BOUNDS.max;
+        } else {
+          if (yMin < Y_BOUNDS.min) { yMax += Y_BOUNDS.min - yMin; yMin = Y_BOUNDS.min; }
+          if (yMax > Y_BOUNDS.max) { yMin -= yMax - Y_BOUNDS.max; yMax = Y_BOUNDS.max; }
+        }
+        return { xMin, xMax, yMin, yMax };
+      }
       function fit() {
         const visible = series.filter(s => s.visible);
         const all = [];
@@ -315,10 +374,10 @@
         const yMin = all.length ? Math.min(...all.map(p => p.y)) : 0;
         const yMax = all.length ? Math.max(...all.map(p => p.y)) : 6;
         const pad = 0.08 * (yMax - yMin || 1);
-        view = { xMin: 0, xMax: 120, yMin: Math.max(0, yMin - pad), yMax: yMax + pad };
+        view = clampView({ xMin: X_BOUNDS.min, xMax: X_BOUNDS.max, yMin: yMin - pad, yMax: yMax + pad });
         draw();
       }
-      function reset() { view = { xMin: 0, xMax: 120, yMin: 0, yMax: 6 }; draw(); }
+      function reset() { view = clampView({ xMin: X_BOUNDS.min, xMax: X_BOUNDS.max, yMin: Y_BOUNDS.min, yMax: Y_BOUNDS.max }); draw(); }
       document.getElementById("fit").addEventListener("click", fit);
       document.getElementById("reset").addEventListener("click", reset);
 
@@ -452,6 +511,63 @@
         ctx.restore();
       }
 
+      function yAtSeries(s, deg) {
+        const points = [...(showEst ? s.estimate : []), ...s.measured].sort((a, b) => a.x - b.x);
+        if (!points.length || deg < points[0].x || deg > points[points.length - 1].x) return null;
+        for (let i = 0; i < points.length - 1; i++) {
+          const a = points[i], b = points[i + 1];
+          if (deg < a.x || deg > b.x) continue;
+          if (b.x === a.x) return a.y;
+          const t = (deg - a.x) / (b.x - a.x);
+          return a.y + (b.y - a.y) * t;
+        }
+        return points[points.length - 1].y;
+      }
+
+      function leverageGroup(name) {
+        if (name.startsWith("Biceps")) return "Biceps";
+        return name;
+      }
+
+      function computeBestRelativeAngle() {
+        if (!activeSeries) return null;
+        const active = series.find(s => s.name === activeSeries && s.visible);
+        if (!active) return null;
+        let best = null;
+        const activeGroup = leverageGroup(active.name);
+        const from = Math.max(0, Math.ceil(view.xMin));
+        const to = Math.min(120, Math.floor(view.xMax));
+        for (let deg = from; deg <= to; deg += 1) {
+          const activeY = yAtSeries(active, deg);
+          if (activeY === null) continue;
+          let strongestOther = 0;
+          for (const s of series) {
+            if (!s.visible || s.name === active.name) continue;
+            if (leverageGroup(s.name) === activeGroup) continue;
+            const y = yAtSeries(s, deg);
+            if (y === null) continue;
+            strongestOther = Math.max(strongestOther, Math.abs(y));
+          }
+          const ratio = Math.abs(activeY) / Math.max(strongestOther, 1e-6);
+          if (!best || ratio > best.ratio) {
+            best = { deg, ratio };
+          }
+        }
+        return best;
+      }
+
+      function drawBestMarker(marker, padL, padT, w, h, color) {
+        if (!marker) return;
+        const x = xToPx(marker.deg, w, padL);
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.globalAlpha = 0.8;
+        ctx.setLineDash([6, 6]);
+        ctx.lineWidth = 2.5;
+        ctx.beginPath(); ctx.moveTo(x, padT); ctx.lineTo(x, padT + h); ctx.stroke();
+        ctx.restore();
+      }
+
       function draw() {
         const rect = stage.getBoundingClientRect();
         const W = rect.width;
@@ -462,6 +578,10 @@
         const w = Math.max(10, W - padL - padR);
         const h = Math.max(10, H - padT - padB);
         drawAxes(padL, padT, w, h);
+        if (activeSeries) {
+          const active = series.find(s => s.name === activeSeries);
+          if (active) drawBestMarker(computeBestRelativeAngle(), padL, padT, w, h, active.color);
+        }
 
         screenSeries = [];
         for (const s of series) {
@@ -528,8 +648,12 @@
         const yRange = (view.yMax - view.yMin);
         const xShift = -dx * xRange / w;
         const yShift = dy * yRange / h;
-        view.xMin += xShift; view.xMax += xShift;
-        view.yMin += yShift; view.yMax += yShift;
+        view = clampView({
+          xMin: view.xMin + xShift,
+          xMax: view.xMax + xShift,
+          yMin: view.yMin + yShift,
+          yMax: view.yMax + yShift,
+        });
         draw();
       });
       stage.addEventListener("pointerup", () => { dragging = false; });
@@ -594,7 +718,7 @@
         const yMax = y0 + (view.yMax - y0) * zoomY;
         if ((xMax - xMin) < 5) return;
         if ((yMax - yMin) < 0.4) return;
-        view = { xMin, xMax, yMin, yMax };
+        view = clampView({ xMin, xMax, yMin, yMax });
         draw();
       }, { passive: false });
 
