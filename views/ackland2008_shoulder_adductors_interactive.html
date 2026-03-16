@@ -253,7 +253,7 @@
         xMin: 0,
         xMax: 180,
         yMin: -45,
-        yMax: 60,
+        yMax: 0,
       };
 
       function fit() {
@@ -261,14 +261,14 @@
         const yAll = [];
         for (const m of visible) yAll.push(...m.y);
         const yMin = yAll.length ? Math.min(...yAll) : -45;
-        const yMax = yAll.length ? Math.max(...yAll) : 60;
+        const yMax = 0;
         const pad = 0.08 * (yMax - yMin || 1);
-        view = { xMin: 0, xMax: 180, yMin: yMin - pad, yMax: yMax + pad };
+        view = { xMin: 0, xMax: 180, yMin: yMin - pad, yMax };
         draw();
       }
 
       function reset() {
-        view = { xMin: 0, xMax: 180, yMin: -45, yMax: 60 };
+        view = { xMin: 0, xMax: 180, yMin: -45, yMax: 0 };
         draw();
       }
 
@@ -525,6 +525,10 @@
         const yShift = dy * yRange / h;
         view.xMin += xShift; view.xMax += xShift;
         view.yMin += yShift; view.yMax += yShift;
+        if (view.yMax > 0) {
+          view.yMin -= view.yMax;
+          view.yMax = 0;
+        }
         draw();
       });
       stage.addEventListener("pointerup", () => { dragging = false; });
@@ -591,7 +595,8 @@
         // Keep some sanity bounds
         if ((xMax - xMin) < 2) return;
         if ((yMax - yMin) < 1) return;
-        view = { xMin, xMax, yMin, yMax };
+        view = { xMin, xMax, yMin, yMax: Math.min(0, yMax) };
+        if (view.yMax < yMin) view.yMin = yMin;
         draw();
       }, { passive: false });
 
