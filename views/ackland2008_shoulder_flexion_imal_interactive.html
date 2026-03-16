@@ -116,7 +116,7 @@
       <div class="top">
         <div>
           <div class="title">Ackland et al. (PMC2644775) - Shoulder flexion IMALs (grey curves)</div>
-          <div class="subtitle">Flexion only: segments with y ≤ 0 are hidden (no flat zeros). Solid = 0–120° (reported). Dashed = quadratic extrapolation from 120° to 180°.</div>
+          <div class="subtitle">Flexion only: segments with y ≤ 0 are hidden (no flat zeros). Solid = 0–120° (reported). Dotted/dashed = quadratic extrapolation from -45° to 180°.</div>
         </div>
         <div class="controls">
           <button id="fit" class="btn">Fit</button>
@@ -131,7 +131,7 @@
           <div class="sectionTitle">Toggle lines</div>
           <div id="checks"></div>
           <div class="hint">
-            Source: Table 1 (Flexion/Extension) extrema from the PMC2644775 paper. Reconstruction uses a simple quadratic through the two extrema; only positive (flexion) segments are drawn. Extrapolation follows that same quadratic fit from 120° to 180°, then hides any y ≤ 0 values.
+            Source: Table 1 (Flexion/Extension) extrema from the PMC2644775 paper. Reconstruction uses a simple quadratic through the two extrema; only positive (flexion) segments are drawn. Extrapolation follows that same quadratic fit from -45° to 180°, then hides any y ≤ 0 values.
           </div>
         </div>
         <div class="stage" id="stage">
@@ -177,7 +177,7 @@
         { name: "Latissimus dorsi (inf)", maxMm: -10.8,maxDeg: 53.0, minMm: -2.9,minDeg: 120.0 }
       ];
 
-      const degs = Array.from({ length: 211 }, (_, i) => i - 30); // -30..180
+      const degs = Array.from({ length: 226 }, (_, i) => i - 45); // -45..180
 
       function momentArmRaw(m, deg) {
         const denom = (m.minDeg - m.maxDeg) ** 2;
@@ -255,13 +255,13 @@
       const btnAll = document.getElementById("all");
       const btnNone = document.getElementById("none");
 
-      const X_BOUNDS = { min: 0, max: 180 };
+      const X_BOUNDS = { min: -45, max: 180 };
       const allPositiveY = muscles.flatMap(m => m.y.filter(v => v !== null));
       const Y_MAX_BOUND = (allPositiveY.length ? Math.max(...allPositiveY) : 60) + 5;
       const MIN_X_RANGE = 10;
       const MIN_Y_RANGE = 5;
 
-      let view = { xMin: 0, xMax: 180, yMin: 0, yMax: Math.min(60, Y_MAX_BOUND) };
+      let view = { xMin: -45, xMax: 180, yMin: 0, yMax: Math.min(60, Y_MAX_BOUND) };
 
       function clampView(next) {
         let xMin = next.xMin;
@@ -323,10 +323,10 @@
         const yMin = 0;
         const yMax = yAll.length ? Math.max(...yAll) : 10;
         const pad = 0.08 * (yMax - yMin || 1);
-        view = clampView({ xMin: 0, xMax: 180, yMin: 0, yMax: yMax + pad });
+        view = clampView({ xMin: -45, xMax: 180, yMin: 0, yMax: yMax + pad });
         draw();
       }
-      function reset() { view = clampView({ xMin: 0, xMax: 180, yMin: 0, yMax: Math.min(60, Y_MAX_BOUND) }); draw(); }
+      function reset() { view = clampView({ xMin: -45, xMax: 180, yMin: 0, yMax: Math.min(60, Y_MAX_BOUND) }); draw(); }
       btnFit.addEventListener("click", fit);
       btnReset.addEventListener("click", reset);
       btnAll.addEventListener("click", () => {
@@ -612,7 +612,7 @@
         if (x < padL || x > padL + w || y < padT || y > padT + h) { hideTip(); return; }
 
         const deg = pxToX(x, w, padL);
-        if (deg < 0 || deg > 180) { hideTip(); return; }
+        if (deg < -45 || deg > 180) { hideTip(); return; }
 
         let best = null;
         for (const m of muscles) {
