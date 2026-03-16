@@ -69,6 +69,14 @@
         border-radius: 14px;
         margin: 8px 4px;
         background: rgba(0,0,0,0.14);
+        cursor: pointer;
+        transition: background 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
+      }
+      .check:hover { background: rgba(255,255,255,0.05); }
+      .check.active {
+        border-color: rgba(255,255,255,0.28);
+        background: rgba(255,255,255,0.09);
+        box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset;
       }
       .swatch { width: 12px; height: 12px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.25); }
       .check label { font-size: 12px; font-weight: 650; }
@@ -237,22 +245,40 @@
       let showEst = true;
       let showPts = true;
       let screenSeries = [];
+      let activeSeries = null;
 
       const checksEl = document.getElementById("checks");
       for (const s of series) {
         const row = document.createElement("div");
         row.className = "check";
+        row.dataset.name = s.name;
         const cb = document.createElement("input");
         cb.type = "checkbox";
         cb.checked = true;
-        cb.addEventListener("change", () => { s.visible = cb.checked; draw(); });
+        cb.addEventListener("click", (e) => e.stopPropagation());
+        cb.addEventListener("change", () => {
+          s.visible = cb.checked;
+          if (!s.visible && activeSeries === s.name) activeSeries = null;
+          syncActiveRows();
+          draw();
+        });
         const sw = document.createElement("div");
         sw.className = "swatch";
         sw.style.background = s.color;
         const lab = document.createElement("label");
         lab.textContent = s.name;
+        row.addEventListener("click", () => {
+          activeSeries = activeSeries === s.name ? null : s.name;
+          syncActiveRows();
+          draw();
+        });
         row.append(cb, sw, lab);
         checksEl.appendChild(row);
+      }
+      function syncActiveRows() {
+        for (const row of checksEl.querySelectorAll(".check")) {
+          row.classList.toggle("active", row.dataset.name === activeSeries);
+        }
       }
 
       const canvas = document.getElementById("c");
@@ -267,11 +293,14 @@
       document.getElementById("all").addEventListener("click", () => {
         for (const s of series) s.visible = true;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = true);
+        syncActiveRows();
         draw();
       });
       document.getElementById("none").addEventListener("click", () => {
         for (const s of series) s.visible = false;
+        activeSeries = null;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = false);
+        syncActiveRows();
         draw();
       });
 
@@ -394,13 +423,18 @@
         ctx.restore();
       }
 
-      function strokeSpline(points, color, width, dash) {
+      function strokeSpline(points, color, width, dash, alpha = 1, glow = false) {
         if (points.length < 2) return;
         ctx.save();
         ctx.strokeStyle = color;
         ctx.lineWidth = width;
+        ctx.globalAlpha = alpha;
         ctx.lineJoin = "round";
         ctx.lineCap = "round";
+        if (glow) {
+          ctx.shadowColor = color;
+          ctx.shadowBlur = 16;
+        }
         ctx.setLineDash(dash || []);
         ctx.beginPath();
         ctx.moveTo(points[0].px, points[0].py);
@@ -430,17 +464,20 @@
         for (const s of series) {
           if (!s.visible) continue;
           const color = s.color;
+          const isActive = activeSeries === s.name;
+          const hasActive = !!activeSeries;
+          const lineAlpha = hasActive ? (isActive ? 1 : 0.18) : 1;
           const measPts = s.measured
             .filter(p => p.x >= view.xMin && p.x <= view.xMax)
             .map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT) }));
-          strokeSpline(measPts, color, 4, []);
+          strokeSpline(measPts, color, isActive ? 6 : 4, [], 0.95 * lineAlpha, isActive);
 
           const rec = { name: s.name, color, measured: measPts, estimate: null };
           if (showEst) {
             const estPts = s.estimate
               .filter(p => p.x >= view.xMin && p.x <= view.xMax)
               .map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT) }));
-            strokeSpline(estPts, color, 3, [10, 7]);
+            strokeSpline(estPts, color, isActive ? 4 : 3, [10, 7], 0.85 * lineAlpha, isActive);
             rec.estimate = estPts;
           }
           screenSeries.push(rec);
@@ -448,12 +485,13 @@
           if (showPts) {
             ctx.save();
             ctx.fillStyle = color;
+            ctx.globalAlpha = hasActive ? (isActive ? 1 : 0.18) : 1;
             for (const p of s.measured) {
               if (p.x < view.xMin || p.x > view.xMax) continue;
               const px = xToPx(p.x, w, padL);
               const py = yToPx(p.y, h, padT);
               ctx.beginPath();
-              ctx.arc(px, py, 3.2, 0, Math.PI * 2);
+              ctx.arc(px, py, isActive ? 4.4 : 3.2, 0, Math.PI * 2);
               ctx.fill();
             }
             ctx.restore();

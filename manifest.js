@@ -6,7 +6,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Adduction IMALs",
                        "file":  "views/ackland2008_shoulder_adductors_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T16:19:45.9642503-04:00"
+                       "updatedAt":  "2026-03-16T16:23:04.0430711-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_abduction_imal_interactive",
@@ -20,14 +20,14 @@ window.GRAPH_MANIFEST = {
                        "title":  "Kuechle Shoulder IMALs",
                        "file":  "views/kuechle1997_shoulder_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T15:31:24.1982912-04:00"
+                       "updatedAt":  "2026-03-16T16:38:47.1356703-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_flexion_imal_interactive",
                        "title":  "Flexion IMALs",
                        "file":  "views/ackland2008_shoulder_flexion_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T03:20:11.9016082-04:00"
+                       "updatedAt":  "2026-03-16T17:05:06.6458819-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_extension_imal_interactive",
@@ -58,6 +58,6 @@ window.GRAPH_MANIFEST = {
                        "updatedAt":  "2026-03-16T01:16:45.0265277-04:00"
                    }
                ],
-    "generatedAt":  "2026-03-16T16:19:58.3259096-04:00"
+    "generatedAt":  "2026-03-16T17:05:24.9000611-04:00"
 };
 

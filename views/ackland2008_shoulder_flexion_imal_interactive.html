@@ -69,6 +69,14 @@
         border-radius: 14px;
         margin: 8px 4px;
         background: rgba(0,0,0,0.14);
+        cursor: pointer;
+        transition: background 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
+      }
+      .check:hover { background: rgba(255,255,255,0.05); }
+      .check.active {
+        border-color: rgba(255,255,255,0.28);
+        background: rgba(255,255,255,0.09);
+        box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset;
       }
       .swatch { width: 12px; height: 12px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.25); }
       .check label { font-size: 12px; font-weight: 650; }
@@ -108,7 +116,7 @@
       <div class="top">
         <div>
           <div class="title">Ackland et al. (PMC2644775) - Shoulder flexion IMALs (grey curves)</div>
-          <div class="subtitle">Flexion only: segments with y ≤ 0 are hidden (no flat zeros). Solid = 0–120° (reported). Dotted/dashed = extrapolated to -30° and 180°.</div>
+          <div class="subtitle">Flexion only: segments with y ≤ 0 are hidden (no flat zeros). Solid = 0–120° (reported). Dashed = quadratic extrapolation from 120° to 180°.</div>
         </div>
         <div class="controls">
           <button id="fit" class="btn">Fit</button>
@@ -123,7 +131,7 @@
           <div class="sectionTitle">Toggle lines</div>
           <div id="checks"></div>
           <div class="hint">
-            Source: Table 1 (Flexion/Extension) extrema from the PMC2644775 paper. Reconstruction uses a simple quadratic through the two extrema; only positive (flexion) segments are drawn. Extrapolation uses boundary slope, then hides any y ≤ 0 values.
+            Source: Table 1 (Flexion/Extension) extrema from the PMC2644775 paper. Reconstruction uses a simple quadratic through the two extrema; only positive (flexion) segments are drawn. Extrapolation follows that same quadratic fit from 120° to 180°, then hides any y ≤ 0 values.
           </div>
         </div>
         <div class="stage" id="stage">
@@ -182,14 +190,6 @@
       }
 
       function momentArmModel(m, deg) {
-        const y0 = momentArmRaw(m, 0);
-        const y5 = momentArmRaw(m, 5);
-        const y115 = momentArmRaw(m, 115);
-        const y120 = momentArmRaw(m, 120);
-        const slope0 = (y5 - y0) / 5;
-        const slope120 = (y120 - y115) / 5;
-        if (deg < 0) return y0 + slope0 * (deg - 0);
-        if (deg > 120) return y120 + slope120 * (deg - 120);
         return momentArmRaw(m, deg);
       }
 
@@ -204,6 +204,7 @@
         const any = y.some(v => v !== null);
         return any ? { ...m, color: palette[i % palette.length], visible: true, y } : null;
       }).filter(Boolean);
+      let activeMuscle = null;
 
       const checksEl = document.getElementById("checks");
       function renderChecks() {
@@ -211,17 +212,34 @@
         for (const m of muscles) {
           const row = document.createElement("div");
           row.className = "check";
+          row.dataset.name = m.name;
           const cb = document.createElement("input");
           cb.type = "checkbox";
           cb.checked = !!m.visible;
-          cb.addEventListener("change", () => { m.visible = cb.checked; draw(); });
+          cb.addEventListener("click", (e) => e.stopPropagation());
+          cb.addEventListener("change", () => {
+            m.visible = cb.checked;
+            if (!m.visible && activeMuscle === m.name) activeMuscle = null;
+            syncActiveRows();
+            draw();
+          });
           const sw = document.createElement("div");
           sw.className = "swatch";
           sw.style.background = m.color;
           const lab = document.createElement("label");
           lab.textContent = m.name;
+          row.addEventListener("click", () => {
+            activeMuscle = activeMuscle === m.name ? null : m.name;
+            syncActiveRows();
+            draw();
+          });
           row.append(cb, sw, lab);
           checksEl.appendChild(row);
+        }
+      }
+      function syncActiveRows() {
+        for (const row of checksEl.querySelectorAll(".check")) {
+          row.classList.toggle("active", row.dataset.name === activeMuscle);
         }
       }
       renderChecks();
@@ -237,7 +255,66 @@
       const btnAll = document.getElementById("all");
       const btnNone = document.getElementById("none");
 
-      let view = { xMin: -30, xMax: 180, yMin: 0, yMax: 60 };
+      const X_BOUNDS = { min: 0, max: 180 };
+      const allPositiveY = muscles.flatMap(m => m.y.filter(v => v !== null));
+      const Y_MAX_BOUND = (allPositiveY.length ? Math.max(...allPositiveY) : 60) + 5;
+      const MIN_X_RANGE = 10;
+      const MIN_Y_RANGE = 5;
+
+      let view = { xMin: 0, xMax: 180, yMin: 0, yMax: Math.min(60, Y_MAX_BOUND) };
+
+      function clampView(next) {
+        let xMin = next.xMin;
+        let xMax = next.xMax;
+        let yMin = Math.max(0, next.yMin);
+        let yMax = Math.min(Y_MAX_BOUND, next.yMax);
+
+        let xRange = xMax - xMin;
+        let yRange = yMax - yMin;
+
+        if (xRange < MIN_X_RANGE) {
+          const mid = (xMin + xMax) / 2;
+          xMin = mid - MIN_X_RANGE / 2;
+          xMax = mid + MIN_X_RANGE / 2;
+          xRange = MIN_X_RANGE;
+        }
+        if (yRange < MIN_Y_RANGE) {
+          yMax = Math.min(Y_MAX_BOUND, yMin + MIN_Y_RANGE);
+          yMin = Math.max(0, yMax - MIN_Y_RANGE);
+          yRange = yMax - yMin;
+        }
+
+        if (xRange > (X_BOUNDS.max - X_BOUNDS.min)) {
+          xMin = X_BOUNDS.min;
+          xMax = X_BOUNDS.max;
+        } else {
+          if (xMin < X_BOUNDS.min) {
+            xMax += X_BOUNDS.min - xMin;
+            xMin = X_BOUNDS.min;
+          }
+          if (xMax > X_BOUNDS.max) {
+            xMin -= xMax - X_BOUNDS.max;
+            xMax = X_BOUNDS.max;
+          }
+          xMin = Math.max(X_BOUNDS.min, xMin);
+          xMax = Math.min(X_BOUNDS.max, xMax);
+        }
+
+        if (yMax > Y_MAX_BOUND) {
+          yMin -= yMax - Y_MAX_BOUND;
+          yMax = Y_MAX_BOUND;
+        }
+        if (yMin < 0) {
+          yMax = Math.min(Y_MAX_BOUND, yMax - yMin);
+          yMin = 0;
+        }
+        if ((yMax - yMin) < MIN_Y_RANGE) {
+          yMax = Math.min(Y_MAX_BOUND, yMin + MIN_Y_RANGE);
+          yMin = Math.max(0, yMax - MIN_Y_RANGE);
+        }
+
+        return { xMin, xMax, yMin, yMax };
+      }
 
       function fit() {
         const visible = muscles.filter(m => m.visible);
@@ -246,20 +323,23 @@
         const yMin = 0;
         const yMax = yAll.length ? Math.max(...yAll) : 10;
         const pad = 0.08 * (yMax - yMin || 1);
-        view = { xMin: -30, xMax: 180, yMin: 0, yMax: yMax + pad };
+        view = clampView({ xMin: 0, xMax: 180, yMin: 0, yMax: yMax + pad });
         draw();
       }
-      function reset() { view = { xMin: -30, xMax: 180, yMin: 0, yMax: 60 }; draw(); }
+      function reset() { view = clampView({ xMin: 0, xMax: 180, yMin: 0, yMax: Math.min(60, Y_MAX_BOUND) }); draw(); }
       btnFit.addEventListener("click", fit);
       btnReset.addEventListener("click", reset);
       btnAll.addEventListener("click", () => {
         for (const m of muscles) m.visible = true;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = true);
+        syncActiveRows();
         draw();
       });
       btnNone.addEventListener("click", () => {
         for (const m of muscles) m.visible = false;
+        activeMuscle = null;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = false);
+        syncActiveRows();
         draw();
       });
 
@@ -331,7 +411,7 @@
         ctx.lineWidth = 1;
         ctx.strokeStyle = "rgba(255,255,255,0.08)";
 
-        const xStep = 30;
+        const xStep = niceStep(view.xMax - view.xMin);
         for (let x = Math.ceil(view.xMin / xStep) * xStep; x <= view.xMax; x += xStep) {
           const px = xToPx(x, w, padL);
           ctx.beginPath(); ctx.moveTo(px, padT); ctx.lineTo(px, padT + h); ctx.stroke();
@@ -365,7 +445,7 @@
 
         ctx.textAlign = "center";
         ctx.fillStyle = "rgba(156,163,175,0.95)";
-        ctx.fillText("Joint angle (deg)  (-30 = hyperextension, + = flexion)", padL + w / 2, padT + h + 42);
+        ctx.fillText("Joint angle (deg)", padL + w / 2, padT + h + 42);
         ctx.save();
         ctx.translate(16, padT + h / 2);
         ctx.rotate(-Math.PI / 2);
@@ -398,12 +478,18 @@
         for (const m of muscles) {
           if (!m.visible) continue;
           const color = m.color;
+          const isActive = activeMuscle === m.name;
+          const hasActive = !!activeMuscle;
+          const lineAlpha = hasActive ? (isActive ? 1 : 0.18) : 1;
+          const lineWidthSolid = isActive ? 6 : 4;
+          const lineWidthDash = isActive ? 5 : 4;
+          const lineWidthDot = isActive ? 3 : 2;
 
           // left extrap (-30..0) dotted
           ctx.save();
           ctx.strokeStyle = color;
-          ctx.globalAlpha = 0.35;
-          ctx.lineWidth = 2;
+          ctx.globalAlpha = 0.35 * lineAlpha;
+          ctx.lineWidth = lineWidthDot;
           ctx.setLineDash([2, 5]);
           ctx.beginPath();
           let started = false;
@@ -423,8 +509,12 @@
           // measured (0..120) solid
           ctx.save();
           ctx.strokeStyle = color;
-          ctx.globalAlpha = 0.95;
-          ctx.lineWidth = 4;
+          ctx.globalAlpha = 0.95 * lineAlpha;
+          ctx.lineWidth = lineWidthSolid;
+          if (isActive) {
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 16;
+          }
           ctx.setLineDash([]);
           ctx.beginPath();
           started = false;
@@ -444,8 +534,12 @@
           // right extrap (120..180) dashed
           ctx.save();
           ctx.strokeStyle = color;
-          ctx.globalAlpha = 0.9;
-          ctx.lineWidth = 4;
+          ctx.globalAlpha = 0.9 * lineAlpha;
+          ctx.lineWidth = lineWidthDash;
+          if (isActive) {
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 14;
+          }
           ctx.setLineDash([10, 7]);
           ctx.beginPath();
           started = false;
@@ -491,9 +585,12 @@
         const yRange = (view.yMax - view.yMin);
         const xShift = -dx * xRange / w;
         const yShift = dy * yRange / h;
-        view.xMin += xShift; view.xMax += xShift;
-        view.yMin += yShift; view.yMax += yShift;
-        if (view.yMin < 0) { view.yMax += -view.yMin; view.yMin = 0; }
+        view = clampView({
+          xMin: view.xMin + xShift,
+          xMax: view.xMax + xShift,
+          yMin: view.yMin + yShift,
+          yMax: view.yMax + yShift
+        });
         draw();
       });
       stage.addEventListener("pointerup", () => { dragging = false; });
@@ -515,7 +612,7 @@
         if (x < padL || x > padL + w || y < padT || y > padT + h) { hideTip(); return; }
 
         const deg = pxToX(x, w, padL);
-        if (deg < -30 || deg > 180) { hideTip(); return; }
+        if (deg < 0 || deg > 180) { hideTip(); return; }
 
         let best = null;
         for (const m of muscles) {
@@ -554,9 +651,7 @@
         const xMax = x0 + (view.xMax - x0) * zoom;
         const yMin = y0 + (view.yMin - y0) * zoom;
         const yMax = y0 + (view.yMax - y0) * zoom;
-        if ((xMax - xMin) < 5) return;
-        if ((yMax - yMin) < 1) return;
-        view = { xMin, xMax, yMin: Math.max(0, yMin), yMax };
+        view = clampView({ xMin, xMax, yMin, yMax });
         draw();
       }, { passive: false });
 

@@ -69,6 +69,14 @@
         border-radius: 14px;
         margin: 8px 4px;
         background: rgba(0,0,0,0.14);
+        cursor: pointer;
+        transition: background 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
+      }
+      .check:hover { background: rgba(255,255,255,0.05); }
+      .check.active {
+        border-color: rgba(255,255,255,0.28);
+        background: rgba(255,255,255,0.09);
+        box-shadow: 0 0 0 1px rgba(255,255,255,0.05) inset;
       }
       .swatch { width: 12px; height: 12px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.25); }
       .check label { font-size: 12px; font-weight: 650; }
@@ -200,6 +208,7 @@
         const any = y.some(v => v !== null);
         return any ? { ...m, color: palette[i % palette.length], visible: true, y, measuredMax: 120 } : null;
       }).filter(Boolean);
+      let activeMuscle = null;
 
       const checksEl = document.getElementById("checks");
       function renderChecks() {
@@ -207,17 +216,34 @@
         for (const m of muscles) {
           const row = document.createElement("div");
           row.className = "check";
+          row.dataset.name = m.name;
           const cb = document.createElement("input");
           cb.type = "checkbox";
           cb.checked = !!m.visible;
-          cb.addEventListener("change", () => { m.visible = cb.checked; draw(); });
+          cb.addEventListener("click", (e) => e.stopPropagation());
+          cb.addEventListener("change", () => {
+            m.visible = cb.checked;
+            if (!m.visible && activeMuscle === m.name) activeMuscle = null;
+            syncActiveRows();
+            draw();
+          });
           const sw = document.createElement("div");
           sw.className = "swatch";
           sw.style.background = m.color;
           const lab = document.createElement("label");
           lab.textContent = m.name;
+          row.addEventListener("click", () => {
+            activeMuscle = activeMuscle === m.name ? null : m.name;
+            syncActiveRows();
+            draw();
+          });
           row.append(cb, sw, lab);
           checksEl.appendChild(row);
+        }
+      }
+      function syncActiveRows() {
+        for (const row of checksEl.querySelectorAll(".check")) {
+          row.classList.toggle("active", row.dataset.name === activeMuscle);
         }
       }
       renderChecks();
@@ -253,11 +279,14 @@
       btnAll.addEventListener("click", () => {
         for (const m of muscles) m.visible = true;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = true);
+        syncActiveRows();
         draw();
       });
       btnNone.addEventListener("click", () => {
         for (const m of muscles) m.visible = false;
+        activeMuscle = null;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = false);
+        syncActiveRows();
         draw();
       });
 
@@ -394,12 +423,18 @@
         for (const m of muscles) {
           if (!m.visible) continue;
           const color = m.color;
+          const isActive = activeMuscle === m.name;
+          const hasActive = !!activeMuscle;
+          const lineAlpha = hasActive ? (isActive ? 1 : 0.18) : 1;
+          const lineWidthSolid = isActive ? 6 : 4;
+          const lineWidthDash = isActive ? 5 : 4;
+          const lineWidthDot = isActive ? 3 : 2;
 
           // pre (dotted)
           ctx.save();
           ctx.strokeStyle = color;
-          ctx.globalAlpha = 0.35;
-          ctx.lineWidth = 2;
+          ctx.globalAlpha = 0.35 * lineAlpha;
+          ctx.lineWidth = lineWidthDot;
           ctx.setLineDash([2, 5]);
           ctx.beginPath();
           let started = false;
@@ -419,8 +454,12 @@
           // measured (0..120) solid
           ctx.save();
           ctx.strokeStyle = color;
-          ctx.globalAlpha = 0.95;
-          ctx.lineWidth = 4;
+          ctx.globalAlpha = 0.95 * lineAlpha;
+          ctx.lineWidth = lineWidthSolid;
+          if (isActive) {
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 16;
+          }
           ctx.setLineDash([]);
           ctx.beginPath();
           started = false;
@@ -441,8 +480,12 @@
           // right extrap (120..180) dashed
           ctx.save();
           ctx.strokeStyle = color;
-          ctx.globalAlpha = 0.9;
-          ctx.lineWidth = 4;
+          ctx.globalAlpha = 0.9 * lineAlpha;
+          ctx.lineWidth = lineWidthDash;
+          if (isActive) {
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 14;
+          }
           ctx.setLineDash([10, 7]);
           ctx.beginPath();
           started = false;
