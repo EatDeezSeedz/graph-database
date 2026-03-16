@@ -420,6 +420,13 @@
         return y0 + (y1 - y0) * ((d - d0) / (d1 - d0));
       }
 
+      function yAtVisible(m, deg) {
+        const y = yAt(m, deg);
+        if (y === null) return null;
+        if (y < Y_BOUNDS.min || y > Y_BOUNDS.max) return null;
+        return y;
+      }
+
       function niceStep(range) {
         const rough = range / 8;
         const pow = 10 ** Math.floor(Math.log10(Math.max(rough, 1e-9)));
@@ -436,15 +443,16 @@
         const from = Math.max(0, Math.ceil(view.xMin));
         const to = Math.min(180, Math.floor(view.xMax));
         for (let deg = from; deg <= to; deg += 1) {
-          const activeY = yAt(active, deg);
+          const activeY = yAtVisible(active, deg);
           if (activeY === null) continue;
           let strongestOther = 0;
           for (const m of muscles) {
             if (!m.visible || m.name === active.name) continue;
-            const y = yAt(m, deg);
+            const y = yAtVisible(m, deg);
             if (y === null) continue;
             strongestOther = Math.max(strongestOther, Math.abs(y));
           }
+          if (strongestOther <= 0) continue;
           const ratio = Math.abs(activeY) / Math.max(strongestOther, 1e-6);
           if (!best || ratio > best.ratio) {
             best = { deg, ratio };
