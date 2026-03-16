@@ -239,3 +239,6 @@ searchEl.addEventListener("input", renderList);
 
 setManifestInfo();
 renderList();
+if (graphs.length) {
+  openGraph(graphs[0].id);
+}

@@ -117,6 +117,7 @@
         font-size: 12px;
         max-width: 340px;
         display: none;
+        z-index: 10;
         backdrop-filter: blur(8px);
       }
       .tooltip .muted { color: var(--muted); font-weight: 650; }
@@ -529,8 +530,7 @@
       stage.addEventListener("pointerup", () => { dragging = false; });
       stage.addEventListener("pointercancel", () => { dragging = false; });
 
-      stage.addEventListener("pointerleave", hideTip);
-      stage.addEventListener("pointermove", (e) => {
+      function handleHover(e) {
         if (dragging) { hideTip(); return; }
 
         const rect = stage.getBoundingClientRect();
@@ -563,7 +563,11 @@
           `<div><strong>${best.m.name}</strong></div><div class="muted">${best.deg.toFixed(1)}° | ${best.yy.toFixed(1)} mm</div>`,
           x, y
         );
-      });
+      }
+
+      stage.addEventListener("pointerleave", hideTip);
+      stage.addEventListener("pointermove", handleHover);
+      stage.addEventListener("mousemove", handleHover);
 
       stage.addEventListener("wheel", (e) => {
         e.preventDefault();

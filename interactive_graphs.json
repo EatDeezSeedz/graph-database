@@ -15,6 +15,12 @@
     "kind": "interactive"
   },
   {
+    "id": "kuechle1997_shoulder_imal_interactive",
+    "title": "Kuechle Shoulder IMALs",
+    "file": "views/kuechle1997_shoulder_imal_interactive.html",
+    "kind": "interactive"
+  },
+  {
     "id": "ackland2008_shoulder_flexion_imal_interactive",
     "title": "Flexion IMALs",
     "file": "views/ackland2008_shoulder_flexion_imal_interactive.html",

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Elbow flexor IMAL (interactive)</title>
+    <title>Kuechle 1997 Scaption IMAL</title>
     <style>
       :root {
         --bg: #0b0f17;
@@ -37,7 +37,7 @@
         align-items: center;
       }
       .title { font-weight: 750; font-size: 13px; }
-      .subtitle { color: var(--muted); font-size: 12px; margin-top: 2px; }
+      .subtitle { color: var(--muted); font-size: 12px; margin-top: 2px; line-height: 1.25; }
       .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
       .btn {
         border: 1px solid var(--border);
@@ -102,23 +102,19 @@
         backdrop-filter: blur(8px);
       }
       .tooltip .muted { color: var(--muted); font-weight: 650; }
-      .small {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        margin: 10px 4px 0;
+      @media (max-width: 860px) {
+        .top { grid-template-columns: 1fr; }
+        .main { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+        .left { border-right: none; border-bottom: 1px solid var(--border); max-height: 240px; }
       }
-      .small .btn { padding: 6px 8px; font-size: 11px; }
-      a.link { color: #93c5fd; text-decoration: none; }
-      a.link:hover { text-decoration: underline; }
     </style>
   </head>
   <body>
     <div class="wrap">
       <div class="top">
         <div>
-          <div class="title">Murray et al. (1995) - Elbow flexor internal moment arms (female specimen)</div>
-          <div class="subtitle">Wheel = zoom | Drag = pan | Solid = digitized points spline | Dashed = estimated prefix to 0 deg</div>
+          <div class="title">Kuechle et al. (1997) - Scaption IMAL (scapular plane)</div>
+          <div class="subtitle">Black curves (Fig. 7), approximate manual digitization. Shows both positive and negative (no filtering).</div>
         </div>
         <div class="controls">
           <button id="fit" class="btn">Fit</button>
@@ -128,115 +124,35 @@
           <div id="status" class="status"></div>
         </div>
       </div>
+
       <div class="main">
         <div class="left">
-          <div class="sectionTitle">Toggle series</div>
+          <div class="sectionTitle">Toggle lines</div>
           <div id="checks"></div>
-          <div class="small">
-            <button id="toggleEst" class="btn">Toggle estimates</button>
-            <button id="togglePts" class="btn">Toggle points</button>
-          </div>
-          <div class="hint">
-            Data source: <code>murray1995_momentarms/data/female_digitized_points.csv</code> in this repo.
-            This view reproduces the same linear-prefix estimate used in the static plot script.
-            <div style="margin-top:8px;">
-              Download static PNG: <a class="link" href="../graphs/murray1995_female_elbow_flexors.png" download>murray1995_female_elbow_flexors.png</a>
-            </div>
-          </div>
+          <div class="hint">Hover a curve to see the region name and value.</div>
         </div>
         <div class="stage" id="stage">
           <canvas id="c"></canvas>
-          <div class="overlay">Measured: solid | Estimated prefix: dashed</div>
+          <div class="overlay">Wheel = zoom | Drag = pan</div>
           <div id="tip" class="tooltip"></div>
         </div>
       </div>
     </div>
 
     <script>
-      const palette = {
-        "Brachioradialis": "#000000",
-        "Biceps (Neutral)": "#0066cc",
-        "Brachialis": "#009966",
-        "Pronator teres": "#cc6600",
-        "Biceps (Pronated)": "#aaaaaa",
-        "Biceps (Supinated)": "#222222",
-      };
-
-      // Transcribed from murray1995_momentarms/data/female_digitized_points.csv
-      const points = [
-        { series: "Brachioradialis", x: 20, y: 0.6 }, { series: "Brachioradialis", x: 30, y: 1.1 },
-        { series: "Brachioradialis", x: 40, y: 1.8 }, { series: "Brachioradialis", x: 50, y: 2.6 },
-        { series: "Brachioradialis", x: 60, y: 3.3 }, { series: "Brachioradialis", x: 70, y: 3.9 },
-        { series: "Brachioradialis", x: 80, y: 4.5 }, { series: "Brachioradialis", x: 90, y: 4.8 },
-        { series: "Brachioradialis", x: 100, y: 5.1 }, { series: "Brachioradialis", x: 110, y: 5.2 },
-        { series: "Brachioradialis", x: 120, y: 4.9 },
-
-        { series: "Biceps (Neutral)", x: 20, y: 1.9 }, { series: "Biceps (Neutral)", x: 30, y: 2.3 },
-        { series: "Biceps (Neutral)", x: 40, y: 2.8 }, { series: "Biceps (Neutral)", x: 50, y: 3.2 },
-        { series: "Biceps (Neutral)", x: 60, y: 3.6 }, { series: "Biceps (Neutral)", x: 70, y: 3.9 },
-        { series: "Biceps (Neutral)", x: 80, y: 4.0 }, { series: "Biceps (Neutral)", x: 90, y: 3.9 },
-        { series: "Biceps (Neutral)", x: 100, y: 3.6 }, { series: "Biceps (Neutral)", x: 110, y: 3.2 },
-        { series: "Biceps (Neutral)", x: 120, y: 2.8 },
-
-        { series: "Brachialis", x: 25, y: 1.6 }, { series: "Brachialis", x: 35, y: 1.8 },
-        { series: "Brachialis", x: 45, y: 2.0 }, { series: "Brachialis", x: 55, y: 2.2 },
-        { series: "Brachialis", x: 65, y: 2.4 }, { series: "Brachialis", x: 75, y: 2.5 },
-        { series: "Brachialis", x: 85, y: 2.6 }, { series: "Brachialis", x: 95, y: 2.5 },
-        { series: "Brachialis", x: 105, y: 2.3 }, { series: "Brachialis", x: 115, y: 2.1 },
-        { series: "Brachialis", x: 120, y: 2.0 },
-
-        { series: "Pronator teres", x: 20, y: 0.2 }, { series: "Pronator teres", x: 30, y: 0.3 },
-        { series: "Pronator teres", x: 40, y: 0.4 }, { series: "Pronator teres", x: 50, y: 0.5 },
-        { series: "Pronator teres", x: 60, y: 0.6 }, { series: "Pronator teres", x: 70, y: 0.7 },
-        { series: "Pronator teres", x: 80, y: 0.8 }, { series: "Pronator teres", x: 90, y: 0.9 },
-        { series: "Pronator teres", x: 100, y: 1.0 }, { series: "Pronator teres", x: 110, y: 1.1 },
-        { series: "Pronator teres", x: 120, y: 1.2 },
-
-        { series: "Biceps (Pronated)", x: 20, y: 1.8 }, { series: "Biceps (Pronated)", x: 30, y: 2.2 },
-        { series: "Biceps (Pronated)", x: 40, y: 2.6 }, { series: "Biceps (Pronated)", x: 50, y: 3.0 },
-        { series: "Biceps (Pronated)", x: 60, y: 3.3 }, { series: "Biceps (Pronated)", x: 70, y: 3.5 },
-        { series: "Biceps (Pronated)", x: 80, y: 3.6 }, { series: "Biceps (Pronated)", x: 90, y: 3.6 },
-        { series: "Biceps (Pronated)", x: 100, y: 3.4 }, { series: "Biceps (Pronated)", x: 110, y: 3.0 },
-        { series: "Biceps (Pronated)", x: 120, y: 2.6 },
-
-        { series: "Biceps (Supinated)", x: 20, y: 1.9 }, { series: "Biceps (Supinated)", x: 30, y: 2.5 },
-        { series: "Biceps (Supinated)", x: 40, y: 3.0 }, { series: "Biceps (Supinated)", x: 50, y: 3.5 },
-        { series: "Biceps (Supinated)", x: 60, y: 3.9 }, { series: "Biceps (Supinated)", x: 70, y: 4.2 },
-        { series: "Biceps (Supinated)", x: 80, y: 4.4 }, { series: "Biceps (Supinated)", x: 90, y: 4.3 },
-        { series: "Biceps (Supinated)", x: 100, y: 4.0 }, { series: "Biceps (Supinated)", x: 110, y: 3.4 },
-        { series: "Biceps (Supinated)", x: 120, y: 2.7 },
-      ];
-
-      const seriesNames = Array.from(new Set(points.map(p => p.series)));
-      const series = seriesNames.map(name => ({
-        name,
-        color: palette[name] || "#93c5fd",
-        visible: true,
-        measured: points.filter(p => p.series === name).sort((a,b) => a.x - b.x)
-      }));
-
-      function estimatePrefix(measured, stepDeg = 5) {
-        if (measured.length < 2) return [];
-        const x1 = measured[0].x, y1 = measured[0].y;
-        const x2 = measured[1].x, y2 = measured[1].y;
-        const slope = (y2 - y1) / (x2 - x1);
-        const out = [];
-        for (let d = 0; d <= Math.floor(x1); d += stepDeg) {
-          let yHat = y1 + slope * (d - x1);
-          if (yHat < 0) yHat = 0;
-          out.push({ x: d, y: yHat });
-        }
-        out.push({ x: x1, y: y1 });
-        return out;
-      }
-
-      for (const s of series) {
-        s.estimate = estimatePrefix(s.measured);
-      }
-
-      let showEst = true;
-      let showPts = true;
-      let screenSeries = [];
+      // Coarse, manual digitization from Fig. 7 (scaption). Units: cm.
+      const series = [
+        { name: "Teres major", color: "#60a5fa", pts: [[0,4.9],[10,5.3],[20,5.6],[30,5.7],[40,5.6],[50,5.3],[60,4.9],[70,4.4],[80,3.8],[90,3.4],[100,3.3]] },
+        { name: "Middle deltoid", color: "#22c55e", pts: [[0,3.2],[10,3.7],[20,4.1],[30,4.2],[40,4.2],[50,4.1],[60,3.9],[70,3.6],[80,3.3],[90,3.1],[100,2.9]] },
+        { name: "Anterior deltoid", color: "#f97316", pts: [[0,3.6],[10,3.9],[20,4.2],[30,4.3],[40,4.4],[50,4.3],[60,4.1],[70,3.9],[80,3.6],[90,3.2],[100,3.0]] },
+        { name: "Supraspinatus", color: "#e11d48", pts: [[0,3.4],[10,3.8],[20,4.1],[30,4.0],[40,3.8],[50,3.5],[60,3.0],[70,2.6],[80,2.2],[90,2.0],[100,2.0]] },
+        { name: "Infraspinatus", color: "#a78bfa", pts: [[0,0.4],[10,0.5],[20,0.6],[30,0.7],[40,0.8],[50,0.9],[60,1.1],[70,1.3],[80,1.4],[90,1.5],[100,1.4]] },
+        { name: "Subscapularis", color: "#93c5fd", pts: [[0,0.9],[10,0.7],[20,0.5],[30,0.4],[40,0.6],[50,0.9],[60,1.1],[70,1.2],[80,1.2],[90,1.1],[100,0.9]] },
+        { name: "Latissimus dorsi", color: "#0ea5e9", pts: [[0,-0.3],[10,-0.5],[20,-0.7],[30,-0.9],[40,-1.1],[50,-1.2],[60,-1.2],[70,-1.2],[80,-1.1],[90,-1.1],[100,-1.1]] },
+        { name: "Pectoralis major", color: "#64748b", pts: [[0,-1.1],[10,-1.2],[20,-1.4],[30,-1.6],[40,-1.8],[50,-2.0],[60,-2.1],[70,-2.2],[80,-2.2],[90,-2.1],[100,-2.0]] },
+        { name: "Teres minor", color: "#facc15", pts: [[0,0.2],[10,0.1],[20,0.0],[30,-0.2],[40,-0.4],[50,-0.5],[60,-0.5],[70,-0.4],[80,-0.3],[90,-0.2],[100,-0.1]] },
+        { name: "Posterior deltoid", color: "#94a3b8", pts: [[0,-0.9],[10,-1.1],[20,-1.3],[30,-1.5],[40,-1.7],[50,-1.8],[60,-1.8],[70,-1.7],[80,-1.5],[90,-1.2],[100,-0.9]] },
+      ].map(s => ({ ...s, visible: true, data: s.pts.map(([x,y]) => ({ x, y })) }));
 
       const checksEl = document.getElementById("checks");
       for (const s of series) {
@@ -261,9 +177,11 @@
       const ctx = canvas.getContext("2d");
       const tip = document.getElementById("tip");
 
-      document.getElementById("toggleEst").addEventListener("click", () => { showEst = !showEst; draw(); });
-      document.getElementById("togglePts").addEventListener("click", () => { showPts = !showPts; draw(); });
-
+      let view = { xMin: 0, xMax: 100, yMin: -3, yMax: 6 };
+      function fit() { view = { xMin: 0, xMax: 100, yMin: -3, yMax: 6 }; draw(); }
+      function reset() { view = { xMin: 0, xMax: 100, yMin: -3, yMax: 6 }; draw(); }
+      document.getElementById("fit").addEventListener("click", fit);
+      document.getElementById("reset").addEventListener("click", reset);
       document.getElementById("all").addEventListener("click", () => {
         for (const s of series) s.visible = true;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = true);
@@ -274,24 +192,6 @@
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = false);
         draw();
       });
-
-      let view = { xMin: 0, xMax: 120, yMin: 0, yMax: 6 };
-      function fit() {
-        const visible = series.filter(s => s.visible);
-        const all = [];
-        for (const s of visible) {
-          if (showEst) all.push(...s.estimate);
-          all.push(...s.measured);
-        }
-        const yMin = all.length ? Math.min(...all.map(p => p.y)) : 0;
-        const yMax = all.length ? Math.max(...all.map(p => p.y)) : 6;
-        const pad = 0.08 * (yMax - yMin || 1);
-        view = { xMin: 0, xMax: 120, yMin: Math.max(0, yMin - pad), yMax: yMax + pad };
-        draw();
-      }
-      function reset() { view = { xMin: 0, xMax: 120, yMin: 0, yMax: 6 }; draw(); }
-      document.getElementById("fit").addEventListener("click", fit);
-      document.getElementById("reset").addEventListener("click", reset);
 
       function resize() {
         const r = stage.getBoundingClientRect();
@@ -322,7 +222,6 @@
         tip.style.left = `${Math.max(pad, left)}px`;
         tip.style.top = `${Math.max(pad, top)}px`;
       }
-
       function distToSegment(px, py, ax, ay, bx, by) {
         const abx = bx - ax, aby = by - ay;
         const apx = px - ax, apy = py - ay;
@@ -333,7 +232,6 @@
         const cy = ay + t * aby;
         return { dist: Math.hypot(px - cx, py - cy), cx, cy };
       }
-
       function closestOnPolyline(px, py, pts) {
         if (!pts || pts.length < 2) return null;
         let best = null;
@@ -344,64 +242,13 @@
         }
         return best;
       }
-
-      function niceStep(range) {
-        const rough = range / 6;
-        const pow = 10 ** Math.floor(Math.log10(Math.max(rough, 1e-9)));
-        const mult = rough / pow;
-        const niceMult = mult < 1.5 ? 1 : mult < 3 ? 2 : mult < 7 ? 5 : 10;
-        return niceMult * pow;
-      }
-
-      function drawAxes(padL, padT, w, h) {
-        ctx.save();
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = "rgba(255,255,255,0.08)";
-        for (let x = 0; x <= 120; x += 20) {
-          if (x < view.xMin || x > view.xMax) continue;
-          const px = xToPx(x, w, padL);
-          ctx.beginPath(); ctx.moveTo(px, padT); ctx.lineTo(px, padT + h); ctx.stroke();
-        }
-        const yStep = niceStep(view.yMax - view.yMin);
-        for (let y = Math.ceil(view.yMin / yStep) * yStep; y <= view.yMax; y += yStep) {
-          const py = yToPx(y, h, padT);
-          ctx.beginPath(); ctx.moveTo(padL, py); ctx.lineTo(padL + w, py); ctx.stroke();
-        }
-        ctx.strokeStyle = "rgba(255,255,255,0.28)";
-        ctx.beginPath(); ctx.rect(padL, padT, w, h); ctx.stroke();
-
-        ctx.fillStyle = "rgba(229,231,235,0.9)";
-        ctx.font = "12px Segoe UI, system-ui";
-        ctx.textAlign = "center";
-        for (let x = 0; x <= 120; x += 20) {
-          if (x < view.xMin || x > view.xMax) continue;
-          const px = xToPx(x, w, padL);
-          ctx.fillText(String(x), px, padT + h + 18);
-        }
-        ctx.textAlign = "right";
-        for (let y = Math.ceil(view.yMin / yStep) * yStep; y <= view.yMax; y += yStep) {
-          const py = yToPx(y, h, padT);
-          ctx.fillText(String(Math.round(y * 10) / 10), padL - 8, py + 4);
-        }
-        ctx.textAlign = "center";
-        ctx.fillStyle = "rgba(156,163,175,0.95)";
-        ctx.fillText("Elbow flexion (deg)", padL + w / 2, padT + h + 42);
-        ctx.save();
-        ctx.translate(16, padT + h / 2);
-        ctx.rotate(-Math.PI / 2);
-        ctx.fillText("Moment arm (cm)", 0, 0);
-        ctx.restore();
-        ctx.restore();
-      }
-
-      function strokeSpline(points, color, width, dash) {
+      function strokeSpline(points, color, width) {
         if (points.length < 2) return;
         ctx.save();
         ctx.strokeStyle = color;
         ctx.lineWidth = width;
         ctx.lineJoin = "round";
         ctx.lineCap = "round";
-        ctx.setLineDash(dash || []);
         ctx.beginPath();
         ctx.moveTo(points[0].px, points[0].py);
         for (let i = 1; i < points.length - 1; i++) {
@@ -415,52 +262,65 @@
         ctx.restore();
       }
 
+      let screenSeries = [];
+      function drawAxes(padL, padT, w, h) {
+        ctx.save();
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "rgba(255,255,255,0.08)";
+        for (let x = Math.ceil(view.xMin / 10) * 10; x <= view.xMax; x += 10) {
+          const px = xToPx(x, w, padL);
+          ctx.beginPath(); ctx.moveTo(px, padT); ctx.lineTo(px, padT + h); ctx.stroke();
+        }
+        for (let y = Math.ceil(view.yMin); y <= view.yMax; y += 1) {
+          const py = yToPx(y, h, padT);
+          ctx.beginPath(); ctx.moveTo(padL, py); ctx.lineTo(padL + w, py); ctx.stroke();
+        }
+        ctx.strokeStyle = "rgba(255,255,255,0.28)";
+        ctx.beginPath(); ctx.rect(padL, padT, w, h); ctx.stroke();
+        const py0 = yToPx(0, h, padT);
+        ctx.strokeStyle = "rgba(255,255,255,0.35)";
+        ctx.beginPath(); ctx.moveTo(padL, py0); ctx.lineTo(padL + w, py0); ctx.stroke();
+
+        ctx.fillStyle = "rgba(229,231,235,0.9)";
+        ctx.font = "12px Segoe UI, system-ui";
+        ctx.textAlign = "center";
+        for (let x = Math.ceil(view.xMin / 10) * 10; x <= view.xMax; x += 10) {
+          const px = xToPx(x, w, padL);
+          ctx.fillText(String(x), px, padT + h + 18);
+        }
+        ctx.textAlign = "right";
+        for (let y = Math.ceil(view.yMin); y <= view.yMax; y += 1) {
+          const py = yToPx(y, h, padT);
+          ctx.fillText(String(y), padL - 8, py + 4);
+        }
+        ctx.textAlign = "center";
+        ctx.fillStyle = "rgba(156,163,175,0.95)";
+        ctx.fillText("Scaption (deg)", padL + w / 2, padT + h + 42);
+        ctx.save();
+        ctx.translate(16, padT + h / 2);
+        ctx.rotate(-Math.PI / 2);
+        ctx.fillText("Moment arm (cm)", 0, 0);
+        ctx.restore();
+        ctx.restore();
+      }
+
       function draw() {
         const rect = stage.getBoundingClientRect();
-        const W = rect.width;
-        const H = rect.height;
+        const W = rect.width, H = rect.height;
         ctx.clearRect(0, 0, W, H);
-
-        const padL = 60, padT = 20, padR = 20, padB = 60;
+        const padL = 70, padT = 20, padR = 20, padB = 60;
         const w = Math.max(10, W - padL - padR);
         const h = Math.max(10, H - padT - padB);
-        drawAxes(padL, padT, w, h);
 
+        drawAxes(padL, padT, w, h);
         screenSeries = [];
         for (const s of series) {
           if (!s.visible) continue;
-          const color = s.color;
-          const measPts = s.measured
-            .filter(p => p.x >= view.xMin && p.x <= view.xMax)
-            .map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT) }));
-          strokeSpline(measPts, color, 4, []);
-
-          const rec = { name: s.name, color, measured: measPts, estimate: null };
-          if (showEst) {
-            const estPts = s.estimate
-              .filter(p => p.x >= view.xMin && p.x <= view.xMax)
-              .map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT) }));
-            strokeSpline(estPts, color, 3, [10, 7]);
-            rec.estimate = estPts;
-          }
-          screenSeries.push(rec);
-
-          if (showPts) {
-            ctx.save();
-            ctx.fillStyle = color;
-            for (const p of s.measured) {
-              if (p.x < view.xMin || p.x > view.xMax) continue;
-              const px = xToPx(p.x, w, padL);
-              const py = yToPx(p.y, h, padT);
-              ctx.beginPath();
-              ctx.arc(px, py, 3.2, 0, Math.PI * 2);
-              ctx.fill();
-            }
-            ctx.restore();
-          }
+          const pts = s.data.map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT), x: p.x, y: p.y }));
+          strokeSpline(pts, s.color, 4);
+          screenSeries.push({ name: s.name, color: s.color, pts });
         }
-
-        const sx = Math.round((120 / (view.xMax - view.xMin)) * 100);
+        const sx = Math.round((100 / (view.xMax - view.xMin)) * 100);
         status.textContent = `${sx}% zoom`;
       }
 
@@ -476,74 +336,57 @@
         const dx = e.clientX - lastX;
         const dy = e.clientY - lastY;
         lastX = e.clientX; lastY = e.clientY;
-
         const rect = stage.getBoundingClientRect();
-        const W = rect.width, H = rect.height;
-        const padL = 60, padT = 20, padR = 20, padB = 60;
-        const w = Math.max(10, W - padL - padR);
-        const h = Math.max(10, H - padT - padB);
-
-        const xRange = (view.xMax - view.xMin);
-        const yRange = (view.yMax - view.yMin);
-        const xShift = -dx * xRange / w;
-        const yShift = dy * yRange / h;
-        view.xMin += xShift; view.xMax += xShift;
-        view.yMin += yShift; view.yMax += yShift;
+        const padL = 70, padT = 20, padR = 20, padB = 60;
+        const w = Math.max(10, rect.width - padL - padR);
+        const h = Math.max(10, rect.height - padT - padB);
+        const xRange = view.xMax - view.xMin;
+        const yRange = view.yMax - view.yMin;
+        view.xMin += -dx * xRange / w;
+        view.xMax += -dx * xRange / w;
+        view.yMin += dy * yRange / h;
+        view.yMax += dy * yRange / h;
         draw();
       });
       stage.addEventListener("pointerup", () => { dragging = false; });
       stage.addEventListener("pointercancel", () => { dragging = false; });
+      stage.addEventListener("pointerleave", hideTip);
 
       function handleHover(e) {
         if (dragging) { hideTip(); return; }
-
         const rect = stage.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
-
-        const W = rect.width, H = rect.height;
-        const padL = 60, padT = 20, padR = 20, padB = 60;
-        const w = Math.max(10, W - padL - padR);
-        const h = Math.max(10, H - padT - padB);
-
+        const padL = 70, padT = 20, padR = 20, padB = 60;
+        const w = Math.max(10, rect.width - padL - padR);
+        const h = Math.max(10, rect.height - padT - padB);
         if (x < padL || x > padL + w || y < padT || y > padT + h) { hideTip(); return; }
 
         let best = null;
         for (const s of screenSeries) {
-          const hitMeas = closestOnPolyline(x, y, s.measured);
-          const hitEst = showEst ? closestOnPolyline(x, y, s.estimate) : null;
-          const hit = (!hitMeas || (hitEst && hitEst.dist < hitMeas.dist)) ? hitEst : hitMeas;
+          const hit = closestOnPolyline(x, y, s.pts);
           if (!hit) continue;
           if (!best || hit.dist < best.dist) best = { s, ...hit };
         }
-
         if (!best || best.dist > 10) { hideTip(); return; }
 
         const deg = pxToX(best.cx, w, padL);
         const val = pxToY(best.cy, h, padT);
-        showTip(
-          `<div><strong>${best.s.name}</strong></div><div class="muted">${deg.toFixed(1)}° | ${val.toFixed(2)} cm</div>`,
-          x, y
-        );
+        showTip(`<div><strong>Region: ${best.s.name}</strong></div><div class="muted">${deg.toFixed(1)}° | ${val.toFixed(2)} cm</div>`, x, y);
       }
-
-      stage.addEventListener("pointerleave", hideTip);
       stage.addEventListener("pointermove", handleHover);
       stage.addEventListener("mousemove", handleHover);
 
       stage.addEventListener("wheel", (e) => {
         e.preventDefault();
         const rect = stage.getBoundingClientRect();
-        const W = rect.width, H = rect.height;
-        const padL = 60, padT = 20, padR = 20, padB = 60;
-        const w = Math.max(10, W - padL - padR);
-        const h = Math.max(10, H - padT - padB);
-
+        const padL = 70, padT = 20, padR = 20, padB = 60;
+        const w = Math.max(10, rect.width - padL - padR);
+        const h = Math.max(10, rect.height - padT - padB);
         const mx = e.clientX - rect.left;
         const my = e.clientY - rect.top;
         const x0 = pxToX(mx, w, padL);
         const y0 = pxToY(my, h, padT);
-
         const zoom = e.deltaY > 0 ? 1.12 : 1 / 1.12;
         const xMin = x0 + (view.xMin - x0) * zoom;
         const xMax = x0 + (view.xMax - x0) * zoom;
@@ -551,7 +394,7 @@
         const yMax = y0 + (view.yMax - y0) * zoom;
         if ((xMax - xMin) < 5) return;
         if ((yMax - yMin) < 0.4) return;
-        view = { xMin, xMax, yMin, yMax };
+        view = { xMin: Math.max(0, xMin), xMax: Math.min(100, xMax), yMin, yMax };
         draw();
       }, { passive: false });
 
@@ -560,3 +403,4 @@
     </script>
   </body>
 </html>
+

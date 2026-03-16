@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Elbow flexor IMAL (interactive)</title>
+    <title>Horizontal Flexion IMALs</title>
     <style>
       :root {
         --bg: #0b0f17;
@@ -37,7 +37,7 @@
         align-items: center;
       }
       .title { font-weight: 750; font-size: 13px; }
-      .subtitle { color: var(--muted); font-size: 12px; margin-top: 2px; }
+      .subtitle { color: var(--muted); font-size: 12px; margin-top: 2px; line-height: 1.25; }
       .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
       .btn {
         border: 1px solid var(--border);
@@ -51,7 +51,7 @@
       }
       .btn:hover { background: var(--btnHover); }
       .status { color: var(--muted); font-size: 12px; white-space: nowrap; }
-      .main { position: relative; display: grid; grid-template-columns: 320px 1fr; min-height: 0; }
+      .main { position: relative; display: grid; grid-template-columns: 330px 1fr; min-height: 0; }
       .left {
         border-right: 1px solid var(--border);
         background: var(--panel2);
@@ -73,6 +73,8 @@
       .swatch { width: 12px; height: 12px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.25); }
       .check label { font-size: 12px; font-weight: 650; }
       .hint { margin: 8px 4px 0; font-size: 12px; color: var(--muted); line-height: 1.35; }
+      .hint a { color: #93c5fd; text-decoration: none; }
+      .hint a:hover { text-decoration: underline; }
       .stage { position: relative; overflow: hidden; min-width: 0; }
       canvas { width: 100%; height: 100%; display: block; }
       .overlay {
@@ -98,27 +100,22 @@
         font-size: 12px;
         max-width: 340px;
         display: none;
-        z-index: 10;
         backdrop-filter: blur(8px);
       }
       .tooltip .muted { color: var(--muted); font-weight: 650; }
-      .small {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        margin: 10px 4px 0;
+      @media (max-width: 860px) {
+        .top { grid-template-columns: 1fr; }
+        .main { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+        .left { border-right: none; border-bottom: 1px solid var(--border); max-height: 240px; }
       }
-      .small .btn { padding: 6px 8px; font-size: 11px; }
-      a.link { color: #93c5fd; text-decoration: none; }
-      a.link:hover { text-decoration: underline; }
     </style>
   </head>
   <body>
     <div class="wrap">
       <div class="top">
         <div>
-          <div class="title">Murray et al. (1995) - Elbow flexor internal moment arms (female specimen)</div>
-          <div class="subtitle">Wheel = zoom | Drag = pan | Solid = digitized points spline | Dashed = estimated prefix to 0 deg</div>
+          <div class="title">Kuechle et al. (1997) - Horizontal flexion IMALs (humerus at 90° elevation)</div>
+          <div class="subtitle">Moment arms digitized (approx) from Fig. 9. Flexion is shown as positive (paper uses flexors as negative). Segments with y ≤ 0 are hidden.</div>
         </div>
         <div class="controls">
           <button id="fit" class="btn">Fit</button>
@@ -130,23 +127,16 @@
       </div>
       <div class="main">
         <div class="left">
-          <div class="sectionTitle">Toggle series</div>
+          <div class="sectionTitle">Toggle lines</div>
           <div id="checks"></div>
-          <div class="small">
-            <button id="toggleEst" class="btn">Toggle estimates</button>
-            <button id="togglePts" class="btn">Toggle points</button>
-          </div>
           <div class="hint">
-            Data source: <code>murray1995_momentarms/data/female_digitized_points.csv</code> in this repo.
-            This view reproduces the same linear-prefix estimate used in the static plot script.
-            <div style="margin-top:8px;">
-              Download static PNG: <a class="link" href="../graphs/murray1995_female_elbow_flexors.png" download>murray1995_female_elbow_flexors.png</a>
-            </div>
+            Vertical markers: <strong>0°</strong> (arms out to sides / coronal) and <strong>90°</strong> (straight in front / sagittal).
+            <div style="margin-top:8px;">Want more precision? Use the <a href="digitizer.html">Digitizer</a> with Fig. 9.</div>
           </div>
         </div>
         <div class="stage" id="stage">
           <canvas id="c"></canvas>
-          <div class="overlay">Measured: solid | Estimated prefix: dashed</div>
+          <div class="overlay">Wheel = zoom | Drag = pan | Hover = region</div>
           <div id="tip" class="tooltip"></div>
         </div>
       </div>
@@ -154,89 +144,52 @@
 
     <script>
       const palette = {
-        "Brachioradialis": "#000000",
-        "Biceps (Neutral)": "#0066cc",
-        "Brachialis": "#009966",
-        "Pronator teres": "#cc6600",
-        "Biceps (Pronated)": "#aaaaaa",
-        "Biceps (Supinated)": "#222222",
+        "Pectoralis major": "#ef4444",
+        "Anterior deltoid": "#22c55e",
+        "Subscapularis": "#60a5fa",
       };
 
-      // Transcribed from murray1995_momentarms/data/female_digitized_points.csv
-      const points = [
-        { series: "Brachioradialis", x: 20, y: 0.6 }, { series: "Brachioradialis", x: 30, y: 1.1 },
-        { series: "Brachioradialis", x: 40, y: 1.8 }, { series: "Brachioradialis", x: 50, y: 2.6 },
-        { series: "Brachioradialis", x: 60, y: 3.3 }, { series: "Brachioradialis", x: 70, y: 3.9 },
-        { series: "Brachioradialis", x: 80, y: 4.5 }, { series: "Brachioradialis", x: 90, y: 4.8 },
-        { series: "Brachioradialis", x: 100, y: 5.1 }, { series: "Brachioradialis", x: 110, y: 5.2 },
-        { series: "Brachioradialis", x: 120, y: 4.9 },
-
-        { series: "Biceps (Neutral)", x: 20, y: 1.9 }, { series: "Biceps (Neutral)", x: 30, y: 2.3 },
-        { series: "Biceps (Neutral)", x: 40, y: 2.8 }, { series: "Biceps (Neutral)", x: 50, y: 3.2 },
-        { series: "Biceps (Neutral)", x: 60, y: 3.6 }, { series: "Biceps (Neutral)", x: 70, y: 3.9 },
-        { series: "Biceps (Neutral)", x: 80, y: 4.0 }, { series: "Biceps (Neutral)", x: 90, y: 3.9 },
-        { series: "Biceps (Neutral)", x: 100, y: 3.6 }, { series: "Biceps (Neutral)", x: 110, y: 3.2 },
-        { series: "Biceps (Neutral)", x: 120, y: 2.8 },
-
-        { series: "Brachialis", x: 25, y: 1.6 }, { series: "Brachialis", x: 35, y: 1.8 },
-        { series: "Brachialis", x: 45, y: 2.0 }, { series: "Brachialis", x: 55, y: 2.2 },
-        { series: "Brachialis", x: 65, y: 2.4 }, { series: "Brachialis", x: 75, y: 2.5 },
-        { series: "Brachialis", x: 85, y: 2.6 }, { series: "Brachialis", x: 95, y: 2.5 },
-        { series: "Brachialis", x: 105, y: 2.3 }, { series: "Brachialis", x: 115, y: 2.1 },
-        { series: "Brachialis", x: 120, y: 2.0 },
-
-        { series: "Pronator teres", x: 20, y: 0.2 }, { series: "Pronator teres", x: 30, y: 0.3 },
-        { series: "Pronator teres", x: 40, y: 0.4 }, { series: "Pronator teres", x: 50, y: 0.5 },
-        { series: "Pronator teres", x: 60, y: 0.6 }, { series: "Pronator teres", x: 70, y: 0.7 },
-        { series: "Pronator teres", x: 80, y: 0.8 }, { series: "Pronator teres", x: 90, y: 0.9 },
-        { series: "Pronator teres", x: 100, y: 1.0 }, { series: "Pronator teres", x: 110, y: 1.1 },
-        { series: "Pronator teres", x: 120, y: 1.2 },
-
-        { series: "Biceps (Pronated)", x: 20, y: 1.8 }, { series: "Biceps (Pronated)", x: 30, y: 2.2 },
-        { series: "Biceps (Pronated)", x: 40, y: 2.6 }, { series: "Biceps (Pronated)", x: 50, y: 3.0 },
-        { series: "Biceps (Pronated)", x: 60, y: 3.3 }, { series: "Biceps (Pronated)", x: 70, y: 3.5 },
-        { series: "Biceps (Pronated)", x: 80, y: 3.6 }, { series: "Biceps (Pronated)", x: 90, y: 3.6 },
-        { series: "Biceps (Pronated)", x: 100, y: 3.4 }, { series: "Biceps (Pronated)", x: 110, y: 3.0 },
-        { series: "Biceps (Pronated)", x: 120, y: 2.6 },
-
-        { series: "Biceps (Supinated)", x: 20, y: 1.9 }, { series: "Biceps (Supinated)", x: 30, y: 2.5 },
-        { series: "Biceps (Supinated)", x: 40, y: 3.0 }, { series: "Biceps (Supinated)", x: 50, y: 3.5 },
-        { series: "Biceps (Supinated)", x: 60, y: 3.9 }, { series: "Biceps (Supinated)", x: 70, y: 4.2 },
-        { series: "Biceps (Supinated)", x: 80, y: 4.4 }, { series: "Biceps (Supinated)", x: 90, y: 4.3 },
-        { series: "Biceps (Supinated)", x: 100, y: 4.0 }, { series: "Biceps (Supinated)", x: 110, y: 3.4 },
-        { series: "Biceps (Supinated)", x: 120, y: 2.7 },
-      ];
-
-      const seriesNames = Array.from(new Set(points.map(p => p.series)));
-      const series = seriesNames.map(name => ({
-        name,
-        color: palette[name] || "#93c5fd",
+      // Approx digitized points from Kuechle 1997 Fig. 9 (units: cm).
+      // Paper convention: agonists (horizontal flexors) are negative moment arms.
+      // Here: y = -paperY, and we hide y <= 0 (no flat zeros).
+      const series = [
+        {
+          name: "Pectoralis major",
+          measured: [
+            { x: 0, y: 3.4 }, { x: 10, y: 3.8 }, { x: 20, y: 4.2 }, { x: 30, y: 4.6 },
+            { x: 40, y: 4.8 }, { x: 50, y: 4.8 }, { x: 60, y: 4.7 }, { x: 70, y: 4.5 },
+            { x: 80, y: 4.2 }, { x: 90, y: 3.9 }, { x: 100, y: 3.5 }, { x: 110, y: 3.1 },
+            { x: 120, y: 2.8 }, { x: 130, y: 2.5 }, { x: 140, y: 2.2 },
+          ]
+        },
+        {
+          name: "Anterior deltoid",
+          measured: [
+            { x: 0, y: 5.0 }, { x: 10, y: 4.3 }, { x: 20, y: 3.7 }, { x: 30, y: 3.2 },
+            { x: 40, y: 2.8 }, { x: 50, y: 2.4 }, { x: 60, y: 2.0 }, { x: 70, y: 1.8 },
+            { x: 80, y: 1.6 }, { x: 90, y: 1.3 }, { x: 100, y: 1.1 }, { x: 110, y: 0.8 },
+            { x: 120, y: 0.6 }, { x: 130, y: 0.3 }, { x: 140, y: 0.0 },
+          ]
+        },
+        {
+          name: "Subscapularis",
+          measured: [
+            { x: 0, y: 0.25 }, { x: 40, y: 0.30 }, { x: 80, y: 0.35 }, { x: 120, y: 0.30 }, { x: 140, y: 0.25 },
+          ]
+        },
+      ].map(s => ({
+        ...s,
+        color: palette[s.name] || "#93c5fd",
         visible: true,
-        measured: points.filter(p => p.series === name).sort((a,b) => a.x - b.x)
       }));
 
-      function estimatePrefix(measured, stepDeg = 5) {
-        if (measured.length < 2) return [];
-        const x1 = measured[0].x, y1 = measured[0].y;
-        const x2 = measured[1].x, y2 = measured[1].y;
-        const slope = (y2 - y1) / (x2 - x1);
-        const out = [];
-        for (let d = 0; d <= Math.floor(x1); d += stepDeg) {
-          let yHat = y1 + slope * (d - x1);
-          if (yHat < 0) yHat = 0;
-          out.push({ x: d, y: yHat });
-        }
-        out.push({ x: x1, y: y1 });
-        return out;
+      function hideNonPositive(points) {
+        return points.map(p => (p.y > 0 ? p : { x: p.x, y: null }));
       }
 
       for (const s of series) {
-        s.estimate = estimatePrefix(s.measured);
+        s.measured = hideNonPositive(s.measured);
       }
-
-      let showEst = true;
-      let showPts = true;
-      let screenSeries = [];
 
       const checksEl = document.getElementById("checks");
       for (const s of series) {
@@ -261,9 +214,21 @@
       const ctx = canvas.getContext("2d");
       const tip = document.getElementById("tip");
 
-      document.getElementById("toggleEst").addEventListener("click", () => { showEst = !showEst; draw(); });
-      document.getElementById("togglePts").addEventListener("click", () => { showPts = !showPts; draw(); });
+      let view = { xMin: 0, xMax: 140, yMin: 0, yMax: 6 };
 
+      function fit() {
+        const visible = series.filter(s => s.visible);
+        const allY = [];
+        for (const s of visible) for (const p of s.measured) if (p.y !== null) allY.push(p.y);
+        const yMax = allY.length ? Math.max(...allY) : 1;
+        const pad = 0.08 * (yMax || 1);
+        view = { xMin: 0, xMax: 140, yMin: 0, yMax: yMax + pad };
+        draw();
+      }
+      function reset() { view = { xMin: 0, xMax: 140, yMin: 0, yMax: 6 }; draw(); }
+
+      document.getElementById("fit").addEventListener("click", fit);
+      document.getElementById("reset").addEventListener("click", reset);
       document.getElementById("all").addEventListener("click", () => {
         for (const s of series) s.visible = true;
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = true);
@@ -274,24 +239,6 @@
         [...checksEl.querySelectorAll("input[type=checkbox]")].forEach(cb => cb.checked = false);
         draw();
       });
-
-      let view = { xMin: 0, xMax: 120, yMin: 0, yMax: 6 };
-      function fit() {
-        const visible = series.filter(s => s.visible);
-        const all = [];
-        for (const s of visible) {
-          if (showEst) all.push(...s.estimate);
-          all.push(...s.measured);
-        }
-        const yMin = all.length ? Math.min(...all.map(p => p.y)) : 0;
-        const yMax = all.length ? Math.max(...all.map(p => p.y)) : 6;
-        const pad = 0.08 * (yMax - yMin || 1);
-        view = { xMin: 0, xMax: 120, yMin: Math.max(0, yMin - pad), yMax: yMax + pad };
-        draw();
-      }
-      function reset() { view = { xMin: 0, xMax: 120, yMin: 0, yMax: 6 }; draw(); }
-      document.getElementById("fit").addEventListener("click", fit);
-      document.getElementById("reset").addEventListener("click", reset);
 
       function resize() {
         const r = stage.getBoundingClientRect();
@@ -310,6 +257,7 @@
       function pxToX(px, w, padL) { return view.xMin + (px - padL) * (view.xMax - view.xMin) / w; }
       function pxToY(py, h, padT) { return view.yMax - (py - padT) * (view.yMax - view.yMin) / h; }
 
+      function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
       function hideTip() { tip.style.display = "none"; }
       function showTip(html, x, y) {
         tip.innerHTML = html;
@@ -321,28 +269,6 @@
         const top = Math.min(rect.height - tipRect.height - pad, y + pad);
         tip.style.left = `${Math.max(pad, left)}px`;
         tip.style.top = `${Math.max(pad, top)}px`;
-      }
-
-      function distToSegment(px, py, ax, ay, bx, by) {
-        const abx = bx - ax, aby = by - ay;
-        const apx = px - ax, apy = py - ay;
-        const abLen2 = abx * abx + aby * aby;
-        let t = abLen2 ? (apx * abx + apy * aby) / abLen2 : 0;
-        t = Math.max(0, Math.min(1, t));
-        const cx = ax + t * abx;
-        const cy = ay + t * aby;
-        return { dist: Math.hypot(px - cx, py - cy), cx, cy };
-      }
-
-      function closestOnPolyline(px, py, pts) {
-        if (!pts || pts.length < 2) return null;
-        let best = null;
-        for (let i = 0; i < pts.length - 1; i++) {
-          const a = pts[i], b = pts[i + 1];
-          const hit = distToSegment(px, py, a.px, a.py, b.px, b.py);
-          if (!best || hit.dist < best.dist) best = hit;
-        }
-        return best;
       }
 
       function niceStep(range) {
@@ -357,8 +283,7 @@
         ctx.save();
         ctx.lineWidth = 1;
         ctx.strokeStyle = "rgba(255,255,255,0.08)";
-        for (let x = 0; x <= 120; x += 20) {
-          if (x < view.xMin || x > view.xMax) continue;
+        for (let x = Math.ceil(view.xMin / 20) * 20; x <= view.xMax; x += 20) {
           const px = xToPx(x, w, padL);
           ctx.beginPath(); ctx.moveTo(px, padT); ctx.lineTo(px, padT + h); ctx.stroke();
         }
@@ -370,11 +295,30 @@
         ctx.strokeStyle = "rgba(255,255,255,0.28)";
         ctx.beginPath(); ctx.rect(padL, padT, w, h); ctx.stroke();
 
+        // Markers at 0° and 90°
+        const markers = [
+          { x: 0, label: "Out to sides (0°)" },
+          { x: 90, label: "Straight ahead (90°)" },
+        ];
+        for (const m of markers) {
+          if (m.x < view.xMin || m.x > view.xMax) continue;
+          const px = xToPx(m.x, w, padL);
+          ctx.save();
+          ctx.strokeStyle = "rgba(255,255,255,0.35)";
+          ctx.setLineDash([6, 6]);
+          ctx.beginPath(); ctx.moveTo(px, padT); ctx.lineTo(px, padT + h); ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.fillStyle = "rgba(229,231,235,0.85)";
+          ctx.font = "12px Segoe UI, system-ui";
+          ctx.textAlign = "left";
+          ctx.fillText(m.label, px + 6, padT + 14);
+          ctx.restore();
+        }
+
         ctx.fillStyle = "rgba(229,231,235,0.9)";
         ctx.font = "12px Segoe UI, system-ui";
         ctx.textAlign = "center";
-        for (let x = 0; x <= 120; x += 20) {
-          if (x < view.xMin || x > view.xMax) continue;
+        for (let x = Math.ceil(view.xMin / 20) * 20; x <= view.xMax; x += 20) {
           const px = xToPx(x, w, padL);
           ctx.fillText(String(x), px, padT + h + 18);
         }
@@ -385,11 +329,11 @@
         }
         ctx.textAlign = "center";
         ctx.fillStyle = "rgba(156,163,175,0.95)";
-        ctx.fillText("Elbow flexion (deg)", padL + w / 2, padT + h + 42);
+        ctx.fillText("Horizontal flexion (deg)", padL + w / 2, padT + h + 42);
         ctx.save();
         ctx.translate(16, padT + h / 2);
         ctx.rotate(-Math.PI / 2);
-        ctx.fillText("Moment arm (cm)", 0, 0);
+        ctx.fillText("Moment arm (cm)  (flexion only; y<=0 hidden)", 0, 0);
         ctx.restore();
         ctx.restore();
       }
@@ -415,55 +359,57 @@
         ctx.restore();
       }
 
+      let screenSeries = [];
+
       function draw() {
         const rect = stage.getBoundingClientRect();
         const W = rect.width;
         const H = rect.height;
         ctx.clearRect(0, 0, W, H);
 
-        const padL = 60, padT = 20, padR = 20, padB = 60;
+        const padL = 70, padT = 20, padR = 20, padB = 60;
         const w = Math.max(10, W - padL - padR);
         const h = Math.max(10, H - padT - padB);
+
         drawAxes(padL, padT, w, h);
 
         screenSeries = [];
         for (const s of series) {
           if (!s.visible) continue;
-          const color = s.color;
-          const measPts = s.measured
+          const pts = s.measured
             .filter(p => p.x >= view.xMin && p.x <= view.xMax)
+            .filter(p => p.y !== null)
             .map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT) }));
-          strokeSpline(measPts, color, 4, []);
-
-          const rec = { name: s.name, color, measured: measPts, estimate: null };
-          if (showEst) {
-            const estPts = s.estimate
-              .filter(p => p.x >= view.xMin && p.x <= view.xMax)
-              .map(p => ({ px: xToPx(p.x, w, padL), py: yToPx(p.y, h, padT) }));
-            strokeSpline(estPts, color, 3, [10, 7]);
-            rec.estimate = estPts;
-          }
-          screenSeries.push(rec);
-
-          if (showPts) {
-            ctx.save();
-            ctx.fillStyle = color;
-            for (const p of s.measured) {
-              if (p.x < view.xMin || p.x > view.xMax) continue;
-              const px = xToPx(p.x, w, padL);
-              const py = yToPx(p.y, h, padT);
-              ctx.beginPath();
-              ctx.arc(px, py, 3.2, 0, Math.PI * 2);
-              ctx.fill();
-            }
-            ctx.restore();
-          }
+          strokeSpline(pts, s.color, 4, []);
+          screenSeries.push({ name: s.name, color: s.color, pts });
         }
 
-        const sx = Math.round((120 / (view.xMax - view.xMin)) * 100);
+        const sx = Math.round((140 / (view.xMax - view.xMin)) * 100);
         status.textContent = `${sx}% zoom`;
       }
 
+      function distToSegment(px, py, ax, ay, bx, by) {
+        const abx = bx - ax, aby = by - ay;
+        const apx = px - ax, apy = py - ay;
+        const abLen2 = abx * abx + aby * aby;
+        let t = abLen2 ? (apx * abx + apy * aby) / abLen2 : 0;
+        t = Math.max(0, Math.min(1, t));
+        const cx = ax + t * abx;
+        const cy = ay + t * aby;
+        return { dist: Math.hypot(px - cx, py - cy), cx, cy };
+      }
+      function closestOnPolyline(px, py, pts) {
+        if (!pts || pts.length < 2) return null;
+        let best = null;
+        for (let i = 0; i < pts.length - 1; i++) {
+          const a = pts[i], b = pts[i + 1];
+          const hit = distToSegment(px, py, a.px, a.py, b.px, b.py);
+          if (!best || hit.dist < best.dist) best = hit;
+        }
+        return best;
+      }
+
+      // Pan + zoom
       let dragging = false;
       let lastX = 0, lastY = 0;
       stage.addEventListener("pointerdown", (e) => {
@@ -479,7 +425,7 @@
 
         const rect = stage.getBoundingClientRect();
         const W = rect.width, H = rect.height;
-        const padL = 60, padT = 20, padR = 20, padB = 60;
+        const padL = 70, padT = 20, padR = 20, padB = 60;
         const w = Math.max(10, W - padL - padR);
         const h = Math.max(10, H - padT - padB);
 
@@ -489,12 +435,14 @@
         const yShift = dy * yRange / h;
         view.xMin += xShift; view.xMax += xShift;
         view.yMin += yShift; view.yMax += yShift;
+        if (view.yMin < 0) { view.yMax += -view.yMin; view.yMin = 0; }
         draw();
       });
       stage.addEventListener("pointerup", () => { dragging = false; });
       stage.addEventListener("pointercancel", () => { dragging = false; });
 
-      function handleHover(e) {
+      stage.addEventListener("pointerleave", hideTip);
+      stage.addEventListener("pointermove", (e) => {
         if (dragging) { hideTip(); return; }
 
         const rect = stage.getBoundingClientRect();
@@ -502,7 +450,7 @@
         const y = e.clientY - rect.top;
 
         const W = rect.width, H = rect.height;
-        const padL = 60, padT = 20, padR = 20, padB = 60;
+        const padL = 70, padT = 20, padR = 20, padB = 60;
         const w = Math.max(10, W - padL - padR);
         const h = Math.max(10, H - padT - padB);
 
@@ -510,32 +458,25 @@
 
         let best = null;
         for (const s of screenSeries) {
-          const hitMeas = closestOnPolyline(x, y, s.measured);
-          const hitEst = showEst ? closestOnPolyline(x, y, s.estimate) : null;
-          const hit = (!hitMeas || (hitEst && hitEst.dist < hitMeas.dist)) ? hitEst : hitMeas;
+          const hit = closestOnPolyline(x, y, s.pts);
           if (!hit) continue;
           if (!best || hit.dist < best.dist) best = { s, ...hit };
         }
 
         if (!best || best.dist > 10) { hideTip(); return; }
-
         const deg = pxToX(best.cx, w, padL);
         const val = pxToY(best.cy, h, padT);
         showTip(
-          `<div><strong>${best.s.name}</strong></div><div class="muted">${deg.toFixed(1)}° | ${val.toFixed(2)} cm</div>`,
+          `<div><strong>Region: ${best.s.name}</strong></div><div class="muted">${deg.toFixed(1)}° | ${val.toFixed(2)} cm</div>`,
           x, y
         );
-      }
-
-      stage.addEventListener("pointerleave", hideTip);
-      stage.addEventListener("pointermove", handleHover);
-      stage.addEventListener("mousemove", handleHover);
+      });
 
       stage.addEventListener("wheel", (e) => {
         e.preventDefault();
         const rect = stage.getBoundingClientRect();
         const W = rect.width, H = rect.height;
-        const padL = 60, padT = 20, padR = 20, padB = 60;
+        const padL = 70, padT = 20, padR = 20, padB = 60;
         const w = Math.max(10, W - padL - padR);
         const h = Math.max(10, H - padT - padB);
 
@@ -551,12 +492,12 @@
         const yMax = y0 + (view.yMax - y0) * zoom;
         if ((xMax - xMin) < 5) return;
         if ((yMax - yMin) < 0.4) return;
-        view = { xMin, xMax, yMin, yMax };
+        view = { xMin: Math.max(0, xMin), xMax: Math.min(140, xMax), yMin: Math.max(0, yMin), yMax };
         draw();
       }, { passive: false });
 
       resize();
-      reset();
+      fit();
     </script>
   </body>
 </html>

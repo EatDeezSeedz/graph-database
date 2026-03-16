@@ -6,7 +6,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Adduction IMALs",
                        "file":  "views/ackland2008_shoulder_adductors_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T02:59:13.3514526-04:00"
+                       "updatedAt":  "2026-03-16T05:14:00.6715380-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_abduction_imal_interactive",
@@ -14,6 +14,13 @@ window.GRAPH_MANIFEST = {
                        "file":  "views/ackland2008_shoulder_abduction_imal_interactive.html",
                        "kind":  "interactive",
                        "updatedAt":  "2026-03-16T03:56:23.9992525-04:00"
+                   },
+                   {
+                       "id":  "kuechle1997_shoulder_imal_interactive",
+                       "title":  "Kuechle Shoulder IMALs",
+                       "file":  "views/kuechle1997_shoulder_imal_interactive.html",
+                       "kind":  "interactive",
+                       "updatedAt":  "2026-03-16T15:31:24.1982912-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_flexion_imal_interactive",
@@ -34,7 +41,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Elbow flexor IMAL",
                        "file":  "views/murray1995_elbow_flexor_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T04:51:32.6272956-04:00"
+                       "updatedAt":  "2026-03-16T05:14:10.7742575-04:00"
                    },
                    {
                        "id":  "ackland2011_neck_imal_interactive",
@@ -51,6 +58,6 @@ window.GRAPH_MANIFEST = {
                        "updatedAt":  "2026-03-16T01:16:45.0265277-04:00"
                    }
                ],
-    "generatedAt":  "2026-03-16T04:51:37.7583712-04:00"
+    "generatedAt":  "2026-03-16T15:45:00.4173245-04:00"
 };
 

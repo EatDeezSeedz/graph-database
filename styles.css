@@ -12,7 +12,7 @@
 }
 
 * { box-sizing: border-box; }
-html, body { height: 100%; }
+html, body { height: 100%; min-height: 100dvh; }
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
@@ -30,6 +30,7 @@ code {
 
 .app {
   height: 100%;
+  min-height: 100dvh;
   display: grid;
   grid-template-columns: 360px 1fr;
 }
@@ -82,6 +83,7 @@ code {
   display: grid;
   grid-template-rows: auto 1fr;
   min-width: 0;
+  min-height: 0;
 }
 
 .toolbar {
@@ -114,6 +116,7 @@ code {
   position: relative;
   overflow: hidden;
   outline: none;
+  min-height: 320px;
 }
 
 .hint {
@@ -144,3 +147,36 @@ code {
 
 .hidden { display: none; }
 
+@media (max-width: 900px) {
+  .app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+    min-height: 100dvh;
+  }
+
+  .sidebar {
+    min-width: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar__content {
+    max-height: 34dvh;
+  }
+
+  .viewer {
+    min-height: 60dvh;
+  }
+
+  .stage {
+    min-height: 56dvh;
+  }
+
+  .toolbar {
+    flex-wrap: wrap;
+  }
+
+  .status {
+    max-width: 100%;
+  }
+}
