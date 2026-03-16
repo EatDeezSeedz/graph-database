@@ -13,7 +13,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Abduction IMALs",
                        "file":  "views/ackland2008_shoulder_abduction_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T03:56:23.9992525-04:00"
+                       "updatedAt":  "2026-03-16T16:05:19.9688948-04:00"
                    },
                    {
                        "id":  "kuechle1997_shoulder_imal_interactive",
@@ -58,6 +58,6 @@ window.GRAPH_MANIFEST = {
                        "updatedAt":  "2026-03-16T01:16:45.0265277-04:00"
                    }
                ],
-    "generatedAt":  "2026-03-16T15:45:00.4173245-04:00"
+    "generatedAt":  "2026-03-16T16:05:33.8029856-04:00"
 };
 
