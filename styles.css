@@ -305,15 +305,15 @@ code {
   }
 
   .sidebar__content {
-    max-height: 24dvh;
+    max-height: 30dvh;
   }
 
   .viewer {
-    min-height: 72dvh;
+    min-height: 76dvh;
   }
 
   .stage {
-    min-height: 68dvh;
+    min-height: 72dvh;
   }
 
   .toolbar {

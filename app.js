@@ -20,6 +20,11 @@ let chickenTimerId = null;
 
 const graphs = (GRAPH_MANIFEST?.graphs || []).slice();
 
+function withVersion(path, version) {
+  const sep = path.includes("?") ? "&" : "?";
+  return `${path}${sep}v=${encodeURIComponent(version || "1")}`;
+}
+
 function formatDate(d) {
   if (!d) return "";
   try {
@@ -196,6 +201,7 @@ function openGraph(id) {
   if (!g) return;
   activeId = id;
   renderList();
+  const version = g.updatedAt || GRAPH_MANIFEST?.generatedAt || "1";
 
   hintEl.classList.add("hidden");
 
@@ -209,7 +215,7 @@ function openGraph(id) {
     statusEl.textContent = "Interactive view";
 
     const frame = document.createElement("iframe");
-    frame.src = g.file;
+    frame.src = withVersion(g.file, version);
     frame.style.position = "absolute";
     frame.style.inset = "0";
     frame.style.width = "100%";
@@ -222,7 +228,7 @@ function openGraph(id) {
   imgWrapEl.classList.remove("hidden");
   btnOpenFileEl.classList.remove("hidden");
 
-  const src = `graphs/${encodeURIComponent(g.file)}`;
+  const src = withVersion(`graphs/${encodeURIComponent(g.file)}`, version);
   imgEl.onload = () => {
     naturalW = imgEl.naturalWidth || 0;
     naturalH = imgEl.naturalHeight || 0;
