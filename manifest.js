@@ -6,21 +6,21 @@ window.GRAPH_MANIFEST = {
                        "title":  "Adduction IMALs",
                        "file":  "views/ackland2008_shoulder_adductors_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-17T01:37:33.3254443-04:00"
+                       "updatedAt":  "2026-03-17T01:43:39.0442452-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_abduction_imal_interactive",
                        "title":  "Abduction IMALs",
                        "file":  "views/ackland2008_shoulder_abduction_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-17T01:37:33.3244449-04:00"
+                       "updatedAt":  "2026-03-17T01:43:39.0432446-04:00"
                    },
                    {
                        "id":  "kuechle1997_shoulder_imal_interactive",
                        "title":  "Kuechle Shoulder IMALs",
                        "file":  "views/kuechle1997_shoulder_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-16T18:17:27.9348898-04:00"
+                       "updatedAt":  "2026-03-17T01:55:01.9892073-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_flexion_imal_interactive",
@@ -41,7 +41,14 @@ window.GRAPH_MANIFEST = {
                        "title":  "Elbow flexor IMAL",
                        "file":  "views/murray1995_elbow_flexor_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-17T01:37:47.1559668-04:00"
+                       "updatedAt":  "2026-03-17T01:46:34.0609916-04:00"
+                   },
+                   {
+                       "id":  "ettema1998_upper_limb_imal_interactive",
+                       "title":  "Ettema IMALs",
+                       "file":  "views/ettema1998_upper_limb_imal_interactive.html",
+                       "kind":  "interactive",
+                       "updatedAt":  "2026-03-17T18:15:00.0000000-04:00"
                    },
                    {
                        "id":  "ackland2011_neck_imal_interactive",
@@ -58,6 +65,6 @@ window.GRAPH_MANIFEST = {
                        "updatedAt":  "2026-03-16T01:16:45.0265277-04:00"
                    }
                ],
-    "generatedAt":  "2026-03-17T01:40:51.1648948-04:00"
+    "generatedAt":  "2026-03-17T18:15:00.0000000-04:00"
 };
 

@@ -42,6 +42,12 @@
     ]
   },
   {
+    "id": "ettema1998_upper_limb_imal_interactive",
+    "title": "Ettema IMALs",
+    "file": "views/ettema1998_upper_limb_imal_interactive.html",
+    "kind": "interactive"
+  },
+  {
     "id": "ackland2011_neck_imal_interactive",
     "title": "Neck IMAL",
     "file": "views/ackland2011_neck_imal_interactive.html",
