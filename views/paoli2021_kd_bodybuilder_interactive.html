@@ -1,0 +1,247 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paoli 2021 ketogenic diet bodybuilder outcomes</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.65);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(168,85,247,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(56,189,248,.12),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:var(--panel);color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(250px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}.check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.4}
+      .stage{position:relative;overflow:auto;min-width:0;height:min(52dvh,calc(100dvh - 220px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)} .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.hint,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(14rem,20dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,48dvh,390px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Paoli et al. (2021) - Ketogenic diet vs western diet in natural bodybuilders</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="fit" class="btn">Fit</button>
+          <button id="reset" class="btn">Reset</button>
+          <button id="all" class="btn">Show all</button>
+          <button id="none" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="checks"></div>
+          <div id="hint" class="hint"></div>
+        </div>
+        <div id="stage" class="stage">
+          <canvas id="c"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={kdPre:"#8b5cf6",kdPost:"#ec4899",wdPre:"#38bdf8",wdPost:"#22c55e",kd:"#ec4899",wd:"#22c55e"};
+      const MODES={
+        relative:{
+          kind:"bar",
+          label:"Relative change (%)",
+          subtitle:"Simplified training-outcome percent changes in the same style as the study infographic: body weight, fat mass, lean mass, bench press 1RM, and squat 1RM.",
+          hint:"This simplified view matches the infographic-style takeaway: low carbohydrate dropped fat mass more, high carbohydrate supported more lean-mass gain, and strength improved similarly in both groups.",
+          overlay:"Hover bars = percent change",
+          yLabel:"Change (%)",
+          xLabel:"Outcome",
+          categories:["Body weight","Fat mass","Lean mass","Bench press 1RM","Squat 1RM"],
+          series:[
+            {name:"Low carbohydrate",color:COLORS.kd,values:[-1.02,-11.32,1.63,4.13,3.62],note:"Ketogenic / very low-carbohydrate group percent change over 8 weeks."},
+            {name:"High carbohydrate",color:COLORS.wd,values:[1.49,-6.70,2.84,3.75,6.40],note:"Western / high-carbohydrate group percent change over 8 weeks."}
+          ]
+        },
+        body:{
+          kind:"bar",
+          label:"Body composition (absolute)",
+          subtitle:"Exact pre/post means reported after 8 weeks for body weight, fat mass, and fat-free mass.",
+          hint:"This is the raw body-composition view from the paper: fat mass dropped more on the ketogenic diet, while lean mass clearly rose only in the western-diet group.",
+          overlay:"Hover bars = exact reported mean ± SD",
+          yLabel:"Mass (kg)",
+          categories:["Body weight","Fat mass","Fat-free mass"],
+          series:[
+            {name:"KD pre",color:COLORS.kdPre,values:[86.39,9.86,76.53],errors:[15.42,3.79,12.13],note:"Ketogenic diet, pre-intervention."},
+            {name:"KD post",color:COLORS.kdPost,values:[85.51,8.42,77.09],errors:[13.62,2.41,11.47],note:"Ketogenic diet, post-intervention."},
+            {name:"WD pre",color:COLORS.wdPre,values:[89.04,10.60,78.44],errors:[11.73,3.92,8.31],note:"Western diet, pre-intervention."},
+            {name:"WD post",color:COLORS.wdPost,values:[90.37,9.70,80.67],errors:[9.91,2.53,7.72],note:"Western diet, post-intervention."}
+          ]
+        },
+        performance:{
+          kind:"bar",
+          label:"Strength and metabolism (absolute)",
+          subtitle:"Table 3 pre/post means for bench press 1RM, squat 1RM, resting energy expenditure, and respiratory exchange ratio.",
+          hint:"Strength increased in both groups. REE rose clearly only in the western-diet group, while RER dropped only in the ketogenic group.",
+          overlay:"Hover bars = exact Table 3 mean ± SD",
+          yLabel:"Reported units",
+          categories:["Bench press 1RM","Squat 1RM","REE","RER"],
+          series:[
+            {name:"KD pre",color:COLORS.kdPre,values:[129.78,181.33,2014.67,0.82],errors:[20.98,36.52,324.04,0.01],note:"Ketogenic diet, pre-intervention."},
+            {name:"KD post",color:COLORS.kdPost,values:[134.44,187.78,2052.56,0.79],errors:[17.14,37.41,317.99,0.02],note:"Ketogenic diet, post-intervention."},
+            {name:"WD pre",color:COLORS.wdPre,values:[136.40,176.10,2069.10,0.83],errors:[11.27,27.87,229.32,0.01],note:"Western diet, pre-intervention."},
+            {name:"WD post",color:COLORS.wdPost,values:[141.40,187.00,2125.20,0.83],errors:[10.24,26.96,206.08,0.02],note:"Western diet, post-intervention."}
+          ]
+        },
+        blood:{
+          kind:"bar",
+          label:"Blood markers (absolute)",
+          subtitle:"Selected exact pre/post blood markers with clean numeric reporting in the Results and Table 4.",
+          hint:"This view keeps the exact markers that were straightforwardly reported: glucose, insulin, triglycerides, HDL, ALT, testosterone, and IGF-1.",
+          overlay:"Hover bars = exact reported mean ± SD",
+          yLabel:"Reported units",
+          categories:["Glucose","Insulin","Triglycerides","HDL","ALT","Testosterone","IGF-1"],
+          series:[
+            {name:"KD pre",color:COLORS.kdPre,values:[98.67,2.40,121.00,57.22,43.11,21.76,213.33],errors:[6.68,1.81,26.70,3.33,6.51,5.33,39.41],note:"Ketogenic diet, pre-intervention."},
+            {name:"KD post",color:COLORS.kdPost,values:[92.22,1.81,99.22,60.00,38.56,19.32,181.50],errors:[4.76,0.31,19.72,3.33,3.30,4.09,25.93],note:"Ketogenic diet, post-intervention."},
+            {name:"WD pre",color:COLORS.wdPre,values:[101.20,2.42,114.70,52.50,42.10,20.96,222.40],errors:[3.12,0.39,13.21,6.11,6.59,5.13,34.27],note:"Western diet, pre-intervention."},
+            {name:"WD post",color:COLORS.wdPost,values:[99.30,2.34,112.70,51.80,44.80,21.27,219.80],errors:[4.76,0.33,13.06,5.05,5.92,4.91,23.42],note:"Western diet, post-intervention."}
+          ]
+        }
+      };
+
+      const modeEl=document.getElementById("mode"),checksEl=document.getElementById("checks"),subtitleEl=document.getElementById("subtitle"),hintEl=document.getElementById("hint"),overlayEl=document.getElementById("overlay"),statusEl=document.getElementById("status"),stage=document.getElementById("stage"),canvas=document.getElementById("c"),ctx=canvas.getContext("2d"),tip=document.getElementById("tip");
+      let modeKey="relative",series=[],activeSeries=null,hits=[],zoomX=1,dragging=false,dragStartX=0,dragStartScrollLeft=0;
+      const mode=()=>MODES[modeKey];
+
+      function populateModes(){for(const [k,v] of Object.entries(MODES)){const opt=document.createElement("option");opt.value=k;opt.textContent=v.label;modeEl.appendChild(opt)}modeEl.value=modeKey}
+      function rebuildSeries(){series=mode().series.map(item=>({visible:true,...item}))}
+      function syncActiveRows(){for(const row of checksEl.querySelectorAll(".check"))row.classList.toggle("active",row.dataset.name===activeSeries)}
+      function rebuildChecks(){
+        checksEl.innerHTML="";
+        for(const item of series){
+          const row=document.createElement("div");row.className="check";row.dataset.name=item.name;
+          const cb=document.createElement("input");cb.type="checkbox";cb.checked=item.visible;
+          cb.addEventListener("click",e=>e.stopPropagation());
+          cb.addEventListener("change",()=>{item.visible=cb.checked;if(!item.visible&&activeSeries===item.name)activeSeries=null;syncActiveRows();draw()});
+          const sw=document.createElement("div");sw.className="swatch";sw.style.background=item.color;
+          const lab=document.createElement("label");lab.textContent=item.name;
+          row.addEventListener("click",()=>{activeSeries=activeSeries===item.name?null:item.name;syncActiveRows();draw()});
+          row.append(cb,sw,lab);checksEl.appendChild(row);
+        }
+      }
+      function hideTip(){tip.style.display="none"}
+      function showTip(html,x,y){tip.innerHTML=html;tip.style.display="block";const r=stage.getBoundingClientRect(),tr=tip.getBoundingClientRect(),pad=14;tip.style.left=Math.max(pad,Math.min(r.width-tr.width-pad,x+pad))+"px";tip.style.top=Math.max(pad,Math.min(r.height-tr.height-pad,y+pad))+"px"}
+      function resetViewport(){zoomX=1;stage.scrollLeft=0;draw()}
+      function fitViewport(){zoomX=1;stage.scrollLeft=0;draw()}
+      function zoomAt(clientX, factor){
+        const rect=stage.getBoundingClientRect();
+        const localX=clientX-rect.left;
+        const prev=zoomX;
+        const next=Math.max(.65,Math.min(4.5,prev*factor));
+        if(next===prev)return;
+        const anchor=(stage.scrollLeft+localX)/prev;
+        zoomX=next;
+        draw();
+        stage.scrollLeft=Math.max(0,(anchor*next)-localX);
+      }
+      function valueBounds(){
+        const vals=series.filter(s=>s.visible).flatMap(s=>s.values);
+        const minVal=Math.min(...vals,0), maxVal=Math.max(...vals,1);
+        return {minVal,maxVal};
+      }
+      function drawLine(){
+        const categories=mode().categories,visibleSeries=series.filter(s=>s.visible),baseW=Math.max(820,stage.clientWidth||820),left=78,top=28,right=28,bottom=92;
+        const stepX=90,contentW=Math.max(baseW,Math.round((left+right+(categories.length-1)*stepX+50)*zoomX)),H=520,plotW=contentW-left-right,plotH=H-top-bottom;
+        canvas.style.height=H+"px";
+        const dpr=window.devicePixelRatio||1;
+        canvas.width=Math.floor(contentW*dpr);canvas.height=Math.floor(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
+        ctx.clearRect(0,0,contentW,H);ctx.fillStyle="#0f172a";ctx.fillRect(0,0,contentW,H); hits=[];
+        const {minVal,maxVal}=valueBounds();
+        const yMin=minVal<0?minVal*1.16:0, yMax=maxVal*1.16;
+        const yToPx=v=>top+(yMax-v)*plotH/(yMax-yMin);
+        const xToPx=i=>left+i*(plotW/(Math.max(1,categories.length-1)));
+        const rough=(yMax-yMin)/6, mag=Math.pow(10,Math.floor(Math.log10(rough||1))), tickStep=[1,2,5,10].map(m=>m*mag).find(v=>v>=rough)||10*mag;
+        ctx.strokeStyle="rgba(255,255,255,.08)";
+        for(let y=Math.ceil(yMin/tickStep)*tickStep;y<=yMax+1e-9;y+=tickStep){const py=yToPx(y);ctx.beginPath();ctx.moveTo(left,py);ctx.lineTo(contentW-right,py);ctx.stroke();ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="right";ctx.fillText(`${Math.round(y*100)/100}%`,left-10,py+4)}
+        for(let i=0;i<categories.length;i++){const px=xToPx(i);ctx.beginPath();ctx.moveTo(px,top);ctx.lineTo(px,top+plotH);ctx.stroke();ctx.save();ctx.translate(px,H-bottom+20);ctx.rotate(-0.35);ctx.fillStyle="rgba(156,163,175,.95)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="right";ctx.fillText(categories[i],0,0);ctx.restore()}
+        const zeroY=yToPx(0);ctx.strokeStyle="rgba(255,255,255,.28)";ctx.strokeRect(left,top,plotW,plotH);ctx.beginPath();ctx.moveTo(left,zeroY);ctx.lineTo(contentW-right,zeroY);ctx.stroke();
+        for(const item of series){
+          const isVisible=item.visible,isActive=activeSeries===item.name,hasActive=!!activeSeries,alpha=isVisible?(hasActive?(isActive?1:.18):1):.08;
+          const pts=item.values.map((v,i)=>({x:xToPx(i),y:yToPx(v),value:v,category:categories[i]}));
+          ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle=item.color;ctx.lineWidth=isActive?4.5:3;if(isActive){ctx.shadowColor=item.color;ctx.shadowBlur=16}ctx.beginPath();ctx.moveTo(pts[0].x,pts[0].y);for(let i=1;i<pts.length;i++)ctx.lineTo(pts[i].x,pts[i].y);ctx.stroke();ctx.restore();
+          if(isVisible){for(const pt of pts){ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=item.color;ctx.beginPath();ctx.arc(pt.x,pt.y,isActive?5:4,0,Math.PI*2);ctx.fill();ctx.restore();hits.push({x:pt.x-10,y:pt.y-10,w:20,h:20,series:item,category:pt.category,value:pt.value})}}
+        }
+        ctx.fillStyle="rgba(156,163,175,.95)";ctx.save();ctx.translate(18,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.textAlign="center";ctx.fillText(mode().yLabel,0,0);ctx.restore();
+        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} lines shown • ${Math.round(zoomX*100)}% zoom`;
+      }
+      function drawBars(){
+        const categories=mode().categories,visibleSeries=series.filter(s=>s.visible),baseW=Math.max(620,stage.clientWidth||620),groupGap=36,barW=28,barGap=8,left=92,top=28,right=28,bottom=116;
+        const groupW=series.length*barW+(series.length-1)*barGap;
+        const contentW=Math.max(baseW,Math.round((left+right+categories.length*(groupW+groupGap))*zoomX));
+        const H=520,plotW=contentW-left-right,plotH=H-top-bottom;
+        canvas.style.height=H+"px";
+        const dpr=window.devicePixelRatio||1;
+        canvas.width=Math.floor(contentW*dpr);canvas.height=Math.floor(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
+        ctx.clearRect(0,0,contentW,H);ctx.fillStyle="#0f172a";ctx.fillRect(0,0,contentW,H); hits=[];
+        const {minVal,maxVal}=valueBounds(); const yMin=minVal<0?minVal*1.16:0, yMax=maxVal<5?Math.max(1,maxVal*1.25):maxVal*1.16;
+        const yToPx=v=>top+(yMax-v)*plotH/(yMax-yMin);
+        const rough=(yMax-yMin)/6, mag=Math.pow(10,Math.floor(Math.log10(rough||1))), tickStep=[1,2,5,10].map(m=>m*mag).find(v=>v>=rough)||10*mag;
+        ctx.strokeStyle="rgba(255,255,255,.08)";
+        for(let y=Math.ceil(yMin/tickStep)*tickStep;y<=yMax+1e-9;y+=tickStep){const py=yToPx(y);ctx.beginPath();ctx.moveTo(left,py);ctx.lineTo(contentW-right,py);ctx.stroke();ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="right";ctx.fillText(String(Math.round(y*100)/100),left-10,py+4)}
+        ctx.strokeStyle="rgba(255,255,255,.28)";ctx.strokeRect(left,top,plotW,plotH);const zeroY=yToPx(0);ctx.beginPath();ctx.moveTo(left,zeroY);ctx.lineTo(contentW-right,zeroY);ctx.stroke();
+        let x=left+26;
+        for(let i=0;i<categories.length;i++){
+          const groupCenter=x+(groupW/2);
+          for(let sIndex=0;sIndex<series.length;sIndex++){
+            const baseItem=series[sIndex], barLeft=x+sIndex*(barW+barGap), val=baseItem.values[i], err=((baseItem.errors||[])[i])||0;
+            const isVisible=baseItem.visible,isActive=activeSeries===baseItem.name,hasActive=!!activeSeries,alpha=isVisible?(hasActive?(isActive?1:.18):1):.08;
+            const topY=Math.min(yToPx(val),zeroY),barBottom=Math.max(yToPx(val),zeroY),barH=Math.max(2,barBottom-topY);
+            ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=baseItem.color;if(isActive){ctx.shadowColor=baseItem.color;ctx.shadowBlur=18}ctx.fillRect(barLeft,topY,barW,barH);ctx.restore();
+            if(err>0){const errTop=yToPx(Math.min(yMax,val+err)),errBottom=yToPx(Math.max(yMin,val-err));ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle="rgba(255,255,255,.75)";ctx.lineWidth=1.4;ctx.beginPath();ctx.moveTo(barLeft+barW/2,errTop);ctx.lineTo(barLeft+barW/2,errBottom);ctx.moveTo(barLeft+7,errTop);ctx.lineTo(barLeft+barW-7,errTop);ctx.moveTo(barLeft+7,errBottom);ctx.lineTo(barLeft+barW-7,errBottom);ctx.stroke();ctx.restore()}
+            if(isVisible)hits.push({x:barLeft,y:topY,w:barW,h:barH,series:baseItem,category:categories[i],value:val,error:err});
+            ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="11px Segoe UI, system-ui";ctx.textAlign="center";const short=modeKey==="relative"?(sIndex===0?"Low carb":"High carb"):(sIndex===0?"KD pre":sIndex===1?"KD post":sIndex===2?"WD pre":"WD post");ctx.fillText(short,barLeft+barW/2,H-bottom+18);ctx.restore();
+          }
+          ctx.fillStyle="rgba(156,163,175,.95)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="center";ctx.fillText(categories[i],groupCenter,H-bottom+48);x+=groupW+groupGap;
+        }
+        ctx.fillStyle="rgba(156,163,175,.95)";ctx.save();ctx.translate(18,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.textAlign="center";ctx.fillText(mode().yLabel,0,0);ctx.restore();
+        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} series shown • ${Math.round(zoomX*100)}% zoom`;
+      }
+      function draw(){ drawBars(); }
+      function applyMode(){activeSeries=null;rebuildSeries();rebuildChecks();syncActiveRows();resetViewport()}
+      modeEl.addEventListener("change",()=>{modeKey=modeEl.value;applyMode()});
+      document.getElementById("fit").addEventListener("click",fitViewport);
+      document.getElementById("reset").addEventListener("click",()=>{activeSeries=null;syncActiveRows();resetViewport()});
+      document.getElementById("all").addEventListener("click",()=>{for(const item of series)item.visible=true;for(const cb of checksEl.querySelectorAll("input"))cb.checked=true;syncActiveRows();draw()});
+      document.getElementById("none").addEventListener("click",()=>{for(const item of series)item.visible=false;activeSeries=null;for(const cb of checksEl.querySelectorAll("input"))cb.checked=false;syncActiveRows();draw()});
+      stage.addEventListener("pointerdown",e=>{if(e.button!==0)return;dragging=true;dragStartX=e.clientX;dragStartScrollLeft=stage.scrollLeft;stage.classList.add("is-dragging");stage.setPointerCapture(e.pointerId);hideTip()});
+      stage.addEventListener("pointermove",e=>{
+        if(dragging){stage.scrollLeft=Math.max(0,dragStartScrollLeft-(e.clientX-dragStartX));return}
+        const r=stage.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,contentX=x+stage.scrollLeft;
+        const hit=hits.find(h=>contentX>=h.x&&contentX<=h.x+h.w&&y>=h.y&&y<=h.y+h.h);
+        if(!hit){hideTip();return}
+        const valueText=modeKey==="relative"?`${hit.value.toFixed(2)}%`:(hit.error>0?`${hit.value.toFixed(2)} ± ${hit.error.toFixed(2)}`:`${hit.value.toFixed(2)}`);
+        showTip(`<div><strong>${hit.category}</strong></div><div class="muted">${hit.series.name}: ${valueText}</div><div class="muted">${hit.series.note}</div>`,x,y)
+      });
+      stage.addEventListener("pointerup",()=>{dragging=false;stage.classList.remove("is-dragging")});
+      stage.addEventListener("pointercancel",()=>{dragging=false;stage.classList.remove("is-dragging")});
+      stage.addEventListener("pointerleave",()=>{if(!dragging)hideTip()});
+      stage.addEventListener("wheel",e=>{e.preventDefault();const factor=e.deltaY>0?1/1.12:1.12;zoomAt(e.clientX,factor)},{passive:false});
+      window.addEventListener("resize",draw);
+      populateModes();applyMode();
+    </script>
+  </body>
+</html>
+

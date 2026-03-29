@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signorile 1995 knee extension foot position EMG</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px;cursor:pointer}
+      .btn:hover{background:var(--btnHover)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(260px,28vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(44dvh,calc(100dvh - 230px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(260px,46dvh,380px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Signorile et al. (1995) - Knee extension foot position and superficial quadriceps EMG</div>
+          <div class="subtitle">Focused on the knee-extension finding from Figure 2. The paper reported that the outward / lateral-rotation foot position produced the highest overall normalized EMG, driven mainly by the rectus femoris heads.</div>
+        </div>
+        <div class="controls">
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle foot positions</div>
+          <div id="legend"></div>
+          <div class="hint">Muscles shown left to right: Vastus lateralis, Rectus femoris lateral head, Rectus femoris medial head, Vastus medialis. This is a figure-based reconstruction from the knee-extension panel only.</div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div class="overlay">Bars = Figure 2 estimated mean rms EMG</div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const GROUPS=[
+        {x:1,label:'Vastus lateralis'},
+        {x:2,label:'Rectus femoris lateral'},
+        {x:3,label:'Rectus femoris medial'},
+        {x:4,label:'Vastus medialis'}
+      ];
+      const SERIES=[
+        {name:'Inward',key:'inward',color:'#60a5fa',points:[
+          {x:1,y:0.85,note:'No clear VL difference vs the other foot positions.'},
+          {x:2,y:0.84,note:'Below the outward condition.'},
+          {x:3,y:0.86,note:'Below the outward condition.'},
+          {x:4,y:0.92,note:'No meaningful VM difference across foot positions.'}
+        ]},
+        {name:'Forward',key:'forward',color:'#e5e7eb',points:[
+          {x:1,y:0.84,note:'Reference / neutral style condition in the figure.'},
+          {x:2,y:0.82,note:'Below the outward condition.'},
+          {x:3,y:0.83,note:'Below the outward condition.'},
+          {x:4,y:0.93,note:'No meaningful VM difference across foot positions.'}
+        ]},
+        {name:'Outward',key:'outward',color:'#f59e0b',points:[
+          {x:1,y:0.89,note:'Slightly higher VL estimate, but not the main driver of the overall effect.'},
+          {x:2,y:0.97,note:'Highest rectus femoris lateral-head EMG.'},
+          {x:3,y:0.96,note:'Highest rectus femoris medial-head EMG.'},
+          {x:4,y:0.91,note:'Similar to the other VM conditions.'}
+        ]}
+      ];
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let visible={inward:true,forward:true,outward:true},drag=null,view={minX:0,maxX:5,minY:0.7,maxY:1.05};
+
+      const currentSeries=()=>SERIES.filter(s=>visible[s.key]);
+      function bounds(){
+        const pts=currentSeries().flatMap(s=>s.points);
+        if(!pts.length) return {minX:0.4,maxX:4.6,minY:0.7,maxY:1.05};
+        const ys=pts.map(p=>p.y);
+        return {minX:0.4,maxX:4.6,minY:0.7,maxY:Math.max(1.02,Math.max(...ys)*1.08)};
+      }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      const sx=(x,p)=>p.x+((x-view.minX)/(view.maxX-view.minX))*p.w;
+      const sy=(y,p)=>p.y+p.h-((y-view.minY)/(view.maxY-view.minY))*p.h;
+      function yTicks(min,max){ const step=0.05, out=[]; for(let y=Math.ceil(min/step)*step;y<=max+1e-6;y+=step) out.push(Number(y.toFixed(2))); return out; }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:82,y:20,w:Math.max(120,w-112),h:Math.max(110,h-106)};
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of yTicks(view.minY,view.maxY)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(y.toFixed(2),16,py+4); }
+        ctx.textAlign='center';
+        for(const group of GROUPS){ const px=sx(group.x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(group.label,px,plot.y+plot.h+28,92,14); }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText('Normalized rms EMG',0,0); ctx.restore();
+        ctx.fillText('Superficial quadriceps sites during knee extension',plot.x+plot.w/2,plot.y+plot.h+62);
+        const markers=[], series=currentSeries(), spacing=6, barW=Math.max(8,Math.min(32,Math.max(10,plot.w/(GROUPS.length*6))));
+        for(const group of GROUPS){
+          const xCenter=sx(group.x,plot), totalW=(barW*series.length)+Math.max(0,series.length-1)*spacing;
+          series.forEach((s,idx)=>{ const point=s.points.find(p=>p.x===group.x); if(!point) return; const x=xCenter-totalW/2+idx*(barW+spacing), y=sy(point.y,plot), hBar=Math.max(1,plot.y+plot.h-y); ctx.fillStyle=s.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,barW,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x,y,barW,hBar); markers.push({x,y,w:barW,h:hBar,series:s,point,group}); });
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=`${series.length} foot positions visible`;
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        for(const s of SERIES){
+          const row=document.createElement('div');
+          row.className='check'+(visible[s.key]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[s.key]?'checked':''} /><span class="swatch" style="background:${s.color}"></span><label>${s.name}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[s.key]=e.target.checked; fit(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[s.key]=box.checked; fit(); renderLegend(); }});
+          legend.appendChild(row);
+        }
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>x>=m.x&&x<=m.x+m.w&&y>=m.y&&y<=m.y+m.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.group.label}</strong></div><div class="muted">${hit.series.name} foot position</div><div>Normalized rms EMG: <strong>${hit.point.y.toFixed(2)}</strong></div><div>${hit.point.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      function clampView(){ const b=bounds(); if(view.minX<b.minX) { const d=b.minX-view.minX; view.minX+=d; view.maxX+=d; } if(view.maxX>b.maxX){ const d=view.maxX-b.maxX; view.minX-=d; view.maxX-=d; } }
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const plot=stage._plot||{x:82,w:Math.max(120,stage.clientWidth-112)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const full=bounds(); const newSpan=Math.max(1.6,Math.min(full.maxX-full.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={inward:true,forward:true,outward:true}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ visible={inward:true,forward:true,outward:true}; fit(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ visible={inward:false,forward:false,outward:false}; fit(); renderLegend(); });
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

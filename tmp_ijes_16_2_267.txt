@@ -1,0 +1,774 @@
+Original Research
+
+The Effects of Carbohydrate Intake on Body Composition and Muscular
+Strength in Trained Men Undergoing a Progressive Resistance Training
+ALEX S. RIBEIRO‡1, KAMILA QUINTILHANO*1, WITALO KASSIANO†2, JOÃO PEDRO
+NUNES†2, ADEMAR AVELAR‡3, MICHELE C. C. TRINDADE‡3, ANDREO F. AGUIAR‡1, BRAD
+J. SCHOENFELD‡4, and EDILSON S. CYRINO‡2
+1Department
+
+of Physical Education, University Pitágoras, Universidade Norte do Paraná,
+Londrina, PR, BRAZIL; 2Metabolism, Nutrition, and Exercise Laboratory, Physical Education and
+Sport Center, State University of Londrina, Londrina, PR, BRAZIL; 3Department of Physical
+Education, State University of Maringá, Maringá, PR, BRAZIL; 4Department of Exercise Science
+and Recreation, CUNY Lehman College, Bronx, New York, USA
+*Denotes undergraduate student author, †Denotes graduate student author, ‡Denotes professional author
+
+ABSTRACT
+International Journal of Exercise Science 16(2): 267-280, 2023. This study's purpose was to compare the
+effects of different carbohydrate (CHO) intakes on body composition and muscular strength following eight weeks
+of resistance training (RT) in pre-conditioned men. In addition, we explored the individual responses to different
+CHO intakes. Twenty-nine young men volunteered to participate in this study. The participants were divided into
+two groups according to their relative CHO intake: lower (L-CHO; n = 14) and higher (H-CHO; n = 15). Participants
+performed a RT program four days a week for eight weeks. The lean soft tissue (LST) and fat mass were determined
+by dual-energy X-ray absorptiometry. Muscular strength was determined by a one-repetition maximum (1RM) test
+in the bench press, squat, and arm curl exercises. Both groups increased LST (P < 0.05) with no statistical differences
+between conditions (L-CHO = +0.8% vs. H-CHO = +3.5%). Neither group demonstrated changes in fat mass. Both
+groups increased 1RM (P < 0.05) in the bench press (L-CHO = +3.6% vs. H-CHO = +5.8%) and squat (L-CHO =
++7.5% vs. H-CHO = +9.4%); however, only H-CHO significantly increased arm curl 1RM (P < 0.05) at post-training
+(L-CHO = +3.0% vs. H-CHO = +6.6%). Responsiveness was greater in H-CHO vs. L-CHO for LST and arm curl
+1RM. In conclusion, lower and higher CHO intakes promote similar increase in LST and muscular strength;
+however, a greater intake may improve the responsiveness to gains in lean mass and arm curl strength in preconditioned men.
+
+KEY WORDS: Strength training, nutrition, lean soft tissue, glucose
+INTRODUCTION
+It is well-established that resistance training (RT) increases muscular strength and muscle mass
+(37). The improvements are linked to manipulating the acute variables that make up the training
+session and the adequate intake of calories and macronutrients. Among these nutritional
+
+Int J Exerc Sci 16(2): 267-280, 2023
+variables, carbohydrate (CHO) is believed to be an essential macronutrient for RT performance
+given the crucial role of glycolysis in resynthesizing the adenosine triphosphate pool during
+high-force muscular contractions (23, 26). For example, it has been shown that ingestion of CHO
+before RT increases total work (13, 14, 22). Moreover, glycogen content may impact muscle
+growth by mediating intracellular anabolic signaling (9, 11).
+Acutely, a typical RT session may reduce muscle glycogen content by approximately 25–40% (5,
+16, 35). This reduction may impair training session performance by limiting energy
+regeneration, leading to an inability to sustain elevated force production throughout the training
+session (25). For example, some studies have reported impaired performance and adaptations
+following a low-CHO diet (17, 25, 31, 43). Moreover, some studies report blunted gains in muscle
+mass when RT is combined with lower- versus higher-CHO diets (17, 18, 31, 43), suggesting that
+low-CHO diets are suboptimal for maximizing muscle growth. However, it should be noted that
+the low-CHO-diet groups in these studies were most likely in a caloric deficit, which conceivably
+impairs anabolic responses to RT (2). Therefore, it is difficult to determine whether the observed
+detrimental effects were caused by a low-CHO intake, an energy restriction, or a combination
+of both.
+The reduction of glycogen stores is associated with decreased performance in resistance
+exercises because anaerobic glycolysis is the dominant energy system during typical resistance
+exercises lasting 15 to 120 seconds (20). Performing one set of 12 repetitions to failure (with a
+total time under tension of 34 to 40 seconds) elevates muscle lactate levels to 91 mmol/kg, and
+values increase to 118 mmol/kg after three sets (26), clearly showing the contribution of
+anaerobic glycolysis in resistance exercises performance. Given that, the CHO intake for RT
+practitioners should help to ensure the restoration of glycogen stores.
+However, the specific CHO requirements for individuals seeking to optimize muscular
+adaptations are not well established. CHO guidelines for RT are scarce in the literature and do
+not make particular muscle hypertrophy recommendations for increases in lean mass (19, 40).
+The recommendations need to be more specific, and more precisely inform the needs of
+practitioners seeking muscular adaptations (e.g., increase in lean mass and strength). For
+example, the position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the
+American College of Sports Medicine (40) recommend a CHO intake of 3-5 g/kg/d for lowintensity or skill-based activities, 5-7 g/kg/d for moderate exercise programs (e.g., ~1h per day),
+6-10 g/kg/d for endurance program lasting 1-3h, and 8-12 g/kg/d for extreme commitment
+activity (e.g., >4-5h/d). However, there is no specific recommendation for improvements in
+muscular strength and lean mass.
+There is limited evidence based on usual intake of experienced lifters that suggests CHO intake
+in the range of 3–7 g/kg/d, optimizing RT performance (24, 38). However, these inferences are
+largely derived from observational investigation, limiting the ability to draw causality.
+Moreover, the recommended range of 3-7 is overly wide, making it difficult to decide precisely
+
+International Journal of Exercise Science
+
+268
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+how much CHO needs to be ingested. Therefore, the effects of CHO intake on RT-induced
+muscular adaptations are unclear (11, 21).
+The purpose of this study was to explore the effects of different amounts of CHO intake on body
+composition and muscular strength in men undergoing a standardized progressive RT program.
+We hypothesized that consuming a higher CHO diet would display more significant increases
+in muscular strength and lean mass than those consuming a reduced CHO diet. The premise for
+this hypothesis is based on the ability of CHO to affect energy metabolism during training and
+because CHO intake may affect intracellular signaling pathways that drive the anabolic
+response to RT.
+METHODS
+Participants
+We estimated the sample size using G*Power (version 3.1.9.6). Previous data on the effects of
+resistance exercise on lean mass were used to estimate the sample size (29). Thus, we estimated
+the required sample based on an effect size F = 0.55, a significance level of 0.05, and a power of
+0.80. The analysis indicated that at least 29 participants were needed to achieve adequate
+statistical power. Thirty men were recruited through social media and personal invitations from
+an ethnically homogeneous population in Brazil to participate in this study. Previously, all
+participants performed a pre-conditioning phase lasting 16 weeks, that consisted of three RT
+sessions per week, and performance three sets per exercise (8-12RM) of a whole-body RT routine
+(10-12 exercises). Participants were included in the study if they had no reported disease
+symptoms, no orthopedic injuries, were not vegetarian/vegan, were not using any nutritional
+supplements (i.e., protein and creatine powders), were not using anti-inflammatory medicine,
+and declared to be free from the use of anabolic steroids. Only one dropped out during the
+intervention due to personal reasons. Thus, a total of 29 men from a university-based population
+participated of this study. The participants were analyzed according to their relative CHO intake
+(g/kg/d) as follows: the lower CHO intake (L-CHO; n = 14) group had a CHO intake of ≤ 5.0
+g/kg/d, and the higher CHO intake (H-CHO; n = 15) group consumed > 5.0 g/kg/d. All
+participants received a detailed description of the study procedures and signed a written
+informed consent form before participation. This investigation was approved by the local
+University Ethics Committee and conducted according to the Declaration of Helsinki. The
+investigation meets the guidelines set forth by the International Journal of Exercise Science (30).
+Protocol
+This was a retrospective analysis, in which a sample of young adult men who performed a
+regimented RT program were divided into two groups according to their habitual CHO intake
+for the purpose of comparing muscular adaptations between conditions. The study was carried
+out over 12 weeks, with pre- and post-testing conducted at weeks 1–2 and 11–12, respectively.
+Assessments consisted of anthropometric, body composition, and muscular strength
+measurements. During the first week of evaluation, anthropometric and muscular strength data
+were collected, and body composition measures were conducted during the second week of the
+International Journal of Exercise Science
+
+269
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+assessment. The RT took place during weeks 3–10. Dietary intake was monitored in the first and
+last two weeks of the specific period (weeks 3 and 9-10, respectively). The same evaluators
+conducted all measurements without having access to the previous measurement data.
+Body Composition: Whole-body dual-energy X-ray absorptiometry (DXA) exams were
+performed in a Lunar Prodigy device (GE Lunar, Madison, WI, USA) to assess lean soft tissue
+(LST) and fat mass (absolute and relative). Participants were instructed to remove all objects
+containing metal before the exam. Scans were performed with the participants lying in the
+supine position along the table's longitudinal centerline axis. Feet were taped together at the
+toes to immobilize the legs while the hands maintained a pronated position within the scanning
+region. Participants remained motionless during the entire scanning procedure. Both calibration
+and analysis were carried out by a skilled laboratory technician according to the manufacturer's
+recommendations. The software generated standard lines that set apart the limbs from the trunk
+and head. These lines were adjusted using specific anatomical points determined by the
+manufacturer. Analyses during the intervention were performed by the same technician blinded
+to group identity throughout the investigation. The intraclass coefficient correlation (ICC) and
+standard error of measurement (SEM) for LST were 0.99 and 0.38 kg, for fat mass were 0.99 and
+0.10 kg, and for relative fat mass were 0.99 and 0.25%.
+Muscular Strength: Maximal dynamic strength was evaluated using the 1RM test assessed on
+the bench press, squat, and arm curl exercises, performed in this exact order. Three attempts
+were performed in each exercise preceded by a warm-up set (6–10 repetitions), with
+approximately 50% of the estimated load used in the first attempt. This warm-up was also used
+to familiarize the participants with the testing equipment and lifting technique. The testing
+procedure was initiated 2 minutes after the warm-up. The participants were instructed to try to
+complete two repetitions with the imposed load in three attempts in both exercises. The rest
+period was 3 to 5 min between each attempt and 5 min between exercises. The 1RM was
+recorded as the last resistance lifted in which the participant was able to complete only one
+single maximal execution. The execution technique for each exercise was standardized and
+continuously monitored to ensure reliability. All 1RM testing sessions were supervised by two
+experienced researchers for greater participant safety and data integrity. Verbal encouragement
+was provided throughout each test. Three 1RM sessions separated by 48-72 h were performed
+to ensure an accurate score (intraclass correlation coefficient ≥ 0.96). The highest load achieved
+among the three sessions was used for analysis in each exercise. The ICC and SEM for bench
+press were 0.99 and 1.30 kg, for squat were 0.99 and 2.14 kg, and for arm curl were 0.99 and 0.60
+kg.
+Dietary Intake: A nutritionist instructed participants to complete food records on three
+nonconsecutive days (two weekdays and one weekend). Participants were counseled on how to
+record portion sizes and quantities to identify all food and fluid intake. Total dietary energy,
+protein, carbohydrate, and fat content were calculated using Avanutri software, version 3.1.4
+(Avanutri Processor Nutrition, Rio de Janeiro, RJ, Brazil). All participants were asked to
+maintain their regular diet throughout the study period.
+International Journal of Exercise Science
+
+270
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+
+Resistance Training: The progressive RT program was performed four times per week, divided
+into two routines (A and B). Program A was conducted on Mondays and Thursdays and
+comprised exercises for the chest, shoulders, triceps, and abdominal muscles performed in the
+following order: (1) bench press, (2) inclined dumbbell fly, (3) cable cross over, (4) barbell
+military press, (5) lateral raise, (6) upright row, (7) lying triceps French press, (8) triceps
+pushdown, and (9) crunch. Program B was conducted on Tuesdays and Fridays, incorporating
+exercises for the back, biceps, forearm, thigh, and calves in the following order: (1) wide-grip lat
+pulldown, (2) seated cable row, (3) arm curl, (4) alternating dumbbell curl, (5) wrist curl, (6)
+squat on a smith machine, (8) leg extension, (9) leg curl, and (10) seated calf raise. Participants
+performed four sets for all exercises, with the load increasing (by 2–4 kg for upper body exercises
+and 3–6 kg for lower body exercises), and the number of repetitions simultaneously decreasing,
+for each set (pyramid system). Thus, the number of repetitions performed in each set was
+12/10/8/6 of repetition maximum. The load progression was planned so that when the
+participant was able to perform two more repetitions in the last set for a given exercise on two
+consecutive sessions, the load for the next session was increased 2–5% for the exercises of the
+upper limb and 5–10% for the exercises of the lower limbs. Participants were instructed to
+perform each repetition with a concentric-to-eccentric phase ratio of 1:2, respectively. The rest
+period between sets lasted 1-2 min, with a 2–3 min rest interval provided between each exercise.
+Statistical Analysis
+Shapiro-Wilk’s test verified data distribution. Levene’s test checked the homogeneity of the
+variances. The independent t-test was used to compare the baseline characteristics and dietary
+intake between the groups. The comparison of lower and higher CHO effects on outcomes was
+made using an analysis of covariance (ANCOVA) of the raw difference between pre-training
+and post-training measures with the basal score, total energy, and the relative protein as
+covariates. The interpretation of the effect of time was made from the 95% CI of the mean
+difference pre- to post-training (i.e., when 95% CI of the change delta did not overlap the zero,
+there was a difference between the baseline score). The Cohen’s d effect size (ES) statistic was
+calculated to provide insight into the magnitude of the changes. An ES of 0.00–0.19 was
+considered trivial, 0.20–0.49 was considered small, 0.50–0.79 was considered moderate, and ≥
+0.80 was considered as large. Responsiveness of the outcomes was calculated considering the
+responders as participants who achieved a change equal to, or greater than, the minimum
+difference to be considered real. This parameter was calculated using the equation:
+minimum difference = SEM x 1.96 x √2.
+A chi-square test was performed to compare the proportion of individuals (responders) with
+LST, fat mass, and 1RM changes similar to, or greater than, the minimum difference after
+training between lower and higher CHO conditions. In addition, we calculated the percentage
+change (∆%) as post-training mean minus pre-training mean, divided by pre-training multiplied
+by 100. For all statistical analyses, significance was accepted at P < 0.05. The data were stored
+and analyzed using JASP software, version 0.11.1 (Department of Psychological Methods,
+International Journal of Exercise Science
+
+271
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+University of Amsterdam, Amsterdam, NL). The data are presented as mean and standard
+deviations, mean differences, and 95% confidence intervals (95% CI).
+RESULTS
+Adherence to the program was satisfactory, with all participants completing > 85% of the total
+sessions. There were no statistical differences (P > 0.05) between groups for age (L-CHO = 22.9
+± 4.9 years vs. H-CHO = 22.4 ± 2.8 years), body mass (L-CHO = 73.5 ± 10.0 kg vs. H-CHO = 70.9
+± 10.3 kg), height (L-CHO = 175.4 ± 5.7 cm vs. H-CHO = 178.4 ± 7.3 cm), and body mass index
+mass (L-CHO = 23.8 ± 3.1 kg.m-2 vs. H-CHO = 22.1 ± 2.1 kg.m-2). Total energy and macronutrient
+daily intake are shown in Table 1. As expected, the H-CHO group presented a greater absolute
+and relative CHO intake compared to the L-CHO group (P < 0.05). Moreover, the H-CHO
+groups also presented higher values for energy, protein, and lipids ingestion than the L-CHO
+group (P < 0.05).
+Table 1. Energy and macronutrients intake at different moments according to groups.
+L-CHO (n = 14)
+
+H-CHO (n = 15)
+
+P-value
+
+2104.6 ± 542.6
+
+2965.9 ± 395.4
+
+< 0.001
+
+28.50 ± 5.7
+
+41.2 ± 3.2
+
+< 0.001
+
+g.day-1
+
+94.2 ± 24.7
+
+120.6 ± 17.6
+
+< 0.001
+
+g.kg-1.day-1
+
+1.28 ± 0.32
+
+1.68 ± 0.18
+
+< 0.001
+
+Energy (kcal)
+
+376.7 ± 99.1
+
+482.7 ± 70.4
+
+< 0.001
+
+g.day-1
+
+281.2 ± 79.4
+
+381.0 ± 51.1
+
+< 0.001
+
+g.kg-1.day-1
+
+3.80 ± 0.81
+
+5.29 ± 0.24
+
+< 0.001
+
+Energy (kcal)
+
+1125.1 ± 317.7
+
+1524.0 ± 204.4
+
+< 0.001
+
+g.day-1
+
+66.9 ± 18.7
+
+106.5 ± 23.9
+
+< 0.001
+
+g.kg-1.day-1
+
+0.91 ± 0.22
+
+1.49 ± 0.32
+
+< 0.001
+
+Energy (kcal)
+
+602.6 ± 168.4
+
+959.1 ± 215.7
+
+< 0.001
+
+Energy
+kcal.day-1
+kcal.kg-1.day-1
+Protein
+
+Carbohydrate
+
+Lipid
+
+Note. Data are presented as mean and standard deviation. L-CHO = lower carbohydrate intake; H-CHO = higher
+carbohydrate intake.
+
+Table 2 presents the covariate means, the adjusted post-training score, and the absolute changes
+of body composition and strength outcomes according to groups. Both groups displayed
+statistically significant differences in LST at post-training. For L-CHO, a trivial ES (d = 0.08) was
+found, with 21% (3/14) of the participants deemed responsive; for H-CHO, a small ES (d = 0.34)
+was found, with 80% (12/15) of the participants considered responsive. The chi-square test
+International Journal of Exercise Science
+
+272
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+showed a greater number of responders in the H-CHO group for LST (χ2 = 9.949, P = 0.002). No
+significant changes in fat mass were observed in either group. For L-CHO, a trivial ES (d = 0.00)
+was found, with 36% (5/14) of the participants deemed responsive; for H-CHO, a trivial ES (d =
+0.04) was found, with 27% (4/15) of the participants being responsive. There was no significant
+change for relative body fat in either group. L-CHO had a trivial ES (d = 0.02) with 29% (4/14) of
+the participants deemed responsive, whereas H-CHO had a trivial ES (d = 0.03) with 20% (7/15)
+of the participants deemed responsive. The chi-square test showed no significant differences
+between the proportion of individuals deemed responders in L-CHO or H-CHO for both absolute
+and relative fat mass changes (χ2 ≤ 0.291, P ≥ 0.590). Figure 1 presents pre- to post-training
+percentage changes in LST, absolute and relative fat mass.
+Both groups displayed statistically significant changes in bench press 1RM at post-training. For
+L-CHO, a trivial ES (d = 0.16) was found, with 43% (6/14) of the participants deemed responsive,
+whereas, for H-CHO, a small ES (d = 0.26) was found with 73% (11/15) of the participants
+considered responsive. Both groups displayed significant changes in squat 1RM at post-training.
+For L-CHO, a small ES (d = 0.48) was found, with 43% (6/14) of the participants deemed
+responsive, while for H-CHO, a moderate ES (d = 0.57) was found, with 73% (11/15) of the
+participants considered responsive. The chi-square test showed no significant differences
+between the proportion of individuals deemed responders after L-CHO or H-CHO for both
+bench press and squat 1RM changes (χ2 ≤ 2.773, P ≥ 0.096). For the arm curl 1RM, only the HCHO group showed statistically significant differences at post-training. L-CHO had a trivial ES
+(d = 0.16), with 43% (6/14) of the participants deemed responsive, whereas H-CHO had a small
+ES (d = 0.40), with 87% (13/15) of the participants considered responsive. The chi-square test
+showed a greater number of responders in H-CHO compared to L-CHO for the arm curl (χ2 =
+6.152, P = 0.013). Figure 2 presents pre- to post-training percentage changes in the bench press,
+squat, and arm curl 1RM.
+Table 2. Covariate mean, adjusted mean by ANCOVA to post-training, and absolute changes.
+Variables
+
+Adjusted
+Pre
+
+L-CHO (n = 14)
+
+H-CHO (n = 15)
+
+Post mean (95%
+CI)
+
+∆ (95% CI)
+
+Post mean (95%
+CI)
+
+∆ (95% CI)
+
+Lean soft tissue
+(kg)
+
+60.5
+
+61.9 (60.7–63.0)
+
+1.39 (0.07–2.71)
+
+61.9 (60.8–62.9)
+
+1.37 (0.12–2.63)
+
+Fat mass (kg)
+
+9.3
+
+9.2 (8.2–10.3)
+
+-0.08 (-1.32–1.14)
+
+9.8 (8.8–10.8)
+
+0.45 (-0.72–1.62)
+
+Relative fat mass
+(%)
+
+12.3
+
+12.2 (10.9–13.5)
+
+-0.07 (-1.57–1.43)
+
+12.6 (11.4–13.9)
+
+0.35 (-1.07–1.78)
+
+Bench press 1RM
+(kg)
+
+82.4
+
+85.6 (83.2–88.0)
+
+3.17 (0.42–5.91)
+
+87.1 (84.8–89.3)
+
+4.64 (2.03–7.24)
+
+Squat 1RM (kg)
+
+138.3
+
+147.5 (143.2–151.8)
+
+9.23 (4.19–14.2)
+
+152.5 (148.3–156.6)
+
+14.1 (9.41–18.9)
+
+Arm curl 1RM (kg)
+
+46.4
+
+48.0 (46.1–49.9)
+
+1.62 (-0.61–3.85)
+
+49.0 (47.2–50.9)
+
+2.62 (0.50–4.73)
+
+Note. 1RM, one-repetition maximum, ANCOVA analysis used the basal score, the total energy, and the relative
+protein as covariates. L-CHO = lower carbohydrate intake; H-CHO = higher carbohydrate intake.
+
+International Journal of Exercise Science
+
+273
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+
+Figure 1. Relative changes from pre- to post-training according to groups for lean soft tissue (Panel A), fat mass
+(Panel B), and relative fat mass (Panel C). Data are presented as mean and 95% confidence interval. L-CHO = lower
+carbohydrate intake; H-CHO = higher carbohydrate intake.
+
+Figure 2. Relative changes from pre- to post-training according to groups for muscular strength in bench press
+(Panel A), squat (Panel B), and arm curl (Panel C). Data are presented as mean and 95% confidence interval. L-CHO
+= lower carbohydrate intake; H-CHO = higher carbohydrate intake
+
+DISCUSSION
+The primary purpose of this study was to explore the effects of different amounts of CHO intake
+in combination with RT on body composition and muscular strength in resistance-trained men.
+We hypothesized that a higher CHO consumption would result in greater muscular strength
+and LST gains. We based this hypothesis on the supposition that CHO is an essential substrate
+for resistance exercise performance and on evidence that CHO modulates acute intracellular
+signaling pathways that may impact chronic muscular adaptations (11, 41). The main finding of
+our experiment was that CHO intake did not impair the muscular adaptations induced by RT
+in pre-conditioned men. However, higher consumption of CHO increased responsiveness to
+LST gain and arm curl strength. Thus, our initial hypothesis was partially confirmed.
+The lack of statistical difference between conditions for LST gains observed in our experiment
+may be related to several factors. For one, the amount of CHO ingested by the L-CHO group
+International Journal of Exercise Science
+
+274
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+may have already reached a minimum threshold for daily CHO intake needs. Therefore, the
+additional CHO consumed by the H-CHO group may have been redundant and hence nonadditive to muscular gains. Some experiments have shown that a diet with higher consumption
+of CHO does not reflect a better acute performance in RT (10, 28, 32, 36, 42). For example, Van
+Zant et al. (42) reported that three weeks of a moderate CHO diet (42%) resulted in no difference
+in muscular strength or endurance as measured by isokinetic knee extension and flexion, bench
+press 1RM, and repetitions to failure at 80% when compared with a higher CHO diet (62%).
+Additionally, Hatfield et al. (15) investigated the effect of 4 days of CHO-loading on RT
+performance in eight recreationally resistance-trained men who consumed 50 or 80% CHO.
+Results did not show a difference in peak power, mean power, and repetitive jump performance
+at 30%. Also, Dipla et al. (10) investigated ten recreationally active women who consumed a
+control diet consisting of 55% of CHO or 30% of CHO for one week, and no differences were
+found between interventions in isometric handgrip strength, handgrip endurance, and peak
+torque of knee extension and knee flexion.
+Studies have demonstrated that an acute bout of RT can reduce muscle glycogen content by
+approximately 25–40% when employing training volumes of 6 to 12 sets for a given muscle
+group (5, 16, 35). Therefore, a CHO-restricted diet may not be sufficient to decrease muscle
+glycogen stores to the extent that substantially impairs force capacity. Furthermore, glycogen
+replenishment may occur even in an unfed state (33, 35). Robergs et al. (35) measured the muscle
+glycogen levels of eight resistance-trained males before, immediately after, and two hours
+following six sets of 6 repetitions of leg extension at 70% 1RM. Participants were not fed during
+the two hours post-exercise period. Immediately post-exercise, glycogen concentrations were
+61% of pre-exercise values, whereas, after two hours post-exercise, muscle glycogen
+concentrations were 79% of pre-exercise levels, conceivably aided by lactate recycling. Hence,
+glycogen content may not be a limiting factor for RT performance, at least within a certain
+minimum threshold. Furthermore, anabolic intracellular signaling does not appear to be blunted
+by a low-CHO diet (6-9).
+In contrast to our results, previous investigations have reported superior benefits of a high-CHO
+diet compared to a low-CHO diet for changes in lean mass or measures of muscle hypertrophy.
+Ribeiro et al. (34) compared the effects of different amounts of energy intake with CHO surplus
+in eleven male bodybuilders. The results revealed that the group that ingested 12.9 g/kg/d of
+CHO achieved a greater increase in muscle mass than the group that ingested 8.0 g/kg/d (2.7%
+vs. 1.1%, respectively). In a study conducted by Vargas et al. 2018 (43), 24 resistance-trained men
+performed an 8-week RT program while consuming either a ketogenic diet (42 g/d) or a
+nonketogenic diet (~55% of total calories from CHO). Results showed that only the nonketogenic
+group increased LST. Similarly, Meirelles and Gomes (27) found that overweight individuals in
+a hypoenergetic state achieved superior quadriceps hypertrophy when consuming a moderately
+high carbohydrate versus a ketogenic diet (4.0% vs. −2.1%, respectively), although changes in
+upper-arm mass were similar between conditions. Moreover, Jabekk et al. (17) showed that a
+ketogenic diet combined with RT did not increase lean mass after 10 weeks, whereas a control
+group following their usual diet achieved an increase of 1.6 kg in lean mass. Recently, Paoli et
+International Journal of Exercise Science
+
+275
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+al. (31) investigated the effects of a ketogenic diet compared to a Western diet on body
+composition changes in competitive natural bodybuilders. All participants were given preprogrammed, calorie-equated diets to follow with a relatively high protein intake (2.5 g/kg/d)
+over an 8-week study period. The results showed that fat-free mass increased only in the
+Western diet group. The discrepancies among studies are not readily apparent, but they may be
+related to the amount of CHO utilized and the different RT protocols applied in studies. Low
+muscle glycogen levels can be particularly problematic during higher-volume routines because
+of the associated reduction in resistance exercise performance (38, 45).
+Another potential issue when comparing groups with different CHO intakes is that it creates an
+imbalance between groups regarding other macronutrients or calories. Thus, interventional
+results may not be due to manipulating the CHO per se but rather other confounding variables.
+Given this possibility, we employed a statistical procedure that accounted for differences in
+macronutrients and calorie intake. Despite the absence of statistical differences between
+conditions, the ES analysis favored the H-CHO group, albeit of a relatively small magnitude.
+Due to the large inter-individual variability observed in exercise and nutritional trials, analysis
+of each participants’ responsiveness is relevant to help draw evidence-based inferences. Our
+findings indicate that the H-CHO group displayed a more homogeneous LST response
+compared to the L-CHO diet. It is possible that individuals adapted differently to the L-CHO
+diet so that some participants were better able to sustain muscular performance with a reduced
+CHO intake while others showed performance decrements. From a practical standpoint, this
+would suggest that macronutrient needs should consider inter-individual variability, and
+ingesting a greater amount of CHO may increase the likelihood of responsiveness to RT. On the
+other hand, consuming less CHO may reduce the probability of higher responsiveness.
+Despite some investigations showing a benefit of low-CHO diets in reducing fat mass (17, 31,
+32, 43), our results indicated no effect for either condition in this body composition component.
+Given the well-established theory that energy balance dictates changes in body mass (39), it is
+possible to believe that the participants in both groups were not in a caloric deficit. A recent
+meta-analysis (3) evaluated the effects of RT combined with a ketogenic diet on body
+composition and observed beneficial effects of ketogenic compared to non-ketogenic diets on fat
+mass reduction in individuals performing RT. It is worth mentioning that in our experiment, the
+participants in the low CHO group did not follow a ketogenic diet. An important aspect to point
+out is the interindividual variability observed for changes in fat mass within groups; that is, 36%
+(5/14) of the participants were deemed responsive in the L-CHO, and 27% (4/15) were
+considered responsive in the H-CHO condition. These findings suggest that some participants
+were in a caloric deficit while others were not. This variability in body fat changes in response
+to different nutritional strategies has been reported previously (1, 4). Further investigations are
+needed to elucidate the underlying explanatory mechanisms for this phenomenon.
+Regarding dynamic strength, our results indicate that CHO intake does not affect increases in
+the bench press and squat 1RM. Previous investigations also observed no effects of varying
+International Journal of Exercise Science
+
+276
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+amounts of CHO consumption on chronic RT strength-related adaptations. Paoli et al. (31)
+observed that maximal strength increased similarly in bodybuilders ingesting a ketogenic diet
+or a western diet for two months. Greene et al. (12) found that a 3-month ketogenic diet did not
+impair strength-related performance in competitive powerlifters and weightlifters compared to
+a higher-CHO diet, despite an associated reduction in lean mass with the decreased CHO-intake.
+Paoli et al. (32) reported that performance of squat jumps, countermovement jumps, consecutive
+countermovement jumps, push-ups, reverse grip chin-ups, and parallel bar dips were
+maintained following 30 days of a low-CHO ketogenic diet in a cohort of elite gymnasts.
+Meirelles and Gomes (27) found no difference between groups for 10RM strength improvements
+when consuming a CHO restricted diet or a moderate CHO diet. Recently, Vidic et al. (44) found
+similar increases in muscle strength between a ketogenic diet versus a non-ketogenic diet
+following an 8-week RT program. Alternatively, Kephart et al. (18) reported that a cohort of
+CrossFit trainees who followed their regular dietary regimen achieved an approximately 5 kg
+increase in 1RM squat strength. In contrast, those following a ketogenic diet did not increase
+strength after 12 weeks. However, the ketogenic group seemingly was in an energy deficit while
+the control group appeared to be at caloric maintenance.
+Importantly, a significant change was observed in elbow flexors strength, where only the highCHO group showed a significant change from pre- to post-training. However, despite the
+probabilistic statistic showing a significant effect, it is important to note that the lower limit of
+95% CI (0.50) did not exceed the SEM of this assessment (0.60). Therefore, this should be
+considered a preliminary finding that requires replication.
+This study presents some limitations that must be considered when attempting to draw practical
+inferences. We did not assess the participants’ physical activity levels outside of the RT
+intervention. Thus, we cannot rule out whether there may have been differences in energy
+expenditure between groups. Moreover, although participants were instructed to maintain their
+usual eating habits, food intake was not monitored during the study. Therefore, we cannot rule
+out the possibility that participants misreported their actual food intake. Also, our study did not
+impose an isoenergetic diet, and groups were not matched for protein intake. We attempted to
+account for potential confounding in this regard using ANCOVA. In addition, we stratified
+“higher” and “lower” carbohydrate intakes using a binary cut-point of 5.0 g/kg/d; however,
+this reflects group means and does not take into account individual variations in CHO
+consumption within the two groups. Finally, groups were not randomized, which may have
+compromised internal validity.
+Conclusion: Our results suggest that a lower CHO intake does not negatively influence LST
+changes, bench press, and squat 1RM strength in pre-conditioned men after eight weeks of
+regimented RT. However, individual analyses suggest that a CHO intake of > 5.0 g.kg-1.d-1 seems
+to increase the responsiveness for gains in LST and arm curl strength.
+REFERENCES
+
+International Journal of Exercise Science
+
+277
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+1. Antonio J, Ellerbroek A, Silver T, Orris S, Scheiner M, Gonzalez A, Peacock CA. A high protein diet (3.4 g/kg/d)
+combined with a heavy resistance training program improves body composition in healthy trained men and
+women--a follow-up investigation. J Int Soc Sports Nutr 12: 39, 2015.
+2. Aragon A, Schoenfeld B. Magnitude and composition of the energy surplus for maximizing muscle hypertrophy:
+Implications for bodybuilding and physique athletes. Strength Cond J 42(5): 79-86, 2020.
+3. Ashtary-Larky D, Bagheri R, Asbaghi O, Tinsley GM, Kooti W, Abbasnezhad A, Afrisham R, Wong A. Effects of
+resistance training combined with a ketogenic diet on body composition: A systematic review and meta-analysis.
+Crit Rev Food Sci Nutr 62(21): 5717-5732, 2022.
+4. Barakat C, Pearson J, Escalante G, Campbell B, De Souza EO. Body recomposition: Can trained individuals build
+muscle and lose fat at the same time? Strength Cond J 42(5): 7-21, 2020.
+5. Camera DM, Edge J, Short MJ, Hawley JA, Coffey VG. Early time course of akt phosphorylation after endurance
+and resistance exercise. Med Sci Sports Exerc 42(10): 1843-1852, 2010.
+6. Camera DM, Hawley JA, Coffey VG. Resistance exercise with low glycogen increases p53 phosphorylation and
+pgc-1alpha mrna in skeletal muscle. Eur J Appl Physiol 115(6): 1185-1194, 2015.
+7. Camera DM, West DW, Burd NA, Phillips SM, Garnham AP, Hawley JA, Coffey VG. Low muscle glycogen
+concentration does not suppress the anabolic response to resistance exercise. J Appl Physiol (1985) 113(2): 206-214,
+2012.
+8. Churchley EG, Coffey VG, Pedersen DJ, Shield A, Carey KA, Cameron-Smith D, Hawley JA. Influence of
+preexercise muscle glycogen content on transcriptional activity of metabolic and myogenic genes in well-trained
+humans. J Appl Physiol (1985) 102(4): 1604-1611, 2007.
+9. Creer A, Gallagher P, Slivka D, Jemiolo B, Fink W, Trappe S. Influence of muscle glycogen availability on erk1/2
+and akt signaling after resistance exercise in human skeletal muscle. J Appl Physiol (1985) 99(3): 950-956, 2005.
+10. Dipla K, Makri M, Zafeiridis A, Soulas D, Tsalouhidou S, Mougios V, Kellis S. An isoenergetic high-protein,
+moderate-fat diet does not compromise strength and fatigue during resistance exercise in women. Br J Nutr 100(2):
+283-286, 2008.
+11. Escobar KA, VanDusseldorp TA, Kerksick CM. Carbohydrate intake and resistance-based exercise: Are current
+recommendations reflective of actual need? Br J Nutr 116(12): 2053-2065, 2017.
+12. Greene DA, Varley BJ, Hartwig TB, Chapman P, Rigney M. A low-carbohydrate ketogenic diet reduces body
+mass without compromising performance in powerlifting and olympic weightlifting athletes. J Strength Cond Res
+32(12): 3373-3382, 2018.
+13. Haff GG, Schroeder CA, Koch AJ, Kuphal KE, Comeau MJ, Potteiger JA. The effects of supplemental
+carbohydrate ingestion on intermittent isokinetic leg exercise. J Sports Med Phys Fitness 41(2): 216-222, 2001.
+14. Haff GG, Stone MH, Warren BJ, Keith R, Johnson RL, Nieman DC, Williams FJ, Kirksey KB. The effect of
+carbohydrate supplementation on multiple sessions and bouts of resistance exercise. J Strength Cond Res 13(2):
+111-117, 1999.
+15. Hatfield DL, Kraemer WJ, Volek JS, Rubin MR, Grebien B, Gómez AL, French DN, Scheett TP, Ratamess NA,
+Sharman MJ, McGuigan MR, Newton RU, Häkkinen K. The effects of carbohydrate loading on repetitive jump
+squat power performance. J Strength Cond Res 20(1): 167-171, 2006.
+
+International Journal of Exercise Science
+
+278
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+16. Hokken R, Laugesen S, Aagaard P, Suetta C, Frandsen U, Ørtenblad N, Nielsen J. Subcellular localization- and
+fibre type-dependent utilization of muscle glycogen during heavy resistance exercise in elite power and olympic
+weightlifters. Acta Physiol (Oxf) 231(2): e13561, 2021.
+17. Jabekk PT, Moe IA, Meen HD, Tomten SE, Høstmark AT. Resistance training in overweight women on a
+ketogenic diet conserved lean body mass while reducing body fat. Nutr Metab (Lond) 7: 17, 2010.
+18. Kephart WC, Pledge CD, Roberson PA, Mumford PW, Romero MA, Mobley CB, Martin JS, Young KC, Lowery
+RP, Wilson JM, Huggins KW, Roberts MD. The three-month effects of a ketogenic diet on body composition, blood
+parameters, and performance metrics in crossfit trainees: A pilot study. Sports (Basel) 6(1): 1, 2018.
+19. Kerksick CM, Wilborn CD, Roberts MD, Smith-Ryan A, Kleiner SM, Jäger R, Collins R, Cooke M, Davis JN,
+Galvan E, Greenwood M, Lowery LM, Wildman R, Antonio J, Kreider RB. Issn exercise & sports nutrition review
+update: Research & recommendations. J Int Soc Sports Nutr 15(1): 38, 2018.
+20. King A, Helms E, Zinn C, Jukic I. The ergogenic effects of acute carbohydrate feeding on resistance exercise
+performance: A systematic review and meta-analysis. Sports Med 52(11): 2691-2712, 2022.
+21. Knuiman P, Hopman MT, Mensink M. Glycogen availability and skeletal muscle adaptations with endurance
+and resistance exercise. Nutr Metab (Lond) 12: 59, 2015.
+22. Lambert C, Flynn M, Boone J, Michaud T, Rodriguez-Zayas J. Effects of carbohydrate feeding on multiple-bout
+resistance exercise. J Strength Cond Res 5(4): 192-197, 1991.
+23. Lambert CP, Flynn MG. Fatigue during high-intensity intermittent exercise: Application to bodybuilding. Sports
+Med 32(8): 511-522, 2002.
+24. Lambert CP, Frank LL, Evans WJ. Macronutrient considerations for the sport of bodybuilding. Sports Med 34(5):
+317-327, 2004.
+25. Leveritt M, Abernethy PJ. Effects of carbohydrate restriction on strength performance. J Strength Cond Res 13(1):
+52-57, 1999.
+26. MacDougall JD, Ray S, Sale DG, McCartney N, Lee P, Garner S. Muscle substrate utilization and lactate
+production. Can J Appl Physiol 24(3): 209-215, 1999.
+27. Meirelles CM, Gomes PS. Effects of short-term carbohydrate restrictive and conventional hypoenergetic diets
+and resistance training on strength gains and muscle thickness. J Sports Sci Med 15(4): 578-584, 2016.
+28. Mitchell JB, DiLauro PC, Pizza FX, Cavender DL. The effect of preexercise carbohydrate status on resistance
+exercise performance. Int J Sport Nutr 7(3): 185-196, 1997.
+29. Morton RW, Oikawa SY, Wavell CG, Mazara N, McGlory C, Quadrilatero J, Baechler BL, Baker SK, Phillips SM.
+Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in
+resistance-trained young men. J Appl Physiol 121(1): 129-138, 2016.
+30. Navalta JW, Stone WJ, Lyons TS. Ethical issues relating to scientific discovery in exercise science. Int J Exerc Sci
+12(1): 1-8, 2019.
+31. Paoli A, Cenci L, Pompei P, Sahin N, Bianco A, Neri M, Caprio M, Moro T. Effects of two months of very low
+carbohydrate ketogenic diet on body composition, muscle strength, muscle area, and blood parameters in
+competitive natural body builders. Nutrients 13(2): 374, 2021.
+
+International Journal of Exercise Science
+
+279
+
+http://www.intjexersci.com
+
+Int J Exerc Sci 16(2): 267-280, 2023
+32. Paoli A, Grimaldi K, D'Agostino D, Cenci L, Moro T, Bianco A, Palma A. Ketogenic diet does not affect strength
+performance in elite artistic gymnasts. J Int Soc Sports Nutr 9(1): 34, 2012.
+33. Pascoe DD, Gladden LB. Muscle glycogen resynthesis after short term, high intensity exercise and resistance
+exercise. Sports Med 21(2): 98-118, 1996.
+34. Ribeiro AS, Nunes JP, Schoenfeld BJ, Aguiar AF, Cyrino ES. Effects of different dietary energy intake following
+resistance training on muscle mass and body fat in bodybuilders: A pilot study. J Hum Kinet 70: 125-134, 2019.
+35. Robergs RA, Pearson DR, Costill DL, Fink WJ, Pascoe DD, Benedict MA, Lambert CP, Zachweija JJ. Muscle
+glycogenolysis during differing intensities of weight-resistance exercise. J Appl Physiol (1985) 70(4): 1700-1706,
+1991.
+36. Sawyer JC, Wood RJ, Davidson PW, Collins SM, Matthews TD, Gregory SM, Paolone VJ. Effects of a short-term
+carbohydrate-restricted diet on strength and power performance. J Strength Cond Res 27(8): 2255-2262, 2013.
+37. Schoenfeld BJ. The mechanisms of muscle hypertrophy and their application to resistance training. J Strength
+Cond Res 24(10): 2857-2872, 2010.
+38. Slater G, Phillips SM. Nutrition guidelines for strength sports: Sprinting, weightlifting, throwing events, and
+bodybuilding. J Sports Sci 29 Suppl 1: S67-77, 2011.
+39. Thomas DM, Ciesla A, Levine JA, Stevens JG, Martin CK. A mathematical model of weight change with
+adaptation. Math Biosci Eng 6(4): 873-887, 2009.
+40. Thomas DT, Erdman KA, Burke LM. Position of the Academy of Nutrition and Dietetics, Dietitians of Canada,
+and the American College of Sports Medicine: Nutrition and athletic performance. J Acad Nutr Diet 116(3): 501528, 2016.
+41. Tzur A, Roberts BM. The ketogenic diet for bodybuilders and physique athletes. Strength Cond J 42(5): 108-115,
+2020.
+42. Van Zant RS, Conway JM, Seale JL. A moderate carbohydrate and fat diet does not impair strength performance
+in moderately trained males. J Sports Med Phys Fitness 42(1): 31-37, 2002.
+43. Vargas S, Romance R, Petro JL, Bonilla DA, Galancho I, Espinar S, Kreider RB, Benítez-Porres J. Efficacy of
+ketogenic diet on body composition during resistance training in trained men: A randomized controlled trial. J Int
+Soc Sports Nutr 15(1): 31, 2018.
+44. Vidić V, Ilić V, Toskić L, Janković N, Ugarković D. Effects of calorie restricted low carbohydrate high fat
+ketogenic vs. non-ketogenic diet on strength, body-composition, hormonal, and lipid profile in trained middleaged men. Clin Nutr 40(4): 1495-1502, 2021.
+45. Wax B, Kavazis AN, Brown SP. Effects of supplemental carbohydrate ingestion during superimposed
+electromyostimulation exercise in elite weightlifters. J Strength Cond Res 27(11): 3084-3090, 2013.
+
+International Journal of Exercise Science
+
+280
+
+http://www.intjexersci.com
+
+

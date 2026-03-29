@@ -1,0 +1,935 @@
+RANGE OF MOTION AND LEG ROTATION AFFECT
+ELECTROMYOGRAPHY ACTIVATION LEVELS OF THE
+SUPERFICIAL QUADRICEPS MUSCLES DURING
+LEG EXTENSION
+JOSEPH F. SIGNORILE,1,2 KAREN M. LEW,1 MARK STOUTENBERG,3 ALESSANDRA PLUCHINO,4
+JOHN E. LEWIS,5 AND JINRUN GAO6
+1
+
+Department of Kinesiology and Sport Sciences, University of Miami, Coral Gables, Florida; 2Associate Faculty, Center on
+Aging, Miller School of Medicine, University of Miami, Miami, Florida; Departments of 3Epidemiology and Public Health;
+and 4Family Medicine and Community Health, Miller School of Medicine, University of Miami, Miami, Florida; 5Department
+of Psychiatry & Behavioral Sciences and Associate Director of the Medical Wellness Center, Miller School of Medicine,
+University of Miami, Miami, Florida; and 6American International Group, New York, New York
+
+ABSTRACT
+Signorile, JF, Lew, KM, Stoutenberg, M, Pluchino, A, Lewis, JE,
+and Gao, J. Range of motion and leg rotation affect electromyography activation levels of the superficial quadriceps
+muscles during leg extension. J Strength Cond Res 28(9):
+2536–2545, 2014—Leg extension (LE) is commonly used to
+strengthen the quadriceps muscles during training and rehabilitation. This study examined the effects of limb position
+(POS) and range of motion (ROM) on quadriceps electromyography (EMG) during 8 repetitions (REP) of LE. Twenty-four
+participants performed 8 LE REP at their 8 repetition maximum
+with lower limbs medially rotated (TI), laterally rotated (TO),
+and neutral (NEU). Each REP EMG was averaged over
+the first, middle, and final 0.524 rad ROM. For vastus medialis
+oblique (VMO), a REP 3 ROM interaction was detected (p ,
+0.02). The middle 0.524 rad produced significantly higher
+EMG than the initial 0.524 rad for REP 6–8 and the final
+0.524 rad produced higher EMG than the initial 0.524 rad
+for REP 1, 2, 3, 4, 6, and 8 (p # 0.05). For rectus femoris
+(RF), EMG activity increased across REP with TO generating
+the greatest activity (p , 0.001). For vastus lateralis (VL),
+EMG increased across REP (p , 0.001) with NEU and TO
+EMG increasing linearly throughout ROM and TI activity greatest during the middle 0.524 rad. We conclude that to target
+the VMO, the optimal ROM is the final 1.047 rad regardless of
+POS, while maximum EMG for the RF is generated using TO
+regardless of ROM. In contrast, the VL is maximally activated
+
+Address correspondence to Joseph F. Signorile, jsignorile@miami.edu.
+28(9)/2536–2545
+Journal of Strength and Conditioning Research
+Ó 2014 National Strength and Conditioning Association
+
+2536
+
+the
+
+using TI over the first 1.047 rad ROM or in NEU over the final
+0.524 rad ROM.
+
+KEY WORDS strength training, electromyographic activity,
+patellofemoral joint, vastus medialis, vastus lateralis
+
+INTRODUCTION
+
+R
+
+esistance exercises are commonly used to
+strengthen the muscles of the quadriceps group
+during training and rehabilitation. Among the
+major concerns faced by therapists, athletic trainers and strength coaches are low quadriceps strength and
+imbalances in strength and activation patterns between
+vastus medialis oblique (VMO) and vastus lateralis (VL)
+muscles, which may potentially lead to patellofemoral pain
+and dysfunction. Clinicians maintain that when the patella is
+surrounded by unbalanced forces that cause lateral patella
+tracking, the results are abnormal stresses on the subchondral
+bone resulting in pain and injury. These forces can be caused
+by poor coordination between the medial and lateral pull
+produced by the VMO and VL, respectively, combined with
+tightness of the lateral retinaculum and iliotibial band (12).
+Strengthening of the VMO is often considered an essential
+component of the treatment of anterior knee pain related to
+physical and biomechanical changes in the patellofemoral
+joint (12,24). Keeping this in mind, it may be desirable to
+selectively strengthen the vasti muscles, especially the VMO,
+to correct imbalances and re-establish or maintain normal
+patellofemoral tracking and reduce the likelihood or severity
+of irregular tracking patterns (7,35,36).
+The benefits of closed chain kinetic exercises and open
+chain kinetic exercises (OKC) are well established in the
+literature (17,41,42). Traditionally, the leg extension (LE),
+the predominant OKC exercise, has been performed through
+the final 0.524 rad of extension if the specific objective was
+
+TM
+
+Journal of Strength and Conditioning Research
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+the
+
+TM
+
+Journal of Strength and Conditioning Research | www.nsca.com
+foot positions during LE.
+These studies have included
+TABLE 1. Physical characteristics of subjects.*
+analyses during isometric (36–
+38), isokinetic (9,10,18), and
+N
+Height (m)
+Weight (kg)
+Age (y)
+isoinertial exercise (32).
+Female
+12
+1.65 (0.09)
+60.2 (7.3)
+22.6 (2.2)
+To our knowledge, however,
+Male
+12
+1.84 (0.05)
+84.9 (9.6)
+24.8 (5.2)
+only
+2 studies have used elecTotal sample
+24
+1.74 (0.12)
+72.5 (15.1)
+23.7 (4.0)
+tromyographic (EMG) analy*Values represent mean (SD).
+ses to quantify VMO versus VL
+activity levels during isoinertial
+LE training. The initial study
+by Signorile et al. (32) examstrengthening the VMO. Leg extension exercises in this end
+ined the effect of 3 positions (POS): tibial internal rotation
+range of motion (ROM) have been encouraged because the
+(toes in: TI); neutral rotation (toes neutral: NEU); and tibial
+overload on the VMO seems to be the greatest over this
+external rotation (toes out: TO) during a single repetition
+range (13,39); however, questions remain concerning the
+through a constant ROM. The second study by Stoutenberg
+extent to which VMO recruitment and isolation are possible
+et al. (33) quantified levels of EMG activity of these muscles
+by limiting LE to the final 0.524 rad of extension (35). Addiusing the same 3 POS during a typical multirepetition, isotionally, some researchers contend that full extension may be
+inertial training set. Finally, to date, only a single study has
+ill-advised due to an increasing external moment arm, which
+examined the combined effects of knee angle and ROM;
+creates large external and shearing forces, particularly over
+however, the analysis was performed during isometric rather
+the final 0.785 rad of extension (19,21). These authors, therethan isoinertial training (30). Our hypothesis is that the indifore, advocate limiting the use of LE to the initial 0.785 rad
+vidual muscles of the quadriceps group can be selectively
+of extension (0.785–1.571 rad of extension) to reduce these
+targeted during the LE exercise using knee angle and foot
+potentially damaging forces.
+position, and that activity levels due to foot position will vary
+Given the discussions concerning the effectiveness and
+throughout the ROM of the exercise. Patella femoral pain
+safety of using limited ROM to selectively target the VMO
+(PFP) continues to be a concern when clinicians are working
+and VL, researchers have also examined the use of different
+with LE injuries.
+Providing clinicians, including therapists, strength coaches,
+or athletic trainers with the
+capacity to combine ROM and
+POS for more effective targeting of the vasti muscles may
+allow safer and more effective
+protocols for reducing and assessing anterior knee pain (11).
+Keeping this in mind, we
+investigated the EMG activity
+of the 3 superficial quadriceps
+muscles through 3 specific
+ROM during LE repetitions
+(REP) using TI, NEU, and
+TO. Increased activity of the
+VMO has been reported during the final 308 of knee extension in electromyographical
+and cadaver studies. Foot position can have a significant
+clinical implication if the
+emphasis is placed on proper
+positioning. End ROM should
+combine ROM and foot posiFigure 1. Study flow diagram.
+tion to better target the vasti
+muscles.
+VOLUME 28 | NUMBER 9 | SEPTEMBER 2014 |
+
+2537
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+Optimal ROM and Leg Extension
+
+Figure 2. Schematic diagram of the collection system.
+
+METHODS
+Experimental Approach to the Problem
+
+To investigate the impacts of foot position and ROM on the
+selected activities of the VL, vastus medialis, and rectus femoris
+(RF) during the LE exercise, participants performed three
+8-repetition sets through their full ROM with their feet in the
+toes in, neutral, or toes in position. Each repetition was divided
+into three 0.524 rad segments marked by pulses resulting from
+closures of magnetic reed switches. Electromyographic activities of the RF and vasti muscles were collected throughout each
+set. The patterns of foot positions were randomly assigned, and
+recovery periods of 10 minutes were provided between sets.
+Separate 3 (ROM) by 3 (foot position) by 8 (repetition)
+repeated measures ANOVA were used to assess differences in
+the activities of the 3 superficial quadriceps muscles, and least
+square mean analyses with a Bonferroni adjustments were used
+to ascertain the source of those differences.
+Subjects
+
+Twelve men and 12 women (aged 18–40 years), who were
+currently training at least twice a week and had a minimum
+
+TABLE 2. Beginning and ending knee angles of
+subjects.*
+N Beginning (rad)
+
+Ending (rad)
+
+Female
+12 1.950 (0.075)
+Male
+12 1.941 (0.099)
+Total sample 24 1.941 (0.091)
+
+0.209 (0.070)
+0.180 (0.069)
+0.201 (0.070)
+
+*Values represent mean (SD).
+
+2538
+
+the
+
+of 6 months of lifting experience, participated in the study.
+Physical characteristics of the
+subjects, who met these criteria
+and participated in the study,
+are presented in Table 1. Before
+admission into the study, all
+potential subjects completed
+a medical questionnaire form,
+which was used to screen for
+previous or preexisting injuries.
+To qualify for the study, applicants needed to be in good
+health with no knee problems,
+such as tendinitis, instability, or
+previous surgical repairs, which
+could have affected their performance or put them at undue
+risk for injury. The University
+of Miami Institutional Review
+Board for the Protection of
+Human Subjects approved all procedures before testing,
+and subjects were required to sign an informed consent
+before participation. The study complied with the principles
+laid down in the Declaration of Helsinki. A flow diagram
+illustrating the study design is presented in Figure 1.
+Lifting Protocols
+
+Bilateral LEs were performed on a Cybex VR LE machine
+(CYBEX International, Inc., Medway, MA, USA) with the
+backrest secured at 1.75 rad. The bilateral LE was chosen
+over the single leg movement because it provided a more
+comfortable position for varying foot positions and is a more
+commonly used exercise than the unilateral LE. Subject
+testing and data collection occurred during a single laboratory session. This ensured that the collected EMG data were
+not affected by electrode placement or preparation or
+environmental variations. All exercises were preceded by
+a movement-specific warm-up on the Cybex machine
+consisting of 5 repetitions (REP) at 50% of the subject’s
+reported 8RM. After the warm-up set, each subject performed 1 or 2 additional sets to establish his or her 8RM.
+Because subjects were experienced weight-trainers, they
+were able to establish their 8RM within 2 testing sets. Subjects were provided a 5-minute recovery period between
+8RM attempts and received a minimum of 10 minutes of
+additional recovery before the start of testing. During this
+time, the subject was prepared for EMG data collection.
+Electromyography
+
+Because the purpose of the study was to examine the level of
+EMG activity in the 3 large superficial quadriceps muscles
+(VL, RF, and VMO), a bipolar surface electrode configuration was chosen to maximize the reception area, while
+controlling the potential for cross talk among the muscles
+examined. Surface electrodes have been specifically
+
+TM
+
+Journal of Strength and Conditioning Research
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+the
+
+TM
+
+Journal of Strength and Conditioning Research | www.nsca.com
+Lynn et al. (22) estimated that
+the area of detection using
+a bipolar surface configuration
+was equal to the interelectrode
+distance. Because the girth of
+the muscles examined in this
+study was considerably greater
+than the 1.5-cm interelectrode
+distance used, the likelihood of
+cross talk was minimal.
+The location of each
+muscle’s motor point was
+determined using a lowvoltage stimulator delivering
+a series of 5-millisecond pulses
+at 5 pulses per second. Voltage
+was progressively reduced
+from approximately 50 V until
+only 1 point elicited a response.
+This point was then used as the
+motor point for that muscle.
+After motor points were located,
+the skin surface distal to each
+Figure 3. Illustration of a raw electromyography signal with 5-V spikes used to delineate specific ranges of motion.
+point was shaved, lightly
+abraded, and cleaned with alcohol to remove dead surface tissues and oils, which might reduce signal fidelity. Disposable
+recommended for this application. Andreassen and
+Ag/AgCl pregelled disk surface electrode pairs (Marquette
+Rosenfalck (2) have reported that a bipolar configuration set
+Medical Systems, Jupiter, FL, USA) were positioned immediparallel to the active fibers of the muscle is the most selective
+ately distal to each motor point, 1.5 cm apart and parallel with
+surface configuration to control for cross talk. In addition,
+the underlying muscle fibers as
+determined by the pennation of
+the muscle. EMG data were collected from the quadriceps
+muscles of each subject’s right
+leg, and a reference electrode
+was placed on the head of the
+fibula of the same leg.
+Raw EMG signals were recorded using a wireless telemetry system (Noraxon USA,
+Inc., Scottsdale, AZ, USA),
+and the quality of the signals
+was visibly assessed for each
+muscle before data collection.
+The Noraxon system used to
+collect the EMG data had an
+input impedance of 2 Megaohms (MV) and a common
+mode rejection ratio of 100
+db. The gain was set at 2000
+with band pass filtering set
+Figure 4. Normalized vastus lateralis rms electromyography for the neutral, toe in, and toe out positions across
+between 5 and 500 Hz. Signals
+designated ranges of motion. *Significantly different than the neutral position (p # 0.05). †Significantly different
+than toe out position (p # 0.05).
+were sampled at a speed
+of 1024 Hz, digitized using
+VOLUME 28 | NUMBER 9 | SEPTEMBER 2014 |
+
+2539
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+Optimal ROM and Leg Extension
+weight stack. Two magnetic closure (reed) switches, interfaced
+with 5 V power sources, were
+placed on the frame of the LE
+machine at each end of the
+subject’s ROM. One reed switch
+was placed on the frame of the
+LE machine directly across from
+the magnet, when the subject
+was seated in the machine with
+the weight plates resting on one
+another. The angle of knee flexion was measured at this point
+using a mechanical 12-inch
+International
+Standards
+of
+Measurement goniometer. The
+subject was then asked to maximally extend his or her legs, and
+a second reed switch was placed
+on the machine frame at this
+Figure 5. Normalized vastus lateralis rms electromyography for the 0–0.524 rad, 0.525–1.047 rad, and 1.047–
+position to mark the upper end
+1.570 rad positions across repetitions. *Significantly different than 1.047–1.570 rad (p # 0.05). †Significantly
+of the subject’s ROM. Two addidifferent than 0.525–1.047 rad (p # 0.05).
+tional reed switches were placed
+on the LE machine at 0.524 rad
+and 1.047 rad of knee flexion
+a 16-bit A/D converter (DataPac, Laguna Beach, CA, USA)
+from the horizontal plane. A schematic diagram of the LE data
+and stored on a laboratory computer.
+collection is presented in Figure 2. Mean values for the knee
+angle corresponding to the beginning and end points of ROM
+Data Collection
+for the male and female subjects and the entire sample are
+After electrode preparation, each subject performed bilateral
+presented in Table 2.
+LE at 70% of his or her 8RM. The ROM for the LE movement
+During each REP, whenever the magnet passed a reed
+was individually established for each subject. A magnet was
+switch, a 5-V spike was produced and sent to the analog-toattached to the upper edge of the top plate on the moving
+digital board of the EMG collection system. These spikes
+were used to separate the different angles at which EMG
+data were collected throughout
+the concentric portion of the
+LE (Figure 3). The reed switch
+marking the end ROM was
+interfaced with a second 5-v
+power source and a buzzer, so
+an audible signal was produced.
+This signal indicated to the subject that he or she had reached
+the end of the concentric ROM.
+The spikes collected at the
+beginning and end of each concentric contraction allowed us
+to accurately mark the concentric portion of the event for
+EMG analysis.
+Three foot positions (POS)
+were tested during each testing
+Figure 6. Normalized rectus femoris root mean square electromyography for the toe in, neutral, and toe out
+positions. *Significantly different than the neutral and toe in positions (p , 0.0001).
+session: (a) toes neutral (NEU)
+with no medial or lateral
+
+2540
+
+the
+
+TM
+
+Journal of Strength and Conditioning Research
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+the
+
+TM
+
+Journal of Strength and Conditioning Research | www.nsca.com
+position during performance
+of the LE. The order of the
+POS was randomly selected
+to reduce the impact of any
+order effect. One set of 8 REP
+was performed for each POS.
+A REP was not counted unless
+it was performed throughout
+the individual’s full ROM. An
+acceptable REP began with
+a momentary resting of the
+weight plates and ended, when
+the magnet affixed to the
+weight stack passed the reed
+switch eliciting an audible signal. Subjects were instructed
+not to reverse the direction of
+movement at the top of the
+ROM until the audible signal
+was heard and to provide
+Figure 7. Normalized rectus femoris root mean square electromyography across repetitions. *Significantly higher
+a momentary stop at the botthan the preceding repetition (p # 0.05).
+tom of the ROM. Subjects
+were given a 5-minute recovery period between sets. Consistent instructions were used
+rotation, (b) toes in (TI) with toes internally or medial
+to motivate the subjects during testing. Data were collected
+rotated as far as the subject could comfortably be maintained
+throughout the entire ROM and later divided into the conby the subject throughout all REP, and (c) toes out (TO)
+centric and eccentric portions of each REP for analysis.
+with toes externally or laterally rotated as far as the subject
+could comfortably be maintained throughout all REP. No
+Electromyographic Analysis Procedures
+attempt was made to dictate a specific foot angle for the TI
+Recorded EMG signals from each muscle were analyzed
+or TO POS because this would be dependent on each
+using DATAPAC 2K2 software (Run Technologies, Mission
+individual’s ROM and his or her ability to maintain that
+Viejo, CA, USA). The root
+mean square of the EMG signal
+(rmsEMG) was used as a measure of average muscle activity
+for each muscle throughout the
+concentric phase of each REP
+under each testing POS. The
+rmsEMG signal was normalized (NrmsEMG) using the
+highest recorded value seen for
+each individual muscle during
+any of the 3 testing POS, and all
+comparisons were made using
+NrmsEMG.
+Statistical Analyses
+
+Figure 8. Normalized vastus medialis root mean square electromyography for 0–0.524 rad, 0.525–1.047 rad,
+and 1.047–1.570 rad across repetitions. *Significantly different than 1.047–1.570 rad (p # 0.05). †Significantly
+different than 0.525–1.047 rad (p # 0.05).
+
+Data analyses included separate 3 (ROM) by 3 (POS) by
+8 (REP) repeated measures
+ANOVA to examine differences in NrmsEMG within each
+of the 3 superficial quadriceps
+muscles. When statistically
+significant differences were
+
+VOLUME 28 | NUMBER 9 | SEPTEMBER 2014 |
+
+2541
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+Optimal ROM and Leg Extension
+detected, individual least square means (LS means) analyses
+with a Bonferroni adjustment were used to ascertain the
+source of those differences. All analyses were performed
+using the SAS 8.0 statistical package (SAS Institute Inc.,
+Cary, NC, USA).
+
+RESULTS
+Vastus Lateralis
+
+For the VL, significant POS by ROM (p , 0.001) and REP
+by ROM (p = 0.007) interactions were detected. A post-hoc
+analysis of the POS by ROM interaction revealed that the
+EMG activity produced during the NEU and TO positions
+increased linearly across knee angles, while the EMG activity for the TI position was the greatest in the middle 0.524
+rad ROM. The electrical activity produced in the TI position
+was significantly greater than the TO and NEU positions
+during the first 0.524 rad and middle 0.524 rad ROM. Additionally, over the final 0.524 rad ROM, only the NEU position was significantly different than the TO position
+(Figure 4). The post-hoc analysis of the REP by ROM interaction revealed that no significant differences existed
+between the middle and final 0.524 rad ROM over the
+course of the 8 REP. However, the first 0.524 rad ROM
+was significantly lower than the middle and final 0.524 rad
+ROM during each REP (Figure 5).
+Rectus Femoris
+
+For the RF, significant main effects were observed for REP
+(p , 0.0001) and POS (p = 0.0009). Mean EMG activity of
+the RF progressively increased across REP (Figure 6). For
+POS, the TO position generated significantly higher electrical activity than either the NEU (p , 0.001) or TI (p ,
+0.001) positions (Figure 7).
+Vastus Medialis
+
+A significant REP by ROM interaction (p = 0.02) was found
+for the VMO. A post-hoc analysis revealed that no significant differences existed between the middle and final 0.524
+rad ROM over the course of the 8 REP; however, the electrical activity during the first 0.524 rad ROM was significantly lower than that of the middle 0.524 rad for REP 6
+and 8 and the final 0.524 rad for REP 1, 2, 3, 4, 6, and 8
+(Figure 8).
+
+DISCUSSION
+This is the first study, to our knowledge, examining levels of
+EMG activity of the superficial quadriceps muscles using
+specific ROM and POS during a set of isoinertial bilateral
+LE; however, the combined effects of ROM and POS have
+been examined in one other study by Signorile et al. (30)
+using isometric contractions at 3 set knee angles, 908 (1.571
+rad), 1508 (2.620 rad), and 1758 (3.054 rad). Given that these
+are the only studies that evaluated the concurrent influences
+of these 2 factors on quadriceps’ activity levels, we will begin
+our discussion with a comparison between the findings from
+this study and those presented by Signorile et al. (30).
+
+2542
+
+the
+
+The results of this study show that to maximally activate
+the VL, both ROM and POS must be considered. When the
+LE was performed with the ROM limited to the initial 1.047
+rad, TI produced the highest electrical activity levels. As we
+noted in an earlier article (31), the increased muscle activity
+may have been due to the medial rotation of the leg causing
+an increase in tension along the fibers that run obliquely
+downward from the VL lateral to the medial side. These
+results differ from those reported by Signorile et al. (30) for
+the VL during isometric LE testing, where NEU produced
+greater electrical activity than TI at 908 (1.571 rad) and
+greater than TO at 1508 (2.620 rad) knee angles. These knee
+angles are within the first and second 0.524 ROM used during this study. Our results showing that NEU produced
+greater activity than TO during the final 0.524 rad agree with
+their results, which noted that NEU produced greater electrical activity than TI or TO at a 1758 (3.054 rad) knee angle.
+Our results indicating that for targeting the RF, ROM was
+not a consideration and that TO generated the highest
+activity also differs considerably from those reported by
+Signorile et al. (31). They reported that 908 produced greater
+activity than 1758 (3.054 rad) during NEU and TO and
+greater activity than 1508 (2.620 rad) in neutral POS. They
+also stated that in the NEU and TO POS, 1508 (2.620 rad)
+produced higher activity than 1758 (3.054 rad). They noted
+that no differences were seen due to POS for any knee
+angle with the exception of 1508 (2.620) rad, which generated a higher rmsEMG at NEU versus TI, but did not differ
+from TO.
+Finally, when comparing our results for the VMO to those
+of Signorile et al. (30), our finding that, across a set of exercise, the rmsEMG for the second and third 0.524 rad ROM
+was greater than for the initial 0.524 rad ROM regardless of
+POS, once again differs from their findings. Signorile et al.
+(30) reported that at 908 (1.571 rad) and 1508 (2.620 rad),
+NEU produce greater EMG activity than TI and TO,
+respectively, and that for the 1758 (3.054 rad) knee angle,
+TI activity was greater than that for TO. Additionally, these
+researchers also reported for the TO position that the 908
+(1.571 rad) knee angle produced greater activity than either
+the 1508 (2.620 rad) or 1758 (3.054 rad) knee angle.
+The differences between the results reported by Signorile
+et al. (30) and those of this study may be explained by
+a number of factors. The fact that their study used a single
+isometric contraction at isolated knee angles, rather than
+isoinertial contractions throughout each subject’s identified
+ROM is the most obvious explanation. A number of researchers have reported weak relationships between EMG
+activities during maximum dynamic versus isometric performances (4,8). These differences may be the result of the
+type of contraction (3), the load or tension produced (1,15),
+changing angles throughout each individual’s ROM (14), the
+speed of movement and momentum (29), and incorporation
+of elastic energy from the stretch-shortening cycle (23,28).
+Therefore, comparisons between these studies, although
+
+TM
+
+Journal of Strength and Conditioning Research
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+the
+
+TM
+
+Journal of Strength and Conditioning Research | www.nsca.com
+both examined the interactive effects of knee and foot positions on quadriceps activities, are tenuous.
+Comparisons of our results to other studies that have
+examined POS during dynamic contractions are feasible, but
+cannot address the potential interactions that are evidenced
+by our results. For the VL, our results showing that the TI
+POS produced the highest activity levels during the initial
+1.047 rad are in agreement with the results reported by
+Stoutenberg et al. (33) who stated that this POS produced the
+highest electrical activity levels for the VL throughout participants’ full ROM. However, our results differ from those
+reported by Signorile et al. (32) who reported no impact on
+EMG activity due to POS. The stronger agreement between
+the results reported by Stoutenberg et al. (33) compared with
+the earlier study by Signorile et al. (32) may have been the
+result of the use of a similar number of repetitions by thsi
+study and that of Stoutenberg et al. (33) compared with the
+3 repetitions used in the earlier study (32). Additionally, the
+subjects in the study by Signorile et al. (32) were Division 1
+competitive athletes, whereas this study included participants
+between the ages of 18 and 40 years, and the study by
+Stoutenberg et al. (33) used college-aged subjects, engaged
+in recreational resistance training. Our results also agree with
+the findings of Wheatley and Jahnke (38) who reported that
+the greatest level of activation of the VL was during medial
+rotation of the tibia when the knee was held at 1.57 rad and
+the isometric contraction was performed with the subject in
+a seated position. For the RF, our results indicating that the
+TO POS produces the highest level of activity among the 3
+foot positions tested and is in agreement with the 2 previous
+studies that have examined the impact of POS on EMG
+activity during dynamic isoinertial exercise (30,33). Finally,
+our finding that POS had no impact on VM activity is in
+agreement with the results reported by Signorile et al. (30),
+but conflicts with the results reported by Stoutenberg et al.
+(33) indicating that the TI position produced significantly
+greater muscle activity than NEU.
+The impact of knee angle alone on the EMG activities of
+the superficial quadriceps during this study can also be
+examined relative to results reported in previous studies;
+however, these comparisons must be considered recognizing
+the influence of foot position on muscle activity at specific
+knee angles. For example, considering the VL, no definitive
+statement can be made because optimal knee angles cannot
+be determined without considering foot position. On examining the impact of knee angle on RF activity, comparisons
+are also difficult because this study detected no impact of
+ROM on EMG activity. These results differ from those of
+Wheatley and Jahnke (38) and Browstein et al. (6) who
+indicated that the highest activity levels for this muscle were
+elicited between 908 (1.570 rad) and 1008 (1.745 rad). Our
+results for the VM do support the contention that the levels
+of activity of this muscle should be greater at larger knee
+angles (13,39); however, the results of a number of studies
+argue against this hypothesis (1,34), and the studies that
+
+have provided direct electromyographic evidence are limited
+(5,20,38).
+Finally, the patterns of increasing activity seen across
+repetitions regardless of knee angle or foot position are to be
+expected given the correlation between increasing levels of
+fatigue and EMG amplitude increases reported during
+repeated submaximal contractions (27).
+When considering the use of LE to balance VM and VL
+forces, based on structural kinematics, researchers have
+advocated movement in the final 0.524 rad because in this
+position, the patella rests completely above the intercondylar
+groove against a suprapatellar fat pad resulting in little or no
+contact forces (16,35). In fact, the greatest contact forces at
+the patellofemoral joint have been shown to occur between
+1.047 and 1.571 rad of flexion, when only 30% of total patella
+area is in contact with the femur leading to excessive contact
+pressure (25). In addition, the greatest patellofemoral joint
+stress is between 0 and 0.524 rad, plateauing between 0.524
+and 1.047 rad, and steeply declining from 1.047 to 1.571 rad.
+These findings, in conjunction with our results, provide evidence that if targeting the VMO for reduction of patellar
+dysfunction, the optimal benefit would occur over the final
+1.047 rad ROM and that the POS is not a factor. However, if
+the objective is to reduce the activity of the VL during this
+training, the TO POS should be used.
+
+PRACTICAL APPLICATIONS
+Open chain kinetic exercises exercises are used in physical
+therapy clinics and athletic training facilities during the late
+phases of rehabilitation after major reconstructive surgery of
+the anterior cruciate ligament (ACL) and to address patellar
+malalignment that may lead to patellofemoral pain and
+dysfunction. Several studies have shown the efficacy of using
+OKC, such as the LE, as a part of this rehabilitation process
+(i.e., ACL reconstruction) (26,33). However, in ACL rehabilitation, therapists using the LE exercise may choose to
+avoid the final 0.524 rad ROM, where anterior shearing
+forces are the greatest and can lead to increased graft strain
+and disruption (13,39). Additionally, when addressing PFP,
+targeting selected superficial quadriceps muscles using different knee angles, foot positions, or combinations of the 2 can
+increase the effectiveness of the intervention. Our results
+indicate that for targeting the VMO when addressing PFP,
+the final 1.047 rad of LE is most effective regardless of foot
+position; however, when addressing imbalances between the
+vasti muscles, the relative training effect on the VL can be
+reduced using the TO position. Our results indicate that,
+given the data indicating that the final 0.524 rad ROM
+should be avoided during ACL rehabilitation, using the middle 0.524 rad ROM and alternating between the TI and TO
+positions will allow the greatest activation of the superficial
+quadriceps, while minimizing anterior shearing forces.
+In conclusion, clinicians, with the use of the proper
+combination of ROM and POS, can apply our results to
+design exercise OKC protocols specifically for patients with
+VOLUME 28 | NUMBER 9 | SEPTEMBER 2014 |
+
+2543
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+Optimal ROM and Leg Extension
+either PFP or in the late stages of rehabilitation after ACL
+reconstruction surgery. The results from this study will allow
+clinicians to use suggested TI or TO positions to selectively
+activate the vasti muscles. In many OKC protocols, the focus
+on individual muscle activation of the superficial quadriceps
+muscles could be improved. The ability to target these
+muscles using a combination of ROM and varying foot
+positions supports our hypothesis. The generalizability of
+our results may be limited by the use of a young, healthy
+sample with no history of knee or ankle injury. This may
+affect both the exercise patterns and the EMG responses
+during LE. We suggest a similar study be conducted with
+patients presenting PFP. Finally, these results are specific to
+the LE exercise and may not be applicable to other open or
+closed kinetic chain knee exercises (40).
+
+ACKNOWLEDGMENTS
+The authors would like to thank A. Cole Meyers and
+Hyung-pil Jun, Research Assistants at the Department of
+Kinesiology and Sport Sciences of the University of Miami,
+for their help in preparing the Introduction and Discussion
+sections of this article.
+
+and open kinetic chain exercises. Med Sci Sports Exerc 30: 556–569,
+1998.
+14. Ferber, R, Osternig, LR, and Gravelle, DC. Effect of PNF stretch
+techniques on knee flexor muscle EMG activity in older adults.
+J Electromyogr Kinesiol 12: 391–397, 2002.
+15. Fiebert, IM, Spielholz, NI, Applegate, NI, Applegate, EB,
+Carbone, M, Gonzalez, G, and Gorack, WM. Integrated EMG study
+of the medial and lateral heads of the gastrocnemius during
+isometric plantar flexion with varying cuff weight loads. J Back
+Musculoskelet Rehabil 8: 145–150, 2001.
+16. Fitzgerald, GK. Open versus closed kinetic chain exercise: Issues in
+rehabilitation after anterior cruciate ligament reconstructive surgery.
+Phys Ther 77: 1747–1754, 1997.
+17. Heintjes, E, Berger, MY, Bierma-Zeinstra, SM, Bernsen, RM,
+Verhaar, JA, and Koes, BW. Exercise therapy for patellofemoral pain
+syndrome. Cochrane Database Syst Rev CD003472, 2003.
+18. Holm, I, Hammer, S, Larsen, S, Nordsletten, L, and Steen, H. Can
+a regular leg extension bench be used in testing deficits of the
+quadriceps muscle during rehabilitation? Scand J Med Sci Sports 5:
+29–35, 1995.
+19. Hungerford, DS and Barry, M. Biomechanics of the patellofemoral
+joint. Clin Orthop Relat Res 9–15, 1979.
+20. Lieb, FJ and Perry, J. Quadriceps function: An electromyographic
+study under isometric conditions. J Bone Joint Surg Am 53: 749–758,
+1971.
+
+REFERENCES
+
+21. Lutz, GE, Palmitier, RA, An, KN, and Chao, EY. Comparison
+of tibiofemoral joint forces during open-kinetic-chain and
+closed-kinetic-chain exercises. J Bone Joint Surg Am 75: 732–739,
+1993.
+
+1. Alkner, BA, Tesch, PA, and Berg, HE. Quadriceps EMG/force
+relationship in knee extension and leg press. Med Sci Sports Exerc 32:
+459–463, 2000.
+
+22. Lynn, PA, Bettles, ND, Hughes, AD, and Johnson, SW. The
+influence of electrode geometry on bipolar recordings of the surface
+electromyogram. Med Biol Eng Comput 16: 651–660, 1978.
+
+2. Andreassen, S and Rosenfalck, A. Recording from a single motor
+unit during strong effort. IEEE Trans Biomed Eng 25: 501–508, 1978.
+
+23. McBride, JJM. Comparison of kinetic variables and muscle activity
+during a squat vs. a box squat. J Strength Cond Res 24: 3195–3199,
+2010.
+
+3. Babault, N. Activation of human quadriceps femoris during
+isometric, concentric, and eccentric contractions. J Appl Physiol
+(1985) 91: 2628–2634, 2001.
+
+24. McConnell, J. Rehabilitation and nonoperative treatment of patellar
+instability. Sports Med Arthrosc 15: 95–104, 2007.
+
+4. Ball, N and Scurr, J. Electromyography normalization methods for
+high velocity muscle actions: Review and recommendations. J Appl
+Biomech 29: 600–608, 2013.
+
+25. Mesfar, W and Shirazi-Adl, A. Biomechanics of the knee joint
+in flexion under various quadriceps forces. Knee 12: 424–434,
+2005.
+
+5. Basmajian, JV, Harden, TP, and Regenos, EM. Integrated actions of
+the four heads of quadriceps femoris: An electromyographic study.
+Anat Rec 172: 15–20, 1972.
+6. Brownstein, BA, Lamb, RL, and Mangine, RE. Quadriceps torque
+and integrated electromyography. J Orthop Sports Phys Ther 6: 309–
+314, 1985.
+
+26. Mikkelsen, C, Werner, S, and Eriksson, E. Closed kinetic chain alone
+compared to combined open and closed kinetic chain exercises for
+quadriceps strengthening after anterior cruciate ligament
+reconstruction with respect to return to sports: A prospective
+matched follow-up study. Knee Surg Sports Traumatol Arthrosc 8:
+337–342, 2000.
+
+7. Callaghan, MJ and Oldham, JA. The role of quadriceps exercise in
+the treatment of patellofemoral pain syndrome. Sports Med 21: 384–
+391, 1996.
+
+27. Moritani, T, Muro, M, and Nagata, A. Intramuscular and surface
+electromyogram changes during muscle fatigue. J Appl Physiol
+(1985) 60: 1179–1185, 1986.
+
+8. Comfort, P, Pearson, SJ, and Mather, D. An electromyographical
+comparison of trunk muscle activity during isometric trunk and
+dynamic strengthening exercises. J Strength Cond Res 25: 149–154,
+2011.
+
+28. Newton, RU, Murphy, AJ, Humphries, BJ, Wilson, GJ, Kraemer, WJ,
+and Hakkinen, A. Influence of load and stretch shortening cycle on
+the kinematics, kinetics and muscle activation that occurs during
+explosive upper-body movements. Eur J Appl Physiol Occup Physiol
+75: 333–342, 1997.
+
+9. Cresswell, AG and Ovendal, AH. Muscle activation and torque
+development during maximal unilateral and bilateral isokinetic knee
+extensions. J Sports Med Phys Fitness 42: 19–25, 2002.
+10. Croce, RV, Miller, JP, and St Pierre, P. Effect of ankle position
+fixation on peak torque and electromyographic activity of the knee
+flexors and extensors. Electromyogr Clin Neurophys 40: 365–373, 2000.
+11. Cutbill, JW, Ladly, KO, Bray, RC, Thorne, P, and Verhoef, M.
+Anterior knee pain: A review. Clin J Sport Med 7: 40–45, 1997.
+12. Dye, SF. The pathophysiology of patellofemoral pain: A tissue
+homeostasis perspective. Clin Orthop Relat Res 100–110, 2005.
+13. Escamilla, RF, Fleisig, GS, Zheng, N, Barrentine, SW, Wilk, KE, and
+Andrews, JR. Biomechanics of the knee during closed kinetic chain
+
+2544
+
+the
+
+29. Sakamoto, A and Sinclair, PJ. Muscle activations under varying
+lifting speeds and intensities during bench press. Eur J Appl Physiol
+112: 1015–1025, 2012.
+30. Signorile, JF, Kascik, D, Perry, A, Robertson, B, Williams, R,
+Lowensteyn, I, Digel, S, and Caruso, J. The effect of knee and
+foot position on the electrical activity of the superficial quadriceps.
+J Orthop Sports Phys Ther 22: 2–9, 1995.
+31. Signorile, JF, Kacsik, D, Perry, A, Robertson, B, Williams, R,
+Lowensteyn, I, Digel, S, Caruso, J, and LeBlanc, WG. The
+effect of knee and foot position on the electromyographical
+activity of the superficial quadriceps. J Orthop Sports Phys Ther 22:
+2–9, 1995.
+
+TM
+
+Journal of Strength and Conditioning Research
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+the
+
+TM
+
+Journal of Strength and Conditioning Research | www.nsca.com
+32. Signorile, JF, Kwiatkowski, K, Caruso, JF, and Robinson, B. Effect of
+foot positon on the electromyographical activity of the superficial
+quadriceps muscles during the parallel squat and knee extension.
+J Strength Cond Res 9: 182–187, 1995.
+33. Stoutenberg, M, Pluchino, A, Ma, F, Hoctor, J, and Signorile, JF. The
+impact of foot position on electromyographical activity of the
+superficial quadriceps muscles during leg extension. J Strength Cond
+Res 19: 931–938, 2005.
+34. Tagesson, S, Oberg, B, Good, L, and Kvist, J. A comprehensive
+rehabilitation program with quadriceps strengthening in closed
+versus open kinetic chain exercise in patients with anterior cruciate
+ligament deficiency: A randomized clinical trial evaluating dynamic
+tibial translation and muscle function. Am J Sports Med 36: 298–307,
+2008.
+35. Tang, SF, Chen, CK, Hsu, R, Chou, SW, Hong, WH, and Lew, HL.
+Vastus medialis obliquus and vastus lateralis activity in open and
+closed kinetic chain exercises in patients with patellofemoral pain
+syndrome: An electromyographic study. Arch Phys Med Rehabil 82:
+1441–1445, 2001.
+36. Taskiran, E, Dinedurga, Z, Yagiz, A, Uludag, B, Ertekin, C, and
+Lok, V. Effect of the vastus medialis obliquus on the patellofemoral
+joint. Knee Surg Sports Traumatol Arthrosc 6: 173–180, 1998.
+
+37. Tepperman, PS, Mazliah, J, Naumann, S, and Delmore, T. Effect of
+ankle position on isometric quadriceps strengthening. Am J Phys
+Med 65: 69–74, 1986.
+38. Wheatley, MD and Jahnke, WD. Electromyographic study of the
+superficial thigh and hip muscles in normal individuals. Arch Phys
+Med Rehabil 32: 508–515, 1951.
+39. Wild, JJ Jr, Franklin, TD, and Woods, GW. Patellar pain and
+quadriceps rehabilitation. An EMG study. Am J Sports Med 10:
+12–15, 1982.
+40. Wilk, KE, Escamilla, RF, Fleisig, GS, Barrentine, SW, Andrews, JR,
+and Boyd, ML. A comparison of tibiofemoral joint forces and
+electromyographic activity during open and closed kinetic chain
+exercises. Am J Sports Med 24: 518–527, 1996.
+41. Witvrouw, E, Danneels, L, Van Tiggelen, D, Willems, TM, and
+Cambier, D. Open versus closed kinetic chain exercises in
+patellofemoral pain: A 5-year prospective randomized study. Am J
+Sports Med 32: 1122–1130, 2004.
+42. Witvrouw, E, Lysens, R, Bellemans, J, Cambier, D, and
+Vanderstraeten, G. Intrinsic risk factors for the development of
+anterior knee pain in an athletic population. A two-year prospective
+study. Am J Sports Med 28: 480–489, 2000.
+
+VOLUME 28 | NUMBER 9 | SEPTEMBER 2014 |
+
+2545
+
+Copyright © National Strength and Conditioning Association Unauthorized reproduction of this article is prohibited.
+
+

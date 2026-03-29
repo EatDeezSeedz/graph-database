@@ -1,0 +1,461 @@
+EXPERIMENTAL
+
+NEUROLOGY
+
+Changes
+
+78,360-368
+
+(1982)
+
+in Recruitment Order of Motor Units
+in the Human Biceps Muscle
+
+B. M. TER HAAR ROMENY, J. J. DENIER VAN DER GON,
+AND C. C. A. M. GIELEN’
+Department of Medical and Physiological Physics, State University of Utrecht,
+Princetonplein 5, 3508 TA Utrecht. The Netherlands
+Received February 3, 1982; revision received May
+
+17, 1982
+
+Changes in recruitment threshold of individual motor units of the human biceps
+(caput longum), a multifunctional muscle, were investigated during different tasks,
+i.e., isometric flexion of the elbow, isometric supination of the forearm, and isometric
+exorotation of the humerus of the 110” flexed semiprone horizontal arm. The activity
+of 17 motor units was recorded by means of fine wire electrodes. Some units were
+found that could be recruited only by one force, e.g., flexion. In such cases recruitment did not depend on other forces. Most units, however, were recruited when a
+linear combination of exerted forces exceeded a certain threshold. The contribution
+of a force to this combination could be different for different motor units. Units
+with a high threshold for flexion tended to show a lower threshold while simultaneously exerting force in another direction. Units with a low threshold for flexion
+were more difficult to recruit under this condition. The findings support the view
+that movements are programmed “directionally.”
+
+INTRODUCTION
+The recruitment threshold of motor units is determined by intrinsic properties of the motoneuron and by the synaptic input. Several studies have
+emphasized the constancy of the recruitment threshold, supporting the view
+that recruitment threshold is mainly determined by motoneuron properties,
+and other studies have shown that synaptic input may vary considerably
+among neurons, suggesting a more important role for the synaptic input
+[for a review see Henneman (11) and Burke (2)]. Recently it was suggested
+that the motoneuron pool is not always homogeneously activated. Several
+Abbreviation: EMG-electromyogram.
+’ The authors are indebted to the Netherlands Organization
+Research (ZWO) for financial support of this investigation.
+360
+0014-4886/82/l
+
+10360-09$02.00/O
+
+Copyright 0 1982 by Academic Press, Inc.
+All rights of reproduction
+in any form rew’ved.
+
+for the Advancement of Pure
+
+RANK
+
+DEORDERING
+
+OF BICEPS
+
+MOTOR
+
+UNITS
+
+361
+
+experiments indicate that there are inputs resulting in predominant facilitation of large motoneurons [Kanda et al. (12) (cat), Gamett and Stephens
+(10) (human)]. In multifunctional
+muscles the order of recruitment can be
+changed consistently by changing the task and thus the direction of the
+exerted force (6, 16, 18). Earlier Person (15) found changes in the recruitment order at different postures.
+These recent findings suggest that motor unit activity in a multifunctional
+muscle is the result of several inputs, acting simultaneously on the pool
+with different weightings. We investigated whether motor units of the human
+biceps brachii contribute to different tasks, i.e., forces exerted in different
+directions. If not, or if the relative contribution differs for different motor
+units, it is to be concluded that the input of the motoneuronpool
+is task
+dependent and so different tasks correspond to different inputs. These inputs
+then have different relative weightings for different motor units.
+Three different tasks were examined, namely, (i) isometric flexion/extension of the elbow joint, (ii) isometric supination/pronation
+of the forearm,
+and (iii) isometric exorotation/introrotation
+of the humerus.
+METHODS
+Subjects were seated comfortably in a dental chair with their right arm
+horizontally abducted and the elbow flexed at an angle of 110”. The upper
+arm was in line with the shoulders. The semiprone wrist of each subject
+was closely fitted in a metal ring by means of dental compound. This ring
+was part of a strain-gauge measuring device (Fig. 1) in which the following
+forces on the wrist could be measured: flexion/extension (force perpendicular to the forearm in the plane of the arm); supination/pronation;
+and
+exorotation/introrotation
+(force perpendicular to the forearm and the plane
+of the arm, thus pointing upward, and downward, respectively). The elbow
+joint was supported under the medial epicondyle. Mechanical cross-talk
+between the strain-gauge systems in the three perpendicular directions was
+negligible (~3%). Action potentials of motor units were recorded by means
+of 25-pm, nylon-coated, fine-wire bipolar electrodes (California Fine Wire
+Co.), inserted just proximal to the end-plate area of the long head of the
+biceps by means of a 0.4-mm hollow needle. The end-plate area was found
+as the place on the muscle belly most sensitive to stimulating the muscle
+with surface electrodes. Four wires were brought in per insertion, each
+hooked over a different distance to ensure the tip of each being differently
+positioned in the muscle belly. Insertion depth of the needle varied from
+2 to 3.5 cm below the skin.
+Measurements were made in seven experiments on three healthy subjects,
+27, 27, and 29 years old. In two experiments wires were inserted at two
+
+362
+
+TER HAAR ROMENY,
+
+DENIER VAN DER GON. AND GIELEN
+
+I
+
+10
+
+CM
+
+FIG. 1. Measuring apparatus for the three forces, consisting of three concentric stainless-steel
+rings (a, b, and c). The wrist (d) was tightly clamped in the inner ring (c) by means of dental
+compound. The outer ring (a) was restricted to upward and downward movements, thereby
+bending two horizontal stainless-steel strips on which strain gauges were glued (4) to measure
+exorotation. The middle ring (b) was restricted to horizontal movements in an analogous
+manner, and so measured flexion. Two vertical stainless-steel strips held the inner ring in the
+middle ring. Bending of these strips by rotation of the wrist was also registered by strain gauges
+and gave the supination force. The outer square frame was firmly attached to the table.
+
+different places in the biceps. The electromyogram (EMG) signal was filtered
+from 320 Hz to 32 kHz. Elimination
+of the low frequencies diminished the
+contributions of muscle fibers placed further from the electrode, making
+the recording more selective. The sensitivity of the (Medelec) preamplifiers
+was typically between 50 and 200 pV/division (1 division = 0.5 V on the
+oscilloscope).
+The single-fiber EMG and the three measured forces were displayed on
+an oscilloscope in front of the subject. Motor unit activity was also made
+audible. All signals were recorded on tape for further analysis. During the
+experiment, and especially during the analysis of the data, the waveform
+of each motor unit action potential was constantly monitored on a second
+oscilloscope screen to ensure single-unit recording. With the wire electrodes
+used the activity of one to three motor units could be analysed per bipolar lead.
+First the variability in recruitment of each motor unit was determined
+when only one task was carried out: flexion, supination, or exorotation.
+Subjects were asked to maintain a prescribed level of one of the forces (e.g.,
+supination) and to keep the other forces zero. As soon as the subject accomplished this task he was asked to slowly increase a force in another
+direction (e.g., flexion). The speed of the contraction was determined by the
+subject and did not show very much variation between subjects. The average
+
+RANK
+
+DEORDERING
+
+OF BICEPS
+
+MOTOR
+
+UNITS
+
+363
+
+time to contract from zero to about 50% of the maximal force was about
+10 s. This experiment was carried out for all combinations of the three tasks
+in a random sequence as long as the recording remained stable.
+RESULTS
+Figure 2a shows that the motor unit investigated contributed to flexion
+force. It was recruited when flexion force exceeded 1.83 Nm. As appears
+in Fig. 2b, however, when a supination force was applied the unit became
+active only if flexion force exceeded 2.15 Nm, whereas it had already become
+active at flexion forces of 0.76 Nm while pronating (Fig. 2~). These effects
+were investigated for a total of 17 motor units for the three subjects combined. In some experiments it clearly appeared that the same motor unit
+contributed to different tasks; in other experiments completely different
+units became active when different tasks were carried out.
+Some units (e.g., Fig. 3a) could be recruited only by flexion of the arm.
+Recruitment was not influenced by the level of supination or exorotation.
+Some other units (e.g., Fig. 3b) started firing only when supinating or moving
+the wrist upward (exorotation of the humerus). For both tasks the unit was
+recruited at slightly lower torques when the level of flexion was increased.
+Two motor units recorded in different experiments on the same subject are
+shown in Fig. 3c. One motor unit was recruited at lower flexion forces when
+supinating simultaneously
+(filled circles); the other unit at higher flexion
+forces (open circles).
+When two tasks were performed simultaneously,
+the variability in the
+force at which a unit became active was about the same as found when
+exerting a force in only one direction. A marked hysteresis was found in
+the firing rate of the motor unit when gradually increasing and decreasing
+muscle tension, in agreement with results reported by Partridge and Huber
+( 14) and Desmedt and Hainaut (7). Some low-threshold units sometimes
+were difficult to silence after contraction. This apparent lowering of threshold lasted several seconds, as could be seen when the motor unit was recruited after a short pause (~2 s) again. The effect seemed less when the
+muscles were relaxed completely after each contraction. Care was taken
+that these effects should not affect the experiments, so after each contraction
+the muscles were relaxed and at least 10 s elapsed before the next contraction.
+Threshold forces were found to be very reproducible under these conditions. It appeared in all experiments that the combination of exerted forces
+needed for recruitment was linear. Units with a high threshold for flexion
+(>2.5 Nm) tended to have this threshold lowered by supination or exorotation, whereas smaller motor units (threshold for flexion ~2.5 Nm) had
+that threshold raised more often. These effects could be quantified by the
+
+364
+
+TER HAAR ROMENY,
+
+DENIER VAN DER GON, AND GIELEN
+
+a
+
+I I
+b
+
+FIG. 2. Bipolar wire recording of a motorunit in the human biceps. All forces are isometric.
+Unit 301081-BR5. a-Only flexion was increased slowly while holding the other forces (supination and exorotation) zero. The unit was recruited at 1.83 Nm. b-A level of 1.25 Nm
+of supination was held while slowly increasing flexion. Now the unit was recruited at 2.15 Nm.
+c-A level of 1.05 Nm of pronation was held. When the flexion force slowly increased, the
+unit started firing at 0.76 Nm. Calibration bar: 1 Nm for each force. Time scale: 1 s.
+
+.
+
+1
+
+Fb3XiOll
+
+1
+
+.
+.
+. .
+.
+
+2
+
+.
+.
+
+FI.
+
+I
+
+l
+
+1
+
+.
+
+2
+
+.
+
+0
+000
+
+0
+
+0
+
+L4-
+
+.
+
+0
+
+mo
+
+4
+
+FIG. 3. Forces (torques) at which four motor units in the human biceps (long head) were just recruited when performing two tasks simultaneously.
+All torques are in Newton meters (Nm). a-Recruitment
+threshold was attained only by flexion, no matter what the level of supination or
+exorotation. Unit 301081-BR2. b-Recruitment
+threshold was attained by supination or exorotation, threshold slightly lowered by flexion. Unit
+24098 I-BRS. c-Two units, measured in different experiments, for which recruitment depended on a linear combination of the amount of applied
+flexion and supination. Filled circles: unit 2 I 108 I-BR 1. Open circles: unit 30 108 I-BR5.
+
+1
+
+.
+
+.
+
+. .
+
+.
+
+.
+
+.
+
+K
+WI
+
+366
+
+TER HAAR ROMENY,
+
+DENIER VAN DER GON, AND GIELEN
+
+12 L’o”
+.*
+-1
+I------2
+
+Recruitment
+threshold
+for flexion
+
+(Nm)
+
+-3
+
+0
+
+-4
+
+t
+
+FIG. 4. Slope of the changes in recruitment threshold for flexion when supinating (filled
+circles) or when exorotating (open circles). The slope was calculated from measurements as
+shown in the figure. Units only sensitive for flexion (slope infinite) indicated by upward pointing
+arrows, units not affected by flexion by right pointing arrows. All units with recruitment
+threshold for flexion lower then 2.5 Nm had this threshold raised by supination or exorotation.
+All units recruited at contraction strengths of flexion higher then 2.5 Nm were recruited at
+lower flexion forces while exerting the second task simultaneously.
+
+slopes of the depicted relations in Fig. 3. These slopes are plotted in Fig.
+4. Five motor units were recruited by flexion forces only. These flexion
+forces were all lower than 1.2 Nm. The influence of exorotation was investigated in only five motor units. These measurements showed the same
+trend: exorotation raised the recruitment threshold for flexion for lowthreshold units, and lowered this threshold for the units with higher functional threshold for flexion. Sometimes two or three motor units could be
+analysed simultaneously in the same experiment. Here also different slopes
+were found. Until now, no large differences have been found in the case of
+multiple units recorded by a single electrode. However, the number of such
+recordings is small.
+DISCUSSION
+From the experiments it appeared that some motor units in the human
+biceps were activated selectively when different tasks were carried out; others
+contributed to more then one task. We conclude that the distribution of
+the input activity over the motoneuron pool differs for each task. An input
+corresponding to a certain task will in general have a different weighting
+upon different motor units. An interesting fact is that recruitment of a motor
+
+RANK
+
+DEORDERING
+
+OF BICEPS
+
+MOTOR
+
+UNITS
+
+367
+
+unit is accomplished by a linear combination of tasks, and apparently by
+a linear combination of inputs [see also Denier van der Gon (5)]. This linear
+behavior suggests that the weighting factors mentioned are constants and
+that a combination of tasks means addition or subtraction of inputs.
+A notable finding is that inputs corresponding to supination show positive
+weights (negative slopes in Fig. 4) upon those motor units that are recruited
+at high flexion forces. Negative weights were found upon those recruited
+at low flexion forces. There seems to be a close correspondence with the
+findings of Gamett and Stephens (lo), Kanda et al. ( 12) and Burke (2) who
+reported analogous input-dependent
+phenomena.
+Another interesting finding is that the linear relation found between forces
+that just evoke activity of a motor unit showed the same course with the
+reversal of the direction of the task. For example, pronation shows the same
+weighting factor as does supination (see Fig. 3~). This was measured for
+only a small number of motor units. Sometimes slightly different weightings
+were found. This may be caused by the asymmetrical manner in which the
+wrist exerts forces on the measuring device when the wrist is not clamped
+tightly enough (the styloid process creates a more favorable lever during
+pronation than during supination). Another explanation of the asymmetry
+might be that the use of a different group of muscles gives rise to a different
+activation pattern.
+Our results also indicate that changes in recruitment order may result
+consistently from changes in direction of exerted forces. This was found in
+a proximal muscle, whereas Thomas et al. (16, 18) and Desmedt (6) also
+reported such findings for distal multifunctional
+muscles of the thumb.
+These findings have implications
+for the classification of motor units by
+means of their recruitment threshold in multifunctional
+muscles. The hypothesis of the size principle may still hold, but due to the nonhomogeneous
+innervation a specification of the exact task of the muscle will be necessary.
+It might be possible that task-dependent inputs activate only part of the
+contributing motoneuron pools, the activation extending over the boundaries of several pools. Fromm and Evarts (9) found neurons in the motorcortex of the monkey with multifunctional
+properties, whereas Shinoda (17)
+demonstrated projections of corticospinal axons to motoneurons of different
+motoneuron pools. By the determination
+of averages of rectified EMG activity, triggered on action potentials of monkey motor cortex cells, Fetz et
+al. (8) showed that activity of single cells was associated with the coactivation
+of as many as four arm muscles. They called those muscles the cell’s “motor
+field.”
+It is an open question to what extent afferent fibers of other muscles
+contribute to the nonhomogeneous innervation of the pool. There are many
+reports of muscle afferent fibers projecting to the synergists of that muscle
+[(3), see also (1, 4, 13)].
+
+368
+
+TER HAAR ROMENY,
+
+DENIER VAN DER GON, AND GIELEN
+
+The data indicate that different movements
+are “directionally”
+innervated.
+
+involving
+
+the same muscle
+
+REFERENCES
+1. BINDER, M. D., AND D. G. STUART, 1980. Motor unit-muscle receptors interactions:
+design factors of the neuromuscular control system. Pages 72-98 in J. E. DESMEDT,
+Ed., Spinal and supraspinal mechanisms of voluntary motor control and locomotion,
+Progress in Clinical Neurophysiology, Vol. 8. Karger, Base].
+2. BURKE, R. E. 1981. Motor unit recruitment: what are the critical factors? Pages 61-84
+in J. E. DESMEDT, Ed., Motor unit types, recruitment andplasticity in health and desease,
+Progress in Clinical Neurophysiology, Vol. 9. Karger, BaseI
+3. CREED, R. S., D. DENNY-BROWN, J. C. ECCLES,E. G. T. LIDDELL, AND C. S. SHERRINGTON. 1932. Reflex Activity of the Spinal Cord. Oxford Univ. Press, London/New York.
+4. DELWAIDE, P. J., AND P. TOULOUSE. 198 1. Facilitation of monosynaptic reflexes by voluntary contraction of muscles in remote parts of the body. Brain 104: 701-7 19.
+5. DENIER VAN DER GON, J. J. 1982. Linear systems from non-linear neural elements. Biol.
+Cybern., submitted.
+6. DESMEDT, J. E. 198 1. The size principle of motoneuron recruitment in ballistic or ramp
+voluntary contractions in man. Pages 97- 136 in J. E. DESMEDT, Ed., Motor unit types,
+recruitment and plasticity in health and desease, Progress in Clinical Neurophysiology,
+Vol. 9. Karger, Basel.
+7. DESMEDT, J. E., AND K. HAINAUT. 1978. Excitation-contraction coupling in single muscle
+fibers and the calcium channel in sarcoplasmic reticulum. Ann. N.Y. Acad. Sci. 307:
+433-435.
+8. FETZ, E. E., P. D. CHENEY, AND D. C. GERMAN. 1976. Corticomotoneuronal connections
+of precentral cells detected by post-spike averages of EMG activity in behaving monkeys.
+Brain Res. 114: 505-5 10.
+9. FROMM, C., AND E. V. EVARTS. 1977. Relation of motor cortex neurons to precisely
+controlled and ballistic movements. Neurosci. Lett. 5, 259-265.
+10. GARNETT, R., AND J. A. STEPHENS. 198 1. Changes in the recruitment threshold of motor
+units produced by cutaneous stimulation in man. .I. Physiol. (London) 311: 463-473.
+11. HENNEMAN, E. 1981. Recruitment of motoneurons: the size principle. Pages 26-60 in
+J. E. DESMEDT, Ed., Motor unit types, recruitment andplasticity in health and desease,
+Progress in Clinical Neurophysiology, Vol. 9. Karger, Base].
+12. KANDA, K., R. E. BURKE, AND B. WALMSLEY. 1977. Differential control of fast and slow
+twitch motor units in the decerebrate cat. Exp. Brain Rex 29: 57-74.
+13. MARSDEN, C. D., P. A. MERTON, AND H. B. MORTON. 1981. Human postural responses.
+Brain, 104: 5 13-534.
+14. PARTIDGE, L. D., AND F. C. HUBER. 1967. Factors in the interpretation of the electromyogram based on muscle response to dynamic nerve signals. Am. J. Phys. Med. 46:
+1276-1289.
+15. PERSON, R. S. 1974. Rhythmic activity of a group of human motoneurones during voluntary contraction of a muscle. Electroencephalogr. Clin. Neurophysiol. 36: 585-595.
+16. SCHMIDT, E. M., AND J. S. THOMAS. 1981. Motor unit recruitment order: modification
+under volitional control. Pages 145-148 in J. E. DESMEDT, Ed., Progress in Clinical
+’
+Neurophysiology, Vol. 9. Karger, Basel.
+17. SHINODA, Y., J. I. YOKOTA, AND T. FUTAMI. 1981. Divergent projection of individual
+corticospinal axons to motoneurons of multiple muscles in the monkey. Neurosci. Lett.
+23: 7-12.
+18. THOMAS, J. S., E. M. SCHMIDT, AND F. T. HAMBRECHT. 1978. Facility of motor unit
+control during tasks defined directly in terms of unit behaviors. Exp. Neural. 59: 384395.
+
+

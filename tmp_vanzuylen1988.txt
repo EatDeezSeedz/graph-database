@@ -1,0 +1,2932 @@
+JOURNALOF NEUROPHYSIOLOGY
+Vol. 60, No. 5, November 1988. Printed
+
+in U.S.A.
+
+Coordination and Inhomogeneous Activation
+of Human Arm Muscles During Isometric Torques
+E. J. VAN
+
+ZUYLEN,
+
+c. c. A. M. GIELEN,
+
+AND
+
+J. J. DENIER
+
+VAN
+
+DER
+
+GON
+
+Departmentof Medical and PhysiologicalPhysics,Universityof Utrecht,
+NL 3584C Utrecht, The Netherlands
+
+SUMMARY
+
+AND CONCLUSIONS
+
+1. In this study we have recorded the activity of motor units of the important muscles
+acting across the elbow joint during combinations of voluntary
+isometric torques in
+flexion/extension
+direction and supination/
+pronation direction at different angles of the
+elbow joint.
+2. Most muscles are not activated homogeneously; instead the population of motor
+units of muscles can be subdivided into several subpopulations. Inhomogeneous activation of the population of motor units in a
+muscle is a general finding and is not restricted to some multifunctional
+muscles.
+3. Muscles can be activated even if their
+mechanical action does not contribute directly to the external torque. For example, m.
+triceps is activated during supination torques
+and thus compensates for the flexion component of the m, biceps. On the other hand, motor units in muscles are not necessarily activated if their mechanical action contributes
+to a prescribed torque. For example, there are
+motor units in the m. biceps that are activated during flexion torques, but not during
+supination torques.
+4. The relative activation of the muscles
+depends on the elbow angle. Changing the elbow angle affects the mechanical advantage
+of different muscles differently. In general,
+muscles with the larger mechanical advantage receive the larger input.
+5. We have calculated the relative contributions of some muscles to isometric torques.
+These contributions depend on the combination of the torques exerted.
+6. Existing theoretical models on muscle
+coordination do not incorporate subpopula0022-3077/B
+
+tions of motor units and therefore need to be
+amended.
+INTRODUCTION
+
+.One of the important aims of research on
+motor control is to acquire an understanding
+of the coordinated activation of synergistic
+and antagonistic muscles. In general more
+than one muscle contributes to a torque in
+a particular movement
+direction such as
+flexion of the elbow joint. Consequently,
+many attempts have been made to find out in
+what ratio m. biceps, m. brachialis, and m.
+brachioradialis contribute to flexion torques.
+The contribution of each muscle to a particular torque generally depends among other
+things on its activation, its mechanical advantage, and on its length-tension relationship. Different authors have given conflicting
+descriptions of the relative activation of arm
+flexor muscles under varying conditions ( 1,7,
+19, 23). A particular solution to the problem
+of redundancy has been proposed by Bouisset
+(2, 3) who introduced the concept of the
+“muscle equivalent.” According to this concept there is a constant relationship between
+the activation levels of the synergistic muscles. Bouisset thereby lumps synergistic muscles together as a single functional unit.
+In previous studies (17, 18) it has been
+shown that the activation of various motor
+units in the long head of the m. biceps brachii
+may depend in different ways on combined
+isometric contractions in flexion and supination direction. The results demonstrated the
+existence of at least three different subpopulations of motor units, each with a different homogeneous activation. The recruitment order within one subpopulation
+is fixed and
+
+$1.50 Copyright 0 1988 The American Physiological Society
+
+1523
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1524
+
+VAN
+
+ZUYLEN
+
+may well be in agreement with the “size principle” (20, 2 1). Other evidence for a selective
+activation of motor units in a single muscle
+has been presented by Hoffer et al. (22) who
+found three discrete groups of motoneurons
+within the motoneuron pool of the cat sartorius muscle each being activated during
+different phases of normal locomotion. Comparable findings have been reported for human finger muscles (12, 13, 28, 3 1). If subpopulations of motor units are found to exist
+in more muscles, then clearly a modification
+of the concept of the “muscle equivalent” is
+required since groups of subpopulations,
+rather than groups of muscles, seem to act together for a particular motor task. The existence of subpopulations also stressesthe inadequacy of surface electrodes for making a detailed study of muscle activation and it might
+explain some of the discrepancies in the results of the various authors mentioned above.
+One of the aims of this study was to verify the
+existence of subpopulations of motor units in
+muscles other than the m. biceps.
+Some muscles contribute to torques in
+different directions (e.g., m. biceps: flexion
+and supination; m. pronator teres: flexion
+and pronation). Major parts of these muscles
+are activated when torques in either of these
+directions are exerted. It was found that the
+recruitment thresholds of motor units of the
+m. biceps depend on a linear combination of
+isometric flexion and supination
+torques
+(18). This has consequences for the distribution of activation of the other muscles involved (4,28,29). When, for example, a supination torque is added to a flexion torque the
+activation of the m. biceps is increased. As a
+consequence the flexion torque exerted by
+the m. biceps increases. To keep the external
+flexion torque constant the activation of another flexor muscle (e.g., m. brachialis) has to
+be decreased or the activation of the m. triceps has to be increased. This suggests that
+the activation of a single muscle cannot be
+understood solely from the anatomy of this
+single muscle and from its tendon insertion
+and origin. Instead one has to consider the
+contribution of all muscles acting across this
+joint. Recent data of Buchanan et al. (4) support this hypothesis, that will be further examined in this study.
+When the angle between two limb segments is changed, the mechanical advantage
+
+ET AL.
+
+of the muscles acting across this joint changes
+differently for each muscle. The length-tension relationship of muscles as a function of
+the joint angle differs too (34). Therefore, the
+relative contribution
+of muscles to torque
+around a particular joint is likely to change as
+a function ofjoint angle. This means that the
+relative activation of muscles should also depend on joint angle (11, 23). To investigate
+this issue, motor unit activity has been recorded during isometric contractions
+at
+different joint angles.
+Several theoretical models have been proposed to explain the concerted action of muscles in particular motor tasks (8, 9, 14- 16,
+26). However, most of these models have not
+been adequately verified, because there is a
+lack of data on the activation of these muscles. This paper provides additional material
+on the basis of which the various theoretical
+concepts that have been proposed can be
+evaluated.
+METHODS
+
+Experimental
+
+set-up
+
+Data were obtained in ~40 experiments from 8
+normal subjects who gave informed consent. The
+right arm of the subject was in a horizontal plane.
+The forearm was held in a neutral position between full supination and full pronation. The angle between the frontal plane and the upper arm
+was -25”. The elbow joint angle could be varied
+between 40 and 180” (full extension). The wrist
+was tightly clamped in a force-measuring device
+with the help of a plaster cast. Torques in flexion/
+extension, supination/pronation,
+and exorotation/intrarotation
+(valgus/varus) direction were
+measured independently without cross talk and simultaneously in all three directions. Torques were
+measured by means of strain gauges using a modification of a device described earlier by ter Haar
+Romeny et al. ( 18). With this device torques could
+be measured with a precision < 10 rnN* m in each
+direction.
+Motor-unit activity was measured with intramuscular fine wire electrodes (material: Karma,
+nylon coated, 25pm diam., Californian Fine Wire
+Co.). In each experiment intramuscular wire electrodes were inserted into several muscles (usually
+3-4). In this way motor-unit activity in different
+muscles could be studied simultaneously. The
+wires were inserted by means of a hollow needle
+(0.4-mm diam., four wires per insertion) that was
+subsequently withdrawn. After amplification the
+EMG signal was bandpass filtered from 320 Hz to
+32 kHz. Often up to four motor units could be dis-
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF
+
+HUMAN
+
+ARM
+
+MUSCLES
+
+1525
+
+the subjectabout the torquesexerted in the three
+directions. In eachtrial the subjectwasinstructed
+to increasean isometrictorque slowly in a particular direction (e.g., flexion) to a prescribedlevel.
+While keeping this torque constant the subject
+then had to gradually increasetorque in another
+direction (e.g.,supination).This procedurewasrepeated for about eight different torque levels in
+eachdirection. The contractions were performed
+at a slow rate to prevent phasicrecruitment from
+interfering with the results(6, 13, 33). The speed
+of the contraction wastypically ~2% of the maximum voluntary contraction per secondin eachdirection. In all experimentstorquesin exorotation
+and intrarotation direction hadto be kept at zero.
+Experimental protocol
+The sequencein which the torques had to be inThe recruitment behavior of motor units in m. creasedaswell asthe prescribedtorque levelswere
+brachialis,m. brachioradialis,m. biceps(the long varied in random order. Betweensubsequentconhead, as well as the short head in a few experi- tractions the subjectwasallowedto relax the arm
+ments), m. supinator, m. pronator teres, and m. musclesfor at least0.5 min (10).
+triceps(long head, medialhead,and lateral head)
+When all relevant combinationsof torqueshad
+wasinvestigated.During the experimentstorques beentestedseveraltimes,the elbowjoint anglewas
+in the three directionstogetherwith the intramus- slowly changedby the experimenter. During the
+cular EMG signalswererecordedon an FM instru- movement motor unit activity wascontinuously
+mentation recorder (Honeywell type 101, band- monitored so that, if possible,activity from the
+width from DC up to 5 kHz) for off-line analysis. samemotor units could be studied in other arm
+Cursorson an oscilloscopeprovided feedbackto positions.Different elbow angleswere attained in
+
+tinguished in one bipolar recording. If there was
+any doubt about the precise location of the recorded motor units, the muscle containing the
+wires was identified by electrical stimulation via
+the same wires before the wires were removed at
+the end of the experiment.
+The maximum voluntary torques for the different subjects ranged from 55 to 75 No m in flexion
+direction, from 40 to 60 N. m in extension direction, from 8 to 12 No m in supination direction
+and from 7 to 10 N m in pronation direction. The
+recruitment thresholds of motor units recorded in
+this study range up to 40% of thesevaluesin the
+various directions.
+l
+
+BICEPS
+
+EMC
+
+t
+
+1
+
+1I
+
+1
+
+1
+
+1
+
+.1
+
+1I
+
+aI
+
+5.0
+
+4
+
+5.0
+EXTENSION
+
+(Nhl)
+
+FLEXION
+
+(NM)
+
+5 SEC
+2.5
+
+FIG. 1. Typical example of a recording and analysis of motor-unit activity in combination with exerted torques.
+On the left side of this figure in the upper trace the EMG signal recorded in the long head of the m. biceps is shown as
+a function of time. The middle and lower traces represent actively exerted torque in supination and flexion direction.
+First, the subject increases the torque exerted in supination direction and motor-unit activity can be seen in the EMG
+trace. Next the supination torque is kept approximately constant and the flexion torque is increased. The recruitment
+of 3 motor units is indicated in each torque trace with corresponding symbols. On the right the same symbols are
+used in a 2-dimensional plane to indicate the combination of torques in flexion and supination direction at which
+the 3 motor units are recruited.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+VAN ZUYLEN
+
+1526
+
+ET AL.
+
+A
+
+4
+
+4
+
+4
+
+I
+
+r
+
+25.0
+
+I
+
+1
+
+1
+
+0
+
+(NM)
+
+EXTENSION
+
+FLEXION
+0
+
+4
+
+4
+
+h
+
+B
+
+2.5
+
+1
+1
+
+(NM)
+
+I
+
+1
+I
+
+I
+I
+
+I
+I
+
+I
+
+I
+
+I
+
+I
+
+FLEXION
+
+(NM)
+
+5.0
+
+s.‘o
+EXTENSION
+
+(NM)
+Q
+0
+
+0
+
+cl
+0
+
+z ~000
+h
+
+0
+
+2.5
+FIG. 2. Examples of motor-unit
+behavior recorded in the m. biceps. Each point indicates the combination of
+torques at which a motor unit was recruited. Different symbols indicate different motor units. A: motor units that are
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF HUMAN
+
+ARM
+
+El
+
+4
+00
+
+4
+
+1527
+
+MUSCLES
+
+4 0
+
+00
+
+OO
+
+0
+0
+1
+
+0
+
+FIG. 3. Recruitment thresholds in flexion direction (FR) and in supination direction (&) for type A motor units
+of the m. biceps (summing units). Symbols containing a dot are used to indicate results for motor units of the short
+head of the m. biceps. Different symbols indicate different elbow angles. 0: 100”. *: 130”. o: 160”. The ratio between
+the recruitment thresholds (SR/FR) tends to increase with increasing elbow angle.
+
+a randomorder. At a new arm position the subject
+wasfirst askedto relax the arm musclescompletely
+and passivelyexertedtorqueswere measured.The
+actively exerted torques were calculated by correctingfor the passivetorques.
+Subjectswere specificallyinstructedto relax the
+musclesat the wrist and shoulderjoint. This instruction was intended to eliminate co-contraction of muscles,thereby reducing variability of
+muscle activation at a particular combination
+of flexion/extension and supination/pronation
+torques.
+
+Data analysis
+During the off-line analysis,we measuredthe
+combination of torques in the flexion/extension
+direction and in the supination/pronation direction at which a particular motor unit startedfiring.
+The left part of Fig. 1 showsa typical exampleof
+
+the recordingof an EMG signalfrom the long head
+of the m. bicepsandthe correspondingactively exerted torques during a combined isometric contraction in flexion and supinationdirection. In the
+EMG signalthe recruitment of three motor units
+can be clearly observed.In the torque tracesthe
+combinationof torquesat which thesemotor units
+are recruited is indicated by different symbols.In
+the right part of Fig. 1 the combinationsof these
+torques are plotted in a two-dimensionalplane
+with torque in flexion/extension direction on the
+abscissaand torque in supination/pronation direction on the ordinate.
+The recruitment thresholdsobtained for contractions with different combinations of torque
+were plotted in similar figuresfor all motor units.
+This givesplotswith symbolsthat indicatehowthe
+recruitment threshold of a particular motor unit
+dependson the torquesexertedin the different di-
+
+recruited when torques in both flexion and supination direction are exerted: summing units. Closed symbols represent
+results from a motor unit recorded in the long head of the m. biceps; open symbols represent results from a motor
+unit recorded in the short head. For the latter motor unit the recruitment thresholds for flexion (FR) and supination
+(SR) are indicated. These results were obtained at an elbow angle of 110”. B: motor units from the long head of the m.
+biceps that are recruited only when a particular torque in flexion direction is exerted: flexion units. These results were
+obtained at an elbow angle of 100”.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1528
+
+VAN
+
+ZUYLEN
+
+rections. The resulting data points can be described as if they are scattered around sets of
+straight lines with junctions at or near the axes. We
+therefore assume that the recruitment of the motor
+units for particular combinations of torques depends on a linear combination of the exerted torques. The slope of the lines may change abruptly
+at or near the intersection with the axes that correspond to the main torque directions. This finding
+corresponds to earlier findings described by ter
+Haar Romeny et al. ( 17, 18). For torques in flexion
+and supination direction the recruitment lines describing the linear relation between combinations
+of torques where the motor unit is recruited can
+now be described by the equation
+F/FR + S/!& = 1
+
+(0
+
+or, after rewriting, by the equation
+S=&-
+
+(SR/FR)F
+
+(2)
+
+where FR and SR represent the recruitment thresholds of the motor unit for flexion (F) and supination (S), respectively. F, FR and S, SR have to be
+replaced by E, ER and P, PR when the direction of
+the contraction is extension instead of flexion or
+pronation instead of supination.
+The data obtained at different elbow angles have
+been pooled in groups from 55 to 85” (average
+70”), 85 to 115” (average loo”), 115 to 145” (average 130”) and 145 to 175”, which is near full extension (average 160”). The data obtained from corresponding muscles of all subjects were pooled by
+using the absolute torque exerted by each subject.
+This procedure was allowed because the behavior
+of motor units did not clearly differ between subjects (See also DISCUSSION).
+We took great care to ensure that during the
+analysis of data of a motor unit, only recruitment
+thresholds of that particular motor unit were included. This was achieved by continuously monitoring the shape of the action potentials on a large
+oscilloscope screen with the help of a window trigger and a delay-line. It was not always possible to
+record from the same motor unit at different elbow
+angles because sometimes a change in elbow angle
+changed the shape of the action potential to such
+a degree that we were not sure of its identity (24).
+In such a case we resumed the experiment by
+studying another motor unit.
+The number of times a particular motor-unit
+behavior was observed is given in each table and
+figure, if relevant. For calculations, for instance
+concerning the relative activation of muscles, we
+have indicated the number of motor units included at the various elbow angles. These numbers
+may be different because of the problems mentioned with respect to the identification of motor
+units at different elbow angles. All population statistics are represented as the mean and the stan-
+
+ET AL.
+
+dard error of the mean. Statistical differences between averages were tested using a t test.
+RESULTS
+
+M. biceps
+In Fig. 2 examples are presented of motorunit behavior observed in the long head of the
+m. biceps. Two types of motor-unit behavior
+were found in this muscle: units for which recruitment
+threshold depends on flexion
+torque only (“flexion units”) and units for
+which recruitment threshold depends on torques in both flexion and supination direction
+(“summing
+units”). These types of motor
+units have also been found by ter Haar Romeny et al. ( 18). An illustration of the recruitment behavior of summing units is shown in
+Fig. 2A. Extension torques do not affect the
+recruitment threshold of these motor units,
+nor do pronation torques. If the sequence in
+which the torques are increased is changed,
+the combinations of torques at which a particular motor unit is recruited shows the same
+linear relation as the data points obtained
+with the original sequence. Also, when in
+control experiments, torques in different directions were raised simultaneously, the motor units were recruited at a combination of
+torques situated around the recruitment line
+of this motor unit.
+In Fig. 3 a summary is presented of all motor units of the type shown in Fig. 2A (n =
+18). The data points in Fig. 3 give the values
+for FR and SR for different elbow angles. All
+data points for a certain elbow angle scatter
+around an approximately straight line, which
+in good approximation
+passes through the origin. In a linear least squares fit the intercept
+at the ordinate did not differ significantly
+from the origin. This indicates that the ratio
+between the recruitment thresholds in flexion
+and supination direction for a given elbow
+angle is independent
+of the recruitment
+threshold of the motor units. Therefore the
+recruitment behavior of the motor units of
+this type can be summarized by the ratio SR/
+FR. Similarly, the recruitment behavior for
+torques in other directions can be summarized by the ratios PR/FR, SR/FR, and PR/ER
+for each motor unit. For an elbow angle of
+100” the average ratio between the recruitment thresholds SR/FR is 0.18 t 0.01 (SE),
+which is in agreement with the results of ter
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF HUMAN
+
+ARM MUSCLES
+
+1529
+
+A
+
+20
+
+EXTENSION
+
+FLEXION
+
+(NM)
+
+(NM)
+
+25
+
+2o
+
+EXTENSION
+
+(NM)
+
+FLEXION
+
+0
+
+0
+4
+
+0
+
+t
+
+t
+
+z
+z
+5
+iza
+*
+
+a
+
+(NM)
+
+25
+
+cl
+cl
+
+4
+4
+
+5
+
+25
+EXTENSION
+
+(NM)
+
+1
+
+25
+FLEXION
+
+(NM)
+
+B
+
+0
+
+FIG. 4. Examples of the recruitment behavior of motor units of the m. brachialis and m. brachioradialis. Each
+point indicates the combination of torques at which a motor unit was recruited. Different symbols represent data
+from different motor units. A: recruitment threshold for flexion is independent of the exerted level of pronation, but
+increases with increasing supination torque. Motor units recorded from the m. brachialis at an elbow angle of 100”.
+B: recruitment threshold for flexion is increased by additional supination or pronation torques. Motor units recorded
+from the m. brachioradialis at an elbow angle of 65”. C: recruitment threshold for flexion is independent of exerted
+supination or pronation torques. Motor units recorded from the m. brachialis at an elbow angle of 90”.
+
+Haar Romeny et al. (18). The averaged results are summarized in Table 1. It appears
+from Fig. 3 that for elbow angles exceeding
+100” the ratio SR/FR tends to increase. This
+can also be concluded from the data in Table
+1. The behavior of the recruitment thresholds
+for flexion and supination torques (SR and
+FR) at different elbow angles will be described
+in more detail in the subsection Behavior at
+other elbow angles.
+
+Figure 2B shows two examples of the recruitment behavior of flexion units. The motor units of this type (n = 5) are not included
+in Fig. 3 because it was not possible to recruit
+these motor units by exerting a supination
+torque only. Units of this type were consistently found in the lateral part of the long
+head of the m. biceps. In this study flexion
+recruitment thresholds for these motor units
+ranged from 0.7 to 20 Nom.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1530
+
+VAN
+
+ZUYLEN
+
+ET AL.
+
+FR
+7
+
+A if
+
+-sR./’
+clb
+
+00
+
+cl.
+
+6
+
+0
+0
+
+-S R
+4
+
+5
+
+0
+l
+
+.
+
+1
+
+4.
+
+%
+
+Oo. O
+
+0
+
+0
+
+2
+
+l
+
+a
+0.
+
+4%
+3
+
+0
+
+0
+
+..
+80
+
+4
+
+0
+
+0
+4s
+
+0
+
+q4o
+6F
+
+0
+
+5
+
+FR
+
+R
+-PA
+\
+
+it
+
+-PR
+
+15
+
+0
+
+\
+FR
+
+6
+
+10
+
+00
+
+5
+
+4
+
+3
+
+2
+
+0
+
+El
+
+1
+
+0
+FIG. 5. Recruitment thresholds of motor units in the m. brachialis and m. brachioradialis
+for different elbow
+angles. 0: 70°. 0: 100’. *: 130°, q : 160'. Symbols with a dot refer to motor units recorded in the m. brachioradialis. A:
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+35
+
+EXTENSION
+
+OF HUMAN
+
+(NM)
+
+ARM MUSCLES
+
+FLEXION
+
+1531
+
+(NM)
+
+35
+
+I
+
+FIG. 6. Examples of motor-unit behavior of the m. supinator. Flexion increases the recruitment threshold for
+supination, whereas extension hardly affects the threshold. Each point indicates the combination of torques at which
+a motor unit was recruited. Different symbols refer to different motor units. Results obtained at an elbow angle
+of 90”.
+
+In this study we have not investigated motor units at medial locations in the long head
+of the m. biceps. Because a previous study
+( 18) has shown that the medial site of the long
+head of m. biceps contains motor units the
+recruitment threshold of which depends on
+the supination torque only, we have not
+found any “supination units” in this study.
+In two experiments we recorded the behavior of motor units of the short head of the m.
+biceps. Only summing units were found. The
+data for these experiments are shown in Fig.
+3 with symbols containing a dot. The recruitment behavior of these units did not clearly
+differ from the behavior of motor units found
+in the long head of the m. biceps. This finding
+
+is consistent with the results of ter Haar Romeny et al. (18).
+AL brachialis/m. brachioradialis
+In Fig. 4 examples are presented of the behavior of motor units recorded in the m. brachialis and m. brachioradialis. Three subpopulations of motor units can be distinguished
+in both muscles. For two types of motor units
+the recruitment threshold for different combinations of torque in flexion and supination/pronation
+direction is shown in Fig. 4, A
+and B (n = 19). The recruitment threshold for
+flexion is raised when supination torques are
+exerted simultaneously.
+These motor units
+differ only with respect to their behavior dur-
+
+recruitment threshold for flexion (FR) and apparent recruitment threshold for supination (-&) for the motor units
+of type A and B shown in Fig. 4, A and B. The absolute value for the ratio (SR/FR) tends to increase slightly for elbow
+angles > 100”. B: recruitment threshold for flexion (FR) and apparent recruitment threshold for pronation (-PR) for
+the motor units of type B shown in Fig. 4B. Results were obtained from only a few motor units.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1532
+
+VAN ZUYLEN
+
+Sk
+/
+-K,
+
+.C
+
+0
+
+4
+
+0
+
+%O Oo
+0
+
+I
+1
+
+0
+
+1
+
+I
+
+I
+
+IO
+
+20
+
+30
+
+I
+
+4o -RF
+
+FIG. 7. Summary of the apparent recruitment threshold for flexion (-FR) and for the recruitment threshold
+for supination (SR) for motor units of the m. supinator.
+Different symbols indicate results obtained at different
+elbow angles. 0: 70”. 0: 100”. a: 130”. q : 160”. The ratio
+between the recruitment thresholds of these motor units
+is similar at the different elbow angles.
+
+ing combinations of flexion and pronation
+torques. In Fig. 54 the results for all motor
+units of these types recorded in the m. brachialis and m. brachioradialis (indicated with
+dotted symbols) are presented for different elbow angles for the combination
+of flexion
+and supination torques. As illustrated in Fig.
+54 no difference could be found between the
+behavior of motor units of this type for
+flexion and supination torques (see also DISCUSSION).
+The average results for the ratio between the recruitment thresholds are given in
+Table 1. There is a significant (P < 0.0 1) tendency for these motor units to have greater
+absolute values for the ratio SR/FR for elbow
+angles exceeding 100”. This tendency is in
+agreement with earlier observations ( 16).
+It is important to note that the apparent
+values for SR are negative. This means that
+the recruitment threshold for flexion for a
+motor unit of this type will increase when a
+torque in supination direction is added. Or in
+other words, it implies that when a motor
+
+ET AL.
+
+unit is recruited by exerting a flexion torque,
+it may stop firing when a supination torque
+is added. This decruitment threshold may be
+different from the recruitment threshold as
+reported earlier (10). In this study only recruitment thresholds have been included.
+The recruitment threshold for flexion of
+the motor units presented in Fig. 4A does not
+depend on the exerted pronation torque (n =
+10). For motor units of the type shown in Fig.
+4B the recruitment threshold for flexion increases when pronation torques are exerted
+simultaneously (n = 6). The results for the latter type are summarized in Fig. 5B. In some
+recordings the recruitment
+threshold for
+flexion was lowered during pronation (n = 3).
+We did not analyze these recordings any further because there was evidence that the subjects did not act according to the instructions.
+When pronation
+torques were combined
+with flexion torques these subjects complained about pain at the processus styloides
+radii. These subjects might have coactivated
+their muscles, thereby reducing the external
+torques and the flexion recruitment threshold
+of these motor units. It was impossible for the
+subjects to recruit these motor units by exerting a pronation torque only.
+In both muscles another subpopulation of
+motor units was found. Units of this type behaved similarly to the so-called flexion units
+that were recorded in the m. biceps (vt = 11).
+Supination and pronation torques do not
+have an effect on the recruitment threshold
+for flexion. Examples of these units are presented in Fig. 4C. Flexion recruitment
+thresholds ranged from 5 to 22 No m. In this
+case, too, a number of motor units showed
+reduced recruitment thresholds for flexion
+when pronation torques were exerted simultaneously (n = 5). The same mechanism as
+mentioned for the other motor units of the
+m. brachialis may be responsible for this behavior.
+M. supinator
+Figure 6 shows an example of the behavior
+of motor units in the m. supinator. The recruitment threshold for supination increases
+slightly when flexion torques are added. Extension torques do not significantly affect the
+recruitment threshold for supination. The results for the combination
+of supination and
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF
+
+HUMAN
+
+ARM
+
+MUSCLES
+
+1533
+
+1. Averaged data for the ratio of the recruitment thresholds for motor-unit
+subpopulations of the d$erent muscles forfour dQ&erent elbow angles
+
+TABLE
+
+Muscle
+M. biceps
+Type A
+
+M. brach.
+Br. rad.
+Type A+B
+
+M. brach.
+Br. rad.
+TYPeB
+
+M. supinator
+
+Behavior
+
+Ratio
+
+(-SR)
+FR
+
+(--PR)
+FR
+
+SR
+
+M. triceps
+Type A+B
+
+ER
+
+M. triceps
+Type A
+
+ER
+
+M. pron.
+Teres
+Type A+B
+
+M. pron.
+Teres
+TYPeB
+
+100”
+
+130”
+
+160”
+
+0.18
+(0.0 1)
+n= 14
+
+0.28 b
+(0.03)
+n= 9
+
+0.5 1c
+(0.06)
+n=9
+
+-0.60
+(0.20)
+n= 3
+
+-0.49
+(0.03)
+n=21
+
+-0.72 b
+(0.05)
+n=9
+
+-0.89
+(0.08)
+n= 5
+
+-0.38
+(0.04)
+n= 2
+
+-0.44
+(0.07)
+n=3
+
+-0.049 a
+(0.004)
+n=4
+
+-0.069
+(0.002)
+n=7
+
+-0.058 b
+(0.002)
+n= 4
+
+0.54
+(0.12)
+n= 2
+
+0.42
+(0.03)
+n = 20
+
+0.57 b
+(0.04)
+n=9
+
+1.10”
+(0.12)
+n=2
+
+0.74
+(0.03)
+n= 12
+
+1.16b
+(0.03)
+n= 4
+
+-0.2 1a
+(0.04)
+n= 2
+
+-0.13
+(0.0 1)
+n=9
+
+-0.25 b
+(0.04)
+n=6
+
+0.058”
+(0.007)
+n=3
+
+0.078
+(0.002)
+n=9
+
+0.1 15b
+(0.006)
+n=4
+
+-0.18
+(0.02)
+n=3
+
+-0.38 b
+(0.03)
+n=3
+
+SR
+FR
+
+(-FR)
+
+M. triceps
+Type A+B
+
+70”
+
+SR
+
+PR
+
+SR
+(-FR)
+
+PR
+FR
+
+(-SR)
+(FR)
+
+-0.18
+(0.03)
+n=4
+
+-0.06 1
+(0.009)
+n= 2
+
+The standard error in the mean is given between parentheses. Superscripts indicate significant differences (P <
+0.0 1) between data obtained at different elbow angles: a 70 and 1OO”,b 100 and 130”, ’ 130 and 160”.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1534
+
+VAN
+
+ZUYLEN
+
+A
+
+AL.
+
+ET
+B
+
+4
+4
+4
+
+00
+
+4
+
+4
+
+a
+4
+
+0
+
+00
+44
+44
+4+
+
+0.
+
+4
+4
+
+0
+4
+
+10
+
+c
+15.0
+EXTENSION
+
+(NM)
+
+:
+
+--
+
+4.
+
+,4,
+xc:*;
+
+L
+1
+
+4v
+
+I
+1
+
+EXTENSION
+4
+
+*
+1
+15.0
+
+FLEXION
+
+(NM)
+
+I
+I
+
+0
+(NM)
+
+0
+
+C
+
+15.0
+
+EXTENSION
+
+15.0
+
+(NM)
+FLEXION
+
+(NM)
+
+t
+
+FIG. 8. Behavior of motor units of the m. triceps. Closed symbols give results for motor units recorded in the long
+head of this muscle. Each point indicates the combination of torques at which a motor unit was recruited. Different
+symbols refer to data from different motor units. A: motor units activated during extension as well as supination and
+pronation torques. Flexion increases the recruitment threshold for supination but hardly influences the recruitment
+threshold for pronation. The motor unit that is indicated with aJi//eti circle has been recorded in the long head of the
+m. triceps. The other motor unit was recorded in the lateral head of the m. triceps. Both recordings were obtained at
+an elbow angle of 100”. B: motor units activated during extension as well as supination torques. Pronation torques
+have no effect on the extension recruitment threshold. Results from the long head of the m. triceps at an elbow angle
+of 90”. C: extension units recorded in the long head of the m. triceps at an elbow angle of 135”. Neither supination
+nor pronation torques influence the recruitment threshold for extension.
+
+flexion torques for all recorded motor units
+(n = 7) are summarized in Fig. 7 and Table
+1. The slope of the recruitment lines does not
+depend on the recruitment threshold. No indication for the existence of different subpop-
+
+ulations of motor units has been found in this
+muscle.
+M. triceps
+In the m. triceps three different subpopulations of motor units could be distinguished.
+
+ownloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+*
+
+A
+
+SR
+
+-
+
+5
+
+-
+
+4
+
+-
+
+ARM
+
+1535
+
+MUSCLES
+
+4
+
+E"
+
+t
+
+I
+6
+
+HUMAN
+
+%
+/
+
+7
+
+OF
+
+4
+0
+
+0
+
+0
+0
+
+8
+
+1
+
+1 4
+I
+
+.
+
+.
+
+.
+
+5
+
+0
+
+I
+
+15
+
+ER lo
+
+I
+
+0
+
+I
+
+1;
+
+5
+
+ER lo
+
+S
+. **
+
+4
+_----
+
+4
+
+0
+0
+
+4
+
+.
+8
+
+0
+OT!?
+
+0
+0
+
+0
+
+0 0
+1
+
+0
+
+I
+
+.
+
+I
+
+10
+
+20
+
+30
+-FR
+
+FIG. 9. Summary of the results for the recruitment thresholds for motor units of the m. triceps. Different symbols
+indicate different elbow angles. 0: 70’. 0: 100”. a: 130”. q : 160”. Symbols with a dot give results for motor units
+recorded in the lateral or medial head of the m. triceps. Open symbols indicate motor units recorded in the long head
+of this muscle. A: recruitment threshold for extension (ER) and for supination (&) of the motor units of type A and
+B shown in Fig. 8, A and B. The ratio between the recruitment thresholds (SR/ER) tends to be greater at an elbow
+angle of 130” than at an elbow angle of 100”. B: recruitment threshold for extension (ER) and for pronation (PR) of
+the motor units of type A shown in Fig. 8A. The ratio between the recruitment thresholds (PR/ER) tends to be greater
+at an elbow angle of 130” than at an elbow angle of 100”. C: apparent recruitment threshold for flexion (-FR) and the
+recruitment threshold for supination (SR) for type A and B motor units of the m. triceps shown in Fig. 8, A and B.
+The absolute value of the ratio between the recruitment thresholds (SR/FR) tends to increase for elbow angles different
+from 100”.
+
+For one type of motor unit the recruitment
+threshold depends on torque in extension direction only; for the other two types the recruitment threshold depends on torque in extension and supination direction (see Fig. 8).
+
+For the type of motor unit shown in Fig. 8A
+(n = 15) the recruitment threshold for extension is lowered when supination or pronation
+torques are added. Increasing the exerted
+torque in flexion direction raises the recruit-
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1536
+
+VAN
+
+ZUYLEN
+
+ET
+
+AL.
+
+2.5
+
+A
+
+v
+
+4
+4
+v
+4
+v
+
+4
+
+I
+I
+
+t
+
+30
+
+I
+I
+
+I
+I
+
+EXTENSION
+
+(NM)
+
+30
+
+4
+1
+
+I
+I
+
+I
+I
+
+I
+I
+
+I
+I
+
+FLEXION
+
+%
+
+.+
+
+(NM)
+
+4
+4
+4
+
+4
+4
+4
+
+0
+
+4
+
+0
+
+4
+4
+4
+
+t
+
+I
+I
+
+2.
+
+EXTENSION
+
+I
+8
+
+I
+I
+
+4
+Y I
+.
+
+I
+I
+
+I
+I
+FLEXION
+
+(NM)
+4
+
+4
+
+4
+
+I
+I
+(NM)
+
+1
+20
+
+m
+
+c
+
+zY
+
+0
+
+0
+
+0
+
+2.5
+FIG. 10. Examples of the behavior of motor units of the m. pronator teres. Each point indicates the combination
+of torques at which a motor unit was recruited. Different symbols refer to data from different motor units. A: motor
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF HUMAN
+
+ment threshold for supination
+torques.
+Flexion torques affect the recruitment threshold for pronation torques only slightly. So, although m. triceps makes a torque contribution in extension direction only, these motor
+units are activated during supination and
+pronation torques, even when combined
+with torques in flexion direction. The activation during supination and pronation of motor units in m. triceps can be understood as a
+compensation
+for the (undesired) flexion
+component due to the activation of m. biceps
+and m. pronator teres, respectively. For some
+of the larger motor units of this subpopulation the recruitment threshold for supination
+or pronation was too high to be built up by
+the subject in a slow and reliable way. Therefore, the recruitment lines had to be extrapolated to obtain the recruitment threshold.
+In Fig. 8B motor units are shown for which
+the recruitment threshold for extension is not
+affected when a pronation torque is added to
+an extension torque (n = 7). For a number of
+other motor units (n = 6) it was not possible
+to decide to which subpopulation (shown in
+Fig. 8, A or B) they belonged because of a lack
+of data for the combination of pronation and
+extension torques.
+Figure 8C shows an example of motor
+units in a subpopulation that is activated only
+when a particular amount of extension
+torque is exerted (n = 4). The recruitment
+thresholds of these “extension units” ranged
+from5to 12N.m.
+In Fig. 9A the recruitment thresholds for
+extension and supination for motor units of
+the type shown in Fig. 8, A and B, are summarized. The resulting data points for different
+elbow angles are situated roughly on straight
+lines passing through the origin. The average
+ratio between the recruitment thresholds for
+supination and extension is given in Table 1
+for different elbow angles. This ratio is
+slightly higher at elbow angles different from
+100”. In Fig. 9B and Table 1 the recruitment
+
+ARM
+
+MUSCLES
+
+1537
+
+thresholds for extension and pronation are
+summarized
+for the type of motor units
+shown in Fig. 8A. Finally in Fig. 9C the recruitment thresholds for supination together
+with the apparent recruitment threshold for
+flexion (-FR) are summarized for the motor
+units shown in Fig. 8, A and B.
+The data of the medial head, the long head,
+and the lateral head of the m. triceps are all
+presented together by using different symbols
+in Fig. 9. There seemed to be no differences
+in the recruitment behavior of the motor
+units in the subpopulations in the three heads
+of the m. triceps during isometric contractions.
+A4. pronator teres
+For all motor units found in m. pronator
+teres the recruitment threshold depends on
+torques in both flexion and pronation direction. For the units shown in Fig. 10 neither
+supination nor extension affects the recruitment threshold (n = 9). The other type of motor units is shown in Fig. 1OB. For these motor units (n = 6) the recruitment threshold for
+flexion is raised when supination torques are
+added to a flexion torque. When pronation
+torques are involved the recruitment behavior of these motor units is similar to that of
+the motor-unit type shown in Fig. 1OA.
+The results are summarized in Fig. 11 and
+Table 1. The ratio between the recruitment
+thresholds in pronation and flexion direction
+for the units shown in Fig. 10, A and B, is
+given in Fig. 1 IA. The ratio is -0.078 at an
+elbow angle of 100” and increases with increasing elbow angle (see Table 1). Figure
+11B shows the ratio between the apparent supination threshold and the flexion threshold
+of the motor units shown in Fig. 1OB.
+Discrete or continuous motor-unit properties?
+An important question with regard to the
+coordination of muscle activation is whether
+
+units activated during fiexion torques as well as pronation torques. Neither supination torques nor extension torques
+influence the recruitment threshold. These results were obtained at an elbow angle of 90”. For the motor unit with
+the larger recruitment thresholds, the combination of extension and pronation torques could not be tested because
+the shape of the action potential changed such that we were not sure of its identity for this combination of torques.
+B: Motor units activated during flexion torques and pronation torques but for these motor units supination torques
+raise the recruitment threshold for flexion.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+VAN ZUYLEN
+
+1538
+
+ET AL.
+
+4
+0
+
+5
+
+B
+FR
+
+4
+
+4
+
+0
+
+4
+
++ -s, /’
+0
+
+3
+- SR
+2
+
+4
+
+0
+
+1
+
+0
+0
+
+FIG. 11.
+Summary of the results for the recruitment thresholds for motor units recorded from the m. pronator
+teres. Different symbols indicate different elbow angles. 0: 70”. 0: 100”. a: 130°. q : 160”. A: recruitment threshold for
+flexion (FR) and for pronation (PR) of the motor units shown in Fig. 10, A and B. The ratio between the recruitment
+thresholds (PR/FR) tends to increase with increasing elbow angle. B: recruitment threshold for flexion (FR) and the
+apparent recruitment threshold for supination (-SR) for the type A and B motor units of the pronator teres shown in
+Fig. 10, A and B. Only a few data were obtained but the absolute value of the ratio between the recruitment thresholds
+(SR/FR) at 135” is higher than at 100°.
+
+ownloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 201
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF
+
+HUMAN
+
+127
+lo8642A
+90
+
+180
+
+(DEG)
+
+10
+8
+6
+4
+
+0
+
+90
+( DEG )
+
+C
+8642-
+
+(lg
+...*
+
+! 7
+t
+. .. *-:
+!
+I
+I I f 1’1 11 1 ’ ’ ’ 1’
+-go
+
+(DEG)
+
+0
+
+FIG. 12. Histograms for the number of motor units
+found with a particular slope for the line fitted to the recruitment thresholds for m. biceps (A), m. brachialis and
+m. brachioradialis (B), and m. triceps (C). All data were
+obtained at an elbow angle of 100”. In A and B the angle
+ar refers to the angle with the flexion/supination quadrant; in C the angle -CY refers to angle of the line in the
+flexion/pronation quadrant.
+
+motor units can be classified in a few subpopulations, each with a distinct homogeneous
+activation, or whether motor-unit properties
+demonstrate a broad and continuous, rather
+than a discrete, distribution. To address this
+question we have compiled a set of histograms that for an elbow angle of 100” flexion
+show for each muscle the number of motor
+units with a particular slope for the line that
+connects the recruitment thresholds for tor-
+
+ARM
+
+MUSCLES
+
+1539
+
+ques in flexion, extension, supination, and
+pronation direction (Fig. 12).
+The data in Fig. 12A clearly show that a discrete set of motor-unit properties is found in
+m. biceps. The units with a slope near 170”
+were all classified as belonging to the so-called
+type of summing units. The motor units
+whose recruitment line has a slope near 90”
+were classified as flexion units. The somewhat broader distribution of angles near 90”
+is due to the fact that the angle is calculated
+from the arctangent of the ratio of recruitment thresholds in supination and flexion direction. Due to the nonlinear character of the
+arctangent-function
+the same experimental
+error in the recruitment thresholds has a
+different effect on the error in the angle of the
+recruitment lines for different slopes.
+The data for m. brachialis and m. brachioradialis are shown in Fig. 12B, which suggests
+a bimodal, rather than a unimodal, distribution. However, if one accepts the suggestion
+of two populations of motor units, the motorunit properties within each population do not
+have a narrow, peaked distribution. The data
+suggest some variation in motor-unit properties within each population.
+The rather broad distribution within a subpopulation is certainly present in Fig. 12C,
+which shows data for m. triceps. The angle
+of the recruitment line for those motor units,
+which could be recruited by torques in pronation direction, varied in the range from -60
+to -20”. A few motor units were found (angle
+-90”) that could not be recruited by torques
+in pronation direction. However, these units
+could easily be recruited by torques in extension direction and therefore seem to belong
+to another subpopulation of motor units.
+Behavior at other elbow angles
+On several occasions we were able to record from a particular motor unit at different
+elbow angles (see METHODS).
+For all motor
+units in a particular subpopulation the recruitment behavior changed as a function of
+elbow angle in an identical way. We never observed that a motor unit classified in a particular subpopulation
+at a given elbow angle
+had to be classified in another subpopulation
+if elbow angle changed. Consequently, if for
+instance a motor unit in the m. biceps recorded at an elbow angle of 100” was classi-
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+VAN ZUYLEN
+
+1540
+
+ET AL.
+
+0
+0
+
+4
+
+I
+I
+
+t
+
+25
+
+*
+.
+
+4
+
+I
+I
+
+EXTENSION
+
+1
+I
+
+*
+
+I
+I
+
+(NM)
+(NM)
+*
+
+4
+
+h
+
+FIG. 1 3.
+
+Behav ior of a motor unit recorded in the short head of the m. biceps at different elbow angles. a: 110”. 0:
+170”. The same motor u nit as in Fig. 2A with the largest recruitment th resholds is shown . The recruitment
+threshold for flexion decreases with increasing elbow angle. The recruitment threshold for supination hardly depends
+on elbow angle. The motor unit is classified as a summing unit independent of the elbow angle.
+140”
+
+*:
+
+fied as a summing unit, this unit behaved as
+a summing unit at all other elbow angles.
+For the m. biceps, m. brachialis, m. brachioradialis, m. pronator teres, and m. supinator several motor units could be analyzed
+at different elbow angles. For the m. biceps an
+ex.ample is given in Fig. 13. The recruitment
+threshold for supination of this motor unit is
+about the same at all elbow angles, whereas
+the recruitment threshold for flexion tends to
+be lower at increasing elbow angles. The data
+in Fig. 13 for an elbow angle of 110” are the
+same as those shown in Fig. 2A. The averaged
+results are pooled for three muscles and presented in Fig. 14. The results of these muscles
+are normalized by arbitrarily choosing the recruitment threshold at 100” equal to one. Figure 14A shows that the recruitment threshold
+for flexion of motor units in flexor muscles
+decreases as the elbow angle increases from
+
+100 to 160”. This is in agreement with the fact
+that the mechanical advantage and exerted
+force of all flexor muscles decreases for
+greater elbow angles (34). Therefore, a larger
+activation of all muscles is required to generate the same torque at elbow angles near extension, which in turn causes a lower recruitment threshold. Second, the recruitment
+threshold of motor units of the m. biceps is
+relatively lower than the recruitment thresholds of motor units of the other flexor muscles
+at elbow angles different from 100’. This
+means that for elbow angles towards flexion
+or extension the activation of the m. biceps
+increases relatively faster than the activation
+of the other flexor muscles.
+As shown in Fig. 14B the recruitment
+threshold of motor units of m. supinator decreases and therefore, the activation of the m.
+supinator for supination torques increases
+
+Downloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 2018.
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+0
+
+W
+>
+
+0.6..
+
+G
+4
+2
+
+0.51
+
+BICEPS
+
+(n
+
++PRONATOR
+
+HUMAN
+
+‘.
+
+( n = 3 )b
+
+( n = 8 )
+
+1
+
+I
+
+1
+
+I
+
+70
+
+100
+
+130
+
+160
+
+ELBOW
+
+I--z
+20
+
+‘.
+
+= 5 )
+TERES
+
+OBRACHIALIS
+
+OF
+
+ANGLE
+
+\
+
+(“)
+
+\.
+
+0. \ .
+
+0.8-
+
+‘\
+
+l\
+OBICEPS
+I4
+
+t
+0.6
+
+2
+
+‘\
+
+( n = 4 )
+
+‘\
+
++ PRONATOR
+TERES
+( n =3)
+@SUPINATOR
+( n = 4 )
+
+‘.\
+
+7;
+
+Go
+
+a
+
+1
+0.5
+
+1
+
+Go
+ELBOW
+
+140
+ANGLE
+
+(“)
+
+FIG. 14. Recruitment threshold as a function of eibow angle. The value for the recruitment threshold at an
+elbow angle of 100” was arbitrarily normalized to unity
+for all motor units. The standard error in the mean is
+-5% of the actual value for all data points. A: average
+flexion recruitment threshold for m. biceps, m. brachialis/brachioradialis, and m. pronator teres. The recruitment threshold of motor units of all muscles is highest
+at 100”. The recruitment threshold for flexion of the m.
+biceps is relatively lower than the recruitment threshold
+of the other flexor muscles at elbow angles different from
+100”. B: average supination recruitment threshold for m.
+supinator and m. biceps summing units. The recruit-
+
+ARM
+
+MUSCLES
+
+1541
+
+relative to the activation of m. biceps at elbow
+angles different from 100”. The recruitment
+threshold of motor units in the m. pronator
+teres for pronation torques is lowest at 100”.
+This indicates that the relative activation during pronation for this muscle is at its maximum at this elbow angle.
+The ratio of recruitment
+thresholds for
+different torque directions is shown in Table
+1 for different types of motor units in all muscles. Clearly elbow angle has a significant
+effect (P < 0.0 1) on the relative activation for
+nearly all motor-unit types. In the few conditions where the effect was not significant, this
+may have been caused by the small number
+of motor units. However, even though the
+effect could not be demonstrated to be significant in these conditions, the effect was in
+agreement with extrapolation of the results at
+other elbow angles.
+Relative contributions of muscles
+We set out to determine, among other
+things, the relative contribution of different
+muscles to isometric torques. By using the averaged data on the ratio between the recruitment thresholds shown in Table 1 we are able
+to do this within certain limits. We assume
+that the torque exerted by all activated motor
+units of a particular subpopulation
+is the
+same along the recruitment line of a motor
+unit of that subpopulation. The same part of
+the motor units of the subpopulation is active
+at all combinations of torque on this line. In
+the APPENDIX we explain in detail the procedure we used. In Table 2 the results are summarized. This table shows that the contribution made by the m. biceps and the m. pronator teres to flexion torques is about 38% and
+6%, respectively at an elbow angle of 100”.
+According to these data the m. brachialis and
+the m. brachioradialis together with the m.
+extensor carpi radialis longis are responsible
+for the remaining 56% of the flexion torque
+during pure flexion at an elbow angle of 100”.
+
+merit threshold of motor units of the m. supinator is relatively lower than the recruitment threshold of motor
+units of the m. biceps at elbow angles different from 100”.
+Recruitment thresholds for pronation of the m. pronator
+teres are also shown, relative to the value obtained at an
+elbow angle of 100”.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+VAN ZUYLEN
+
+1542
+TABLE 2.
+
+Relative contributions of the
+m. biceps and the m. pronator teres to
+torques in d@erent directions
+Flexion
+
+M. biceps
+
+Supination
+
+100”
+
+130”
+
+100”
+
+130”
+
+38%
+
+43%
+
+35%
+
+26%
+
+Flexion
+M. pronator teres
+
+Pronation
+
+100”
+
+130”
+
+100”
+
+130”
+
+6.3%
+
+5.9%
+
+20%
+
+13%
+
+The separate contributions of m. brachialis
+and m. brachioradialis to flexion could not be
+estimated in more detail because both muscles behave in a similar way. In agreement
+with the conclusions derived from Fig. 14,
+Table 2 shows that the relative contribution
+of the biceps at an elbow angle of 130” is
+larger than at 100”.
+The contribution of the m. biceps to supination torques decreases from -35% at an
+elbow angle of 100” to 26% at an elbow angle
+of 130’. Consequently, the contribution
+of
+the m. supinator increases from 65 to 74%.
+This finding is in agreement with the following findings. In the first place the relative activation of the m. biceps decreases compared
+to the activation of the m. supinator (see Fig.
+14). Second, at 130” the mechanical advantage for supination of the m. biceps is lower,
+whereas that of the m. supinator is the same
+at both elbow angles. Finally, the tension
+exerted by the m. biceps is lower due to the
+length-tension relationship (34) (see also DISCUSSION).
+DISCUSSION
+
+Different subpopulations
+of motor units
+were found in most muscles investigated in
+this study, each having its own characteristic
+activation. Comparable findings have already
+been reported for the m. biceps (17, 18). Our
+findings concerning the m. biceps fit in with
+these results. In addition we have shown that
+the existence of subpopulations
+of motor
+units in a single muscle, is not an exception.
+It is a general observation that is not exclusive
+for a “multifunctional”
+muscle such as the m.
+
+ET AL.
+
+biceps. Actually, the m. supinator is the only
+muscle in which no evidence was found for
+the existence of different subpopulations.
+However, it should be mentioned that the
+number of experiments on m. supinator was
+rather small so that we may not have obtained a representative sample of motor units
+in m. supinator.
+General comments
+It should be stressed that no differences
+were found between subjects. For instance
+the motor units of the long head of the m.
+triceps with the largest and with the smallest
+ratio SR/FR presented in Fig. 7A were recorded in the same subject. Therefore, in all
+figures data from different subjects have been
+pooled. The ratio SR/FR of motor units in a
+subpopulation did not depend on the recruitment threshold. This means that the recruitment order of motor units of a particular type
+remains approximately constant for all combinations of exerted torques; this suggests a
+rather homogeneous activation of all motor
+units belonging to one subpopulation.
+For
+each subpopulation
+we found motor units
+with high- and low-recruitment
+thresholds.
+Even though the sample of units was sometimes rather small the recruitment thresholds
+of motor units were equally distributed for all
+subpopulations, and no evidence was found
+that a particular subpopulation consisted exclusively of low- or high-threshold units. Figures 3, 5, 7, 9, 11, and 12, which summarize
+the data, indicate that within a subpopulation
+there is a scatter in the ratio between the recruitment thresholds. This scatter is somewhat greater than is expected on the basis of
+the experimental error alone. Part of this scatter might have been caused by the fact that
+results are pooled for groups of elbow angles
+each with slightly different ratios between the
+recruitment thresholds.
+A matter of serious concern was that external torques in the shoulder and wrist might
+have influenced the recruitment threshold of
+motor units. For example, it is known that
+torques in exorotation or endorotation direction do influence the recruitment threshold
+of motor units in m. biceps (18). Subjects
+were not always capable of keeping torques
+in these directions exactly at zero. We made
+certain by thoroughly
+checking all the
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF
+
+HUMAN
+
+torques that could be measured with our
+equipment that no systematic errors had
+been made in this way. Moreover, recordings
+were excluded from further analysis in which
+irregularities in the speed of the contraction
+were larger than 5% of maximal voluntary
+force per second. These recordings were excluded because the irregularities might have
+influenced the recruitment threshold of motor units ( 10, 12).
+Usually, the activity of several motor units
+was measured in a single bipolar recording.
+It should be stressed that in general in each
+recording motor units were recorded that belong to one single subpopulation
+with the
+same ratio for the recruitment threshold in
+different torque directions. This was observed
+for all muscles and is consistent with findings
+in the m. biceps (18). These results suggest
+that the muscle territory of motor units of a
+particular subpopulation overlap. They suggest also that the muscle territory of different
+types of motor units occupies different regions in muscles. This fits in with the fact that
+the motor-unit territory in a muscle is restricted to a small part of the muscle (5). Correspondingly, Desmedt (13) found that motor units in different parts of the first dorsal
+interosseus muscle receive a different activation.
+The data from the m. brachialis and m.
+brachioradialis were presented in the same
+figures. The behavior of motor units of these
+muscles was very similar. The mechanical action of both muscles is approximately
+the
+same in the neutral position of the forearm
+which we used in our experiments. The conclusions of Buchanan et al. (4) were similar to
+our own in that they did not find differences
+in the activation
+of m. brachialis and
+m. brachioradialis
+for any combination
+of
+torques investigated.
+The recruitment order and the recruitment
+thresholds of motor units are reproducible if
+the recruitment behavior of motor units is
+studied at a particular elbow angle. This is
+also true when motor units of different muscles are studied simultaneously.
+Minor exceptions to this rule have only been observed
+when motor units with almost the same
+threshold are studied (12). However, in
+studying the recruitment order of motor units
+of different muscles or of different subpopula-
+
+ARM
+
+MUSCLES
+
+1543
+
+tions within a single muscle, one finds that
+major reversals of recruitment order occur
+when contractions in different directions are
+combined. Comparable findings have been
+reported for the m. biceps ( 18), for the m. first
+dorsal interosseus (13) and for the m. adductor pollicis brevis and m. extensum digitorum
+longum (28, 3 1) although the results for the
+first dorsal interosseus muscle were contradicted in another study (30).
+Contributions of dzfirent muscles
+From the data obtained for the individual
+motor units we were able to calculate the relative contribution of a number of muscles to
+the isometric torques.
+First of all, the relative contribution of the
+different muscles appears to be independent
+of the level of exerted torque. This statement
+is an extension of the notion of the flexor
+equivalent of Bouisset (2, 3) in the case of
+pure flexion. We have verified our observation only for torques up to 40% of the maximum voluntary torque. Presumably, at large
+torques the activation ratio will not remain
+constant because the torque output of some
+subpopulations will saturate before that of
+others.
+The values found for the contributions of
+the different muscles during flexion torques
+are well within the range reported by Jsrgensen and Bankov (23). Hasan and Enoka (19)
+reported that there was a wide variety in the
+synergistic coactivation of the flexor muscles.
+This variety, however, is not present at all in
+our study and might have been caused by
+their use of surface electrodes to compare
+muscle activity at different arm positions.
+Surface electrodes are not able to selectively
+record from different subpopulations within
+one muscle. Furthermore, movement artefacts caused by the movement of the muscles
+relative to the surface electrodes cannot be
+ruled out.
+Second, the notion of the flexor equivalent
+(2, 3) does not have general validity. When
+torques in two directions are combined the
+relative activation
+of flexor muscles is
+changed (see Figs. 2,4,6,8, and 10). The relative activation of muscles is also found to
+be different at different elbow angles (see
+Fig. 14).
+Third, we found that muscles that become
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1544
+
+VAN
+
+ZUYLEN
+
+relatively less effective when the elbow angle
+is changed receive a relatively lower activation. Three examples will be discussed.
+With regard to the muscles that contribute
+to supination torques, only the length and the
+mechanical advantage of the m. biceps are
+changed when the elbow angle changes from
+100 to 130” (34). The torque exerted by the
+m. supinator at a particular activation level
+remains unaffected because changing the elbow angle has no biomechanical effect on this
+muscle. Second, the recruitment threshold of
+m. biceps motor units increases, whereas the
+recruitment threshold of the motor units of
+the m. supinator decreases (see Fig. 14). This
+difference is significant (P < 0.0 l), indicating
+that the relative activation of the m. supinator increases whereas that of the m. biceps decreases. This means that the more effective
+muscle receives a larger activation. From Table 2 it appears that the contribution
+of the
+m. biceps to supination does indeed tend to
+decrease from 35 to 26%. Therefore, these
+two findings in fact corroborate each other.
+During pronation torques the change of
+length and mechanical advantage of the m.
+pronator teres give rise to a situation similar
+to that described above when the elbow angle
+is changed from 100 to 130’. The m. pronator
+teres becomes relatively less effective in exerting pronation torques, whereas the m. pronator quadratus remains unaffected. In addition
+the relative activation of m. pronator teres decreases (see Fig. 14). As a result of these effects
+the contribution of the m. pronator teres to
+pronation torques decreases. This can also be
+concluded from Table 2: the contribution of
+the m. pronator teres to pronation torques
+tends to decrease from 20 to 13%.
+The flexion recruitment threshold of all
+flexor muscles is lower at an elbow angle of
+130” than it is at 100”. This is due to the fact
+that the torque in flexion direction of all
+flexor muscles decreases as a result of a
+smaller mechanical advantage and of the
+force-length relation (34). This decrease is
+smallest for the m. biceps. Furthermore, from
+Fig. 14 we can see that the activation of the
+m. biceps is also greater at 130” relative to the
+activation of m. brachialis and m. brachioradialis because the recruitment threshold of
+motor units in m. biceps for flexion decreases
+significantly more (P < 0.0 1) than the recruitment threshold of the other flexor muscles.
+
+ET
+
+AL.
+
+These two findings imply that the relative
+contribution
+of the m. biceps to flexion
+torques increases. Table 2 shows that the contribution of the m. biceps to flexion does
+indeed increase slightly, namely from 38
+to 44%.
+Synergism
+In a recent paper Buchanan et al. (4) state
+that “synergies between muscles are better
+defined in relation to a particular task, which
+would here be exemplified by torque generation in a particular direction.” In our study
+for instance it appears that two muscles,
+which are a classical example of antagonistic
+muscles, can be synergists during a particular
+task. For example, motor units in major parts
+of m. triceps and m. biceps are active simultaneously during supination, even when an
+amount of flexion or extension is added. Furthermore, as mentioned above, the muscle
+that becomes relatively more effective receives a relatively larger activation than the
+other muscles involved. We therefore conclude that the activation of a particular (part
+of a) muscle is determined by a mechanism
+that takes into account the mechanical actions of all muscles situated around a particular joint.
+Buchanan et al. (4) suggest that one might
+expect muscles with broad attachment sites
+(such as the m. brachialis) to be activated during a large range of different torque combinations. We did not find any such tendency. On
+the contrary, the activation of m. brachialis
+increases only when flexion torque is increased. Neither supination nor pronation
+nor extension increases the activation of this
+muscle. In the second place the m. brachioradialis and m. brachialis, which are quite
+different with respect to their attachment
+sites, are activated quite similarly. Another
+factor that contradicts the suggestion of Buchanan et al. (4) is that the major part of the
+m. biceps, which has quite narrow attachment sites, is activated during combinations
+of extension and supination, flexion and supination, and flexion and pronation. Another
+example is that motor units in major parts of
+the m. triceps are also activated during extension and during supination or pronation even
+combined with flexion torques. This activation is the same for the medial and lateral
+head, which have large attachment sites, and
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF
+
+HUMAN
+
+for the long head. It can be understood as a
+compensation of undesired flexion torques
+exerted by the m. biceps or the m. pronator
+teres during supination torques and pronation torques, respectively.
+In the literature several explanations have
+been suggested to account for the activation
+of muscles in a redundant motor system.
+Most of these explanations are based on the
+assumption that the observed behavior represents some optimum solution for the control
+of the biomechanical system (8,9, 14, 15,26,
+32). The predictions concerning the muscle
+activation that result from these models are
+in contradiction with results from our study
+and from the literature (4). When, for example, supination torques are exerted, m. supinator, m. biceps, and m. triceps (that only exerts a torque in extension direction) are activated. This is in contradiction
+with the
+criterion of minimum
+muscle force (8, 32),
+which predicts activation of the m. supinator
+only. Minimum
+muscle fatigue (15) implies
+that muscles are activated homogeneously
+because muscle fatigue increases more than
+proportionally with muscle activation. This is
+in contradiction with our discovery of subpopulations
+of motor units each with a
+different activation in almost every arm muscle that we studied.
+Recently, Gielen and van Zuylen (16) presented a model that basically is a modified
+version of the tensor theory of Pellionisz and
+Llinas (27). In this model it is assumed that
+the activation of muscles is the result of a linear combination
+of the eigenvectors of a
+transformation
+between afferent muscle receptor signals and efferent muscle activation
+signals. This assumption leads to a linear relationship for the recruitment threshold of motor units as a function of torque in particular
+directions. The predicted linear relationships
+are similar to the straight-line fits found in
+this paper. Quantitatively, the predictions for
+the ratio of recruitment
+thresholds for
+torques in different directions are in good
+agreement with the values found for the largest subpopulation in each muscle, shown in
+Table 1. Furthermore, the changes in recruitment threshold as a function of elbow angle
+reported in this study were very accurately
+predicted by Gielen and van Zuylen.
+An explanation to account for the existence of subpopulations has been suggested
+
+ARM
+
+MUSCLES
+
+1545
+
+by Loeb (25). He suggested that the Central
+Nervous System activates “task groups” that
+may consist of parts of (different) muscles to
+linearize the motor output. Hoffer et al. (22)
+found three discrete groups of motoneurons
+(subpopulations) in the motoneuron pool of
+the cat sartorius muscle. These groups were
+activated in different phases during normal
+locomotion.
+Further experiments that take
+into account the fact that subpopulations exist are necessary to discriminate between the
+various hypotheses.
+
+APPENDIX:
+DETERMINATION
+RELATIVE
+CONTRIBUTIONS
+MUSCLES
+TO FLEXION,
+AND
+PRONATION
+
+OF THE
+OF ARM
+SUPINATION,
+
+In this appendix we outline the procedure used
+to calculate the relative contributions of the m. biceps to flexion and supination torques and of
+the m. pronator teres to flexion and pronation
+torques. First let us consider the activations of
+muscles at an elbow angle of 100” when a pure supination torque of X No m is exerted as is indicated
+in Fig. 15. Motor units of the m. supinator, of the
+m. triceps (type A and B, shown in Fig. 8, A and
+B, respectively), and of the m. biceps [type A and
+type C: only activated during supination ( 1S)] will
+be activated. When a supination torque is exerted,
+the torque component of the m. biceps in flexion
+direction and of the m. triceps in extension direction will cancel each other. Therefore:
+
+FBi.A+ FBi,C+ ETLA + ET~.B = 0
+
+(3)
+
+In this formula FBi,Arepresents the flexion torque
+component of the type A motor units of the m.
+biceps and so on.
+Now let us consider the activation of motor
+units while a pure extension torque of ETot = -X/
+0.42 N. m is exerted. At this extension torque the
+same population of type A and type B motor units
+of the m. triceps is activated as for the supination
+torque of X N. m. This follows from the fact that
+the average ratio between the recruitment thresholds for extension and supination for these motor
+units is 0.42 (see Table 1). However, during extension torques type C motor units of the m. triceps
+are activated as well, so
+ET~,A + ETr.B + ETLC
+
+-X
+=GN-m
+.
+
+(4)
+
+I n our study we found only a small nu mber of
+m. triceps motor units of type C (4 out of 32). We
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1546
+
+VAN
+
+ZUYLEN
+
+X/O.42
+EXTENSION
+
+ET AL.
+
+FLEXION
+(A.U.)
+
+(A.
+
+U. 1
+
+x/o.
+
+18
+
+fj
+
+FIG. 15. Schematic drawing for calculating the contribution
+of the m. biceps to flexion and supination torques at
+an elbow angle of 100”. The line marked B represents the recruitment line of a m. biceps summing motor unit that
+recruits at a level of X N . m supination torque. The slope of B equals the average slope of m. biceps summing units.
+The line denoted by T represents the recruitment line of a m. triceps summing unit that also recruits at a level of X
+N. m supination torque. The slope is equal to the average slope of m. triceps summing units.
+
+assumethat we have studieda representativepart
+of the total population of all m. triceps motor
+units. Thereforea goodestimatefor the tricepsextensiontorque during pure supination of X Nom
+is
+-(32 - 4) X N . m
+%A + ETr.B = -*- 32
+0.42
+= -2.lXN.m
+
+(5)
+
+and with Equation 3:
+
+We know that the mechanicaladvantageof the
+m. bicepsfor flexion is 5.9 * 0.2 timeslargerthan
+for supination( 18).Therefore at a level of X Nom
+supinationthe relative contribution of the m. bicepsto this supinationtorque is:
+%A
+
++ s&C =- 2* lx $ i $ 100% = 350/
+0
+S To:
+5.9
+x
+
+(7)
+
+The remaining65% of the supination torque is
+delivered by the m. supinator. Note that X, indicatingthe exertedtorque iseliminatedfrom Equa-
+
+tion 7. This meansthat the relative contribution
+of the different musclesdoesnot dependon the
+level of the contraction.
+When pure flexion is exertedwith FTot= X/O. 18
+Nom the samepopulation of type A motor units
+of the m. bicepswill be activated asin the casedescribed by Equation 3. This can be concluded
+from the data in Table 1 and from Fig. 15.Type C
+units of the m. biceps(supinationmotor units; see
+description of m. biceps)are not activated now,
+but insteadmotor units of the m. bicepstype B
+areactivated. We assumethat both typesof motor
+units occur with roughly the samefrequency and
+that asa consequencethe total torque exertedby
+the whole m. bicepsis the same,i.e., 2.1X. This
+will be a fairly good estimateof FBI,*+ FBi,B,becausethe number of motor units of type B and C
+isquite smallanyway (Ref 18and this study). So
+FBi.A + FBi.B= - 2.1x * 100% = 38%
+FTot
+x/o. 18
+
+(8)
+
+This result implies that the m. bicepscontributes38%of the flexion torque at an elbowangle
+of 100”.The sameline of reasoningcan be applied
+for an elbow angle of, for instance, 13OO.
+The resultsare presentedin Table 2.
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+ACTIVATION
+
+OF HUMAN
+
+The samereasoningalsoholdsfor the m. pronator teres.We have to take into accountthat during
+the combination of pronation and extensiononly
+15 out of 26 motor units of m. triceps that were
+analyzedduring this combination of torqueswere
+activated during pronation as well as extension
+torques(type A motor units). This meansthat now
+a correction of 15126X 100%hasto be included
+in the calculation of the extensiontorque exerted
+by the m. triceps during pure pronation in order
+to counteractthe flexion torque of the m. pronator
+teres.The mechanicaladvantageof the m. pronator teresin flexion direction is ~4.0 times higher
+than in pronation direction. The resultsare shown
+in Table 2. The m. pronator quadratuswill be responsiblefor the restof the pronation torques.The
+accuracy of the estimatedcorrection (15/26) and
+
+ARM
+
+MUSCLES
+
+1547
+
+of the ratio of the mechanicaladvantages(4.0) is
+somewhatlessthan in the former analysisof the
+contributions of the m. biceps.Therefore,the estimate of the contributions of the m. pronator teres
+can only be a rough estimate.However, this inaccuracy doesnot influence the conclusionthat the
+relative contribution of the m. pronator teresto
+pronation decreases
+with increasingelbowangle.
+ACKNOWLEDGMENTS
+
+This study was supported by the Netherlands Organisation for Pure Research (Z.W.O.).
+Received 10 September 1987; accepted in final form
+17 June 1988.
+
+REFERENCES
+J. V. AND LATIV, A. Integrated actions
+and functions of the chief flexors of the elbow. J.
+Bone Jt. Surg. 39: 1106- 1118, 1957.
+2. BOUISSET,
+S. EMG and muscle force in normal motor activities. In: New Developments in Electromyography and Clinical Neurophysiology, edited by J. E.
+Desmedt. Basel: Karger, vol. 1, p. 547-583, 1973.
+3. BOUISSET,
+S. AND GOUBEL, F. Integrated electromyographical activity and work. J. Appl. Physiol. 55:
+1. BASMAJIAN,
+
+695-702,
+4. BUCHANAN,
+
+1973.
+
+T. S., ALMDALE,
+D. P.J., LEWIS, J. L.,
+W. Z. Characteristics of synergistic relations during isometric contractions of human elbow muscles. J. Neurophysiol. 56: 1225- 124 1, 1986.
+5. BUCHTHAL,
+F., ERMINIO,
+F., AND ROSENFALCK,
+P.
+Motor unit territory in different human muscles.
+Acta Physiol. Stand. 45: 72-87, 1959.
+6. B~~DINGEN,
+H. J. AND FREUND, H. The relationship
+between the rate of rise of isometric tension and motor unit recruitment in a human forearm muscle.
+Pfluegers Arch. 362: 6 l-67, 1976.
+7. CNOCKAERT,
+J. C., LENSEL, G., AND PERTUZON,
+E.
+Relative contribution of individual muscles to the
+isometric contraction of a muscular group. J. Biomech. 8: 191-197, 1975.
+8. CROWNINSHIELD,
+R. D. Use of optimization techniques to predict muscle forces. J. Biomech. Eng.
+AND
+
+RYMER,
+
+100: 88-92, 1978.
+9. CROWNINSHIELD,
+
+R. D. AND BRAND, R. A. A physiologically based criterion of muscle force prediction
+in locomotion. J. Biomech. 14: 793-80 1, 198 1.
+10. DENIER VAN DER GON, J. J., TER HAAR ROMENY,
+B. M., AND VAN ZUYLEN,
+E. J. Behaviour of motor
+units of human arm muscles: differences between
+slow isometric contraction and relaxation. J. Physiol. 359: 107- 118, 1985.
+11. DENIER VAN DER GON, J. J., GIELEN, C. C. A. M.,
+AND VAN ZUYLEN,
+E. J. Activation of motor units
+in human arm muscles in relation to elbow joint angle. J. Physiol. Lond. 366: 23P, 1985.
+12. DESMEDT,
+J. E. The size principle of motoneuron
+
+recruitment in ballistic or ramp voluntary contractions in man. In: Motor Unit Types, Recruitment and
+Plasticity in Health and Disease. Progress in Clinical
+Neurophysiology, edited by J. E. Desmedt. Basel:
+Karger, 198 1, vol. 9, p. 97- 136.
+13. DESMEDT, J. E. AND GODEAUX,
+E. Spinal motoneuron recruitment in man: rank deordering with direction but not with speed of voluntary movement. Science Wash. DC 2 14: 933-936,
+198 1.
+14. DUL, J., JOHNSON,
+J. E., SHIAVI, R., AND TOWNSEND, M. A. Muscular synergism-I. On the criteria
+for load sharing between synergistic muscles. J. Biomech. 17: 663-673, 1984a.
+15. DUL, J., JOHNSON,
+J. E., SHIAVI, R., AND TOWNSEND, M. A. Muscular synergism-II.
+A minimum
+fatigue criterion for load sharing between synergistic
+muscles. J. Biomech. 17: 675-684, 1984b.
+16. GIELEN, C. C. A. M. AND VAN ZUYLEN, E. J. Coordination of arm muscles during flexion and supination: application of the tensor analysis approach.
+Neuroscience 17: 527-539, 1986.
+17. TER HAAR ROMENY,
+B. M., DENIER VAN DER GON,
+J. J., AND GIELEN, C. C. A. M. Changes in recruitment order of motor units in human biceps muscle.
+Exp. Neurol. 78: 360-368, 1982.
+18. TER HAAR ROMENY,
+B. M., DENIER VAN DER GON,
+J. J., AND GIELEN, C. C. A. M. Relation between
+location of a motor unit in the human biceps brachii
+and its critical firing levels for different tasks. Exp.
+Neurol. 85: 63 l-650, 1984.
+19. HASAN,
+Z. AND ENOKA, R. M. Isometric torque-angle relationship and movement-related activity of
+human elbow flexors: implications for the equilibrium-point hypothesis. Exp. Brain Res. 59: 441-450,
+1985.
+20. HENNEMAN,
+E. Relation between size of neurons
+and their susceptibility to discharge. Science Wash.
+DC 126: 1345-1347,
+1957.
+21. HENNEMAN,
+E. Recruitment of motoneurons: the
+size principle. In: Motor Unit Types, Recruitment
+and Plasticity in Health and Disease. Progress in
+
+wnloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+1548
+
+VAN
+
+ZUYLEN
+
+Clinical Neurophysiology,
+edited by J. E. Desmedt.
+Basel, Karger, 198 1, vol. 9, p. 26-60.
+22. HOFFER, J. A., LOEB, G. E., AND SUGANO,
+N. Cat
+hindlimb motoneurons during locomotion: III.
+Functional segregation in sartorius. J. Neurophysiol.
+57: 554-562,
+
+1987.
+
+K.
+AND
+BANKOV,
+S. Maximum
+strength of elbow flexors with pronated and supinated forearm. In: Biomechanics
+II, Medicine
+and
+Sport, edited by J. E. Desmedt. Basel: Karger, 197 1,
+vol. 6, p. 174- 180.
+24. MILES,
+T. S., NORDSTROM,
+M. A., AND TURKER,
+K. S. Length-related changes in activation threshold
+and wave form of motor units in human masseter
+muscle. J. Physiol. Lond. 370: 457-465,
+1986.
+25. LOEB, G. Motoneurone task groups: coping with kinematic heterogeneity. J. Exp. Biol. 115: 137- 146,
+
+23. JBRGENSEN,
+
+1985.
+
+R. W., SIMON, S. R.,
+J. M. An evaluation of the approaches of optimization models in the prediction of
+muscle forces during human gait. J. Biomech. 14:
+513-525, 1981.
+27. PELLIONISZ,
+A. AND LLINAS,
+R. Tensorial approach
+to the geometry of brain function: cerebellar coordination via a metric tensor. Neuroscience
+5: 11251136, 1980.
+28. SCHMIDT,
+E. M. AND HAMBRECHT,
+F. T. Motor unit
+26. PATRIARCO,
+AND
+
+MANSOUR,
+
+A. G., MANN,
+
+ET
+
+AL.
+
+recruitment order: modification under volitional
+control. In: Motor unit types, recruitment
+and plasticity in health and disease. Progress in clinical neurophysiology,
+edited by J. E. Desmedt. Basel: Karger,
+
+1981, vol. 9, p. 145-148.
+D. G. AND ZUNIGA,
+E. N. Effect of wrist
+rotation on the XY plot of averaged biceps EMG
+and isometric tension. Am. J. Phys. Med. 49: 253-
+
+29. SIMONS,
+
+256, 1970.
+30. THOMAS,
+C. K., Ross, B. H., AND
+
+STEIN, R. B. Motor-unit recruitment in human first dorsal interosseus muscle for static contractions in three different
+directions. J. Neurophysiol.
+55: 10 17- 1029, 1986.
+3 1. THOMAS,
+J. S., SCHMIDT,
+E. M., AND HAMBRECHT,
+F. T. Facility of motor unit control during tasks defined directly in terms of unit behaviors. Exp. Neu-
+
+rol. 59: 384-395,
+1978.
+32. YEO, B. P. Investigations concerning the principle of
+minimal total muscular force. J. Biomech. 9: 413416, 1976.
+33. YONEDA,
+T., OISHI, K., FUJIKURA,
+S., AND ISHIDA,
+
+A. Recruitment threshold force and its changing
+type of motor units during voluntary contraction at
+various speeds in man. Brain Res. 372: 89-94, 1986.
+34. VAN ZUYLEN,
+E. J., VAN VELZEN, A., AND DENIER
+VAN DER GON,
+J. J. A biomechanical model for
+flexion torques of human arm muscles as a function
+of elbow angle. J. Biomech. 2 1: 183-190, 1988.
+
+ownloaded from www.physiology.org/journal/jn by ${individualUser.givenNames} ${individualUser.surname} (163.015.154.053) on October 24, 20
+Copyright © 1988 American Physiological Society. All rights reserved.
+
+

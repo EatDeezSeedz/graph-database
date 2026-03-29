@@ -1,0 +1,896 @@
+261
+
+J Physiol 584.1 (2007) pp 261–270
+
+The effect of lung volume on the co-ordinated recruitment
+of scalene and sternomastoid muscles in humans
+Anna L. Hudson, Simon C. Gandevia and Jane E. Butler
+Prince of Wales Medical Research Institute and the University of New South Wales, Sydney 2031, Australia
+
+The human scalenes are obligatory inspiratory muscles that have a greater mechanical advantage
+than sternomastoid, an accessory muscle. This study determined scalene and sternomastoid
+recruitment during voluntary inspiratory tasks, and whether this activity varied with lung
+volume, when feedback from the lungs and inspiratory muscles would differ. If afferent feedback
+has a major role in determining the recruitment of the scalenes and sternomastoid, then at each
+lung volume, activity would be altered. Intramuscular EMG from scalene and sternomastoid
+muscles, and oesophageal pressure were recorded while subjects (n = 7) performed inspiratory
+isovolumetric ramps to maximal inspiratory pressure (MIP) and dynamic inspirations from
+functional residual capacity (FRC) to total lung capacity (TLC). The static inspiratory ramps
+were repeated at three lung volumes: FRC, FRC + tidal volume, and TLC. To determine the
+profile of inspiratory activation, i.e. the initial and ongoing recruitment of the muscles, the
+root mean square of the EMG was measured throughout the tasks. Scalene was recruited early,
+and EMG increased with pressure, reaching a plateau at 80% MIP. In contrast, sternomastoid
+activity began later, but then increased with pressure from 20 to 100% MIP. Similar profiles
+of activation occurred at all three lung volumes (n.s.). The ratio of sternomastoid to scalene
+EMG was also the same irrespective of the initial lung volume (n.s.). In dynamic inspirations,
+scalene and sternomastoid activation had similar stereotypical profiles to the static tasks, but
+scalene EMG was 15–40% greater (P < 0.05). Sternomastoid activation was the same in both
+tasks (n.s.). These results suggest that in voluntary tasks, scalene and sternomastoid are recruited
+in the order of their mechanical advantages, and that alterations in feedback related to changes
+in lung volume failed to alter their activation. Thus, in humans, the mechanism responsible for
+the differential activation of these two inspiratory muscles has an element that is preset.
+(Received 23 May 2007; accepted after revision 7 August 2007; first published online 9 August 2007)
+Corresponding author S. Gandevia: Prince of Wales Medical Research Institute, Barker Street, Randwick, NSW, 2031,
+Australia. Email: s.gandevia@unsw.edu.au
+
+The human inspiratory muscles in the neck include
+the scalenes and sternomastoid. These muscles have
+similar respiratory actions on the chest wall and cause
+cranial displacement of the sternum and ribcage, but they
+have different patterns of activity (Campbell, 1970). The
+scalenes are ‘obligatory’ muscles of inspiration activated
+in every breath (Raper et al. 1966; De Troyer & Estenne,
+1984; Gandevia et al. 1996), after an average of ∼7%
+inspiratory time in multiunit EMG recordings (Saboisky
+et al. 2007). Sternomastoid is an ‘accessory’ muscle of
+inspiration and does not contract during quiet breathing.
+It is only recruited after ∼70% of inspiratory capacity when
+tidal volume is increased by hypercapnia (Campbell, 1955)
+or volitional hyperpnoea (Raper et al. 1966), or at ∼35%
+of maximal inspiratory pressure during a static inspiratory
+effort at functional residual capacity (Yokoba et al.
+2003). Also, in patients with severe chronic obstructive
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+pulmonary disease, intramuscular recordings show strong
+inspiratory activity in scalenes, but sternomastoid is silent
+during quiet breathing (De Troyer et al. 1994).
+De Troyer and colleagues have quantified the action of
+most human respiratory muscles on the lung (Wilson &
+De Troyer, 1992; for review see De Troyer et al. 2005).
+‘Mechanical advantage’, or the change in pleural pressure
+produced by a muscle per unit muscle mass and unit
+muscle stress, is assessed by measuring a muscle’s fractional
+length change during passive lung inflation. A muscle
+with a high mechanical advantage shortens more (per
+unit of lung volume) than one with a low mechanical
+advantage. In humans, the mechanical advantage of the
+scalenes (3.4% l−1 ) is greater than that of sternomastoid
+(2.0% l−1 ; Legrand et al. 2003).
+There is a matching of mechanical advantage and
+inspiratory activity in the intercostal muscles in the
+DOI: 10.1113/jphysiol.2007.137240
+
+262
+
+A. L. Hudson and others
+
+anaesthetized dog (De Troyer et al. 1996b; Legrand et al.
+1996; for review see De Troyer et al. 2005), and in humans
+(De Troyer et al. 2003; Gandevia et al. 2006). This principle
+of ‘neuromechanical matching’ (Butler et al. 2007) ensures
+that intercostal muscles with a high mechanical advantage
+are active early in inspiration and contract strongly, and
+those with a low mechanical advantage are active late and
+contract weakly. In the dog, this pattern of activity is
+maintained even after muscle afferent feedback is removed
+by thoracic dorsal rhizotomy or section of the phrenic
+nerves (De Troyer & Legrand, 1995; De Troyer et al. 1996a;
+Legrand et al. 1996). However, the role of lung afferents in
+this neuromechanical matching has not been tested.
+Human inspiratory muscles in the neck also appear to
+be recruited according to their mechanical advantage as
+during quiet breathing there is more activity in scalene,
+which has a high mechanical advantage, compared to
+sternomastoid (Legrand et al. 2003). It is not known
+whether their inspiratory activity is dependent on afferent
+feedback of lung volume or muscle length, or whether it is
+controlled by descending drive and recruitment strategies
+with stereotypical patterns that are preset. In the human
+medial gastrocnemius, there are changes in motor-unit
+recruitment depending on muscle length and the relative
+contribution of this muscle to isometric plantar flexion
+torque (Kennedy & Cresswell, 2001). This is an example
+
+J Physiol 584.1
+
+where neural drive is adapted depending on muscle length
+and task.
+We have studied scalene and sternomastoid activity
+during static ramps of inspiratory effort at different lung
+volumes, and also during dynamic inspirations to high
+lung volumes. At different lung volumes and muscle
+lengths, feedback from the lungs and inspiratory muscles
+will differ. If such feedback has a major role in determining
+the recruitment of the scalenes and sternomastoid,
+then their activity will be altered by lung volume. We
+hypothesized that scalene and sternomastoid activity
+would be similar despite changes in lung volumes, and
+we tested it by comparing their activity across a range of
+volumes.
+Methods
+Oesophageal pressure (P oes ) and intramuscular electromyographic activity (EMG) from the right scalene and
+sternomastoid muscles were recorded (Fig. 1A). Subjects
+performed inspiratory isovolumetric (‘static’) ramps to
+maximal inspiratory pressure (MIP), at three lung
+volumes, and voluntary ‘dynamic’ inspirations from
+functional residual capacity (FRC) to total lung capacity
+(TLC). P oes , scalene and sternomastoid EMG were
+determined at 11 time points across the tasks between
+
+A
+
+B
+
+Figure 1. Experimental set up and analysis of
+static inspiratory ramps
+A, subjects were comfortably seated and breathed
+through a mouthpiece with a solenoid-activated
+shutter. Electromyographic (EMG) recordings were
+made with bipolar electrodes inserted into the right
+scalene and sternomastoid muscles. Oesophageal
+pressure (P oes ) was recorded. B, representative
+recordings during a 5 s inspiratory ramp (i.e. static task)
+at functional residual capacity (FRC). From top to
+bottom, panels show P oes , and r.m.s. and raw EMG
+from scalene and sternomastoid. Cursors were placed
+at baseline and maximal P oes and the corresponding
+time points were denoted 0% and 100% of the ramp,
+respectively. P oes , scalene r.m.s. EMG and
+sternomastoid r.m.s. EMG were then determined at
+10% time intervals ( e) to give a profile of muscle
+activation across the task. Negative pressure is upwards
+in the pressure trace. Vertical calibration: 500 μV.
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+J Physiol 584.1
+
+Recruitment of scalene and sternomastoid muscles
+
+0% and 100% of time (Fig. 1B). This allowed us to
+determine the ‘profile’ of inspiratory activation, i.e. the
+initial and on-going recruitment of populations of scalene
+and sternomastoid motor units during isovolumetric
+ramps and dynamic inspirations.
+Experimental set-up
+
+Data were obtained from seven subjects (aged 25–61 years,
+six males) who gave informed consent to the procedures,
+which conformed to the Declaration of Helsinki, and
+which had been approved by the Human Research Ethics
+Committee of the University of New South Wales. Subjects
+were healthy with no major respiratory or neurological
+disease.
+Subjects were seated comfortably with restrictive
+garments removed and grounded with a large flexible
+strap on the right shoulder. The locations for insertion
+of the electrodes were determined by palpation, and for
+scalenus medius, it was ∼8 cm superior to the floor of
+the supraclavicular fossa, and for sternomastoid, it was
+at the longitudinal midpoint of the muscle. Selective
+recordings of EMG were made simultaneously with pairs of
+intramuscular fine-wire electrodes. The electrodes were
+made from two insulated stainless-steel wires (75 μm
+diameter) with 2–3 mm of insulation removed and were
+inserted into each muscle via a 23 gauge needle. The EMG
+was amplified (×1000–50000) and band-pass filtered
+(53–3000 Hz).
+A catheter was inserted to record P oes (Gaeltec Ltd, UK).
+It was passed through the nose until the transducer was
+located in the mid-lower oesophagus.
+Subjects breathed through a mouth piece connected to
+a pneumotachometer (Hans Ruldoph Inc., MO, USA) and
+a solenoid-activated shutter (Honeywell, CT, USA). The
+signal of airflow was integrated to give volume, and subjects
+were given visual feedback of lung volume and P oes on a
+large computer monitor throughout the experiment.
+All signals were stored on computer via an analog
+to digital interface for subsequent analysis (Cambridge
+Electronic Design 1401, Cambridge, UK). EMG was
+sampled at 5 kHz and flow, volume and P oes at 1 kHz.
+Experimental protocol
+
+MIP was determined in brief maximal voluntary
+inspiratory efforts performed against a closed shutter at
+the three different lung volumes: FRC, FRC + tidal volume
+(V t ), and near TLC. Volume is expressed relative to the
+usual end-expiratory level, and therefore this estimate of
+FRC is considered 0 l. The highest lung volume (near
+TLC) was ∼300 ml below TLC. This volume was selected
+because subjects could not relax their inspiratory muscles
+completely against the closed shutter at TLC. However, in
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+263
+
+this study, this volume will be referred to as ‘TLC’. Baseline
+and maximal P oes were calculated from the MIP efforts at
+each lung volume, and subjects then tracked 5 s ramps
+of P oes by gradually generating an inspiratory pressure
+against the closed shutter with visual feedback of P oes .
+These isovolumetric ramps or ‘static’ tasks were repeated
+at three lung volumes: FRC, FRC + V t , and TLC, with
+three to six repeats at each volume (e.g. Fig. 4). Subjects
+also performed six ‘dynamic’ tasks, by inspiring voluntarily
+from FRC to TLC with the shutter open. The duration of
+inspiration was ∼4 s.
+Data analysis
+Static tasks. Cursors were placed manually at the start
+
+(i.e. baseline P oes ) and the end (i.e. maximal P oes ) for each
+ramp. To determine the profile of inspiratory activation
+of scalene and sternomastoid throughout the static task,
+P oes and the root mean square (r.m.s.; time constant,
+0.05 s) of the scalene and sternomastoid EMG signals were
+determined at 11 time points, i.e. at 0%, and 10% time
+intervals to 100% of the ramp (Fig. 1B). At each time,
+baseline P oes was subtracted from P oes to give P oes . For
+comparison between subjects and between lung volumes,
+P oes was normalized to the brief MIP generated by each
+subject, at each lung volume (e.g. Fig. 5B). Baseline r.m.s.
+EMG (near zero at complete relaxation) was subtracted
+from EMG at each time point, and to allow comparison
+of scalene and sternomastoid activation across different
+lung volumes, EMG was normalized to the maximal EMG
+across all tasks. Therefore, for each muscle, the average
+maximal EMG during repeated inspiratory ramps at each
+lung volume was determined, and the maximum value was
+used for normalization at all time points and volumes. It
+was not normalized to EMG during the brief maximal
+inspiratory efforts because the wire electrodes were not
+inserted until after the MIP was determined.
+Chest wall recoil pressure (P w ) was measured when
+subjects relaxed against the closed shutter after inspiration
+to FRC + V t , or TLC (Agostoni, 1970). Assuming that
+scalene and sternomastoid activity is representative of
+all chest wall muscles, some subjects (n = 4) could relax
+against the shutter (e.g. subject in Fig. 3C). However,
+others (n = 3) had difficulty relaxing at high lung volumes,
+and had on-going EMG prior to the onset of the inspiratory
+ramps. In these subjects, P w was ∼35% less than those
+who could relax. The difference in P w (P w ) between
+these groups of subjects was 2.1 cmH2 O at FRC + V t , and
+6.9 cmH2 O at TLC. This represents a potential error of up
+to ∼14%, as MIP at TLC is only ∼50 cmH2 O (Agostoni,
+1970). Therefore, to calculate the pressure generated by the
+total respiratory system, and to obtain consistency between
+all subjects, P w (above) was added to all values of P oes at
+FRC + V t , and TLC in the three subjects who could not
+relax.
+
+264
+
+A. L. Hudson and others
+
+EMG recordings from sternomastoid could not be
+analysed in one subject due to movement artefact. In
+another subject, an adequate recording of scalene EMG
+could not be made. Therefore, for Fig. 5A and B, P oes
+(% MIP), scalene EMG and sternomastoid EMG were
+averaged across six subjects at each lung volume. In Fig. 5C,
+the ratio of sternomastoid to scalene EMG, data is the
+average of five subjects with complete data from both
+muscles.
+Dynamic tasks. Due to the nature of the task, dynamic
+
+tasks (voluntary inspiration to TLC) were analysed in a
+slightly different way. Cursors were placed at the onset
+of scalene or sternomastoid activity, and at peak inspired
+volume (Fig. 2A). Then, for each muscle, lung volume,
+P oes and EMG were determined at 11 time points,
+i.e. at zero and 10% time intervals to 100% of time
+(e.g. vertical dashed line in Fig. 2A). During any dynamic
+breath, as P oes decreases and lung volume increases, there
+is a concurrent increase in P w . Therefore, for each subject,
+volume–P w graphs (P w that a subject could generate after
+relaxation at FRC, FRC + V t , and TLC) were constructed
+(not shown). Linear regressions determined the P w that a
+
+J Physiol 584.1
+
+subject could generate at the lung volume at each time
+point, and P oes was adjusted by the estimated P w to
+give the pressure generated by the total respiratory system.
+Volume–MIP graphs (MIP that a subject could generate at
+FRC, FRC + V t , and TLC; Fig. 2B) were also constructed,
+and linear regressions determined the estimated MIP that
+each subject could generate at each time point. Voluntary
+activation of the diaphragm is high during maximal
+inspiratory efforts across this range of lung volumes
+(McKenzie et al. 1996). Pressure (P oes + estimated P w )
+was then normalized to the estimated MIP. As in the static
+tasks, scalene and sternomastoid EMG were normalized
+to the maximal EMG of the three lung volumes during
+the static tasks. Pressure (% estimated MIP), scalene, and
+sternomastoid EMG were averaged across six subjects (see
+above).
+Statistics
+
+Statistical comparison between the MIP that subjects could
+generate at different lung volumes was made by analysis of
+variance (ANOVA) with repeated measures, and post hoc
+testing using the Student–Newman–Keul procedure. In
+
+A
+(l)
+
+B
+
+l
+
+Figure 2. Analysis of scalene and sternomastoid
+activation during dynamic tasks
+A, representative recordings during dynamic tasks,
+i.e. inspiration from FRC to total lung capacity (TLC)
+with the shutter open. From top to bottom, panels
+show lung volume, P oes (negative pressure upwards)
+and scalene and sternomastoid r.m.s. EMG. Cursors
+were placed at the onset of scalene or sternomastoid
+activity (arrows), and at peak inspired volume
+(continuous vertical line). For analysis, these time points
+were denoted 0% and 100%, respectively, and then
+volume, P oes and scalene or sternomastoid EMG values
+were determined at 10% time intervals. For each time
+point (e.g. vertical dashed line) and corresponding
+volume (‘x’), the estimated maximal inspiratory pressure
+(MIP) that each subject could generate at that volume
+was determined (‘y’, panel B). Estimated MIP was used
+to normalize P oes (‘z’) at that time interval. B, MIP
+that each subject ( e) and the group (•, mean ± S.E.M,
+n = 7) could generate at each lung volume. For each
+subject, MIP was greatest at FRC (0 l), decreased at
+FRC + tidal volume (V t ) (∼ + 1 l; P < 0.05) and further
+decreased at TLC (∼ +2.5 l; P < 0.05). The estimated
+MIP (‘y’) for each lung volume (‘x’) was calculated for
+each subject ( e) for analysis of the dynamic tasks
+(panel A).
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+Recruitment of scalene and sternomastoid muscles
+
+J Physiol 584.1
+
+the static tasks, comparison between EMG at the different
+lung volumes was made by two-way repeated measures
+ANOVA, with lung volume (FRC, FRC + V t , and TLC)
+and P oes (0–20%, 20–40%, 40–60%, 60–80% and 80–100%
+MIP) as factors. Contrasts on the volume factor compared
+FRC with TLC, and their mean with FRC + V t . Contrasts
+on P oes factor compared each level with the next
+(i.e. 0–20% MIP with 20–40% MIP, 20–40% MIP with
+40–60% MIP, etc.). Scalene and sternomastoid EMG values
+were averaged in 20% blocks of MIP, on the basis of P oes
+(% MIP) values at the 11 time points (Fig. 1B). If a subject
+had a missing value (i.e. no value of P oes in the 20% MIP
+block) it was replaced with the group mean (Tabachnick
+& Fidell, 1989).
+To compare muscle activation during the static and
+dynamic tasks, a two-way repeated measures ANOVA was
+used with task (i.e. static verses dynamic) and pressure
+(0–20% MIP or % estimated MIP, etc., as above) as factors.
+Contrasts compared task and pressure (as above). For the
+static task factor, P oes (% MIP), scalene and sternomastoid
+EMG values during the ramp at FRC were used for
+comparison to dynamic tasks because all subjects could
+relax at this volume (see above), and therefore were equally
+relaxed before the dynamic tasks and static tasks at FRC.
+Only pressures from 0 to 80% MIP or % estimated MIP
+(i.e. 4 levels) were compared due to the high number of
+missing values in the dynamic tasks above 80% estimated
+MIP. The criterion for statistical significance was taken as
+P < 0.05. Data are presented as means ± s.e.m.
+Results
+The timing and degree of activity in scalene and
+sternomastoid differed during voluntary isovolumetric
+
+A
+
+B
+
+inspiratory ramps (static tasks) to maximal inspiratory
+pressure (MIP) and dynamic inspirations from functional
+residual capacity (FRC) to total lung capacity (TLC).
+To compare activity between static tasks at different
+lung volumes, and between static and dynamic tasks,
+inspiratory pressure during the tasks were normalized to
+MIP.
+Maximal inspiratory pressure
+
+MIP differed between the three test lung volumes
+(Fig. 2B). For seven subjects, the average MIP decreased
+from 113.8 ± 7.6 cmH2 O (mean ± s.e.m.) at FRC, to
+92.7 ± 4.3 cmH2 O at FRC + tidal volume (V t ; P < 0.05).
+It was even smaller at TLC, 56.0 ± 10.5 cmH2 O (P < 0.05).
+For each subject, P oes was expressed relative to MIP at that
+lung volume (Fig. 2B; open circles).
+Static tasks
+
+Inspiratory ramps at three lung volumes for an individual
+subject are shown in Fig. 3. Despite differences in the
+pressures produced during the ramps, the profile of scalene
+and sternomastoid EMG is similar at each lung volume.
+Scalene was active early in the pressure ramps, often prior
+to a major change in P oes (e.g. Fig. 3A). In comparison,
+sternomastoid was recruited later, and in some subjects
+it was not active until ∼60% MIP in some ramps
+(e.g. Fig. 4B, right panel). Recruitment of sternomastoid
+was delayed equally at all lung volumes despite
+sternomastoid EMG having been present during the
+dynamic phase of inspiration to that target volume
+(Figs 3C and 4B, right panel).
+
+C
+
+Figure 3. Data from a single subject during static inspiratory ramps
+P oes , r.m.s., and raw EMG from scalene and sternomastoid during inspiratory ramps at different lung volumes
+for a typical subject. Negative pressure is upwards in the pressure trace. A, during a static task at FRC, the
+subject generated a MIP of 104 cmH2 O. Scalene was active early, at the start of the ramp, but sternomastoid
+recruitment was delayed. B, at FRC + V t , the subject generated a MIP of 96 cmH2 O. The recruitment of scalene
+and sternomastoid is similar to panel A. C, at a high lung volume, TLC, (see Methods), the subject could only
+generate 54 cmH2 O. However, scalene and sternomastoid activity remain similar to that at FRC (panel A) and
+FRC + V t (panel B).
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+265
+
+266
+
+A. L. Hudson and others
+
+The ‘profile’ of inspiratory activation, i.e. the initial
+and on-going recruitment of scalene and sternomastoid
+from 0 to 100% MIP in repeated inspiratory ramps for
+an individual subject is shown in Fig. 4. The average
+activation during inspiratory ramps at FRC, FRC + V t ,
+and TLC for six subjects is shown in Fig. 5. Scalene
+was active early, with some recruitment at 0% MIP
+and a continued increase in activity with increasing P oes
+(P < 0.05), before reaching a plateau at 80–100% MIP
+(P > 0.05). Some subjects could not relax properly at high
+lung volumes (see Methods); therefore at 0% MIP, the
+average scalene EMG was elevated at TLC. Sternomastoid
+EMG did not increase until after an average 20% MIP,
+but then increased progressively to 100% MIP (P < 0.05).
+Therefore, while scalene and sternomastoid have different
+profiles of inspiratory activation, there was no difference
+for each muscle in activation at different lung volumes.
+Scalene EMG from 0 to 100% MIP was similar at FRC,
+FRC + V t , and TLC (P = 0.16), and sternomastoid EMG
+was also similar during inspiratory ramps at the three test
+lung volumes (P = 0.43).
+
+J Physiol 584.1
+
+To study the relationship between the profile of
+inspiratory activation of the two respiratory muscles, and
+whether it differed with lung volume, we plotted the ratio
+of sternomastoid EMG to scalene EMG (Fig. 5C). From 0
+to 100% MIP, the ratio of activation was similar during
+inspiratory ramps at three lung volumes (P = 0.82).
+Dynamic tasks
+
+Figure 6 shows profiles of inspiratory activation of scalene
+and sternomastoid during dynamic inspirations from
+FRC to TLC. Activation was consistent between breaths
+(Fig. 6A), but as in the static tasks, the profile of activation
+of scalene and sternomastoid differed (Figs 2A and 6).
+For the group, scalene EMG increased with pressure
+(% estimated MIP) in dynamic breaths (Fig. 6B, filled
+circles; P < 0.05). Sternomastoid recruitment was delayed
+until ∼20% estimated MIP, but then its activity increased
+from 20 to 80% estimated MIP (P < 0.05).
+Figure 6B also compares scalene and sternomastoid
+EMG during dynamic tasks to EMG during static
+
+A
+
+B
+
+Figure 4. Scalene and sternomastoid activation during inspiratory ramps at different lung volumes in
+one subject
+Data from one subject during 6 static inspiratory ramps at each lung volume: FRC, FRC + V t , and TLC. P oes is
+expressed as a percentage of MIP for each lung volume. Scalene and sternomastoid r.m.s. EMG is expressed as a
+percentage of maximum EMG across the three lung volumes (see Methods). A, scalene activation from 0 to 100%
+MIP during inspiratory ramps was consistent within and between lung volumes. B, sternomastoid activity was also
+similar within and between lung volumes, but the profile of activation is different from that for scalene (panel A).
+In this subject, sternomastoid was not recruited until after ∼40% MIP.
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+J Physiol 584.1
+
+Recruitment of scalene and sternomastoid muscles
+
+inspiratory ramps at FRC. In scalene, the profile of
+activation was qualitatively similar to the stereotyped
+activation during the static tasks (Fig. 5A), and EMG
+continually increases to 80% MIP or % estimated MIP
+in both tasks. However, there was more scalene activity
+throughout the dynamic task compared to the static task
+at FRC (P = 0.04). There was no difference in the profile
+of activation of sternomastoid in the two tasks (Fig. 6B; P
+= 0.68).
+
+A
+
+B
+
+Figure 5. The profile of activation of scalene and
+sternomastoid at different lung volumes
+Mean ± S.E.M data from six subjects during 5 s
+inspiratory ramps at FRC (•), FRC + V t (), and TLC
+( e). P oes is expressed as a percentage of MIP for each
+lung volume. Scalene and sternomastoid r.m.s. EMG are
+expressed as a percentage of maximum EMG across the
+three lung volumes. A, at all lung volumes, scalene EMG
+increased with P oes before reaching a plateau at ∼80%
+MIP, and a similar profile of activation was observed
+irrespective of initial lung volume. Scalene EMG is not
+0% at 0% MIP because some subjects could not relax
+fully against the shutter before the ramp, especially
+near TLC. There was also some recruitment of scalene
+prior to an increase in P oes (% MIP). B, in contrast to
+scalene (panel A), sternomastoid recruitment is delayed.
+At all lung volumes, sternomastoid EMG does not
+increase until after 20% MIP of the inspiratory ramps.
+From 20 to 100% MIP, sternomastoid EMG increases
+similarly at FRC, FRC + V t , and TLC. C, to compare the
+activity of sternomastoid to that of scalene, the ratio of
+sternomastoid EMG (panel B) to scalene EMG (panel A)
+was plotted for each lung volume (mean ± S.E.M.). As
+subjects could not relax their scalene before the
+inspiratory task, data at 0% MIP are not shown. There
+is no difference in sternomastoid: scalene activation
+during inspiratory ramps at different lung volumes.
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+C
+
+267
+
+Discussion
+We have shown that in voluntary tasks, the profile
+of inspiratory activation of scalene and sternomastoid
+does not depend on lung volume or feedback from
+the lungs and inspiratory muscles, and activation is
+similar during isovolumetric ramps at three lung volumes.
+The ratio of sternomastoid : scalene EMG is also similar
+during inspiratory ramps at different lung volumes. The
+stereotypical activation of scalene and sternomastoid
+
+268
+
+A. L. Hudson and others
+
+during static inspiratory tasks was also observed in
+dynamic inspirations across a wide range of lung volumes.
+Scalene activity was greater during the dynamic
+inspirations compared to static ramps at FRC (Fig. 6B;
+top panel). This may be due to the requirement of the
+inspiratory muscles to overcome the inertia of the chest
+wall mass. Based on the force–velocity curve, dynamic
+breaths will also require more neural drive to produce
+pressure at higher shortening velocities. Despite greater
+activity in scalene, sternomastoid activity was similar in
+both tasks (Fig. 6B; bottom panel). This suggests that any
+changes in afferent feedback as a result of increased scalene
+EMG in the dynamic tasks did not alter the activation of
+the accessory muscle, sternomastoid.
+Differences in lung volume will change feedback
+from many structures including the lungs, muscles and
+upper airway. If inspiratory muscle activity depends on
+feedback of lung volume, inputs from any of the above
+structures could be responsible. Our data show that
+
+A
+
+J Physiol 584.1
+
+lung volume does not affect the profile of activation
+in scalene and sternomastoid muscles during voluntary
+isovolumetric ramps of inspiratory pressure, or greatly
+affect the activation in dynamic inspirations. Receptors
+which respond to static changes in lung volume, pressure or
+muscle length will be activated differentially during static
+tasks at the different lung volumes, and receptors sensitive
+to dynamic changes, will be activated during inspiration to
+TLC (see below). Our results suggest that such behaviour
+does not alter the overall profile of neural activation of
+the two muscles. Also, activation does not depend on
+pressure (or force) as at each lung volume, sternomastoid
+is recruited at different absolute pressures (e.g. Fig. 3). The
+pressure at which sternomastoid is recruited at FRC here is
+similar to that in breaths with an inspiratory resistive load
+(Adams et al. 1989).
+The maintained firing of some intrapulmonary slowly
+adapting stretch receptors, which respond to changes
+in tension in the airway wall, would differ at the lung
+
+B
+
+Figure 6. Activity in scalene and sternomastoid during dynamic tasks in a single subject, and comparison
+with activation in static inspiratory ramps
+Scalene and sternomastoid EMG are expressed as a percentage of maximum EMG during inspiratory ramps (see
+Methods). For the dynamic tasks, pressure is expressed as a percentage of estimated MIP (MIPe ; Fig. 2B, e). For
+the static inspiratory ramps in panel B, EMG and P oes (% MIP) are average values from the ramp at FRC (Fig. 5A).
+A, scalene and sternomastoid activation during 6 dynamic breaths to TLC for a typical subject. As for static
+inspiratory ramps (Fig. 4), scalene and sternomastoid activity are consistent in repeated ramps, but different between
+muscles. Scalene is active early, but sternomastoid recruitment is delayed until ∼20% MIPe . B, mean ± S.E.M data
+from 6 subjects during dynamic breaths (•), compared to the mean ± S.E.M data from the static tasks at FRC
+( e), for 0–80 P oes (% MIP or % MIPe ). In scalene, activity is greater during the dynamic tasks compared to static
+inspiratory tasks (top panel), but there is no difference in the activation of sternomastoid (bottom panel).
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+J Physiol 584.1
+
+Recruitment of scalene and sternomastoid muscles
+
+volumes tested here (e.g. Widdicombe, 1954; Davis et al.
+1956; Coleridge & Coleridge, 1986; Ho et al. 2001).
+Intrapulmonary rapidly adapting receptors respond to
+dynamic changes in inflation (e.g. Coleridge & Coleridge,
+1986; Ho et al. 2001), and they would have fired during
+dynamic inspirations only. Consequently, the feedback
+from rapidly adapting receptors would differ in dynamic
+and static contractions.
+Intramuscular receptors will also be activated
+differentially at the three lung volumes. At high lung
+volumes and short muscle length, the background
+discharge of secondary muscle spindle endings, which
+respond to static changes in muscle length, will be lower
+(e.g. Matthews, 1972; Vallbo, 1974). Golgi tendon organs,
+which signal muscle force (e.g. Houk & Henneman,
+1967; Jami, 1992; Gandevia, 1996; Proske & Gregory,
+2002) are likely to discharge less at high lung volumes
+(i.e. short muscle length), as the force-generating capacity
+of scalene and sternomastoid will be less for the same
+degree of activation (Farkas & Rochester, 1986). It is
+difficult to determine the response of primary muscle
+spindles during static tasks because the balance of
+drives to α and γ motoneurones of human inspiratory
+muscles at different lung volumes is not known. However,
+spindle afferents in limb muscles discharge during slow
+muscle shortening (e.g. Burke et al. 1978; Al-Falahe et al.
+1990; Edin & Vallbo, 1990), so here they will discharge
+during dynamic inspirations. Their response may be
+less in dynamic, shortening contractions compared to
+static tasks when muscle length changes less (Burke
+et al. 1978). Therefore, primary muscle spindles are
+likely to respond differently in the dynamic and static
+tasks. Note also that muscle spindle activity in passive
+expiratory muscles may also differ at the three lung
+volumes.
+Slowly adapting pressure-sensitive receptors in the
+upper airway may also respond differentially during
+inspiratory ramps at different lung volumes because the
+negative pressures developed in the airway will differ
+(Hwang et al. 1984a, 1984b; Mathew, 1984). In addition,
+it is likely, but not definitively established, that some skin
+and joint receptors will discharge differently in the three
+static and in the dynamic inspiratory tasks.
+Descending projections to respiratory motoneurones
+and afferent feedback may differ between voluntary and
+involuntary conditions. In this study, feedback related
+to lung volume (irrespective of its origin) failed to alter
+the voluntary activation of scalene and sternomastoid.
+This suggests that, wherever the site of integration of the
+descending projections and afferent pathways, feedback
+associated with changing lung volume (i.e. not just lung
+afferents) does not alter the distinct profile of activation of
+the muscles in this study.
+Why is there stereotyped activation of scalene and
+sternomastoid? Respiration requires an efficient, fail-safe
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+269
+
+system of neural control. Activity in the respiratory
+muscles during spontaneous breathing, may be driven by
+a principle of ‘neuromechanical matching’ to guarantee
+this efficiency (De Troyer et al. 2005; Butler et al. 2007),
+as the work done contracting two muscles is minimized if
+their activity is distributed according to the magnitude of
+their mechanical advantages (De Troyer et al. 2005). There
+may also be activation of inspiratory muscles in the neck
+according to their mechanical advantages as scalene has
+a high mechanical advantage and is active early in every
+breath, compared to sternomastoid, which is an accessory
+inspiratory muscle with a lower mechanical advantage
+(Legrand et al. 2003).
+The mechanism responsible for the distribution of
+inspiratory activity in the canine intercostal muscles does
+not depend on feedback from the chest wall or diaphragm
+(De Troyer & Legrand, 1995; De Troyer et al. 1996a;
+Legrand et al. 1996). In this study, we have shown that
+feedback related to lung volume (from any source
+including the lungs) does not affect the profile of activation
+of the human scalene and sternomastoid muscles in
+voluntary tasks. This suggests that the mechanism
+responsible for the activation of inspiratory muscles in
+humans has an element that is preset, organized either
+centrally or in the spinal cord.
+References
+Adams L, Datta AK & Guz A (1989). Synchronization of motor
+unit firing during different respiratory and postural tasks in
+human sternocleidomastoid muscle. J Physiol 413,
+213–231.
+Agostoni E (1970). Statics. In The Respiratory Muscles:
+Mechanics and Neural Control, 2nd edn, ed. Campbell EJ,
+Agostoni E & Newsom Davis J, pp. 48–79. Lloyd-Luke Ltd,
+London.
+a
+Al-Falahe NA, Nagaoka M & Vallbo AB (1990). Response
+profiles of human muscle afferents during active finger
+movements. Brain 113, 325–346.
+Burke D, Hagbarth KE & Lofstedt L (1978). Muscle spindle
+activity in man during shortening and lengthening
+contractions. J Physiol 277, 131–142.
+Butler JE, De Troyer A, Gandevia SC, Gorman RB & Hudson
+AL (2007). Neuromechanical matching of central respiratory
+drive: a new principle of motor unit recruitment? Physiol
+News 67, 22–24.
+Campbell EJ (1955). The role of the scalene and sternomastoid
+muscles in breathing in normal subjects; an
+electromyographic study. J Anat 89, 378–386.
+Campbell EJ (1970). Accessory muscles. In The Respiratory
+Muscles: Mechanics and Neural Control, 2 edn, ed. Campbell
+EJ, Agostoni E & Newsom Davis J, pp. 181–193. Lloyd-Luke
+Ltd, London.
+Coleridge HM & Coleridge JCG (1986). Reflexes evoked from
+tracheobronchial tree and lungs. In Handbook of Physiology,
+section 3, The Respiratory System, ed. Fishman AP, Control of
+Breathing, 2, pp. 395–429. American Physiological Society,
+Bethesda, MD.
+
+270
+
+A. L. Hudson and others
+
+Davis HL, Fowler WS & Lambert EH (1956). Effect of volume
+and rate of inflation and deflation on transpulmonary
+pressure and response of pulmonary stretch receptors.
+Am J Physiol 187, 558–566.
+De Troyer A & Estenne M (1984). Coordination between rib
+cage muscles and diaphragm during quiet breathing in
+humans. J Appl Physiol 57, 899–906.
+De Troyer A, Gorman RB & Gandevia SC (2003). Distribution
+of inspiratory drive to the external intercostal muscles in
+humans. J Physiol 546, 943–954.
+De Troyer A, Kirkwood PA & Wilson TA (2005). Respiratory
+action of the intercostal muscles. Physiol Rev 85, 717–756.
+De Troyer A & Legrand A (1995). Inhomogenous activation of
+the parasternal intercostals during breathing. J Appl Physiol
+79, 55–62.
+De Troyer A, Legrand A, Gayan-Ramirez G, Cappello M &
+Decramer M (1996a). On the mechanism of the mediolateral
+gradient of parasternal activation. J Appl Physiol 80,
+1490–1494.
+De Troyer A, Legrand A & Wilson TA (1996b). Rostrocaudal
+gradient of mechanical advantage in the parasternal
+intercostal muscles of the dog. J Physiol 495, 239–246.
+De Troyer A, Peche R, Yernault JC & Estenne M (1994). Neck
+muscle activity in patients with severe chronic obstructive
+pulmonary disease.
+Am J Respir Crit Care Med 150, 41–47.
+a
+Edin BB & Vallbo AB (1990). Dynamic response of human
+muscle spindle afferents to stretch. J Neurophysiol 63,
+1297–1306.
+Farkas GA & Rochester DF (1986). Contractile characteristics
+and operating lengths of canine neck inspiratory muscles.
+J Appl Physiol 61, 220–226.
+Gandevia SC (1996). Kinesthesia: roles for afferent signals and
+motor commands. In Handbook of Physiology, section 12,
+Exercise: Regulation and Integration of Multiple Systems, eds.
+Rowell LB & Sheperd JT, pp. 128–172. Oxford University
+Press, New York.
+Gandevia SC, Hudson AL, Gorman RB, Butler JE & De Troyer
+A (2006). Spatial distribution of inspiratory drive to the
+parasternal intercostal muscles in humans. J Physiol 573,
+263–275.
+Gandevia SC, Leeper JB, McKenzie DK & De Troyer A (1996).
+Discharge frequencies of parasternal intercostal and scalene
+motor units during breathing in normal and COPD subjects.
+Am J Respir Crit Care Med 153, 622–628.
+Ho CY, Gu Q, Lin YS & Lee LY (2001). Sensitivity of vagal
+afferent endings to chemical irritants in the rat lung. Respir
+Physiol 127, 113–124.
+Houk J & Henneman E (1967). Responses of Golgi tendon
+organs to active contractions of the soleus muscle of the cat.
+J Neurophysiol 30, 466–481.
+Hwang JC, St John WM & Bartlett D Jr (1984a). Afferent
+pathways for hypoglossal and phrenic responses to changes
+in upper airway pressure. Respir Physiol 55, 341–354.
+Hwang JC, St John WM & Bartlett D Jr (1984b). Receptors
+responding to changes in upper airway pressure. Respir
+Physiol 55, 355–366.
+
+J Physiol 584.1
+
+Jami L (1992). Golgi tendon organs in mammalian skeletal
+muscle: functional properties and central actions. Physiol
+Rev 72, 623–666.
+Kennedy PM & Cresswell AG (2001). The effect of muscle
+length on motor-unit recruitment during isometric plantar
+flexion in humans. Exp Brain Res 137, 58–64.
+Legrand A, Brancatisano A, Decramer M & De Troyer A (1996).
+Rostrocaudal gradient of the electrical activation in the
+parasternal intercostal muscles of the dog. J Physiol 495,
+247–254.
+Legrand A, Schneider E, Gevenois P-A & De Troyer A (2003).
+Respiratory effects of the scalene and sternomastoid muscles
+in humans. J Appl Physiol 94, 1467–1472.
+Mathew OP (1984). Upper airway negative-pressure effects on
+respiratory activity of upper airway muscles. J Appl Physiol
+56, 500–505.
+Matthews PBC (1972). Muscle Receptors. Edward Arnold Ltd,
+London.
+McKenzie DK, Allen GM & Gandevia SC (1996). Reduced
+voluntary drive to the human diaphragm at low lung
+volumes. Respir Physiol 105, 69–76.
+Proske U & Gregory JE (2002). Signalling properties of muscle
+spindles and tendon organs. In Sensorimotor Control of
+Movement and Posture, ed. Gandevia SC, Proske U & Stuart
+DG, pp. 5–12. Kluwer Academic/Plenum Publishers,
+New York.
+Raper AJ, Thompson WT Jr, Shapiro W & Patterson JL Jr
+(1966). Scalene and sternomastoid muscle function. J Appl
+Physiol 21, 497–502.
+Saboisky JP, Gorman RB, De Troyer A, Gandevia SC & Butler
+JE (2007). Differential activation among five human
+inspiratory motoneuron pools during tidal breathing. J Appl
+Physiol 102, 772–780.
+Tabachnick BG & Fidell LS (1989). Using Multivariate Statistics.
+HarperCollins
+Publishers, Inc., New York.
+a
+Vallbo AB (1974). Afferent discharge from human muscle
+spindles in non-contracting muscles. Steady state impulse
+frequency as a function of joint angle. Acta Physiol Scand 90,
+303–318.
+Widdicombe JG (1954). Respiratory reflexes excited by
+inflation of the lungs. J Physiol 123, 105–115.
+Wilson TA & De Troyer A (1992). Effect of respiratory muscle
+tension on lung volume, J Appl Physiol 73, 2283–2288.
+Yokoba M, Abe T, Katagiri M, Tomita T & Easton PA (2003).
+Respiratory muscle electromyogram and mouth pressure
+during isometric contraction. Respir Physiol Neurobiol 137,
+51–60.
+
+Acknowledgements
+This work was supported by grants from the National Health and
+Medical Research Council. We are grateful to Dr Janette Smith
+for assistance with the statistical analysis.
+
+
+C 2007 The Authors. Journal compilation 
+C 2007 The Physiological Society
+
+

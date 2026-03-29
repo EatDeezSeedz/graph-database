@@ -1,0 +1,845 @@
+Article
+
+                                                                                   Perceptual and Motor Skills
+                                                                                                      0(0) 1–20
+Mental Fatigue From                                                                     ! The Author(s) 2021
+                                                                                        Article reuse guidelines:
+Smartphone Use                                                               sagepub.com/journals-permissions
+                                                                            DOI: 10.1177/00315125211016233
+Reduces Volume-Load                                                            journals.sagepub.com/home/pms
+
+
+in Resistance Training:
+A Randomized,
+Single-Blinded
+Cross-Over Study
+
+Petrus Gantois1 ,
+Dalton de Lima-Junior1 ,
+Leonardo de Sousa Fortes1,2 ,
+Gilmário Ricarte Batista1,
+Fábio Yuzo Nakamura1,3, and
+Fabiano de Souza Fonseca4,5
+
+
+
+Abstract
+We investigated the acute effects of mental fatigue induced by 30-minute use of
+smartphone social network apps on volume load in resistance training among recrea-
+tionally trained adults. Sixteen (n ¼ 16) adults of both sexes performed three sets of
+a half back-squat exercise to failure with 80% of 15RM, interspersed with 3-minutes
+of passive recovery between sets, before and after two different cognitive tasks:
+
+
+1
+ Associate Graduate Program in Physical Education of Federal University of Paraıba, Jo~ao Pessoa-PB, Brazil
+2
+ Graduate Program in Cognitive Neuroscience and Behavior of Federal University of Paraıba, Jo~ao Pessoa-
+PB, Brazil
+3
+ Research Center in Sports Sciences, Health Sciences and Human Development (CIDESD), University
+Institute of Maia (ISMAI), Maia, Portugal
+4
+ Department of Physical Education of Federal Rural University of Pernambuco, Recife-PE, Brazil
+5
+ Graduate Program in Physical Education UFPE, Recife-PE, Brazil
+Corresponding Author:
+Petrus Gantois, Associate Graduate Program in Physical Education, Federal University of Paraiba, Jo~ao
+Pessoa, Brazil.
+Email: pgm.gantois@gmail.com
+2                                                     Perceptual and Motor Skills 0(0)
+
+(a) use of smartphone social network apps; and (b) watching a documentary.
+We assessed mechanical variables and ratings of perceived exertion during the
+strength exercise. Relative to the documentary-viewing control condition, a 30-
+minute exposure to smartphone social network apps led participants toward
+increased perception of mental fatigue (p ¼ 0.004) and lower volume-load during
+the strength exercise (p ¼ 0.006). There were no significant differences in perceived
+exertion between conditions (p ¼ 0.54), participants’ motivation (p ¼ 0.277), intra-
+set mechanical variables (p > 0.05), or blood lactate concentrations (p ¼ 0.36). Our
+findings of an isolated possible higher-than normal RPE without changes in physio-
+logical variables, accompanying the lower volume-load in the mentally-fatigued par-
+ticipants support psychological, rather than physiological, bases for mental fatigue
+effects.
+
+Keywords
+mental fatigue, resistance exercise, perceived exertion, concentric mean velocity,
+volume-load
+
+
+
+
+Introduction
+Resistance training (RT) is one of the main modern conditioning programs for
+promoting strength, power, and muscle size gains (Marshall et al., 2021;
+Schoenfeld et al., 2021). To maximize gains in these programs, trainers may
+manipulate their prescriptions of certain variables (e.g., number of sets and
+repetitions, intensity, rest time, and movement velocity), as these parameters
+determine the magnitude of the trainees’ physiological, mechanical, and psycho-
+logical responses during an exercise program (American College of Sports
+Medicine, 2009). Among these RT prescription parameters, the number of rep-
+etitions performed for a given load intensity in a session (i.e., load) is known as
+the most important variable in RT, since volume-load plays the main role in
+muscle size gains (Schoenfeld et al., 2017). To help individual trainees maintain
+a high volume-load during their RT sessions, it is necessary to investigate pos-
+sible performance limiting factors.
+   The main factor that reduces performance during RT sessions is cumulative
+fatigue, due to an increased number of repetitions in consecutive sets of resis-
+tance exercises (Sanchez-Medina & González-Badillo, 2011; Gantois et al.,
+2021). Typically, the scientific literature in this area has been based on a
+mechanical fatigue model (i.e., decreased availability of muscle bioenergetics
+or force generation capacity) that reduces working capacity during a RT session
+(Costa et al., 2021; Gorostiaga et al., 2012). In this sense, it has been well-
+established that intra-set assessment of movement velocity provides reliable
+Gantois et al.                                                                   3
+
+information about the exerciser’s fatigue status (Sanchez-Medina & González-
+Badillo, 2011).
+   However, previous studies on whole-body endurance showed that an
+increased rating of perceived exertion (RPE), rather than changes in muscle
+energetic mechanisms, was associated with reduced exercise tolerance in men-
+tally fatigued individuals (Marcora et al., 2009; Pageaux et al., 2014; 2015). Data
+from those studies highlighted the brain’s role in underlying cognitive processes
+that mediate human exercise performance. In contrast to studies on whole-body
+endurance, it is still unknown whether mental fatigue (MF) affects performance
+during multi-sets of resistance exercise. Considering the importance of intra-
+session performance during RT in eliciting chronic adaptations, mental fatigue
+warrants further study.
+   MF refers to a psychobiological state characterized by a sensation of tired-
+ness and lack of energy that an individual might experience after a prolonged
+high-demanding mental or cognitive task (Marcora et al., 2009). Previous stud-
+ies demonstrated that MF negatively affects whole-body endurance through a
+higher-than-normal RPE at the same submaximal exercise intensity
+(MacMahon et al., 2014; Marcora et al., 2009; Pageaux et al., 2015). Those
+results are consistent with a psycho-biological model of exercise performance
+based on motivational intensity theory (Marcora, 2008). Briefly, the psycho-
+biological model postulates that time-to-exhaustion on an endurance task is
+driven by two cognitive components – RPE and motivational factors. Thus,
+when an individuals’ motivation level is unaffected during exercise, mentally
+fatigued persons disengage from the task when maximum effort is achieved
+(Marcora, 2008).
+   The underlying mechanisms of MF are not fully understood. Some proposed
+that highly demanding cognitive tasks are related to high adenosine and low
+dopamine levels in the brain’s prefrontal cortex, especially the anterior cingulate
+cortex (ACC) (Pageaux et al., 2014; Smith et al., 2018). This area of the pre-
+frontal cortex is associated with several executive functions, such as decision
+making based on effort during exercise, allocation of attention focus, and proc-
+essing of information inherent to the environment (Lorist et al., 2005; Marcora
+et al., 2009). Given residual fatigue following consecutive sets of a resistance
+exercise, mentally fatigued individuals might experience a higher-than-normal
+RPE, compromising their performance in the RT session. However, this hypoth-
+esis relies on whole-body endurance studies (Marcora et al., 2009; Pageaux et al.,
+2014; Smith et al., 2015); the effects of MF in typical RT performance are still
+uncertain.
+   Prior MF studies have relied on cognitive tasks such as the Stroop Color
+Word task and AX-Continuous Performance Test (AX-CPT) (Marcora et al.,
+2009; Pageaux et al., 2014; Smith et al., 2015). Although these earlier investiga-
+tions contributed to an understanding of the effect of MF on human perfor-
+mance, these are laboratory tasks that may be novel to participants; they may
+4                                                   Perceptual and Motor Skills 0(0)
+
+lack ecological validity. Inducing mental fatigue with universally common tasks
+that participants are apt to encounter in daily life has more direct relevance. One
+such task might be smartphone use, as this is a common modern tool among
+young adults, with 3.6 billion smartphone users worldwide (Statista, 2020).
+Some researchers have reported that prolonged exposure time to smartphones
+negatively affected cognitive functions (Fortes et al., 2019; 2021; Wilmer et al.,
+2017).
+   In a recent literature review, Wilmer et al. (2017) suggested that exposure
+time to smartphones affects a wide range of cognitive functions, and recently,
+Fortes et al. (2019) showed that 30- and 45-minute exposure times to smart-
+phone networking apps acutely reduced inhibition control and passing decision-
+making among professional soccer players. More recently, Fortes et al. (2021)
+also found that 30-minutes of continuous social media on smartphones induced
+mental fatigue in high-level swimmers (e.g., impaired Stroop task response time
+and increase perceived mental fatigue). Taken together, these data suggest that
+prolonged use of smartphones induces MF and impairs exercise performance.
+This prior research motivated the current study; and, to the best of the authors’
+knowledge, this is the first study to investigate the effects of MF caused by
+prolonged exposure time to smartphone networking apps on performance
+during multi-sets of resistance exercise in recreationally trained adults. Based
+on whole-body endurance studies (Marcora et al., 2009; Pageaux et al., 2014;
+Smith et al., 2015) and the negative effects of prolonged social media use on
+cognitive and athletic performance (Fortes et al., 2019; 2021), we hypothesized
+that (a) a 30-minute exposure to smartphone social network app use would
+reduce session volume-load and lead to higher RPE during the session, but
+(b) there would be no effect of this smartphone use exposure on the participants’
+intra-set mechanical performance or a change in their metabolic demand (blood
+lactate). This pattern of results would suggest that perceived effort changes,
+rather than biological changes. determined the reduced performance in mental
+fatigue conditions.
+
+Methods
+Participants
+Twenty young adults of both sexes aged 18-36 years old participated in this
+study. After four individuals withdrew from the study for personal reasons,
+the final sample was comprised of 16 participants (8 women, 8 men; M
+age ¼ 24.8, SD ¼ 4.2 years old; M weight ¼ 73.1, SD ¼ 9.6 kg; M height ¼ 1.69,
+SD ¼ 0.12 meters; M Weight lifted at 15 Repetition Maximum (15 RM) in back-
+squat exercise ¼ 75.2. SD ¼ 20.3 kg). All participants were recreationally
+strength-trained as defined by Rhea (2004) (i.e., individuals consistently trained
+for 1-5 years at 3 times per week). The volunteers had no history of any
+Gantois et al.                                                                              5
+
+muscular or joint injury and had abstained from any ergogenic substance to
+increase strength and/or muscle mass gains in the last six months. They had
+previous experience with training to muscle concentric failure and with percep-
+tual scales, and all of them were habituated to performing half back-squat exer-
+cise in their training routines. The study was approved by the local Ethics and
+Research Committee following the ethical principles contained in the
+Declaration of Helsinki. All participants signed an informed consent form.
+
+Study Design
+This study employed a counter-balanced, single-blinded, and randomized cross-
+over design involving two experimental conditions (e.g., smartphone [experi-
+mental] vs. watching documentary [control]) with a one-week washout interval
+between conditions. The order of the presentation of these conditions was ran-
+domized. To induce MF, participants spent 30-minutes on social networks
+through smartphone apps (e.g. FacebookVR , TwitterVR , InstagramVR ), whereas,
+in the control condition, they watched a documentary for 30-minutes.
+   The study was conducted in four different sessions with two visits to the
+laboratory in the first week (with a 48-hour interval in-between) and one visit
+per week in the next two sessions (with a one-week wash-out period) (see
+Figure 1). During the first two visits, we familiarized participants with the
+experimental procedures and performed the test-retest reproducibility of the
+15RM test in the half back-squat exercise. During the final two visits, partic-
+ipants performed either an experimental condition to induce MF or a control
+treatment.
+   Upon arrival for the experimental treatments, participants were asked to
+complete a pre-test checklist, ensuring compliance with the provided instruc-
+tions, as well as a psychometric tool related to perceived recovery and MF
+status, and to undertake resting heart rate variability (HRV) assessment.
+
+
+
+
+Figure 1. Experimental Setup. TQR ¼ total quality recovery; HRV ¼ heart rate variability;
+VAS ¼ visual analogue scale; MF ¼ mental fatigue; MOT ¼ motivation; RPE ¼ rating of per-
+ceived exertion.
+6                                                       Perceptual and Motor Skills 0(0)
+
+Following the HRV assessment, the half back-squat exercise to muscle failure
+(three sets with 80% of 15RM) was performed over three sets to verify if the
+mechanical variables and the number of repetitions during the multi-sets resis-
+tance exercise were similar to the non-mentally fatigued state. Thereafter, the
+experimental conditions were administered in a quiet room.
+   After the experimental condition, participants completed a visual analog
+scale (VAS) regarding perceived MF and motivation status. Participants then
+performed three exercise sets with 80% of 15RM (10-minutes after the exper-
+imental conditions) preceded by a standardized warm-up (5-minutes). During
+the back-squat exercise, we monitored mechanical variables (i.e., power output
+and movement velocity) and RPE. Blood lactate was only measured 2-minutes
+after the last repetition of the resistance exercise session.
+
+Procedures
+Experimental and Control Sessions. Before each session, participants were instructed
+to attend all conditions in a well-rested state (i.e., sleep for at least eight hours and
+to abstain from any physical exercise and alcohol ingestion in the 48-hours before
+the sessions). Additionally, caffeine, nicotine, and smartphone use (e.g., social
+media) were to be avoided for at least three hours before the sessions (Azevedo
+et al., 2016; Fortes et al., 2021). A previous study showed that subjective mental
+fatigue recovered post-60 minutes of mental fatigue induced by 45-minutes of the
+Stroop task and almost recovered after 45-minutes of the AX-CPT task (Smith
+et al., 2019). Thus, we requested that participants avoid cognitive tasks for at least
+three hours before each experimental condition (e.g., social media). These data
+were self-reported before each condition. Sessions were performed from 3:00 to
+8:00 p.m., at the same time of day for each participant.
+   In experimental sessions, as noted above, we induced MF with 30-minutes of
+continuous activity engaging in social media networks (e.g., FacebookVR ,
+InstagramVR , TwitterVR ) through smartphone apps. Participants were strongly
+encouraged to stay in continuous activity on the smartphone (reading texts, writ-
+ing messages, and posting information on social networks). A research member
+not involved in any other study procedure accompanied the participants during
+the experimental condition to ensure that participants maintained their network-
+ing activities. Thus, the research members involved in the strength exercise pro-
+tocol were blinded to the participant’s condition (mental fatigue vs. control). This
+procedure was adopted to minimize possible biases during the strength exercise
+protocol arising from the knowledge of the condition being tested.
+   During the control condition sessions, the participants watched 30-minutes of
+the documentary “Secrets of NASA: 1 Season- Eps 05” (Discovery ChannelVR ,
+Brazil) on a full-HD screen 14” notebook (PositivoVR 5650, Brazil).
+This documentary was selected based on its similar content to a film adopted in
+a previous study that reported neutral emotional demands (Smith et al., 2015).
+Gantois et al.                                                                     7
+
+15RM Test and Resistance Exercise Protocol. The 15RM test defined the exercise load
+(Haff & Triplet, 2015); it was performed over two non-consecutive days with a 48-
+hour interval in-between (test-retest). During each session, participants made two
+attempts with an interval of 10-minutes between trials. The intraclass coefficient
+correlation (ICC) and the coefficient of variation (CV) were: ICC ¼ 0.98 (0.94 to
+0.99); and CV ¼ 2.0% (0.02 to 0.34). Verbal encouragement was provided during
+the 15RM test but not during the experimental conditions. The concentric phase
+of the movement was performed at the maximum intended velocity.
+   The 15RM test and resistance exercise performed in the experimental conditions
+were preceded by a standardized half back-squat warm-up, which included two sets
+of 15 repetitions of 50% and 80% 15RM load, respectively. The resistance exercise
+included three sets of back-squat exercise to muscle failure with 80% of 15RM in a
+Smith Machine (RighettoVR , Brazil), interspersed with three minutes of passive
+recovery between sets. Failure was considered as voluntary exhaustion.
+   During the half back-squat exercise, participants’ feet were slightly wider
+than shoulder-width, and their toes were pointed forward or slightly outward.
+The bar was placed in the upper portion of the trapezius muscle, slightly above
+the posterior portion of the deltoid muscle. The participants squatted down until
+the thighs were parallel with the floor (90 ) and briefly stopped before the con-
+centric phase. The bar displacement was monitored for each participant by a
+Linear Encoder (CefiseVR , Brazil). Participants evidenced no mean difference in
+their bar displacements between the two conditions (Experimental M ¼ 32.1,
+SD ¼ 6.1 cm; Control M ¼ 32.4, SD ¼ 6.1 cm; paired t-test [p ¼ 0.78]).
+
+Mechanical Measures. The absolute peak and average power output and move-
+ment velocity (ms1) during the back-squat exercise were assessed using an
+Encoder Linear Peak Power (CEFISEVR , Brazil). This equipment consists of a
+linear transducer that was attached to the Smith-machine bar (RighettoVR ,
+Brazil) to record the displacement of the bar (mm) and convert it into a digital
+signal to transfer it to Peak Power 4.0 software (CEFISEVR , Brazil). To quantify
+the mean power produced during the back-squat exercise, the velocity of the
+displacement (ms) of the bar and the load (kg) lifted were considered.
+
+Heart Rate Variability. The R-R intervals recordings were assessed while the par-
+ticipants were seated for 10-minutes, using a portable heart rate monitor (H10,
+Polar Electro OyVR , Finland), and they were downloaded via a validated smart-
+phone app (Elite HRV appVR ) (Perrotta et al., 2017). Data were analyzed during
+the last five minutes after excluding the first five minutes, allowing for heart rate
+stabilization (Task Force of the European Society of Cardiology, 1996). In this
+study, we assessed the time domain HRV indices including the square root of the
+mean squared differences of successive RR intervals (RMSSD) and the standard
+deviation of the R-R intervals (SDNN). These HRV indices were evaluated
+before participants engaged in any experimental conditions since it has been
+8                                                      Perceptual and Motor Skills 0(0)
+
+consistently reported that low-HRV indices are related to fatigue status
+(Kassiano et al., 2021; Nakamura et al., 2021).
+
+Perceptual Responses: VAS, Total Quality Recovery (TQR), and RPE. Subjective ratings of
+MF (referring to the treatment task) and motivation (referring to the upcoming
+RT session) were assessed using the 100-mm VAS as previously adopted (Smith
+et al., 2016). We used VAS as it is a sensitive and practical tool to assess mental
+fatigue (Fortes et al., 2021; Smith et al., 2019). These scales have two extremities
+anchored at “none at all” and “maximal,” respectively. No other descriptor was
+presented in the VAS. Participants were instructed to perform a vertical line
+along the 100-mm scale to indicate their current perceived status. To quantify
+the values, we measured the millimeter distance from the “none at all” extremity
+toward the end of the line as indicated by the individual. In order to overcome
+the potential bias related to uncertainty over the definition of ‘mental fatigue,’ a
+standardized definition of mental fatigue was provided: “Reduced ability to
+perform cognitive and behavioral tasks with subjective feelings of tiredness
+and lack of energy” (Boksem & Tops, 2008; Marcora et al., 2009).
+   We used the TQR scale proposed by Kentta and Hassmen (1998) and adapted
+and validated to the Brazilian Portuguese language by Osiecki et al. (2015) before
+each experimental condition in order to assess the level of perceived recovery. The
+TQR scale ranged from six (nothing recovered) to 20 (fully recovered), with
+higher values indicating increased recovery perception. We used this scale to
+ensure that participants performed both visits in similar perceived recovery status.
+   We monitored RPE during the back-squat exercise using a CR-10 scale
+(Foster et al., 2001). Specifically, at every five repetitions performed during
+each set, the participants were instructed to provide their RPE. Since we
+found within- and between-subjects’ differences in the number of repetitions
+and comparing RPE in an iso-work (i.e., number of repetitions) was not feasible,
+we compared the mean RPE value in pre- and post-experimental conditions.
+
+Blood Lactate Concentration. We assessed blood lactate concentration only two
+minutes after the last post-experimental back-squat repetition. Blood lactate
+analysis was based on samples of 15 ll of the blood collected from the partic-
+ipant’s earlobe without hyperemia. These samples were immediately dropped
+into a strip (BM lactate, RocheVR , Brazil), and the blood lactate level was indi-
+cated after one minute with portable equipment (Accutrend Plus, RocheVR ,
+Brazil). The CV of this device falls within 1.8-3.3% for low, medium, and
+high blood lactate levels, respectively (Baldari et al., 2009).
+
+Statistical Analysis
+Data are presented as means and standard deviations. Shapiro-Wilk test and
+standardized skewness and kurtoses were used to verify the shapes of the data
+Gantois et al.                                                                  9
+
+distributions. Levenes’ test verified the homoscedasticity of variances. We used
+paired t-tests to compare the TQR, HRV, motivation, and blood lactate con-
+centration, and we used repeated measures of analysis of variance (ANOVA)
+followed by Bonferroni post hoc testing to verify the interaction (condi-
+tion  time) effects for RPE, number of repetitions, volume load, and mechan-
+ical variables. We used partial eta-squared (np2) and Cohen’s d effect size (ES)
+to determine practical significance of findings. We defined the threshold for the
+ES as small (0.2 to 0.5), medium (>0.5 to 0.8), or large (>0.8) (Cohen, 1988).
+Moreover, we conducted a post hoc power analysis for a two-way (time  con-
+ditions) analysis of variance interaction effect on both the mechanical variables
+and volume-load. We found that the final sample resulted in statistical power (1-
+b) greater than 84.5%. Analyses were performed in the SPSS 20.0 version
+(IBMVR Corporation, USA) and the statistical significance level was set at 5%.
+
+Results
+HRV measures during the pre-experiment were not different across experimental
+conditions (p > 0.05). Specifically, RMSSD values were M ¼ 54.94, SD ¼ 32.68
+and M ¼ 55.44, SD ¼ 33.27 during mental fatigue and control conditions
+(p ¼ 0.91 and CI 95% ¼ 8.71 to 9.17), respectively. SDNN values were
+M ¼ 69.56. SD ¼ 29.79 and M ¼ 68.44, SD ¼ 2.72 during mental fatigue and con-
+trol conditions (p ¼ 0.84 and CI 95% ¼ 12.54 to 10.29), respectively. No statis-
+tical difference was found for perceived recovery scores during pre-experimental
+conditions (M mental fatigue ¼ 16.94, SD ¼ 2.57; M control condition ¼ 17.27.
+SD ¼ 2.72 [p ¼ 0.62 and CI 95% ¼ 1.0 to 1.63]). Furthermore, blood lactate
+concentrations after resistance exercise were similar between experimental condi-
+tions (M smartphone ¼ 7.51. SD ¼3.76 vs. M control ¼ 7.64, SD ¼ 3.62; p ¼ 0.36).
+    Data for the number of repetitions and the total volume-load performed pre-
+and post-experimental conditions are shown in Figure 2. There was a main
+effect for time for the number of repetitions (F(2,30) ¼ 34.3; p < 0.001;
+np2 ¼ 0.70), with participants in both conditions performing progressively
+fewer repetitions across consecutive sets. An interaction effect was significant
+(F(5,75) ¼ 3.0; p ¼ 0.015; np2 ¼ 0.17), and post hoc analyses revealed fewer repe-
+titions in Sets 1 and 3 at the post-experiment (p < 0.05) in the smartphone rel-
+ative to the control condition. Between-condition ES findings post-experiment
+were: Set 1 ¼ 0.44 (small), Set 2 ¼ 0.16 (trivial), and Set 3 ¼ 0.49 (small); and
+volume-load ¼ 0.25 (small).
+    The volume-load performed was higher at pre-test than at post-test for both
+conditions (F(1,15) ¼ 32.6; p < 0.001; np2 ¼ 0.68), and there was a significant
+interaction effect (F(1,15) ¼ 10.1; p ¼ 0.006; np2 ¼ 0.40), such that the volume-
+load performed in the smartphone condition was lower than in control condi-
+tion (D ¼ 29% vs. 14.8%).
+10                                                             Perceptual and Motor Skills 0(0)
+
+
+
+
+Figure 2. The Number of Repetitions and the Total Volume-Load at the Pre- and Post-
+Experimental Conditions. ES ¼ effect size; * ¼ statistically different from set 1 (p < 0.05);
+† ¼ statistically different from control in the same time (p < 0.05); § ¼ statistically different
+from pre-experiment (p < 0.05).
+
+
+   The subjective scores for MF, RPE and motivation are presented in Figure 3.
+There was a significant interaction effect for perceived MF (F(1,15) ¼ 11.83;
+p ¼ 0.004; np2 ¼ 0.46), with participants reporting increased MF after using
+the smartphone (experimental condition) compared to watching a documentary
+(control condition). There was no significant condition difference noted in moti-
+vation before the back-squat exercise (t(15) ¼ 1.12; p ¼ 0.277). A main effect for
+time was observed for the RPE score (F(1,15) ¼ 17.5; p ¼ 0.001; np2 ¼ 0.54), with
+higher RPE values at post-testing for both conditions, and there were no main
+or interaction effects between conditions found for RPE (p > 0.05).
+   The mechanical variables during the back-squat exercise at pre- and
+post-experiment are displayed in Figure 4. A main effect for time was
+found for all mechanical variables analyzed (p < 0.05), showing a reduced
+performance across consecutive sets. No condition or interaction effects
+were observed for these variables (p > 0.05). Within-subjects ES showed a
+small to moderate decrement in power output and movement velocity for
+both conditions.
+
+Discussion
+The main finding of this study was that MF induced by prolonged (i.e., 30-
+minute) use of smartphone social network apps reduced participants’ total
+volume-load during a multi-set session of resistance exercise when compared
+to a control condition of documentary viewing (D ¼ 29% vs. 14.8%).
+Moreover, participants reported similar RPE scores and mechanical
+Gantois et al.                                                                              11
+
+
+
+
+Figure 3. Subjective Measures of Mental Fatigue and RPE Score Pre- and Post-Experimental
+Conditions and Motivation Before Resistance Exercise Trial. ES ¼ effect size; * ¼ statistically
+different from pre-experiment (p < 0.05); † ¼ interaction (condition  time) effect (p < 0.05).
+
+performance (power output and movement velocity) during exercise, even
+though they performed fewer volume-load repetitions following the experimen-
+tal versus the control condition. To the best of the authors’ knowledge, this is
+the first study to investigate the effects of MF on muscular performance during
+multi-set resistance exercise that adopted a natural or ecological approach to
+inducing MF (i.e., via smartphone apps).
+    Participants’ higher perceived MF in the smartphone condition suggests that
+it is experienced as a highly demanding cognitive task. As hypothesized, the use
+of smartphone social network apps caused a MF state in which participants
+reported an increased subjective feeling of mental tiredness. It has been pro-
+posed that smartphone use negatively affects cognitive function (Wilmer et al.,
+2017). Fortes et al. (2019) found an increase in response time and reduction in
+accuracy on an inhibitory control task following smartphone use periods at least
+equal to 30 minutes among soccer players, similar to a more controlled labora-
+tory cognitive task such as the Stroop task (Gantois et al., 2020). These data
+support the idea that using smartphone apps might impair executive function.
+Fortes et al. (2021) showed that both performances in the Stroop task and
+perceived mental fatigue (VAS) were compromised after 30 minutes of social
+12                                                    Perceptual and Motor Skills 0(0)
+
+
+
+
+Figure 4. Peak and Average Power Output and Movement Velocity During the Back-Squat
+Sets at Pre- and Post-Experiment According Experimental Conditions. ES ¼ effect size;
+* ¼ Simple main time effect (p < 0.05).
+
+media on a smartphone in a group of high-level swimmers. This data highlights
+the sensitivity of VAS as a simple and feasible tool to assess mental fatigue
+instead of laboratory cognitive tasks (Smith et al., 2019).
+   Although the continuous prolonged use of social media on smartphones
+increases subjective mental fatigue when compared to the control condition, it
+is unclear whether their cumulative effect would impair physical performance
+during resistance exercise. For instance, a previous study showed that team
+sports athletes reported that mental fatigue is a largely cumulative phenomenon
+(Russell et al., 2019). However, this statement needs to be experimentally
+addressed, and future studies are required in order to assess the time course
+and cumulative effects on physical and cognitive performance of using social
+media.
+   In accordance with the psychobiological model, mentally fatigued partici-
+pants performed a lower volume-load in the resistance exercise protocol when
+compared to the control condition. Since during resistance exercise, RPE
+Gantois et al.                                                                 13
+
+increases linearly with the number of repetitions (Hackett et al., 2017), we might
+assume that the same participant would perform a similar number of repetitions,
+at a given load at the same level of perceived effort, but RPE differences from
+mentally fatigued participants (D ¼ 29%) did not differ from those of non-
+mentally fatigued participants (D ¼ 14.8%) at a lower volume-load. Although
+the RPE during resistance exercise was not significantly different between our
+two conditions, participants performed a lower volume-load after the MF con-
+dition. Their report of similar levels of perceived exertion while performing less
+work may indicate higher-than-normal RPE in the MF condition (Smith et al.,
+2015).
+   Given the lack of change in participants’ motivation before the half back-
+squat exercise, a possible explanation for their reduced volume-load after
+experiencing MF is the higher-than-normal RPE during exercise. According
+to the psychobiological model, motivation and perception of effort determine
+performance, although the periphery (e.g., afferent feedback and heart rate)
+might present an influence as well (Pageaux, 2014). Mental fatigue seems to
+affect the perception of effort only in many studies in which motivation
+remained similar (Filipas et al., 2020; Martin et al., 2016). Thus, similar levels
+of motivation before exercise are desired to avoid bias.
+   While there have been few previous investigations on the effect of MF on
+muscle endurance during resistance exercise, our data are consistent with pre-
+vious reports on whole-body endurance exercises (MacMahon et al., 2014;
+Marcora et al., 2009; Pageaux et al., 2014). These studies showed that MF
+impaired endurance performance (i.e., time trial, overall speed, and time to
+exhaustion) due to higher-than-normal RPE for the same exercise intensity.
+Although the assessment of the underlying mechanisms of social media use on
+MF is far beyond the scope of the current study, it has been proposed that
+engagement in high-order cognitive tasks is related to the level of adenosine
+and dopamine in brain areas (prefrontal cortex and anterior cingulate cortex).
+The neurotransmitters act directly in executive functions related to decision-
+making based on effort during exercise (Lorist et al., 2005; Marcora et al.,
+2009; Smith et al., 2015; 2018). Considering that mentally fatigued individuals
+might experience higher-than-normal RPE for the same exercise intensity, it is
+likely that the reduction in the number of repetitions over sets during resistance
+exercise after the use of smartphones in our study occurred due to the greater
+perception of effort caused by MF. Of note, however, the limited performance
+found before and in the current study occurred without any change in metabolic
+responses to exercise (Marcora et al., 2009; Pageaux et al., 2013). Therefore, our
+results expand current knowledge by demonstrating that the adverse effects of
+MF on whole-body endurance exercise induced by higher-than-normal RPE
+also explain the reduction in the number of repetitions in sets until the muscular
+failure in resistance exercise.
+14                                                  Perceptual and Motor Skills 0(0)
+
+   Volume-load is one of the most effective variables of resistance training (RT)
+to promote strength and hypertrophy gains (Izquierdo et al., 2006; Martorelli
+et al., 2017). RT has a dose-response effect on power, strength, muscle hyper-
+trophy, and health outcomes (Figueiredo et al., 2018; Schoenfeld et al., 2017).
+Therefore, RT practitioners should be encouraged to avoid the prolonged use of
+social networks on smartphones before training sessions in order to maintain a
+greater volume-load. However, it is still not known whether an acute decrement
+on volume-load during complete multi-set RT affects long-term adaptations;
+this requires further research.
+   Unlike with mental fatigue, there have been consistent reports in the litera-
+ture that muscle fatigue during resistance exercise is caused by both central and
+peripheral physiological changes (Boerio et al., 2005; Kent-Braun & Le Blanc,
+1996). In the current study, our participants showed a similar muscle peak, mean
+power output, and velocity achieved during the resistance exercise after both
+MF and control conditions even though there was a lower volume-load per-
+formed in the MF versus the control condition. These results are in line with
+previous studies showing that maximal strength, power output, and anaerobic
+work were unaffected by MF (Martin et al., 2015; Pageaux et al., 2013; Rozand
+et al., 2014). Moreover, Pageaux et al. (2015) demonstrated that MF compro-
+mised the whole-body endurance exercise through higher-than-normal RPE
+rather than alterations in the maximal voluntary contraction. One possible
+explanation for those results is that MF has a limited effect on cortical areas
+involved with maximal muscle activation (Pageaux et al., 2013; 2015).
+   Although future studies are still necessary to understand the relationship
+between MF and RPE, one possible explanation for similarly perceived exertion
+even for a lower volume of repetitions performed following the experimental
+MF condition in comparison to the control condition is that highly-demanding
+cognitive tasks affect frontal brain ACC activity (Lorist et al., 2005; Martin
+et al., 2018). Lorist et al. (2005) found that such cognitive tasks reduced the
+ERN/Ne (error-related negativity) amplitude, an electrophysiological index that
+relies predominately on the ACC area (Carter et al., 1998). As we did not
+measure brain activity during our experimental conditions, we can only specu-
+late that the lower volume-load in the smartphone condition may have at least
+partly related to the negative effect of MF on this cortical area, associated with
+effort-based decision making. Pageaux et al. (2014) proposed that highly
+demanding cognitive tasks may increase the adenosine accumulation in the
+ACC, leading to higher-than-normal RPE during subsequent endurance exer-
+cise. Azevedo et al. (2016) showed that caffeine (an antagonist of adenosine)
+attenuates the negative effects of MF (#RPE and "endurance performance),
+suggesting that adenosine limits human performance during the MF state.
+More studies are needed to investigate the ability of caffeine to counteract the
+negative effects of MF, especially during multi-sets resistance exercise.
+Gantois et al.                                                                   15
+
+Limitations and Directions for Future Research
+Among the limitations of this study, although VAS is a sensitive tool and widely
+used to detect MF, the lack of any objective and neurophysiological measures to
+verify the degree the participants’ reports of MF induced by the use of smart-
+phone social network apps limits the meaning of our findings. Future investi-
+gations should further analyze MF induced by smartphone use by applying
+direct neurological measures of cognitive demand, such as the amplitude of
+electroencephalogram (EEG) recorded brain waves (alpha and theta). Also,
+our data assessed the impact of this means of inducing MF on only one exercise,
+limiting our ability to generalize these results to a complete, multi-exercise RT
+session and during other muscular training methods (e.g., maximal strength,
+explosive strength, and hypertrophy training). To the best of our knowledge,
+this is one of the first studies to induce MF using a protocol with high ecological
+validity (exposure time to a smartphone), and more research is needed to con-
+firm our hypothesis that continuous exposure to smartphone app use is associ-
+ated with MF. Therefore, futures studies are required to investigate the effect of
+mental fatigue induced by prolonged use of social media and laboratory-based
+cognitive tasks (e.g., Stroop and AX-CPT tasks), to increase understanding of
+mental fatigue on resistance exercise performance. Furthermore, it is crucial to
+consider that the RPE score was not matched by the amount of work per-
+formed, and future studies should consider the analysis of RPE repetition-by-
+repetition or use the level of effort (e.g., velocity loss percentage) as an adjust-
+ment variable to report along with the RPE scores. Finally, it has been suggested
+that the amount of cognitive load should be individualized to ensure a compa-
+rable level of mental fatigue (Holgado et al., 2020).
+
+
+Conclusion
+Results from this study showed that prolonged exposure to smartphones (about
+30 minutes) induced participants’ perceived MF and compromised (by approx-
+imately 15%) their number of repetitions during resistance exercise when
+compared with a control condition of simply viewing a documentary. Since
+volume-load is the most important acute means of measuring muscular effort
+during resistance training, the fact that smartphone exposure induced perceived
+MF and acutely affected exercise performance has important practical implica-
+tions. Although smartphone technology is present in adults’ daily lives, our
+findings suggest that its prolonged use before resistance training sessions
+should be avoided if the goal is to increase or maintain total volume-load in
+order to build muscle strength. Finally, our findings broaden variables of inter-
+est when testing MF effects on human performance, especially when studying
+MF from daily, ecologically valid activities.
+16                                                       Perceptual and Motor Skills 0(0)
+
+Declaration of Conflicting Interests
+The author(s) declared no potential conflicts of interest with respect to the research,
+authorship, and/or publication of this article.
+
+Funding
+The author(s) received no financial support for the research, authorship, and/or publi-
+cation of this article.
+
+ORCID iDs
+Petrus Gantois   https://orcid.org/0000-0002-1995-2103
+Dalton de Lima-Junior     https://orcid.org/0000-0003-1542-604X
+Leonardo de Sousa Fortes      https://orcid.org/0000-0002-0778-769X
+
+References
+American College of Sports Medicine. (2009). American College of Sports Medicine
+   position stand. Progression models in resistance training for healthy adults.
+   Medicine and Science in Sports and Exercise, 41(3), 687–708.
+Azevedo, R., Silva-Cavalcante, M. D., Gualano, B., Lima-Silva, A. E., & Bertuzzi, R.
+   (2016). Effects of caffeine ingestion on endurance performance in mentally fatigued
+   individuals. European Journal of Applied Physiology, 116(11-12), 2293–2303. http://dx.
+   doi.org/10.1007/s00421-016-3483-y
+Baldari, C., Bonavolonta, V., Emerenziani, G. P., Gallotta, M. C., Silva, A. J., &
+   Guidetti, L. (2009). Accuracy, reliability, linearity of Accutrend and Lactate Pro
+   versus EBIO plus analyzer. European Journal of Applied Physiology, 107(1),
+   105–111. http://dx.doi.org/10.1007/s00421-009-1107-5
+Boerio, D., Jubeau, M., Zory, R., & Maffiuletti, N. A. (2005). Central and peripheral
+   fatigue after electrostimulation-induced resistance exercise. Medicine & Science in
+   Sports & Exercise, 37(6), 973–978.
+Boksem, M. A., & Tops, M. (2008). Mental fatigue: Costs and benefits. Brain Research
+   Reviews, 59(1), 125–139. http://dx.doi.org/10.1016/j.brainresrev.2008.07.001
+Carter, C. S., Braver, T. S., Barch, D. M., Botvinick, M. M., Noll, D., & Cohen, J. D.
+   (1998). Anterior cingulate cortex, error detection, and the online monitoring of perfor-
+   mance. Science, 280(5364), 747–749. http://dx.doi.org/10.1126/science.280.5364.747
+Cohen, J. (1988). Statistical power analysis for the behavioral sciences. Routledge.
+Costa, B. D.V., Ferreira, M. E. C., Gantois, P., Kassiano, W., Paes, S. T., de Lima-
+   Junior, D., Cyrino, E., & de Sousa Fortes, L. (2021). Acute effect of drop-set, tradi-
+   tional, and pyramidal systems in resistance training on neuromuscular performance in
+   trained adults. Journal of Strength & Conditioning Research, 35(4), 991–996. https://
+   doi.org/ 10.1519/JSC.0000000000003150
+Figueiredo, V. C., de Salles, B. F., & Trajano, G. S. (2018). Volume for muscle hyper-
+   trophy and health outcomes: The most effective variable in resistance training. Sports
+   Medicine, 48(3), 499–505. http://dx.doi.org/10.1007/s40279-017-0793-0
+Filipas, L., Martin, K., Northey, J. M., La Torre, A., Keegan, R., & Rattray, B. (2020).
+   A 4-week endurance training program improves tolerance to mental exertion in
+Gantois et al.                                                                             17
+
+   untrained individuals. Journal of Science and Medicine in Sport, 23(12), 1215–1219.
+   http://dx.doi.org/10.1016/j.jsams.2020.04.020
+Fortes, L. S., Lima-Junior, D., Nascimento-J    unior, J. R. A., Costa, E. C., Matta, M. O.,
+   & Ferreira, M. E. C. (2019). Effect of exposure time to smartphone apps on passing
+   decision-making in male soccer athletes. Psychology of Sport and Exercise, 44, 35–41.
+   http://dx.doi.org/10.1016/j.psychsport.2019.05.001
+Fortes, L. S., Lima-J unior, D. D., Gantois, P., Nasicmento-J     unior, J. R., & Fonseca,
+   F. S. (2021). Smartphone use among high level swimmers is associated with mental
+   fatigue and slower 100-and 200-but not 50-meter freestyle racing. Perceptual and
+   Motor Skills, 128(1), 390–408. http://dx.doi.org/10.1177/0031512520952915
+Foster, C., Florhaug, J. A., Franklin, J., Gottschall, L., Hrovatin, L. A., Parker, S., &
+   Dodge, C. (2001). A new approach to monitoring exercise training. The Journal of
+   Strength & Conditioning Research, 15(1), 109–115.
+Gantois, P., de Souza Fonseca, F., de Lima-J         unior, D., da Cunha Costa, M., de
+   Vasconcelos Costa, B. D., Cyrino, E. S., & de Sousa Fortes, L. (2021). Acute effects
+   of muscle failure and training system (traditional vs. rest-pause) in resistance exercise
+   on countermovement jump performance in trained adults. Isokinetics and Exercise
+   Science, 29(1), 11–19. http://dx.doi.org/10.3233/IES(2021)23
+Gantois, P., Caputo Ferreira, M. E., Lima-Junior, D. D., Nakamura, F. Y., Batista, G. R.,
+   Fonseca, F. S., & Fortes, L. D. S. (2020). Effects of mental fatigue on passing decision-
+   making performance in professional soccer athletes. European Journal of Sport Science,
+   20(4), 534–543. http://dx.doi.org/10.1080/17461391.2019.1656781
+Gorostiaga, E. M., Navarro-Amezqueta, I., Calbet, J. A., Hellsten, Y., Cusso, R.,
+   Guerrero, M., Granados, C., González-Izal, M., Ib~anez, J., & Izquierdo, M. (2012).
+   Energy metabolism during repeated sets of leg press exercise leading to failure or not.
+   PloS One, 7(7), e40621. https://doi.org/10.1371/journal.pone.0040621
+Hackett, D. A., Cobley, S. P., Davies, T. B., Michael, S. W., & Halaki, M. (2017). Accuracy in
+   estimating repetitions to failure during resistance exercise. Journal of Strength and
+   Conditioning Research, 31(8), 2162–2168. http://dx.doi.org/10.1519/JSC.0000000000001683
+Haff, G. G., & Triplet, T. N. (2015). Essentials of strength training and conditioning (4th
+   ed.). Human Kinetics.
+Holgado, D., Troya, E., Perales, J. C., Vadillo, M. A., & Sanabria, D. (2020). Does
+   mental fatigue impair physical performance? A replication study. European Journal
+   of Sport Science, 30, 1–9. http://dx.doi.org/10.1080/17461391.2020.1781265
+Izquierdo, M., Iba~ nez, J., González-Badillo, J. J., H€akkinen, K., Ratamess, N. A.,
+   Kraemer, W. J., French, D. N., Eslava, J., Altadill, A., Asiain, X., & Gorostiaga,
+   E. M. (2006). Differential effects of strength training leading to failure versus not to
+   failure on hormonal responses, strength, and muscle power gains. Journal of Applied
+   Physiology, 100(5), 1647–1656. http://dx.doi.org/10.1152/japplphysiol.01400.2005
+Kassiano, W., de Vasconcelos Costa, B. D., Lima-J         unior, D., Gantois, P., de Souza
+   Fonseca, F., da Cunha Costa, M., & de Sousa Fortes, L. (2021). Parasympathetic
+   nervous activity responses to different resistance training systems. International
+   Journal of Sports Medicine, 42(01), 82–89. http://dx.doi.org/10.1055/a-1219-7750
+Kent-Braun, J. A., & Le Blanc, R. (1996). Quantitation of central activation failure
+   during maximal voluntary contractions in humans. Muscle & Nerve, 19(7), 861–869.
+   https://doi.org/drc2nr
+18                                                       Perceptual and Motor Skills 0(0)
+
+Kentta, G., & Hassmen, P. (1998). Overtraining and recovery. A conceptual model.
+   Sports Medicine, 26(1), 1–16. https://doi.org/d4s5wt
+Lorist, M. M., Boksem, M. A., & Ridderinkhof, K. R. (2005). Impaired cognitive control
+   and reduced cingulate activity during mental fatigue. Brain Research. Cognitive Brain
+   Research, 24(2), 199–205. http://dx.doi.org/10.1016/j.cogbrainres.2005.01.018
+MacMahon, C., Schucker, L., Hagemann, N., & Strauss, B. (2014). Cognitive fatigue
+   effects on physical performance during running. Journal of Sport & Exercise
+   Psychology, 36(4), 375–381. http://dx.doi.org/10.1123/jsep.2013-0249
+Marcora, S. M. (2008). Do we really need a central governor to explain brain regulation
+   of exercise performance? European Journal of Applied Physiology, 104(5), 929–931;
+   author reply 933–925. http://dx.doi.org/10.1007/s00421-008-0818-3
+Marcora, S. M., Staiano, W., & Manning, V. (2009). Mental fatigue impairs physical
+   performance in humans. Journal of Applied Physiology, 106(3), 857–864. http://dx.doi.
+   org/10.1152/japplphysiol.91324.2008
+Marshall, J., Bishop, C., Turner, A. N., & Haff, G. (2021). Optimal training sequences to
+   develop lower body force, velocity, power, and jump height: A systematic review with
+   meta-analysis. Sports Medicine, http://dx.doi.org/10.1007/s40279-021-01430-z
+Martin, K., Meeusen, R., Thompson, K. G., Keegan, R., & Rattray, B. (2018). Mental
+   fatigue impairs endurance performance: A physiological explanation. Sports Medicine,
+   48(9), 2041–2051. http://dx.doi.org/10.1007/s40279-018-0946-9
+Martin, K., Thompson, K. G., Keegan, R., Ball, N., & Rattray, B. (2015). Mental fatigue
+   does not affect maximal anaerobic exercise performance. European Journal of Applied
+   Physiology, 115(4), 715–725. http://dx.doi.org/10.1007/s00421-014-3052-1
+Martin, K., Staiano, W., Menaspà, P., Hennessey, T., Marcora, S., Keegan, R.,
+   Thompson, K. G., Martin, D., Halson, S., & Rattray, B. (2016). Superior inhibitory
+   control and resistance to mental fatigue in professional road cyclists. PloS One, 11(7),
+   e0159907. http://dx.doi.org/10.1371/journal.pone.0159907
+Martorelli, S., Cadore, E. L., Izquierdo, M., Celes, R., Martorelli, A., Cleto, V. A.,
+   Alvarenga, J. G., & Bottaro, M. (2017). Strength training with repetitions to failure
+   does not provide additional strength and muscle hypertrophy gains in young women.
+   European Journal of Translational Myology, 27(2), 6339. http://dx.doi.org/10.4081/
+   ejtm.2017.6339
+Nakamura, F. Y., Torres, V. B. C., da Silva, L. S., Gantois, P., Andrade, A. D., Ribeiro,
+   A. L. B., & Batista, G. R. (2021). Monitoring heart rate variability and perceived well-
+   being in Brazilian elite beach volleyball players: A single-tournament pilot study.
+   Journal of Strength & Conditioning Research. http://dx.doi.org/10.1519/JSC.
+   0000000000003654
+Osiecki, R., Rubio, T. B. G., Coelho, R. L., Novack, L. F., Conde, J. H. S., Alves, C. G.,
+   & Malfatti, C. R. M. (2015). The total quality recovery scale (TQR) as a proxy for
+   determining athletes’ recovery state after a professional soccer match. Journal of
+   Exercise Physiology, 18(3), 6.
+Pageaux, B., Marcora, S. M., & Lepers, R. (2013). Prolonged mental exertion does not
+   alter neuromuscular function of the knee extensors. Medicine & Science in Sports &
+   Exercise, 45(12), 2254–2264. http://dx.doi.org/10.1249/MSS.0b013e31829b504a
+Gantois et al.                                                                         19
+
+Pageaux, B. (2014). The psychobiological model of endurance performance: An effort-
+   based decision-making theory to explain self-paced endurance performance. Sports
+   Medicine, 44(9), 1319–1320. http://dx.doi.org/10.1007/s40279-014-0198-2
+Pageaux, B., Lepers, R., Dietz, K. C., & Marcora, S. M. (2014). Response inhibition
+   impairs subsequent self-paced endurance performance. European Journal of Applied
+   Physiology, 114(5), 1095–1105. http://dx.doi.org/10.1007/s00421-014-2838-5
+Pageaux, B., Marcora, S. M., Rozand, V., & Lepers, R. (2015). Mental fatigue induced
+   by prolonged self-regulation does not exacerbate central fatigue during subsequent
+   whole-body endurance exercise. Frontiers in Human Neuroscience, 9, 67. http://dx.doi.
+   org/10.3389/fnhum.2015.00067
+Perrotta, A. S., Jeklin, A. T., Hives, B. A., Meanwell, L. E., & Warburton, D. E. (2017).
+   Validity of the elite HRV smartphone application for examining heart rate variability
+   in a field-based setting. Journal of Strength and Conditioning Research, 31(8),
+   2296–2302. http://dx.doi.org/10.1519/JSC.0000000000001841
+Rhea, M. R. (2004). Determining the magnitude of treatment effects in strength training
+   research through the use of the effect size. Journal of Strength & Conditioning
+   Research, 18, 918–920. https://doi.org/10.1519/14403.1
+Rozand, V., Pageaux, B., Marcora, S. M., Papaxanthis, C., & Lepers, R. (2014). Does
+   mental exertion alter maximal muscle activation? Frontiers in Human Neuroscience, 8,
+   755. http://dx.doi.org/10.3389/fnhum.2014.00755
+Russell, S., Jenkins, D., Rynne, S., Halson, S. L., & Kelly, V. (2019). What is mental
+   fatigue in elite sport? Perceptions from athletes and staff. European Journal of Sport
+   Science, 19(10), 1367–1376. http://dx.doi.org/10.1080/17461391.2019.1618397
+Sanchez-Medina, L., & González-Badillo, J. J. (2011). Velocity loss as an indicator of
+   neuromuscular fatigue during resistance training. Medicine and Science in Sports and
+   Exercise, 43(9), 1725–1734. https://doi.org/10.1249/MSS.0b013e318213f880
+Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2017). Dose-response relationship
+   between weekly resistance training volume and increases in muscle mass: A systematic
+   review and meta-analysis. Journal of Sports Sciences, 35(11), 1073–1082. http://dx.doi.
+   org/10.1080/02640414.2016.1210197
+Schoenfeld, B. J., Grgic, J., Van Every, D. W., & Plotkin, D. L. (2021). Loading
+   recommendations for muscle strength, hypertrophy, and local endurance: A re-
+   examination of the repetition continuum. Sports, 9(2), 32. http://dx.doi.org/10.3390/
+   sports9020032
+Smith, M. R., Marcora, S. M., & Coutts, A. J. (2015). Mental fatigue impairs intermittent
+   running performance. Medicine & Science in Sports & Exercise, 47(8), 1682–1690.
+   http://dx.doi.org/10.1249/MSS.0000000000000592
+Smith, M. R., Coutts, A. J., Merlini, M., Deprez, D., Lenoir, M., & Marcora, S. M.
+   (2016). Mental fatigue impairs soccer-specific physical and technical performance.
+   Medicine & Science in Sports & Exercise, 48(2), 267–276. http://dx.doi.org/10.1249/
+   MSS.0000000000000762
+Smith, M. R., Thompson, C., Marcora, S. M., Skorski, S., Meyer, T., & Coutts, A. J.
+   (2018). Mental fatigue and soccer: Current knowledge and future directions. Sports
+   Medicine, 48(7), 1525–1532. http://dx.doi.org/10.1007/s40279-018-0908-2
+Smith, M. R., Chai, R., Nguyen, H. T., Marcora, S. M., & Coutts, A. J. (2019).
+   Comparing the effects of three cognitive tasks on indicators of mental fatigue. The
+20                                                              Perceptual and Motor Skills 0(0)
+
+   Journal of Psychology, 153(8), 759–783. http://dx.doi.org/ 10.1080/00223980.2019.
+   1611530
+Statista. (2020). Number of smartphone users worldwide from 2016 to 2023 (in billions).
+   https://www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/
+Task Force of the European Society of Cardiology. (1996). The North American
+   Society of Pacing Electrophysiology. Heart rate variability. Standards of measure-
+   ment, physiological interpretation, and clinical use. European Heart Journal, 17,
+   354–381.
+Wilmer, H. H., Sherman, L. E., & Chein, J. M. (2017). Smartphones and cognition: A
+   review of research exploring the links between mobile technology habits and cognitive
+   functioning. Frontiers in Psychology, 8, 605. http://dx.doi.org/10.3389/fpsyg.2017.
+   00605
+
+Author Biographies
+Petrus Gantois is a PhD Student from the Associate Graduate Program in Physical Education of the
+University of Pernambuco and University of Paraıba. His current research focuses on the effects of
+training methods on athletic performance and their physical, physiological, and cognitive
+determinants.
+
+Dalton de Lima-Junior is a PhD Student from the Associate Graduate Program in Physical
+Education of the University of Pernambuco and University of Paraıba. Member of The Research
+Group in Applied Psychology of Sport and Exercise (GEPAEE) and the Research Group in Exercise
+Science and Sports Performance (GEPEXDES). His current research focuses on Mental Fatigue,
+Resistance Training, and Sports Performance.
+
+Leonardo de Sousa Fortes is an Associate Professor in the Department of Physical Education at
+Federal University of Paraıba. He completed his PhD in Psycology at Federal University of Juiz de
+Fora. His main research interests are on the effects of mental fatigue, perceptual-cognitive training
+and neuromodulation on neuromuscular, endurance, and perceptual-cognitive skill performance in
+athletes and non-athletes.
+
+Gilmário Ricarte Batista is a Professor in the Department of Physical Education at Federal
+University of Paraıba. He completed his PhD in Health Sciences at Federal University of Rio
+Grande do Norte. Research area of interest include kinanthropometry and human performance
+and game analysis in team sports.
+
+Fábio Yuzo Nakamura is a Professor at University Institute of Maia. He completed his PhD in
+Motricity Sciences at Paulista State University. His main research interest are on sports sciences,
+exercise physiology, and strength & conditioning in athletes and non-athletes.
+
+Fabiano de Souza Fonseca is a Professor in the Department of Physical Education at Federal Rural
+University of Pernambuco. He completed his PhD at Federal University of Minas Gerais. The main
+research interest include neuromuscular performance, training methods, and variables associated to
+sports performance.
+

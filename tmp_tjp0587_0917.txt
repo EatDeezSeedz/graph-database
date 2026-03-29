@@ -1,0 +1,885 @@
+917
+
+J Physiol 587.4 (2009) pp 917–926
+
+Coupling between mechanical and neural behaviour
+in the human first dorsal interosseous muscle
+Anna L. Hudson, Janet L. Taylor, Simon C. Gandevia and Jane E. Butler
+Prince of Wales Medical Research Institute and the University of New South Wales, Sydney 2031, Australia
+
+The neural drive to a muscle and its biomechanical properties determine the force at a joint. These
+factors may be centrally linked. We studied the relationship between the ability of first dorsal
+interosseous muscle (FDI) to generate index flexion force around the metacarpophalangeal joint
+and the neural drive it receives in a voluntary contraction. The role of FDI was assessed in two
+thumb postures, thumb ‘down’ (thumb abducted) and thumb ‘up’ (thumb extended), and at
+different thumb carpometacarpal angles. These postures were designed to change acutely the
+flexion moment arm for FDI. The flexion twitch force evoked by supramaximal stimulation of
+the ulnar nerve was measured in the two postures and the change in moment arm was assessed
+by ultrasonography. Subjects also made voluntary flexion contractions of the index finger of
+∼5 N in both postures during which neural drive to FDI and the long finger flexor muscles
+was measured using surface EMG. Recordings of FDI EMG were normalized to the maximal
+M wave. Five of the 15 subjects also had a radial nerve block to eliminate any co-contraction
+of the extensor muscles, and extensor muscle EMG was monitored in subjects without radial
+nerve block. Compared to thumb up, flexion twitch force was ∼60% greater, and the flexion
+moment arm was ∼50% greater with the thumb down. There was minimal effect of altered
+carpometacarpal angle on flexion twitch force for either thumb posture. During voluntary
+flexion contractions, normalized FDI EMG was ∼28% greater with thumb down, compared to
+thumb up, with no consistent change in neural drive to the long flexors. Hence, the contribution
+of FDI to index finger flexion can be altered by changes in thumb position. This is linked to
+changes in neural drive to FDI such that neural drive increases when the mechanical contribution
+increases, and provides a central mechanism to produce efficient voluntary movements.
+(Received 15 October 2008; accepted after revision 23 December 2008; first published online 5 January 2009)
+Corresponding author S. Gandevia: Prince of Wales Medical Research Institute, Barker St Randwick, NSW 2031
+Australia. Email: s.gandevia@unsw.edu.au
+
+The amount of force that a muscle can produce
+depends on several key biomechanical factors such as
+its length–tension relation, the muscle’s physiological
+cross-sectional area and specific tension, the pennation
+angle of the muscle fibres, and the moment arm of the
+muscle–tendon unit (Gordon et al. 1966; Otten, 1988;
+Zajac, 1992; Maganaris, 2001, 2004). In addition, the
+degree of voluntary activation, i.e. neural drive to the
+muscle, influences force generation (e.g. Adrian & Bronk,
+1929). The amount of force a muscle can produce (due to
+the biomechanical factors listed above), and the neural
+drive it receives in a voluntary contraction, may be
+coupled. In the human intercostal muscles, inspiratory
+neural drive is related to the specific mechanical advantage
+of the different regions of the muscle (De Troyer et al. 2003;
+Gandevia et al. 2006; for review see De Troyer et al. 2005).
+We have studied, in first dorsal interosseous (FDI), the
+relationship between the amount of force that the muscle
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+can generate, and how the muscle is ‘driven’ in a voluntary
+contraction.
+FDI is a bipennate muscle with two distinct heads
+(Masquelet et al. 1986; Fig. 1A). The deep muscle head
+originates on the lateral, palmar surface of the second
+metacarpal, and the superficial head, which is ∼70%
+larger in volume than the deep head (Chao et al. 1989),
+originates on the medial aspect of the first metacarpal. The
+fibres from the superficial head twist as they approach the
+metacarpophalangeal (MCP) joint such that those with a
+more distal origin insert more dorsally. Fibres from the
+two muscle heads converge to form a tendinous sheet that
+inserts on the lateral tubercle on the base of the proximal
+phalanx of the index finger, and it also blends into the
+interosseous hood (or extensor aponeurosis; Jones, 1949;
+Masquelet et al. 1986).
+As a result of its intricate anatomy, FDI has both a
+flexion and abduction moment arm at the MCP joint
+DOI: 10.1113/jphysiol.2008.165043
+
+918
+
+A. L. Hudson and others
+
+(An et al. 1983). At 0 deg of flexion of the index finger, the
+moment arm for flexion forces is ∼4 mm for the superficial
+head of FDI, and 0 mm for the deep head (An et al. 1983).
+The deep head has a peak flexion moment arm of ∼5 mm
+at ∼45 deg of index finger flexion. In this study (An et al.
+1983), tendon excursion was measured in the index finger
+taken from amputated limbs and the effect of movement of
+the thumb was not studied. When considering the action of
+the superficial head, isolation of the index finger presents
+a difficulty as FDI originates on the first metacarpal of
+the thumb. A change in thumb posture should alter the
+biomechanics of the superficial head of FDI for finger
+flexion, but there are no reports of the effect of thumb
+posture on the flexion moment arm of FDI.
+Studies of human skeletal muscles have suggested
+that some motor units or muscles are recruited with
+regard to their direction of pull or contribution to force
+(e.g. Desmedt & Godaux, 1981; ter Haar Romeny et al.
+1982; McMillan & Hannam, 1992; Kennedy & Cresswell,
+
+J Physiol 587.4
+
+2001). However, they have not specifically linked changes
+in motor unit recruitment to known changes in the
+contribution of a muscle at a joint, i.e. its ‘mechanical
+advantage’ or ‘mechanical effectiveness’. We studied the
+contribution of FDI to flexion forces at the index finger,
+and the neural drive to this muscle during voluntary
+flexion contractions, in two thumb postures that were
+designed to change the flexion moment arm of the superficial head of the muscle originating on the thumb. We
+hypothesized that the contribution of FDI for flexion
+forces at the MCP joint, i.e. the flexion moment arm of
+FDI, could be increased by a change in thumb posture,
+and that this change in muscle-tendon mechanics would
+lead to increased neural drive to FDI during a voluntary
+contraction. If this occurred, it would indicate that the
+central nervous system takes into account the mechanical
+effectiveness of a muscle when executing a voluntary task.
+Our hypothesis is in contrast to what would be expected
+if the joint were controlled by a single muscle. There, an
+increase in mechanical effectiveness of the muscle would
+decrease the neural drive required to produce the same
+force.
+Methods
+The contribution of FDI to index finger flexion force at
+the MCP joint in two thumb postures (‘thumb down’
+and ‘thumb up’, see below for details) was assessed
+by measuring flexion twitch force at different thumb
+carpometacarpal joint angles over the physiological range.
+To determine the mechanism underlying the contribution
+of FDI to flexion forces, the flexion moment arm of FDI
+was assessed by ultrasonography. In a second experiment,
+electromyographic (EMG) recordings from FDI and the
+long flexors of the index finger were made during voluntary
+flexion contractions of the index finger in the two thumb
+postures. A total of 15 healthy adult volunteers participated
+(32 ± 10 years of age, mean ± S.D., seven females). The
+procedures were approved by the local ethics committee
+and conformed with the Declaration of Helsinki, and all
+subjects gave their informed written consent prior to
+participation.
+
+Figure 1. First dorsal interosseous and thumb posture
+A, diagram of the two muscle heads of first dorsal interosseous (FDI).
+The muscle originates on the first and second metacarpal bones. Its
+fibres converge, and insert on the lateral aspect of the proximal
+phalanx, distal to the metacarpophalangeal (MCP) joint. A
+carpometacarpal angle of ∼38 deg is shown. The dashed box over the
+MCP joint indicates the location of the ultrasound transducer (see
+Fig. 3). B, schematic drawing to show the thumb postures in which
+flexion twitch force was evoked, the flexion moment arm of FDI was
+measured, and subjects made voluntary contractions (see Methods).
+Left, thumb down; right, thumb up.
+
+Study 1: effect of thumb posture on flexion twitch
+force and flexion moment arm of FDI
+
+Subjects were seated with their right arm resting on a
+table on the ulnar side of the forearm with the wrist held
+straight. They were instructed to relax at the wrist, elbow
+and shoulder. The arm was held firmly in this position,
+in particular, at the metacarpals and wrist. The index
+finger was splinted but movement around the MCP joint
+was not constrained. To measure isometric force in the
+flexion direction, a ring around the splinted index finger,
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+J Physiol 587.4
+
+Mechanical and neural behaviour in first dorsal interosseous muscle
+
+just proximal to the proximal interphalangeal (PIP) joint
+was attached to a load cell (Xtran, Melbourne, Australia)
+via a rigid rod. The arm and finger remained in this
+set-up throughout the study, but the thumb was placed
+at different angles (relative to the index finger) in two
+thumb postures (Fig. 1B).
+In one posture, ‘thumb down’, the thumb was abducted
+at an angle, so that it was parallel to the table (Fig. 1B, left
+panel). In the other posture, the thumb was extended,
+and in the same vertical plane as the wrist and index
+finger, and this is referred to as ‘thumb up’ (Fig. 1B, right
+panel). In each posture (i.e. thumb down or up), a range
+of carpometacarpal joint angles was tested to look for
+the effect of changes in FDI muscle length. For thumb
+down, we measured twitch force as close as possible to
+full adduction (i.e. ∼0 deg abduction) and then at 7.5 deg
+increments to full abduction, while the thumb remained
+parallel to the table. For thumb up, we measured twitch
+force at 7.5 deg increments from as close as possible to
+full flexion, to full extension, while the thumb remained in
+the vertical plane. For each subject, at least five, and up
+to nine different angles were measured depending on the
+passive range of movement at the carpometacarpal joint.
+The maximal M wave (M max , see below) was determined
+at the longest muscle length, i.e. full abduction for thumb
+down, or full extension for thumb up, and the twitch
+force was determined for the longest muscle length first,
+and then for progressively shorter lengths. The thumb was
+taped firmly to a support at all angles, and the order in
+which the postures were tested was random.
+To determine maximal twitch force in the flexion
+direction, electrical stimuli were delivered via surface
+electrodes over the ulnar nerve, usually a few centimetres
+proximal to the wrist. The cathode was on the palmar side
+of the wrist, and the anode on the dorsal side. EMG was
+recorded from FDI with surface electrodes (see Study 2
+for details). The stimulus intensity (66–209 mA, 100 μs
+duration, DS7AH constant-current stimulator; Digitimer,
+Welwyn Garden City, UK) was at least 10% above that
+required to produce M max in FDI. At each thumb posture
+and angle, supramaximal stimuli were delivered 5–10 s
+apart (5 in total).
+In a separate session, in six subjects, an ultrasound unit
+(Phillips iU22, Bothell, WA, USA) was used to determine
+the effect of thumb posture on the position of the FDI
+tendon relative to the MCP joint. The moment arm
+of a muscle is the perpendicular distance between the
+muscle-tendon unit and centre of joint rotation (e.g.
+Smidt, 1973; Rugg et al. 1990). Here, the distance between
+the FDI tendon and the lateral tubercle on the second
+metacarpal head was used to estimate changes in the
+flexion moment arm of FDI.
+For the ultrasound study, subjects were seated with their
+right hand resting on the ulnar side of the forearm and
+the wrist and index finger were held straight. The thumb
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+919
+
+was positioned in a thumb down posture at ∼38 deg of
+carpometacarpal flexion. Surface electrodes were placed
+over FDI to monitor FDI EMG. Axial images were obtained
+with a 32 mm 15–7 MHz linear transducer placed transversally on, or just proximal (by no more than ∼5 mm)
+to the axis of rotation for flexion of the index finger at
+the MCP joint. The possible error in placement (< 5 mm
+from the axis of rotation) is similar to that in studies of
+moment arm in vivo that simply estimate the joint centre
+location using anatomical landmarks (Fowler et al. 2001).
+The transducer was adjusted so that optimal images of
+the FDI tendon and the lateral edge of the head of the
+second metacarpal could be visualized. Once the images
+were optimal, the transducer was manually stabilized
+while the thumb was moved passively from a thumb
+down, to a thumb up posture. The carpometacarpal angle
+was maintained between thumb postures. Subjects were
+instructed to relax during the study and had visual feedback of FDI EMG. Repeated sequences (5 s duration) were
+captured before, during and after thumb movement. The
+images were displayed in real time and digitally sampled
+at 30 Hz for analysis.
+
+Study 2: effect of thumb posture on FDI EMG activity
+in a voluntary contraction
+
+The set-up was similar to Study 1, but to measure flexion
+force, the ring at the PIP joint was attached to the load
+cell via a wire. Subjects received visual feedback of force
+throughout the experiment and made voluntary isometric
+flexion contractions of the index finger at the MCP
+joint to 5 N (∼5–10% maximal voluntary contraction).
+Contractions were made with the thumb in the two
+postures, thumb down and thumb up (as above), at
+a carpometacarpal angle of ∼38 deg. Care was taken
+to ensure the angle was the same in both postures.
+Contractions were repeated 20 times in each thumb posture, with at least 10 s between contractions. M max in FDI
+was also determined at each thumb posture. The order in
+which the postures were tested was random.
+EMG was recorded from FDI, the long flexors
+of the index finger (flexor digitorum superficialis
+and profundus), and the extensor muscles (extensor
+digitorum communis and indicis), via adhesive surface
+electrodes (Ag–AgCl; 10 mm diameter; Cleartrace,
+ConMed Corporation, Utica, NY, USA) placed ∼5 cm
+apart. For FDI, one electrode was placed on the proximal
+part of the muscle close to the second metacarpal (to
+minimize movement artefact with changes in thumb posture) and the other electrode was ∼5 cm distally, over the
+MCP joint. For the long finger flexors and extensors,
+electrode placement on the volar and dorsal surface of
+the forearm was approximately two-thirds of the distance
+between the styloid, and the medial or lateral epicondyle,
+
+920
+
+A. L. Hudson and others
+
+respectively. The sites were confirmed by palpation of
+the relevant muscles. The electrodes on the forearm are
+likely to record activity in other finger and wrist flexor
+and extensor muscles activated inadvertently. As in Study
+1, supramaximal stimuli (110% M max , 55–200 mA) were
+delivered at the ulnar nerve to determine M max in FDI.
+To measure the activity in FDI and the long finger
+flexors during flexion contractions at the MCP joint,
+without co-contraction of the extensor muscles, 5 of the
+15 subjects had a radial nerve block at the mid-humerus
+level which paralysed the wrist extensors and long
+extensors of the thumb and fingers. This was produced
+by injection of local anaesthetic (2% lignocaine with
+adrenaline, 2–3 mg kg−1 , and 0.5% bupivacaine with
+adrenaline, 1–1.5 mg kg−1 ), around the radial nerve at the
+mid-humerus level. Injections were guided by stimulation
+via the injecting needle (Stimuplex A 22-G, B. Braun,
+Melsungen, Germany). The nerve block was complete as
+judged by paralysis of radial innervated muscles, loss of
+response to radial nerve stimulation, and loss of sensation
+in the territory of the superficial radial nerve. In subjects
+with radial nerve block, EMG was not measured from the
+extensor muscles.
+For Studies 1 and 2, the EMG signals were amplified,
+filtered (16–1000 Hz), and sampled at 2000 Hz for off-line
+analysis using customised software (Grass amplifier,
+Warwick, RI, USA; CED 1902 amplifiers, CED 1401 with
+Signal and Spike2 software, Cambridge Electronic Design,
+Cambridge, UK). Force was sampled at 1000 Hz.
+
+Analysis
+
+Mean maximal flexion twitch force was calculated from
+the peak amplitudes of five twitches evoked by ulnar nerve
+stimulation (e.g. Fig. 2A). For thumb down and thumb
+up postures, the average twitch force was calculated for six
+angles, or ∼38 deg range of thumb abduction or extension
+(more angles were tested in some subjects, but were not
+included in the analysis). A missing value for one subject
+with the thumb up at ∼38 deg was replaced with the group
+mean for analysis (Tabachnick & Fidell, 1989). Absolute
+values are reported in the text, but data were normalized
+to the average twitch force at full adduction in the thumb
+down posture in Fig. 4.
+The ultrasound images were viewed off-line (Sante
+DICOM Viewer). We tracked the position of the FDI
+tendon and the lateral tubercle of the second metacarpal
+head. The FDI tendon was visualized for several cycles
+of movement between thumb postures, but for one cycle,
+the first (thumb down) and last (thumb up) frames were
+selected for analysis (Fig. 3A and B). There was little or no
+FDI EMG (< 0.5% of EMG in a maximal effort) during the
+ultrasound recordings (e.g. Fig. 3C). For each image, the
+perpendicular distance between the centroid of the FDI
+
+J Physiol 587.4
+
+tendon, and a reference point on the lateral tubercle of the
+metacarpal was measured using in-built software callipers.
+The reference point was clearly identified throughout the
+ultrasound recordings.
+In Study 2, subjects without radial nerve block had
+some EMG activity in finger extensors during the
+flexion contractions (e.g. Fig. 2C). Therefore, of the 20
+contractions recorded, those with matched extensor
+activity in each thumb posture were selected and analysed.
+Five to ten contractions were analysed for each subject
+and thumb posture. For subjects with a radial nerve block,
+10 contractions were analysed. Flexion force and EMG
+levels (root mean square (r.m.s.); time constant, 0.05 s)
+were measured over ∼3 s of each contraction at the target
+force (Fig. 2C). Baseline force, and r.m.s. EMG during
+complete relaxation were measured (to estimate background noise) and subtracted from values during the test
+contractions. To correct for changes in EMG amplitude
+associated with positional changes of the thumb, mean
+FDI r.m.s. EMG was normalized to the (average) r.m.s.
+of the M max potentials for each subject and thumb
+posture (Fig. 2B). EMG data are reported as absolute
+values in the text, but are illustrated in Fig. 5 normalized
+to thumb down for each subject.
+Statistics
+
+Group data from the 15 subjects are presented as
+means ± S.D. in the text and means ± S.E.M. are shown in
+the figures. In Study 1, comparison between the twitch
+force at different angles of carpometacarpal abduction
+or extension, and between thumb down and thumb up
+were made by a two-way repeated-measures analysis of
+variance (ANOVA), with angle and thumb posture as
+factors, and post hoc testing using Tukey’s procedure. For
+the ultrasound study, and in Study 2, Student’s paired
+t test was performed to assess differences in all parameters
+between thumb down and thumb up, and unpaired t tests
+were performed to compare between subjects with, and
+without a radial nerve block. Statistical significance was
+set at P < 0.05.
+Results
+Study 1
+
+To determine the effect of thumb posture and thumb
+(carpometacarpal) angle on the contribution of FDI to
+index finger flexion at the MCP joint, angle–twitch force
+curves were determined for the thumb up and thumb
+down (Fig. 4). With the thumb up, flexion twitch force
+evoked by supramaximal stimulation of the ulnar nerve
+was similar at all six carpometacarpal angles (over a range
+of ∼38 deg; P > 0.05). It was 1.2 ± 0.7 N (mean ± S.D.)
+at the largest angle analysed (∼38 deg extension), and
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+Mechanical and neural behaviour in first dorsal interosseous muscle
+
+J Physiol 587.4
+
+1.4 ± 0.8 N at the smallest angle with the joint close to
+full flexion. With the thumb down, there was an effect
+of carpometacarpal angle on flexion twitch force at the
+smallest angle only. Flexion twitch force was 2.3 ± 1.0 N at
+the largest angle (∼38 deg abduction), and similar at other
+angles, except the smallest angle (close to full adduction).
+Here, the average twitch force was 1.9 ± 0.7 N (P < 0.001).
+Compared to thumb up, twitch force was ∼60% greater
+with the thumb down at all joint angles tested (Fig. 4;
+P < 0.001).
+Using ultrasonography, the tendon of FDI was
+visualized on the palmar side of the second metacarpal
+
+A
+
+(Fig. 3). The perpendicular distance between the centroid
+of the FDI tendon and the lateral tubercle of the second
+metacarpal head was 9.1 ± 2.4 mm with thumb down, and
+6.5 ± 2.5 mm when the thumb was moved passively to the
+thumb up posture (P < 0.001). The tendon moved, on
+average, 2.6 mm (range 1.9–3.4 mm in 6 subjects).
+Study 2
+
+Subjects made flexion contractions of the index finger at
+the MCP joint to a target force of 5 N with the thumb
+supported in extension in the ‘thumb up’ posture, or
+
+B
+
+C
+
+Figure 2. Data from a single subject for flexion twitch force and voluntary contractions
+A, flexion twitch force was evoked by supramaximal stimulation of the ulnar nerve in the two thumb postures, and
+at different carpometacarpal angles. Five twitches (grey traces) and the average (black traces) are superimposed for
+the thumb down, and thumb up postures at a carpometacarpal angle of ∼38 deg. B, M max in FDI was determined
+in the two thumb postures. Shaded regions indicate the area used to determine the root mean square (r.m.s.) of
+M max potentials. FDI EMG was normalized to r.m.s. amplitude at each thumb posture. Arrows indicate time of
+stimulation. C, typical recordings from an intact subject during voluntary flexion contractions at the index MCP
+joint of ∼5 N with the thumb down (left panel) and up (right panel). From top to bottom, panels show finger
+flexion force, and surface EMG recordings from first dorsal interosseous (FDI), the long finger flexors, and long
+finger extensors. The voluntary isometric contractions lasted ∼5 s. Force and r.m.s. EMG were measured over ∼3 s
+(between vertical lines). Vertical calibrations: 250 μV for FDI and 10 μV for long flexors and extensors.
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+921
+
+922
+
+A. L. Hudson and others
+
+J Physiol 587.4
+
+Figure 3. Data from a single subject for
+analysis of the flexion moment arm in
+FDI
+Ultrasound images of the FDI tendon and
+distal head of the second metacarpal
+captured with the thumb down (panel A)
+and thumb up (panel B). The perpendicular
+distance between the centroid of the
+tendon (shown with cross) and reference
+point on the metacarpal (shown with
+arrow) was measured to estimate the
+flexion moment arm. Ultrasound images
+were taken in passive conditions as
+confirmed by a lack of FDI EMG during the
+ultrasound capture (panel C). The time at
+which frames were selected for analysis are
+indicated by the arrows (A: thumb down;
+B: thumb up). Vertical calibration: 100 μV.
+
+in abduction with the ‘thumb down’. For the 15 subjects, the targeted voluntary force produced with the
+thumb up (5.1 ± 0.2 N) did not differ from thumb down
+contractions (5.2 ± 0.2 N; P > 0.05). For subjects without
+a radial nerve block (n = 10), finger extensor r.m.s. EMG
+did not differ between contractions in the two thumb
+postures (2.8 ± 1.9 μV for both; P > 0.05).
+
+Figure 4. Angle–twitch force relationships for flexion of the
+index finger evoked by stimulation of the ulnar nerve in the
+two thumb postures
+Flexion twitch force for the index finger was measured over a ∼38 deg
+range from near full adduction to ∼38 deg of abduction with the
+thumb down (◦), and over a ∼38 deg range from near full flexion to
+∼38 deg of extension with the thumb up (•). Twitch force was
+normalized to that at near full adduction with the thumb down for
+each subject (n = 15). There was minimal change in mean (± S.E.M.)
+flexion twitch force with altered carpometacarpal angle within a
+thumb posture, but twitch force was always 30–60% greater when
+the thumb was down, compared to the thumb up.
+
+The size of M max was similar in the two thumb postures (e.g. Fig. 2B). For the group, M max amplitude was
+19.4 ± 4.2 mV and 20.5 ± 4.3 mV for the thumb up and
+thumb down, respectively, and the r.m.s. of M max was also
+similar for thumb up and thumb down (5.1 ± 1.2 and
+5.2 ± 1.2 mV, respectively; P > 0.05). To control for any
+artefactual change in EMG with altered thumb posture,
+FDI r.m.s. EMG was normalized to the r.m.s. of M max at
+each thumb posture.
+During the voluntary flexion contractions of similar
+absolute force (and similar level of extensor EMG, see
+above), EMG from FDI and the long finger flexors
+was measured. FDI activity was 28% greater during
+voluntary contractions with the thumb down (Fig. 5).
+The ratio of FDI r.m.s. EMG to the r.m.s. of M max
+was 0.011 ± 0.006 with the thumb up, and 0.014 ± 0.006
+with the thumb down (P < 0.01). Changes in long flexor
+r.m.s. EMG between thumb positions were more variable,
+and overall there was no significant change. Long flexor
+r.m.s. EMG was 32.4 ± 20.5 μV with the thumb up, and
+30.6 ± 22.3 μV during contractions with the thumb down
+(Fig. 5B). FDI, or long flexor EMG did not differ between
+groups of subjects with, and without radial nerve block
+(P > 0.05).
+Discussion
+The novel aspect of this study is that when the mechanical
+effectiveness of a muscle is increased at a joint where
+more than one muscle can exert force, there is an adaptive
+increase in the neural drive to that muscle. Based on flexion
+twitch force, the contribution of FDI to finger flexion
+at the MCP joint can be altered by positional changes
+to the thumb, but there is limited change at different
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+Mechanical and neural behaviour in first dorsal interosseous muscle
+
+J Physiol 587.4
+
+carpometacarpal angles. As measured with ultrasound, the
+flexion moment arm changes with thumb posture, and like
+flexion twitch force, it is greater with the thumb down. In
+voluntary flexion contractions at the MCP joint, there is
+greater EMG in FDI with the thumb down, compared to
+contractions of the same force with the thumb up. Thus,
+neural drive to FDI is distributed according to the muscle’s
+ability to contribute force in a finger flexion task, and the
+change in drive is consistent with a central strategy which
+would produce movements efficiently (see also De Troyer
+et al. 2005).
+
+FDI and mechanical effectiveness: the effect
+of thumb posture
+
+FDI has a greater contribution to flexion force at any
+muscle length tested across all joint angles with the thumb
+down, compared to thumb up, and this increase is most
+likely to be due to an increase in the flexion moment
+arm of this muscle. The effect of thumb posture on the
+moment arm of FDI has not been determined previously.
+Investigations of the moment arm of FDI in amputated
+limbs used an isolated index finger (An et al. 1983), and
+measurement of the moment arm in vivo maintained the
+position of the thumb (Fowler et al. 2001). We found that
+when the thumb was moved from up to down, the tendon
+of FDI moved in a palmar direction such that the distance
+between the FDI tendon and metacarpal bone (close to the
+
+A
+
+axis of rotation for flexion) was 2.6 mm greater with the
+thumb down. The change in the moment arm is likely to
+be due to the superficial head of the muscle, as the position
+of the second metacarpal, to which the deep head of FDI
+attaches, was constant.
+We did not measure the distance between the FDI
+tendon and the centre of rotation of the MCP joint, as
+only the edge of the metacarpal bone could be visualized
+with ultrasound. However, if we express the change in
+distance between the tendon and metacarpal edge, relative
+to the moment arm found in isolated index fingers from
+amputated limbs (4 mm at 0 deg index finger flexion; An
+et al. 1983), the change represents a 65% increase in the
+moment arm of FDI when the thumb is repositioned to a
+down posture. By comparison, there was a 60% increase
+in the maximal flexion twitch force of FDI with the thumb
+down.
+Other factors which could influence the ability of FDI
+to produce flexion forces at the MCP joint include a shift
+on the length–tension curve of FDI, and a change in the
+pennation angle of the muscle fascicles. However, these
+factors appear less important than changes in moment
+arm. The changes in FDI muscle length and pennation
+angle with changes in the angle of carpometacarpal
+extension or abduction did not alter the contribution
+of FDI to flexion force at the MCP joint across most
+of the physiological range. Carpometacarpal angle had
+a moderate effect on the maximal flexion twitch force
+at full adduction for the thumb down posture. This
+
+B
+
+Figure 5. Muscle activation during a voluntary flexion contraction of 5 N at the index MCP joint in the
+two thumb postures
+Panels show individual (open symbols) and mean ± S.E.M. (filled circles) from 15 subjects. Data from subjects with
+a radial nerve block are shown as open diamonds (n = 5). Data are normalized to values with the thumb down
+for each subject. A, for 14/15 subjects and the group, FDI activity was greater during voluntary contractions
+with the thumb down compared to those with the thumb up. One subject had almost no activation of FDI
+during contractions with the thumb up and showed a marked increase in its activity when the thumb was down.
+Irrespective of whether data from this subject were included, FDI activity was significantly greater in the posture
+with a greater mechanical effectiveness (thumb down; P < 0.01). B, the change in activity in the long flexors
+during flexion contractions was variable. For the majority of subjects (10/15 subjects), there was less long flexor
+EMG in contractions with the thumb down, but this was not statistically significant for the group.
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+923
+
+924
+
+A. L. Hudson and others
+
+contrasts with other muscles, for example, the elbow flexor
+(Prasartwuth et al. 2006), and ankle dorsiflexor (Koh &
+Herzog, 1995) muscles, in which large increases (∼30%
+or more) in evoked torque occur with altered joint angle.
+Either FDI muscle fibre length is less sensitive to changes in
+joint angle, or the length–tension curve for FDI is relatively
+flat (for flexion force). The pennation angle of FDI fibres is
+low (∼9 deg), but values were not given for the two heads
+of FDI, or for different thumb postures (Jacobson et al.
+1992).
+
+Neural drive to FDI during voluntary flexion
+contractions
+
+In concert with the greater mechanical effectiveness of
+FDI for flexion force at the index finger with the thumb
+down, the neural drive to FDI increased during voluntary
+contractions with the thumb down, as evidenced by a 28%
+increase in FDI EMG.
+EMG was recorded with surface electrodes near the
+second metacarpal and will include activity from both
+superficial and deep muscle compartments although the
+component of FDI attached to the first metacarpal is larger
+and superficial (Chao et al. 1989). As the increase in flexion
+mechanical effectiveness of FDI with positional changes
+to the thumb is likely to be due to the movement of
+the moment arm of the superficial head, the increase in
+FDI EMG in voluntary flexion contractions may reflect an
+increase in neural drive to this region also. However, in two
+subjects, both heads of FDI were active in index flexion
+against resistance, with more activity reported in the deep
+compared to the superficial head (Masquelet et al. 1986).
+Unfortunately, the flexion angle of the MCP joint at which
+the contractions were made was not given (Masquelet et al.
+1986). The moment arms of the two heads of FDI vary
+with the degree of index finger flexion (An et al. 1983),
+and therefore, their relative activity may alter with flexion
+angle. In voluntary contractions, the first lumbrical muscle
+may have contributed to the recorded EMG and flexion
+force at the MCP joint, but its contribution is likely to be
+small, and unaltered by changes in thumb posture (Lauer
+et al. 1999).
+To produce the same finger flexion force, an increase
+in FDI activity should be accompanied by a decrease in
+activation of synergistic muscles. However, no decrease
+in activity of the long flexors was seen. Although care
+was taken to place the electrodes over the long flexor
+muscles of the index finger, surface EMG recordings are
+unselective, and the expected decrease in activity was
+presumably masked by activity in nearby finger and wrist
+flexor muscles.
+The level of agonist muscle activity required to produce
+a set force must increase if the antagonist muscle
+contracts. To minimize this potential error, we matched
+
+J Physiol 587.4
+
+finger extensor EMG during contractions in the two
+thumb postures in 10 ‘intact’ subjects, and completely
+eliminated differences in co-contraction in five subjects by
+a radial nerve block. In subjects with radial nerve block, in
+whom voluntary extension at the MCP joint was abolished,
+there was less long flexor EMG with the thumb down for
+4 out of 5 subjects.
+
+Coupling of mechanical effectiveness and neural drive
+
+When performing the same flexion task with different
+thumb postures, the neural drive to FDI changed
+according to its mechanical effectiveness. Hence, it may
+be recruited in a task-dependent way in which the amount
+of force it produces and the neural drive it receives are
+linked.
+Task-related changes in the discharge behaviour of
+motor units in FDI have been reported. FDI contributes
+to abduction and flexion forces (Thomas et al. 1986;
+Enoka et al. 1989; Kutch et al. 2007). However, in
+∼10% of FDI motor unit pairs, the threshold force at
+which units are recruited is less in abduction compared
+to flexion (Desmedt & Godaux, 1981; Enoka et al.
+1989), or the recruitment order in pairs of motor units
+is altered (Desmedt & Godaux, 1981; Thomas et al.
+1986), particularly when pairs are sampled from different
+recording sites in FDI (Desmedt & Godaux, 1981). There
+are similar examples of task-dependent alterations of
+motor unit behaviour in other muscles of the limb,
+jaw and thorax (e.g. ter Haar Romeny et al. 1982;
+McMillan & Hannam, 1992; Kennedy & Cresswell, 2001;
+De Troyer et al. 2003; Mottram et al. 2005; Gandevia
+et al. 2006). In the human intercostal muscles, there is
+recruitment according to a principle of neuromechanical
+matching (Butler et al. 2007), whereby parts of an intercostal muscle are recruited according to their relative
+inspiratory mechanical advantage. Although recruitment
+of motor units by this principle maximizes the efficiency of
+ventilation (De Troyer et al. 2005), it should be applicable
+to other muscles, such as FDI, to maximize movement
+efficiency.
+If there is a coupling of or mechanical effectiveness
+and neural drive, what is the mechanism responsible
+for the matching? Receptors, such as those in the skin,
+muscles and joints, signal muscle length, force and joint
+angle, and these inputs could be integrated by the central
+nervous system to determine the overall biomechanical
+state of a multijoint system, and recruit muscles and/or
+motor units accordingly with the most efficient strategy.
+For the intercostal muscles, recruitment by inspiratory
+mechanical advantage remains even when afferent feedback is altered or removed (De Troyer & Legrand, 1995;
+De Troyer et al. 1996; Legrand et al. 1996). A similar
+invariance has been reported for recruitment of two
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+J Physiol 587.4
+
+Mechanical and neural behaviour in first dorsal interosseous muscle
+
+human inspiratory muscles operating on the upper rib
+cage (Hudson et al. 2007). This suggests that the pattern
+of respiratory neural drive to the inspiratory muscles
+is ‘preset’. However, in all these studies, mechanical
+advantage was not changed acutely, and therefore the
+altered afferent feedback was not appropriate to signal
+a change in mechanical advantage. For FDI, where
+mechanical effectiveness can change depending on posture
+or position, neural recruitment strategies can also change.
+This suggests that the mechanical performance of FDI is
+either signalled acutely by afferents or is known from prior
+experience.
+References
+Adrian ED & Bronk DW (1929). The discharge of impulses in
+motor nerve fibres: Part II. The frequency of discharge in
+reflex and voluntary contractions. J Physiol 67, 119–151.
+An KN, Ueba Y, Chao EY, Cooney WP & Linscheid RL (1983).
+Tendon excursion and moment arm of index finger muscles.
+J Biomech 16, 419–425.
+Butler JE, De Troyer A, Gandevia SC, Gorman RB & Hudson
+AL (2007). Neuromechanical matching of central respiratory
+drive: a new principle of motor unit recruitment? Physiology
+News 67, 22–24 (http://www.physoc.org).
+Chao EYS, An K-N, Cooney WP & Linscheid RL (1989).
+Quantitative analysis of the intrinsic and extrinsic
+musculature of the hand. Biomechanics of the Hand: A Basic
+Research Study, pp. 31–51. World Scientific Publishing Co.,
+Singapore.
+De Troyer A, Gorman RB & Gandevia SC (2003). Distribution
+of inspiratory drive to the external intercostal muscles in
+humans. J Physiol 546, 943–954.
+De Troyer A, Kirkwood PA & Wilson TA (2005). Respiratory
+action of the intercostal muscles. Physiol Rev 85, 717–756.
+De Troyer A & Legrand A (1995). Inhomogenous activation of
+the parasternal intercostals during breathing. J Appl Physiol
+79, 55–62.
+De Troyer A, Legrand A, Gayan-Ramirez G, Cappello M &
+Decramer M (1996). On the mechanism of the mediolateral
+gradient of parasternal activation. J Appl Physiol 80,
+1490–1494.
+Desmedt JE & Godaux E (1981). Spinal motoneuron
+recruitment in man: rank deordering with direction but not
+with speed of voluntary movement. Science 214, 933–936.
+Enoka RM, Robinson GA & Kossev AR (1989). Task and fatigue
+effects on low-threshold motor units in human hand muscle.
+J Neurophysiol 62, 1344–1359.
+Fowler NK, Nicol AC, Condon B & Hadley D (2001). Method
+of determination of three dimensional index finger moment
+arms and tendon lines of action using high resolution MRI
+scans. J Biomech 34, 791–797.
+Gandevia SC, Hudson AL, Gorman RB, Butler JE & De Troyer
+A (2006). Spatial distribution of inspiratory drive to the
+parasternal intercostal muscles in humans. J Physiol 573,
+263–275.
+Gordon AM, Huxley AF & Julian FJ (1966). The variation in
+isometric tension with sarcomere length in vertebrate muscle
+fibres. J Physiol 184, 170–192.
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+925
+
+Hudson AL, Gandevia SC & Butler JE (2007). The effect of lung
+volume on the co-ordinated recruitment of scalene and
+sternomastoid muscles in humans. J Physiol 584,
+261–270.
+Jacobson MD, Raab R, Fazeli BM, Abrams RA, Botte MJ &
+Lieber RL (1992). Architectural design of the human
+intrinsic hand muscles. J Hand Surg [Am] 17, 804–809.
+Jones FW (1949). The Principles of Anatomy as Seen in the
+Hand. Bailliere, Tindall and Cox, London.
+Kennedy PM & Cresswell AG (2001). The effect of muscle
+length on motor-unit recruitment during isometric plantar
+flexion in humans. Exp Brain Res 137, 58–64.
+Koh TJ & Herzog W (1995). Evaluation of voluntary and
+elicited dorsiflexor torque-angle relationships. J Appl Physiol
+79, 2007–2013.
+Kutch JJ, Suresh NL, Bloch AM & Rymer WZ (2007). Analysis
+of the effects of firing rate and synchronization on spiketriggered averaging of multidirectional motor unit torque.
+J Comput Neurosci 22, 347–361.
+Lauer RT, Kilgore KL, Peckham PH, Bhadra N & Keith MW
+(1999). The function of the finger intrinsic muscles in
+response to electrical stimulation. IEEE Trans Rehabil Eng 7,
+19–26.
+Legrand A, Brancatisano A, Decramer M & De Troyer A
+(1996). Rostrocaudal gradient of the electrical activation in
+the parasternal intercostal muscles of the dog. J Physiol 495,
+247–254.
+Maganaris CN (2001). Force-length characteristics of in vivo
+human skeletal muscle. Acta Physiol Scand 172, 279–285.
+Maganaris CN (2004). A predictive model of moment-angle
+characteristics in human skeletal muscle: application and
+validation in muscles across the ankle joint. J Theor Biol 230,
+89–98.
+Masquelet AC, Salama J, Outrequin G, Serrault M & Chevrel JP
+(1986). Morphology and functional anatomy of the first
+dorsal interosseous muscle of the hand. Surg Radiol Anat 8,
+19–28.
+McMillan AS & Hannam AG (1992). Task-related behavior of
+motor units in different regions of the human masseter
+muscle. Arch Oral Biol 37, 849–857.
+Mottram CJ, Christou EA, Meyer FG & Enoka RM (2005).
+Frequency modulation of motor unit discharge has taskdependent effects on fluctuations in motor output.
+J Neurophysiol 94, 2878–2887.
+Otten E (1988). Concepts and models of functional architecture
+in skeletal muscle. Exerc Sport Sci Rev 16, 89–137.
+Prasartwuth O, Allen TJ, Butler JE, Gandevia SC & Taylor JL
+(2006). Length-dependent changes in voluntary activation,
+maximum voluntary torque and twitch responses after
+eccentric damage in humans. J Physiol 571, 243–252.
+Rugg SG, Gregor RJ, Mandelbaum BR & Chiu L (1990). In vivo
+moment arm calculations at the ankle using magnetic
+resonance imaging (MRI). J Biomech 23, 495–501.
+Smidt GL (1973). Biomechanical analysis of knee flexion and
+extension. J Biomech 6, 79–92.
+Tabachnick BG & Fidell LS (1989). Using Multivariate Statistics.
+HarperCollins Publishers, Inc., New York.
+ter Haar Romeny BM, Denier van der Gon JJ & Gielen CC
+(1982). Changes in recruitment order of motor units in the
+human biceps muscle. Exp Neurol 78, 360–368.
+
+926
+
+A. L. Hudson and others
+
+Thomas CK, Ross BH & Stein RB (1986). Motor-unit
+recruitment in human first dorsal interosseous muscle for
+static contractions in three different directions.
+J Neurophysiol 55, 1017–1029.
+Zajac FE (1992). How musculotendon architecture and joint
+geometry affect the capacity of muscles to move and exert
+force on objects: a review with application to arm and
+forearm tendon transfer design. J Hand Surg [Am] 17,
+799–804.
+
+J Physiol 587.4
+
+Acknowledgements
+This work was supported by grants from the National Health
+and Medical Research Council.
+
+
+C 2009 The Authors. Journal compilation 
+C 2009 The Physiological Society
+
+

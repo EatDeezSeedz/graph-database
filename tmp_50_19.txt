@@ -1,0 +1,329 @@
+Physiol. Res. 50: 19-24, 2001
+
+
+
+
+Effect of Starvation on Branched-Chain α-Keto Acid
+Dehydrogenase Activity in Rat Heart and Skeletal Muscle
+M. HOLEČEK
+
+Department of Physiology, Faculty of Medicine, Charles University, Hradec Králové,
+Czech Republic
+
+Received December 27, 1999
+Accepted April 12, 2000
+
+
+
+
+Summary
+The aim of the present study was to investigate changes in the activity of branched-chain α-keto acid dehydrogenase
+(BCKAD) in skeletal muscle and the heart during brief and prolonged starvation. Fed control rats and rats starved for 2,
+4 and 6 days were anesthetized with pentobarbital sodium before heart and hindlimb muscles were frozen in situ by
+liquid nitrogen. Basal (an estimate of in vivo activity) and total (an estimate of enzyme amount) BCKAD activities were
+determined by measuring the release of 14CO2 from α-keto[1-14C]isocaproate. The activity state of BCKAD complex
+was calculated as basal activity in percentages of total activity. Both basal and total activities and the activity state of
+the BCKAD were lower in skeletal muscles than in the heart. In both tissues, starvation for 2 or 4 days caused a
+decrease in the basal activity and activity state of BCKAD. On the contrary, in the heart and muscles of animals starved
+for 6 days a marked increase in basal activity and activity state of BCKAD was observed. The total BCKAD activity
+was increasing gradually during starvation both in muscles and the heart. The increase was significant in muscles on the
+4th and 6th day of starvation. The demonstrated changes in BCKAD activity indicate significant alterations in
+branched-chain amino acid (BCAA) and protein metabolism during starvation. The decreased BCKAD activity in
+skeletal muscle and heart observed on the 2nd and 4th day of starvation prevents the loss of essential BCAA and is an
+important factor involved in protein sparing. The increased activity of BCKAD on the 6th day of starvation indicates
+activated oxidation of BCAA and accelerated protein breakdown.
+
+
+Key words
+Branched-chain amino acids • Leucine • Fasting • Protein metabolism
+
+
+
+Introduction                                                              α-ketoisocaproate (ketoleucine), α-keto-β-methylvalerate
+                                                                          (ketoisoleucine) and α-ketoisovalerate (ketovaline). The
+         Branched-chain α-keto acid dehydrogenase                         branched-chain acyl-CoA derivatives formed from this
+(BCKAD; EC 1.2.4.4) is considered the rate-limiting                       reaction are then dehydrogenated to form enoyl-CoA
+enzyme in the pathway of branched-chain amino acid                        derivatives. The subsequent steps involve a series of
+(BCAA; valine, leucine, isoleucine) catabolism (Odessey                   reductions and oxidations leading to products that can
+and Goldberg 1979). BCKAD catalyzes the irreversible                      enter the tricarboxylic acid cycle.
+oxidative decarboxylation of all three branched-chain
+keto acids (BCKA) derived from BCAA, i.e.
+
+
+
+PHYSIOLOGICAL RESEARCH                                                                                          SSN 0862-8408
+ 2001 Institute of Physiology, Academy of Sciences of the Czech Republic, Prague, Czech Republic                   ax+4202 24920590
+E-mail: physres@biomed.cas.cz                                                                        ttp://www.biomed.cas.cz/physiolres
+20    Holeček                                                                                                    Vol. 50
+
+
+
+                                                             turnover, which enables sparing of proteins for many
+                                                             days, unchanged (Aftring et al. 1988) or even increased
+                                                             muscle BCKAD activities in starving animals (Goldberg
+                                                             and Odessey 1972, Paul and Adibi 1978), is a surprising
+                                                             observation. The increase in BCKAD activity enhances
+                                                             the catabolism of BCAA, which should under conditions
+                                                             of complete starvation significantly accelerate the
+                                                             wasting of muscle tissue by activated proteolysis, by
+                                                             inhibited protein synthesis, or both. It should be noted
+                                                             that studies evaluating the effect of starvation on BCKAD
+                                                             activity or BCAA oxidation in various tissues did not
+                                                             demonstrate a compensatory decrease in BCKAD activity
+                                                             or BCAA oxidation (Espinal et al. 1986, Solomon et al.
+                                                             1987, Harris et al. 1989). In view of this controversy, the
+                                                             objective of the present study was to provide a new
+                                                             estimation of the effects of starvation on BCKAD activity
+                                                             in skeletal muscles and in the heart during brief as well as
+Fig. 1. Scheme illustrating the regulation of branched-      prolonged starvation.
+chain α-keto acid dehydrogenase (BCKAD) by
+phosphatase and kinase.                                      Methods
+
+          BCKAD activity is controlled primarily by a        Animals
+phosphorylation-dephosphorylation mechanism (Fig. 1).            Male rats (Velaz, Prague, CR) were housed in
+Phosphorylation of the protein moiety, which is mediated     standardized cages in quarters with controlled
+by a specific kinase, results in inactivation of BCKAD.      temperature and a 12-hour light-dark cycle and received
+Dephosphorylation, mediated by a specific phosphatase,       laboratory chow and drinking water ad libitum. All
+results in activation of the enzyme. The BCKAD activity      procedures were performed according to guidelines set by
+is highest in the liver, intermediate in kidney and heart,   the Institutional Animal Use and Care Committee of
+and comparatively low in muscle, adipose tissue, and         Charles University.
+brain (Harper et al. 1984, Randle et al. 1984). However,
+when the proportion of body weight represented by each       Materials
+of the various tissues and organs is taken into                  α-keto[1-14C]isocaproate was purchased from
+consideration, muscles, which make up 35-40 % of total       Amersham (Buckinghamshire, UK). Leucine, the sodium
+body weight, should contribute substantially to total body   salt of α-ketoisocaproate, NAD+, CoASH, dithiothreitol
+BCKA utilization.                                            (DTT); thiamine pyrophosphate (TPP), N-2-hydroxy-
+          In view of the important physiological functions   ethylpiperazine-N'-2-ethanesulfonic  acid   (HEPES),
+of BCAA which include its action as substrate and            polyethylene glycol (PEG), disodium ethylenediamine-
+regulator in protein synthesis and an essential donor of     tetraacetic acid (Na2EDTA), polyoxyethylene ether W-1
+nitrogen in the synthesis of alanine and glutamine in        detergent, N-2-p-tosyl-L-lysine chloromethyl ketone
+skeletal muscles, changes in the activity of BCKAD           (TLCK), Folin-Ciocalteu phenol reagent and albumin
+should be of enormous importance in the protein              were purchased from Sigma Chemical (St. Louis, MO,
+economy of the whole body. The activity of BCKAD in          USA). Hyamine hydroxide was obtained from Packard
+skeletal muscles increases under certain circumstances,      Instrument (Meriden, CT, USA). Remaining chemicals
+such as a high-protein diet (Block et al. 1987b), an         were from Lachema (Brno, CR).
+exercise (Shimomura et al. 1990), glucocorticoid
+administration (Block et al. 1987a), insulinopenic           Study design
+diabetes (Paul and Adibi 1978, 1982, Aftring et al. 1988),             The animals were fed ad libitum or starved for
+endotoxemia and treatment with tumor-necrosis factor-α       2, 4, or 6 days. The enzyme assays started between 07:00
+(TNF-α) (Nawabi et al. 1990, Holeček et al. 1996, 1997).     and 08:00 h to minimize the influence of diurnal
+          Considering that a characteristic response to      variations of food intake and plasma hormone levels. Rats
+uncomplicated starvation is a decrease in protein            were anesthetized with pentobarbital sodium (5 mg/kg
+2001                                                                                    Starvation and BCKAD Activity   21
+
+body wt) and hindlimb muscles and the heart were               BCKAD activity was linear up to 20 min both for initial
+removed as described below.                                    and total BCKAD activity. Protein concentration in the
+                                                               enzyme source was measured by the method of Lowry et
+BCKAD activity                                                 al. (1951) using bovine serum albumin as the standard.
+          Skeletal muscles and the heart were processed                  Basal BCKAD activity (an estimate of in vivo
+for BCKAD assay by a modification of the method                activity) was measured by using the enzyme preparation
+described by Aftring et al. (1986) and Block et al.            described above. Total BCKAD activity (an estimate of
+(1987a,b). Briefly, hindlimb muscles (primarily                enzyme amount) was measured after fully activating the
+gastrocnemius and soleus muscles) and the heart were           BCKAD by preincubating the enzyme preparation with
+frozen in situ with Wollenberger tongs precooled in            15 mM MgSO4 for 80 min at 37 °C. The activity state of
+liquid nitrogen and subsequently pulverized while still        BCKA dehydrogenase complex (proportion of the
+maintained in liquid nitrogen. BCKAD was extracted by          enzyme present in the active state) was calculated as
+homogenizing (1:7, W/V) the powder at 0 oC in                  (basal activity/total activity) x 100.
+extraction buffer containing protease, phosphatase, and                  It was not possible to express the obtained
+kinase inhibitors (100 mM potassium phosphate buffer,          results per unit of muscle weight as the preparation of
+5 % polyoxyethylene ether W-1 detergent, 2 mM                  BCKAD may result in some loss of the complex during
+Na2-EDTA, 5 mM DTT, 0.5 mM TPP, 1 mM TLCK,                     the precipitation procedure. Losses of complex would not
+20 g/ml leupeptin, 50 mM potassium fluoride                    be expected to bias measurements of the activity state of
+(phosphatase inhibitor), and 5 mM dichloroacetate              the complex because samples would be subject to the
+(kinase inhibitor), pH 7.4 at 0 oC) for 15 s with a Polytron   same losses. It is presumed that preincubation of the
+homogenizer. The homogenate was centrifuged at                 inactive form of BCKAD with Mg2+ fully activates the
+27 000 x g for 5 min and the supernatant fraction was          enzyme due to the action of phosphatase associated with
+saved. To this supernatant, 27 % PEG-6000 was added to         the BCKAD complex (Paul and Adibi 1982, Aftring et al.
+give a final PEG concentration of 2 %. After stirring for      1986).
+20 min on ice, the suspension was centrifuged at                         The radioactivity of the samples was measured
+12 000 x g for 10 min. To the supernatant fraction,            with a liquid scintillation radioactivity counter LS 6000
+additional 27 % PEG-6000 was added to give a final PEG         (Beckman Instruments, Fullerton, CA, USA).
+concentration of 5 %. After stirring for 20 min on ice, the
+suspension was centrifuged as above. The PEG                   Statistical analysis
+precipitate was suspended (1 ml/g tissue) in a buffer                    Results are expressed as the mean ± S.E.M.
+consisting of 25 mM HEPES, 0.2 mM Na2-EDTA,                    Statistical analysis was performed by Student's t-test. A
+0.4 mM TPP, 1 mM DTT, 20 µg/ml leupeptin, and 0.2 %            difference was considered significant at P<0.05.
+Brij 58 detergent, pH 7.4 at 37 °C and used as the source
+of BCKAD.                                                      Results
+          BCKAD activity was determined by measuring
+the release of 14CO2 from α-keto[1-14C]isocaproate. All                  Starvation caused a significant decrease in the
+assays were done in duplicate at 37 °C for 15 min in           body weight and in the weight of the gastrocnemius
+25-ml Erlenmeyer flasks. The complete assay mixture            muscle and the heart (Table 1). The increase in relative
+contained, in a final volume of 1 ml, 25 mM HEPES,             weights of the heart and muscle is caused by a more
+0.5 mM NAD+, 0.5 mM CoASH, 0.4 mM TPP, 0.1 mM                  pronounced decrease in the weight of several visceral
+α-keto[1-14C]isocaproate (2500 DPM/nmol), 0.2 mM               tissues (liver, gut, etc.). As demonstrated in Tables 2 and
+Na2-EDTA, 0.2 % Brij 58 detergent, 1 mM DTT, 1 mM              3, both basal and total activities of BCKAD in the
+MgSO4, 1 mM TLCK, 20 µg/ml leupeptin, and an                   skeletal muscles were lower than in the heart. Starvation
+appropriate amount of enzyme source (1-3 mg protein).          for 2 or 4 days caused a decrease while starvation for
+At the end of 15 min of incubation, the reactions were         6 days led to an increase in basal activity and the activity
+stopped with 5 N sulfuric acid and 14CO2 collected in          state of BCKAD in both these tissues. Total BCKAD
+methylbenzethonium hydroxide placed in center wells.           activity gradually increased in the course of starvation
+After one hour of shaking, the center wells were removed       both in muscles and the heart. Significant increases were
+and the 14CO2 content determined by liquid scintillation       detected in skeletal muscle on the 4th and the 6th day of
+spectrometry. Blanks for all assays were measured in the       starvation. A significant difference in BCKAD activity
+presence of the complete mixture supplemented with             was also found in the heart between the 2nd and the 6th
+distilled water instead of enzyme source. The assay of         day.
+Table 1. The effect of starvation on the body weight and weights of the heart and gastrocnemius muscle.
+
+                                                 Control                                  Duration of starvation
+                                                  (n=5)                    2 days               4 days                     6 days
+                                                                           (n = 5)              (n = 5)                    (n = 5)
+ Body weight (g)
+    - beginning of starvation                 -                        249 ± 2                  252 ± 2               252 ± 4
+    - end of starvation                       250 ± 2                  209 ± 2*                 186 ± 7*              163 ± 4*
+ Heart
+ - (g)                                        0.69 ± 0.04              0.61 ± 0.02              0.55 ± 0.06*          0.52 ± 0.06*
+ - (g/kg b. w.)                               2.74 ± 0.13              2.91 ± 0.08              2.94 ± 0.08*          3.09 ± 0.16
+ Gastrocnemius muscle
+    - (g)                                     1.56 ± 0.02              1.41 ± 0.04*             1.39 ± 0.04*          1.18 ± 0.04*
+    - (g/kg b. w.)                            6.23 ± 0.09              6.74 ± 0.20*             7.53 ± 0.39*          7.26 ± 0.19*
+
+The results are means ± S.E.M. *p<0.05 vs. control.
+
+
+
+Table 2. The effect of starvation on BCKAD activity in skeletal muscle.
+
+                                                Control                                  Duration of starvation
+                                                 (n=8)                  2 days                 4 days               6 days
+                                                                        (n = 8)                (n = 7)              (n = 6)
+Basal activity                                0.95 ± 0.14            0.25 ± 0.05*           0.30 ± 0.04         2.57 ± 0.40*
+(nmol KIC/mg protein/15 min)
+Total activity                                20.10 ± 0.70           22.60 ± 1.64             23.49 ± 1.48*           29.31 ± 2.38*
+(nmol KIC/mg protein/15 min)
+Activity state (%)                            4.81 ± 0.73            1.17 ± 0.26*             1.30 ± 0.15*            9.26 ± 1.79*
+
+Basal activity of BCKAD was determined before activation and total activity was achieved by preincubation with Mg2+
+(15 mM) for 80 min at 37 oC. Activity state = (basal activity/total activity) ⋅ 100. The results are means ± S.E.M.
+*p<0.05 vs. control.
+
+
+
+Table 3. The effect of starvation on BCKAD activity in the heart.
+
+                                                Control                                  Duration of starvation
+                                                 (n=8)                  2 days                 4 days               6 days
+                                                                        (n = 8)                (n = 7)              (n = 6)
+ Basal activity                               2.69 ± 0.29            0.89 ± 0.11*           0.70 ± 0.11*        6.10 ± 0.47*
+ (nmol KIC/mg protein/15 min)
+ Total activity                               81.32 ± 3.12           80.78 ± 2.25             83.71 ± 3.18            88.72 ± 1.44
+ (nmol KIC/mg protein/15 min)
+ Activity state (%)                           3.38 ± 0.45            1.09 ± 0.13*             0.84 ± 0.15*            6.90 ± 0.59*
+
+Basal activity of BCKAD was determined before activation and total activity was achieved by preincubation with Mg2+
+(15 mM) for 80 min at 37 oC. Activity state = (basal activity/total activity) ⋅ 100. The results are means ± S.E.M.
+*p<0.05 vs. control.
+
+Discussion
+
+
+PHYSIOLOGICAL RESEARCH                                                                                                SSN 0862-8408
+ 2001 Institute of Physiology, Academy of Sciences of the Czech Republic, Prague, Czech Republic                         ax+4202 24920590
+E-mail: physres@biomed.cas.cz                                                                              ttp://www.biomed.cas.cz/physiolres
+2001                                                                                   Starvation and BCKAD Activity   23
+
+          In the present study we have demonstrated            Odessey 1972, Paul and Adibi 1978). It should be
+changes in the catabolism of essential BCAA in skeletal        stressed that the findings presented in this study are in
+muscle and in the heart during starvation. Starvation for      agreement with a common idea about metabolic changes
+2 or 4 days corresponds to the phase of protein sparing,       during starvation, especially in connection with decreased
+i.e. the phase in which breakdown of muscle protein is         turnover of body proteins during the protein-sparing
+reduced, the main energy fuel are lipids and ketones, and      phase of starvation.
+glycerol is the main substrate in gluconeogenesis.                       Increased activity and activity state of BCKAD
+Starvation for 6 days corresponds to the phase of protein      on the 6th day of starvation indicate that catabolism of
+wasting, i.e. the phase in which the sources of lipids are     BCAA is accelerated. As activated oxidation of BCAA
+exhausted and amino acids become the main source of            impairs the resynthesis of BCAA from BCKA, an
+energy and the substrate for gluconeogenesis.                  accelerated breakdown of body proteins is necessary to
+          The decreased activities of BCKAD in muscles         cover demands of the starved body for BCAA.
+and the heart on the 2nd and 4th day of starvation             Progressive protein catabolism should reduce the amount
+demonstrated in this study have an important influence on      of available body proteins and death may occur within a
+protein and amino acid metabolism. At first, the decrease      short time. It should be noted that a similar increase in
+in BCKAD activity prevents the loss of essential BCAA,         muscle BCKAD activity has been demonstrated in
+which are an essential substrate and an important              protein catabolic states such as sepsis, trauma, cancer or
+regulator in the synthesis of body proteins. Then, the         after endotoxin or TNF-α treatment (Nawabi et al. 1990,
+decreased BCKAD activity should enhance the                    Holeček et al. 1997).
+resynthesis of BCAA from BCKA. As BCAA are an                            A number of factors and metabolites may be
+important nitrogen source for glutamine and alanine            important in the regulation of BCKAD kinase and
+synthesis in muscle, it may be suggested that decreased        phosphatase activity. BCKAD kinase is sensitive to
+activity of BCKAD helps to supply BCAA for the                 inhibition by BCKA, especially α-ketoisocaproate
+synthesis of alanine and glutamine. These metabolic            (Paxton and Harris 1984) and by ADP (Lau et al. 1982).
+changes induced by decreased BCKAD activity have a             Other studies showed that diabetes induced by
+stimulatory effect on protein synthesis or an inhibitory       streptozotocin treatment increases BCKAD activity by
+effect on protein breakdown (Harper et al. 1984, Holeček       inhibiting the kinase while TNF-α activates BCKAD by
+et al. 2000). It may thus be suggested that the decrease in    stimulating the phosphatase (Holeček et al. 1992). Block
+BCKAD activity is an important factor involved in              et al. (1987b) have demonstrated a strong correlation
+protein sparing during starvation.                             between ambient leucine concentrations and the
+          Unfortunately, we have found only a single           activation state of skeletal muscle BCKAD in rats fed
+study in which starvation caused a drop in the activity of     four levels of dietary protein. Furthermore, other factors
+BCKAD in skeletal muscle. Wagenmakers et al. (1984)            may be altered in muscle cells by starvation and may
+demonstrated that starvation decreased the activity state      modulate the activation of BCKAD (Buse et al. 1976,
+of BCKAD in the quadriceps muscle although the actual          Paul and Adibi 1978, 1982). These possibilities require
+activity of BCKAD did not change. This finding is in           further investigation.
+agreement with the observation of the gradual increase in
+total BCKAD activity in muscles and the heart which            Acknowledgements
+indicates an increasing capacity of these tissues to oxidize   The skilful technical assistance of R. Ryšavá and
+BCAA. We do not have a reasonable explanation for the          H. Weisbauerová is gratefully acknowledged. This study
+discrepancy between the results presented in the study         was supported by a grant from European Society of
+and the increased values of BCKAD activity in starving         Parenteral and Enteral Nutrition and by grant No.
+animals demonstrated in other laboratories (Goldberg and       306/98/0046 of the Grant Agency of the Czech Republic.
+
+References
+
+AFTRING RP, BLOCK KP, BUSE MG: Leucine and isoleucine activate skeletal muscle branched-chain α-keto acid
+      dehydrogenase in vivo. Am J Physiol 250: E599-E604, 1986.
+AFTRING RP, MILLER WJ, BUSE MG: Effects of diabetes and starvation on skeletal muscle branched-chain α-keto
+      acid dehydrogenase activity. Am J Physiol 254: E292-E300, 1988.
+BLOCK KP, RICHMOND WB, MEHARD WB, BUSE MG: Glucocorticoid-mediated activation of muscle branched-
+      chain α-keto acid dehydrogenase in vivo. Am J Physiol 252: E396-E407, 1987a.
+24    Holeček                                                                                               Vol. 50
+
+
+
+BLOCK KP, AFTRING RP, MEHARD WB, BUSE MG: Modulation of rat skeletal muscle branched-chain α-keto acid
+      dehydrogenase in vivo: effects of dietary protein and meal consumption. J Clin Invest 79: 1349-1358, 1987b.
+BUSE MG, HERLONG MF, WEIGAND DA: The effect of diabetes, insulin and the redox potential on leucine
+      metabolism by isolated rat hemidiaphragm. Endocrinology 98: 1166-1175, 1976.
+ESPINAL J, BEGGS M, PATEL H, RANDLE PJ: Effects of low-protein diet and starvation on the activity of
+      branched-chain 2-oxo acid dehydrogenase kinase in rat liver and heart. Biochem J 237: 285-288, 1986.
+GOLDBERG AL, ODESSEY R: Oxidation of amino acids by diaphragms from fed and fasted rats. Am J Physiol 223:
+      1384-1391, 1972.
+HARPER AE, MILLER RH, BLOCK KP: Branched-chain amino acid metabolism. Annu Rev Nutr 4: 409-454, 1984.
+HARRIS RA, GOODWIN GW, PAXTON R, DEXTER P, POWELL SM, YHANG B, HAN A, SHIMOMURA Y,
+      GIBSON R: Nutritional and hormonal regulation of the activity state of hepatic branched-chain alpha-keto acid
+      dehydrogenase complex. Ann N Y Acad Sci 573: 306-313, 1989.
+HOLEČEK M: Leucine metabolism in fasted and tumor necrosis factor treated rats. Clin Nutr 15: 91-93, 1996.
+HOLEČEK M, PAUL HS, ADIBI SA: Activation of muscle branched-chain keto acid dehydrogenase in diabetic and
+      tumor necrosis factor treated rats. Clin Nutr 11: S85, 1992.
+HOLEČEK M, ŠPRONGL L, SKOPEC F, ANDRÝS C, PECKA M: Leucine metabolism in TNF-α- and endotoxin-
+      treated rats: contribution of hepatic tissue. Am J Physiol 273: E1052-E1058, 1997.
+HOLEČEK M, SKOPEC F, SKALSKÁ H, ŠPRONGL L: Effect of alanyl-glutamine on leucine and protein metabolism
+      in endotoxemic rats. JPEN – J Parenter Enteral Nutr 24: 215-222, 2000.
+LAU KS, FATANIA HR, RANDLE PJ: Regulation of the branched chain 2-oxoacid dehydrogenase kinase. Arch.
+      Biochem Biophys 231: 48-57, 1984.
+LOWRY OH, ROSEBROUGH NJ, FARR AL, RANDAL RJ: Protein measurement with the Folin phenol reagent.
+      J Biol Chem 193: 265-275, 1951.
+NAWABI MD, BLOCK KP, CHAKRABARTI MC, BUSE MG: Administration of endotoxin, tumor necrosis factor, or
+      interleukin 1 to rats activate skeletal muscle branched-chain α-keto acid dehydrogenase. J Clin Invest 85:256-
+      263, 1990.
+ODESSEY R, GOLDBERG AL: Leucine degradation in cell-free extract of skeletal muscle. Biochem J 178: 475-489,
+      1979.
+PAUL HS, ADIBI SA: Leucine oxidation in diabetes and starvation: effects of ketone bodies on branched-chain amino
+      acid oxidation in vitro. Metabolism 27: 185-200, 1978.
+PAUL HS, ADIBI SA: Role of ATP in the regulation of branched-chain α-keto acid dehydrogenase activity in liver and
+      muscle mitochondria of fed, fasted, and diabetic rats. J Biol Chem 257: 4875-4881, 1982.
+PAXTON R, HARRIS RA: Regulation of branched-chain α-ketoacid dehydrogenase kinase. Arch Biochem Biophys
+      231: 48-57, 1984.
+RANDLE PJ, FATANIA HR, LAU KS: Regulation of the mitochondrial branched chain 2-oxoacid dehydrogenase
+      complex of animal tissues by reversible phosphorylation. Mol Aspects Cell Regul 3: 1-26, 1984.
+SHIMOMURA Y, SUZUKI T, SAITOH S, TASAKI Y, HARRIS RA, SUZUKI M: Activation of branched-chain
+      α-keto acid dehydrogenase complex by exercise: effect of high-fat diet intake. J Appl Physiol 68: 161-165,
+      1990.
+SOLOMON M, COOK KG, YEAMAN SJ: Effect of diet and starvation on the activity state of branched-chain 2-oxo-
+      acid dehydrogenase complex in rat liver and heart. Biochim Biophys Acta 931: 335-338, 1987.
+WAGENMAKERS AJ, SCHEPENS JT, VEERKAMP JH: Effect of starvation and exercise on actual and total activity
+      of the branched-chain 2-oxo acid dehydrogenase complex in rat tissues. Biochem J 223: 815-821, 1984.
+
+
+Reprint requests
+Dr. Milan Holeček, Department of Physiology, Charles University, Faculty of Medicine, Šimkova 870, 500 01 Hradec
+Králové, Czech Republic, fax +420-49-5210190, e-mail: holecek@lfhk.cuni.cz
+

@@ -1,0 +1,633 @@
+Journal of Strength and Conditioning Research, 2005, 19(4), 931–938
+q 2005 National Strength & Conditioning Association
+
+THE IMPACT OF FOOT POSITION ON
+ELECTROMYOGRAPHICAL ACTIVITY OF THE
+SUPERFICIAL QUADRICEPS MUSCLES DURING
+LEG EXTENSION
+MARK STOUTENBERG,1 ALESSANDRA P. PLUCHINO,1,4 FANGCHAO MA,3,4 JENNIFER E. HOCTOR,1
+AND JOSEPH F. SIGNORILE1,2,3
+Department of Exercise and Sport Sciences, University of Miami, Coral Gables, Florida 33124; 2Stein
+Gerontological Institute, Miami, Florida 33137; 3Geriatric Research, Education, and Clinical Center, Veterans
+Affairs Medical Center, Miami, Florida 33125; 4SUM Learning Center, UHZ Sports Medicine Institute, Coral
+Gables, Florida 33124; 5Department of Dermatology and Cutaneous Surgery, University of Miami School of
+Medicine, Miami, Florida 33136.
+1
+
+ABSTRACT. Stoutenberg, M., A. P. Pluchino, F. Ma, J. E. Hoctor,
+and J.F. Signorile. The impact of foot position on electromyographical activity of the superficial quadriceps muscles during
+leg extension. J. Strength Cond. Res. 19(4)931–938. 2005.—This
+study investigated variations in electromyographic (EMG) responses of the vastus lateralis (VL), rectus femoris (RF), and
+vastus medialis (VM) due to foot position during leg extension.
+Twenty-four men and women (23.67 6 4.02 years) performed 8
+repetitions at 70% of 8 repetition maximum with their leg medially rotated, laterally rotated, and neutral. Repeated-measures analyses of variance indicated that the highest normalized
+root mean square (NrmsEMG) for the VM and VL occurred with
+medial rotation, and the highest NrmsEMG for the RF occurred
+with lateral rotation. Significant NrmsEMG increases and median power frequency decreases occurred across repetitions regardless of foot position. Therefore, medial rotation produced the
+greatest muscle activation for the VL and VM, whereas lateral
+rotation produced the greatest activation in the RF. These findings are applicable to athletes or bodybuilders who are seeking
+to selectively increase either the size or performance of a specific
+muscle of the quadriceps group.
+KEY WORDS. vastus medialis, vastus lateralis, rectus femoris,
+constant load resistance exercise, muscle utilization pattern, fatigue
+
+INTRODUCTION
+ifters have long believed that changes in limb
+positions or joint angles during the performance of a particular exercise can maximize
+the effects of that exercise on specific muscles.
+Among the most common muscles targeted are
+those of the quadriceps group as lifters attempt to increase the peak or outward sweep of the vastus lateralis
+(VL) or the teardrop appearance of the vastus medialis
+(VM). Additionally, specific quadriceps muscles may be
+targeted because of their importance in a particular sport.
+For example, the rectus femoris (RF) is an important hip
+flexor used during cycling (5), whereas both the VL and
+the VM are important power producers during speed
+skating (13).
+One of the most common dynamic, constant-resistance
+exercises used to target the quadriceps is the bilateral leg
+extension using either weight-stack or plate-loaded machines. It is commonly believed that changing the foot
+
+L
+
+position during this open-chain leg exercise allows the
+lifter to emphasize the use of one quadriceps muscle over
+the others. Proponents of adjusting the foot position during leg extensions believe that externally rotating the legs
+will place a greater emphasis on the VL, whereas internally rotating the legs will target the VM (21, 22).
+The ability to selectively target specific quadriceps
+muscles by changing foot position would prove useful under a number of training scenarios. In bodybuilding, symmetry among the quadriceps muscles is critical. Targeting
+specific muscles is also important in rehabilitation and
+injury prevention, in which muscle imbalances can result
+in a lateral tracking of the patella as the knee joint moves
+through its full range of motion (ROM) and result in patellofemoral tendinitis (6, 10, 26). Therefore, both rehabilitation and injury prevention programs often concentrate on correcting this muscle imbalance.
+Studies have examined the relationships between different foot angles during leg extension using electromyography. These studies, however, have used either isokinetic (7, 8, 12) or isometric testing methods (24, 25, 27)
+to examine the question. Although isokinetic and isometric training techniques may still be found in a rehabilitative setting, they are seldom used in the weight room,
+fitness club, or wellness center setting. To our knowledge,
+only a single electromyographic (EMG) study by Signorile
+et al. (22) has examined the effect of foot position on quadriceps muscle utilization patterns during dynamic constant resistance exercise. Although their data were recorded throughout the entire ROM of an isotonic leg extension, the study reported the results of only a single
+repetition at each foot angle. This leaves unanswered the
+potential impact that fatigue might have on quadriceps
+muscle utilization patterns during a typical multirepetition set.
+The results of these studies indicate that regardless
+of the type of muscular contraction, activation of the
+quadriceps musculature during leg extension is affected
+by foot position. It was the purpose of this study to quantify the levels of EMG activity of the 3 superficial quadriceps muscles at different foot positions to determine
+whether changes in foot position would affect muscle uti931
+
+932
+
+STOUTENBERG, PLUCHINO, MA ET AL.
+
+TABLE 1. Physical characteristics of subjects.
+Mean 6 SD
+
+No.
+
+Height (cm)
+
+Weight (kg)
+
+Age (y)
+
+Female
+Male
+Sample
+
+12
+12
+24
+
+164.68 6 8.99
+183.52 6 5.11
+174.10 6 11.98
+
+60.18 6 7.25
+84.86 6 9.64
+72.52 6 15.11
+
+22.58 6 2.15
+24.75 6 5.15
+23.67 6 4.02
+
+lization patterns during a typical multirepetition, constant-resistance training set performed through the full
+ROM of the lifter.
+
+METHODS
+Experimental Approach to the Problem
+
+To ascertain the specific activities of the VL, RF, and VM
+muscles at varying foot angles during 8-repetition sets of
+the leg extension, separate repeated-measures analyses
+of variance (ANOVAs) were performed on the amplitude
+and frequency characteristics of their EMG signals. When
+significant differences were found among foot positions or
+across repetitions, least square means comparisons with
+Bonferroni adjustments were used to detect the source of
+the differences. The foot angle that produced the greatest
+amplitude and frequency responses for each separate
+quadriceps muscle was considered the most effective foot
+angle for targeting that muscle.
+
+FIGURE 1. Schematic diagram of electromyocardiograph signal (EMG) collection system.
+
+Subjects
+
+Twelve men and 12 women (aged 18–33) who were currently performing resistance training at least twice per
+week using standard lifting protocols (2–3 sets of 8–12
+repetitions) and had a minimum of 6 months of lifting
+experience, participated in the study. Physical characteristics of the subjects who met these criteria and participated in the study are presented in Table 1. Before admission into the study, all potential subjects completed a
+medical questionnaire form designed to screen for previous or pre-existing injuries. To qualify for the study, applicants needed to be in good health, with no knee problems such as tendinitis, instability, or previous surgical
+repairs that could have affected their performance or
+place them at undue risk for injury. The University of
+Miami’s Medical Science Subcommittee for the Protection
+of Human Subjects approved all procedures before testing
+and subjects were required to sign an informed consent
+before participating.
+Lifting Protocols
+
+Each subject performed bilateral knee extensions at 70%
+of their 8 repetition maximum (8RM) resistance on a Cybex VR Leg Extension machine (CYBEX International,
+Inc., Medway, MA) with the backrest secured at a 1008
+angle. The bilateral leg extension was chosen over the
+single leg movement because it provided a more comfortable condition for varying foot positions and for maintaining the feet at the chosen foot angle once they were positioned. The bilateral leg extension is also a more common exercise variation than the unilateral form.
+The ROM for the leg extension movement was individually established for each subject. Two magnetic closure switches (reed switches), interfaced with a 5-V power
+source, were placed on the frame of the leg extension machine at each end of the subject’s ROM. A magnet was
+attached to the top of the weight stack. When the magnet
+passed a reed switch, a 5-V spike was produced and sent
+
+to the analog-to-digital board of the EMG collection system. These spikes were used to mark the beginning and
+ending of the concentric portion of the lift (Figure 1). Each
+subject was asked to maximally extend his or her legs,
+and a second reed switch was placed on the machine
+frame at this position to mark the upper end of the subject’s ROM. This reed switch was interfaced with a second
+5-V power source and buzzer so that an audible signal
+was produced. This signal served as an indicator to the
+subject that he or she had reached the end of the concentric ROM. In addition, the spike was used to mark the
+end ROM by the EMG collection program. The spikes collected at the beginning and end of each concentric contraction allowed us to accurately mark the event for EMG
+analysis.
+Subject testing and data collection occurred during a
+single laboratory session. This ensured that the EMG
+data collected were not affected by electrode placement or
+preparation. All lifts were preceded by a movement-specific warm-up on the Cybex machine consisting of 5 repetitions at 50% of the subject’s reported 8RM. After the
+specific warm-up sets, each subject performed 1 or 2 additional sets to establish an 8RM figure. Because subjects
+were regular weight-trainers, they were able to report
+their expected 8RM, allowing us to establish the actual
+figure on the machine within 2 testing sets. Subjects were
+given a 5-minute rest period between all maximum lift
+attempts. Subjects received a minimum of 10 minutes of
+additional recovery before the start of testing. During this
+time the subject was prepared for EMG data collection
+(see Electromyography section below).
+Three foot positions were tested: (a) toes neutral
+(NEU), with no medial or lateral rotation; (b) toes in (TI),
+with toes internally or medial-rotated as far as could be
+comfortably maintained by the subject throughout all repetitions; and (c) toes out (TO), with toes externally or laterally rotated as far as the subject could comfortably
+
+EMG AND FOOT POSITION 933
+
+maintain throughout the repetitions. No attempt was
+made to dictate a specific foot angle for the TI or TO positions because this would, in practice, be dependent on
+each individual’s ROM and their ability to maintain that
+position during the performance of the leg extension. The
+order of the foot positions was randomly selected to reduce the impact of any order effect. One set of 8 repetitions was performed for each foot position. A repetition
+did not count unless a full ROM was performed. The full
+ROM during each repetition began with a momentary
+resting of the weight plates and ended when the magnet
+affixed to the weight stack passed the reed switch eliciting an audible signal. Subjects were instructed not to reverse the direction of movement at the top of the ROM
+until the audible signal was heard and to provide a momentary stop at the bottom of the ROM. Subjects were
+given a minimum of 5 minutes rest between sets. Consistent instructions were used to motivate the subjects during testing. Data were collected throughout the entire
+ROM and later divided into concentric and eccentric portions for analysis.
+Electromyography
+
+Because the purpose of the study was to examine the level
+of EMG activity in the 3 large superficial quadriceps muscles (VL, RF, and VM), a bipolar surface configuration
+was chosen to maximize the reception area while controlling the potential for cross-talk among the muscles examined. Basmajian and DeLuca (3) specifically recommend surface electrodes for this application. Concerning
+cross-talk, Andreassen and Rosenfalck (2) have reported
+that a bipolar configuration set parallel to the active fibers of the muscle is the most selective surface configuration. In addition, Lynn et al. (14) estimated that the
+area of detection using a bipolar surface configuration
+was equal to the interelectrode distance. Because the
+girth of the muscles examined in this study was considerably greater than the 1.5-cm interelectrode distance
+used, the likelihood of cross-talk was minimal.
+The exact location of each motor point was determined
+using a low-voltage stimulator delivering a series of 5millisecond pulses at a rate of 5 pulses per second. Voltage was progressively reduced from approximately 50 V
+until only one point elicited a response. This point was
+then used as the motor point for that muscle. After motor
+points were located, the skin surface distal to each site
+was shaved; rubbed with a disposable, light abrasive paper; and cleaned with alcohol to remove dead surface tissues and oils that might reduce the fidelity of the signal.
+Disposable Ag/AgCl pregelled disk surface electrode pairs
+(Marquette Medical Systems, Jupiter, FL) were positioned immediately distal to each motor point, 1.5 cm
+apart and parallel with the underlying muscle fibers, as
+determined by the penation of the muscle. EMG data during all knee extension repetitions were collected from the
+quadriceps muscles of each subject’s right leg, and a reference electrode was placed on the head of the fibula of
+the same leg.
+Because raw EMG signals were recorded using a wireless EMG telemetry system (Noraxon USA, Inc., Scottsdale, AZ), the quality of the signals was visibly assessed
+for each muscle before data collection. The Noraxon system used to collect the EMG data had an input impedance
+of 2 MV and a common mode rejection ratio of 100 dB.
+The gain was set at 2,000 with band-pass filtering set
+
+between 1 and 500 Hz. Signals were sampled at a speed
+of 1,024 Hz, digitized using a 16-bit A/D converter
+(DataPac, Laguna Beach, CA), and stored on a personal
+computer.
+To confirm the reliability of our EMG data collection
+system, interclass correlation coefficients were computed
+between 2 maximal isokinetic contractions at 1.57 rad·s21
+(908·s21) performed by 24 subjects (12 men, 12 women;
+mean age 6 SD 5 23.7 6 4.0 years). The analyses yielded
+values of 0.94 for the VM, 0.93 for the RF, and 0.98 for
+the VL. Comparisons were made using isokinetic contractions to reduce the potential impact of differences in
+velocity between the 2 contractions, and 2 contractions
+were used to reduce the impact of fatigue on the analysis.
+EMG Analysis Procedures
+
+Recorded EMG signals from each muscle were analyzed
+using DATAPAC 2K2 software (Run Technologies, Mission Viejo, CA). The root mean square of the EMG signal
+(rmsEMG) was used as a measure of average muscle activity for each muscle during the concentric phase of each
+repetition under each testing condition, and the median
+power frequency (MdPF) was used to assess shifts in the
+EMG frequency spectrum. Increases in rmsEMG and concomitant reductions in MdPF are commonly used as an
+indicator of muscle fatigue. The rmsEMG signal was normalized (NrmsEMG) using the highest recorded value observed for each individual muscle during any of the 3 testing conditions.
+Statistical Analyses
+
+Data analyses included separate 3 (condition) 3 8 (repetition) repeated-measures ANOVAs to examine differences among conditions and repetitions for each of the 2 dependent variables for each muscle (NrmsEMG, DMdPF).
+When statistically significant interactions were detected,
+post hoc Bonferroni tests were used to compare individual
+least square means (LS means) to ascertain the source of
+those differences. Statistical significance was set at p #
+0.05. All analyses were performed using the SAS 8.0 statistical package (SAS Institute Inc., Cary, NC).
+
+RESULTS
+The repeated-measures ANOVA revealed significant differences by condition for the NrmsEMG during knee extension for the VL (p , 0.0001), RF (p , 0.0001), and VM
+(p , 0.0018). There were also significant differences in
+NrmsEMG and MdPF across repetitions for all muscles
+tested (p , 0.0001). No significant condition 3 repetition
+interactions were found for either variable for any of the
+muscles tested.
+Figure 2 presents the mean and standard deviation
+for each condition for all muscles tested. Multiple comparisons of LS means with Bonferroni adjustment for the
+VL revealed that the NrmsEMG was significantly greater
+for the TI condition than for either the NEU (p , 0.0013)
+or the TO (p , 0.0001) conditions. Additionally, the
+NrmsEMG of VL was significantly greater for the NEU
+condition than for the TO condition (p , 0.0330). The LS
+means analysis for the RF revealed that the NrmsEMG
+was significantly greater for the TO condition than for
+either the TI or NEU conditions (p , 0.0001). For the VM,
+the NrmsEMG was significantly greater for the TI condition than for NEU condition (p , 0.0012).
+Figure 3a illustrates the pattern of change for the
+
+934
+
+STOUTENBERG, PLUCHINO, MA ET AL.
+
+FIGURE 2. Normalized root mean square of the electromyographical signal of the vastus medialis, rectus femoris, and
+vastus lateralis during the concentric phase of leg extension at
+foot angles toes out, neutral (NEU), and toes in. *Significantly
+different than NEU. **Significantly different than all other
+conditions. †Significantly different than TO.
+
+NrmsEMG of the VL across repetitions. As can be seen
+by the figure, the NrmsEMG of repetition 1 was significantly lower than that of repetitions 2–8. Repetition 2
+produced significantly lower NrmsEMG values than repetitions 4–8, and values for repetition 3 were significantly
+lower than those for repetitions 5–8. Values for repetitions 4 and 5 were significantly lower than those for repetitions 6–8, whereas the repetition 6 value was significantly lower than only repetition 8. Figure 3b illustrates
+the pattern of change for the MdPF of the VL across repetitions. The only significant differences in MdPF detected were between repetitions 3 and 8, and repetitions 4
+and 8.
+Figure 4a illustrates the pattern of change for the
+NrmsEMGs of the RF across repetitions. As can be seen
+from the figure, the NrmsEMG of repetition 1 was significantly lower than that for repetitions 2–8. The repetition 2 value was significantly lower than those for repetitions 4–8; values for repetitions 3 and 4 were significantly lower than those of repetitions 5–8, and EMG activity levels for repetitions 5 and 6 were significantly less
+than those for repetition 8. Figure 4b illustrates the pattern of change for the MdPF of the RF across repetitions.
+As can be seen from the figure, the MdPF of repetition 1
+was significantly greater than that of repetitions 4–8.
+MdPF values for repetitions 2 through 5 were significantly greater than those for repetitions 6–8, and values
+for repetition 6 were significantly greater than those for
+repetition 8.
+Figure 5a illustrates the pattern of change for the
+NrmsEMGs of the VM across repetitions. As can be seen
+from the figure, the NrmsEMG of repetition 1 was significantly lower than that of repetitions 2–8. Repetition 2
+NrmsEMG was significantly lower than that of repetitions 4–8, and repetition 3 was significantly lower than
+that of repetitions 5–8. Repetition 4 produced significantly less activity than repetitions 6–8, repetition 5 produced
+less activity than repetitions 7–8, and repetition 6 produced significantly less activity than repetition 8. Figure
+5b illustrates the pattern of change for the MdPF of the
+VM across repetitions. As can be seen from the figure, the
+
+FIGURE 3. (a) Normalized root mean square of the electromyographical signal (NrmsEMG) and (b) median power frequency
+(MdPF) across repetitions during the concentric phase of the
+knee extension for the vastus lateralis. All repetitions bracketed with the same letter are not significantly different. *Repetitions are significantly different than repetition 8.
+
+MdPF values computed for repetitions 2 through 4 were
+all significantly different than the value for repetition 8.
+
+DISCUSSION
+Our results clearly demonstrate that changes in foot angle during the performance of the leg extension exercise
+under multiset, constant-loading conditions allow the targeting of different muscles of the quadriceps group. This
+finding conflicts with those of previous researchers (11,
+19, 25) who reported that levels of electrical activity were
+not significantly affected by foot angles during isometric
+knee extensions. Our results are supported, in part, by
+both structural and functional data regarding the quadriceps. For example, it has been demonstrated that during the same movement, activity patterns may not be
+equally shared among the quadriceps because of their
+unique structures and functions (4, 5, 13, 16, 20–22). Biomechanical analyses have also shown that the VL, RF,
+and VM produce their greatest levels of force production
+
+EMG AND FOOT POSITION 935
+
+FIGURE 4. (a) Normalized root mean square of the electromyographical signal (NrmsEMG) and (b) median power frequency
+(MdPF) across repetitions during the concentric phase of the
+knee extension for the rectum femoris. All repetitions bracketed with the same letter are not significantly different.
+
+and electrical activity at different knee and hip angles (1,
+15, 28). Furthermore, it has been shown that although
+VL activity increases linearly with force development,
+this is not true for the VM and RF (1).
+For the VL, the greatest level of muscle activation
+during the leg extension exercise occurred when the foot
+was internally rotated. Because the fibers of the VL run
+obliquely downward from the lateral to the medial side,
+these results may have been due to increased tension as
+the VL was stretched by medial rotation at the hip. Our
+data agree in part with those of Signorile et al. (21) who
+reported that the internally rotated and neutral foot positions produced greater levels of electrical activity than
+the externally rotated condition during an isometric contraction with the knee held at 3.05 rad. However, our results are not in agreement with their findings at knee
+angles of 1.57 and 2.62 rad in which the neutral position
+produced higher rmsEMG values than the internally and
+externally rotated positions, respectively. However, because that study employed isometric rather than dynamic
+
+FIGURE 5. (a) Normalized root mean square of the electromyographical signal (NrmsEMG) and (b) median power frequency
+(MdPF) across repetitions during the concentric phase of the
+knee extension for the vastus medialis. All repetitions bracketed with the same letter are not significantly different. *Repetitions are significantly different than repetition 8.
+
+muscle contractions, factors such as momentum and variations in activity through changing knee angles, may explain the divergent results. Additionally, fatigue may
+have been a factor as evidenced by the changes in both
+rmsEMG and MdPF observed across our multiple-repetition test set. Our findings for the VL also conflict with
+a later study by Signorile et al. (22) who reported no significant difference in electrical activity for the VL due to
+foot position throughout the full ROM of a single repetition of the leg extension. Because their findings were
+based on a single repetition, as noted for the earlier
+study, the differences between the 2 studies may have
+been due to the effect of fatigue on the muscle utilization
+pattern of the VL. Our results do agree with the findings
+of Wheatley and Jahnke (27) who reported that the greatest level of activation of the VL was during medial rotation of the tibia when the knee was held at 1.57 rad and
+the isometric contraction was performed with the subject
+in a seated position.
+
+936
+
+STOUTENBERG, PLUCHINO, MA ET AL.
+
+In contrast to the results produced by the VL, the
+greatest level of muscle activation observed for the RF
+occurred when the feet were held in an externally rotated
+position. With a distinctly different point of origin and a
+biarticular structure, the RF shows levels of muscle activation uniquely independent to those of both the VL and
+the VM. This may explain why the vasti showed greater
+electrical activity during internal rotation and the RF
+showed a greater response during external rotation. The
+origin of the RF is on the anterior inferior spine of the
+ilium, slightly medial of the insertion; therefore, an external rotation of the femur may increase tension on the
+RF and therefore increase the level of activation.
+Our findings for the RF are not in agreement with
+those of Signorile et al. (21) who reported that this muscle
+produced greater electrical activity with the foot in a neutral position when the knee was held at an angle of 2.62
+rad. Those researchers also reported no significant difference among foot positions at knee angles of 1.57 or 3.05
+rad, but note that those data were collected during isometric contractions at set knee angles rather than during
+dynamic exercise. Our results are in agreement with
+those reported by Signorile et al. (22) during dynamic constant resistance testing. Those researchers observed that
+both the lateral and medial heads of the RF showed their
+highest levels of electrical activity when the foot was externally rotated.
+For the VM, the electrical activity in the TI position
+was greater than that produced in the neutral position.
+Therefore, optimal targeting of both the vasti muscles
+would occur during internal rotation of the lower limb.
+An explanation for the higher levels of activity during
+internal rotation may be the role the VM plays as a medial rotator of the femur during knee extension (9).
+The current data for the VM agrees, in part, with the
+results reported in the isometric study of knee extension
+by Signorile et al. (21) who reported that the VM showed
+greater electrical activity at a knee angle of 3.05 rad when
+the foot was in an internally rotated versus an externally
+rotated position. However, for knee angles of 1.57 and
+2.62 rad, the neutral position produced significantly higher electrical activity than the internally and externally
+rotated positions, respectively. Once again, the differences between the current study and that by Signorile et al.
+(21) may have been due to the fact that isometric contractions were examined during their study. Our results
+differ from those of Signorile et al. (22) who observed no
+significant difference in rmsEMG values due to foot position during 1 repetition of dynamic resistance exercise.
+The explanation for these differences may be the increases in electrical activity during the fatiguing sets used in
+our study compared to the single repetition tests used by
+Signorile et al. Our data also differ from those reported
+by Wheatley and Jahnke (27) during isometric contraction of the VM at a knee angle of 1.57 rad, who reported
+that the highest activity levels occurred during the lateral
+rotation of the tibia. The differences in results between
+the 2 studies may have been due to the type of contraction
+utilized or the fact that during the study by Wheatley and
+Jahnke (27) a specific angle was used, whereas our study
+used a full ROM, multirepetition testing protocol.
+Our data also revealed significant increases in
+NrmsEMG and significant decreases in MdPF across repetitions for all muscles during the concentric phases of
+the leg extension. Figures 6 through 8 illustrate the pat-
+
+FIGURE 6. Average normalized root mean square of the electromyographical signal (NrmsEMG) of the vastus lateralis of
+the subjects across repetitions for the toes in, neutral, and toes
+out angles.
+
+FIGURE 7. Average normalized root mean square of the electromyographical signal (NrmsEMG) of the rectus femoris of
+the subjects across repetitions for the toes in, neutral, and toes
+out angles.
+
+terns of change in NrmsEMG under each testing condition for the VL, RF, and VM, respectively. That these patterns were similar regardless of foot angle, as illustrated
+in these figures, and the lack of a significant condition 3
+repetition interaction for any muscle, shows that all
+training conditions were of sufficient intensity to affect
+the myoelectric properties of all the muscles tested. Both
+the increase in EMG amplitude and the drop in the MdPF
+indicate increasing levels of muscular fatigue across the
+8-repetition sets for all testing conditions (18, 23). It has
+been suggested that the increases in rmsEMG are indicative of a need to increase rate coding and muscle recruitment (17), while the decreases in frequency are the
+result of increased metabolite accumulation during fatiguing exercise bouts (12, 29). These results show that
+although selected foot positions did allow the individual
+to selectively activate one muscle group to a greater degree than others, the fatigue patterns were similar regardless of foot position.
+
+EMG AND FOOT POSITION 937
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+FIGURE 8. Average normalized root mean square of the electromyographical signal (NrmsEMG) of the vastus medialis of
+the subjects across repetitions for the toes in, neutral, and toes
+out angles.
+
+The results of this study indicate that individual muscles of the superficial quadriceps can be targeted during an
+8-repetition constant resistance training set by rotating the
+foot using different toe positions as the definitive measure.
+Using a TI position will provide the lifter with greater activation of both the VM and VL muscles, while the RF is
+better targeted using the TO position. Given the results of
+previous isometric studies, it remains to be determined
+whether our findings might change over specific ranges of
+motion during the dynamic knee extension exercise.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+PRACTICAL APPLICATIONS
+The objective of the leg extension exercise is to provide an
+alternative method for strength development and hypertrophy of the quadriceps in bodybuilding, athletic conditioning, or as part of a rehabilitation program. The results
+of this study indicate that internally rotating the lower
+limb will optimally target the VL and VM, while external
+rotation maximizes the contribution of the RF. Therefore,
+pointing the toes inward will increase the activity of the
+vasti muscles, whereas pointing the toes outward will increase activity levels in the RF. These findings are directly
+applicable to athletes or bodybuilders who are seeking to
+equalize muscle imbalances or who want to selectively increase either the size or performance of a specific muscle
+of the quadriceps group. From a clinical perspective, this
+may be especially helpful in targeting muscles that have
+atrophied due to injury or immobilization.
+
+REFERENCES
+1.
+
+2.
+
+3.
+4.
+
+ALKNER, B.A., P.A. TESCH, AND H.E. BERG. Quadriceps EMG/
+force relationship in knee extension and leg press. Med. Sci.
+Sports Exerc. 32:459–463. 2000.
+ANDREASSEN, S., AND A. ROSENFALCK. Recording from a single
+motor unit during strong effort. IEEE Trans. BME. 25:501–
+508. 1978.
+BASMAJIAN, J.V., AND C.J. DELUCA. Muscles Alive. Baltimore:
+Williams & Wilkins, 1985.
+BEYNNON, B.D., R.J. JOHNSON, B.C. FLEMING, C.J. STANKEWICH, P.A. RENSTROM, AND C.E. NICHOLS. The strain behavior
+of the anterior cruciate ligament during squatting and active
+flexion-extension: A comparison of an open and a closed chain
+exercise. Am. J. Sports Med. 25:823–830. 1997.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+20.
+
+21.
+
+22.
+
+23.
+
+BURKE, E.R., AND H. NEWTON. Improved cycling performance
+through strength training. NSCA J. June–July:6–7,70–71.
+1983.
+COHEN, Z.A., H. ROGLIC, R.P. GRELSAMER, J.H. HENRY, W.N.
+LEVINE, V.A. MOW, AND G.A. ATESHIAN. Patellofemoral stresses during open and closed kinetic chain exercises. Am. J. Sport
+Med. 21:480–492. 2001.
+CRESSWELL, A.G., AND A.H. OVENDAL. Muscle activation and
+torque development during maximal unilateral and bilateral
+isokinetic knee extensions. J. Sports Med. Phys. Fitness 42:19–
+25. 2002.
+CROCE, R.V., J.P. MILLER, AND P. ST. PIERRE. Effect of ankle
+position on peak torque and electromyographic activity of the
+knee flexors and extensors. Electromyogr. Clin. Neurophysiol.
+40:365–373. 2000.
+ENGLE, R. Dynamic stabilizers of the knee, Part III: Facilitation approaches and concepts of anterior knee instabilities.
+Presented at the Shoulder and Knee Injury Seminar of Cincinnati Sports Medicine Institute, 1987.
+FARAHMAND, F., M.N. TAHMASBI, AND A. AMIS. The contribution of the medial retinaculum and quadriceps muscles to patellar lateral stability—An in-vitro study. Knee 11:89–94. 2004.
+GOUGH, J.V., AND G. LADLEY. An investigation into the effectiveness of various forms of quadriceps exercises. Physiotherapy 57:356–361. 1971.
+HOLM, I., S. HAMMER, S. LARSEN, L. NORDSLETTEN, AND H.
+STEEN. Can a regular leg extension bench be used in testing
+deficits of the quadriceps muscle during rehabilitation? Scand.
+J. Med. Sci. Sports 5:29–35. 1995.
+HOUDIJK, H., J.J. DE GROOT, M.F. BOBBERT, AND G.J VAN INGEN SCHENAU. Push-off mechanics in speed skating with conventional skates and klapskates. Med. Sci. Sports Exerc. 32:
+635–641. 2000.
+LYNN, P.A., N.D. BETTLES, A.D. HUGHES, AND S.W. JOHNSON.
+The influence of electrode geometry on bipolar recordings of the
+surface electromyogram. Med. Biol. Eng. Comput. 16:651–660.
+1978.
+MAFFIULETTI, N.A., AND R. LEPERS. Quadriceps femoris torque
+and EMG activity in seated versus supine position. Med. Sci.
+Sports Exerc. 35:1511–1516. 2003.
+MATHESON, J.W., T.W. KERNOZEK, D.C. FATER, AND G.J. DAVIES. Electromyographic activity and applied load during seated quadriceps exercises. Med. Sci. Sports Exerc. 33:1713–1725.
+2001.
+MORITANI, T., M. MURO, AND A. NAGATA. Intramuscular and
+surface electromyogram changes during muscle fatigue. J.
+Appl. Physiol. 60:1179–1185. 1986.
+NICHOLS, T.C., T.C. COPE, AND T.A. ANDREW. Rapid spinal
+mechanisms of motor control. Exerc. Sport Sci. Rev. 27:255–
+284. 1999.
+POCOCK, G. Electromyographic study of the quadriceps during
+resistance exercise. Am. Phys. Ther. Assoc. J. 43:427–434. 1963.
+ROCHETTE, L., S.K. HUNTER, N. PLACE, AND R. LEPERS. Activation varies among the knee extensor muscles during a submaximal fatiguing contraction in the seated and supine postures. J. Appl. Physiol. 95:1515–1522. 2003.
+SIGNORILE, J.F., D. KACSIK, A. PERRY, B. ROBERTSON, R. WILLIAMS, I. LOWENSTEYN, S. DIGEL, J. CARUSO, AND W.G. LEBLANC. The effect of knee and foot position on the electromyographical activity of the superficial quadriceps. J. Orthop.
+Sports Phys. Ther. 22:2–9. 1995.
+SIGNORILE, J.F., K. KWIATKOWSKI, J.F. CARUSO, AND B. ROBERTSON. Effect of foot position on the electromyographical activity of the superficial quadriceps muscles during the parallel
+squat and knee extension. J. Strength Cond. Res. 9:182–187.
+1995.
+SUTER, E., AND D. LINDSAY. Back muscle fatigability is associated with knee extensor inhibition in subjects with low back
+pain. Spine 26:361–366. 2001.
+
+938
+24.
+
+STOUTENBERG, PLUCHINO, MA ET AL.
+TASKIRAN, E., Z. DINEDURGA, A. YAGIZ, B. ULUDAG, C. ERTEK-
+
+28.
+
+IN, AND V. LOK. Effect of the vastus medialis obliquus on the
+
+25.
+
+26.
+27.
+
+patellafemoral joint. Knee Surg. Sports Traumatol. Arthrosc. 6:
+173–180. 1998.
+TEPPERMAN, P.S., J. MAZLIAH, S. NAUMANN, AND J. MOROZ.
+Effect of ankle position on isometric quadriceps strengthening.
+Am. J. Phys. Med. 58:57–69. 1986.
+THOMEÉ, R., J. AUGUSTSSON, AND J. KARLSSON. Patellofemoral
+pain syndrome: A review of current issues. Sports Med. 28:245–
+262. 1999.
+WHEATLEY, M., AND W. JAHNKE. Electromyographical study of
+the superficial thigh and hip muscles in normal individuals.
+Arch. Phys. Med. 32:508–515. 1951.
+
+29.
+
+WILK, K.E., R.F. ESCAMILLA, G.S. FLEISIG, S.W. BARRENTINE,
+J.R. ANDREWS, AND M.L. BOYD. A comparison of tibiofemoral
+joint forces and electromyographic activity during open and
+closed kinetic chain exercises. Am. J. Sports Med. 24:518–527.
+1996.
+YOSHITAKE, Y., H. UE, M. MIYAZAKI, AND T. MORITANI. Assessment of lower-back muscle fatigue using electromyography,
+mechanomyography, and near-infrared spectroscopy. Eur. J.
+Phsiol. 84:174–179. 2001.
+
+Address correspondence
+jsignorile@miami.edu.
+
+to
+
+Dr.
+
+Joseph
+
+Signorile,
+
+

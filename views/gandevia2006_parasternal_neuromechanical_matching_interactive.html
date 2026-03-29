@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gandevia 2006 parasternal intercostal neuromechanical matching</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(280px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(40dvh,calc(100dvh - 230px));min-height:270px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:260px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,44dvh,360px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Gandevia et al. (2006) - Parasternal intercostal neuromechanical matching</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle interspaces</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const REGION_COLORS={
+        i1:'#60a5fa',
+        i2:'#22c55e',
+        i3:'#a78bfa',
+        i4:'#f59e0b',
+        i5:'#ef4444'
+      };
+      const REGIONS=[
+        {key:'i1',name:'1st interspace (rostral / superior)',short:'1st'},
+        {key:'i2',name:'2nd interspace',short:'2nd'},
+        {key:'i3',name:'3rd interspace',short:'3rd'},
+        {key:'i4',name:'4th interspace',short:'4th'},
+        {key:'i5',name:'5th interspace (caudal / inferior)',short:'5th'}
+      ];
+      const MODES={
+        activation:{
+          label:'Activation / neural drive',
+          type:'bar',
+          subtitle:'Peak inspiratory motor-unit discharge frequencies from the paper. The first interspace had the highest inspiratory drive, and the fifth interspace the lowest.',
+          hint:'This is the direct activation result: rostral parasternals fired earlier and at higher rates than the caudal interspaces during quiet inspiration.',
+          overlay:'Bars = peak inspiratory discharge frequency (Hz)',
+          yLabel:'Peak inspiratory discharge frequency (Hz)',
+          items:[
+            {key:'i1',value:13.4,note:'Explicitly reported in the abstract as the highest peak inspiratory discharge frequency.'},
+            {key:'i2',value:13.0,note:'Approximate from Figure 3; second interspace remained strongly inspiratory and close to the first interspace.'},
+            {key:'i3',value:12.2,note:'Approximate from Figure 3; still rostral/high-drive, but slightly below the first and second interspaces.'},
+            {key:'i4',value:10.7,note:'Approximate from Figure 3; onset was later than in the first three interspaces.'},
+            {key:'i5',value:8.0,note:'Explicitly reported in the abstract as the lowest peak inspiratory discharge frequency.'}
+          ]
+        },
+        leverage:{
+          label:'Mechanical advantage / leverage',
+          type:'bar',
+          subtitle:'Mechanical-advantage magnitudes reconstructed from the paper’s Figure 7 and the previously collected parasternal leverage data it cites. Larger bars = greater inspiratory advantage.',
+          hint:'The leverage profile falls from the rostral to the caudal spaces. That is the mechanical pattern the activation gradient was matched to.',
+          overlay:'Bars = inspiratory mechanical-advantage magnitude (study-based reconstruction)',
+          yLabel:'Inspiratory mechanical advantage (relative units)',
+          items:[
+            {key:'i1',value:3.0,note:'Estimated from Figure 7 as the largest inspiratory leverage magnitude.'},
+            {key:'i2',value:2.0,note:'Strong inspiratory leverage, but below the first interspace.'},
+            {key:'i3',value:1.4,note:'Intermediate inspiratory leverage.'},
+            {key:'i4',value:0.8,note:'Lower inspiratory leverage in the more caudal spaces.'},
+            {key:'i5',value:0.4,note:'Smallest inspiratory leverage among the plotted parasternal regions.'}
+          ]
+        },
+        matching:{
+          label:'Activation vs leverage',
+          type:'scatter',
+          subtitle:'Study-style neuromechanical-matching view: interspaces with better inspiratory mechanical advantage also showed higher inspiratory activation.',
+          hint:'This is the main takeaway of the paper: the superior/rostral parasternal interspaces had both better leverage and more inspiratory drive than the inferior/caudal interspaces.',
+          overlay:'Points = interspace-specific activation and leverage',
+          xLabel:'Inspiratory mechanical advantage (relative units)',
+          yLabel:'Peak inspiratory discharge frequency (Hz)',
+          points:[
+            {key:'i1',x:3.0,y:13.4,note:'Highest leverage and highest inspiratory drive.'},
+            {key:'i2',x:2.0,y:13.0,note:'Still high leverage and high inspiratory drive.'},
+            {key:'i3',x:1.4,y:12.2,note:'Intermediate leverage and intermediate-high inspiratory drive.'},
+            {key:'i4',x:0.8,y:10.7,note:'Lower leverage and lower inspiratory drive.'},
+            {key:'i5',x:0.4,y:8.0,note:'Lowest leverage and lowest inspiratory drive.'}
+          ]
+        }
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='activation',visible={i1:true,i2:true,i3:true,i4:true,i5:true},drag=null,view={minX:0,maxX:6,minY:0,maxY:15};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      const cfg=()=>MODES[mode];
+      const currentItems=()=> (cfg().items||cfg().points).filter(item=>visible[item.key]);
+      function bounds(){
+        const c=cfg(), items=currentItems();
+        if(c.type==='scatter'){
+          if(!items.length) return {minX:0,maxX:3.4,minY:0,maxY:15};
+          const xs=items.map(i=>i.x), ys=items.map(i=>i.y);
+          return {minX:Math.max(0,Math.min(...xs)-0.2),maxX:Math.max(...xs)+0.35,minY:0,maxY:Math.max(...ys)*1.16};
+        }
+        if(!items.length) return {minX:0.4,maxX:5.6,minY:0,maxY:c.label.includes('Mechanical')?3.4:15};
+        const vals=items.map(i=>i.value);
+        return {minX:0.4,maxX:5.6,minY:0,maxY:Math.max(...vals)*1.16};
+      }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      const sx=(x,p)=>p.x+((x-view.minX)/(view.maxX-view.minX))*p.w;
+      const sy=(y,p)=>p.y+p.h-((y-view.minY)/(view.maxY-view.minY))*p.h;
+      function niceTicks(min,max,target=5){ const span=max-min||1, rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+      function regionInfo(key){ return REGIONS.find(r=>r.key===key); }
+      function drawAxes(plot){
+        const c=cfg();
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of niceTicks(view.minY,view.maxY,5)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(y.toFixed(Math.abs(y)>=10?0:1).replace(/\.0$/,''),16,py+4); }
+        ctx.textAlign='center';
+        if(c.type==='scatter'){
+          for(const x of niceTicks(view.minX,view.maxX,5)){ const px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); ctx.fillText(x.toFixed(1).replace(/\.0$/,''),px,plot.y+plot.h+28); }
+          ctx.fillText(c.xLabel,plot.x+plot.w/2,plot.y+plot.h+54);
+        } else {
+          REGIONS.forEach((r,idx)=>{ const x=idx+1; const px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(r.short,px,plot.y+plot.h+28,84,14); });
+          ctx.fillText('Parasternal interspace',plot.x+plot.w/2,plot.y+plot.h+54);
+        }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(c.yLabel,0,0); ctx.restore();
+      }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:82,y:20,w:Math.max(120,w-112),h:Math.max(110,h-106)};
+        drawAxes(plot);
+        const c=cfg(), markers=[];
+        if(c.type==='scatter'){
+          const items=currentItems().sort((a,b)=>a.x-b.x);
+          ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=2; ctx.setLineDash([5,4]); ctx.beginPath();
+          items.forEach((p,i)=>{ const x=sx(p.x,plot), y=sy(p.y,plot); if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); });
+          ctx.stroke(); ctx.setLineDash([]);
+          items.forEach(p=>{ const x=sx(p.x,plot), y=sy(p.y,plot), color=REGION_COLORS[p.key]; ctx.fillStyle=color; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.beginPath(); ctx.arc(x,y,7,0,Math.PI*2); ctx.fill(); ctx.stroke(); const info=regionInfo(p.key); ctx.fillStyle='rgba(229,231,235,.88)'; ctx.font='11px system-ui'; ctx.textAlign='left'; ctx.fillText(info.short,x+9,y-8); markers.push({shape:'point',x,y,r:11,item:p}); });
+        } else {
+          const items=currentItems(); const barW=Math.max(14,Math.min(46,Math.max(14,plot.w/(REGIONS.length*2.6))));
+          items.forEach(item=>{ const idx=REGIONS.findIndex(r=>r.key===item.key)+1; const xCenter=sx(idx,plot); const y=sy(item.value,plot); const zeroY=sy(0,plot); const top=Math.min(y,zeroY), hBar=Math.max(1,Math.abs(zeroY-y)); const x=xCenter-barW/2; const color=REGION_COLORS[item.key]; ctx.fillStyle=color; ctx.globalAlpha=.92; ctx.fillRect(x,top,barW,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x,top,barW,hBar); markers.push({shape:'bar',x,top,w:barW,h:hBar,item}); });
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=`${currentItems().length} interspaces visible`;
+      }
+      function renderLegend(){
+        const c=cfg(); subtitle.textContent=c.subtitle; hint.textContent=c.hint; overlay.textContent=c.overlay; legend.innerHTML='';
+        REGIONS.forEach(r=>{ const row=document.createElement('div'); row.className='check'+(visible[r.key]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[r.key]?'checked':''} /><span class="swatch" style="background:${REGION_COLORS[r.key]}"></span><label>${r.name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{ visible[r.key]=e.target.checked; fit(); renderLegend(); }); row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[r.key]=box.checked; fit(); renderLegend(); }}); legend.appendChild(row); });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>m.shape==='bar'?(x>=m.x&&x<=m.x+m.w&&y>=m.top&&y<=m.top+m.h):Math.hypot(m.x-x,m.y-y)<=m.r);
+        if(!hit){ tooltip.style.display='none'; return; }
+        const c=cfg(), item=hit.item, info=regionInfo(item.key);
+        if(c.type==='scatter') tooltip.innerHTML=`<div><strong>${info.name}</strong></div><div class="muted">Activation vs leverage</div><div>Mechanical advantage: <strong>${item.x.toFixed(1)}</strong></div><div>Peak discharge: <strong>${item.y.toFixed(1)} Hz</strong></div><div>${item.note}</div>`;
+        else tooltip.innerHTML=`<div><strong>${info.name}</strong></div><div class="muted">${c.label}</div><div>${c.yLabel}: <strong>${item.value.toFixed(1)}</strong></div><div>${item.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90, left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)), top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      function clampView(){
+        const b=bounds();
+        const spanX=view.maxX-view.minX;
+        if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; }
+        if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; }
+        if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; }
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={i1:true,i2:true,i3:true,i4:true,i5:true}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ visible={i1:true,i2:true,i3:true,i4:true,i5:true}; fit(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ visible={i1:false,i2:false,i3:false,i4:false,i5:false}; fit(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const c=cfg(); const plot=stage._plot||{x:82,w:Math.max(120,stage.clientWidth-112)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const b=bounds(); const newSpan=Math.max(c.type==='scatter'?0.9:2.3,Math.min(b.maxX-b.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

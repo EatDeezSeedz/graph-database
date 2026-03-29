@@ -1,0 +1,499 @@
+Asian J Sports Med. 2015 June; 6(2): e24057.
+
+DOI: 10.5812/asjsm.24057
+Research Article
+
+Published online 2015 June 22.
+
+Single vs. Multi-Joint Resistance Exercises: Effects on Muscle Strength and
+Hypertrophy
+1,*
+
+1
+
+Paulo Gentil ; Saulo Soares ; Martim Bottaro
+
+1
+
+1Department of Physical Education, University of Brasilia, Brasilia, Brazil
+
+*Corresponding author: Paulo Gentil, Department of Physical Education, University of Brasilia, Brasilia, Brazil, Tel: +55-6132024731, E-mail: paulogentil@hotmail.com
+
+Received: October 4, 2014; Accepted: October 24, 2014
+
+Background: Some authors suggest that single joint (SJ) exercises promote greater muscle hypertrophy because they are easier to be
+learned and therefore have less reliance on neural factors. On the other hand, some authors recommend an emphasis on multi-joint (MJ)
+exercises for maximizing muscle strength, assuming that MJ exercises are more effective than SJ exercises because they enable a greater
+magnitude of weight to be lifted.
+Objectives: The present study aimed to compare the effects of MJ vs. SJ exercises on muscle size and strength gains in untrained young
+men.
+Patients and Methods: Twenty-nine young men, without prior resistance training experience, were randomly divided into two groups.
+One group performed (n = 14) only MJ exercises involving the elbow flexors (lat. pull downs), while the other (n = 15) trained the elbow
+flexors muscles using only SJ exercises (biceps curls). Both groups trained twice a week for a period of ten weeks. The volunteers were
+evaluated for peak torque of elbow flexors (PT) in an isokinetic dynamometer and for muscle thickness (MT) by ultrasonography.
+Results: There were significant increases in MT of 6.10% and 5.83% for MJ and SJ, respectively; and there were also significant increases in PT
+for MJ (10.40%) and SJ (11.87%). However, the results showed no difference between groups pre or post training for MT or PT.
+Conclusions: In conclusion, the results of the present study suggest that MJ and SJ exercises are equally effective for promoting increases
+in upper body muscle strength and size in untrained men. Therefore, the selection between SJ and MJ exercises should be based on
+individual and practical aspects, such as, equipment availability, movement specificity, individual preferences and time commitment.
+Keywords: Resistance Training; Ultrasonography; Muscles; Hypertrophy
+
+1. Background
+Resistance training (RT) has been recommended by
+many authors and scientists as an important component of physical activity programs, specifically because
+of its capacity to promote increases in muscle size and
+strength (1-3). However, in order to ensure optimal results, the design of RT programs should be based on scientific principles that consider the manipulation and
+combination of several variables, such as rest interval,
+movement velocity, training load, number of sets and exercise selection (3, 4). Although exercise selection is one
+of the most questioned variables, it has received surprisingly little attention by the scientific community.
+In general, it is common to classify resistance exercises
+as multi-joint (MJ) or single-joint (SJ), depending on how
+many joints are involved in the movement. Some authors
+suggest that SJ exercises promote greater muscle hypertrophy because they are easier to be learned and therefore have less reliance on neural factors than MJ exercises (5, 6). On the other hand, some authors recommend
+an emphasis on MJ exercises for maximizing muscle
+strength, assuming that MJ exercises are more effective
+than SJ exercises because they enable a greater magni-
+
+tude of weight to be lifted (1, 3). However, evidences for
+these claims are limited because of the lack of studies
+comparing muscle hypertrophy and strength gains between SJ and MJ exercises, which make it difficult to correctly choose an exercise when designing a RT program.
+A study of Giannakopoulos et al. (7) compared the effects of SJ and MJ exercises on shoulder cuff muscular
+performance and reported greater increases in internal
+and external rotation peak torque for the MJ group. However, the SJ group performed a lower number of sets and
+at a lower intensity, which may limit the comparisons.
+A previous study investigated the effects of adding SJ
+exercises to a MJ protocol on muscle size and strength
+of young men and reported no differences in changes
+of elbow flexors’ muscle strength and size between the
+groups that performed only MJ and the group that performed MJ + SJ (8). However, since there was not a group
+performing only SJ exercises, the study may be valuable
+for analyzing training volume rather than exercise selection and the question remains whether an RT program
+with only SJ exercise would be as efficient as a program
+involving only MJ exercises.
+
+Copyright © 2015, Sports Medicine Research Center. This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/) which permits copy and redistribute the material just in noncommercial usages,
+provided the original work is properly cited.
+
+Gentil P et al.
+
+2. Objectives
+Due to the importance of adequate exercise selection
+for the design of effective RT programs and the lack of
+studies comparing the chronic effects of SJ and MJ exercises, the purpose of the present study was to compare
+the effects of MJ and SJ exercises on the gains of muscle
+size and strength of the elbow flexors in untrained young
+men. Our hypothesis is that there is no difference in muscle adaptations between the groups that perform MJ and
+SJ exercises.
+
+3. Patients and Methods
+
+3.1. Experimental Procedures
+Twenty-nine college aged young men, without prior
+resistance training experience, were randomly divided
+into two groups. One group performed only MJ exercises
+(lat. pull downs) involving the elbow flexors, while the
+other group trained the elbow flexor muscles using only
+SJ exercises (arm curls). Both groups trained twice a week
+with at least 48 hours between training sessions, for a
+period of ten weeks. All exercises were carried out with
+three sets of eight to 12 maximum repetitions (3). The volunteers were evaluated for peak torque of elbow flexors
+(PT) in an isokinetic dynamometer and for muscle thickness (MT) by ultrasonography.
+
+3.2. Participants
+
+Thirty-four young men volunteered for the study. The
+volunteers were recruited through folders and advertising banners around the university campus. To be accepted, participants should be at least 18 years of age, have not
+been participating in any resistance training program
+over the past six months and be free of health problems
+that could be aggravated by the experimental procedures. To be included in the analysis, the participants
+had to attend at least 80% of the training sessions (9).
+The volunteers were instructed to not change their nutritional habits and, if any relevant change was detected
+(e.g. becoming a vegetarian, being on caloric restriction,
+use of nutritional supplements or ergogenic substances,
+etc.) the data of the participants were excluded from the
+analysis. Data of five volunteers were excluded for failing
+to meet the inclusion criteria, the exclusions occurred
+due to low attendance (2), low adhesion to training protocol (2) and changes in nutritional habits (1). The characteristics of the excluded participants did not differ from
+the others. All volunteers were notified about the experimental procedures, benefits and risks before signing the
+informed consent form. An Institutional Research Ethics
+Committee granted approval for the study.
+
+3.3. Muscle Thickness
+
+In the present study MT was assessed by an ultrasound
+equipment. Ultrasound is a quick, reliable and cost2
+
+effective method to measure muscle size (10, 11). Participants were tested before and after the 10-week training
+period for MT of the elbow flexors of the right arm. All
+tests were conducted at the same time of the day, and
+participants were instructed to hydrate normally 24
+hours before the tests. Measures were taken 3 - 5 days
+after the last training session to prevent any swelling
+from contributing to the MT measurement (12). During
+this time, participants were oriented not to participate
+in any other exercise sessions or intense activity involving the upper body. MT was measured at 10 cm from
+the cubital fossa using B-Mode ultrasound (Philips-VMI,
+Ultra Vision Flip, model BF). A water soluble transmission gel was applied to the measurement site and a 7.5
+MHz ultrasound probe was placed perpendicular to
+the tissue interface while not depressing the skin. Once
+the technician was satisfied with the quality of the image produced, the image on the monitor was frozen.
+With the image frozen, a cursor was enabled in order to
+measure MT, which was taken as the distance from the
+subcutaneous adipose tissue-muscle interface to muscle-bone interface (13). A trained technician performed
+all analyses (14). The coefficients of variation for elbow
+flexor MTs were less than 3.0%. Baseline test and retest
+intraclass correlation coefficient (ICC) for elbow flexors
+MT was 0.95.
+
+3.4. Peak Torque
+
+The concentric PT of the dominant arm’s elbow flexors was tested on an isokinetic dynamometer Biodex
+System 3 (Biodex Medical, Inc., Shirley, NY) with two
+sets of four repetitions at 60° s-1, and 60 seconds rest
+interval between sets. According to Feiereisen et al.
+(15), isokinetic measurements should be preferentially
+used to evaluate strength gains and limit bias between
+measurements at different times. Calibration of the dynamometer was performed before each testing session
+according to the manufacturer’s specifications. Participants were seated with their elbow on a Scott bench and
+aligned with the axis of rotation of the dynamometer’s
+lever arm. The forearm remained in a supinated position throughout the test. Verbal encouragement was
+given throughout the test, and all tests were administered by the same investigator. Baseline test and retest
+ICC and standard error of the mean values for PT were
+0.96 and 2.4%, respectively.
+
+3.5. Resistance Training Protocol
+Participants were randomly assigned to two groups.
+The MJ group performed leg press, knee flexion; bench
+press and lat. pull down. The SJ group also performed
+leg press, knee flexion and bench press but, instead of
+lat. pull down, they performed standing barbell biceps
+curls. The lat. pull down was performed with a pronated
+wide grip as defined previously by Lusk et al. (16) and no
+specific instructions were given on how to emphasize
+Asian J Sports Med. 2015;6(2):e24057
+
+Gentil P et al.
+the latissimus dorsi or the biceps brachii. The standing
+barbell biceps curls was performed at a shoulder-width
+supinated grip.
+Training protocols followed the recommendations
+of the American College of Sports and Medicine (3).
+All exercises were performed with three sets of 8 - 12
+maximum repetitions (RM). Subjects were instructed
+to perform the concentric and eccentric phases each
+in two seconds, without pause between them. During
+the training sessions, music tracks with 120 bpm were
+played in order to facilitate control of movement speed.
+Participants were oriented to perform all sets until concentric failure. If necessary, loads were adjusted from
+set to set to maintain the designated number of repetitions. Training sessions were closely supervised by experienced trainers, because previous research has demonstrated greater gains in supervised vs. unsupervised
+training (17). Training was conducted two days a week,
+with a minimum of 48 hours between sessions. Rest
+interval between sets ranged from 1.5 to 2.5 minutes.
+Each participant filled a training log for each workout,
+containing the loads used, the number of repetitions
+performed in each set and any relevant information (illness, pain, sleep deprivation), and all training logs were
+verified by a supervisor following each exercise session.
+
+3.6. Statistical Analysis
+
+All values were reported as means and standard deviations. Two way ANOVA 2 x 2 (group by time) with a between-within design was used to compare means. When
+necessary, multiple comparisons with confidence intervals adjusted by the Bonferroni procedure were used for
+post hoc analysis. The significance level was established
+as P ≤ 0.05. The statistical program SPSS version 16.0
+was used for statistical analysis.
+
+4. Results
+
+The characteristics of participants are presented in
+Table 1. Table 2 presents the values of MT and PT pre and
+post training. The ANOVA found no statistically significant difference (P > 0.05) between groups pre or post
+training for MT or PT. However, with respect to time (pre
+vs. post), there were significant increases in MT of 6.10%
+and 5.83% for MJ and SJ, respectively (P ≤ 0.05). PT also
+significantly increases for MJ (10.40%, P ≤ 0.05) and SJ
+(11.87%, P ≤ 0.05).
+Table 1. Characteristics of the Subjects a
+Variable
+Age, y
+
+Body weight, kg
+Height, cm
+
+Multi Joint Group Single Joint Group
+(n = 14)
+(n = 15)
+23.4 ± 2.6
+
+22.4 ± 2.1
+
+73.1 ± 13.6
+
+69.3 ± 5.8
+
+171.9 ± 8.2
+
+175.8 ± 5.9
+
+a Data are presented as Mean ± SD.
+
+Asian J Sports Med. 2015;6(2):e24057
+
+Table 2. Muscle Thickness and Peak Torque Before and After 10
+Weeks of Training a
+Variable
+
+Muscle thickness, mm
+Pre-training
+Post-training
+
+Multi Joint
+Group
+
+Single Joint
+Group
+
+31.80 ± 3.76
+
+28.79 ± 2.76
+
+33.74 ± 3.40 b
+
+30.47 ± 4.67 b
+
+6.10
+
+5.83%
+
+49.26 ± 9.49
+
+49.69 ± 10.50
+
+Delta
+
+Peak Torque, Nm
+Pre-training
+Post-training
+Delta
+
+54.38 ± 10.08 b
+
+55.59 ± 10.61 b
+
+10.40
+
+11.87
+
+a Data are presented as Mean ± SD or %.
+b P < 0.05, post vs. Pre.
+
+5. Discussion
+The major find of the present study was that there is
+no significant difference on elbow flexor strength gains
+and hypertrophy between MJ and SJ exercise. Exercise
+selection is a crucial step when designing RT programs.
+However, there are many controversies when choosing
+an exercise, especially when deciding between SJ or MJ
+exercises. Some authors suggest that SJ exercises would
+promote greater increases in muscle size, because they
+would have less reliance on neural factors (5, 6). On the
+other hand, some authors (1, 3) suggest that MJ exercises
+are more effective because they enable a greater magnitude of weight to be lifted. This leads some people to
+prefer SJ exercises while others give preference to MJ exercises. However, the controversy remains because studies
+comparing the chronic effects of MJ and SJ exercises on
+strength gains and muscle hypertrophy are scarce.
+In a previous study, Chilibeck et al. (6) reported that
+the lean mass in the upper-body of women performing
+RT increases more than in the lower-body. The authors
+suggested that the more prolonged neural adaptation related to the more complex leg press exercise may have delayed muscle hypertrophy in the legs, while the arm curl
+exercise promoted higher muscle hypertrophy due to
+faster neural adaptation. However, the training program
+also contained SJ exercises for the legs (knee extension
+and knee flexion), as well as, MJ exercises that involved
+the arms (bench press and lat. pull downs). Therefore, it
+is not possible to make a direct comparison between SJ
+and MJ exercises.
+Recently, Gentil et al. (8) examined the effect of adding SJ exercises to a MJ exercise program on upper body
+muscle size and strength of young men. In the study, one
+group performed only upper body MJ exercises (lat. pull
+down and bench press) while the other performed the
+same MJ exercises plus SJ exercises (elbow flexion and elbow extension). According to the results, there were no
+differences in muscle size and strength gains between
+groups. However, since there was not a group that per3
+
+Gentil P et al.
+formed only SJ exercises, the question remains whether
+an RT program with only SJ exercise would be as efficient
+as a program involving only MJ exercises.
+We did not find studies comparing muscle hypertrophy responses between SJ and MJ exercises. One of the
+few studies to compare the chronic effects of MJ and SJ
+exercises on muscle performance was the study of Giannakopoulos et al. (7) that analyzed the effects of two
+training modes on shoulder cuff muscular performance.
+The participants of the study were divided into 3 groups:
+one group performed SJ exercises (internal and external
+shoulder rotation using 2 kg dumbbells); one trained
+with MJ exercises (lat. pull down, overhead press, reverse
+pull up and push-up exercises); and the other had no
+training. According to the results, the group that trained
+with MJ exercises achieved greater increases in internal
+and external rotation peak torque than the groups that
+trained with SJ exercises.
+Comparison between our study and the study of Giannakopoulos et al. (7) are limited due to methodological differences, and the difference between the results is
+probably due to the differences in training volume and
+intensity between protocols. In the study of Giannakopoulos et al. (7) the SJ group performed a lower number of
+sets compared to the MJ group. Additionally, the SJ group
+trained at a constant load, with no load progression,
+which may have limited the results. In the present study
+the SJ and MJ groups performed an equal number of sets
+of progressive resistance training and both trained with
+maximal repetitions.
+The results of the present study on muscle hypertrophy are unique and important for practical purposes.
+Increase or maintaining muscle mass is an important
+goal for health, fitness and performance. It has been
+shown that muscle hypertrophy is dependent on the mechanical tension, muscle damage and metabolic stress
+produced by the strength exercise (18, 19). Thus, according to the results of the present study we may presume
+that muscle strain and muscle damage caused by the MJ
+and SJ exercise for the EF muscles was somewhat similar.
+However, one of the limitations of the present study was
+that the mechanisms involved in muscle hypertrophy
+between MJ and SJ exercise were not evaluated. Furthermore, the finding that MJ exercises are as efficient as SJ in
+muscle hypertrophy and strength may be valuable when
+designing an RT program. In order to save time, strength
+and conditioning, specialists can choose exercises that
+target a higher number of muscle groups at a time. This
+strategy can increase training volume and reduce the
+time commitment, which, in turn, may improve exercise
+adherence since lack of time is the most cited barrier for
+an individual engaging in any exercise program (20-23).
+The results of the present study shows that MJ and SJ
+exercises are equally effective for promoting increases
+in muscle strength and size in untrained men, confirming our hypothesis. It is well established that muscles interpret environmental stimuli through mechanical and
+4
+
+metabolic changes (18, 19, 24-26) and it seems that these
+responses will not differ if the movement is performed
+alone (biceps curl, which involves only elbow flexion) or
+accompanied by the movement of another joints (lat.
+pull down, which involves elbow flexion and shoulder extension). Based on the present results, it can be suggested
+that the selection between SJ and MJ exercises should be
+based on individual and practical aspects, such as equipment availability, individual preferences, movement
+specificity, time commitment etc. Further studies are
+required to test if the results will be the same in trained
+people and other muscle groups.
+
+References
+1.
+
+2.
+3.
+4.
+5.
+6.
+
+7.
+8.
+
+9.
+10.
+11.
+12.
+13.
+
+14.
+15.
+16.
+17.
+
+Kraemer WJ, Adams K, Cafarelli E, Dudley GA, Dooly C, Feigenbaum MS, et al. American College of Sports Medicine position
+stand. Progression models in resistance training for healthy
+adults. Med Sci Sports Exerc. 2002;34(2):364–80.
+Kraemer WJ, Ratamess NA. Fundamentals of resistance training: progression and exercise prescription. Med Sci Sports Exerc.
+2004;36(4):674–88.
+American College of Sports M. American College of Sports Medicine position stand. Progression models in resistance training
+for healthy adults. Med Sci Sports Exerc. 2009;41(3):687–708.
+Tan B. Manipulating Resistance Training Program Variables
+to Optimize Maximum Strength in Men. J Strength Cond Res.
+1999;13(3):289–304.
+Rutherford OM, Jones DA. The role of learning and coordination in strength training. Eur J Appl Physiol Occup Physiol.
+1986;55(1):100–5.
+Chilibeck PD, Calder AW, Sale DG, Webber CE. A comparison of
+strength and muscle mass increases during resistance training in young women. Eur J Appl Physiol Occup Physiol. 1998;77(12):170–5.
+Giannakopoulos K, Beneka A, Malliou P, Godolias G. Isolated
+vs. complex exercise in strengthening the rotator cuff muscle
+group. J Strength Cond Res. 2004;18(1):144–8.
+Gentil P, Soares SR, Pereira MC, Cunha RR, Martorelli SS, Martorelli AS, et al. Effect of adding single-joint exercises to a multi-joint
+exercise resistance-training program on strength and hypertrophy in untrained subjects. Appl Physiol Nutr Metab. 2013;38(3):341–
+4.
+Gentil P, Bottaro M. Effects of training attendance on muscle
+strength of young men after 11 weeks of resistance training.
+Asian J Sports Med. 2013;4(2):101–6.
+Bemben MG. Use of diagnostic ultrasound for assessing muscle
+size. J Strength Cond Res. 2002;16(1):103–8.
+Reeves ND, Maganaris CN, Narici MV. Ultrasonographic assessment of human skeletal muscle size. Eur J Appl Physiol.
+2004;91(1):116–8.
+Chilibeck PD, Stride D, Farthing JP, Burke DG. Effect of creatine ingestion after exercise on muscle thickness in males and females.
+Med Sci Sports Exerc. 2004;36(10):1781–8.
+Abe T, DeHoyos DV, Pollock ML, Garzarella L. Time course for
+strength and muscle thickness changes following upper and
+lower body resistance training in men and women. Eur J Appl
+Physiol. 2000;81(3):174–80.
+Sanada K, Kearns CF, Midorikawa T, Abe T. Prediction and validation of total and regional skeletal muscle mass by ultrasound in
+Japanese adults. Eur J Appl Physiol. 2006;96(1):24–31.
+Feiereisen P, Vaillant M, Eischen D, Delagardelle C. Isokinetic versus one-repetition maximum strength assessment in chronic
+heart failure. Med Sci Sports Exerc. 2010;42(12):2156–63.
+Lusk SJ, Hale BD, Russell DM. Grip width and forearm orientation
+effects on muscle activity during the lat pull-down. J Strength
+Cond Res. 2010;24(7):1895–900.
+Gentil P, Bottaro M. Influence of supervision ratio on muscle adaptations to resistance training in nontrained subjects. J Strength
+
+Asian J Sports Med. 2015;6(2):e24057
+
+Gentil P et al.
+18.
+19.
+20.
+
+21.
+
+Cond Res. 2010;24(3):639–43.
+Schoenfeld BJ. The mechanisms of muscle hypertrophy and
+their application to resistance training. J Strength Cond Res.
+2010;24(10):2857–72.
+Schoenfeld BJ. Does exercise-induced muscle damage play
+a role in skeletal muscle hypertrophy? J Strength Cond Res.
+2012;26(5):1441–53.
+Eyler AA, Matson-Koffman D, Vest JR, Evenson KR, Sanderson B,
+Thompson JL, et al. Environmental, policy, and cultural factors
+related to physical activity in a diverse sample of women: The
+Women's Cardiovascular Health Network Project--summary and
+discussion. Women Health. 2002;36(2):123–34.
+Trost SG, Owen N, Bauman AE, Sallis JF, Brown W. Correlates of
+adults' participation in physical activity: review and update. Med
+Sci Sports Exerc. 2002;34(12):1996–2001.
+
+Asian J Sports Med. 2015;6(2):e24057
+
+22.
+23.
+24.
+
+25.
+26.
+
+Schutzer KA, Graves BS. Barriers and motivations to exercise in
+older adults. Prev Med. 2004;39(5):1056–61.
+Silliman K, Rodas-Fortier K, Neyman M. A survey of dietary and
+exercise habits and perceived barriers to following a healthy
+lifestyle in a college population. Cal J Health Promot. 2004;18:281.
+Takada S, Okita K, Suga T, Omokawa M, Kadoguchi T, Sato T, et al.
+Low-intensity exercise can increase muscle mass and strength
+proportionally to enhanced metabolic stress under ischemic
+conditions. J Appl Physiol (1985). 2012;113(2):199–205.
+Schott J, McCully K, Rutherford OM. The role of metabolites in
+strength training. II. Short versus long isometric contractions.
+Eur J Appl Physiol Occup Physiol. 1995;71(4):337–41.
+Hornberger TA, Esser KA. Mechanotransduction and the regulation of protein synthesis in skeletal muscle. Proc Nutr Soc.
+2004;63(2):331–5.
+
+5
+
+

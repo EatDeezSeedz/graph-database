@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kang 2013 elbow flexor activation with pulley exercise</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.65);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.12),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}.top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}.title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)} select,option,optgroup{background:#111827;color:var(--text)} .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(250px,28vw) 1fr;min-height:0}.left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}.sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}.check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}.check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}.swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}.hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(48dvh,calc(100dvh - 220px));min-height:300px;touch-action:none;cursor:grab}.stage.is-dragging{cursor:grabbing} canvas{width:100%;height:100%;display:block}.overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}.tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)} .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(260px,46dvh,390px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Kang et al. (2013) - Elbow flexor activation in pulley exercise</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle lines</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={bic:'#60a5fa',brd:'#22c55e'};
+      const MODES={
+        raw:{label:'Raw EMG (mV)',subtitle:'Table 1 mean ± SD muscle activation at 55°, 70°, and 90° elbow flexion with the pulley line kept at 90° to the forearm.',hint:'In this setup, 55° is the more shortened elbow-flexor position and 90° is the more lengthened position. Both muscles were highest at 55°.',overlay:'Hover = mean ± SD EMG',yLabel:'Muscle activation (mV)',series:[{name:'Biceps brachii',color:COLORS.bic,points:[{x:55,y:366.5,sd:339.5,note:'More shortened position. 55° > 90°, not different from 70°.'},{x:70,y:295.3,sd:295.2,note:'Resting/reference position. 70° > 90°.'},{x:90,y:159.9,sd:95.0,note:'More lengthened position. Lowest mean activation.'}]},{name:'Brachioradialis',color:COLORS.brd,points:[{x:55,y:1678.1,sd:1805.6,note:'More shortened position. 55° > 70° and 90°.'},{x:70,y:1043.3,sd:1164.3,note:'Resting/reference position. 70° > 90°.'},{x:90,y:362.4,sd:347.3,note:'More lengthened position. Lowest mean activation.'}]}]},
+        relative:{label:'Relative to 55° (%)',subtitle:'Same Table 1 data normalized so the 55° condition = 100% for each muscle.',hint:'Here 55° is the more shortened position, so this view compares everything back to the shortest-muscle condition.',overlay:'Hover = mean activation relative to 55°',yLabel:'Relative activation (% of 55°)',series:[{name:'Biceps brachii',color:COLORS.bic,points:[{x:55,y:100,sd:0,note:'Reference angle; more shortened position.'},{x:70,y:80.6,sd:0,note:'Resting/reference position.'},{x:90,y:43.6,sd:0,note:'More lengthened position.'}]},{name:'Brachioradialis',color:COLORS.brd,points:[{x:55,y:100,sd:0,note:'Reference angle; more shortened position.'},{x:70,y:62.2,sd:0,note:'Resting/reference position.'},{x:90,y:21.6,sd:0,note:'More lengthened position.'}]}]},
+        relative70:{label:'Relative to 70° (%)',subtitle:'This matches the infographic style: each muscle is normalized to its own 70° value.',hint:'Here 70° is the middle/reference position, 55° is more shortened, and 90° is more lengthened. This makes the cross-muscle pattern easiest to compare.',overlay:'Hover = mean activation relative to 70°',yLabel:'Relative activation (% of 70°)',series:[{name:'Biceps brachii',color:COLORS.bic,points:[{x:55,y:124.1,sd:0,note:'More shortened position: 366.5 / 295.3 × 100.'},{x:70,y:100,sd:0,note:'Reference/middle position.'},{x:90,y:54.2,sd:0,note:'More lengthened position: 159.9 / 295.3 × 100.'}]},{name:'Brachioradialis',color:COLORS.brd,points:[{x:55,y:160.8,sd:0,note:'More shortened position: 1678.1 / 1043.3 × 100.'},{x:70,y:100,sd:0,note:'Reference/middle position.'},{x:90,y:34.7,sd:0,note:'More lengthened position: 362.4 / 1043.3 × 100.'}]}]}
+      };
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d'); const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status'); const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='relative70',visible={},drag=null,hover=null,view={minX:55,maxX:90};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function initVisible(){ for(const s of MODES[mode].series){ if(!(s.name in visible)) visible[s.name]=true; } }
+      function currentSeries(){ return MODES[mode].series.filter(s=>visible[s.name]); }
+      function bounds(){ const pts=currentSeries().flatMap(s=>s.points); const xs=pts.map(p=>p.x), ys=pts.flatMap(p=>[p.y-(p.sd||0),p.y+(p.sd||0)]); const minX=Math.min(...xs)-3, maxX=Math.max(...xs)+3; let minY=Math.min(0,...ys), maxY=Math.max(...ys); const pad=(maxY-minY||1)*0.12; return {minX,maxX,minY:minY-pad,maxY:maxY+pad}; }
+      function fit(){ const b=bounds(); view={...b}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function sx(x,plot){ return plot.x + ((x-view.minX)/(view.maxX-view.minX))*plot.w; }
+      function sy(y,plot){ return plot.y + plot.h - ((y-view.minY)/(view.maxY-view.minY))*plot.h; }
+      function yTicks(min,max){ const rough=(max-min)/5, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow; const out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function draw(){ initVisible(); const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h); const plot={x:78,y:20,w:Math.max(120,w-104),h:Math.max(100,h-92)}; const ys=yTicks(view.minY,view.maxY); ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; for(const y of ys){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(MODES[mode].yLabel.includes('%')?`${y.toFixed(0)}%`:y.toFixed(0),16,py+4); } for(const x of [55,70,90]){ const px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); ctx.textAlign='center'; ctx.fillText(`${x}°`,px,plot.y+plot.h+28); }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore(); ctx.textAlign='center'; ctx.fillText('Elbow flexion angle',plot.x+plot.w/2,plot.y+plot.h+54); ctx.fillStyle='rgba(156,163,175,0.9)'; ctx.fillText('More shortened',sx(55,plot),plot.y+plot.h+70); ctx.fillText('More lengthened',sx(90,plot),plot.y+plot.h+70); ctx.fillStyle='rgba(229,231,235,0.82)';
+        const markers=[]; 
+        if(mode==='relative70'){
+          const series=currentSeries();
+          const xs=[55,70,90];
+          const groupW=16;
+          const barW=Math.min(24, groupW/Math.max(1,series.length)*1.45);
+          for(const xVal of xs){
+            const cx=sx(xVal,plot);
+            const totalW=(barW*series.length)+Math.max(0,series.length-1)*6;
+            series.forEach((s,idx)=>{
+              const p=s.points.find(pt=>pt.x===xVal);
+              if(!p) return;
+              const x=cx-totalW/2+idx*(barW+6);
+              const y=sy(p.y,plot);
+              const hBar=plot.y+plot.h-y;
+              ctx.fillStyle=s.color;
+              ctx.strokeStyle='rgba(255,255,255,0.22)';
+              ctx.lineWidth=1.2;
+              ctx.fillRect(x,y,barW,hBar);
+              ctx.strokeRect(x,y,barW,hBar);
+              markers.push({x:x+barW/2,y,r:Math.max(10,barW),series:s.name,color:s.color,point:p,bar:{x,y,w:barW,h:hBar}});
+            });
+          }
+        } else {
+          for(const s of currentSeries()){ ctx.strokeStyle=s.color; ctx.lineWidth=3.5; ctx.beginPath(); s.points.forEach((p,i)=>{ const x=sx(p.x,plot), y=sy(p.y,plot); if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); }); ctx.stroke(); for(const p of s.points){ const x=sx(p.x,plot), y=sy(p.y,plot), yTop=sy(p.y+(p.sd||0),plot), yBot=sy(p.y-(p.sd||0),plot); if((p.sd||0)>0){ ctx.strokeStyle=`${s.color}aa`; ctx.lineWidth=1.2; ctx.beginPath(); ctx.moveTo(x,yTop); ctx.lineTo(x,yBot); ctx.moveTo(x-5,yTop); ctx.lineTo(x+5,yTop); ctx.moveTo(x-5,yBot); ctx.lineTo(x+5,yBot); ctx.stroke(); } ctx.fillStyle=s.color; ctx.beginPath(); ctx.arc(x,y,5.5,0,Math.PI*2); ctx.fill(); markers.push({x,y,r:10,series:s.name,color:s.color,point:p}); } }
+        }
+        ctx.strokeStyle='rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke(); status.textContent=`${(view.maxX-view.minX).toFixed(1)}° view`; stage._markers=markers; stage._plot=plot; }
+      function renderLegend(){ legend.innerHTML=''; const cfg=MODES[mode]; subtitle.textContent=cfg.subtitle; hint.textContent=cfg.hint; overlay.textContent=cfg.overlay; for(const s of cfg.series){ const row=document.createElement('div'); row.className='check'+(visible[s.name]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[s.name]?'checked':''} /><span class="swatch" style="background:${s.color}"></span><label>${s.name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{visible[s.name]=e.target.checked; draw(); renderLegend();}); legend.appendChild(row);} }
+      function updateTooltip(ev){ const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top; const hit=(stage._markers||[]).find(m=>m.bar ? (x>=m.bar.x&&x<=m.bar.x+m.bar.w&&y>=m.bar.y&&y<=m.bar.y+m.bar.h) : (Math.hypot(m.x-x,m.y-y)<=m.r)); if(!hit){ tooltip.style.display='none'; return; } tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.point.x}° elbow flexion</div><div>${MODES[mode].yLabel}: <strong>${hit.point.y.toFixed(1)}</strong>${MODES[mode].yLabel.includes('%')?'%':' mV'}</div>${hit.point.sd?`<div>SD: ±${hit.point.sd.toFixed(1)}</div>`:''}<div>${hit.point.note}</div>`; tooltip.style.display='block'; const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90; const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)); const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14)); tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`; }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); }); btnFit.addEventListener('click',fit); btnReset.addEventListener('click',()=>{ fit(); renderLegend(); }); btnShowAll.addEventListener('click',()=>{ for(const s of MODES[mode].series) visible[s.name]=true; draw(); renderLegend(); }); btnHideAll.addEventListener('click',()=>{ for(const s of MODES[mode].series) visible[s.name]=false; draw(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const scale=e.deltaY>0?1.1:0.9; const mid=(view.minX+view.maxX)/2; const half=(view.maxX-view.minX)*scale/2; const b=bounds(); view.minX=Math.max(b.minX,mid-half); view.maxX=Math.min(b.maxX,mid+half); if(view.maxX-view.minX<8){ view.minX=mid-4; view.maxX=mid+4; } draw(); },{passive:false}); stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); }); stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const span=drag.maxX-drag.minX, pxPerUnit=(stage._plot?.w||stage.clientWidth)/span, dx=(e.clientX-drag.x)/pxPerUnit; const b=bounds(); view.minX=Math.max(b.minX, drag.minX-dx); view.maxX=Math.min(b.maxX, drag.maxX-dx); draw(); updateTooltip(e); }); stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} }); stage.addEventListener('pointerleave',()=>tooltip.style.display='none'); window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

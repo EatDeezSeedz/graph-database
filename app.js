@@ -17,8 +17,19 @@ const btn100 = document.getElementById("btn100");
 const btnReset = document.getElementById("btnReset");
 const chickenLinkEl = document.getElementById("chickenLink");
 let chickenTimerId = null;
+const collapsedFolders = new Set();
 
 const graphs = (GRAPH_MANIFEST?.graphs || []).slice();
+for (const g of graphs) {
+  if (g.folder) {
+    const parts = String(g.folder).split("/").map(part => part.trim()).filter(Boolean);
+    let path = "";
+    for (const part of parts) {
+      path = path ? `${path}/${part}` : part;
+      collapsedFolders.add(path);
+    }
+  }
+}
 
 function withVersion(path, version) {
   const sep = path.includes("?") ? "&" : "?";
@@ -46,16 +57,78 @@ function clearChildren(el) {
 
 let activeId = null;
 
-function renderList() {
-  const q = (searchEl.value || "").trim().toLowerCase();
-  const filtered = q
-    ? graphs.filter(g => (g.title || "").toLowerCase().includes(q) || (g.file || "").toLowerCase().includes(q))
-    : graphs;
+function slugifyFolder(name) {
+  return String(name || "Other").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
 
-  clearChildren(listEl);
-  emptyEl.classList.toggle("hidden", filtered.length !== 0);
+function buildFolderTree(items) {
+  const root = new Map();
+  for (const item of items) {
+    const parts = String(item.folder || "Other").split("/").map(part => part.trim()).filter(Boolean);
+    let branch = root;
+    let path = "";
+    let node = null;
+    for (const part of parts) {
+      path = path ? `${path}/${part}` : part;
+      if (!branch.has(part)) branch.set(part, { name: part, path, folders: new Map(), graphs: [] });
+      node = branch.get(part);
+      branch = node.folders;
+    }
+    (node || { graphs: [] }).graphs.push(item);
+  }
+  return Array.from(root.values());
+}
 
-  for (const g of filtered) {
+function countFolderItems(node) {
+  let count = node.graphs.length;
+  for (const child of node.folders.values()) count += countFolderItems(child);
+  return count;
+}
+
+function toggleFolder(folderName) {
+  if (collapsedFolders.has(folderName)) collapsedFolders.delete(folderName);
+  else collapsedFolders.add(folderName);
+  renderList();
+}
+
+function renderFolderNode(node, parentEl, depth = 0) {
+  const folderLi = document.createElement("li");
+  folderLi.className = "folder-item";
+  if (depth > 0) folderLi.classList.add("folder-item--nested");
+
+  const header = document.createElement("button");
+  header.type = "button";
+  header.className = "folder-header";
+  if (depth > 0) header.classList.add("folder-header--nested");
+  header.style.paddingLeft = `${12 + depth * 14}px`;
+  header.setAttribute("aria-expanded", collapsedFolders.has(node.path) ? "false" : "true");
+  header.addEventListener("click", () => toggleFolder(node.path));
+
+  const icon = document.createElement("span");
+  icon.className = "folder-chevron";
+  icon.textContent = collapsedFolders.has(node.path) ? "\u25B8" : "\u25BE";
+  header.appendChild(icon);
+
+  const label = document.createElement("span");
+  label.className = "folder-name";
+  label.textContent = node.name;
+  header.appendChild(label);
+
+  const count = document.createElement("span");
+  count.className = "folder-count";
+  count.textContent = `${countFolderItems(node)}`;
+  header.appendChild(count);
+
+  folderLi.appendChild(header);
+
+  const inner = document.createElement("ul");
+  inner.className = `folder-graphs folder-graphs--${slugifyFolder(node.path)}`;
+  if (depth > 0) inner.classList.add("folder-graphs--nested");
+  if (collapsedFolders.has(node.path)) inner.classList.add("hidden");
+
+  for (const child of node.folders.values()) renderFolderNode(child, inner, depth + 1);
+
+  for (const g of node.graphs) {
     const li = document.createElement("li");
     li.className = "graph-item" + (g.id === activeId ? " graph-item--active" : "");
     li.tabIndex = 0;
@@ -85,8 +158,27 @@ function renderList() {
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
     });
 
-    listEl.appendChild(li);
+    inner.appendChild(li);
   }
+
+  folderLi.appendChild(inner);
+  parentEl.appendChild(folderLi);
+}
+
+function renderList() {
+  const q = (searchEl.value || "").trim().toLowerCase();
+  const filtered = q
+    ? graphs.filter(g =>
+      (g.title || "").toLowerCase().includes(q) ||
+      (g.file || "").toLowerCase().includes(q) ||
+      (g.folder || "").toLowerCase().includes(q)
+    )
+    : graphs;
+
+  clearChildren(listEl);
+  emptyEl.classList.toggle("hidden", filtered.length !== 0);
+
+  for (const node of buildFolderTree(filtered)) renderFolderNode(node, listEl, 0);
 }
 
 // Zoom/pan state (image-local transform in CSS pixels)
@@ -279,3 +371,5 @@ if (chickenLinkEl) {
   startChickenWalk();
   scheduleChickenWalk();
 }
+
+

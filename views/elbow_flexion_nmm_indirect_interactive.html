@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elbow flexion - indirect neuromechanical matching evidence</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box}
+      html,body{height:100%;margin:0}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.12),transparent 45%),var(--bg);
+        color:var(--text);
+        overflow:hidden
+      }
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{
+        display:grid;
+        grid-template-columns:1fr auto;
+        gap:10px;
+        padding:10px 12px;
+        border-bottom:1px solid var(--border);
+        background:var(--panel);
+        backdrop-filter:blur(12px);
+        align-items:center
+      }
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      select{
+        border:1px solid var(--border);
+        background:var(--btn);
+        color:var(--text);
+        padding:7px 10px;
+        border-radius:12px;
+        font-weight:650;
+        font-size:12px
+      }
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .frameWrap{position:relative;min-height:0;height:100%}
+      iframe{
+        width:100%;
+        height:100%;
+        border:0;
+        display:block;
+        background:transparent
+      }
+      @media (max-width:860px){
+        html,body{height:auto;overflow:auto}
+        body{overflow:auto}
+        .wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}
+        .top{grid-template-columns:1fr}
+        .controls{justify-content:flex-start;gap:6px}
+        select{padding:6px 9px;font-size:11px}
+        .status{width:100%;white-space:normal}
+        .subtitle{display:none}
+        .frameWrap{min-height:78vh}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Elbow flexion - indirect neuromechanical matching evidence</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="frameWrap">
+        <iframe id="viewer" title="Indirect elbow flexion evidence"></iframe>
+      </div>
+    </div>
+    <script>
+      const MODES={
+        activation:{
+          label:'Activation (Kang 2013)',
+          file:'kang2013_pulley_elbow_activation_interactive.html',
+          subtitle:'Activation evidence showing comparatively more brachioradialis activation at the more flexed / shortened position and relatively more biceps brachii activation at the more extended / lengthened position.',
+          status:'Kang 2013 normalized activation view'
+        },
+        leverage:{
+          label:'Leverage (Murray 1995)',
+          file:'murray1995_elbow_flexor_imal_interactive.html',
+          subtitle:'Original Murray elbow-flexor IMAL page loaded directly so the leverage graph, extrapolations, and interaction stay identical to the main IMAL study page.',
+          status:'Original Murray 1995 IMAL page'
+        }
+      };
+
+      const modeSel=document.getElementById('mode');
+      const viewer=document.getElementById('viewer');
+      const subtitle=document.getElementById('subtitle');
+      const status=document.getElementById('status');
+      let mode='activation';
+
+      Object.entries(MODES).forEach(([key,cfg])=>{
+        const opt=document.createElement('option');
+        opt.value=key;
+        opt.textContent=cfg.label;
+        modeSel.appendChild(opt);
+      });
+
+      function loadMode(){
+        const cfg=MODES[mode];
+        modeSel.value=mode;
+        subtitle.textContent=cfg.subtitle;
+        status.textContent=cfg.status;
+        viewer.src=cfg.file;
+      }
+
+      modeSel.addEventListener('change',e=>{
+        mode=e.target.value;
+        loadMode();
+      });
+
+      loadMode();
+    </script>
+  </body>
+</html>

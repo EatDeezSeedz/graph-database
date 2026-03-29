@@ -1,0 +1,2436 @@
+nutrients
+Article
+
+Effects of Two Months of Very Low Carbohydrate Ketogenic
+Diet on Body Composition, Muscle Strength, Muscle Area, and
+Blood Parameters in Competitive Natural Body Builders
+Antonio Paoli 1,2 , Lorenzo Cenci 3 , PierLuigi Pompei 4 , Nese Sahin 5 , Antonino Bianco 6 , Marco Neri 7 ,
+Massimiliano Caprio 7,8 and Tatiana Moro 1, *
+1
+2
+3
+
+4
+
+5
+6
+
+7
+
+8
+
+*
+
+
+
+Department of Biomedical Sciences, University of Padua, 35131 Padua, Italy; antonio.paoli@unipd.it
+Research Center for High Performance Sport, UCAM, Catholic University of Murcia, 30107 Murcia, Spain
+Brain, Mind and Computer Science Doctoral Program, University of Padua, 35131 Padua, Italy;
+lorenzo.cenci@studenti.unipd.it
+Unit of Pharmacology, School of Pharmacy, University of Camerino, 62032 Camerino, Italy;
+pete.pompei@unicam.it
+Faculty of Sport Science, Ankara University, 06830 Ankara, Turkey; nesesahin@ankara.edu.tr
+Department of Psychology, Educational Science and Human Movement, Sport and Exercise Sciences Research
+Unit, University of Palermo, 90128 Palermo, Italy; antonino.bianco@unipa.it
+Department of Human Sciences and Promotion of the Quality of Life, San Raffaele Roma Open University,
+00166 Rome, Italy; neri@cervia.com (M.N.); massimiliano.caprio@uniroma5.it (M.C.)
+Laboratory of Cardiovascular Endocrinology, IRCCS San Raffaele Pisana, 00163 Rome, Italy
+Correspondence: tatiana.moro@unipd.it; Tel.: +39-049-827-5306
+
+Published: 26 January 2021
+
+Abstract: Background: Ketogenic diet (KD) is a nutritional approach that restricts daily carbohydrates, replacing most of the reduced energy with fat, while maintaining an adequate quantity of
+protein. Despite the widespread use of KD in weight loss in athletes, there are still many concerns
+about its use in sports requiring muscle mass accrual. Thus, the present study sought to investigate the influence of a KD in competitive natural body builders. Methods: Nineteen volunteers
+(27.4 ± 10.5 years) were randomly assigned to ketogenic diet (KD) or to a western diet (WD). Body
+composition, muscle strength and basal metabolic rate were measured before and after two months
+of intervention. Standard blood biochemistry, testosterone, IGF-1, brain-derived neurotrophic factor
+(BDNF) and inflammatory cytokines (IL6, IL1β, TNFα) were also measured. Results: Body fat significantly decreased in KD (p = 0.030); whilst lean mass increased significantly only in WD (p < 0.001).
+Maximal strength increased similarly in both groups. KD showed a significant decrease of blood
+triglycerides (p < 0.001), glucose (p = 0.001), insulin (p < 0.001) and inflammatory cytokines compared
+to WD whilst BDNF increased in both groups with significant greater changes in KD (p < 0.001).
+Conclusions: KD may be used during body building preparation for health and leaning purposes
+but with the caution that hypertrophic muscle response could be blunted.
+
+Publisher’s Note: MDPI stays neutral
+
+Keywords: ketogenic diet; strength; resistance training; health
+
+Citation: Paoli, A.; Cenci, L.; Pompei,
+P.; Sahin, N.; Bianco, A.; Neri, M.;
+Caprio, M.; Moro, T. Effects of Two
+Months of Very Low Carbohydrate
+Ketogenic Diet on Body Composition,
+Muscle Strength, Muscle Area, and
+Blood Parameters in Competitive
+Natural Body Builders. Nutrients
+2021, 13, 374. https://doi.org/
+10.3390/nu13020374
+Academic Editor: Fernando Naclerio
+Received: 24 December 2020
+Accepted: 22 January 2021
+
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+1. Introduction
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Ketogenic diet (KD) is a nutritional approach based on a reduced intake of carbohydrates (less than 20/30 g per day or 5% of total energy) [1–3], a high fat content and an
+adequate level of proteins, the latter generally close to or slightly higher than the Italian
+recommended daily intake (LARNs recommendation) of 0.9 g per kg of body weight [4].
+The metabolic advantage induced by KD is represented by the drastic reduction in carbohydrates, which force the body to primarily use fat as a fuel source as demonstrated by the
+decrease of the respiratory exchange ratio (RER) [5,6].
+Glucose is a fundamental energy source for the central nervous system, which is
+protected by the blood-brain barrier not allowing the passage of free fatty acids. After
+
+Nutrients 2021, 13, 374. https://doi.org/10.3390/nu13020374
+
+https://www.mdpi.com/journal/nutrients
+
+Nutrients 2021, 13, 374
+
+2 of 14
+
+a few days of KD, there is a drop in glucose availability due to reduced glycogen stores
+and thus an alternative energy source is required [7,8]. This energy is supplied by ketone
+bodies (KBs): acetoacetate (AcAc), 3-hydroxybutyrate (BHB) and acetone. KBs are generated through a process called ketogenesis from acetyl-CoA that occurs mainly in the
+mitochondrial matrix of the liver. Although created in the liver, this organ is unable to
+utilize KB due to a lack of the succinyl-CoA: 3-CoA transferase enzyme, which is required
+to convert acetoacetate to aceto-acetyl-CoA. KBs are thus released into the extrahepatic
+bloodstream and can be used by other tissues as energy source, by converting BHB into
+acetoacetate and then into aceto-acetyl-CoA, which can be further transformed into two
+acetyl-CoA molecules and enter the Krebs cycle [9]. At the end of this process, the energy
+produced from KBs is greater compared with glucose [2,10]. Initially, the necessary amount
+of acetyl-CoA is supplied by hepatic glycogenolysis and gluconeogenesis, but after four–
+seven days of KD, lipolysis of adipose tissue becomes the main source. In the long term,
+this adaptation translates into a reduction in the respiratory ratio which represents the
+metabolic switch towards a greater reliance on fatty acids [6,11].
+KD is a well-proven approach to promote weight loss [2], and it has recently been used
+as a valuable therapeutic option to treat metabolic disorders, cardiovascular disease and
+type 2 diabetes [12]. Its role in sport performance is still controversial, with some authors
+experiencing favorable effects [3,13] whilst other discourage the use of such dietetic approach, at least in endurance sports [14–16]. For athletes who compete in weight-category
+sports, KD could be a safe weight loss method, not compromising performance, therefore it
+may represent a legitimate and important tool for athletes. Paoli et al., for instance, demonstrated that 30 days of KD decreased body weight and body fat without negative effects
+on strength in high level gymnasts [13]. However, it might seem counterproductive for
+those athletes who seek maximum muscle hypertrophy [17], as several studies have shown
+no accretion of muscle mass during the ketosis phase [13,18–20]. Despite this, numerous
+bodybuilders use KD without a justified reason; however, no studies have yet explored its
+role in this particular sport category [21–23]. Professional bodybuilders’ goals are to keep
+a perfect balance between muscle size and body fat, in order to obtain the most accurate
+symmetry and muscular proportion. To achieve their objectives, bodybuilders undergo a
+cycle of different training intensities in combination with various dietetic regimen in order
+to increase muscle mass during the “off-season” and reduce fat mass during competition
+preparation [21]. In this context, KD seems to be a useful diet to reduce fat mass, but its
+role in preserving athletic performance and muscle hypertrophy in physique athletes is
+still poorly investigated.
+The high intensity and frequency of training employed by bodybuilders during their
+contest preparation may also induce muscle damage [24–26], which could ultimately result
+in a chronic inflammatory status, with increased level of IL-6, IL-1 and TNF-α [27]. On
+the other hand, a weight loss program can increase stress, anxiety and negatively affect
+athlete’s mood [28]. The brain-derived neurotrophic factor (BDNF) is a protein associated
+with major depressive disorders and stress situations [29,30]. It has been shown that
+KD may have positive effects on inflammation [31–33] and can reduce depression-like
+behaviors [34] in both animals and human models, but no data are available about its effect
+on athletes such as bodybuilders.
+The aim of the present study is to evaluate the effects of the ketogenic diet on body
+composition, muscle mass, strength and some blood parameters mainly related to lipid
+profile, hormonal (i.e., IGF-1) and inflammatory status (i.e., IL-6, TNFα and IL-1β) in
+competitive body building athletes. Basal metabolism and respiratory quotient were also
+assessed in order to monitor the metabolic adaptation to KD.
+2. Materials and Methods
+This study is a randomized controlled parallel study (Figure 1). After signing the
+informed consent, the participants were invited to refer to the Exercise Nutrition and
+Physiology laboratory of the Department of Biomedical Sciences of the University of
+
+Nutrients 2021, 13, x FOR PEER REVIEW
+
+3 of 14
+
+2. Materials and Methods
+Nutrients 2021, 13, 374
+
+3 of 14
+
+This study is a randomized controlled parallel study (Figure 1). After signing the informed consent, the participants were invited to refer to the Exercise Nutrition and Physiology laboratory of the Department of Biomedical Sciences of the University of Padova.
+During the
+first visit,
+thevisit,
+participants
+underwent
+a medicalascreening
+to ensureto
+eligibility
+Padova.
+During
+the first
+the participants
+underwent
+medical screening
+ensure
+for the study
+a foodand
+interview
+gather information
+on the participants’
+dietary habeligibility
+for and
+the study
+a foodto
+interview
+to gather information
+on the participants’
+its. Subjects
+were
+examined
+after overnight
+fasting forfasting
+blood for
+sample
+followed
+dietary
+habits.
+Subjects
+were examined
+after overnight
+bloodcollection,
+sample collection,
+by body composition
+measurements
+via bioimpedance
+analysis (BIA)
+and(BIA)
+basaland
+metabolic
+followed
+by body composition
+measurements
+via bioimpedance
+analysis
+basal
+rate assessment
+via indirect
+In a second
+visit, participants
+underwent
+maximetabolic
+rate assessment
+via calorimetry.
+indirect calorimetry.
+In a second
+visit, participants
+underwent
+mal strength
+teststests
+(1-RM)
+for bench
+press
+andand
+squat
+exercises.
+During
+thethe
+second
+visit,
+all
+maximal
+strength
+(1-RM)
+for bench
+press
+squat
+exercises.
+During
+second
+visit,
+all
+subjects
+received
+personalizeddiet
+dietprotocol,
+protocol,to
+tobe
+be followed
+followed for eight weeks;
+subjects
+received
+a apersonalized
+weeks; adherence
+adherence
+to
+tothe
+thedietary
+dietaryregimen
+regimenand
+and ketonemia
+ketonemia were
+were monitored
+monitored weekly
+weekly through
+through aa portable
+portable device.
+device.
+Weekly
+Weeklyresults
+resultsofofblood
+bloodBHB
+BHBwere
+weresent
+senttotothe
+theresearch
+researchteam:
+team:a avalue
+valueunder
+under0.5
+0.5mmol/L
+mmol/L
+was
+wasselected
+selectedas
+asnon-adherence
+non-adherenceindex
+indexand
+andused
+usedto
+toexclude
+excludesubjects
+subjectsfrom
+fromthe
+theanalysis.
+analysis.All
+All
+participants
+maintained
+BHB
+levels
+over
+the
+defined
+limit
+and
+were
+included
+in
+the
+final
+participants maintained BHB levels over the defined limit and were included in the final
+analysis.
+routine,
+which
+was
+personalized
+andand
+different
+analysis.Participants
+Participantskept
+kepttheir
+theirown
+owntraining
+training
+routine,
+which
+was
+personalized
+differfor
+Athletes
+took took
+part part
+in theinstudy
+in a period
+awayaway
+from from
+the competition
+entall
+forparticipants.
+all participants.
+Athletes
+the study
+in a period
+the compephase:
+workouts
+had a daily
+and were
+divided
+muscle
+training
+tition phase:
+workouts
+had aschedule
+daily schedule
+and
+were by
+divided
+bygroups,
+muscleand
+groups,
+and
+sessions
+exercisesexercises
+mainly aimed
+increasing
+strengthstrength
+and muscle
+mass. After
+training included
+sessions included
+mainlyataimed
+at increasing
+and muscle
+mass.
+eight
+subjects
+repeated
+the strength
+tests and
+body
+analysis
+and basal
+Afterweeks
+eight weeks
+subjects
+repeated
+the strength
+tests
+andcomposition
+body composition
+analysis
+and
+metabolism
+were
+reassessed
+72
+h
+after
+the
+last
+workout
+blood
+sampling
+basal metabolism were reassessed 72 h after he last workout blood sampling
+
+Figure1.1.Study
+Studydesign.
+design.ICF,
+ICF,Informed
+Informedconsent
+consentform
+formsigned;
+signed;BIA,
+BIA,Bioelectrical
+BioelectricalImpendence
+ImpendenceAnalysis;
+AnalyFigure
+sis; REE,
+metabolism;
+respiratory
+quotient;
+1 RM,
+1 repetition-maximum
+REE,
+BasalBasal
+metabolism;
+RER,RER,
+respiratory
+quotient;
+1 RM,
+1 repetition-maximum
+test;test;
+WD,WD,
+Western
+Western
+diet, KD, Ketogenic
+Diet.
+diet,
+KD, Ketogenic
+Diet.
+
+2.1.
+2.1. Subjects
+Subjects
+2
+Nineteen
+Nineteenmale
+maleathletes
+athletes(age
+(age27.42
+27.42±±10.54
+10.54years;
+years;BMI
+BMI26.80
+26.80±±1.91
+1.91kg/m
+kg/m2;; lean
+leanmass
+mass
+88.62
+±
+2.81%)
+were
+recruited
+from
+the
+sports
+centers
+of
+Emilia-Romagna
+and
+Veneto
+88.62 ±
+the sports centers of Emilia-Romagna and Veneto
+through
+through advertising
+advertising direct
+direct to
+to coaches.
+coaches. Subjects
+Subjects aged
+aged between
+between 20
+20 and
+and 40
+40 years
+yearsold
+oldwere
+were
+included
+in
+the
+study
+if
+they
+had
+at
+least
+five
+years
+of
+training
+experience
+and
+included in the study if they had at least five years of training experience and werewere
+comcompeting
+a recognized
+body
+building
+category.Exclusion
+Exclusioncriteria
+criteriawere
+were use
+use of
+peting in ainrecognized
+body
+building
+category.
+of steroids,
+steroids,
+chronic
+medication,
+metabolic
+disorders
+or any
+clinical
+problems
+that could
+chronicuse
+useofofany
+any
+medication,
+metabolic
+disorders
+or other
+any other
+clinical
+problems
+that
+be
+aggravated
+by
+the
+study
+procedures.
+Use
+of
+steroids
+was
+excluded
+by
+coaches’
+interview,
+could be aggravated by the study procedures. Use of steroids was excluded by coaches’
+and
+as athletes
+officially
+natural in
+body
+building
+Table 1 shows
+interview,
+and had
+as athletes
+hadenrolled
+officiallyinenrolled
+natural
+bodycategories.
+building categories.
+Table
+the
+anthropometric
+characteristics
+at
+baseline.
+Before
+any
+procedures,
+all
+participants
+1 shows the anthropometric characteristics at baseline. Before any procedures,
+all particisigned
+the informed
+consentconsent
+for datafor
+collection
+approved
+by the ethical
+committee
+of the
+pants signed
+the informed
+data collection
+approved
+by the ethical
+committee
+Department
+of
+Biomedical
+Sciences,
+University
+of
+Padova
+(HEC-DSB
+11/19),
+according
+of the Department of Biomedical Sciences, University of Padova (HEC-DSB 11/19), accordto
+Declaration
+of Helsinki.
+AtAt
+thethe
+end
+ofof
+the
+ingthe
+to current
+the current
+Declaration
+of Helsinki.
+end
+thefirst
+firstscreening,
+screening,subjects
+subjectswere
+were
+randomly
+assigned
+to
+these
+experimental
+groups:
+ketogenic
+diet
+(KD;
+n
+=
+randomly assigned to these experimental groups: ketogenic diet (KD; n = 9)
+9) or
+orcontrol
+control
+western diet (WD; n = 10). The study was retrospectively registered at clinical trials.gov as
+western diet (WD; n = 10). The study was retrospectively registered at clinical trials.gov
+NCT04629365.
+as NCT04629365.
+
+Nutrients 2021, 13, 374
+
+4 of 14
+
+Table 1. Baseline characteristics of Ketogenic Diet (KD) and control western diet (WD) groups.
+
+Age (y)
+Weight (kg)
+BMI (kg/m2 )
+Lean mass (%)
+
+KD (n = 9)
+
+WD (n = 10)
+
+p-Value
+
+26.22 ± 5.09
+86.39 ± 15.42
+26.97 ± 1.86
+88.88 ± 2.66
+
+31.67 ± 10.39
+89.04 ± 11.73
+26.66 ± 2.04
+88.38 ± 3.06
+
+0.16
+0.68
+0.73
+0.71
+
+All values are means ± SD. KD, ketogenic diet group; WD, western diet group.
+
+2.2. Measurements
+Subjects underwent blood sampling after an overnight fast for blood glucose, insulin,
+total cholesterol, HDL cholesterol, LDL cholesterol, triglycerides, aspartate transaminase
+(AST), alanine amino transferase (ALT), total testosterone, insulin growth factor 1 (IGF1), brain-derived neurotrophic factor (BDNF), interleukin-1 (IL-1); interleukin-6 (IL-6)
+and tumor growth factor (TNF-α). All the analysis was performed by an accredited and
+certified laboratory.
+Body composition assessment was performed by Bioelectrical Impendence Analysis
+(Akern mod. STA/BIA 101/S, Pontassieve, FI, Italy). Subjects were asked to lie down
+and rest for about three–five min in order to allow a balanced redistribution of body
+fluids. Four skin electrodes were then applied, one on the back of the hand, one on the
+metacarpal-phalangeal joint of the third finger, one on the dorsum of the ipsilateral foot
+at the metatarsal-phalangeal joint of the third finger and one on the ankle joint. Using
+dedicated analysis software (Akern, Body Pro, Pontassieve, Italy) we obtained the values
+of lean mass (FFM) and fat mass (FM).
+Basal metabolism (REE) and respiratory quotient (RER) were measured via indirect
+calorimetry. Before each procedure, the respiratory gas analyzer (Max Encore 29 System,
+Vmax, Viasys Healthcare, Inc., Yorba Linda, CA, USA) was calibrated using a special
+syringe. During the test, participants lay on a cot in a room that was not too bright,
+quiet and with a temperature of about 24 ◦ C. During the test, participants were asked to
+breathe regularly in a silicone mask that allowed the analysis of respiratory gases. Data
+was collected for 30 min, however, only the last 20 min were taken into account for data
+analysis. REE was calculated starting from oxygen consumption (VO2 ), based on the Weir
+equation, while RER was derived from the ratio between the production of VO2 and carbon
+dioxide (VCO2 ).
+Muscle strength was assessed during the second visit. 1-RM test was performed
+during the squat exercise for the lower limbs’ strength, and during the bench press exercise,
+for the pectorals as previously described [35].
+Subjects were requested to refrain from any physical exercise other than normal
+activities of daily living for at least 48 h prior to testing. Repetition maximum testing
+was performed according to the guidelines of the National Strength and Conditioning
+Association [36]. Briefly, subjects performed a general warm-up prior to testing, followed
+by a specific warm-up set for each exercise consisting of 5 repetitions at 50% of an estimated
+1-RM followed by one to two sets of 2–3 repetitions at a load corresponding to 60–80%
+of 1-RM. Subjects were then asked to gradually reach the load with which they could
+perform a maximum of one repetition while maintaining the correct realization of the
+movement: for the bench press the barbell had to touch the chest and return to full arm
+extension at each repetition without bouncing, and during the squat each movement had
+to be completed with thighs parallel to the floor
+2.3. Diet Protocols
+The diet was formulated by a dietary team on the basis of the food interview that took
+place during the first screening visit and in consideration of the specific caloric energy and
+macronutrient needs for body-building athletes [37] using software for the elaboration of
+diets (Dieta Ragionata 7.0).
+
+Nutrients 2021, 13, 374
+
+5 of 14
+
+The two diet regimens were isocaloric and included the same amount of protein per
+kg of body weight. The caloric intake of the dietary patterns provided was calculated by
+assigning an energy expenditure of 45 kcal/kg of muscle mass, while the protein intake
+was maintained at 2.5 g/kg/body weight as suggested by Apong in 2019 [37]. The two
+protocols differed in the distribution of fats and carbohydrates; the latter were kept below
+5% daily (less than 50 g/day) in the KD group while they represented 55% of the caloric
+intake in the WD group. The caloric and macronutrient distribution are shown in Table 2.
+Bodybuilders are known to slavishly follow prescribed diets, normally composed of a
+restricted and repetitive food regimen [23,38,39]. This condition helped to guarantee the
+adherence to the prescribed diet in both groups throughout the study. Moreover, blood
+BHB was regularly checked to avoid exit from ketosis in the KD group.
+Table 2. Diet composition and macronutrients distribution.
+
+Total Energy intake (kcal/day)
+Protein (kcal)
+Carbohydrates (kcal)
+Fat (kcal)
+Protein (g)
+Carbohydrates (g)
+Fat (g)
+Protein (%)
+Carbohydrates (%)
+Fat (%)
+
+KD (n = 9)
+
+WD (n = 10)
+
+3443.70 ± 545.94
+863.89 ± 154.19
+175.00 ± 28.17
+2379.81 ± 393.78
+215.97 ± 38.55
+43.75 ± 7.04
+264.42 ± 43.75
+24.65 ± 1.24
+5.00 ± 0.00
+68.00 ± 2.27
+
+3529.71 ± 374.06
+890.40 ± 117.30
+1952.50 ± 209.43 *
+707.10 ± 63.66 *
+222.60 ± 29.33
+488.13 ± 52.36 *
+78.57 ± 7.07 *
+25.03 ± 0.91
+55.00 ± 0.00 *
+19.97 ± 0.91 *
+
+All values are means ± SD. * significantly different from KD group (p < 0.05). KD, ketogenic diet group; WD,
+western diet group.
+
+2.4. Statistical Analysis
+Data analysis was performed using GraphPad Prism software version 8.4.3 (GraphPad Software, San Diego, CA, USA). Sample size was obtained assuming within subject
+variability of 30% and a fixed power of 0.8, and an alpha risk of 0.05 for the main variables.
+The analysis determined that at least eight participants per group were needed to achieve
+the above parameters. Subjects were randomly allocated in one of the two groups using a
+using computer generated software.
+Results are presented as mean ± SD. After testing for normal distribution with the
+Shapiro-Wilk W test, a two-way ANOVA for repeated measures was performed to compare
+the two types of diet through a “time × diet” analysis. Whenever significant differences in
+values were found, the post-hoc Bonferroni test was used to identify specific intragroup
+differences. The p-value was set at 0.05.
+3. Results
+All the recruited subjects successfully completed the study.
+Body composition analysis showed that the ketogenic regimen (KD) decreased body
+weight by approximately 1% (from 86.39 ± 15.42 kg to 85.51 ± 13.62 kg), while the WD
+determined an increase in weight of about 2% (from 89.04 ± 11.73 kg to 90.37 ± 9.91 kg).
+Although these differences were not statistically significant (p > 0.05), they induced a
+significant change in body composition (Figure 2). Fat mass significantly decreased only
+in the KD group (KD: 9.86 ± 3.79 kg to 8.42 ± 2.41 kg, p < 0.05 vs. WD: 10.60 ± 3.92 kg
+to 9.70 ± 2.53 kg) whereas, lean mass significantly increased only in the WD group (KD:
+from 76.53 ± 12.13 kg to 77.09 ± 11.47 kg vs. WD: from 78.44 ± 8.31 kg to 80.67 ± 7.72 kg,
+p < 0.05) presenting a significant time × diet interaction (p = 0.015). In terms of the fat
+mass and lean mass distribution, it was observed that both groups reduced fat mass (KD:
+−11.32 ± 7.88% vs. WD: −6.70 ± 10.02%), but the difference was statistically significant
+only in KD group (p < 0.05). The decrease in the percentage of fat mass in the KD group
+
+Nutrients 2021, 13, 374
+Nutrients 2021, 13, x FOR PEER REVIEW
+
+6 of 14
+6 of 14
+
+(p < 0.05). The decrease in the percentage of fat mass in the KD group was associated with
+a significant
+increase
+lean massincrease
+(KD: + 1.63
+± 1.49%;
+= 0.01+ vs.
++1.20 ±p1.62%;
+=
+was
+associated
+with ainsignificant
+in lean
+massp(KD:
+1.63WD:
+± 1.49%;
+= 0.01 pvs.
+0.05).+1.20 ± 1.62%; p = 0.05).
+WD:
+
+A
+
+B
+
+C
+
+¶
+
+20
+
+60
+40
+
+Fat Free Mass (kg)
+
+80
+
+15
+10
+5
+
+20
+0
+
+0
+pre post
+
+pre post
+
+✱
+
+100
+✱
+
+100
+
+Fat Mass (kg)
+
+Body Weight (kg)
+
+120
+
+KD
+
+80
+
+WD
+
+60
+40
+20
+0
+
+pre post
+
+pre post
+
+pre post
+
+pre post
+
+Figure 2. Body composition results after 8 weeks of diet. (A) body weight; (B) Fat Mass; (C) Fat Free Mass. * significantly
+Figure 2. Body composition results after 8 weeks of diet. (A) body weight; (B) Fat Mass; (C) Fat Free Mass. * significantly
+different from pre-value (p < 0.05); ¶ time × diet interaction (p < 0.05). KD, ketogenic diet group; WD, western diet group.
+different from pre-value (p < 0.05); ¶ time × diet interaction (p < 0.05). KD, ketogenic diet group; WD, western diet group.
+
+Strength was increased in both study groups, both in the bench press test and in squat
+Strength was increased in both study groups, both in the bench press test and in squat
+test. There were no significant differences between study groups. As shown in Table 3,
+test. There were no significant differences between study groups. As shown in Table 3,
+the KD group improved their performance in bench press and squats by 4.13% and 3.62%;
+the KD group improved their performance in bench press and squats by 4.13% and 3.62%;
+while the WD group improved by 3.75% and 6.40%, respectively.
+while the WD group improved by 3.75% and 6.40%, respectively.
+Table 3. Muscle strength and basal metabolism results.
+Table 3. Muscle strength and basal metabolism results.
+KD (n = 9)
+
+WD (n = 10)
+
+Diet
+
+Time
+
+Time × Diet
+
+KD (n = 9)
+WD (n = 10)
+Time pTime
+×Diet
+p-Value
+p-Value
+Diet p-Value p-Value
+Pre
+Post
+Value
+p-Value
+Pre
+Post
+Pre
+Post
+Bench press 1 RM (kg)
+129.78 ± 20.98
+134.44 ± 17.14 *
+136.40 ± 11.27
+10.24 *
+0.0009
+ns
+Bench press
+1
+134.44
+± 17.14 136.40 141.40
+± 11.27±141.40
+± 10.24 ns
+Squat 1 RM (kg)
+181.33 ± 36.52
+187.78
+± 37.41
+*
+176.10 ± 27.87
+187.00 ± 26.96 *
+ns ns
+<0.0001
+nsns
+129.78
+± 20.98
+0.0009
+RM (kg)
+*
+*
+Basal metabolism (REE)
+2014.67 ± 324.04
+2052.56 ± 317.99
+2069.10 ± 229.32
+2125.20 ± 206.08 *
+ns
+0.0006
+ns
+(Kcal/day)
+Squat 1 RM
+187.78 ± 37.41
+187.00 ± 26.96
+181.33 ± 36.52
+176.10 ± 27.87
+ns
+<0.0001
+ns
+Respiratory exchange
+0.82 ± 0.01 (kg)
+0.79 ± 0.02 *
+0.83*± 0.01
+0.83 ± 0.02 # *
+0.0022
+0.0002
+0.0001
+ratio (RER)
+Basal metab2014.67 ±
+2052.56 ±
+2069.10 ±
+2125.20 ±
+All values are means ± SD. * significantly
+(p < 0.05). KD,
+olism (REE)different from pre value (p < 0.05); # significantly different from
+ns KD group
+0.0006
+ns
+317.99
+229.32
+206.08 *
+ketogenic diet group; WD, western diet group. 324.04
+(Kcal/day)
+Respiratory
+Analysis by indirect calorimetry (Table 3) showed a significant
+increase
+in REE
+only
+exchange ra- 0.82 ± 0.01 0.79 ± 0.02 * 0.83 ± 0.01 0.83 ± 0.02 #
+0.0022
+0.0002
+0.0001
+intio
+the
+WD group (WD: + 2.85 ± 1.78%; p < 0.05 vs. KD: + 1.99 ± 3.04%). RER revealed a
+(RER)
+Pre
+
+Post
+
+significant
+time
+× diet
+(p <
+0.0001)from
+withpre
+a significant
+decrease
+only in different
+the KD
+All
+values are
+means
+± SD.interaction
+* significantly
+different
+value (p < 0.05);
+# significantly
+group
+(−group
+3.77 ±
+= 0.02),
+whilst
+ingroup;
+the WD
+group
+it remained
+unchanged.
+from
+KD
+(p 1.86%
+< 0.05).pKD,
+ketogenic
+diet
+WD,
+western
+diet group.
+
+Blood analyses revealed an improvement in the lipid profile only in the KD group
+(TableAnalysis
+4). Indeed,
+cholesterol
+significantly
+KD groupincrease
+(KD: −3.51
+± 3.72%,
+by total
+indirect
+calorimetry
+(Table decreased
+3) showedinathe
+significant
+in REE
+only
+p
+<
+0.05
+vs.
+WD:
+−
+1.59
+±
+3.51%)
+and
+the
+HDL
+component
+exhibited
+a
+significant
+time
+in the WD group (WD: + 2.85 ± 1.78%; p < 0.05 vs. KD: + 1.99 ± 3.04%). RER revealed×a
+diet interaction
+= 0.004),
+with an
+the aKD
+group (4.93
+± 3.53%,
+< 0.05
+vs.
+significant
+time (p
+× diet
+interaction
+(p increase
+< 0.0001)inwith
+significant
+decrease
+onlypin
+the KD
+WD:
+1.07 ±±4.46%)
+the difference
+groupsit after
+eight unchanged.
+weeks of intervention
+group−(−3.77
+1.86% and
+p = 0.02),
+whilst in between
+the WD group
+remained
+was statistically
+different.
+Triglycerides
+also presented
+a significant
+time
+Blood analyses
+revealed
+an improvement
+in the lipid
+profile only
+in ×
+thediet
+KDinteracgroup
+tion (p 4).
+< 0.001),
+in which
+lipids significantly
+decreased
+in the
+(−17.44
+7.16%;
+(Table
+Indeed,
+total cholesterol
+significantly
+decreased
+in KD
+the group
+KD group
+(KD:±−3.51
+±
+p
+<
+0.0001)
+but
+not
+in
+the
+WD
+group
+(
+−
+1.59
+±
+5.50%).
+3.72%, p < 0.05 vs. WD: −1.59 ± 3.51%) and the HDL component exhibited a significant time
+× diet interaction (p = 0.004), with an increase in the KD group (4.93 ± 3.53%, p < 0.05 vs.
+WD: −1.07 ± 4.46%) and the difference between groups after eight weeks of intervention
+was statistically different. Triglycerides also presented a significant time × diet interaction
+(p < 0.001), in which lipids significantly decreased in the KD group (−17.44 ± 7.16%; p <
+0.0001) but not in the WD group (−1.59 ± 5.50%).
+
+(mg/dL)
+LDL
+(mg/dL)
+TG (mg/dL)
+
+113.33 ±
+8.88
+121.00 ±
+26.70
+
+*
+108.00 ±
+10.28
+99.22 ±
+19.72 *
+
+#
+116.20 ±
+18.39
+112.70 ±
+13.06
+
+118.60 ±
+20.64
+114.70 ±
+13.21
+
+ns
+
+ns
+
+ns
+
+ns
+
+<0.0001
+
+0.0003
+
+Nutrients 2021, 13, 374
+
+7 of 14
+Transaminase
+Aspartate
+transami38.78 ± 2.82 38.44 ± 2.54 39.10 ± 3.67 39.30 ± 4.11
+ns
+ns
+ns
+nase (AST)
+Table 4. Blood parameters.
+(mg/dL)
+Alanine
+KD (n = 9)
+WD (n = 10)
+Diet
+Time
+Time × Diet
+p-Value
+p-Value
+p-Value
+amino Pre
+Post
+Pre
+Post
+transferase
+43.11
+±
+6.51
+38.56
+±
+3.30*
+42.10
+±
+6.59
+44.80
+±
+5.92
+ns
+ns
+0.0086
+Lipid profile
+(ALT)
+Total Cholesterol (mg/dL)
+194.78 ± 8.88
+187.89 ± 10.15 *
+193.90 ± 18.18
+190.60 ± 16.73
+ns
+0.0071
+ns
+HDL (mg/dL)
+57.22 ± 3.33
+60.00 ± 3.33 *
+52.50 ± 6.11
+51.80 ± 5.05 #
+0.0072
+ns
+0.0039
+(mg/dL)
+LDL (mg/dL)
+113.33 ± 8.88
+108.00 ± 10.28
+118.60 ± 20.64
+116.20 ± 18.39
+ns
+ns
+ns
+Anabolic
+TG (mg/dL)
+121.00Hormones
+± 26.70
+99.22 ± 19.72 *
+114.70 ± 13.21
+112.70 ± 13.06
+ns
+<0.0001
+0.0003
+TestosTransaminase
+19.32 ± 4.09
+total
+21.76 ± 5.33
+20.96
+± 5.13 21.27
+ns
+0.0094
+0.0016
+Aspartate transaminase (AST) (mg/dL) terone38.78
+± 2.82
+38.44 ± 2.54
+39.10
+± 3.67
+39.30 ±
+±4.91
+4.11
+ns
+ns
+ns
+*
+Alanine amino transferase (ALT) (mg/dL) (nmol/L)
+43.11 ± 6.51
+38.56 ± 3.30 *
+42.10 ± 6.59
+44.80 ± 5.92
+ns
+ns
+0.0086
+Anabolic Hormones
+IGF-1
+213.33 ±
+181.50 ±
+222.40 ±
+219.80 ±
+ns
+0.0050
+0.0124
+Testosterone total (nmol/L)
+21.76 ± 5.33 39.4119.32 ± 4.09
+* * 20.96 34.27
+± 5.13
+21.27
+± 4.91
+ns
+0.0094
+0.0016
+(ng/mL)
+25.93
+23.42
+#
+IGF-1 (ng/mL)
+213.33 ± 39.41
+181.50 ± 25.93 *
+222.40 ± 34.27
+219.80 ± 23.42 #
+ns
+0.0050
+0.0124
+All values are means ± SD. * significantly different from pre value (p < 0.05); # significantly different
+All values are means ± SD. * significantly
+different
+from
+pre
+value
+(p
+<
+0.05);
+#
+significantly
+different
+from
+KD
+group
+(p
+<
+0.05).
+KD,
+from KD group (p < 0.05). KD, ketogenic diet group; WD, western diet group.
+ketogenic diet group; WD, western diet group.
+
+Similarly to
+to what
+glucose
+andand
+insulin
+concentrations
+Similarly
+what was
+was seen
+seenfor
+forHDL
+HDLcholesterol,
+cholesterol,
+glucose
+insulin
+concentraalso
+significantly
+decreased
+only
+in
+the
+KD
+group
+at
+the
+end
+of
+the
+eight
+weeks
+treattions also significantly decreased only in the KD group at the end of the eightof
+weeks
+ment
+(Figure
+3).
+Plasma
+glucose
+levels
+were
+reduced
+from
+98.67
+±
+6.68
+mg/dL
+to
+92.22
+of treatment (Figure 3). Plasma glucose levels were reduced from 98.67 ± 6.68 mg/dL±
+4.76
+mg/dL
+in the
+KD group
+< 0.001),
+101.20
+± 3.12
+mg/dL
+at ±
+99.30
+mg/dL
+to
+92.22
+± 4.76
+mg/dL
+in the(pKD
+groupand
+(p from
+< 0.001),
+and
+from
+101.20
+3.12± 4.76
+mg/dL
+at
+in
+the
+WD
+group.
+Insulinemia
+decreased
+from
+2.40
+±
+1.81
+µ
+U/mL
+to
+1.81
+±
+0.31
+µ
+U/mL
+in
+99.30 ± 4.76 mg/dL in the WD group. Insulinemia decreased from 2.40 ± 1.81 µU/mL
+the
+KD
+group
+(p
+<
+0.0001)
+while
+in
+the
+WD
+group
+it
+went
+from
+2.42
+±
+0.39
+µ
+U/mL
+to
+2.34
+to 1.81 ± 0.31 µU/mL in the KD group (p < 0.0001) while in the WD group it went from
+± 0.33
+U/mL.
+2.42
+± µ0.39
+µU/mL to 2.34 ± 0.33 µU/mL.
+
+A
+
+B
+3
+
+✱
+
+#
+
+✱
+
+#
+100
+
+50
+
+0
+
+Insulin (uIU/mL)
+
+Glucose (mg/dL)
+
+¶
+
+¶
+
+150
+
+KD
+WD
+
+2
+
+1
+
+0
+
+pre post
+
+pre post
+
+pre post
+
+pre post
+
+Figure 3. Insulin sensitivity results. (A) plasma glucose concentration; (B) plasma insulin concentration. * significantly
+different from pre-value (p < 0.05); # significantly different from KD group (p < 0.05); ¶ time × diet interaction (p < 0.05).
+KD, ketogenic diet group; WD, western diet group.
+
+Transaminase analysis (Table 4) showed no difference for aspartate transaminase
+(AST), while a significant time × diet interaction (p < 0.01) was observed in alanine amino
+transferase (ALT), whose concentrations decreased significantly only in the KD group
+(p < 0.05) but not in the WD group.
+As regards hormone levels, the trend already observed in other studies was confirmed,
+in that anabolic hormones, such as testosterone and IGF-1 (Table 4), decreased in KD group.
+A significant time × diet interaction was observed (p < 0.05), resulting in a significant decrease in the KD group (total testosterone −10.22 ± 6.95%, p < 0.001; IGF-1 −16.43 ± 8.52%,
+p < 0.05) but not in the WD (testosterone total from −2.01 ± 5.45%; IGF-1 −0.18 ± 9.48%).
+The analysis of inflammatory markers did not reveal any changes in IL-1 (KD: from
+0.92 ± 0.14 pg/mL to 0.87 ± 0.10 pg/mL; WD: from 0.93 ± 0.10 pg/mL to 0.96 ± 0.08 pg/mL),
+while a significant time × diet interaction (p < 0.05) emerged for IL-6 and TNF-α (Figure 4).
+The IL-6 presented an opposite trend in the two groups; in fact it decreased in the KD group
+
+± 8.52%, p < 0.05) but not in the WD (testosterone total from −2.01 ± 5.45%; IGF-1 −0.18 ±
+9.48%).
+The analysis of inflammatory markers did not reveal any changes in IL-1 (KD: from
+0.92 ± 0.14 pg/mL to 0.87 ± 0.10 pg/mL; WD: from 0.93 ± 0.10 pg/mL to 0.96 ± 0.08 pg/mL),
+8 of 14
+while a significant time × diet interaction (p < 0.05) emerged for IL-6 and TNF-α (Figure
+4). The IL-6 presented an opposite trend in the two groups; in fact it decreased in the KD
+group by 13.35% and increased in the WD group by 6.52%, resulting in a statistically significant
+difference
+between
+theWD
+twogroup
+groups
+the end
+of the in
+study
+protocol (KD:
+1.17 ±
+by
+13.35%
+and increased
+in the
+byat
+6.52%,
+resulting
+a statistically
+significant
+0.30
+pg/mL
+vs.
+WD:
+1.55
+±
+0.39
+pg/mL;
+p
+<
+0.05).
+TNF-α,
+on
+the
+other
+hand,
+remained
+difference between the two groups at the end of the study protocol (KD: 1.17 ± 0.30 pg/mL
+almost
+unchanged
+in the
+WD (from
+5.33 ±TNF-α,
+0.64 pg/mL
+to 5.30
+± 0.58
+pg/mL),
+while
+it sigvs.
+WD:
+1.55 ± 0.39
+pg/mL;
+p < 0.05).
+on the
+other
+hand,
+remained
+almost
+nificantly decreased
+the 5.33
+KD ±
+group
+(from 5.12
+± 0.61
+pg/mL
+to 4.69
+± 0.38
+pg/mL; p <
+unchanged
+in the WD in
+(from
+0.64 pg/mL
+to 5.30
+± 0.58
+pg/mL),
+while
+it significantly
+0.01).
+decreased
+in the KD group (from 5.12 ± 0.61 pg/mL to 4.69 ± 0.38 pg/mL; p < 0.01).
+
+Nutrients 2021, 13, 374
+
+A
+
+B
+
+C
+¶
+
+¶
+
+1.0
+0.5
+
+BDNF (pg/mL)
+
+TNF- (pg/mL)
+
+1.5
+
+150
+
+6
+4
+2
+0
+
+0.0
+pre post
+
+pre post
+
+✱
+
+KD
+
+✱
+
+#
+
+2.0
+
+IL-6 (pg/mL)
+
+¶
+
+8
+
+2.5
+
+#
+
+100
+
+WD
+
+50
+
+0
+
+pre post
+
+pre post
+
+pre post
+
+pre post
+
+Figure
+neurotrophic
+factor
+(BDNF).
+(A)(A)
+IL-6IL-6
+concentration;
+(B) (B)
+TNF-α
+concenFigure4.4.Inflammatory
+Inflammatorymarkers
+markersand
+andbrain-derived
+brain-derived
+neurotrophic
+factor
+(BDNF).
+concentration;
+TNF-
+contration;
+(C) BDNF
+concentration.
+* significantly
+different
+from pre-value
+(p < 0.05);
+significantly
+different
+from KD
+group
+centration;
+(C) BDNF
+concentration.
+* significantly
+different
+from pre-value
+(p < #0.05);
+# significantly
+different
+from
+KD
+(pgroup
+< 0.05);
+time ×
+diet interaction
+(p < 0.05).
+ketogenic
+diet group;
+WD, western
+diet group.
+(p <¶0.05);
+¶ time
+× diet interaction
+(p < KD,
+0.05).
+KD, ketogenic
+diet group;
+WD, western
+diet group.
+
+Finally,
+Finally,BDNF
+BDNFconcentrations
+concentrations(Figure
+(Figure4)
+4)significantly
+significantlyincreased
+increasedonly
+onlyin
+inthe
+theKD
+KDgroup
+group
+(+25.84
+±
+11.01%;
+p
+<
+0.0001)
+at
+the
+end
+of
+the
+eight
+weeks
+of
+treatment
+(KD:
+108.00
+±
+(+25.84 ± 11.01%; p < 0.0001) at the end of the eight weeks of treatment (KD: 108.00
+± 15.68
+15.68
+pg/mL
+vs.88.60
+WD: ±88.60
+10.62 pg/mL;
+p < 0.01).
+pg/mL
+vs. WD:
+10.62±pg/mL;
+p < 0.01).
+4. Discussion
+4. Discussion
+To our knowledge this is the first study analyzing the effects of a KD on bodybuilders.
+To our knowledge this is the first study analyzing the effects of a KD on bodybuildOur findings confirm several preliminary data on the effects of KD diet on different power
+ers. Our findings confirm several preliminary data on the effects of KD diet on different
+sports. KD induced a significant loss of fat mass without affecting muscle performance.
+power sports. KD induced a significant loss of fat mass without affecting muscle perforInterestingly, fat free mass was maintained throughout the two months of KD despite a
+mance. Interestingly,
+fatblood
+free mass
+was hormone
+maintained
+throughout the
+two months
+of KD
+designificant
+reduction in
+anabolic
+concentrations.
+Moreover,
+blood
+lipids,
+spite a significant
+reduction
+in blood
+anabolic
+hormone
+Moreover, blood
+glucose
+and inflammatory
+markers
+were
+improved
+in theconcentrations.
+KD group.
+lipids,
+glucose
+and
+inflammatory
+markers
+were
+improved
+in
+the
+KD
+group.
+While the effects of KD on fat mass are consistent in all studies evaluating body
+While the
+effectsKD
+of regimens
+KD on fat on
+mass
+are consistent
+in the
+all studies
+evaluating
+body comcomposition
+during
+athletes
+[13,20,40],
+same was
+not confirmed
+for
+position
+during
+KD
+regimens
+on
+athletes
+[13,20,40],
+the
+same
+was
+not
+confirmed
+lean
+lean mass, with some authors showing a catabolic effect of KD on muscle [19,41–43],for
+others
+mass, with
+showing
+a catabolic
+effect
+of KD
+on muscle
+[19,41–43],
+showing
+no some
+directauthors
+effects [13,44].
+Only
+one study
+showed
+a higher
+increase
+in lean others
+body
+showing
+no direct
+effects
+[13,44].
+Onlyofone
+study showed
+higher
+in lean
+body
+mass
+that was
+measured
+after
+one week
+carbohydrate
+recharge
+[45].increase
+Muscle mass
+accrual
+mass
+that
+was
+measured
+after
+one
+week
+of
+carbohydrate
+recharge
+[45].
+Muscle
+mass
+acis obtained under a chronic stimulation of muscle protein synthesis, which is governed
+by hormonal (IGF-1, testosterone) and transcriptional regulatory pathway (Akt/mTOR).
+During KD, the reduction in carbohydrates intake leads to a decrease in insulin levels [46].
+Insulin is the main regulator of glucose uptake and is regulate by plasma glucose level;
+as such, lower level of blood glucose caused by the reduction of carbohydrates ingestion,
+inhibit β-cells insulin secretion [9]. Insulin is also a potent anabolic hormone [47], and
+a reduction in insulin levels facilitates mobilization from fat stores due to its effects on
+lipo-synthesis/lipolysis balance; on the other hand, it may inhibit muscle growth pathway.
+On a transcriptional level, KD seems to be able to increase the phosphorylation of the
+AMP-activated protein kinase (AMPK) [48], which has a well-known effect on Akt/mTOR
+pathway’s inhibition [30]. In the present study we were not able to examine the effect of
+KD on a molecular level, but we observed, as expected, a significant decrease in insulin
+concentrations, which may play a role in body fat utilization [49]. We also observed an
+unexpected decrease in testosterone concentration. Most of the studies conducted so far
+showed a negligible effect of KD on testosterone [50,51], whilst our results showed a drop of
+~11%, accompanied by a significant decrease in IGF-1 (~15%). Taken together, the anabolic
+hormonal response seems to be blunted during the KD regimen, and this may explain
+the attenuated hypertrophic response that was observed. However, in contrast with the
+studies that showed a decrease in lean body mass during KD, we observed a preservation
+
+Nutrients 2021, 13, 374
+
+9 of 14
+
+of FFM; this is most likely due to the effect of resistance training stimuli and also to the
+maintenance of an high dietary protein level (2.5 g/BW) [13,14,17,52].
+If a low carbohydrate intake has affected muscle gain, it did not alter muscle performance. Strength and power athletes are recommended to maintain a higher carbohydrate
+intake (3–8 g/kg) [53–55] to sustain the intramuscular glycogen stores and engage in greater
+training volume. It has been observed that during KD regimen muscle glycogen stores
+can decrease by ~40–50% [56,57]. In a recent study from Chappell et al. [23], the authors
+observed that bodybuilders with better results during the competition season normally
+consumed a greater amount of carbohydrates (5.1 g/kg) compared to non-placed athletes.
+Recently, Vargas-Molina et al., while confirming the maintenance of lean body mass during
+KD in strength trained women, found a decrease of strength in bench press and squat
+exercises [20]. On the contrary, despite the above cited guidelines, we [13] and others [58]
+observed similar improvement in strength expression after KD compared to normal diet
+groups. Although further studies are required to better explore this aspect, the majority of
+studies seem to indicate that KD does not impact muscle performance.
+Variations in the basal metabolic rate and respiratory quotient parameters confirm
+the ability of KD to lower the RER, indicating a shift towards lipid metabolism. Lower
+RER value seems to predict a better ability to handle future body weight [59,60]; this could
+be an advantage for bodybuilders, who normally undergo to repetitive cycle of bulking
+and cutting during their carrier. Moreover, REE did not change in the KD group while
+it was slightly increased in the WD group, suggesting that KD does not negatively affect
+basal metabolism. The preservation of lean mass observed in the present study certainly
+contributed to the control of basal metabolism [61]. Additionally, these results suggest that
+an improvement in resting nutrient oxidation could be one of the main mechanisms by
+which KD reduces body fat even though the energy intake was similar in the two groups.
+There is still a debate about the mechanisms underlying the demonstrated greater effects
+of KD on weight loss in ecological studies. There are some studies pointing out that that
+the fat loss induced by a ketogenic diet relies only on calorie deficit [62] whilst others
+suggested that KD induces an increase in REE [52,63]. No significant differences in energy
+intake between groups were detected in our study. Thus, a possible explanation of the
+greater fat loss in the KD may rely on increased (not measured in our study) spontaneous
+physical activity during the daily normal activities as suggested by Hall et al. [64].
+Bodybuilders’ training regimen, which unfortunately is sometimes accompanied with
+the use of self-administrated steroids, may increase LDL concentration, and reduce HDL
+levels, increasing the risk of cardiovascular diseases [65,66]. In this context, KD may
+represent a useful tool to control lipid markers. The improvement in lipid profile with KD
+is well documented in obese and overweight subjects [67,68], whilst the results are still
+contradictory in athletes, probably due to the difference in the type of training (aerobic or
+anaerobic activities) adopted in the study design [19,69]. We observed an improvement of
+TGs, HDL and LDL cholesterol blood concentrations. KD can directly influence endogenous
+cholesterol synthesis via the reduction of insulin production: insulin is indeed one of the
+major activators of the HMGCoA reductase, the key enzyme of cholesterol biosynthesis.
+The concomitant reduction in carbohydrates intake and increase in dietary cholesterol
+(derived from fat intake) results in a consequent inhibition of endogenous cholesterol
+production [70]. Moreover, during KD, dietary triglycerides are rapidly metabolized to
+release glycerol, which can be used in the liver for energy purposes [71].
+KD effect on insulin and glycemic control deserves mention. Several researches have
+demonstrated that KD can reduce glucose and insulin concentration in obese, insulin
+resistant individuals and diabetics [72–75]. This effect is not only related to a reduced
+intake of glucose within the diet, but also to the improvement in insulin sensitivity [12]. In
+the present study, despite the healthy status of the participants, KD induced a significant
+drop in blood glucose which remained within normal levels. We also observed a significant
+reduction in ALT levels. ALT is not only a hepatic enzyme (although non-specific) but it is
+a critical enzyme for energy homeostasis. During fasting or sustained exercise, glucose can
+
+Nutrients 2021, 13, 374
+
+10 of 14
+
+be synthetized from glucogenic amino acids, such as alanine and glutamate. Specifically,
+ALT can convert alanine into pyruvate to generate glucose via gluconeogenesis [76]. In
+obese and diabetic patient, elevated ALT activity has been associated with an impaired
+insulin sensitivity [77,78] suggesting that ALT may play a pivotal role in the pathogenesis
+of insulin resistance. The reduced ALT levels observed in the KD group may suggest that
+the use of ketone bodies as an energy source is optimized to reduce the need for amino
+acids for glucogenic purposes; on the other hand, these results also seem to confirm the
+improvement in insulin sensitivity, and consequently a reduced risk of developing diabetes
+or insulin resistance.
+Another extremely interesting outcome is the inflammatory response. IL-1β remain
+unaltered, whilst TNF-α and IL-6 decreased during KD. These cytokines are linked to
+oxidative stress or inflammation; thus, their reduction could indicate an attenuation of
+basal inflammatory status. Furthermore, TNF-α and IL-6 concentrations are generally
+related to insulin levels; in fact, these cytokines play an important role in the pathogenesis
+of insulin resistance [60–63]. Intense protocols of resistance training induce muscle damage,
+which promote an acute inflammatory response and eventually generates oxygen free
+radicals and lipid peroxidation [64,65]. If the acute rise in IL-6 could be related to training
+and is indeed a fundamental factor in adapting to exercise stimuli, chronic elevated levels
+of IL-6 can interact with the STAT3/TLR-4 pathway and decrease insulin sensitivity and
+display an additional deleterious effect. KD seems to be a useful tool to modulate the
+inflammatory response, reducing the basal level of proinflammatory cytokines.
+Finally, we observed an increase in BDNF blood concentration during KD. BDNF is
+a molecule of the neurotrophin family involved in trophism and neuronal plasticity, but
+also in the energy modulation and glucose homeostasis of the central nervous system [79].
+A reduction in this protein can be associated with situations of stress, depression, mood
+disorders, cognitive aspects and other psychological problems [29,30]. An animal model of
+depression presented reduced level of BDNF [80], and when administrated BDNF seems
+to display antidepressant effect [81]. Some research has revealed that during weight loss
+programs subjects may experience depression and negative feelings [28]. However, in
+humans, KD has been shown to raise BDNF levels, probably via BHB regulation [82],
+which was also associated with substantial improvement in cognitive function [83]. BHB
+regulates BDNF expression in the mouse brain by a mechanism similar to the one induced
+by exercise. Indeed, physical exercise increases BHB levels and BDNF expression in the
+hippocampus [84]. BDNF expression is increased after an intraventricular infusion of
+BHB [85]; thus, the increased level of blood BHB reached during a ketogenic diet [9,86]
+may explain the increased BDNF in the KD group. We have already observed no negative
+mood variations during KD [87] and an increased BDNF level may explain this observation;
+moreover, a higher level of BDNF may improve cognition and memory, important factors
+in athletes.
+5. Limitations
+One of the limitations of this study was the impossibility of standardizing training.
+Participants were all experienced athletes with many years of training experience; all
+performed from three to four sessions per week, but the volume and the intensity of the
+workouts were decided by each individual. The competitive season always takes place
+around the same time of the year, and the athletes were recruited and started the study in
+the same period. Therefore, given that the study was conducted for all subjects at the same
+time of the year (off-season), the training program was similar for participants and aimed
+at improving muscle mass [21,88,89]. We should also point out that this research studied
+expert bodybuilders, and thus not all the results may be generalized to other sports or the
+general population.
+
+Nutrients 2021, 13, 374
+
+11 of 14
+
+6. Conclusions
+The results show that a KD diet may represent an adequate dietary approach for BB
+athletes. Despite the lack of hypertrophic response in the KD group, muscle mass was
+maintained, a phenomenon that often does not occur during low-calorie diets. Similarly,
+although the time of year was not the one that athletes usually dedicate to training for fat
+loss (“cutting”), KD proved to be a good strategy to reduce body fat.
+KD also resulted in a decrease in inflammatory cytokines and the increase in BDNF,
+suggesting that KD can be a valid tool for dealing with moments (such as that of “weightlifting”) where stress management and maintenance of motivation are hard to handle. KD
+is not a regime to be followed lightly and independently but requires the presence of a
+professional; in these circumstances KD represents a fundamental tool in the nutritionist’s
+baggage to face various conditions and needs, including those of sports.
+Author Contributions: Conceptualization, A.P.; formal analysis, T.M.; data curation, A.P. and T.M.;
+writing—original draft preparation, T.M. and M.N.; writing—review and editing, A.P., L.C., P.P., N.S.,
+A.B., M.N., M.C. and T.M.; supervision, A.P.; All authors have read and agreed to the published
+version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: The study was conducted according to the guidelines of the
+Declaration of Helsinki, and approved by the the ethical committee of the Department of Biomedical
+Sciences, University of Padova (HEC-DSB 11/19, 2019).
+Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.
+Data Availability Statement: Data available on request from the authors.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+
+Muscogiuri, G.; Barrea, L.; Laudisio, D.; Pugliese, G.; Salzano, C.; Savastano, S.; Colao, A. The management of very low-calorie
+ketogenic diet in obesity outpatient clinic: A practical guide. J. Transl. Med. 2019, 17, 356. [CrossRef]
+Paoli, A. Ketogenic diet for obesity: Friend or foe? Int. J. Environ. Res. Public Health 2014, 11, 2092–2107. [CrossRef] [PubMed]
+Paoli, A.; Bianco, A.; Grimaldi, K.A. The Ketogenic Diet and Sport: A Possible Marriage? Exerc. Sport Sci. Rev. 2015, 43, 153–162.
+[CrossRef] [PubMed]
+Società Italiana di Nutrizione Umana (S.I.N.U.). Livelli di Assunzione Raccomandati di Energia e Nutrienti per la Popolazione
+Italiana, LARN-Revisione 2014. Available online: http://www.sinu.it (accessed on 1 December 2020).
+Paoli, A.; Cenci, L.; Fancelli, M.; Parmagnani, A.; Fratter, A.; Cucchi, A.; Bianco, A. Ketogenic diet and phytoextracts. Comparison
+of the efficacy of Mediterranean, zone and tisanoreica diet on some health risk factors. Agro Food Ind. Hi-Tech 2010, 21, 24–29.
+Rubini, A.; Bosco, G.; Lodi, A.; Cenci, L.; Parmagnani, A.; Grimaldi, K.; Zhongjin, Y.; Paoli, A. Effects of Twenty Days of the
+Ketogenic Diet on Metabolic and Respiratory Parameters in Healthy Subjects. Lung 2015, 193, 939–945. [CrossRef] [PubMed]
+McPherson, P.A.; McEneny, J. The biochemistry of ketogenesis and its role in weight management, neurological disease and
+oxidative stress. J. Physiol. Biochem. 2012, 68, 141–151. [CrossRef]
+Owen, O.E.; Felig, P.; Morgan, A.P.; Wahren, J.; Cahill, G.F., Jr. Liver and kidney metabolism during prolonged starvation. J. Clin.
+Investig. 1969, 48, 574–583. [CrossRef] [PubMed]
+Nelson, D.L.; Cox, M.M. Lehninger principles of biochemistry. Worth Publ. 2000, 41, 113–158.
+Fukao, T.; Lopaschuk, G.D.; Mitchell, G.A. Pathways and control of ketone body metabolism: On the fringe of lipid biochemistry.
+Prostaglandins Leukot. Essent. Fat. Acids 2004, 70, 243–251. [CrossRef]
+Paoli, A.; Grimaldi, K.; Bianco, A.; Lodi, A.; Cenci, L.; Parmagnani, A. Medium term effects of a ketogenic diet and a Mediterranean
+diet on resting energy expenditure and respiratory ratio. BMC Proc. 2012, 6, P37. [CrossRef]
+Paoli, A.; Rubini, A.; Volek, J.S.; Grimaldi, K.A. Beyond weight loss: A review of the therapeutic uses of very-low-carbohydrate
+(ketogenic) diets. Eur. J. Clin. Nutr. 2013, 67, 789–796. [CrossRef] [PubMed]
+Paoli, A.; Grimaldi, K.; D’Agostino, D.; Cenci, L.; Moro, T.; Bianco, A.; Palma, A. Ketogenic diet does not affect strength
+performance in elite artistic gymnasts. J. Int. Soc. Sports Nutr. 2012, 9, 34. [CrossRef] [PubMed]
+Burke, L.M.; Whitfield, J.; Heikura, I.A.; Ross, M.L.; Tee, N.; Forbes, S.F.; Hall, R.; McKay, A.K.; Wallett, A.M.; Sharma, A.P.
+Adaptation to a low carbohydrate high fat diet is rapid but impairs endurance exercise metabolism and performance despite
+enhanced glycogen availability. J. Physiol. 2020. [CrossRef] [PubMed]
+
+Nutrients 2021, 13, 374
+
+15.
+
+16.
+17.
+18.
+19.
+
+20.
+
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+
+29.
+30.
+31.
+
+32.
+
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+
+12 of 14
+
+Heikura, I.A.; Burke, L.M.; Hawley, J.A.; Ross, M.L.; Garvican-Lewis, L.; Sharma, A.P.; McKay, A.K.; Leckey, J.J.; Welvaert, M.;
+McCall, L. A short-term ketogenic diet impairs markers of bone health in response to exercise. Front. Endocrinol. 2020, 10, 880.
+[CrossRef] [PubMed]
+Whitfield, J.; Burke, L.M.; McKay, A.K.; Heikura, I.A.; Hall, R.; Fensham, N.; Sharma, A.P. Acute Ketogenic Diet and Ketone Ester
+Supplementation Impairs Race Walk Performance. Med. Sci. Sports Exerc. 2020. [CrossRef] [PubMed]
+Paoli, A.; Cancellara, P.; Pompei, P.; Moro, T. Ketogenic diet and skeletal muscle hypertrophy: A frenemy relationship? J. Hum.
+Kinet. 2019, 68, 233–247. [CrossRef] [PubMed]
+Jabekk, P.T.; Moe, I.A.; Meen, H.D.; Tomten, S.E.; Hostmark, A.T. Resistance training in overweight women on a ketogenic diet
+conserved lean body mass while reducing body fat. Nutr. Metab. (Lond.) 2010, 7, 17. [CrossRef]
+Kephart, W.C.; Pledge, C.D.; Roberson, P.A.; Mumford, P.W.; Romero, M.A.; Mobley, C.B.; Martin, J.S.; Young, K.C.; Lowery, R.P.;
+Wilson, J.M.; et al. The Three-Month Effects of a Ketogenic Diet on Body Composition, Blood Parameters, and Performance
+Metrics in CrossFit Trainees: A Pilot Study. Sports 2018, 6, 1. [CrossRef]
+Vargas, S.; Romance, R.; Petro, J.L.; Bonilla, D.A.; Galancho, I.; Espinar, S.; Kreider, R.B.; Benitez-Porres, J. Efficacy of ketogenic
+diet on body composition during resistance training in trained men: A randomized controlled trial. J. Int. Soc. Sports Nutr. 2018,
+15, 31. [CrossRef]
+Tzur, A.; Roberts, B.M. The ketogenic diet for bodybuilders and physique athletes. Strength Cond. J. 2020, 42, 108–115. [CrossRef]
+Helms, E.R.; Aragon, A.A.; Fitschen, P.J. Evidence-based recommendations for natural bodybuilding contest preparation:
+Nutrition and supplementation. J. Int. Soc. Sports Nutr. 2014, 11, 20. [CrossRef] [PubMed]
+Chappell, A.J.; Simper, T.; Barker, M.E. Nutritional strategies of high level natural bodybuilders during competition preparation.
+J. Int. Soc. Sports Nutr. 2018, 15, 4. [CrossRef] [PubMed]
+Gibala, M.J.; MacDougall, J.D.; Tarnopolsky, M.A.; Stauber, W.T.; Elorriaga, A. Changes in human skeletal muscle ultrastructure
+and force production after acute resistance exercise. J. Appl. Physiol. (1985) 1995, 78, 702–708. [CrossRef] [PubMed]
+Lindsay, A.; Janmale, T.; Draper, N.; Gieseg, S.P. Measurement of changes in urinary neopterin and total neopterin in body
+builders using SCX HPLC. Pteridines 2014, 25, 53–63. [CrossRef]
+Roth, S.M.; Martel, G.F.; Ivey, F.M.; Lemmer, J.T.; Metter, E.J.; Hurley, B.F.; Rogers, M.A. High-volume, heavy-resistance strength
+training and muscle damage in young and older women. J. Appl. Physiol. (1985) 2000, 88, 1112–1118. [CrossRef] [PubMed]
+Calle, M.C.; Fernandez, M.L. Effects of resistance training on the inflammatory response. Nutr. Res. Pract. 2010, 4, 259–269.
+[CrossRef]
+Fabricatore, A.N.; Wadden, T.A.; Higginbotham, A.J.; Faulconbridge, L.F.; Nguyen, A.M.; Heymsfield, S.B.; Faith, M.S. Intentional
+weight loss and changes in symptoms of depression: A systematic review and meta-analysis. Int. J. Obes. (Lond.) 2011, 35,
+1363–1376. [CrossRef]
+Altar, C.A. Neurotrophins and depression. Trends Pharmacol. Sci. 1999, 20, 59–61. [CrossRef]
+Duman, R.S.; Malberg, J.; Nakagawa, S.; D’Sa, C. Neuronal plasticity and survival in mood disorders. Biol. Psychiatry 2000, 48,
+732–739. [CrossRef]
+Paoli, A.; Moro, T.; Bosco, G.; Bianco, A.; Grimaldi, K.A.; Camporesi, E.; Mangar, D. Effects of n-3 polyunsaturated fatty acids
+(omega-3) supplementation on some cardiovascular risk factors with a ketogenic Mediterranean diet. Mar. Drugs 2015, 13,
+996–1009. [CrossRef]
+Forsythe, C.E.; Phinney, S.D.; Fernandez, M.L.; Quann, E.E.; Wood, R.J.; Bibus, D.M.; Kraemer, W.J.; Feinman, R.D.; Volek, J.S.
+Comparison of low fat and low carbohydrate diets on circulating fatty acid composition and markers of inflammation. Lipids
+2008, 43, 65–77. [CrossRef] [PubMed]
+Pinto, A.; Bonucci, A.; Maggi, E.; Corsi, M.; Businaro, R. Anti-Oxidant and Anti-Inflammatory Activity of Ketogenic Diet: New
+Perspectives for Neuroprotection in Alzheimer’s Disease. Antioxidants 2018, 7, 63. [CrossRef] [PubMed]
+Bostock, E.C.; Kirkby, K.C.; Taylor, B.V. The Current Status of the Ketogenic Diet in Psychiatry. Front. Psychiatry 2017, 8, 43.
+[CrossRef] [PubMed]
+LeSuer, D.A.; McCormick, J.H.; Mayhew, J.L.; Wasserstein, R.L.; Arnold, M.D. The accuracy of prediction equations for estimating
+1-RM performance in the bench press, squat, and deadlift. J. Strength Cond. Res. 1997, 11, 211–213.
+Baechle, T.R.; Earle, R.W. Essentials of Strength Training and Conditioning; Human Kinetics: Champaign, IL, USA, 2008.
+Apong, P.E. Nutrition and Dietary Recommendations for Bodybuilders. In Nutrition and Enhanced Sports Performance; Elsevier:
+Amsterdam, The Netherlands, 2019; pp. 737–750.
+Rossow, L.M.; Fukuda, D.H.; Fahs, C.A.; Loenneke, J.P.; Stout, J.R. Natural bodybuilding competition preparation and recovery:
+A 12-month case study. Int. J. Sports Physiol. Perform. 2013, 8, 582–592. [CrossRef]
+Robinson, S.L.; Lambeth-Mansell, A.; Gillibrand, G.; Smith-Ryan, A.; Bannock, L. A nutrition and conditioning intervention for
+natural bodybuilding contest preparation: Case study. J. Int. Soc. Sports Nutr. 2015, 12, 20. [CrossRef]
+Bowler, A.L.; Polman, R. Role of a Ketogenic Diet on Body Composition, Physical Health, Psychosocial Well-Being and Sports
+Performance in Athletes: A Scoping Review. Sports 2020, 8, 131. [CrossRef]
+Brinkworth, G.D.; Noakes, M.; Buckley, J.D.; Keogh, J.B.; Clifton, P.M. Long-term effects of a very-low-carbohydrate weight loss
+diet compared with an isocaloric low-fat diet after 12 mo. Am. J. Clin. Nutr. 2009, 90, 23–32. [CrossRef]
+Johnstone, A.M.; Horgan, G.W.; Murison, S.D.; Bremner, D.M.; Lobley, G.E. Effects of a high-protein ketogenic diet on hunger,
+appetite, and weight loss in obese men feeding ad libitum. Am. J. Clin. Nutr. 2008, 87, 44–55. [CrossRef]
+
+Nutrients 2021, 13, 374
+
+43.
+
+44.
+45.
+
+46.
+47.
+48.
+
+49.
+50.
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+
+58.
+
+59.
+60.
+61.
+
+62.
+
+63.
+64.
+65.
+
+66.
+67.
+
+13 of 14
+
+Ruth, M.R.; Port, A.M.; Shah, M.; Bourland, A.C.; Istfan, N.W.; Nelson, K.P.; Gokce, N.; Apovian, C.M. Consuming a hypocaloric
+high fat low carbohydrate diet for 12 weeks lowers C-reactive protein, and raises serum adiponectin and high density lipoproteincholesterol in obese subjects. Metabolism 2013, 62, 1779–1787. [CrossRef]
+Johnston, C.S.; Tjonn, S.L.; Swan, P.D.; White, A.; Hutchins, H.; Sears, B. Ketogenic low-carbohydrate diets have no metabolic
+advantage over nonketogenic low-carbohydrate diets. Am. J. Clin. Nutr. 2006, 83, 1055–1061. [CrossRef] [PubMed]
+Wilson, J.M.; Lowery, R.P.; Roberts, M.D.; Sharp, M.H.; Joy, J.M.; Shields, K.A.; Partl, J.M.; Volek, J.S.; D’Agostino, D.P. Effects of
+Ketogenic Dieting on Body Composition, Strength, Power, and Hormonal Profiles in Resistance Training Men. J. Strength Cond.
+Res. 2020, 34, 3463–3474. [CrossRef] [PubMed]
+McCue, M.D. Starvation physiology: Reviewing the different strategies animals use to survive a common challenge. Comp.
+Biochem. Physiol. Part A Mol. Integr. Physiol. 2010, 156, 1–18. [CrossRef] [PubMed]
+Biolo, G.; Fleming, R.D.; Wolfe, R.R. Physiologic hyperinsulinemia stimulates protein synthesis and enhances transport of selected
+amino acids in human skeletal muscle. J. Clin. Investig. 1995, 95, 811–819. [CrossRef] [PubMed]
+Kennedy, A.R.; Pissios, P.; Otu, H.; Roberson, R.; Xue, B.; Asakura, K.; Furukawa, N.; Marino, F.E.; Liu, F.F.; Kahn, B.B.; et al.
+A high-fat, ketogenic diet induces a unique metabolic state in mice. Am. J. Physiol. Endocrinol. Metab. 2007, 292, E1724–E1739.
+[CrossRef] [PubMed]
+Campbell, P.J.; Carlson, M.G.; Hill, J.; Nurjhan, N. Regulation of free fatty acid metabolism by insulin in humans: Role of lipolysis
+and reesterification. Am. J. Physiol. Endocrinol. Metab. 2006, 263, E1063–E1069. [CrossRef]
+Cangemi, R.; Friedmann, A.J.; Holloszy, J.O.; Fontana, L. Long-term effects of calorie restriction on serum sex-hormone concentrations in men. Aging Cell 2010, 9, 236–242. [CrossRef]
+Volek, J.S.; Gomez, A.L.; Love, D.M.; Avery, N.G.; Sharman, M.J.; Kraemer, W.J. Effects of a high-fat diet on postabsorptive and
+postprandial testosterone responses to a fat-rich meal. Metabolism 2001, 50, 1351–1355. [CrossRef]
+Ludwig, D.S.; Dickinson, S.L.; Henschel, B.; Ebbeling, C.B.; Allison, D.B. Do Lower-Carbohydrate Diets Increase Total Energy
+Expenditure? An Updated and Reanalyzed Meta-Analysis of 29 Controlled-Feeding Studies. J. Nutr. 2020. [CrossRef]
+Iraki, J.; Fitschen, P.; Espinar, S.; Helms, E. Nutrition Recommendations for Bodybuilders in the Off-Season: A Narrative Review.
+Sports 2019, 7, 154. [CrossRef]
+Roberts, B.M.; Helms, E.R.; Trexler, E.T.; Fitschen, P.J. Nutritional Recommendations for Physique Athletes. J. Hum. Kinet. 2020,
+71, 79–108. [CrossRef] [PubMed]
+Slater, G.; Phillips, S.M. Nutrition guidelines for strength sports: Sprinting, weightlifting, throwing events, and bodybuilding. J.
+Sports Sci. 2011, 29, S67–S77. [CrossRef] [PubMed]
+Harber, M.P.; Schenk, S.; Barkan, A.L.; Horowitz, J.F. Alterations in carbohydrate metabolism in response to short-term dietary
+carbohydrate restriction. Am. J. Physiol. Endocrinol. Metab. 2005, 289, E306–E312. [CrossRef] [PubMed]
+Phinney, S.D.; Bistrian, B.R.; Evans, W.J.; Gervino, E.; Blackburn, G.L. The human metabolic response to chronic ketosis without
+caloric restriction: Preservation of submaximal exercise capability with reduced carbohydrate oxidation. Metabolism 1983, 32,
+769–776. [CrossRef]
+Greene, D.A.; Varley, B.J.; Hartwig, T.B.; Chapman, P.; Rigney, M. A low-carbohydrate ketogenic diet reduces body mass without
+compromising performance in powerlifting and olympic weightlifting athletes. J. Strength Cond. Res. 2018, 32, 3373–3382.
+[CrossRef] [PubMed]
+Seidell, J.C.; Muller, D.C.; Sorkin, J.D.; Andres, R. Fasting respiratory exchange ratio and resting metabolic rate as predictors of
+weight gain: The Baltimore Longitudinal Study on Aging. Int. J. Obes. Relat. Metab. Disord. 1992, 16, 667–674.
+Valtuena, S.; Salas-Salvado, J.; Lorda, P.G. The respiratory quotient as a prognostic factor in weight-loss rebound. Int. J. Obes.
+Relat. Metab. Disord. 1997, 21, 811–817. [CrossRef]
+Tagliabue, A.; Bertoli, S.; Trentani, C.; Borrelli, P.; Veggiotti, P. Effects of the ketogenic diet on nutritional status, resting energy
+expenditure, and substrate oxidation in patients with medically refractory epilepsy: A 6-month prospective observational study.
+Clin. Nutr. 2012, 31, 246–249. [CrossRef]
+Hall, K.D.; Bemis, T.; Brychta, R.; Chen, K.Y.; Courville, A.; Crayner, E.J.; Goodwin, S.; Guo, J.; Howard, L.; Knuth, N.D. Calorie
+for calorie, dietary fat restriction results in more body fat loss than carbohydrate restriction in people with obesity. Cell Metab.
+2015, 22, 427–436. [CrossRef]
+Ebbeling, C.B.; Swain, J.F.; Feldman, H.A.; Wong, W.W.; Hachey, D.L.; Garcia-Lago, E.; Ludwig, D.S. Effects of dietary composition
+on energy expenditure during weight-loss maintenance. JAMA 2012, 307, 2627–2634. [CrossRef]
+Hall, K.D.; Chen, K.Y.; Guo, J.; Leibel, R.L.; Mayer, L.E.; Reitman, M.L.; Rosenbaum, M.; Smith, S.R.; Walsh, B.T.; Ravussin, E.
+Raising the bar on the low-carbohydrate diet Reply. Am. J. Clin. Nutr. 2016, 104, 1488–1490. [CrossRef] [PubMed]
+Hurley, B.F.; Seals, D.R.; Hagberg, J.M.; Goldberg, A.C.; Ostrove, S.M.; Holloszy, J.O.; Wiest, W.G.; Goldberg, A.P. High-density–
+lipoprotein cholesterol in bodybuilders v powerlifters. Negative effects of androgen use. JAMA 1984, 252, 507–513. [CrossRef]
+[PubMed]
+Santora, L.J.; Marin, J.; Vangrow, J.; Minegar, C.; Robinson, M.; Mora, J.; Friede, G. Coronary calcification in body builders using
+anabolic steroids. Prev. Cardiol. 2006, 9, 198–201. [CrossRef] [PubMed]
+Dashti, H.M.; Al-Zaid, N.S.; Mathew, T.C.; Al-Mousawi, M.; Talib, H.; Asfar, S.K.; Behbahani, A.I. Long term effects of ketogenic
+diet in obese subjects with high cholesterol level. Mol. Cell. Biochem. 2006, 286, 1. [CrossRef] [PubMed]
+
+Nutrients 2021, 13, 374
+
+68.
+69.
+
+70.
+71.
+72.
+73.
+74.
+75.
+
+76.
+77.
+
+78.
+79.
+80.
+81.
+82.
+
+83.
+
+84.
+85.
+
+86.
+87.
+88.
+89.
+
+14 of 14
+
+Dashti, H.M.; Mathew, T.C.; Hussein, T.; Asfar, S.K.; Behbahani, A.; Khoursheed, M.A.; Al-Sayer, H.M.; Bo-Abbas, Y.Y.; Al-Zaid,
+N.S. Long-term effects of a ketogenic diet in obese patients. Exp. Clin. Cardiol. 2004, 9, 200–205.
+Klement, R.J.; Frobel, T.; Albers, T.; Fikenzer, S.; Prinzhausen, J.; Kämmerer, U. A pilot case study on the impact of a self-prescribed
+ketogenic diet on biochemical parameters and running performance in healthy and physically active individuals. Nutr. Med.
+2013, 1, 10.
+Ness, G.C. Regulation of 3-hydroxy-3-methylglutaryl coenzyme A reductase. Mol. Cell. Biochem. 1983, 53, 299–306.
+Bortz, W.M.; Paul, P.; Haff, A.C.; Holmes, W.L. Glycerol turnover and oxidation in man. J. Clin. Investig. 1972, 51, 1537–1546.
+[CrossRef]
+Boden, G.; Sargrad, K.; Homko, C.; Mozzoli, M.; Stein, T.P. Effect of a low-carbohydrate diet on appetite, blood glucose levels,
+and insulin resistance in obese patients with type 2 diabetes. Ann. Intern. Med. 2005, 142, 403–411. [CrossRef]
+Lodi, A.; Karsten, B.; Bosco, G.; Gomez-Lopez, M.; Brandao, P.P.; Bianco, A.; Paoli, A. The Effects of Different High-Protein
+Low-Carbohydrates Proprietary Foods on Blood Sugar in Healthy Subjects. J. Med. Food 2016, 19, 1085–1095. [CrossRef]
+Paoli, A.; Mancin, L.; Giacona, M.C.; Bianco, A.; Caprio, M. Effects of a ketogenic diet in overweight women with polycystic
+ovary syndrome. J. Transl. Med. 2020, 18, 104. [CrossRef] [PubMed]
+Volek, J.S.; Phinney, S.D.; Forsythe, C.E.; Quann, E.E.; Wood, R.J.; Puglisi, M.J.; Kraemer, W.J.; Bibus, D.M.; Fernandez, M.L.;
+Feinman, R.D. Carbohydrate restriction has a more favorable impact on the metabolic syndrome than a low fat diet. Lipids 2009,
+44, 297–309. [CrossRef] [PubMed]
+Felig, P. The glucose-alanine cycle. Metabolism 1973, 22, 179–207. [CrossRef]
+Vozarova, B.; Stefan, N.; Lindsay, R.S.; Saremi, A.; Pratley, R.E.; Bogardus, C.; Tataranni, P.A. High alanine aminotransferase is
+associated with decreased hepatic insulin sensitivity and predicts the development of type 2 diabetes. Diabetes 2002, 51, 1889–1895.
+[CrossRef] [PubMed]
+West, J.; Brousil, J.; Gazis, A.; Jackson, L.; Mansell, P.; Bennett, A.; Aithal, G.P. Elevated serum alanine transaminase in patients
+with type 1 or type 2 diabetes mellitus. QJM Int. J. Med. 2006, 99, 871–876. [CrossRef]
+Genzer, Y.; Dadon, M.; Burg, C.; Chapnik, N.; Froy, O. Effect of dietary fat and the circadian clock on the expression of
+brain-derived neurotrophic factor (BDNF). Mol. Cell. Endocrinol. 2016, 430, 49–55. [CrossRef] [PubMed]
+Smith, M.A.; Makino, S.; Kvetnansky, R.; Post, R.M. Stress and glucocorticoids affect the expression of brain-derived neurotrophic
+factor and neurotrophin-3 mRNAs in the hippocampus. J. Neurosci. 1995, 15, 1768–1777. [CrossRef] [PubMed]
+Siuciak, J.A.; Lewis, D.R.; Wiegand, S.J.; Lindsay, R.M. Antidepressant-like effect of brain-derived neurotrophic factor (BDNF).
+Pharmacol. Biochem. Behav. 1997, 56, 131–137. [CrossRef]
+Marosi, K.; Kim, S.W.; Moehl, K.; Scheibye-Knudsen, M.; Cheng, A.; Cutler, R.; Camandola, S.; Mattson, M.P. 3-Hydroxybutyrate
+regulates energy metabolism and induces BDNF expression in cerebral cortical neurons. J. Neurochem. 2016, 139, 769–781.
+[CrossRef]
+Mohorko, N.; Černelič-Bizjak, M.; Poklar-Vatovec, T.; Grom, G.; Kenig, S.; Petelin, A.; Jenko-Pražnikar, Z. Weight loss, improved
+physical performance, cognitive function, eating behavior, and metabolic profile in a 12-week ketogenic diet in obese adults. Nutr.
+Res. 2019, 62, 64–77. [CrossRef]
+Murphy, R.M.; Watt, M.J.; Febbraio, M.A. Metabolic communication during exercise. Nat. Metab. 2020, 2, 805–816. [CrossRef]
+[PubMed]
+El Hayek, L.; Khalifeh, M.; Zibara, V.; Abi Assaad, R.; Emmanuel, N.; Karnib, N.; El-Ghandour, R.; Nasrallah, P.; Bilen, M.;
+Ibrahim, P. Lactate mediates the effects of exercise on learning and memory through SIRT1-dependent activation of hippocampal
+brain-derived neurotrophic factor (BDNF). J. Neurosci. 2019, 39, 2369–2382. [CrossRef] [PubMed]
+Swink, T.D.; Vining, E.P.; Freeman, J.M. The ketogenic diet: 1997. Adv. Pediatr. 1997, 44, 297–329. [PubMed]
+Lodi, A.; Zarantonello, L.; Bisiacchi, P.S.; Cenci, L.; Paoli, A. Ketonemia and Glycemia Affect Appetite Levels and Executive
+Functions in Overweight Females during Two Ketogenic Diets. Obesity (Silver Spring) 2020, 28, 1868–1877. [CrossRef] [PubMed]
+Helms, E.R.; Fitschen, P.J.; Aragon, A.A.; Cronin, J.; Schoenfeld, B.J. Recommendations for natural bodybuilding contest
+preparation: Resistance and cardiovascular training. J. Sports Med. Phys. Fit. 2015, 55, 164–178.
+Hackett, D.A.; Johnson, N.A.; Chow, C.-M. Training practices and ergogenic aids used by male bodybuilders. J. Strength Cond.
+Res. 2013, 27, 1609–1617. [CrossRef]
+
+

@@ -1,0 +1,976 @@
+Journal of Physiology
+
+J Physiol (2003), 546.3, pp. 943–954
+© The Physiological Society 2002
+
+DOI: 10.1113/jphysiol.2002.028696
+www.jphysiol.org
+
+Distribution of inspiratory drive to the external intercostal
+muscles in humans
+André De Troyer*, Robert B. Gorman† and Simon C. Gandevia†
+†Prince of Wales Medical Research Institute and University of New South Wales, Sydney, Australia and *Laboratory of Cardiorespiratory Physiology,
+Brussels School of Medicine and Chest Service, Erasme University Hospital, 1070 Brussels, Belgium
+
+The external intercostal muscles in humans show marked regional differences in respiratory effect,
+and this implies that their action on the lung during breathing is primarily determined by the spatial
+distribution of neural drive among them. To assess this distribution, monopolar electrodes were
+implanted under ultrasound guidance in different muscle areas in six healthy individuals and
+electromyographic recordings were made during resting breathing. The muscles in the dorsal
+portion of the third and fifth interspace showed phasic inspiratory activity with each breath in every
+subject. However, the muscle in the ventral portion of the third interspace showed inspiratory
+activity in only three subjects, and the muscle in the dorsal portion of the seventh interspace was
+almost invariably silent. Also, activity in the ventral portion of the third interspace, when present,
+and activity in the dorsal portion of the fifth interspace were delayed relative to the onset of activity
+in the dorsal portion of the third interspace. In addition, the discharge frequency of the motor units
+identified in the dorsal portion of the third interspace averaged (mean ± S.E.M.) 11.9 ± 0.3 Hz and
+was significantly greater than the discharge frequency of the motor units in both the ventral portion
+of the third interspace (6.0 ± 0.5 Hz) and the dorsal portion of the fifth interspace (6.7 ± 0.4 Hz).
+The muscle in the dorsal portion of the third interspace started firing simultaneously with the
+parasternal intercostal in the same interspace, and the discharge frequency of its motor units was
+even significantly greater (11.4 ± 0.3 vs. 8.9 ± 0.2 Hz). These observations indicate that the
+distribution of neural inspiratory drive to the external intercostals in humans takes place along
+dorsoventral and rostrocaudal gradients and mirrors the spatial distribution of inspiratory
+mechanical advantage.
+(Resubmitted 17 July 2002; accepted after revision 11 November 2002; first published online 6 December 2002)
+Corresponding author A. De Troyer: Chest Service, Erasme University Hospital, Route de Lennik, 808, 1070 Brussels, Belgium.
+Email: a_detroyer@yahoo.fr
+
+It is well established that the internal intercostal muscles of
+the parasternal region (the so-called parasternal intercostals)
+elevate the ribs and expand the lung when they contract
+(De Troyer & Kelly, 1982; De Troyer et al. 1996, 1998);
+however, the action of the external intercostals remains
+uncertain, particularly in humans. The conventional view,
+based on the theory proposed in the mid-1700s by
+Hamberger (1749), maintains that these muscles also have
+an inspiratory action on the ribs and the lung. However,
+this view has not been proven, and recent measurements of
+the respiratory displacements of the ribs in normal subjects,
+combined with measurements of muscle orientation and
+muscle mass in cadavers, have led to the conclusion that
+the respiratory effect of the external intercostals (that is,
+the change in airway pressure produced by the muscles
+during a maximal isolated contraction against a closed
+airway) shows marked topographic differences (Wilson et
+al. 2001). Thus, the muscles in the dorsal portion of the
+rostral segments of the ribcage have a large inspiratory
+effect, in agreement with the theory of Hamberger (1749);
+this inspiratory effect would be even greater than that of
+
+the parasternal intercostals. However, this effect decreases
+markedly and progressively in the ventral and the caudal
+direction, such that the muscles in the ventral portion of
+the caudal segments of the ribcage have an expiratory,
+rather than an inspiratory, effect. The implication is that
+the action of the external intercostals on the lung during
+breathing would be primarily determined by the
+topographic distribution of neural drive among them.
+Taylor (1960) performed extensive electromyographic
+(EMG) recordings from the intercostal muscles in the
+ventrolateral aspect of the ribcage in many healthy
+individuals, and he concluded that the external intercostals are activated only by inspiratory efforts but are
+usually inactive during resting breathing. However, recent
+studies have indicated that, in the dog, the topographic
+distribution of neural drive among the intercostal muscles
+is closely matched to the topographic distribution of
+respiratory effect (De Troyer & Legrand, 1995; Legrand et
+al. 1996; Legrand & De Troyer, 1999). The muscle areas
+with the greatest inspiratory effect thus receive the greatest
+
+Journal of Physiology
+
+944
+
+A. De Troyer, R. B. Gorman and S. C. Gandevia
+
+neural drive during the inspiratory phase of the breathing
+cycle, and those with a smaller inspiratory effect receive
+little or no inspiratory drive. Based on this principle, one
+would therefore predict that in humans: (1) the inspiratory
+drive to the external intercostals in the rostral segments of
+the ribcage is greater in the dorsal than the ventral portion;
+(2) the inspiratory drive to the external intercostals in the
+dorsal portion of the ribcage is greater in the rostral than
+the caudal segments; and (3) the inspiratory drive to the
+external intercostals in the dorsal portion of the rostral
+segments is greater than that to the parasternal intercostals. Although Campbell & Newsom Davis (1970),
+referring to experiments by Sears and Newsom Davis, has
+suggested that the external intercostals in the dorsal aspect
+of the rostral segments of the human ribcage do contract
+during resting inspiration, there are no data in the
+literature with which these predictions can be compared.
+Therefore, we set out to test them.
+
+METHODS
+The studies were carried out in six healthy men of 33–51 years of
+age. The subjects gave informed consent to the procedures which
+conformed with the Declaration of Helsinki and were approved by
+the human ethics committee of the University of New South
+Wales. Three subjects had previously participated in many
+respiratory experiments and two of them were aware of the
+hypotheses underlying the studies, but three subjects were naive
+and had little or no prior experience as respiratory subjects. Before
+the study, these subjects were just told that the purpose was to
+obtain electrical recordings from several muscles of the ribcage
+compartment of the chest wall.
+Preliminary studies
+Anteroposterior radiographs of the chest were obtained in two
+subjects at resting end-expiration to locate precisely the dorsal
+portion of the rostral interspaces relative to the scapula and to
+define anatomical landmarks for subsequent insertion of needle
+electrodes. With the subjects standing and maintaining their arms
+along the sides of the body, the dorsal portion of the third
+interspace projected about 1–2 cm cranial and 2 cm medial
+relative to the medial border of the spine of the scapula. This site,
+which corresponds to the muscle area just medial to the angle of
+the ribs, could be located by palpation easily, and it was then
+evaluated in all six subjects with a 5 MHz ultrasound linear probe
+(Acuson 128 X/P, Computed Sonography System; Acuson Inc.,
+Mountain View, CA, USA). While the probe was placed
+perpendicular to the skin, the external intercostal muscle was
+clearly visualized in each subject, so its thickness and its depth
+from the skin surface could be measured with a built-in digital
+calliper. Depending on the subject’s height and muscularity, the
+thickness of the external intercostal ranged between 7 and 10 mm,
+and the depth of its external layer relative to the skin surface was
+between 22 and 30 mm. Three experimental protocols were then
+followed.
+Experiment 1
+The six subjects were first studied to compare the magnitude of
+neural inspiratory drive to the dorsal versus the ventral portion of
+the external intercostal muscle in the third interspace. Each
+subject was seated comfortably with all restrictive garments
+
+J Physiol 546.3
+
+removed. The respiratory displacements of the chest wall
+were monitored by inductance plethysmography (Respitrace;
+Ambulatory Monitoring, Ardsley, NY, USA). The respitrace
+bands were positioned around the ribcage at the level of the
+nipples and around the abdomen at the level of the umbilicus,
+respectively, and the gains on the two signals were adjusted by
+using the conventional isovolume manoeuvre (Chadha et al.
+1982). No extraneous movements were permitted after this
+calibration procedure. The subject was then grounded with a large
+flexible strap on the right shoulder, and recordings of external
+intercostal EMG activity were made.
+Recordings were made first from the dorsal portion of the muscle
+by using a Teflon-coated monopolar electrode (Medelec DMG 50;
+Surrey, UK). The recordings were referenced to a surface electrode
+positioned 2–3 cm away, and the EMG signal was amplified and
+band-pass filtered below 53 Hz and above 3000 Hz. Since this area
+had been examined by ultrasonography, we could define in each
+individual subject the maximal permissible length of the needle
+track and marked this on the electrode. The needle was thus
+inserted perpendicular to the skin surface and advanced in small
+steps through the trapezius and rhomboid muscles and then
+into the external intercostal. Electromyographic activity was
+continuously monitored on a loudspeaker and an oscilloscope
+throughout the procedure, and once a site in the external
+intercostal was encountered that contained audible and visible
+single motor unit activity with an acceptable signal-to-noise ratio
+(> 3:1) during quiet breathing or mild voluntary hyperpnoea, the
+audio signal was removed and the subject was instructed to
+breathe quietly for 3–4 min through a mouthpiece connected to a
+pneumotachograph. The changes in lung volume (obtained by
+integration of the airflow signal), end-tidal PCO2 (measured with a
+small probe attached to the pneumotachograph), and ribcage and
+abdomen cross-sectional area were checked to ensure that the
+subject was actually breathing at rest. All signals were stored on
+computer via a Cambridge Electronic Design 1401 interface
+(Cambridge, UK) for subsequent analysis. After the run was
+completed, the needle was removed such that its tip was no longer
+in the external intercostal, and it was then reinserted at a slightly
+different angle or to a slightly different depth. In each subject, six
+to twelve sites were studied.
+Recordings were then made from the ventral portion of the
+muscle in the third interspace. The overall experimental
+procedure was similar to that used for the dorsal portion, but the
+needle was inserted 10–15 mm lateral to the midclavicular line.
+Indeed, the initial chest radiographs had indicated that the
+costochondral junctions of ribs 3 and 4 were medial to this line,
+thus implying that a needle inserted more laterally should go
+through the external intercostal. When examined by ultrasonography, the depth of the muscle relative to the skin surface
+also ranged between 25 and 42 mm, but its thickness was only
+2–3 mm. As for the dorsal portion of the muscle, five to twelve
+sites were recorded from the ventral portion of the third external
+intercostal muscle in each subject.
+In five subjects, a mild transient ache was occasionally noted as the
+needle penetrated the rhomboid or the external intercostal, but
+this always subsided rapidly. One subject reported significant
+discomfort during the needle insertion in the dorsal area, well
+before it reached the external intercostal, and topical anaesthesia
+of the skin and superficial muscles was achieved with 2 ml of 1 %
+lignocaine (lidocaine). As a result, all EMG recordings were
+obtained while the subjects had minimal discomfort or none at all.
+
+External intercostal activity in man
+
+945
+
+Journal of Physiology
+
+J Physiol 546.3
+
+Experiment 2
+Four subjects were subsequently studied, on a different day, to
+assess neural inspiratory drive to the dorsal portion of the external
+intercostal muscle in the third, fifth and seventh interspaces. The
+experimental procedure was similar to that used in Experiment
+(Expt) 1. In each subject, five to ten sites were studied in each
+muscle. In two subjects, recordings were also made from the
+ventral portion of the external intercostal in the fifth interspace.
+Experiment 3
+Four subjects were studied, on yet another day, to assess neural
+drive to the dorsal portion of the external intercostal muscle in the
+third interspace relative to the parasternal intercostal in the same
+interspace. After the recordings from the external intercostal were
+completed, the needle was inserted in the ventral part of the
+interspace at an angle of about 45 deg, as previously described
+(Gandevia et al. 1996). Here again, six to fourteen sites were
+recorded from each muscle in every subject.
+Data analysis
+The magnitude of neural inspiratory drive to a given area of
+external intercostal or parasternal intercostal muscle was assessed
+in three ways. First, all periods of resting breathing (corresponding
+to the different recording sites in the muscle) were played into a
+leaky integrator (decay time constant, 50 ms), and for each period,
+the presence or absence of phasic inspiratory activity in the
+integrated EMG signal (i.e. with a progressive increase in the signal
+during the inspiratory phase of the breathing cycle and a decrease
+in the signal during the expiratory phase) was noted. On the basis
+of this definition of phasic inspiratory activity, no sites were
+encountered with phasic expiratory activity. Second, 10 consecutive
+breaths from each period were examined to measure the time of
+onset (TO) of the integrated inspiratory EMG activity relative to
+the onset of inspiratory airflow. Inspiratory time (TI) during these
+breaths was also measured from the airflow signal. To allow
+comparison between the subjects, TO for each breath was expressed
+as a percentage of TI; this fraction was assigned a positive sign
+when activity started after the onset of inspiratory airflow and a
+negative sign when activity preceded the onset of airflow.
+The third method used to quantify neural drive was based on the
+measurement of the firing rates of single motor units and has been
+previously described in detail (Gandevia et al. 1996; De Troyer et
+al. 1997). Thus, the periods of quiet breathing used for the first
+
+two analyses were played into a commercial neural analysis
+package (Spike 2; Cambridge Electronic Design), and trigger
+levels were set manually to capture all spikes with an appropriate
+signal-to-noise ratio. All spikes were subsequently recalled and
+manually sorted into one, two, three or four types or ‘templates’
+based on their size and detailed morphology. The interactive
+software allowed: (1) updating of the mean shape of the template
+for each motor unit; (2) review of the frequency plots of each
+single motor unit, together with inspiratory flow and respiratory
+movements; and (3) superimposition of all spikes from a
+particular motor unit. Using this method, we could follow
+simultaneously the discharge of up to four single motor units
+during several breaths.
+For each motor unit, the mean discharge frequency was measured
+from the plateau in the latter third of the inspiratory phase during
+several consecutive breaths. Units that discharged sporadically or
+very late in the breaths with less than three stable interdischarge
+intervals were noted but not included in the main analysis. Several
+units, particularly in the ventral portion of the external intercostal
+in the third interspace and the dorsal portion of the external
+intercostal in the fifth interspace, discharged tonically with an
+inspiratory modulation. Since this study was aimed at quantifying
+the magnitude of neural inspiratory drive, the discharge frequency
+of these units was taken as the difference between the frequency in
+the latter third of the inspiratory phase and the frequency during
+expiration.
+For each muscle area in each subject, the values of TO /TI for a given
+recording site were averaged over the 10 breaths recorded from
+that site, and the mean values thus obtained were then averaged
+over all sites. The firing rates of the single motor units identified in
+the different recording sites of a given muscle area were also
+averaged over all units, and statistical comparisons between the
+different muscle areas were made in individual subjects by using
+Student’s unpaired t tests. The changes in lung volume, inspiratory
+flow, and the pattern of ribcage and abdominal displacement were
+compared similarly. However, since three muscle areas were
+studied in Expt 2, comparison between them was made by analysis
+of variance (ANOVA) with repeated measures and multiple
+comparison testing of the mean values was performed, when
+appropriate, using Student-Newman-Keuls tests. The criterion
+for statistical significance was taken as P < 0.05.
+
+946
+
+A. De Troyer, R. B. Gorman and S. C. Gandevia
+
+RESULTS
+
+Journal of Physiology
+
+Dorsal vs. ventral external intercostal (Expt 1)
+There were no adverse consequences of the procedures,
+and Table 1 shows the indices of the pattern of breathing
+during recordings from the dorsal and ventral portions of
+the external intercostal muscle in the third interspace in
+the six subjects. Tidal volume (VT) during the recordings
+from the dorsal portion averaged (mean ± S.E.M.) 0.71 ±
+0.03 l and was similar to that during the recordings from
+the ventral portion (0.74 ± 0.06 l). Inspiratory duration
+(TI), mean inspiratory flow rate (VT /TI), and the ribcage
+contribution to VT during the recordings from the dorsal
+portion were also similar to those during the recordings
+from the ventral portion.
+Representative records of dorsal and ventral external
+intercostal EMG activity during resting breathing in two
+subjects are shown in Figs 1 and 2. The dorsal portion of
+the muscle showed phasic inspiratory activity in every
+breath in every subject (Figs 1A and 2A). This activity
+involved many motor units, appeared early after the onset
+of inspiratory airflow and persisted well after the cessation
+of inspiratory airflow. In two subjects, activity in several
+sites even started concomitantly with or shortly (15–70 ms)
+
+J Physiol 546.3
+
+before the onset of inspiratory airflow. On the other hand,
+the ventral portion of the muscle in three subjects was silent
+throughout resting breathing and showed inspiratory
+discharges only when the increase in lung volume was
+voluntarily and substantially augmented (Fig. 1B). In the
+other three subjects, the ventral portion did show phasic
+inspiratory activity during resting breathing. Only one these
+subjects, however, had inspiratory activity in each site. In the
+other two, inspiratory activity was recorded from only a few
+sites and, when present, it was superimposed on tonic
+activity persisting throughout expiration. In addition, such
+inspiratory activity started after the onset of inspiratory
+airflow (Fig. 2B). As shown in Fig. 3, therefore, TO /TI was
+significantly (P < 0.002 or less) greater for the ventral than
+the dorsal portion in every subject. Whereas this fraction
+for the ventral portion in the six subjects averaged
+84.1 ± 3.8 %, for the dorsal portion it was only 4.4 ± 0.8 %.
+In each subject, 12–22 single motor units were identified in
+the dorsal portion of the external intercostal in the third
+interspace. These 109 units showed a rhythmic behaviour
+as shown in Fig. 4, with a phasic inspiratory increase in the
+instantaneous discharge frequency; only two of these units
+(1.8 %) discharged tonically throughout expiration. Nine
+
+Figure 1. Examples of EMG activity recorded from the dorsal and ventral portions of the
+external intercostal muscle in the third interspace
+A, from top to bottom: traces of airflow, changes in ribcage cross-sectional area (increase upwards), and raw
+and integrated EMG activity recorded from the dorsal portion of the external intercostal muscle in the third
+interspace in a representative subject. B, traces obtained during recording from the ventral portion of the
+muscle in the same subject. The dorsal portion of the muscle (A) shows multi-unit activity in phase with
+inspiration and only slightly delayed relative to the onset of inspiratory airflow (vertical dashed line), but the
+ventral portion of the muscle (B) is electrically silent during resting breathing and fires only at the end of a
+large, voluntary inspiration (third breath in B, vertical dashed line). In this and subsequent figures the
+numbers in parentheses indicate the interspace concerned.
+
+External intercostal activity in man
+
+947
+
+Journal of Physiology
+
+J Physiol 546.3
+
+Figure 2. Records from the dorsal and ventral portions of the external intercostal muscle in
+the third interspace in a subject with inspiratory activity in the ventral portion during quiet
+breathing
+Same conventions as in Fig. 1. The two portions of the muscle in this subject are active during resting
+inspiration. However, whereas inspiratory activity in the dorsal portion (A) starts shortly after the onset of
+inspiratory airflow, inspiratory activity in the ventral portion (B) starts later. In addition, such inspiratory
+activity is superimposed on tonic activity persisting throughout expiration. Note also that this recording (B)
+contains far-field contamination during the expiratory pause; this expiratory activity arises from different
+single motor units, presumably in the internal intercostal muscle, and is associated with a decrease in the endexpiratory position of the ribcage.
+
+to 13 motor units were also recorded from the ventral
+portion of the muscle in the three subjects who had phasic
+inspiratory activity there (subjects 2, 4 and 5 in Fig. 3). All
+these units also showed an increase in discharge frequency
+during inspiration, but 14 of them (44 %) continued to
+discharge throughout expiration with a firing rate of
+6.6 ± 0.3 Hz (range, 4.2– 8.5 Hz).
+In the three subjects with phasic inspiratory activity in
+both the dorsal and ventral portions of the muscle, a total
+of 58 motor units in the dorsal portion and 32 motor
+units in the ventral portion were thus studied, and the
+histograms of their discharge rates at end-inspiration
+(i.e. excluding tonic expiratory firing; see Methods) are
+shown in Fig. 5. The discharge frequency of the units in the
+dorsal portion was significantly greater (P < 0.001) than
+that of the units in the ventral portion in every subject. For
+the three subjects, units in the ventral portion thus had
+a mean discharge frequency of 6.0 ± 0.5 Hz, whereas
+units in the dorsal portion had a discharge frequency of
+11.9 ± 0.3 Hz. The discharge frequency of the 51 units
+recorded in the dorsal portion of the three subjects without
+
+Figure 3. Onset time of inspiratory activity in the dorsal
+and ventral portions of the external intercostal muscle in
+the third interspace
+Data are mean ± S.E.M. values of onset time obtained in six subjects
+during quiet breathing. For each portion of the muscle in each
+subject, onset time (TO) is expressed as a percentage of inspiratory
+time (TI). When breathing quietly, subjects 1, 3 and 6 never had any
+inspiratory activity in the ventral portion.
+
+A. De Troyer, R. B. Gorman and S. C. Gandevia
+
+J Physiol 546.3
+
+Journal of Physiology
+
+948
+
+Figure 4. Measurement of the firing rates of single motor units
+A shows a representative record of inspiratory EMG activity obtained in the dorsal portion of the external
+intercostal muscle in the third interspace for two consecutive breaths. Two single motor units (denoted
+Units 1 and 2) were clearly identified in this record, and the instantaneous discharge frequencies of these two
+units are shown in B. All the action potentials from the two units are superimposed in C. Note that all the
+spikes in C are identical, thus indicating that they originate in a single motor unit. Note also in B that the
+discharge frequency of both units increases rapidly in the first part of inspiration and plateaus in the last twothirds of inspiration; the discharge frequency of Unit 1 then declines gradually in the first part of expiration,
+whereas the discharge frequency of Unit 2 stops rather abruptly after the end of inspiration.
+
+Figure 5. Firing frequencies of motor units in
+the dorsal and ventral portions of the
+external intercostal muscle in the third
+interspace
+Histograms of the inspiratory modulation of the
+discharge frequencies of all motor units identified in
+the dorsal (top) and ventral (bottom) portions of
+the muscle in the three subjects who had phasic
+inspiratory activity in both portions during quiet
+breathing (subjects 2, 4 and 5 in Fig. 3). Bin width,
+1.0 Hz. Mean values are indicated on each
+histogram. For units which fired tonically
+throughout expiration, the firing frequency is taken
+as the difference in discharge rate between
+inspiration and expiration (see Methods).
+
+J Physiol 546.3
+
+External intercostal activity in man
+
+Journal of Physiology
+
+ventral activity (subjects 1, 3 and 6 in Fig. 3) was slightly
+smaller but still amounted to 10.1 ± 0.2 Hz.
+
+Dorsal external intercostal in spaces 3, 5 and 7
+(Expt2)
+The indices of the pattern of breathing during periods in
+which the recordings from the dorsal portion of the
+external intercostal muscle in the third, fifth and seventh
+interspaces were made in the four subjects are summarized
+in Table 1, and representative EMG recordings from the
+three muscles in one subject are shown in Fig. 6. There was
+no difference between the three conditions (three muscles)
+with respect to VT, TI, VT/TI, or the ribcage contribution to
+VT. However, whereas all subjects had phasic inspiratory
+activity in the third and fifth interspaces in every breath
+(Fig. 6A and B), only one subject (subject no. 3 in Fig. 3)
+had regular phasic inspiratory activity in the seventh
+interspace. In two subjects, this muscle was silent in all but
+a few breaths (Fig. 6C), and, in one subject, it commonly
+showed continuous tonic activity without any respiratory
+modulation; in each subject, however, inspiratory
+discharges were recorded in each site during large,
+
+949
+
+voluntary inspirations (Fig. 6C). The ventral portion of the
+external intercostal muscle in the fifth interspace was also
+silent during quiet breathing in the two subjects studied.
+Although the dorsal portion of the external intercostal in
+the third and the fifth interspaces was invariably active
+during resting inspiration, the two muscles had different
+TO values. This difference is also illustrated in Fig. 6, and
+Fig. 7 shows the values of TO /TI measured for the three
+interspaces in the individual subjects. TO/TI was smaller
+(P < 0.05 or less) in the third interspace than in the fifth in
+three of four subjects. Also, TO/TI was smaller (P < 0.001)
+in the fifth interspace than in the seventh in every subject,
+including subject no. 3. For the four subjects, TO/TI thus
+averaged 8.7 ± 1.7 % in the third interspace, 35.7 ± 3.6 %
+in the fifth interspace and 91.3 ± 2.7 % in the seventh
+interspace.
+A total of 61 single motor units (12–18 units per subject)
+were identified in the external intercostal of the third
+interspace in this experiment, and 63 motor units (11–18
+units per subject) were sampled from the muscle in the
+fifth interspace. All units increased their firing rates in
+
+Figure 6. Examples of EMG activity recorded from the dorsal portion of the external
+intercostal muscle in the third, fifth and seventh interspaces
+Same conventions as in Fig. 1, except that only raw EMG activity is shown. Traces obtained in a
+representative subject (subject no. 1 in Fig. 3). As in Figs 1 and 2, the muscle in the third interspace (A) shows
+multi-unit activity in phase with inspiration. The muscle in the fifth interspace (B) also shows phasic
+inspiratory activity, but this activity starts later than that in the third interspace relative to the onset of
+inspiratory airflow. The muscle in the seventh interspace (C) is electrically silent during quiet breathing (first
+three breaths) and fires only at the end of a large, voluntary inspiration (last breath; vertical dashed line).
+
+950
+
+A. De Troyer, R. B. Gorman and S. C. Gandevia
+
+J Physiol 546.3
+
+third interspace (5 %) continued to discharge throughout
+expiration, 27 units in the fifth interspace (43 %) did so
+with a tonic firing rate of 6.6 ± 0.4 Hz (range, 2.7–9.7 Hz).
+
+Journal of Physiology
+
+Dorsal external intercostal vs. parasternal
+intercostal (Expt 3)
+
+Figure 7. Onset time of inspiratory activity in the dorsal
+portion of the external intercostal muscle in the third,
+fifth and seventh interspaces
+Data are mean ± S.E.M. values of onset time obtained in four
+subjects during quiet breathing. Onset time (TO) for each muscle is
+expressed as a percentage of inspiratory time (TI).
+
+phase with inspiration, and histograms of these inspiratory
+firing frequencies are shown in Fig. 8. The discharge
+frequency of the units in the third interspace was greater
+(P < 0.001) than the discharge frequency of the units in the
+fifth interspace in every subject, such that for the four
+subjects, the discharge frequency of motor units in the
+third and fifth interspaces averaged 11.3 ± 0.4 and
+6.7 ± 0.4 Hz, respectively. Whereas only three units in the
+
+The four subjects had a similar pattern of breathing when
+recordings were made from the dorsal portion of the
+external intercostal in the third interspace and from the
+parasternal intercostal (Table 1), and they invariably
+showed phasic inspiratory EMG activity in both muscles.
+Activity in either muscle involved many motor units and
+started early after the onset of inspiratory airflow. The
+TO/TI ratio for the external intercostal and parasternal
+intercostal muscles in the four subjects thus averaged
+7.1 ± 1.7 and 12.5 ± 1.9 %, respectively.
+A total of 79 motor units (12–26 units per subject) were
+identified in the external intercostal in this experiment,
+and 86 motor units (16–24 units per subject) were
+identified in the parasternal intercostal. All units in both
+muscles increased their discharge rates during inspiration.
+However, although the two pools of units had similar
+discharge frequencies in one subject (external intercostal,
+10.7 ± 0.6 Hz; parasternal intercostal, 10.6 ± 0.4 Hz; n.s.),
+three subjects had greater discharge frequencies in the
+external intercostal (P < 0.005 or less). As shown in Fig. 9,
+the firing frequency of the external intercostal motor units
+in the four subjects thus averaged 11.4 ± 0.3 Hz, but the
+
+Figure 8. Firing frequencies of motor units in
+the dorsal portion of the external intercostal
+muscle in the third and fifth interspaces
+Histograms of the inspiratory modulation of the
+discharge frequencies of all motor units identified in
+the dorsal portion of the external intercostal muscle
+in the third (top) and fifth (bottom) interspaces in
+four subjects breathing at rest. Bin width, 1.0 Hz.
+Mean values are indicated on each histogram.
+
+J Physiol 546.3
+
+External intercostal activity in man
+
+Journal of Physiology
+
+firing frequency of all the parasternal intercostal motor
+units was only 8.9 ± 0.2 Hz.
+
+DISCUSSION
+The amplitude of neural drive to respiratory muscles in
+humans is difficult to quantify. Previous attempts to
+evaluate this amplitude involved measuring EMG activity
+during breathing with surface electrodes and expressing it
+relative to ‘maximal’ values obtained during inhalation to
+total lung capacity (TLC) (e.g. Grassino et al. 1978;
+Goldman et al. 1978; Juan et al. 1984; Sinderby et al. 1998).
+We could have used a similar method with intramuscular
+electrodes to compare neural drive in the different areas of
+the external intercostal muscle. However, this method
+would have three major drawbacks. First, it would assume
+that the different muscle areas are recruited similarly
+during inspiration to TLC, and studies of the distribution
+of neural drive among the parasternal and external
+intercostal muscles in dogs have suggested that this
+assumption may not be justified. Specifically, although
+activity in the different inspiratory muscle areas increased
+when neural drive was augmented by CO2 or by increased
+inspiratory mechanical loads, the topographic differences
+in activity that were present during resting breathing
+persisted with all changes in lung volume and with all loads
+(De Troyer & Legrand, 1995; Legrand et al. 1996; Legrand
+& De Troyer, 1999). It is unlikely, therefore, that the
+different areas of external intercostal would be driven
+
+Figure 9. Firing frequencies of motor units in
+the dorsal portion of the external intercostal
+and parasternal intercostal muscles in the
+third interspace
+Histograms of the inspiratory modulation of the
+discharge frequencies of all motor units identified in
+the dorsal portion of the external intercostal muscle in
+the third interspace (top) and the parasternal
+intercostal muscle in the same interspace (bottom) in
+four subjects breathing at rest. Bin width, 1.0 Hz.
+Mean values are indicated on each histogram.
+
+951
+
+equally during an inspiration to TLC. Second, Kim et al.
+(1985) have shown in isolated strips from the canine
+diaphragm that changes in muscle length introduce
+substantial alterations in EMG activity independent of
+neural drive. A similar effect of muscle length has been
+demonstrated during supramaximal stimulation of the
+phrenic nerves with single twitches in normal humans
+(Gandevia & McKenzie, 1986): the maximal compound
+muscle action potentials increased 2- to 10-fold when lung
+volume was increased from residual volume to TLC (i.e.
+when diaphragmatic muscle length was reduced by
+~40 %). Since the different areas of external intercostal
+muscle in humans shorten by different amounts during
+inspiration to TLC (Wilson et al. 2001), it would therefore
+be expected that they would show different artifactual
+changes in EMG activity during the manoeuvre. Finally,
+with such large respiratory excursions, it would be difficult
+to eliminate cross-contamination from neighbouring
+muscles. Thus, activity from the rhomboid and latissimus
+dorsi muscles might contaminate recordings from the
+dorsal areas of the external intercostal, and activity from
+the pectoralis and serratus anterior muscles might
+contaminate recordings from the ventral areas.
+To avoid these drawbacks, we therefore sampled from
+many sites within individual muscle areas during resting
+breathing and measured, for each site, the frequency with
+which inspiratory activity was recorded and the time of
+onset of activity relative to inspiratory airflow. Indeed, in
+
+Journal of Physiology
+
+952
+
+A. De Troyer, R. B. Gorman and S. C. Gandevia
+
+J Physiol 546.3
+
+the dog, the areas of parasternal and external intercostal
+muscle that receive the greatest inspiratory drive also have
+the propensity to fire earlier at the onset of inspiration (De
+Troyer & Legrand, 1995; Legrand et al. 1996; Legrand & De
+Troyer, 1999). Furthermore, when the neural drive to
+the canine external intercostals is increased by ribcage
+vibration, their motor units begin firing earlier (Leduc et
+al. 2000). In addition, single motoneurones are known to
+fire at higher frequencies with increasing neural drive
+(e.g. Binder et al. 1996), and studies in patients with severe
+chronic obstructive pulmonary disease (Gandevia et al.
+1996; De Troyer et al. 1997) and in healthy individuals
+(Gandevia et al. 1999) have shown that the discharge
+frequencies of motor units in all inspiratory muscles
+increase in response to increases in respiratory drive.
+Given that the fibre-type compositions of the parasternal
+intercostal muscles and the entire external intercostals in
+humans are similar (Mizuno & Secher, 1989) and their
+force–frequency characteristics are likely to be similar
+(Farkas et al. 1985), it is therefore reasonable to assume
+that the different pools of external and parasternal intercostal motoneurones have similar properties and, hence,
+that a muscle area with a greater neural drive might also
+show higher motor unit firing rates. Thus, by measuring
+the frequency of inspiratory activity during resting
+breathing, the onset time of this activity, and the peak
+discharge frequency of large numbers of clearly identified
+single motor units, we assessed for each muscle area three
+distinct indices of neural drive that were not affected by
+activation of adjacent muscles, were free of recording
+artefact due to changes in muscle length, and did not need
+to be normalized to the level of drive observed under
+another respiratory manoeuvre.
+
+in both the dorsal and the ventral portion of the muscle in
+the third interspace showed a definite time lag, ranging
+from 1.2 s (subject 5 in Fig. 3) to 2.6 s (subject 2), between
+the onset of activity in the dorsal and the ventral portion.
+The firing rates of motor units in these two muscle areas
+were also strikingly different (Fig. 5). For these three
+subjects, the discharge frequencies of motor units in the
+dorsal portion averaged 11.9 Hz. The corresponding value
+for the three subjects who had inspiratory activity only in
+the dorsal portion was 10.1 Hz, and these values are very
+close to those previously measured in the diaphragm. Iscoe
+et al. (1976) have reported that, during resting inspiration,
+phrenic motor axons in the cat have a mean discharge
+frequency of 11.4 ± 3.8 Hz, and in two separate studies in
+normal humans, we have found that, during resting
+breathing, diaphragmatic motor units discharge with a
+mean frequency of 10.5 ± 2.4 and 11.0 ± 2.7 Hz (De
+Troyer et al. 1997; Gandevia et al. 1999). On the other
+hand, the inspiratory modulation of the motor units
+recorded from the ventral portion of the external intercostal in our subjects was only 6.0 Hz. Yet, the periods
+during which the recordings from the dorsal and ventral
+portion were made were characterized by a similar tidal
+volume and a similar inspiratory flow rate (Table 1). The
+ribcage contribution to tidal volume was also similar, thus
+indicating that these differences in timing and discharge
+frequency cannot be attributed to differences in the pattern
+of breathing. Although the three indices of neural drive used
+in this study are based on different measurements, they thus
+lead to the same conclusion that, in normal humans
+studied in the laboratory, the neural inspiratory drive to
+the external intercostals is distributed along a dorsoventral gradient.
+
+These measurements required that the subjects breathe
+through a mouthpiece, wear a noseclip, and have a needle
+electrode in the chest. Consequently, even though the data
+were obtained with little or no discomfort, the subjects
+were aware of their breathing and one cannot exclude
+the possibility that the natural (automatic) pattern of
+muscle activation was affected by central mechanisms.
+Nonetheless, the observations obtained in the different
+subjects and in the different experimental sessions in any
+given subject were consistent.
+
+As for the third interspace, the external intercostal muscle
+in the dorsal portion of the fifth interspace always showed
+phasic inspiratory activity. However, the onset of activity
+in this area was commonly delayed relative to the onset of
+activity in the dorsal portion of the third interspace
+(Fig. 7). Also, the inspiratory discharge frequency of motor
+units in the fifth interspace was substantially lower than
+that of motor units in the third interspace (Fig. 8). The
+mean discharge frequency of motor units in the dorsal
+portion of the fifth interspace (6.7 Hz) was, in fact, only
+slightly greater than the mean discharge frequency of
+motor units in the ventral portion of the third interspace.
+In addition, the external intercostal muscle in the dorsal
+portion of the seventh interspace was almost invariably
+silent during resting breathing (Fig. 6). Thus, neural drive
+to the external intercostals in our subjects was also
+distributed along a rostro-caudal gradient, and this
+gradient, combined with the dorso-ventral gradient,
+suggests that, as in the dog (De Troyer et al. 1999; Legrand
+& De Troyer, 1999), the topographic distribution of neural
+inspiratory drive to these muscles in humans is matched to
+the topographic distribution of inspiratory effect.
+
+The external intercostal muscle in the dorsal portion of the
+third interspace showed phasic inspiratory activity with
+every breath in every subject (Figs 1, 2 and 6), whereas the
+ventral portion of the muscle in the same interspace
+showed no activity at all during resting breathing in three
+of six subjects and occasional inspiratory activity in two
+subjects. Similarly, the two subjects in whom recordings
+were made from the dorsal and ventral portions of the fifth
+interspace had invariable phasic inspiratory activity in the
+dorsal portion and no activity in the ventral portion.
+Moreover, the three subjects who had inspiratory activity
+
+Journal of Physiology
+
+J Physiol 546.3
+
+External intercostal activity in man
+
+The relationship between the magnitude of inspiratory
+effect and the magnitude of neural inspiratory drive for the
+four areas of external intercostal muscle investigated in
+this study is more specifically examined in Fig. 10A (filled
+circles). The values for inspiratory effect in this figure were
+derived from the previous studies of Wilson et al. (2001),
+and the values for neural drive were obtained by
+multiplying the mean motor unit firing rate (data shown
+in Figs 5 and 8) by the time during quiet inspiration over
+which the motor units discharged. Although the two sets
+of data were collected from different subjects, there was
+a close linear relationship (coefficient of correlation,
+r = 0.994) between them, and this strengthens the view that
+a powerful link exists between the inspiratory effect of a
+particular area of external intercostal muscle and the
+degree to which it is driven during inspiration. It should be
+appreciated, however, that the two sets of data were also
+obtained with the subjects in different body positions, so
+the slope of this relationship is only indicative. Specifically,
+the current electromyographic studies were performed
+with the subjects seated, whereas the values for inspiratory
+effect were obtained with the subjects in the supine
+position. To the extent that the respiratory effect of a given
+intercostal muscle area depends on ribcage compliance
+and that ribcage compliance in humans increases during a
+change from the supine to the seated position (Estenne et
+al. 1985), it is likely that the different areas of external
+intercostal muscle, particularly in the third and fifth interspaces, have greater inspiratory effects in this position. If
+the values for inspiratory effect in the seated position could
+be determined, the actual relationship could therefore be
+
+Figure 10. Relationship between inspiratory effect and
+neural drive for the external intercostal muscles in
+humans
+The filled circles in A correspond to the four areas of external
+intercostal muscle investigated in this study (dorsal portion of the
+third, fifth and seventh interspaces, and ventral portion of the
+third interspace), while the open circle corresponds to the
+parasternal intercostal in the third interspace. The values of
+inspiratory effect (DPao) were derived from De Troyer et al. (1998)
+and Wilson et al. (2001), and the values of neural drive during
+quiet inspiration were obtained by multiplying the mean firing
+rate of the individual motor units by the fraction of inspiration
+during which the motor units were firing and by the mean
+duration of inspiration (2.1 s); neural drive is therefore expressed
+as the mean number of motor unit spikes during inspiration.
+There is a close linear relationship (r = 0.994) between the data
+for the external intercostal muscles, but the data for the
+parasternal intercostal lie well above this relationship. However,
+when the values of neural drive are plotted against the values of
+mechanical advantage (B), a linear relationship (r = 0.931) fits all
+data well.
+
+953
+
+less steep. Conversely, increases in inspiratory mechanical
+load would increase neural inspiratory drive to the
+external intercostals, such that the relationship might be
+steeper.
+The data obtained for the parasternal intercostal in the
+third experiment of the study, however, lay well above the
+relationship for the external intercostals (open circle in
+Fig. 10A). Indeed, the mean firing rate of motor units in
+the parasternal intercostal in the third interspace was
+lower than the mean firing rate of motor units in the dorsal
+portion of the external intercostal in the same interspace
+(Fig. 9), but the two muscles were found to fire almost
+simultaneously at the onset of inspiration. As a result, the
+neural drive to the parasternal intercostal was greater than
+anticipated on the basis of its inspiratory effect. The reason
+for this difference is uncertain, but Wilson & De Troyer
+(1992, 1993) have shown that the respiratory effect of a given
+muscle is determined by the product of two variables,
+namely the mass of the muscle and its mechanical advantage
+(that is, the respiratory effect per unit muscle mass and
+unit maximum active stress). As in the dog (De Troyer et
+al. 1999), the distribution of muscle mass for the external
+intercostals in humans mirrors the distribution of
+mechanical advantage, such that the muscle areas with a
+greater inspiratory mechanical advantage also have a greater
+mass (Wilson et al. 2001). In contrast, the inspiratory
+mechanical advantage of the parasternal intercostal in the
+third interspace is about two-thirds of the mechanical
+advantage of the external intercostal in the dorsal portion
+of the same interspace (De Troyer et al. 1998; Wilson et al.
+
+Journal of Physiology
+
+954
+
+A. De Troyer, R. B. Gorman and S. C. Gandevia
+
+2001), but its mass is much lower. In other words, the
+difference in inspiratory effect between these two muscles
+is primarily related to the difference in mass, and indeed,
+when neural drive is plotted against mechanical advantage
+(Fig. 10B), the parasternal and external intercostals appear
+to yield a unique relationship (r = 0.931). Consequently,
+the idea could be offered that the distribution of neural
+drive among the different intercostal muscles is closely
+matched to the distribution of mechanical advantage,
+rather than the distribution of respiratory effect, but the
+question then would arise as to why the parasternal
+intercostal muscles in humans are not thicker. No answer
+to this teleological question can be provided at this stage.
+
+REFERENCES
+Binder MD, Heckman CK & Powers RK (1996). The physiological
+control of motoneuron activity. In Handbook of Physiology, section
+12, Exercise, Regulation and Integration of Multiple Systems,
+pp. 3–53. Oxford University Press, Oxford.
+Campbell EJM & Newsom Davis J (1970). The intercostal muscles
+and other muscles of the rib cage. In The Respiratory Muscles.
+Mechanics and Neural Control, 2nd edn, ed. Campbell EJM,
+Agostoni E & Newsom Davis J, pp. 161–174. W.B. Saunders,
+Philadelphia.
+Chadha TS, Watson H, Birch S, Jenouri GA, Schneider AW, Cohn
+MA & Sackner MA (1982). Validation of respiratory inductance
+plethysmography using different calibration procedures. Am Rev
+Respir Dis 125, 644–649.
+De Troyer A & Kelly S (1982). Chest wall mechanics in dogs with
+acute diaphragm paralysis. J Appl Physiol 53, 373–379.
+De Troyer A, Leeper JB, McKenzie DK & Gandevia SC (1997).
+Neural drive to the diaphragm in patients with severe COPD. Am J
+Resp Crit Care Med 155, 1335–1340.
+De Troyer A & Legrand A (1995). Inhomogeneous activation of the
+parasternal intercostals during breathing. J Appl Physiol 79, 55–62.
+De Troyer A, Legrand A, Gevenois PA & Wilson TA (1998).
+Mechanical advantage of the human parasternal intercostal and
+triangularis sterni muscles. J Physiol 513, 915–925.
+De Troyer A, Legrand A & Wilson TA (1996). Rostrocaudal gradient
+of mechanical advantage in the parasternal intercostal muscles of
+the dog. J Physiol 495, 239–246.
+De Troyer A, Legrand A & Wilson TA (1999). Respiratory
+mechanical advantage of the canine external and internal
+intercostal muscles. J Physiol 518, 283–289.
+Estenne M, Yernault JC & De Troyer A (1985). Rib cage and
+diaphragm-abdomen compliance in humans: effects of age and
+posture. J Appl Physiol 59, 1842–1848.
+Farkas GA, Decramer M, Rochester DF & De Troyer A (1985).
+Contractile properties of intercostal muscles and their functional
+significance. J Appl Physiol 59, 528–535.
+
+J Physiol 546.3
+
+Gandevia SC, Gorman RB, McKenzie DK & De Troyer A (1999).
+Effects of increased ventilatory drive on motor unit firing rates in
+human inspiratory muscles. Am J Resp Crit Care Med 160,
+1598–1603.
+Gandevia SC, Leeper JB, McKenzie DK & De Troyer A (1996).
+Discharge frequencies of parasternal intercostal and scalene motor
+units during breathing in normal and COPD subjects. Am J Resp
+Crit Care Med 153, 622–628.
+Gandevia SC & McKenzie DK (1986). Human diaphragmatic EMG:
+changes with lung volume and posture during supramaximal
+phrenic stimulation. J Appl Physiol 60, 1420–1428.
+Goldman MD, Grassino A, Mead J & Sears TA (1978). Mechanics of
+the human diaphragm during voluntary contraction: dynamics.
+J Appl Physiol 44, 840–848.
+Grassino A, Goldman MD, Mead J & Sears TA (1978). Mechanics of
+the human diaphragm during voluntary contraction: statics. J Appl
+Physiol 44, 829–839.
+Hamberger GE (1749). De Respirationis Mechanismo et usu Genuino,
+Iena.
+Iscoe S, Dankoff J, Migicovsky R & Polosa C (1976). Recruitment
+and discharge frequency of phrenic motoneurones during
+inspiration. Respir Physiol 26, 113–128.
+Juan G, Calverley P, Talamo C, Schnader J & Roussos C (1984).
+Effect of carbon dioxide on diaphragmatic function in human
+beings. N Engl J Med 310, 874–879.
+Kim MJ, Druz WS & Sharp JT (1985). Effect of muscle length on
+electromyogram in a canine diaphragm strip preparation. J Appl
+Physiol 58, 1602–1607.
+Leduc D, Brunko E & De Troyer A (2000). Response of the canine
+inspiratory intercostal muscles to chest wall vibration. Am J Resp
+Crit Care Med 161, 510–516.
+Legrand A, Brancatisano A, Decramer M & De Troyer A (1996).
+Rostrocaudal gradient of electrical activation in the parasternal
+intercostal muscles of the dog. J Physiol 495, 247–254.
+Legrand A & De Troyer A (1999). Spatial distribution of external and
+internal intercostal activity in dogs. J Physiol 518, 291–300.
+Mizuno M & Secher NH (1989). Histochemical characteristics of
+human expiratory and inspiratory intercostal muscles. J Appl
+Physiol 67, 592–598.
+Sinderby C, Beck J, Spahija J, Weinberg J & Grassino A (1998).
+Voluntary activation of the human diaphragm in health and
+disease. J Appl Physiol 85, 2146–2158.
+Taylor A (1960). The contribution of the intercostal muscles to the
+effort of respiration in man. J Physiol 151, 390–402.
+Wilson TA, Legrand A, Gevenois PA & De Troyer A (2001).
+Respiratory effects of the external and internal intercostal muscles
+in humans. J Physiol 530, 319–330.
+Wilson TA & De Troyer A (1992). Effect of respiratory muscle
+tension on lung volume. J Appl Physiol 73, 2283–2288.
+Wilson TA & De Troyer A (1993). Respiratory effect of the
+intercostal muscles in the dog. J Appl Physiol 75, 2636–2645.
+
+

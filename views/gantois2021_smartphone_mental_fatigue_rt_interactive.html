@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gantois 2021 smartphone mental fatigue and resistance training</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)} select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(280px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(44dvh,calc(100dvh - 230px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing} canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px);max-width:min(340px,44vw)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:280px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(260px,46dvh,380px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Gantois et al. (2021) - Smartphone mental fatigue and resistance training</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle outcomes</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={
+        smartphone:'#60a5fa',
+        documentary:'#22c55e',
+        effect:'#f59e0b',
+        significant:'#ef4444',
+        nonsig:'#9ca3af'
+      };
+      const MODES={
+        repetitions:{
+          label:'Number of repetitions',
+          type:'groupedBar',
+          subtitle:'Figure 2 reconstruction of the set-by-set repetition counts across pre- and post-experimental conditions.',
+          hint:'This is a figure-based reconstruction from Figure 2, because the paper text reports the pattern and significance but not a clean repetition table. The key point is fewer repetitions after smartphone use in post Set 1 and post Set 3.',
+          overlay:'Figure 2 reconstruction of set-by-set repetitions',
+          yLabel:'Number of repetitions',
+          xLabel:'Testing block and set',
+          labels:['Pre S1','Pre S2','Pre S3','Post S1','Post S2','Post S3'],
+          series:[
+            {name:'Smartphone social apps',color:COLORS.smartphone,points:[
+              {x:1,y:29.0,note:'Figure-based reconstruction of the smartphone condition pre-experiment set 1.'},
+              {x:2,y:21.0,note:'Figure-based reconstruction of the smartphone condition pre-experiment set 2.'},
+              {x:3,y:20.0,note:'Figure-based reconstruction of the smartphone condition pre-experiment set 3.'},
+              {x:4,y:19.0,note:'Figure-based reconstruction of the smartphone condition post-experiment set 1; lower than control.'},
+              {x:5,y:17.0,note:'Figure-based reconstruction of the smartphone condition post-experiment set 2.'},
+              {x:6,y:12.0,note:'Figure-based reconstruction of the smartphone condition post-experiment set 3; lower than control.'}
+            ]},
+            {name:'Documentary control',color:COLORS.documentary,points:[
+              {x:1,y:30.0,note:'Figure-based reconstruction of the control condition pre-experiment set 1.'},
+              {x:2,y:22.0,note:'Figure-based reconstruction of the control condition pre-experiment set 2.'},
+              {x:3,y:20.0,note:'Figure-based reconstruction of the control condition pre-experiment set 3.'},
+              {x:4,y:24.0,note:'Figure-based reconstruction of the control condition post-experiment set 1.'},
+              {x:5,y:18.0,note:'Figure-based reconstruction of the control condition post-experiment set 2.'},
+              {x:6,y:15.0,note:'Figure-based reconstruction of the control condition post-experiment set 3.'}
+            ]}
+          ]
+        },
+        volume:{
+          label:'Volume-load change (%)',
+          type:'bar',
+          subtitle:'Exact reported total volume-load change from pre to post. Smartphone-induced mental fatigue caused the larger drop.',
+          hint:'This is the main practical result from the paper. Both conditions dropped from pre to post, but smartphone social-media use produced the larger reduction in completed volume-load.',
+          overlay:'Exact reported pre-to-post volume-load change',
+          yLabel:'Change from pre (%)',
+          items:[
+            {key:'smartphone',name:'Smartphone social apps',value:-29.0,note:'Exact reported overall change from pre to post in the smartphone mental-fatigue condition.'},
+            {key:'documentary',name:'Documentary control',value:-14.8,note:'Exact reported overall change from pre to post in the control condition.'}
+          ]
+        },
+        repetitionPattern:{
+          label:'Set-level repetition disadvantage',
+          type:'bar',
+          subtitle:'Post-experiment between-condition effect sizes by set. The paper reported fewer repetitions after smartphone use in sets 1 and 3.',
+          hint:'This is a study-summary view. The paper text gives the exact between-condition effect sizes and says the significant repetition disadvantage appeared in sets 1 and 3.',
+          overlay:'Exact between-condition effect sizes reported in the text',
+          yLabel:'Between-condition effect size (Cohen’s d)',
+          items:[
+            {key:'set1',name:'Set 1',value:0.44,note:'Exact post-experiment between-condition effect size. The paper says set 1 was significantly lower after smartphone use.'},
+            {key:'set2',name:'Set 2',value:0.16,note:'Exact post-experiment between-condition effect size. The paper says set 2 was not significantly different.'},
+            {key:'set3',name:'Set 3',value:0.49,note:'Exact post-experiment between-condition effect size. The paper says set 3 was significantly lower after smartphone use.'},
+            {key:'vol',name:'Total volume-load',value:0.25,note:'Exact post-experiment between-condition effect size for total volume-load.'}
+          ]
+        },
+        significance:{
+          label:'Outcome significance summary',
+          type:'bar',
+          subtitle:'Exact reported p values for the main outcomes. Lower bars indicate stronger evidence of a condition effect.',
+          hint:'This gives the quick study read: perceived mental fatigue and total volume-load changed by condition, while RPE, motivation, lactate, and mechanical variables did not.',
+          overlay:'Exact reported p values from the paper',
+          yLabel:'p value',
+          items:[
+            {key:'mf',name:'Perceived mental fatigue',value:0.004,note:'Exact reported condition × time effect for perceived mental fatigue.'},
+            {key:'volume',name:'Total volume-load',value:0.006,note:'Exact reported interaction effect for total volume-load.'},
+            {key:'reps',name:'Repetitions pattern',value:0.015,note:'Exact reported interaction effect for repetitions across sets.'},
+            {key:'mot',name:'Motivation',value:0.277,note:'Exact reported between-condition p value; not significant.'},
+            {key:'rpe',name:'RPE',value:0.540,note:'Exact reported p value; no between-condition effect.'},
+            {key:'lactate',name:'Blood lactate',value:0.360,note:'Exact reported p value; no between-condition effect.'}
+          ]
+        },
+        lactate:{
+          label:'Post-exercise lactate',
+          type:'bar',
+          subtitle:'Exact reported blood-lactate concentrations after the resistance exercise. The conditions were essentially the same.',
+          hint:'This helps show the paper’s main interpretation: performance fell after smartphone-induced mental fatigue without a clear metabolic explanation from blood lactate.',
+          overlay:'Exact reported post-exercise blood lactate means',
+          yLabel:'Blood lactate (mmol/L)',
+          items:[
+            {key:'smartphone',name:'Smartphone social apps',value:7.51,note:'Exact reported post-exercise blood lactate mean in the smartphone condition.'},
+            {key:'documentary',name:'Documentary control',value:7.64,note:'Exact reported post-exercise blood lactate mean in the control condition.'}
+          ]
+        }
+      };
+
+      const ITEM_COLORS={smartphone:COLORS.smartphone,documentary:COLORS.documentary,set1:'#60a5fa',set2:'#22c55e',set3:'#f59e0b',vol:'#a78bfa',mf:COLORS.significant,volume:'#ef4444',reps:'#f59e0b',mot:COLORS.nonsig,rpe:COLORS.nonsig,lactate:COLORS.nonsig};
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='volume',visible={},drag=null,view={minX:0,maxX:0,minY:0,maxY:0};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
+      function initVisible(){
+        const cfg=MODES[mode];
+        if(cfg.type==='line' || cfg.type==='groupedBar'){ cfg.series.forEach(series=>{ if(!(series.name in visible)) visible[series.name]=true; }); return; }
+        cfg.items.forEach(item=>{ if(!(item.name in visible)) visible[item.name]=true; });
+      }
+      function currentItems(){
+        const cfg=MODES[mode];
+        if(cfg.type==='line' || cfg.type==='groupedBar') return cfg.series.filter(series=>visible[series.name]);
+        return cfg.items.filter(item=>visible[item.name]);
+      }
+      function bounds(){
+        const items=currentItems();
+        if(mode==='repetitions'){
+          const vals=items.flatMap(series=>series.points.map(point=>point.y));
+          return {minX:0.6,maxX:6.4,minY:0,maxY:Math.max(...vals)*1.15};
+        }
+        const vals=items.map(i=>i.value);
+        if(mode==='volume') return {minX:0.4,maxX:2.6,minY:-35,maxY:5};
+        if(mode==='significance') return {minX:0.4,maxX:items.length+0.6,minY:0,maxY:0.62};
+        if(mode==='repetitionPattern') return {minX:0.4,maxX:items.length+0.6,minY:0,maxY:0.65};
+        return {minX:0.4,maxX:2.6,minY:0,maxY:Math.max(...vals)*1.18};
+      }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function sx(x,plot){ return plot.x+((x-view.minX)/(view.maxX-view.minX))*plot.w; }
+      function sy(y,plot){ return plot.y+plot.h-((y-view.minY)/(view.maxY-view.minY))*plot.h; }
+      function niceTicks(min,max,target=5){ const span=max-min||1, rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+      function drawAxes(plot){
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of niceTicks(view.minY,view.maxY,5)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(mode==='significance'||mode==='repetitionPattern'?y.toFixed(2).replace(/0$/,'').replace(/\.$/,''):y.toFixed(1).replace(/\.0$/,''),16,py+4); }
+        ctx.textAlign='center';
+        if(mode==='repetitions'){
+          MODES[mode].labels.forEach((label,idx)=>{ const x=idx+1, px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(label,px,plot.y+plot.h+28,84,14); });
+          ctx.fillText(MODES[mode].xLabel,plot.x+plot.w/2,plot.y+plot.h+54);
+        } else {
+          currentItems().forEach((item,idx)=>{ const x=idx+1, px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(item.name,px,plot.y+plot.h+28,96,14); });
+          ctx.fillText(mode==='repetitionPattern'?'Study outcomes':'Conditions / outcomes',plot.x+plot.w/2,plot.y+plot.h+54);
+        }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore();
+      }
+      function draw(){
+        initVisible();
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:88,y:20,w:Math.max(120,w-118),h:Math.max(110,h-106)};
+        drawAxes(plot);
+        if(view.minY<0&&view.maxY>0){ const y0=sy(0,plot); ctx.strokeStyle='rgba(255,255,255,.20)'; ctx.lineWidth=1.4; ctx.beginPath(); ctx.moveTo(plot.x,y0); ctx.lineTo(plot.x+plot.w,y0); ctx.stroke(); }
+        const markers=[];
+        if(mode==='repetitions'){
+          const series=currentItems(), gap=6, barW=22;
+          MODES[mode].labels.forEach((label,idx)=>{
+            const xVal=idx+1, cx=sx(xVal,plot), totalW=(barW*series.length)+gap*Math.max(0,series.length-1);
+            series.forEach((s,seriesIdx)=>{
+              const point=s.points.find(p=>p.x===xVal); if(!point) return;
+              const x=cx-totalW/2+seriesIdx*(barW+gap), y=sy(point.y,plot), hBar=plot.y+plot.h-y;
+              ctx.fillStyle=s.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,barW,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x,y,barW,hBar);
+              markers.push({bar:{x,y,w:barW,h:hBar},series:s,datum:point});
+            });
+          });
+        } else {
+          const barW=Math.max(18,Math.min(52,Math.max(18,plot.w/(Math.max(1,currentItems().length)*2.3))));
+          currentItems().forEach((item,idx)=>{
+            const xCenter=sx(idx+1,plot), value=item.value, y=sy(value,plot), zeroY=sy(0,plot), top=Math.min(y,zeroY), hBar=Math.max(1,Math.abs(zeroY-y)), x=xCenter-barW/2;
+            const color=ITEM_COLORS[item.key]||COLORS.smartphone;
+            ctx.fillStyle=color; ctx.globalAlpha=.92; ctx.fillRect(x,top,barW,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x,top,barW,hBar);
+            markers.push({bar:{x,y:top,w:barW,h:hBar},item,value});
+          });
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=`${currentItems().length} ${mode==='repetitions'?'series':'outcomes'} visible`;
+      }
+      function renderLegend(){
+        legend.innerHTML=''; const cfg=MODES[mode]; subtitle.textContent=cfg.subtitle; hint.textContent=cfg.hint; overlay.textContent=cfg.overlay;
+        const isSeriesMode=cfg.type==='line' || cfg.type==='groupedBar';
+        const entries=isSeriesMode?cfg.series:cfg.items;
+        entries.forEach(entry=>{ const color=isSeriesMode?entry.color:(ITEM_COLORS[entry.key]||COLORS.smartphone); const name=entry.name; const row=document.createElement('div'); row.className='check'+(visible[name]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[name]?'checked':''} /><span class="swatch" style="background:${color}"></span><label>${name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{ visible[name]=e.target.checked; fit(); renderLegend(); }); row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[name]=box.checked; fit(); renderLegend(); }}); legend.appendChild(row); });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>m.bar?(x>=m.bar.x&&x<=m.bar.x+m.bar.w&&y>=m.bar.y&&y<=m.bar.y+m.bar.h):Math.hypot(m.point.x-x,m.point.y-y)<=m.point.r);
+        if(!hit){ tooltip.style.display='none'; return; }
+        if(mode==='repetitions'){
+          tooltip.innerHTML=`<div><strong>${hit.series.name}</strong></div><div class="muted">${MODES[mode].labels[hit.datum.x-1]}</div><div>Repetitions: <strong>${hit.datum.y.toFixed(1)}</strong></div><div>${hit.datum.note}</div>`;
+        } else {
+          const suffix=mode==='volume'?'%':mode==='lactate'?' mmol/L':'';
+          tooltip.innerHTML=`<div><strong>${hit.item.name}</strong></div><div class="muted">${MODES[mode].label}</div><div>${MODES[mode].yLabel}: <strong>${hit.value.toFixed(mode==='significance'||mode==='repetitionPattern'?2:1).replace(/0$/,'').replace(/\.$/,'')}${suffix}</strong></div><div>${hit.item.note}</div>`;
+        }
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||240, tipH=tooltip.offsetHeight||90, left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)), top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      function clampView(){ const b=bounds(), spanX=view.maxX-view.minX; if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; } if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; } if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; } }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ const entries=(MODES[mode].type==='line'||MODES[mode].type==='groupedBar')?MODES[mode].series:MODES[mode].items; entries.forEach(i=>visible[i.name]=true); fit(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ const entries=(MODES[mode].type==='line'||MODES[mode].type==='groupedBar')?MODES[mode].series:MODES[mode].items; entries.forEach(i=>visible[i.name]=false); fit(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const plot=stage._plot||{x:88,w:Math.max(120,stage.clientWidth-118)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const b=bounds(); const newSpan=Math.max(1.8,Math.min(b.maxX-b.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

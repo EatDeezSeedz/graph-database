@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Koo 2002 elbow flexor musculotendon parameters</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.65);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(249,115,22,.12),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:var(--panel);color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(250px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}.check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.4}
+      .stage{position:relative;overflow:auto;min-width:0;height:min(52dvh,calc(100dvh - 220px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)} .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.hint,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(14rem,20dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,48dvh,390px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Koo et al. (2002) - Prime elbow flexor musculotendon parameters</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="fit" class="btn">Fit</button>
+          <button id="reset" class="btn">Reset</button>
+          <button id="all" class="btn">Show all</button>
+          <button id="none" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="checks"></div>
+          <div id="hint" class="hint"></div>
+        </div>
+        <div id="stage" class="stage">
+          <canvas id="c"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={normal:"#60a5fa",hemi:"#f97316"};
+      const MODES={
+        optimal:{label:"Muscle optimal length",subtitle:"Figure 3A mean muscle optimal lengths for the four prime elbow flexors in normal versus hemiparetic subjects.",hint:"BRD is longest, BRA is shortest, and the muscle-to-muscle differences are much larger than the group differences.",overlay:"Hover = mean optimal length (cm)",yLabel:"Optimal length (cm)",categories:["LHB","SHB","BRA","BRD"],series:[{name:"Normal",color:COLORS.normal,values:[11.31,14.71,10.14,23.76],note:"Normal subjects (n = 5)."},{name:"Hemiparetic",color:COLORS.hemi,values:[12.52,13.46,11.53,22.42],note:"Hemiparetic subjects modeled in the paper (n = 3)."}]},
+        tendon:{label:"Tendon slack length",subtitle:"Figure 3B mean tendon slack lengths for the four prime elbow flexors in normal versus hemiparetic subjects.",hint:"The biceps heads have much longer tendon slack lengths than BRA and BRD.",overlay:"Hover = mean tendon slack length (cm)",yLabel:"Tendon slack length (cm)",categories:["LHB","SHB","BRA","BRD"],series:[{name:"Normal",color:COLORS.normal,values:[25.91,21.57,3.49,8.96],note:"Normal subjects (n = 5)."},{name:"Hemiparetic",color:COLORS.hemi,values:[25.71,24.37,2.54,11.57],note:"Hemiparetic subjects modeled in the paper (n = 3)."}]},
+        stiffness:{label:"Tendon slack / optimal ratio",subtitle:"Figure 3C musculotendon stiffness-related ratio (lto/lmo). Lower values indicate a stiffer musculotendon actuator.",hint:"BRA and BRD are much stiffer than the biceps heads by this ratio.",overlay:"Hover = lto / lmo ratio",yLabel:"lto / lmo",categories:["LHB","SHB","BRA","BRD"],series:[{name:"Normal",color:COLORS.normal,values:[2.34,1.49,0.43,0.40],note:"Normal subjects (n = 5)."},{name:"Hemiparetic",color:COLORS.hemi,values:[2.06,1.83,0.24,0.55],note:"Hemiparetic subjects modeled in the paper (n = 3)."}]},
+        excursion:{label:"Optimal length / moment arm ratio",subtitle:"Figure 3D excursion-related ratio (lmo/MAa) across 10°-110° of elbow flexion.",hint:"Higher values imply more fiber excursion relative to moment arm. BRA sits highest in both groups, LHB lowest.",overlay:"Hover = lmo / MAa ratio",yLabel:"lmo / MAa",categories:["LHB","SHB","BRA","BRD"],series:[{name:"Normal",color:COLORS.normal,values:[3.56,4.54,5.14,4.77],note:"Normal subjects (n = 5)."},{name:"Hemiparetic",color:COLORS.hemi,values:[3.83,4.04,5.60,4.28],note:"Hemiparetic subjects modeled in the paper (n = 3)."}]},
+        summary:{label:"Group summary",subtitle:"Study-level group summaries: maximum muscle stress and the optimal angles from stimulation testing.",hint:"The normal group had higher mean maximum muscle stress, while the hemiparetic group had more flexed optimal angles.",overlay:"Hover = mean ± SD",yLabel:"Reported value",categories:["Max muscle stress (N/cm²)","Biceps optimal angle (°)","BRD optimal angle (°)"],series:[{name:"Normal",color:COLORS.normal,values:[129.37,19.6,17.0],errors:[32.29,2.9,1.6],note:"Normal subjects."},{name:"Hemiparetic",color:COLORS.hemi,values:[96.61,26.5,27.0],errors:[49.62,8.1,8.5],note:"Hemiparetic subjects."}]}
+      };
+
+      const modeEl=document.getElementById("mode"),checksEl=document.getElementById("checks"),subtitleEl=document.getElementById("subtitle"),hintEl=document.getElementById("hint"),overlayEl=document.getElementById("overlay"),statusEl=document.getElementById("status"),stage=document.getElementById("stage"),canvas=document.getElementById("c"),ctx=canvas.getContext("2d"),tip=document.getElementById("tip");
+      let modeKey="optimal",series=[],activeSeries=null,hits=[],zoomX=1,dragging=false,dragStartX=0,dragStartScrollLeft=0;
+      const mode=()=>MODES[modeKey];
+      function populateModes(){for(const [k,v] of Object.entries(MODES)){const opt=document.createElement("option");opt.value=k;opt.textContent=v.label;modeEl.appendChild(opt)}modeEl.value=modeKey}
+      function rebuildSeries(){series=mode().series.map(item=>({visible:true,...item}))}
+      function syncActiveRows(){for(const row of checksEl.querySelectorAll(".check"))row.classList.toggle("active",row.dataset.name===activeSeries)}
+      function rebuildChecks(){checksEl.innerHTML="";for(const item of series){const row=document.createElement("div");row.className="check";row.dataset.name=item.name;const cb=document.createElement("input");cb.type="checkbox";cb.checked=item.visible;cb.addEventListener("click",e=>e.stopPropagation());cb.addEventListener("change",()=>{item.visible=cb.checked;if(!item.visible&&activeSeries===item.name)activeSeries=null;syncActiveRows();draw()});const sw=document.createElement("div");sw.className="swatch";sw.style.background=item.color;const lab=document.createElement("label");lab.textContent=item.name;row.addEventListener("click",()=>{activeSeries=activeSeries===item.name?null:item.name;syncActiveRows();draw()});row.append(cb,sw,lab);checksEl.appendChild(row);}}
+      function hideTip(){tip.style.display="none"}
+      function showTip(html,x,y){tip.innerHTML=html;tip.style.display="block";const r=stage.getBoundingClientRect(),tr=tip.getBoundingClientRect(),pad=14;tip.style.left=Math.max(pad,Math.min(r.width-tr.width-pad,x+pad))+"px";tip.style.top=Math.max(pad,Math.min(r.height-tr.height-pad,y+pad))+"px"}
+      function resetViewport(){zoomX=1;stage.scrollLeft=0;draw()}
+      function fitViewport(){zoomX=1;stage.scrollLeft=0;draw()}
+      function zoomAt(clientX,factor){const rect=stage.getBoundingClientRect();const localX=clientX-rect.left;const prev=zoomX;const next=Math.max(.65,Math.min(4.5,prev*factor));if(next===prev)return;const anchor=(stage.scrollLeft+localX)/prev;zoomX=next;draw();stage.scrollLeft=Math.max(0,(anchor*next)-localX)}
+      function draw(){const categories=mode().categories,visibleSeries=series.filter(s=>s.visible),baseW=Math.max(620,stage.clientWidth||620),groupGap=36,barW=34,barGap=10,left=92,top=28,right=28,bottom=116;const groupW=series.length*barW+(series.length-1)*barGap;const contentW=Math.max(baseW,Math.round((left+right+categories.length*(groupW+groupGap))*zoomX));const H=520,plotW=contentW-left-right,plotH=H-top-bottom;canvas.style.height=H+"px";const dpr=window.devicePixelRatio||1;canvas.width=Math.floor(contentW*dpr);canvas.height=Math.floor(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,contentW,H);ctx.fillStyle="#0f172a";ctx.fillRect(0,0,contentW,H);hits=[];const vals=visibleSeries.flatMap(s=>s.values);const minVal=Math.min(...vals,0),maxVal=Math.max(...vals,1);const yMin=minVal<0?minVal*1.16:0,yMax=maxVal<5?Math.max(1,maxVal*1.25):maxVal*1.16;const yToPx=v=>top+(yMax-v)*plotH/(yMax-yMin);const rough=(yMax-yMin)/6,mag=Math.pow(10,Math.floor(Math.log10(rough||1))),tickStep=[1,2,5,10].map(m=>m*mag).find(v=>v>=rough)||10*mag;ctx.strokeStyle="rgba(255,255,255,.08)";for(let y=Math.ceil(yMin/tickStep)*tickStep;y<=yMax+1e-9;y+=tickStep){const py=yToPx(y);ctx.beginPath();ctx.moveTo(left,py);ctx.lineTo(contentW-right,py);ctx.stroke();ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="right";ctx.fillText(String(Math.round(y*100)/100),left-10,py+4)}ctx.strokeStyle="rgba(255,255,255,.28)";ctx.strokeRect(left,top,plotW,plotH);const zeroY=yToPx(0);ctx.beginPath();ctx.moveTo(left,zeroY);ctx.lineTo(contentW-right,zeroY);ctx.stroke();let x=left+26;for(let i=0;i<categories.length;i++){const groupCenter=x+(groupW/2);for(let sIndex=0;sIndex<series.length;sIndex++){const baseItem=series[sIndex],barLeft=x+sIndex*(barW+barGap),val=baseItem.values[i],err=((baseItem.errors||[])[i])||0;const isVisible=baseItem.visible,isActive=activeSeries===baseItem.name,hasActive=!!activeSeries,alpha=isVisible?(hasActive?(isActive?1:.18):1):.08;const topY=Math.min(yToPx(val),zeroY),barBottom=Math.max(yToPx(val),zeroY),barH=Math.max(2,barBottom-topY);ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=baseItem.color;if(isActive){ctx.shadowColor=baseItem.color;ctx.shadowBlur=18}ctx.fillRect(barLeft,topY,barW,barH);ctx.restore();if(err>0){const errTop=yToPx(Math.min(yMax,val+err)),errBottom=yToPx(Math.max(yMin,val-err));ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle="rgba(255,255,255,.75)";ctx.lineWidth=1.4;ctx.beginPath();ctx.moveTo(barLeft+barW/2,errTop);ctx.lineTo(barLeft+barW/2,errBottom);ctx.moveTo(barLeft+8,errTop);ctx.lineTo(barLeft+barW-8,errTop);ctx.moveTo(barLeft+8,errBottom);ctx.lineTo(barLeft+barW-8,errBottom);ctx.stroke();ctx.restore()}if(isVisible)hits.push({x:barLeft,y:topY,w:barW,h:barH,series:baseItem,category:categories[i],value:val,error:err});ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="11px Segoe UI, system-ui";ctx.textAlign="center";ctx.fillText(baseItem.name,barLeft+barW/2,H-bottom+18);ctx.restore();}ctx.fillStyle="rgba(156,163,175,.95)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="center";ctx.fillText(categories[i],groupCenter,H-bottom+48);x+=groupW+groupGap}ctx.fillStyle="rgba(156,163,175,.95)";ctx.save();ctx.translate(18,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.textAlign="center";ctx.fillText(mode().yLabel,0,0);ctx.restore();subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} series shown • ${Math.round(zoomX*100)}% zoom`;}
+      function applyMode(){activeSeries=null;rebuildSeries();rebuildChecks();syncActiveRows();resetViewport()}
+      modeEl.addEventListener("change",()=>{modeKey=modeEl.value;applyMode()});document.getElementById("fit").addEventListener("click",fitViewport);document.getElementById("reset").addEventListener("click",()=>{activeSeries=null;syncActiveRows();resetViewport()});document.getElementById("all").addEventListener("click",()=>{for(const item of series)item.visible=true;for(const cb of checksEl.querySelectorAll("input"))cb.checked=true;syncActiveRows();draw()});document.getElementById("none").addEventListener("click",()=>{for(const item of series)item.visible=false;activeSeries=null;for(const cb of checksEl.querySelectorAll("input"))cb.checked=false;syncActiveRows();draw()});stage.addEventListener("pointerdown",e=>{if(e.button!==0)return;dragging=true;dragStartX=e.clientX;dragStartScrollLeft=stage.scrollLeft;stage.classList.add("is-dragging");stage.setPointerCapture(e.pointerId);hideTip()});stage.addEventListener("pointermove",e=>{if(dragging){stage.scrollLeft=Math.max(0,dragStartScrollLeft-(e.clientX-dragStartX));return}const r=stage.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,contentX=x+stage.scrollLeft;const hit=hits.find(h=>contentX>=h.x&&contentX<=h.x+h.w&&y>=h.y&&y<=h.y+h.h);if(!hit){hideTip();return}const valueText=hit.error>0?`${hit.value.toFixed(2)} ± ${hit.error.toFixed(2)}`:`${hit.value.toFixed(2)}`;showTip(`<div><strong>${hit.category}</strong></div><div class="muted">${hit.series.name}: ${valueText}</div><div class="muted">${hit.series.note}</div>`,x,y)});stage.addEventListener("pointerup",()=>{dragging=false;stage.classList.remove("is-dragging")});stage.addEventListener("pointercancel",()=>{dragging=false;stage.classList.remove("is-dragging")});stage.addEventListener("pointerleave",()=>{if(!dragging)hideTip()});stage.addEventListener("wheel",e=>{e.preventDefault();const factor=e.deltaY>0?1/1.12:1.12;zoomAt(e.clientX,factor)},{passive:false});window.addEventListener("resize",draw);populateModes();applyMode();
+    </script>
+  </body>
+</html>

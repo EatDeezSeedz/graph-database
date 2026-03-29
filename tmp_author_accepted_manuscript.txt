@@ -1,0 +1,1094 @@
+University of Birmingham
+
+
+Lumbar muscle adaptations to external
+perturbations are modulated by trunk posture
+Abboud, Jacques; Ducas, Julien; Marineau-Bélanger, Émile; Gallina, Alessio
+
+DOI:
+10.1007/s00421-023-05223-2
+License:
+Other (please specify with Rights Statement)
+
+
+Document Version
+Peer reviewed version
+
+Citation for published version (Harvard):
+Abboud, J, Ducas, J, Marineau-Bélanger, É & Gallina, A 2023, 'Lumbar muscle adaptations to external
+perturbations are modulated by trunk posture', European Journal of Applied Physiology.
+https://doi.org/10.1007/s00421-023-05223-2
+
+
+
+
+Link to publication on Research at Birmingham portal
+
+
+
+
+Publisher Rights Statement:
+This version of the article has been accepted for publication, after peer review (when applicable) and is subject to Springer Nature’s AM
+terms of use, but is not the Version of Record and does not reflect post-acceptance improvements, or any corrections. The Version of
+Record is available online at: http://dx.doi.org/10.1007/s00421-023-05223-2
+
+
+
+
+General rights
+Unless a licence is specified above, all rights (including copyright and moral rights) in this document are retained by the authors and/or the
+copyright holders. The express permission of the copyright holder must be obtained for any use of this material other than for purposes
+permitted by law.
+
+•Users may freely distribute the URL that is used to identify this publication.
+•Users may download and/or print one copy of the publication from the University of Birmingham research portal for the purpose of private
+study or non-commercial research.
+•User may use extracts from the document in line with the concept of ‘fair dealing’ under the Copyright, Designs and Patents Act 1988 (?)
+•Users may not further distribute the material nor use it for the purposes of commercial gain.
+
+Where a licence is displayed above, please note the terms and conditions of the licence govern your use of this document.
+
+When citing, please reference the published version.
+Take down policy
+While the University of Birmingham exercises care and attention in making items available there are rare occasions when an item has been
+uploaded in error or has been deemed to be commercially or otherwise sensitive.
+
+If you believe that this is the case for this document, please contact UBIRA@lists.bham.ac.uk providing details and we will remove access to
+the work immediately and investigate.
+
+
+
+
+Download date: 29. Mar. 2026
+Lumbar muscle adaptations to external perturbations are
+modulated by trunk posture
+
+
+Accepted for publication: European Journal of Applied Physiology
+
+
+Jacques Abboud1,2, Julien Ducas1,2, Émile Marineau-Bélanger1,2, Alessio Gallina3,4
+
+
+Authors informations:
+   1. Département des Sciences de l’Activité Physique, Université du Québec à Trois-
+       Rivières, 3351 Boul. des Forges, Trois-Rivières, Qc, G8Z 4M3, Canada
+   2. Groupe de Recherche sur les Affections Neuromusculosquelettiques GRAN,
+       Université du Québec à Trois-Rivières, Trois-Rivières, Canada
+   3. School of Sport, Exercise and Rehabilitation Sciences, University of Birmingham,
+       Birmingham, UK
+   4. Centre of Precision Rehabilitation for Spinal Pain, School of Sport, Exercise and
+       Rehabilitation Sciences, University of Birmingham, Birmingham, UK
+
+
+Corresponding author: Jacques Abboud, 3351, boul. des Forges, C.P. 500, Trois-
+Rivières, Qc, Canada, G8Z 4M3. Telephone number: +1 (819) 376-5011 ext 3783. E-mail:
+jacques.abboud@uqtr.ca
+
+
+
+
+Statements and Declarations: There is no conflict of interest.
+
+
+
+
+Funding: This research received funding from Natural Sciences and Engineering
+Research Council of Canada (NSERC).
+
+
+
+Category: Original article
+
+
+
+
+                                                                                     1
+Abstract
+
+Purpose: To investigate if the recruitment of different regions within the lumbar extensor muscles
+in response to unexpected perturbations depends on trunk posture.
+Methods: In a semi-seated posture, healthy adult participants experienced unexpected posterior-
+anterior trunk perturbations in three different postures: neutral, trunk flexion and left trunk rotation.
+High-density surface electromyography was used to identify the regional distribution of activation
+within the lumbar erector spinae muscles. The effect of posture and side (left vs right) on muscle
+activity and centroid coordinates was investigated at baseline and in response to perturbation.
+Results: Higher muscle activity was observed in trunk flexion compared to neutral and rotation
+postures at baseline (multiple p<0.001) and in response to the perturbation (multiple p<0.01). At
+baseline, the centroid of the electromyographic amplitude distribution was localized more medially
+in trunk flexion compared to trunk neutral posture (p=0.003), while activation was localized more
+laterally in response to the perturbation (multiple p<0.05). When the trunk was rotated, the
+electromyographic amplitude distribution was localized more cranially on the left than the right side,
+both at baseline (p=0.001) and in response to the perturbation (p=0.001). Finally, a more lateral
+location of the centroid on the left side in rotation in compared to neutral posture was observed in
+response to the perturbation (multiple p<0.001).
+Conclusions: Regional differences in the distribution of electromyography amplitude indicate that
+different muscle regions were recruited in different trunk postures and in response to perturbations,
+possibly based on regional mechanical advantage of the erector spinae muscle fibers.
+
+
+
+Keywords: Erector spinae, Trunk, Postural perturbation, High-density EMG
+
+
+
+Abbreviations:
+
+ANOVA            Analysis of variance
+
+EMG              Electromyography
+
+HDsEMG           High-density surface electromyography
+
+MVIC             Maximal voluntary isometric contractions
+
+RMS              Root mean square
+
+SD               Standard deviation
+
+
+
+
+                                                                                                       2
+Introduction
+
+Over the past two decades, there has been a growing interest in understanding how different
+
+lumbar muscles contribute to trunk postural control and its movement. Recently, a clear distinction
+
+in motor unit territories has been discovered between the upper (L1 to L3 vertebrae) and lower (L3
+
+to L4 vertebrae) regions of the erector spinae muscles (Abboud et al. 2020), which allows a regional
+
+activation of these muscles during voluntary movements, such as trunk rotation. These localized
+
+motor unit territories are a neuroanatomical prerequisite for regional activation of the erector spinae,
+
+which has been observed in different functional tasks (Serafino et al. 2021) and when assessing
+
+neuromuscular strategies in individuals with low back pain (Falla et al. 2014). However, it is
+
+currently unclear whether the regional activation can be observed in response to perturbations
+
+applied with the trunk in different postures.
+
+According to the neuromechanical principle (Hudson et al. 2019), motor units are recruited
+
+according to a mechanical advantage during complex tasks where joint angle and fibre orientation
+
+varies. For instance, recruitment of inspiratory motor unit is optimized with muscle length changes,
+
+i.e. motor unit are activated earlier or within specific muscle regions where the mechanical
+
+advantage is largest (Butler and Gandevia 2008). Anatomical variations in the erector spinae fiber
+
+orientation (Bogduk 2005) may confer a mechanical advantage for motor unit recruitment localized
+
+in different regions within this muscle. Since fiber orientation changes with trunk posture (Harriss
+
+and Brown 2015; McGill et al. 2000), this mechanical advantage may depend on the trunk position.
+
+In an erect posture, the muscle fibers of the lumbar erector spinae have a posterior and caudal
+
+orientation (Harriss and Brown 2015), which generates posterior shear forces to support any
+
+anterior reaction shear forces. When the trunk is flexed, however, they lose such ability because
+
+their line of action becomes parallel to the compression axis (McGill et al. 2000). Moreover, in a
+
+flexed posture, the gravitational moment increases, which increase the demand of the lumbar
+
+muscles to stabilise the trunk. When the trunk is rotated to the right, ipsilateral lumbar muscles
+
+showed higher activation while performing trunk extension in comparison with contralateral lumbar
+
+muscles (Ng et al. 2001), which may lead to asymmetrical responses in response to external
+
+perturbations. Therefore, changing the trunk posture would require adaptations of motor unit
+
+
+                                                                                                      3
+recruitment according to the mechanical advantage of the muscles (Hudson et al. 2019). For
+
+instance, it has been shown that regional activity of the deep trunk muscles (quadratus lumborum)
+
+and the psoas major depends on their mechanical advantage during anticipatory postural
+
+adjustment tasks (Park et al. 2014). This observation can be explained by the anatomical variation
+
+of these muscles, such as orientation of the muscle fascicles, based on spine curvature. Based on
+
+these findings, it could be hypothesized that the regional activity of the erector spinae muscles
+
+depends on the mechanical advantage of this specific region.
+
+Regional activation could be a strategy to minimize the functional cost while maintaining the task
+
+goal. When executing a voluntary motor task such as bending forward, the central nervous system
+
+may optimize certain cost functions to determine how motion of the spine will be performed
+
+(Todorov and Jordan 2002). This strategy could also be relevant for rapid motor responses, such
+
+as unexpected movements (Pruszynski and Scott 2012). Recent studies have shown that spatial
+
+variations of muscle activity between and within trunk muscles could occur to control the trunk
+
+movements (Hodges et al. 2013), even in response to unexpected trunk perturbations (Abboud et
+
+al. 2016). A better understanding of the neuromuscular strategies employed to oppose
+
+perturbations when the trunk is in different trunk postures may be more representative of real-life
+
+events, when the trunk can be subjected to external unexpected forces while the individual is not
+
+standing with their trunk in an erect position.
+
+The aim of this study was to investigate if the recruitment of different regions within the lumbar
+
+extensor muscles is modulated by the mechanical advantage of its fibers, which we manipulated
+
+by changing trunk orientation during unexpected trunk perturbations. We also compared side
+
+differences since trunk rotation is associated to asymmetrical activation of the lumbar muscles. We
+
+hypothesized that the erector spinae would be activated regionally based on the trunk position, in
+
+line with the presumed mechanical advantage of the recruited muscle region.
+
+
+
+
+                                                                                                 4
+Methods
+
+Participants
+
+Twenty healthy adult participants (10 men and 10 women) took part in this study. Exclusion criteria
+
+were as follows: presence of low back pain in the past year; spinal surgery; inflammatory arthritis
+
+of the axial skeleton; advanced osteoporosis; severe and incapacitating pain limiting the ability to
+
+perform the evaluation protocol in the laboratory; pregnancy. Participants mean for age, weight,
+
+height, and BMI were respectively: 24.3±3.9 years, 67.49±12.45 kg, 169.3±9.2 cm and 23.44±3.24
+
+kg/m2. Participants were recruited among the university community. The project received approval
+
+from the Research Ethics Board for human research of the “Université du Québec à Trois-Rivières”
+
+(CER-21-276-07.06). All participants gave written informed consent, acknowledging their right to
+
+withdraw from the experiment without consequences.
+
+
+
+Study design
+
+To answer the aim of this study, the experimental protocol was conducted over one session during
+
+which the lumbar extensor regional activation was assessed across 3 series of 10 perturbations,
+
+each in a different trunk posture. The order of the posture was randomized between participants,
+
+and a rest-period of 10 min was added between each series of trunk perturbations.
+
+Electromyography (EMG) data of the right side of one participant was excluded from the analysis
+
+due to excessive movement artefacts in the signals.
+
+
+
+Trunk perturbation protocol
+
+Before the trunk perturbation protocol, participants were asked to perform three trunk extension
+
+maximal voluntary isometric contractions (MVICs) using the same apparatus as the perturbation
+
+protocol. A belt was positioned on the upper thoracic and in a neutral posture, participants were
+
+asked to pull posteriorly against this belt. A 1-min rest period was provided between each MVIC to
+
+limit muscle fatigue. The highest MVIC in trunk extension was used for EMG normalization.
+
+Participants then experienced sudden external posterior-anterior trunk perturbations (Figure 1). To
+
+induce these perturbations, participants were in a semi-seated positioned on a custom-made
+
+
+                                                                                                  5
+apparatus as described previously (Dupeyron et al. 2010; Larivière et al. 2010; Radebold et al.
+
+2000). This position was chosen to minimize the contribution of the lower limb to better assess the
+
+contribution of the trunk muscles to oppose the perturbation. On this apparatus, participants were
+
+asked to adopt three different postures. The ‘Neutral’ posture corresponded to a neutral semi-
+
+seated position with participants’ knees flexed at ~75°. The ‘Trunk flexion’ posture corresponded
+
+to a 40° of trunk flexion in a semi-seated position. Finally, the ‘Trunk Rotation’ posture
+
+corresponded to 30° of left trunk rotation in a semi-seated position. The target trunk flexion posture
+
+was monitored in real-time using a digital inclinometer (± 0.1° of precision, model 40–6067,
+
+Johnson Level & Tool Mfg. Co., Inc. Mequon, WI) placed on the L3 vertebrae. Trunk rotation
+
+posture was standardized with the help of a laser pointer mounted on the right acromion of the
+
+scapula and a target on the wall in front of the participant. The laser and a target in front of the
+
+participants were also used to ensure consistent trunk rotation posture within and between trials.
+
+In all posture, the perturbations were delivered via a cable attached to a custom-made harness
+
+installed over the upper body, approximately at the T9 vertebra level. This cable was connected to
+
+a load cell (Model LSB350; Futek Advanced Sensor Technology Inc, Irvine, CA, USA) which was
+
+connected to a small motor (Figure 1). When the motor released the cable, a posterior to anterior
+
+perturbation was applied since participants were performing an isometric trunk flexion. The
+
+magnitude of the trunk perturbation was computed based on participants’ MVIC in trunk flexion in
+
+a neutral semi-seated position. Three MVIC in trunk flexion were performed with one minute of rest
+
+between them and the highest value was considered for the perturbation protocol. Then,
+
+participants were asked to maintain 20% of their MVIC. They were provided visual feedback of their
+
+force using a computer screen positioned in front of them. Once the targeted force was achieved
+
+and maintained, a sudden perturbation was induced with a random delay between 1, 3 and 5s to
+
+avoid any anticipation of the trunk perturbation onset. Participants wore headphones to mute the
+
+sound of the perturbation trigger. Participants were asked to return to their initial position after each
+
+perturbation.
+
+
+
+Data collection
+
+
+                                                                                                       6
+The right and left lumbar extensor muscle activity was recorded with two high-density surface EMG
+
+(HDsEMG) of 64 electrodes arranged in 8 columns and 8 rows spaced by 10 mm (semidisposable
+
+adhesive matrix; model ELSCH064, OTBioelettronica, Torino, Italy). The skin over the lumbar
+
+extensor muscles was cleaned with fine-grade sandpaper (Red DotTrace Prep; 3 M, St. Paul, MN),
+
+and shaved. The electrode grids were placed orienting the columns along the approximate fiber
+
+orientation of the erector spinae muscles. The center of each grid was located at L3 level, and the
+
+medial edge of the grid was at ~1 cm from the L3 spinous process. The grid spanned approximately
+
+L1 to L4-L5. The reference electrode was placed over T12 spinous process. Signals from the
+
+bipolar HDsEMG were amplified (x2000 or x5000) and digitized at 2048 Hz using a 12-bit A/D
+
+converter (128-channel EMG-USB; OTBioelettronica; –3 dB, bandwidths 10–500 Hz). The same
+
+assessor was responsible for the placement of the grids to minimize variability between
+
+participants. Moderate to good between-day reliability (ICC ranging from 0.604 to 0.978) has been
+
+established for amplitude distribution parameters measured with HDsEMG on low back muscles
+
+(Afsharipour et al. 2016).
+
+
+
+Data analysis
+
+HDsEMG data were extracted during the trunk perturbation protocol and the left and right sides
+
+were analyzed separately. Differential signals were calculated from HDsEMG by subtracting
+
+consecutive monopolar signals along the cranio-caudal direction (Figure 2). Consequently, the final
+
+grid consisted of a 7x8 channels. Each HDsEMG signal obtained from both grids were digitally
+
+band-pass filtered in the frequency bandwidth 20-400 Hz (4th order Butterworth filter). Notch filters
+
+were also applied to eliminate the 60 Hz power line interference (2 nd order Butterworth filter) and
+
+its harmonics. Electrodes with contact problems were identified through visual inspection of the raw
+
+HDsEMG signals and were reconstructed by interpolation of the neighbouring electrodes. If these
+
+electrode artifacts were excessive (>10%), the recording was discarded from the analysis (Gallina
+
+et al. 2022). Dependent variables were computed for all trials (x10) of each posture (x3). Baseline
+
+muscle activation corresponded to the mean root mean square (RMS) across channel, calculated
+
+in a 500 ms window before the perturbation onset. Response latency corresponded to the time (in
+
+
+                                                                                                   7
+milliseconds) between perturbation onset and EMG response onset. This variable was only used
+
+to identify perturbation onset and then to compute EMG response amplitude. To compute the onset
+
+of the EMG response, rectified differential HDsEMG signals were low-pass filtered (Butterworth 6th
+
+order, dual-pass zero-lag, 50 Hz cutoff frequency) and assessed using a sliding window of 25-ms
+
+(Larivière et al. 2010). EMG response onset occurred when the myoelectric signals exceeded three
+
+SDs above the baseline muscle activity (Hodges and Bui 1996). Responses were considered
+
+voluntary and removed from the analysis when response latency exceeded 200 ms. Response
+
+amplitude was defined as the mean RMS values computed in a 100-ms window centered on the
+
+response peak. Response peak corresponded to the highest RMS value present in a 200-ms
+
+window following the perturbation onset. The medio-lateral and cranio-caudal coordinates of the
+
+centroid were computed to identify the spatial distribution of the lumbar extensor muscle activity at
+
+baseline and in response to the perturbation (Figure 3). To facilitate interpretation of the spatial
+
+coordinates, the right array was flipped along the x-axis, so higher x coordinates mean a more
+
+medial location of the centroid on both sides. The centroid corresponded to the average weighted
+
+position of the channels exhibiting RMS response values higher than 70% of the maximum of all
+
+channels (Vieira et al. 2010). For baseline activation and response amplitude, estimates across
+
+channels higher than 70% of the maximum of all channels were averaged, resulting in a single
+
+estimate for each side. For all dependent variables, the mean of the perturbation trials of each
+
+posture was considered for the statistical analysis. All data analyses were performed in Matlab
+
+(2020a version, Mathworks, Natick, MA, USA).
+
+
+
+Statistical analysis
+
+Statistical analyses were performed with Statistica statistical package version 13 (TIBCO Software
+
+Inc, Palo Alto, CA, USA). Parametric tests were chosen based on the normality of data distribution
+
+(Kolmogorov-Smirnov test and visual inspection). A within-subject two-way repeated-measures
+
+ANOVA was conducted to assess the effect of Posture (neutral, trunk flexion and left trunk rotation),
+
+Side (left and right) and interaction (Posture x Side) on each dependent variable. When significant,
+
+main effects were decomposed using pairwise comparisons with p value corrected for the number
+
+
+                                                                                                   8
+of comparisons using the Bonferroni test. For all statistical analyses, p < 0.05 was considered to
+
+be significant.
+
+
+
+
+Results
+
+EMG data of the right side of one participant was excluded due to many electrodes with contact
+
+problems (>10%). Latencies results for all postures ranged from 74 to 102 milliseconds.
+
+
+
+MUSCLE ACTIVATION
+
+All main (Side and Posture) and interaction effect (Side x Posture) results for baseline activity and
+
+response amplitude from the repeated-measure ANOVAs are presented in Table 1 and in Figure
+
+4.
+
+Posture had a significant effect on baseline activity (F(2,36)=110.99 p<0.001). Post-hoc
+
+comparisons revealed a higher baseline activity in Flexion compared to the other two postures
+
+(Bonferroni-corrected p<0.001), but no difference between Neutral and Rotation (Bonferroni-
+
+corrected p=0.352). No interaction (F(2,36)=2.20 p=0.126) was observed.
+
+A significant Side x Posture interaction was observed for muscle activation in response to
+
+perturbation (F(2,36)=4.30, p=0.021). Post-hoc comparisons revealed a higher EMG response for
+
+the right and left side during Flexion compared to the right side during Rotation (Bonferroni-
+
+corrected for right Flexion p<0.001; for left Flexion p=0.006), as well as a higher EMG response in
+
+right Flexion compared to left Neutral posture (Bonferroni-corrected p=0.005). No significant effect
+
+of side (multiple p>0.127) was observed for these two variables.
+
+
+
+MEDIO-LATERAL DISTRIBUTION
+
+Centroid results are illustrated in Table 1 and Figures 5 and 6. Posture influenced the medio-lateral
+
+distribution of activation, both at baseline and in response to perturbations.
+
+At baseline, posture had an effect on the medio-lateral centroid coordinates (F(2,36)=17.36,
+
+p<0.001). Post-hoc comparisons revealed a more medial location of the centroid in Flexion
+
+compared to both Neutral (Bonferroni-corrected p=0.003) and Rotation (Bonferroni-corrected
+
+                                                                                                   9
+p<0.001) at baseline. An effect of side (F(2,36)=5.09, p=0.037) was also observed, with more lateral
+
+centroid locations on the left compared to the right. No interactions were significant (F(2,36)=2.57,
+
+p=0.090).
+
+In response to the perturbation, an interaction Side x Posture (F(2,36)=8.55, p<0.001) was
+
+identified. The distribution of activation was more lateral on the left compared to the right side during
+
+Rotation (Bonferroni-corrected p<0.001). Post-hoc comparisons revealed a more medial location
+
+of the centroid on the right side in Neutral compared to the Flexion on both sides (Bonferroni-
+
+corrected ps<0.05) and a more medial location of the centroid on both sides in Neutral compared
+
+to the left side in Rotation (Bonferroni-corrected ps<0.001).
+
+
+
+CRANIO-CAUDAL DISTRIBUTION
+
+Posture influenced the cranio-caudal distribution of activation, both at baseline and in response to
+
+perturbations.
+
+At baseline, a significant interaction side x posture (F(2,36)=14.30, p<0.001) was observed. The
+
+EMG distribution was located more cranially on the left side than the right side in Rotation
+
+(Bonferroni-corrected p<0.001). Moreover, on the right side, a more caudal location of the centroid
+
+was observed in Rotation compared to Neutral on the right side (Bonferroni-corrected p=0.009)
+
+and on the left side (Bonferroni-corrected p=0.036). The EMG distribution was located more
+
+caudally on the left and right sides in Flexion than the left side in Rotation (Bonferroni-corrected
+
+p=0.014 and p=0.007, respectively). No other post-hoc comparisons were significant (p>0.05).
+
+After perturbation, a significant interaction side x posture (F(2,36)=7.18, p=0.002) was observed.
+
+Post-hoc comparisons revealed a more cranial location of the centroid on the left side in
+
+comparison to the right side in trunk rotation (Bonferroni-corrected p=0.002), whereas other post-
+
+hoc comparisons did not reach significance (p>0.063).
+
+
+
+Discussion
+
+In the present study, we investigated the effect of trunk posture on muscle recruitment strategies
+
+during unexpected posterior-anterior trunk perturbations. Regional differences in the distribution of
+
+
+                                                                                                      10
+surface EMG amplitude indicate that different muscle regions were preferentially activated in
+
+isometric contractions and in response to perturbations applied when the trunk is in different
+
+postures. Our results demonstrate that, in response to unexpected postural perturbations, healthy
+
+individuals activate lumbar muscles regionally when forward perturbations are applied in different
+
+trunk postures. This regional activation may be based on the mechanical advantage of regions
+
+within the lumbar extensor muscles.
+
+
+
+
+Using HDsEMG, this study was able to reveal an uneven distribution of muscle activity over the low
+
+back region when assessing responses to trunk perturbations. Together with a large body of
+
+literature that identified uneven activation over the lumbar extensor muscles in a variety of tasks
+
+(Falla et al. 2014; Readi et al. 2015; Ringheim et al. 2019; Serafino et al. 2021), our study further
+
+highlights how recordings from multiple regions of the lumbar extensors may be needed to
+
+accurately represent the activation of these muscles. For instance, since the distribution of
+
+electromyographic amplitude differs between postures, a single bipolar electrode with a small
+
+interelectrode distance may record smaller or larger differences in EMG amplitude between
+
+postures depending on where it is placed. Similarly, the large differences in the cranio-caudal
+
+coordinate of the centroid between left and right during trunk rotation suggest that global muscle
+
+activation estimates from a single bipolar electrode with a small interelectrode distance placed in
+
+the same location on the left and right lumbar extensor muscles may be misleading, since side
+
+differences in EMG amplitude may be related to regional activation as opposed to changes in global
+
+muscle activation. Overall, our findings support the recent consensus papers in electrode selection
+
+that identify HDsEMG as a relevant tool to assess the distribution of activity between regions of a
+
+muscle (Besomi et al. 2019; Gallina et al. 2022).
+
+
+
+
+Trunk flexion postures may result in a mechanical disadvantage while facing unexpected
+
+perturbations. When the trunk is flexed, the moment arm due to gravity increases, which increase
+
+the activation of the erector spinae required to maintain this posture. In addition to this change, the
+
+                                                                                                    11
+orientation of the erector spinae muscle fibers in a flexed posture reduces their ability to generate
+
+a great amount of force (Tveit et al. 1994), which increase the risk of spinal instability. Finally, an
+
+increase of the lumbar flexion angle will result in an increase of muscle fiber length, which will also
+
+reduce the production of force as demonstrated by the well-known force-length relation of muscle
+
+(Hill 1953; Malakoutian et al. 2022). Based on these biomechanical reasons, we expected
+
+differences in the neuromuscular strategies used to maintain a flexed trunk posture and resist
+
+perturbations. During the baseline period, which corresponded to 500 milliseconds before the
+
+unexpected perturbation onset, muscle activity was higher in the trunk flexion posture compared to
+
+the neutral posture and trunk rotation. In the trunk flexion posture, participants were asked to bend
+
+forward at 40°. Consequently, a pre-activation of the erector spinae muscle is necessary to maintain
+
+the trunk posture against the gravity and to stabilise the trunk. A previous study has reported a
+
+similar EMG amplitude increase when participants were asked to bend at 20° in similar semi-seated
+
+position (Shahvarpour et al. 2014). In response to the perturbation, a higher response of the erector
+
+spinae was also observed in trunk flexion posture compared to the other postures where the trunk
+
+was upright. In this posture, the moment of the perturbation is added to the moment exerted by the
+
+gravity. Consequently, it could be suggested that the erector spinae muscles need to produce a
+
+higher moment in trunk flexion when facing a perturbation to stabilise the trunk. Regarding the
+
+spatial distribution of muscle activity at baseline, a more medial contribution of the lumbar extensor
+
+muscles was identified bilaterally in the trunk flexion posture. A possible influence of the activation
+
+of superficial multifidus could explain the medial distribution of muscle activity. The medial edge of
+
+the HDsEMG was at one centimetre from the lumbar spinous process and the grids spanned
+
+approximately the entire lumbar region. Based on the anatomy of the lumbar region, the grid would
+
+cover mostly the erector spinae muscles (longissimus) and the superficial multifidus closer to the
+
+spine (Macintosh and Bogduk 1987; Macintosh et al. 1986) which could explain the medial shift of
+
+the muscle activity. Therefore, our current results of more medial distribution of activation suggest
+
+a large contribution of the superficial multifidus during trunk flexion postures, possibly to help
+
+stabilise the trunk isometrically. Interestingly, in response to the perturbation, we observed a more
+
+lateral location of the muscle activity in the trunk flexion posture compared to neutral on both sides.
+
+
+                                                                                                    12
+This finding suggests that, compared to when the trunk is in neutral posture, the erector spinae
+
+muscle is preferentially recruited to resist the trunk perturbation. Biomechanically these different
+
+activation strategies observed during trunk flexion (medial muscle regions when maintaining
+
+posture, lateral muscle regions in response to perturbations) may be associated with the different
+
+biomechanical function of muscles within the lumbar extensors, i.e., spinal stabilisation for
+
+multifidus, response to postural perturbations due to a larger moment arm for the erector spinae.
+
+However, since the trunk flexion posture induced a consistent increase in muscle activation at
+
+baseline, it is not possible to determine whether these different strategies are associated to the
+
+trunk posture, or to the large muscle activation at baseline.
+
+
+
+
+During a left trunk rotation, a higher muscle activity amplitude on the left side has been reported in
+
+the upper lumbar spinal levels compared to the lower levels (Abboud et al. 2020). Moreover, it has
+
+been reported that the erector spinae (longissimus and iliocostalis) have a higher moment arm in
+
+the upper lumbar and thoracic regions because the distance between the middle of the muscle and
+
+the intervertebral disc increase when moving to upper spinal levels (McGill et al. 1993). Therefore,
+
+we could expect that the central nervous system prioritizes the activation of the lumbar region with
+
+the highest mechanical advantage to stabilise the trunk. While previous studies have reported a
+
+higher ipsilateral lumbar muscle activation compared to contralateral muscles during isometric
+
+voluntary trunk rotation against resistance (Kumar et al. 2001; Ng et al. 2001), in this study trunk
+
+rotation did not result in differences between sides at baseline or in response to the perturbation.
+
+The lack of significant differences in EMG amplitude at baseline in this study could be due to the
+
+fact that the participants did not perform a trunk rotation against resistance, but rather performed a
+
+20% MVIC trunk flexion with their trunk in a rotated posture, and therefore it could be argued that
+
+the muscle demand to maintain the trunk rotation was minimal in comparison to the trunk flexion
+
+demand. Importantly, since the EMG amplitude at baseline was not different between side,
+
+differences in the baseline intensity of activation cannot explain the different neuromuscular
+
+strategies observed when perturbations were applied during trunk rotation. Regarding the
+
+distribution of activity between muscle regions, the present study revealed a more cranial
+
+                                                                                                   13
+contribution of the lumbar extensor muscles on the left side during ipsilateral trunk rotation posture
+
+at baseline. Conversely, a more caudal location of the centroid was reported on the right side
+
+compared to the neutral posture. These cranio-caudal differences in the spatial distribution of
+
+activation, as well as a more lateral activation on the left compared to the right lumbar extensors,
+
+were also maintained in response to perturbations in the trunk rotation posture. Overall, these
+
+observations support the notion that the lumbar muscle region with the highest mechanical
+
+advantage is preferentially recruited when trunk postural control is challenged. Specifically, a 30-
+
+degree trunk rotation to the left may have placed the left erector spinae in a position where it is
+
+more aligned with the sagittal plane, and therefore mechanically more efficient to oppose a
+
+posterior-anterior perturbation. Since more cranial regions of the lumbar erector spinae have a
+
+better moment arm due to a larger distance from the intervertebral disc (McGill et al. 1993), a
+
+preferential activation of this region may be more effective to oppose forward-directed
+
+perturbations. Instead, left trunk rotation may have increased the angle between the right erector
+
+spinae line of action and the sagittal plane, making this muscle a less optimal choice to produce
+
+force to oppose posterior-anterior perturbations. Because of this, distal regions within the lumbar
+
+extensors may have been recruited to assist with spinal stabilisation. Further, our data suggest that
+
+the main neuromuscular strategies to oppose forward-directed perturbations when the trunk is
+
+rotated compared to neutral posture involve regional redistribution of activity without consistent
+
+changes in global muscle activation intensity.
+
+In response to the perturbation, the EMG distribution was more lateral on the left compared to the
+
+right side in the trunk rotation posture, and on the left side it was more lateral in the trunk rotation
+
+posture compared to the neutral posture. This neuromuscular activation strategy, possibly
+
+representing a preferential contribution of the erector spinae, was similar to that observed in the
+
+trunk flexion posture. Since the erector spinae muscles are the main contributor to the trunk
+
+extension because of their larger size (McGill et al. 1993), these data suggest that that the central
+
+nervous system preferentially recruits the erector spinae over the superficial multifidus to oppose
+
+a trunk perturbation when the trunk is flexed or rotated, compared to when it is in neutral posture.
+
+It should be noted that, even if the centroid migration of muscle activity could be considered small,
+
+
+                                                                                                     14
+it is likely to still be relevant from a physiological point of view since muscle fibers even just one
+
+centimeter apart could for instance insert on different vertebrae. The shift of muscle activity
+
+observed in this study is larger than that observed during trunk loading task (Tucker et al. 2009),
+
+and similar to the difference in average distribution observed when comparing individuals with and
+
+without low back pain (e.g., (Falla et al. 2014)). Overall, these observations suggest that the
+
+recruitment of motor units of the erector spinae muscles are dependent on posture, possibly
+
+because different postures modify the mechanical advantage of the erector spinae.
+
+
+
+
+Typically, motor units are recruited according to Henneman’s size principle, i.e. from the smallest
+
+motor units to the largest (Henneman 1981). Such recruitment strategy has important physiological
+
+benefits, such as minimizing the amount of muscle fatigue. More recently, the neuromechanical
+
+principle was superimposed to the size principle to explain motor unit recruitment (Butler and
+
+Gandevia 2008; Hudson et al. 2019). This new principle states that motor units are recruited
+
+according to a mechanical advantage during complex tasks where joint angle and fiber orientation
+
+varies, such as superficial lumbar muscles in trunk flexion (Harriss and Brown 2015), as well as
+
+intersegmental movements of the spine (McGill 2015). In the current study, we showed that the
+
+location of the erector spinae muscle activity varied according to the trunk orientation. Although
+
+mechanical advantage was not directly assessed in this study, changes in the mechanical
+
+effectiveness of regions within the lumbar muscles due to trunk posture are a plausible explanation
+
+for the observed differences in regional activation, both at baseline and in response to
+
+perturbations. The results of the current study have improved our understanding on how the lumbar
+
+muscles adapts to challenging trunk postures, demonstrating that the central nervous system can
+
+finely tune with region of the erector spinae is recruited in response to perturbations applied when
+
+the trunk is in different postures. These findings could provide some guidance for perturbation-
+
+based exercises used in prevention and rehabilitation.
+
+
+
+
+                                                                                                   15
+The present study has some limitations that should be considered. The main limitation of this study
+
+was that we could not directly estimate the mechanical efficiency of the different muscle regions,
+
+therefore the interpretation of the results is based on the anatomical and biomechanical knowledge
+
+of the lumbar muscles. In the current experiment, a shift of the skin could have occurred, especially
+
+in the 45-degree trunk flexion posture as the lumbar muscle are lengthened. Based on the skin
+
+movement, a shift of the centroid on the cranio-caudal axis during this trunk posture could have
+
+been expected. However, results did not reveal a significant difference of the shift of the centroid
+
+in the cranio-caudal direction between the neutral and trunk flexion posture. The only difference
+
+identified between these two postures was in the medio-lateral coordinates of the centroid, which
+
+is unlikely to be explained by shift of the muscle relative to the skin. Therefore, even if the current
+
+study did not control for skin movement, it could be argued that it had negligible or no impact on
+
+centroid results. Also, the small sample size could increase the risk of statistical error. However,
+
+the main and interaction effects were highly significant which reduce this risk. The interpretation of
+
+the results should also be limited to control postural tasks which may not be as representative as
+
+real-life postural tasks. Finally, no direct measure of spinal stability was made in this study which
+
+limit the application of our results to general trunk postural control.
+
+
+
+
+In conclusion, the present study shows that healthy individuals activate lumbar muscles regionally
+
+to maintain different trunk postures and to oppose unexpected trunk perturbation, possibly due to
+
+regional differences in the mechanical advantage of the erector spinae in different trunk postures.
+
+Moreover, the regional redistribution of activation observed in this study suggests that the central
+
+nervous system may take advantage of the complexity and flexibility of the trunk system to
+
+maintain stability of the spine even in challenging postures. The next step will be to identify the
+
+erector spinae recruitment strategies under more challenged posture, such as full trunk flexion,
+
+and to assess whether these strategies are conserved in patients with low back pain.
+
+
+
+
+                                                                                                      16
+References
+Abboud J, Kuo C, Descarreaux M, Blouin JS (2020) Regional activation in the human longissimus
+         thoracis pars lumborum muscle J Physiol 598:347-359 doi:10.1113/jp278260
+Abboud J, Nougarou F, Lardon A, Dugas C, Descarreaux M (2016) Influence of Lumbar Muscle
+         Fatigue on Trunk Adaptations during Sudden External Perturbations Front Hum Neurosci
+         10:576 doi:10.3389/fnhum.2016.00576
+Afsharipour B, Petracca F, Gasparini M, Merletti R (2016) Spatial distribution of surface EMG on
+         trapezius and lumbar muscles of violin and cello players in single note playing J
+         Electromyogr Kinesiol 31:144-153 doi:10.1016/j.jelekin.2016.10.003
+Besomi M et al. (2019) Consensus for experimental design in electromyography (CEDE) project:
+         Electrode       selection     matrix     J     Electromyogr        Kinesiol    48:128-144
+         doi:10.1016/j.jelekin.2019.07.008
+Bogduk N (2005) Clinical anatomy of the lumbar spine and sacrum. Elsevier Health Sciences,
+Butler JE, Gandevia SC (2008) The output from human inspiratory motoneurone pools J Physiol
+         586:1257-1264 doi:10.1113/jphysiol.2007.145789
+Dupeyron A, Perrey S, Micallef J-P, Pélissier J (2010) Influence of back muscle fatigue on lumbar
+         reflex adaptation during sudden external force perturbations Journal of
+         electromyography and kinesiology 20:426-432
+Falla D, Gizzi L, Tschapek M, Erlenwein J, Petzke F (2014) Reduced task-induced variations in the
+         distribution of activity across back muscle regions in individuals with low back pain Pain
+         155:944-953 doi:10.1016/j.pain.2014.01.027
+Gallina A et al. (2022) Consensus for experimental design in electromyography (CEDE) project:
+         High-density surface electromyography matrix Journal of Electromyography and
+         Kinesiology 64:102656 doi:https://doi.org/10.1016/j.jelekin.2022.102656
+Harriss AB, Brown SH (2015) Effects of changes in muscle activation level and spine and hip
+         posture on erector spinae fiber orientation Muscle & nerve 51:426-433
+Henneman E (1981) Recruitment of motoneurons: the size principle Motor unit types, recruitment
+         and plasticity in health and disease:26-60
+Hill AV (1953) The mechanics of active muscle Proc R Soc Lond B Biol Sci 141:104-117
+         doi:10.1098/rspb.1953.0027
+Hodges PW, Bui BH (1996) A comparison of computer-based methods for the determination of
+         onset of muscle contraction using electromyography Electroencephalogr Clin
+         Neurophysiol 101:511-519 doi:10.1016/s0013-4694(96)95190-5
+Hodges PW, Coppieters MW, MacDonald D, Cholewicki J (2013) New insight into motor
+         adaptation to pain revealed by a combination of modelling and empirical approaches Eur
+         J Pain 17:1138-1146 doi:10.1002/j.1532-2149.2013.00286.x
+Hudson AL, Gandevia SC, Butler JE (2019) A principle of neuromechanical matching for motor unit
+         recruitment in human movement Exercise and sport sciences reviews 47:157-168
+Kumar S, Narayan Y, Garand D (2001) Isometric axial rotation of the trunk in the neutral posture
+         Eur J Appl Physiol 86:53-61 doi:10.1007/s004210100510
+Larivière C, Forget R, Vadeboncoeur R, Bilodeau M, Mecheri H (2010) The effect of sex and chronic
+         low back pain on back muscle reflex responses Eur J Appl Physiol 109:577-590
+         doi:10.1007/s00421-010-1389-7
+Macintosh JE, Bogduk N (1987) 1987 Volvo award in basic science. The morphology of the lumbar
+         erector spinae Spine 12:658-668 doi:10.1097/00007632-198709000-00004
+Macintosh JE, Valencia F, Bogduk N, Munro RR (1986) The morphology of the human lumbar
+         multifidus Clinical biomechanics 1:196-204
+
+
+                                                                                                17
+Malakoutian M, Sanchez CA, Brown SHM, Street J, Fels S, Oxland TR (2022) Biomechanical
+         Properties of Paraspinal Muscles Influence Spinal Loading-A Musculoskeletal Simulation
+         Study Front Bioeng Biotechnol 10:852201 doi:10.3389/fbioe.2022.852201
+McGill S (2015) Low back disorders: evidence-based prevention and rehabilitation. Human
+         Kinetics,
+McGill SM, Hughson RL, Parks K (2000) Changes in lumbar lordosis modify the role of the extensor
+         muscles Clinical biomechanics 15:777-780
+McGill SM, Santaguida L, Stevens J (1993) Measurement of the trunk musculature from T5 to L5
+         using MRI scans of 15 young males corrected for muscle fibre orientation Clin Biomech
+         (Bristol, Avon) 8:171-178 doi:10.1016/0268-0033(93)90011-6
+Ng JK, Parnianpour M, Richardson CA, Kippers V (2001) Functional roles of abdominal and back
+         muscles during isometric axial rotation of the trunk J Orthop Res 19:463-471
+         doi:10.1016/s0736-0266(00)90027-5
+Park RJ, Tsao H, Cresswell AG, Hodges PW (2014) Anticipatory postural activity of the deep trunk
+         muscles differs between anatomical regions based on their mechanical advantage
+         Neuroscience 261:161-172 doi:10.1016/j.neuroscience.2013.12.037
+Pruszynski JA, Scott SH (2012) Optimal feedback control and the long-latency stretch response
+         Exp Brain Res 218:341-359 doi:10.1007/s00221-012-3041-8
+Radebold A, Cholewicki J, Panjabi MM, Patel TC (2000) Muscle response pattern to sudden trunk
+         loading in healthy individuals and in patients with chronic low back pain Spine 25:947-954
+Readi NG, Rosso V, Rainoldi A, Vieira TM (2015) Do sweep rowers symmetrically activate their low
+         back muscles during indoor rowing? Scand J Med Sci Sports 25:e339-352
+         doi:10.1111/sms.12319
+Ringheim I, Indahl A, Roeleveld K (2019) Reduced muscle activity variability in lumbar extensor
+         muscles during sustained sitting in individuals with chronic low back pain PLoS One
+         14:e0213778 doi:10.1371/journal.pone.0213778
+Serafino F, Trucco M, Occhionero A, Cerone GL, Chiarotto A, Vieira T, Gallina A (2021)
+         Understanding regional activation of thoraco-lumbar muscles in chronic low back pain
+         and its relationship to clinically relevant domains BMC musculoskeletal disorders 22:1-12
+Shahvarpour A, Shirazi-Adl A, Mecheri H, Larivière C (2014) Trunk response to sudden forward
+         perturbations - effects of preload and sudden load magnitudes, posture and abdominal
+         antagonistic        activation         J      Electromyogr       Kinesiol       24:394-403
+         doi:10.1016/j.jelekin.2014.03.007
+Todorov E, Jordan MI (2002) Optimal feedback control as a theory of motor coordination Nature
+         neuroscience 5:1226-1235
+Tucker K, Falla D, Graven-Nielsen T, Farina D (2009) Electromyographic mapping of the erector
+         spinae muscle with varying load and during sustained contraction J Electromyogr Kinesiol
+         19:373-379 doi:10.1016/j.jelekin.2007.10.003
+Tveit P, Daggfeldt K, Hetland S, Thorstensson A (1994) Erector spinae lever arm length variations
+         with changes in spinal curvature Spine (Phila Pa 1976) 19:199-204 doi:10.1097/00007632-
+         199401001-00015
+Vieira TM, Merletti R, Mesin L (2010) Automatic segmentation of surface EMG images: Improving
+         the     estimation     of     neuromuscular       activity   J   Biomech     43:2149-2158
+         doi:10.1016/j.jbiomech.2010.03.049
+
+
+
+
+                                                                                                18
+Legends for illustrations and tables
+
+
+Table 1. Effect of Side and Trunk Posture on lumbar muscle activation and centroid location. When
+significant, post-hoc are described bellow the main effects p value.
+
+
+Figure 1. Illustration of the trunk perturbation protocols in three different postures: neutral (top
+figure), trunk flexion (bottom left figure) and trunk rotation (bottom right figure).
+
+
+Figure 2. Organisation and position of the high-density surface EMG. Examples of EMG recordings
+for each Posture on the left and right side. The vertical grey line represents the perturbation onset.
+To calculate the centroid activation, the number of columns on the right grid has been mirrored so
+that for both grids higher values represent more medial activation. Each number corresponds to a
+differential signal. Data from a single participant.
+
+
+Figure 3. Mapping of the distribution of muscle activity during the perturbation response. The white
+cross markers correspond to the location of the centroid. Data from a single participant.
+
+
+Figure 4. Representation of the average normalized mean muscle activity amplitude at baseline
+and in response to the perturbation of channels higher than 70% of the maximum of all channels.
+Blue traces illustrate the Neutral Posture, red traces illustrate the Flexion Posture and black traces
+illustrate the Rotation Posture. The dashed vertical line represents the perturbation onset.
+
+
+Figure 5. Medio-lateral and cranio-caudal coordinates of the centroid locations. The graphs depict
+means (filled circles), standard deviations and black circles identify responses from individual
+participants. N: Neutral posture F: Trunk Flexion posture; R: Trunk Rotation posture; l: left side; r:
+right side.
+
+
+Figure 6. Spatial representation of the centroid locations at baseline (dashed lines) and in response
+to the perturbation (solid lines). Circles represent the mean locations and bars represent the
+standard deviations. Blue traces illustrate the Neutral Posture, red traces illustrate the Flexion
+Posture and black traces illustrate the Rotation Posture. C: channel.
+
+
+
+
+                                                                                                   19
+

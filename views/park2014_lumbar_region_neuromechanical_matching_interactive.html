@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Park 2014 lumbar region neuromechanical matching</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(300px,31vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(40dvh,calc(100dvh - 230px));min-height:280px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:300px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,44dvh,360px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Park et al. (2014) - Lumbar-region neuromechanical matching</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle regions</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const REGION_COLORS={
+        pmt:'#60a5fa',
+        pmv:'#22c55e',
+        qla:'#a78bfa',
+        qlp:'#f59e0b'
+      };
+      const REGIONS=[
+        {key:'pmt',name:'Psoas major (transverse process origin)',short:'PM-t'},
+        {key:'pmv',name:'Psoas major (vertebral origin)',short:'PM-v'},
+        {key:'qla',name:'Quadratus lumborum (anterior origin)',short:'QL-a'},
+        {key:'qlp',name:'Quadratus lumborum (posterior origin)',short:'QL-p'}
+      ];
+      const MODES={
+        activation:{
+          label:'Activation bias by task',
+          type:'groupedBar',
+          subtitle:'Study-based qualitative reconstruction of the region-specific anticipatory activation patterns. Higher values reflect stronger directional bias in the paper’s EMG findings.',
+          hint:'This view is about what each region behaved like functionally: PM-t looked more extensor-like, PM-v more rotator-like, QL-a flexor + rotator, and QL-p mostly non-directional.',
+          overlay:'Bars = qualitative activation bias from the study text / figures',
+          yLabel:'Relative activation bias',
+          groups:[
+            {name:'Extensor-like',values:{pmt:90,pmv:25,qla:15,qlp:20}},
+            {name:'Rotator-like',values:{pmt:55,pmv:88,qla:82,qlp:25}},
+            {name:'Flexor-like',values:{pmt:15,pmv:20,qla:76,qlp:18}},
+            {name:'Non-directional / stiffness',values:{pmt:10,pmv:12,qla:18,qlp:90}}
+          ],
+          notes:{
+            pmt:'PM-t was described as mostly extensor-like in sagittal control, with some rotational role.',
+            pmv:'PM-v was less extensor-like and more strongly linked to rotation based on side/direction-specific peak EMG.',
+            qla:'QL-a behaved as both a flexor and a rotator, with clear direction-specific anticipatory activity.',
+            qlp:'QL-p was much less direction-specific and looked more like a non-specific stiffness / stabilization muscle.'
+          }
+        },
+        leverage:{
+          label:'Mechanical advantage by task',
+          type:'groupedBar',
+          subtitle:'Study-based leverage summary from the anatomical discussion. Higher values reflect better relative mechanical advantage for that action.',
+          hint:'This is the anatomy / leverage side of the argument. The activation patterns above follow these leverage differences.',
+          overlay:'Bars = qualitative leverage advantage from anatomy',
+          yLabel:'Relative leverage advantage',
+          groups:[
+            {name:'Extension leverage',values:{pmt:86,pmv:30,qla:10,qlp:15}},
+            {name:'Rotation leverage',values:{pmt:58,pmv:92,qla:78,qlp:28}},
+            {name:'Flexion leverage',values:{pmt:12,pmv:18,qla:80,qlp:20}},
+            {name:'General leverage quality',values:{pmt:72,pmv:68,qla:74,qlp:22}}
+          ],
+          notes:{
+            pmt:'PM-t sits more posterior/lateral than PM-v, giving it better extension and some rotation potential.',
+            pmv:'PM-v was interpreted as having a stronger rotational than extensor role from its location and activation pattern.',
+            qla:'QL-a lies more anterior/lateral to the axis of rotation, giving it better flexion and rotation leverage.',
+            qlp:'QL-p was described as having poorer leverage overall, especially relative to QL-a.'
+          }
+        },
+        matching:{
+          label:'Region summary',
+          type:'scatter',
+          subtitle:'Summary view of neuromechanical matching strength by region. Regions with clearer directional leverage had clearer task-specific activation.',
+          hint:'This is the big takeaway: the more mechanically useful regions were the ones the CNS differentiated most strongly.',
+          overlay:'Points = directional leverage vs directional activation specificity',
+          xLabel:'Directional leverage quality',
+          yLabel:'Directional activation specificity',
+          points:[
+            {key:'pmt',x:72,y:76,note:'PM-t showed good matching: strong extensor bias with meaningful rotational contribution.'},
+            {key:'pmv',x:68,y:74,note:'PM-v also showed good matching, especially for rotational control.'},
+            {key:'qla',x:74,y:82,note:'QL-a had the clearest flexor + rotator directional behavior and good leverage for both.'},
+            {key:'qlp',x:22,y:18,note:'QL-p had poor leverage and comparatively indiscriminate activation.'}
+          ]
+        }
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='activation',visible={pmt:true,pmv:true,qla:true,qlp:true},drag=null,view={minX:0,maxX:5,minY:0,maxY:100};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      const cfg=()=>MODES[mode];
+      const currentRegions=()=>REGIONS.filter(r=>visible[r.key]);
+
+      function bounds(){
+        if(mode==='matching'){
+          const pts=cfg().points.filter(p=>visible[p.key]);
+          if(!pts.length) return {minX:0,maxX:100,minY:0,maxY:100};
+          const xs=pts.map(p=>p.x), ys=pts.map(p=>p.y);
+          return {minX:Math.max(0,Math.min(...xs)-10),maxX:Math.min(100,Math.max(...xs)+10),minY:0,maxY:Math.max(...ys)+12};
+        }
+        return {minX:0.4,maxX:cfg().groups.length+0.6,minY:0,maxY:100};
+      }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      const sx=(x,p)=>p.x+((x-view.minX)/(view.maxX-view.minX))*p.w;
+      const sy=(y,p)=>p.y+p.h-((y-view.minY)/(view.maxY-view.minY))*p.h;
+      function niceTicks(min,max,target=5){ const span=max-min||1, rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+
+      function drawAxes(plot){
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of niceTicks(view.minY,view.maxY,5)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(y.toFixed(0),16,py+4); }
+        ctx.textAlign='center';
+        if(mode==='matching'){
+          for(const x of niceTicks(view.minX,view.maxX,5)){ const px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); ctx.fillText(x.toFixed(0),px,plot.y+plot.h+28); }
+          ctx.fillText(cfg().xLabel,plot.x+plot.w/2,plot.y+plot.h+54);
+        } else {
+          cfg().groups.forEach((group,idx)=>{ const px=sx(idx+1,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(group.name,px,plot.y+plot.h+28,96,14); });
+          ctx.fillText('Functional role',plot.x+plot.w/2,plot.y+plot.h+54);
+        }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(cfg().yLabel,0,0); ctx.restore();
+      }
+
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:82,y:20,w:Math.max(120,w-112),h:Math.max(110,h-106)};
+        drawAxes(plot);
+        const markers=[];
+        if(mode==='matching'){
+          const pts=cfg().points.filter(p=>visible[p.key]).sort((a,b)=>a.x-b.x);
+          if(pts.length>1){ ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=2; ctx.setLineDash([5,4]); ctx.beginPath(); pts.forEach((p,i)=>{ const x=sx(p.x,plot), y=sy(p.y,plot); if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); }); ctx.stroke(); ctx.setLineDash([]); }
+          pts.forEach(p=>{ const x=sx(p.x,plot), y=sy(p.y,plot), color=REGION_COLORS[p.key]; ctx.fillStyle=color; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.beginPath(); ctx.arc(x,y,8,0,Math.PI*2); ctx.fill(); ctx.stroke(); ctx.fillStyle='rgba(229,231,235,.88)'; ctx.font='11px system-ui'; ctx.textAlign='left'; ctx.fillText(REGIONS.find(r=>r.key===p.key).short,x+10,y-8); markers.push({shape:'point',x,y,r:12,item:p}); });
+        } else {
+          const shown=currentRegions();
+          const barW=Math.max(12,Math.min(34,plot.w/(cfg().groups.length*Math.max(3,shown.length)*1.4)));
+          cfg().groups.forEach((group,groupIdx)=>{
+            const totalW=shown.length*barW+(shown.length-1)*8;
+            shown.forEach((region,regionIdx)=>{
+              const xCenter=sx(groupIdx+1,plot)-totalW/2+regionIdx*(barW+8)+barW/2;
+              const value=group.values[region.key];
+              const y=sy(value,plot), zeroY=sy(0,plot), top=Math.min(y,zeroY), hBar=Math.max(1,Math.abs(zeroY-y)), x=xCenter-barW/2;
+              ctx.fillStyle=REGION_COLORS[region.key]; ctx.globalAlpha=.92; ctx.fillRect(x,top,barW,hBar); ctx.globalAlpha=1;
+              ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.1; ctx.strokeRect(x,top,barW,hBar);
+              markers.push({shape:'bar',x,top,w:barW,h:hBar,region,group:group.name,value});
+            });
+          });
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=`${mode==='matching'?cfg().points.filter(p=>visible[p.key]).length:currentRegions().length} regions visible`;
+      }
+
+      function renderLegend(){
+        subtitle.textContent=cfg().subtitle; hint.textContent=cfg().hint; overlay.textContent=cfg().overlay; legend.innerHTML='';
+        REGIONS.forEach(region=>{
+          const row=document.createElement('div');
+          row.className='check'+(visible[region.key]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[region.key]?'checked':''} /><span class="swatch" style="background:${REGION_COLORS[region.key]}"></span><label>${region.name}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[region.key]=e.target.checked; fit(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[region.key]=box.checked; fit(); renderLegend(); }});
+          legend.appendChild(row);
+        });
+      }
+
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>m.shape==='bar'?(x>=m.x&&x<=m.x+m.w&&y>=m.top&&y<=m.top+m.h):Math.hypot(m.x-x,m.y-y)<=m.r);
+        if(!hit){ tooltip.style.display='none'; return; }
+        if(mode==='matching'){
+          const item=hit.item, region=REGIONS.find(r=>r.key===item.key);
+          tooltip.innerHTML=`<div><strong>${region.name}</strong></div><div class="muted">Region summary</div><div>${cfg().xLabel}: <strong>${item.x}</strong></div><div>${cfg().yLabel}: <strong>${item.y}</strong></div><div>${item.note}</div>`;
+        } else {
+          const note=cfg().notes[hit.region.key];
+          tooltip.innerHTML=`<div><strong>${hit.region.name}</strong></div><div class="muted">${hit.group}</div><div>Relative score: <strong>${hit.value}</strong></div><div>${note}</div>`;
+        }
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90, left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)), top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+
+      function clampView(){
+        const b=bounds(), spanX=view.maxX-view.minX;
+        if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; }
+        if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; }
+        if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; }
+      }
+
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={pmt:true,pmv:true,qla:true,qlp:true}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ visible={pmt:true,pmv:true,qla:true,qlp:true}; fit(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ visible={pmt:false,pmv:false,qla:false,qlp:false}; fit(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const plot=stage._plot||{x:82,w:Math.max(120,stage.clientWidth-112)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const b=bounds(); const minSpan=mode==='matching'?25:1.4; const newSpan=Math.max(minSpan,Math.min(b.maxX-b.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

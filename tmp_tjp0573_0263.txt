@@ -1,0 +1,1125 @@
+263
+
+J Physiol 573.1 (2006) pp 263–275
+
+Spatial distribution of inspiratory drive to the parasternal
+intercostal muscles in humans
+Simon C. Gandevia1 , Anna L. Hudson1 , Robert B. Gorman1 , Jane E. Butler1 and André De Troyer2
+1
+2
+
+Prince of Wales Medical Research Institute and the University of New South Wales, Sydney 2031, Australia
+Laboratory of Cardiorespiratory Physiology, Brussels School of Medicine Unit and Chest Service, Erasme University Hospital, Brussels 1070, Belgium
+
+The human parasternal intercostal muscles are obligatory inspiratory muscles with a diminishing
+mechanical advantage from cranial to caudal interspaces. This study determined whether
+inspiratory neural drive to these muscles is graded, and whether this distribution matches
+regional differences in inspiratory mechanical advantage. To determine the neural drive,
+intramuscular EMG was recorded from the first to the fifth parasternal intercostals during resting
+breathing in six subjects. All interspaces showed phasic inspiratory activity but the onset of
+activity relative to inspiratory flow in the fourth and fifth spaces was delayed compared with that
+in cranial interspaces. Activity in the first, second and third interspaces commenced, on average,
+within the first 10% of inspiratory time, and sometimes preceded inspiratory airflow. In contrast,
+activity in the fourth and fifth interspaces began after an average 33% of inspiratory time. The
+peak inspiratory discharge frequency of motor units in the first interspace averaged 13.4 ± 1.0 Hz
+(mean ± S.E.M.) and was significantly greater than in all other interspaces, in particular in the fifth
+space (8.0 ± 1.0 Hz). Phasic inspiratory activity was sometimes superimposed on tonic activity.
+In the first interspace, only 3% of units had tonic firing, but this proportion increased to 34%
+in the fifth space. In five subjects, recordings were also made from the medial and lateral extent
+of the second parasternal intercostal. Both portions showed phasic inspiratory activity which
+began within the first 6% of inspiratory time. Motor units from the lateral and medial portions
+fired at the same peak discharge rate (10.4 ± 0.7 versus 10.7 ± 0.6 Hz). These observations
+indicate that the distribution of neural drive to the parasternal intercostals in humans has a
+rostrocaudal gradient, but that the drive is uniform along the mediolateral extent of the second
+interspace. The distribution of inspiratory neural drive to the parasternal intercostals parallels
+the spatial distribution of inspiratory mechanical advantage, while tonic activity was higher
+where mechanical advantage was lower.
+(Received 15 November 2005; accepted after revision 16 March 2006; first published online 23 March 2006)
+Corresponding author S. Gandevia: Prince of Wales Medical Research Institute, Barker St Randwick,
+NSW 2031 Australia. Email: s.gandevia@unsw.edu.au
+
+Many muscles have an inspiratory action on the rib cage,
+and during quiet breathing, the timing and amount of
+their activity varies. In dogs and cats, electromyographic
+activity during inspiration is not distributed equally
+among the parasternal (De Troyer & Legrand, 1995;
+Legrand et al. 1996a) and external intercostal muscles
+(Greer & Martin, 1990; Legrand & De Troyer, 1999).
+In both groups of muscles there are mediolateral and
+rostrocaudal gradients of neural drive. In the dog, the
+mechanical advantage of the intercostal muscles is not
+uniform and the topographic distribution of mechanical
+advantage parallels the distribution of neural drive during
+breathing. Thus, muscles with a greater mechanical
+advantage are activated to a greater extent, and they are
+often activated earlier during inspiration (De Troyer et al.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+1996b, 1999; Legrand et al. 1996b; for review, see De Troyer
+et al. 2005).
+In humans, the inspiratory drive to the external
+intercostal muscles was recently assessed (De Troyer et al.
+2003). The third dorsal external intercostal, which has
+a high mechanical advantage (Wilson et al. 2001), was
+active earlier in inspiration, and its motor units discharged
+at a faster rate than for lower external intercostals. As
+for the dog, the degree of activation of the external
+intercostals in humans during quiet breathing correlated
+with the magnitude of their mechanical advantages
+(De Troyer et al. 2003).
+Human parasternal intercostal muscles are active during
+inspiration (e.g. Tokizane et al. 1952; Taylor, 1960;
+De Troyer & Sampson, 1982; Gandevia et al. 1996) and
+DOI: 10.1113/jphysiol.2005.101915
+
+264
+
+S. C. Gandevia and others
+
+have an inspiratory mechanical advantage (De Troyer et al.
+1998). Their mechanical advantage diminishes fourfold
+from the second to the fifth interspace, but it is not known if
+neural drive to the human parasternal intercostal muscles
+is graded across the interspaces. The neural drive along
+the mediolateral extent of the muscles is also not known.
+Therefore, in the present study, we have measured the
+timing of activation and the discharge behaviour of single
+motor units activated during inspiration in the parasternal
+intercostals of the first to fifth interspaces, as well as along
+the mediolateral extent of the second space. We have also
+assessed the tonic activity of these units and correlated the
+level of both inspiratory neural drive and tonic activity
+with the known mechanical advantage of the muscles.
+Methods
+The studies were carried out in six healthy men of
+44 ± 4.2 (mean ± s.e.m., range 29–54 years) years of age.
+The subjects gave informed consent to the procedures,
+which conformed with the Declaration of Helsinki and
+were approved by the Human Research Ethics Committee
+of the University of New South Wales. Three subjects had previously participated in many respiratory
+experiments, but the other three had little or no prior
+experience as respiratory subjects. Before the study these
+subjects were just told that the purpose was to obtain
+electrical recordings from several muscles of the rib cage
+compartment of the chest wall. Two experiments were
+performed: the first investigated the gradient of neural
+drive in the first to fifth parasternal intercostal muscle
+at sites close to the sternum, and the second investigated
+the neural drive at the medial and lateral extent of the
+parasternal intercostal in the second interspace. There were
+no adverse consequences of the procedures.
+Experiment 1
+
+The medial portions of the parasternal intercostal muscles
+in the first to fifth interspaces were about 1–2 cm lateral
+from the sternal edge, and these sites were located by
+palpitation. The potential recording sites were evaluated
+on the right side in all six subjects with a 5 MHz ultrasound
+linear probe (Acuson 128 X/P, Computed Sonography
+System; Acuson Inc., Mountain View, CA, USA). While
+the probe was placed perpendicular to the skin, the
+parasternal intercostal was clearly visualized in each
+subject, so its thickness and depth from the skin
+surface could be measured with a built-in digital caliper.
+Depending on the subject’s height and muscularity, the
+thickness of the parasternal intercostal ranged between 2.5
+and 6.8 mm, and the depth of its external layer relative to
+the skin surface was between 13.5 and 40.0 mm. A topical
+anaesthetic (Emla cream 5%) was then applied to the area
+of skin marked for electrode insertion for ∼15 min.
+
+J Physiol 573.1
+
+For the experiment, each subject was seated comfortably
+with all restrictive garments removed (see Fig. 1A).
+The respiratory displacements of the chest wall were
+monitored by inductance plethysmography (Respitrace;
+Ambulatory Monitoring, Ardsley, NY, USA). The
+inductance bands were positioned around the ribcage
+at the level of the nipples and around the abdomen
+at the level of the umbilicus, respectively, and the
+gains on the two signals were adjusted by using the
+conventional isovolume manoeuvre (Chadha et al. 1982).
+No extraneous movements were permitted after this
+calibration procedure. The subject was then grounded with
+a large flexible strap on the right shoulder, and recordings
+of parasternal intercostal EMG activity were made.
+Recordings were made first from the parasternal
+intercostal muscle in the second interspace using a
+Teflon-coated monopolar electrode (Medelec DMG50;
+Surrey, UK). The recordings were referenced to a surface
+electrode positioned 2–3 cm away, and the EMG signal
+was amplified and band-pass filtered below 53 Hz and
+above 3000 Hz. Since this area had been examined by
+ultrasonography, we could define in each individual
+subject the maximal possible length of the needle track
+and marked this on the electrode. The needle was
+inserted perpendicular to the skin surface and advanced
+in small steps through the pectoral muscles and into
+the parasternal intercostal. Electromyographic activity
+was continuously monitored on a loudspeaker and an
+oscilloscope throughout the procedure, and once a site in
+the parasternal intercostal was encountered that contained
+audible and visible single motor unit activity with an
+acceptable signal-to-noise ratio (> 3 : 1) during quiet
+breathing or mild voluntary hyperpnoea, the audio signal
+was removed and the subject was instructed to breathe
+quietly for 1–2 min through a mouthpiece. After the run
+was completed, the needle was repositioned at a slightly
+different angle or different depth. In each subject, six to
+nine sites were studied in the second parasternal intercostal
+muscle.
+Recordings were then made from the parasternal intercostal muscle in the remaining first, third, fourth and
+fifth interspaces. The overall experimental procedure
+was similar for each interspace except for the location,
+and the depth of electrode insertion was reassessed in
+reference to the sternal edge. As for the second interspace, 4–12 sites were recorded from the parasternal
+intercostals in the remaining spaces. During recordings
+from the third, fourth and fifth interspaces, the needle
+occasionally entered the underlying triangularis sterni
+muscle, which showed phasic expiratory activity. When
+recording from the fifth interspace (studied last in all
+subjects), the inductance band positioned around the
+ribcage was removed to allow for insertion of the electrode,
+but the band positioned around the abdomen was
+retained.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+J Physiol 573.1
+
+Inspiratory drive to the parasternal intercostal muscles
+
+The changes in lung volume (obtained by integration
+of the airflow signal), end-tidal P CO2 (measured via a port
+on the pneumotachograph), and ribcage and abdomen
+movements were checked to ensure that the subject was
+breathing quietly. All signals were stored on computer via a
+Cambridge Electronic Design 1401 interface (Cambridge,
+UK) for subsequent analysis.
+A mild transient ache was noted occasionally as the
+needle penetrated the pectoral or parasternal intercostal
+muscles, but this always subsided rapidly. Therefore, all
+
+EMG recordings were obtained while the subjects had
+minimal discomfort or none at all.
+Experiment 2
+
+Five subjects were subsequently studied usually in separate
+sessions to assess neural inspiratory drive to both the
+medial and lateral portions of the parasternal intercostal
+muscle of the second interspace. The site for electrode
+insertion into the medial portion of the muscle was
+
+Figure 1. Experimental set-up for recordings from parasternal intercostal muscles and recording of single
+motor-unit activity
+A, subjects were comfortably seated and breathed via a mouthpiece. Volume was obtained by integration of
+airflow signal. Inductance bands were placed around the chest and abdomen. In the first experiment recordings
+were made using monopolar needle electrodes inserted into the first to fifth parasternal intercostals close to the
+sternum. In the second, recordings were made in the second interspace at a medial and lateral location. Recording
+sites are represented by the filled circles. B, a representative record of inspiratory EMG obtained in the parasternal
+intercostal of the fourth interspace for two consecutive breaths. From top to bottom, panels show multiunit EMG,
+airflow (inspiration upwards), and the instantaneous frequencies of two single motor units identified in this record
+(denoted Units 1 and 2). All action potentials from the two units are superimposed, and shown in the right panel.
+The discharge frequency of both units increases rapidly with the onset of inspiratory airflow, plateaus and then
+gradually declines in the first part of expiration.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+265
+
+266
+
+S. C. Gandevia and others
+
+∼10 mm lateral to the sternal edge. Posteroanterior radiographs of the chest at resting end-expiration were obtained
+to define anatomical landmarks for subsequent insertion
+of the electrode in the lateral portion of muscle. This was
+necessary to help locate the costochondral junction and
+thus the most lateral extent of the parasternal intercostal.
+The distance from the midline to the second costochondral
+junction ranged from 80 to 96 mm (mean 87.5 mm) and
+the site for electrode insertion into the lateral portion of
+the muscle was 10–20 mm medial to the costochondral
+junction. The muscle in the lateral portion was thinner
+than the medial portion, and ranged between 2.6 and
+3.8 mm, compared to 5.3 and 7.1 mm in the medial
+portion. The general procedure was similar to that used
+in Experiment 1. In each subject, 6–11 sites were studied
+from both the medial and lateral portion of the muscle in
+each subject.
+
+Data analysis
+
+The magnitude of neural inspiratory drive to a given area of
+parasternal intercostal muscle was assessed in three ways.
+First, all periods of resting breathing (corresponding to
+different recording sites in the muscle) were played into
+a leaky integrator (decay time constant, 50 ms) and for
+each period, the presence or absence of phasic inspiratory
+activity in the integrated EMG (i.e. with a progressive
+increase in the signal during the inspiratory phase of
+the breathing cycle and a decrease in the signal during
+the expiratory phase) was noted. Second, 10 consecutive
+breaths from each period were examined to measure
+the time of onset (T O ) of the integrated inspiratory
+multiunit EMG relative to the onset of inspiratory
+airflow. Inspiratory time (T I ) during these breaths was also
+measured from the airflow signal. To allow comparison
+between subjects, T I − T O for each breath was expressed
+as a percentage of T I ; this percentage was less than 100
+when activity started after the onset of inspiratory airflow
+and greater than 100 when activity preceded the onset of
+airflow.
+The third method used to quantify neural drive was
+based on measurement of the firing rates of single
+motor units and has previously been described in detail
+(Gandevia et al. 1996; De Troyer et al. 1997, 2003). Thus,
+the periods of quiet breathing used for the first two analyses
+were played into a commercial analysis package (Spike 2;
+Cambridge Electronic Design), and trigger levels were
+set manually to capture all spikes with an appropriate
+signal-to-noise ratio. They were subsequently recalled and
+manually sorted into one, two, three or four types or
+‘templates’ based on their size and detailed morphology.
+The interactive software allowed: (1) updating of the mean
+shape of the template for each motor unit; (2) review of
+the frequency plots of each single motor unit, together
+
+J Physiol 573.1
+
+with inspiratory flow and respiratory movements; and (3)
+superimposition of all spikes from a particular motor unit.
+Using this method, we could follow simultaneously the
+discharge of up to four single motor units over several
+consecutive breaths (Fig. 1B).
+For each motor unit, the mean discharge frequency
+was measured from the plateau in the last third of the
+inspiratory phase during several consecutive breaths. Units
+that discharged sporadically or very late in the breaths
+with less than three interdischarge intervals were noted
+but not included in the main analysis. One subject had
+four units (1 in the first interspace, 2 in the third, and 1
+in the fourth) which fired tonically without inspiratory
+modulation and these units were not included in the
+main analysis either. Several units, particularly in the
+fourth and fifth interspaces, discharged tonically with
+a superimposed inspiratory modulation. As this study
+aimed to quantify the magnitude of neural inspiratory
+drive, the discharge frequency of these units was taken
+as the difference between the frequency in the last third
+of the inspiratory phase and the tonic frequency during
+expiration. The tonic discharge frequency was measured
+from the plateau in the last third of expiration to avoid
+an overestimation of the discharge frequency because of
+any preceding post-inspiratory firing in early expiration.
+To assess the onset of the inspiratory modulation of these
+tonic units, several consecutive breaths were examined and
+the time of onset (T O ) of inspiratory modulation (i.e. an
+increase in frequency from the tonic baseline level) was
+determined. As for the multiunit recordings, T I − T O for
+each breath was expressed as a percentage of T I .
+For each muscle area in each subject, the values
+of the (T I − T O )/T I of multiunit activity for a given
+recording site was averaged over the 10 breaths recorded
+from that site, and the mean values thus obtained were
+then averaged over all sites. Similarly (T I − T O )/T I of
+the inspiratory modulation of the tonic units was also
+averaged over all sites in an interspace. The firing rates
+of the single motor units in the different recording
+sites of a given muscle area were also averaged over all
+units. In Experiment 1, statistical comparisons between
+the different muscle areas were made in individual
+subjects by analysis of variance (ANOVA) with repeated
+measures and multiple comparison testing of the mean
+values was performed, when appropriate, using the
+Student-Newman-Keul post hoc procedure. The changes
+in lung volume, inspiratory time, inspiratory flow, and
+pattern of ribcage and abdominal displacement were
+also compared. Comparison between the numbers of
+recording sites in which multiunit EMG activity preceded
+inspiratory airflow in different interspaces was made using
+a Chi-squared analysis. The number of tonic units recorded
+from each intercostal population was also compared
+using a Chi-squared analysis. The tonic and inspiratory
+modulation of firing rates, and onset time of these
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+J Physiol 573.1
+
+Inspiratory drive to the parasternal intercostal muscles
+
+267
+
+Table 1. Pattern of breathing during electromyographic recordings
+Tidal volume
+(l)
+
+Inspiratory
+time
+(s)
+
+Inspiratory
+flow
+(l s−1 )
+
+Ribcage contribution
+to tidal volume
+(%)
+
+Experiment 1
+Medial parasternal intercostal (1)
+Medial parasternal intercostal (2)
+Medial parasternal intercostal (3)
+Medial parasternal intercostal (4)
+Medial parasternal intercostal (5)
+
+0.66 ± 0.03
+0.66 ± 0.04
+0.62 ± 0.03
+0.59 ± 0.04
+0.70 ± 0.06
+
+2.11 ± 0.14
+2.09 ± 0.13
+2.07 ± 0.13
+2.22 ± 0.19
+2.34 ± 0.16∗
+
+0.32 ± 0.02
+0.32 ± 0.02
+0.31 ± 0.02
+0.27 ± 0.01†
+0.03 ± 0.03
+
+55.6 ± 5.1
+56.7 ± 5.1
+56.8 ± 6.1
+56.8 ± 8.7
+—
+
+Experiment 2
+Medial parasternal intercostal (2)
+Lateral parasternal intercostal (2)
+
+0.65 ± 0.03
+0.65 ± 0.02
+
+2.01 ± 0.20
+2.07 ± 0.22
+
+0.33 ± 0.03
+0.33 ± 0.03
+
+62.5 ± 6.9
+60.3 ± 6.1
+
+Values of Experiment 1 are means ± S.E.M. for six subjects; values of Expperiment 2 are means ± S.E.M. for five subjects.
+Numbers in parentheses indicate the interspace recorded from. Ribcage contribution to tidal volume was not measured
+during recordings from the fifth parasternal intercostal (see Methods). ∗ Significantly different from first, second and
+third interspaces, †significantly different from the first and second interspaces (P < 0.05).
+
+tonic units were also averaged, and comparisons across
+parasternal intercostal spaces were made by a Spearman
+rank correlation. In Experiment 2, statistical comparisons
+between the two muscle areas, and respiratory variables,
+were made in individual subjects with Student’s unpaired
+t tests. Statistical comparison of the linear relationship
+between neural drive and mechanical advantage between
+intercostal muscles was made by analysis of covariance
+(ANCOVA) with the number of motor unit spikes as the
+dependent variable, muscle as the factor, and mechanical
+advantage as the covariant. The criterion for statistical
+significance was taken as P < 0.05.
+Results
+The indices of the pattern of breathing during recordings
+from the parasternal intercostal muscles in both
+experimental protocols are summarized in Table 1. The
+pattern of breathing during each experiment was largely
+consistent. However, in Experiment 1, slight but significant
+differences were noted for two respiratory variables.
+Inspiratory flow was lower during recordings from the
+fourth interspace and T I was longer during recordings
+from the fifth space. It is unlikely that these small changes
+in respiratory pattern affected our main conclusions (see
+Discussion).
+Medial parasternal intercostal muscles
+(Experiment 1)
+
+Representative recordings from the medial parasternal
+intercostal muscle in the first and fourth interspaces from
+one subject are shown in Fig. 2. Activity in the first
+parasternal intercostal appeared early relative to the onset
+of inspiratory flow (vertical dashed lines in Fig. 2A) and
+persisted after cessation of inspiratory airflow. In 5 of 6
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+subjects, activity in several sites in this muscle started at or
+prior to the onset of inspiratory airflow (range, 4–213 ms
+before flow), such that in 52% of all sites recorded from all
+subjects, multiunit activity preceded inspiratory airflow. In
+comparison with the first interspace, the onset of activity in
+the fourth space was delayed and did not commence until
+well into inspiration (vertical dashed lines in Fig. 2B), and
+activity preceded inspiratory airflow in only one site in
+one subject (by 13 ms). Activity in the fifth interspace also
+began later, and in one subject it showed no respiratory
+modulation during quiet breathing. Also, in the fifth
+interspace, the proportion of sites in which activity
+preceded inspiratory airflow was zero, significantly less
+(P < 0.001) than the proportion in the first space.
+The relative onset time of inspiratory activity
+((T I − T O )/T I , see Methods) in the five interspaces for the
+medial parasternal intercostal muscles is shown in Fig. 3A.
+Activity commenced earlier in the more cranial interspaces
+for all subjects, such that (T I − T O )/T I in the first space
+was 99.6 ± 2.5% (mean ± s.e.m) and only a little less in
+the second and third spaces. However, (T I − T O )/T I was
+significantly less in the fourth and fifth interspaces and
+declined to 57.3 ± 8.0% in the fifth space (P < 0.001).
+In each parasternal intercostal space, the activity of
+47–81 single motor units was recorded and exhibited either
+purely inspiratory phasic activity (Fig. 1B), or inspiratory
+modulation of tonic activity (Fig. 4A). However, one
+subject had no inspiratory modulation in the fifth
+interspace during quiet breathing, and only tonic activity
+was noted. The average increase in discharge rates
+at end-inspiration (i.e. excluding tonic firing during
+expiration; see Methods) of motor units in the medial
+portion of the five parasternal intercostal muscles is shown
+in Fig. 3B. The discharge rate of motor units varied
+systematically. It was highest in the first interspace, at
+13.4 ± 1.0 Hz, and was significantly greater than that of
+
+268
+
+S. C. Gandevia and others
+
+the lower spaces (P < 0.05). The discharge frequency in
+the second interspace was also greater than in the fifth
+space, which fired at the lowest frequency, at 8.0 ± 1.0 Hz.
+The average number of inspiratory motor units identified
+in each recording site was 2.5 units per site in the first
+interspace, but only 1.4 in the fifth space. The peak
+discharge frequency of all units coincided with the last
+third of inspiration, but across all interspaces, some
+units exhibited post-inspiratory activity. The large units
+with a higher threshold (and usually larger amplitude
+spikes) tended to fire late in inspiration and stop
+firing at peak inspiration (e.g. Fig. 2B), whereas earlier
+recruited units continued firing in early expiration (e.g.
+Fig. 1B).
+Of the 365 units identified with inspiratory activity,
+69 (18.9%) discharged tonically throughout expiration
+(Fig. 4A), with an average firing rate of 7.1 ± 0.2 Hz
+
+J Physiol 573.1
+
+(range, 2.9–12.9 Hz). However, as shown in Fig. 4B, the
+proportion of units which fired tonically in the different
+interspaces was also different. Few units in the first
+interspace (3.7 ± 3.1%) had tonic activity. This proportion
+increased gradually in the caudal direction such that in
+the fifth interspace, it was 34.0 ± 14.4% (P < 0.001). The
+average firing rate of these tonic units in expiration did
+not differ between interspaces and ranged from 6.5 Hz
+to 7.5 Hz (P > 0.05; Fig. 4C). However, the inspiratory
+modulation of these tonically firing units did differ. As for
+the entire population of units (Fig. 3A), the inspiratory
+modulation of tonic units was greatest in the first, second
+and third parasternal intercostal spaces (range, 6.1–6.3 Hz)
+and lower in the fourth and fifth spaces (3.8 Hz; P < 0.05;
+Fig. 4C). The relative onset time of inspiratory modulation
+of these tonic units was similar across the five interspaces;
+it was 105.1 ± 10.6% (range, 85.2–121.2%) for the first
+
+Figure 2. Data from a single subject for recordings from the first and fourth parasternal intercostal
+muscles close to the sternum
+Recordings of airflow, abdominal movement, and parasternal intercostal EMG are shown. Inspiration is upwards in
+the airflow and movement traces. Vertical calibrations: 100 μV. A, recordings from the first parasternal intercostal
+with the onset of activity shown by vertical dotted lines. Phasic activity commenced close to the onset of inspiratory
+airflow and there was some tonic activity. B, corresponding data for the fourth parasternal intercostal. Phasic
+inspiratory activity began well after the onset of inspiratory airflow. Some far-field activity from the triangularis
+sterni muscle is evident during expiration.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+J Physiol 573.1
+
+Inspiratory drive to the parasternal intercostal muscles
+
+space, and 93.3 ± 3.5% (range, 62% – 104%) for the fifth
+space (P > 0.05).
+Medial versus lateral parasternal intercostal muscle
+(Experiment 2)
+
+Representative EMG recordings from the medial and
+lateral portions of the second parasternal intercostal
+muscle are shown in Fig. 5. Both had activity in
+phase with inspiration which began with the onset of
+inspiratory airflow (vertical dashed lines, Fig. 5) and
+peak activity occurred later during inspiration. Early
+activation was observed in both portions in all subjects,
+with activity in some sites preceding inspiratory airflow
+(range, 9–59 ms before flow). Consequently, as shown in
+Fig. 6A, (T I − T O )/T I in the medial portion of the second
+parasternal intercostal was 95.9 ± 2.1%, and did not
+differ (P > 0.05) from that in the lateral portion (93.7 ±
+3.0%).
+For the five subjects, 74 single units (13–17 units per
+subject) were identified in the medial portion of the
+parasternal intercostal muscle, and 80 units (14–18 units
+per subject) in the lateral portion. The discharge rates
+of all units increased with inspiration and the average
+peak firing frequency of units in the medial portion
+was 10.7 ± 0.6 Hz. This was similar to the discharge rate
+in the lateral portion (10.4 ± 0.7 Hz; P > 0.05; Fig. 6B).
+All units showed phasic inspiratory modulation, but
+a proportion fired tonically throughout expiration. In
+the medial portion 9.5 ± 6.6% units fired tonically with
+an average discharge rate in expiration of 6.9 ± 0.6 Hz
+(range, 3.5–8.7 Hz), and 12.5 ± 7.2% of units in the lateral
+
+portion fired tonically with an average discharge rate of
+5.8 ± 0.4 Hz (range, 3.5–7.6 Hz). The proportion of total
+units recorded which had tonic activity was similar in the
+medial and lateral portions (P > 0.05; Fig. 6C).
+Discussion
+We have shown for the first time that there is spatial
+and temporal distribution of neural drive in the human
+parasternal intercostal muscles. This is indicated by
+changes in the timing of the onset of inspiratory activity
+and in the discharge frequency of populations of single
+motor units across the interspaces. However, there is no
+change in these parameters along the mediolateral extent
+of the second parasternal intercostal space.
+Validity of the methods used to assess neural drive
+
+The level of neural drive to inspiratory muscles has been
+assessed by measurement of the discharge properties of
+populations of single motor units (Gandevia et al. 1996;
+Butler et al. 2001; De Troyer et al. 2003). This technique
+eliminates the difficulties associated with other EMG
+methods of quantifying neural drive to these muscles
+such as contamination due to activity in adjacent muscles,
+recording artifacts due to changes in muscle length, and the
+need to normalize the level of drive during quiet breathing
+to that in another respiratory manoeuvre (De Troyer et al.
+2003).
+The single-unit technique has limitations because we
+have used rate coding by motoneurones to quantify the
+magnitude of drive. Increased force production is also
+
+Figure 3. Rostrocaudal gradient of neural drive to the parasternal intercostal muscles
+Data from recordings in the first to the fifth parasternal intercostal spaces close to the sternum for the six subjects.
+A, the duration of the phasic inspiratory activity is indicated relative to total inspiratory time ((T I − T O )/T I
+percentage), shown as the mean ± S.E.M. Inspiratory activity in the parasternal intercostals began close to the
+onset of airflow in the first and second interspaces but was delayed in the more caudal spaces. B, mean peak
+discharge rates (± S.E.M.) for the group of subjects derived from the inspiratory firing frequency of 79 units in the
+first interspace, 81 in the second, 80 in the third, 78 in the fourth, and 47 units in the fifth space. The discharge
+rate was greatest in the parasternal intercostal in the first interspace, and this rate decreased caudally.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+269
+
+270
+
+S. C. Gandevia and others
+
+achieved by recruitment of new motor units (Adrian
+& Bronk, 1929; Henneman & Mendell, 1981), but the
+current method does not quantify the total number of
+units recruited. Although not studied formally, we found
+more inspiratory motor units per recording site in the
+first interspace, compared to the fifth space (2.5 versus 1.4
+units per site). Therefore, it is likely that not only was the
+discharge rate lower in the caudal interspaces (Fig. 3B),
+but there were relatively fewer units with inspiratory
+firing. In addition, the rostrocaudal gradient of motor unit
+discharge activity in the parasternal intercostal muscles has
+a similar spatial distribution to the timing of the onset of
+multiunit activity during quiet breathing (Fig. 3A and B).
+In the intercostal muscles of the dog, greater activation
+is associated with an earlier onset of inspiratory activity
+(De Troyer & Legrand, 1995; Legrand et al. 1996a; Leduc
+et al. 2000).
+
+J Physiol 573.1
+
+A second limitation of this technique is that single
+motor unit recordings from parasternal intercostal muscle
+of different interspaces were made during different
+periods of quiet breathing. As neural drive increases with
+inspiratory flow (Clark & von Euler, 1972), parasternal
+intercostal activity in the fourth interspace may have been
+slightly underestimated as inspiratory flow was low during
+recordings from this space (Table 1). However, across the
+other interspaces, when inspiratory flow was similar, the
+greatest activation was in the first and second spaces
+and lowest in the fifth space. This suggests that neural
+drive to the parasternal intercostals gradually decreases
+caudally, and it is unlikely that the neural drive to the
+fourth interspace was greatly underestimated. A slightly
+longer T I during recordings from the fifth interspace
+may have affected the timing of activity onset, with an
+underestimation of (T I − T O )/T I . However, the discharge
+
+Figure 4. Tonic activity in the parasternal intercostal muscles
+Data from recordings in the first to the fifth parasternal intercostal spaces close to the sternum for six subjects.
+A, example from a single subject of the discharge of a parasternal intercostal motor unit in the fifth interspace with
+tonic activity. Parasternal intercostal EMG, inspiratory airflow and the instantaneous frequency of the single motor
+unit identified in this record are shown. This motor unit exhibited continuous activity throughout the respiratory
+cycle, but has distinct inspiratory modulation of approximately 5 Hz in each breath. Vertical calibration: 400 μV.
+B, the percentage of the total number of motor units recorded in each interspace which had tonic activity. The
+occurrence of tonic activity was more common in the more caudal interspaces. C, mean discharge rates (± S.E.M.)
+for the group of subjects of the units with tonic activity. The average firing frequency of these units during expiration
+was similar across interspaces (open bars), but the average inspiratory modulation differed (grey bars). The units
+in the first interspace had the greatest modulation and the greatest peak firing rate during inspiration, whereas
+inspiratory modulation was lowest for the units in the fifth space. The average frequencies were derived from the
+firing frequency of 3 units in the first interspace (from one subject), 11 in the second (two subjects), 20 in the third
+(four subjects), 19 in the fourth (four subjects), and 16 units in the fifth space (five subjects).
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+J Physiol 573.1
+
+Inspiratory drive to the parasternal intercostal muscles
+
+rate of motor units in the fifth interspace was also low,
+confirming the low drive to this space. The absence of
+phasic inspiratory activity in the fifth interspace in one
+subject supports this view.
+Uneven drive to the parasternal intercostal muscles
+
+A topographic distribution of neural drive to intercostal
+muscles has been observed in the human external
+intercostal muscles (De Troyer et al. 2003), as well as in
+feline and canine intercostal muscles (Greer & Martin,
+1990; De Troyer & Legrand, 1995; Legrand et al. 1996a;
+Legrand & De Troyer, 1999). The mechanism responsible
+for the graded activation in the intercostal muscles has
+not been determined. In the anaesthetized dog, afferent
+inputs do not determine the spatial distribution of activity
+in the parasternal intercostal muscles as the distribution is
+preserved when input from the lungs, diaphragm and chest
+wall is removed (De Troyer & Legrand, 1995; De Troyer
+et al. 1996a; Legrand et al. 1996a). In human intercostal
+
+muscles, local inputs can modulate reflex responses to brief
+airway occlusions (Butler et al. 1995; Butler et al. 1997),
+but their role in graded muscle activation during quiet
+breathing is unclear.
+There is limited information on whether drive from
+inspiratory bulbospinal neurons has a rostrocaudal
+or mediolateral gradient of intercostal thoracic spaces
+(for review, see De Troyer et al. 2005). Davies et al.
+(1985) compared recordings from bulbospinal neurons
+innervating the dorsal external intercostal muscles
+of six different interspaces in the cat. The overall
+strength of connections varied, but there was no graded
+change along a rostrocaudal axis. In addition, the total
+average depolarization generated by these monosynaptic
+connections was estimated to be small relative to the
+overall depolarization of the external intercostal
+motoneurones (Merrill & Lipski, 1987).
+Muscle recruitment is also determined by the intrinsic
+properties of the motoneurones. The motoneurones
+of limb muscles are recruited by their size-related
+
+Figure 5. Recordings in one subject at a medial and lateral location from the second parasternal intercostal muscle
+Inspiratory airflow, ribcage movement, and parasternal intercostal EMG are shown. Inspiration is upwards in the
+airflow and movement trace. Vertical calibrations: 200 μV. A, recording from a medial site close to the sternum.
+Vertical dotted lines indicate the onset of EMG activity. B, corresponding data for the lateral recording. Phasic
+inspiratory activity began close to the onset of airflow for recordings at both the medial and lateral location in the
+parasternal intercostal space.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+271
+
+272
+
+S. C. Gandevia and others
+
+excitability, known as the ‘size principle’ (Henneman,
+1957; Henneman & Mendell, 1981). If this holds for
+intercostal muscles, we would expect a topographic
+distribution of motoneurone and motor fibre types across
+the intercostal spaces. Fibre type composition is a good
+indicator of motoneuronal properties (Henneman &
+Mendell, 1981), but it is not known if the fibre type
+composition of human parasternal intercostal muscles
+differs across interspaces. In the dog, there is no difference
+in fibre type proportions between intercostal spaces, or
+between medial and lateral portions of an interspace
+(De Troyer et al. 1996a; Legrand et al. 1996a). Within the
+limits of sampling error in humans (Elder et al. 1982),
+the fibre type composition of the external intercostal
+muscles from the fifth and eighth interspaces appears
+similar for the proportion of slow-twitch oxidative fibres
+(Mizuno & Secher, 1989). If muscle fibre type were the
+only determinant of firing we would expect that the onset
+of activation in these two interspaces to be the same. This
+is not the case. Activity in the seventh external intercostal
+is lower and delayed relative to that in the fifth (De Troyer
+et al. 2003). Hence, the distribution of drive and motor
+unit discharge rate may not solely be determined by an
+intrinsic, size-related, property of the motoneurones.
+A modulatory mechanism which modifies the
+descending drive to the motoneurones may be responsible
+for the topographic distribution of drive to intercostal
+muscles. Respiratory interneurones with inspiratory firing
+patterns have been identified in the spinal cord of
+the cat (Lipski & Duffin, 1986; Kirkwood et al. 1988;
+Bellingham & Lipski, 1990), and these interneurones
+may contribute to central respiratory drive potentials
+in respiratory motoneurones. Anatomical and electrophysiological results suggest respiratory interneurones
+
+J Physiol 573.1
+
+project between spinal segments (Lipski & Duffin, 1986)
+and to the contralateral ventral horn (Schmid et al. 1993),
+but the exact role of interneurones in respiratory motor
+function has not been determined. It has been speculated
+that there is a propriospinal system for phrenic and
+intercostal motoneurones similar to the system for
+forelimb motoneurones (Lipski & Duffin, 1986). In theory,
+this would allow for common modulation or integration
+of either involuntary drive from the medulla during quiet
+breathing, or volitional drive from the motor cortex
+(Macefield & Gandevia, 1991). However, a more detailed
+assessment of the respiratory interneurones is required
+before it is concluded that they mediate the topographic
+distribution of inspiratory drive between different regions
+of the thorax. Central inspiratory drive may also be
+modulated by mechanisms which alter the ‘gain’ of the
+respiratory motoneurones. Active dendritic mechanisms
+involving persistent inward currents (Heckman et al.
+2003), or ligand-gated channel-mediated synaptic inputs
+(Berger, 2000; Zhan et al. 2000) may amplify synaptic
+signals in some motoneurones. Regional differences in the
+density of serotonergic inputs in the canine parasternal
+intercostal muscles reflect the topographic distribution of
+inspiratory activity in this muscle (Zhan et al. 2000).
+Neural drive matches the topographic distribution
+of mechanical advantage
+
+The present study has revealed that the distribution of
+inspiratory drive to the human parasternal intercostal
+muscles is closely matched to the distribution of their
+inspiratory mechanical advantage. Figure 7 shows this
+relationship for the parasternal intercostals (filled circles)
+and compares it with that for the external intercostals
+
+Figure 6. Mediolateral gradient of neural drive to the parasternal intercostal muscles
+Data from recordings in medial and lateral portions of the second parasternal intercostal space for five subjects.
+A, the duration of the phasic inspiratory activity is indicated relative to total inspiratory time ((T I − T O )/T I
+percentage), shown as mean ± S.E.M. B, data for the mean (± S.E.M.) inspiratory peak firing rate at the medial
+and lateral locations. There was no difference in the onset of activity, or the discharge frequency of motor units
+recorded from the two locations in the second parasternal intercostal. C, the percentage of total units with tonic
+activity, recorded from medial and lateral portions of the second parasternal intercostal space. The occurrence of
+tonic activity was similar at the two sites.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+J Physiol 573.1
+
+Inspiratory drive to the parasternal intercostal muscles
+
+(open circles). Mechanical advantage was taken from
+the data of De Troyer et al. (1998), and the number of
+motor unit discharges during inspiration was calculated
+by multiplying the average discharge rate (Fig. 3B) by
+the duration of firing in inspiration (Fig. 3A). Although
+the two sets of data shown in Fig. 7 were collected from
+different subjects, each has a strong linear relationship
+(coefficient of correlation, r 2 = 0.99 for both muscle
+groups). The average number of motor unit discharges
+during inspiration for the parasternal intercostals in
+the third interspace has been determined previously
+(De Troyer et al. 2003), and is similar to that in the present
+study (Fig. 7, cross versus filled circle). The relationship
+in Fig. 7 allows estimation of the mechanical advantage of
+the parasternal intercostal in the first interspace based on
+its inspiratory neural drive (∼3% per litre). The complex
+geometry of the fibres in this particular interspace had
+precluded computation of its mechanical advantage using
+computed tomography (De Troyer et al. 1998).
+Further evidence for the link between neural drive and
+mechanical advantage is observed for the mediolateral
+extent of the human parasternal intercostal muscle. All
+the indices of neural drive were identical for the medial
+and lateral end of the second intercostal space (Fig. 6). In
+humans, there is minimal change in angulation of fibres
+along a parasternal intercostal, and the costal cartilages in
+the first to third interspaces are nearly parallel (De Troyer
+et al. 1998). Therefore, in these interspaces, the mechanical
+advantage of the muscle fibres near the costochondral
+junction is about the same as that of the fibres in the vicinity
+of the sternum (De Troyer et al. 1998). On the other hand,
+in the dog, there is a mediolateral gradient of mechanical
+advantage for the parasternal intercostals in every
+interspace, and this is associated with a strong gradient
+of inspiratory neural drive (De Troyer & Legrand, 1995;
+Legrand et al. 1996b). This species difference strengthens
+Figure 7. Relationship between the
+inspiratory firing of the parasternal
+intercostal muscles and their
+mechanical advantage
+Data for mechanical advantage is
+derived from
+De Troyer et al. (1998). Open circles
+show data for the external intercostals
+(from De Troyer et al. 2003). Data for
+the parasternal intercostals are shown
+as filled circles (current study). The
+y-axis shows the number of motor unit
+spikes during inspiration, calculated
+from the mean group data for each
+intercostal muscle (see text). The cross
+shows data for the third parasternal
+intercostal from the study of De Troyer
+et al. (2003). Simple linear regressions
+are shown. There is an increase in
+inspiratory neural drive to the regions
+of the intercostal muscles with the
+higher mechanical advantage.
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+273
+
+the argument that inspiratory neural drive and mechanical
+advantage are linked.
+Figure 7 also shows that the linear relationship between
+neural drive and inspiratory mechanical advantage
+differs in slope for the parasternal and external
+intercostal muscles (P < 0.05). The relationship is steeper
+for the external intercostals during quiet breathing.
+The different relationship between neural drive and
+mechanical advantage of the parasternal and external
+intercostals may reflect differences in their operating
+lengths relative to their optimal length. Overall, neural
+drive may be set to maximize the efficiency of breathing.
+The metabolic cost of rib elevation is minimized if the work
+done by various muscles lifting it is distributed according
+to the size of their mechanical advantages (De Troyer et al.
+2005).
+Tonic activity in the parasternal intercostal muscles
+
+Any assessment of tonic and phasic drive to human
+parasternal and external intercostal muscles should take
+into account not only their obligatory inspiratory firing
+(Tokizane et al. 1952; Taylor, 1960; Gandevia et al. 1996;
+De Troyer et al. 2003), but their contraction in voluntary
+and postural tasks (e.g. Gandevia et al. 1990; Whitelaw et al.
+1992; Rimmer et al. 1995). The present study provides
+new data about the tonic firing of human parasternal
+intercostals. Although inspiratory activity decreases
+caudally, the incidence of tonic firing throughout the
+respiratory cycle increases from 4% of units in the first
+interspace to 34% in the fifth space (Fig. 4B). Therefore,
+during sitting, the parasternal intercostals in caudal
+interspaces may have greater postural functions compared
+to the more rostral spaces.
+The timing of the increase from tonic firing in the
+parasternal intercostals was similar across the spaces, but
+
+274
+
+S. C. Gandevia and others
+
+we encountered some units which did not increase their
+discharge until over 200 ms of inspiratory flow. Such a
+delay in the inspiratory modulation of tonically firing
+units has also been observed in the dorsal external
+intercostal in the fifth interspace (unpublished
+observations). This delay suggests that the neural
+mechanisms causing the gradient in the onset of
+inspiratory firing may occur at a premotoneuronal site, at
+a spinal or supraspinal level. Alternatively, local factors
+causing sustained motoneuronal depolarization may be
+responsible.
+There is spatial distribution of neural drive to
+the human parasternal intercostal muscles along a
+rostrocaudal gradient during quiet breathing. The
+inspiratory drive to the muscles mirrors their inspiratory
+mechanical advantage, and peaks rostrally. In contrast, the
+occurrence of tonic activity, which may reflect postural
+drive, is greater in the caudal spaces. Along the mediolateral
+extent of the second parasternal intercostal space, there is
+no difference in neural drive, mechanical advantage or
+occurrence of tonic firing.
+References
+Adrian ED & Bronk DW (1929). The discharge of impulses in
+motor nerve fibres. Part 2. The frequency of discharge in
+reflex and voluntary contractions. J Physiol 67, 119–151.
+Bellingham MC & Lipski J (1990). Respiratory interneurons in
+the C5 segment of the spinal cord of the cat. Brain Res 533,
+141–146.
+Berger AJ (2000). Determinants of respiratory motoneuron
+output. Respir Physiol 122, 259–269.
+Butler JE, McKenzie DK, Crawford MR & Gandevia SC (1995).
+Role of airway receptors in the reflex responses of human
+inspiratory muscles to airway occlusion. J Physiol 487,
+273–281.
+Butler JE, McKenzie DK & Gandevia SC (2001). Discharge
+frequencies of single motor units in human diaphragm and
+parasternal muscles in lying and standing. J Appl Physiol 90,
+147–154.
+Butler JE, McKenzie DK, Glanville AR & Gandevia SC (1997).
+Pulmonary afferents are not necessary for the reflex
+inhibition of human inspiratory muscles produced by airway
+occlusion. J Neurophysiol 78, 170–176.
+Chadha TS, Watson H, Birch S, Jenouri GA, Schneider AW,
+Cohn MA & Sackner MA (1982). Validation of respiratory
+inductive plethysmography using different calibration
+procedures. Am Rev Respir Dis 125, 644–649.
+Clark FJ & von Euler C (1972). On the regulation of depth and
+rate of breathing. J Physiol 222, 267–295.
+Davies JG, Kirkwood PA & Sears TA (1985). The distribution of
+monosynaptic connexions from inspiratory bulbospinal
+neurones to inspiratory motoneurones in the cat. J Physiol
+368, 63–87.
+De Troyer A, Gorman RB & Gandevia SC (2003). Distribution
+of inspiratory drive to the external intercostal muscles in
+humans. J Physiol 546, 943–954.
+
+J Physiol 573.1
+
+De Troyer A, Kirkwood PA & Wilson TA (2005). Respiratory
+action of the intercostal muscles. Physiol Rev 85,
+717–756.
+De Troyer A, Leeper JB, McKenzie DK & Gandevia SC (1997).
+Neural drive to the diaphragm in patients with severe COPD.
+Am J Respir Crit Care Med 155, 1335–1340.
+De Troyer A & Legrand A (1995). Inhomogenous activation of
+the parasternal intercostals during breathing. J Appl Physiol
+79, 55–62.
+De Troyer A, Legrand A, Gayan-Ramirez G, Cappello M &
+Decramer M (1996a). On the mechanism of the mediolateral
+gradient of parasternal activation. J Appl Physiol 80,
+1490–1494.
+De Troyer A, Legrand A, Gevenois P-A & Wilson TA (1998).
+Mechanical advantage of the human parasternal intercostal
+and triangularis sterni muscles. J Physiol 513, 915–925.
+De Troyer A, Legrand A & Wilson TA (1996b). Rostrocaudal
+gradient of mechanical advantage in the parasternal
+intercostal muscles of the dog. J Physiol 495, 239–246.
+De Troyer A, Legrand A & Wilson TA (1999). Respiratory
+mechanical advantage of the canine external and internal
+intercostal muscles. J Physiol 518, 283–289.
+De Troyer A & Sampson MG (1982). Activation of the
+parasternal intercostals during breathing efforts in human
+subjects. J Appl Physiol 52, 524–529.
+Elder GC, Bradbury K & Roberts R (1982). Variability of fiber
+type distributions within human muscles. J Appl Physiol 53,
+1473–1480.
+Gandevia SC, Leeper JB, McKenzie DK & De Troyer A (1996).
+Discharge frequencies of parasternal intercostal and scalene
+motor units during breathing in normal and COPD subjects.
+Am J Respir Crit Care Med 153, 622–628.
+Gandevia SC, McKenzie DK & Plassman BL (1990). Activation
+of human respiratory muscles during different voluntary
+manoeuvres. J Physiol 428, 387–403.
+Greer JJ & Martin TP (1990). Distribution of muscle fibre types
+and EMG activity in cat intercostal muscles. J Appl Physiol
+69, 1208–1211.
+Heckman CJ, Lee RH & Brownstone RM (2003).
+Hyperexcitable dendrites in motoneurones and their
+neuromodulatory control during motor behavior. Trends
+Neurosci 26, 688–695.
+Henneman E (1957). Relation between size of neurons and
+their susceptibility to discharge. Science 126,
+1345–1347.
+Henneman E & Mendell LM (1981). Functional organisation of
+motoneuron pool and its inputs. In Handbook of Physiology,
+section 3, The Nervous System, ed. Geiger SR, pp. 423–508.
+Waverly Press, Inc., Baltimore.
+Kirkwood PA, Munson JB, Sears TA & Westgaard RH (1988).
+Respiratory interneurones in the thoracic spinal cord of the
+cat. J Physiol 395, 161–192.
+Leduc D, Brunko E & De Troyer A (2000). Response of the
+canine inspiratory intercostal muscles to chest wall vibration.
+Am J Respir Crit Care Med 161, 510–516.
+Legrand A, Brancatisano A, Decramer M & De Troyer A
+(1996a). Rostrocaudal gradient of the electrical activation in
+the parasternal intercostal muscles of the dog. J Physiol 495,
+247–254.
+
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+J Physiol 573.1
+
+Inspiratory drive to the parasternal intercostal muscles
+
+Legrand A & De Troyer A (1999). Spatial distribution of
+external and internal intercostal activity in dogs. J Physiol
+518, 291–300.
+Legrand A, Wilson TA & De Troyer A (1996b). Mediolateral
+gradient of mechanical advantage in the canine parasternal
+intercostals. J Appl Physiol 80, 2097–2101.
+Lipski J & Duffin J (1986). An electrophysiological
+investigation of propriospinal inspiratory neurons in the
+upper cervical cord of the cat. Exp Brain Res 61, 625–637.
+Macefield G & Gandevia SC (1991). The cortical drive to
+human respiratory muscles in the awake state assessed by
+premotor cerebral potentials. J Physiol 439, 545–558.
+Merrill EG & Lipski J (1987). Inputs to intercostal
+motoneurons from ventrolateral medullary repsiratory
+neurons in the cat. J Neurophysiol 57, 1837–1852.
+Mizuno M & Secher NH (1989). Histochemical characteristics
+of human expiratory and inspiratory intercostal muscles.
+J Appl Physiol 67, 592–598.
+Rimmer KP, Ford GT & Whitelaw WA (1995). Interaction
+between postural and respiratory control of human
+intercostal muscles. J Appl Physiol 79, 1556–1561.
+Schmid K, Kirkwood PA, Munson JB, Shen E & Sears TA
+(1993). Contralateral projections of thoracic respiratory
+interneurones in the cat. J Physiol 461, 647–665.
+
+
+C 2006 The Authors. Journal compilation 
+C 2006 The Physiological Society
+
+275
+
+Taylor A (1960). The contribution of the intercostal muscles to
+the effort of respiration in man. J Physiol 151, 390–402.
+Tokizane T, Kawamata K & Tokizane H (1952).
+Electromyographic studies on the human respiratory
+muscles; studies on the activity pattern of neuromuscular
+units. Jpn J Physiol 2, 232–247.
+Whitelaw WA, Ford GT, Rimmer KP & De Troyer A (1992).
+Intercostal muscles are used during rotation of the thorax in
+humans. J Appl Physiol 72, 1940–1944.
+Wilson TA, Legrand A, Gevenois P-A & De Troyer A (2001).
+Respiratory effects of the external and internal intercostal
+muscles in humans. J Physiol 530, 319–330.
+Zhan WZ, Mantilla CB, Zhan P, Bitton A, Prakash YS, de
+Troyer A & Sieck GC (2000). Regional differences in
+serotonergic input to canine parasternal intercostal
+motoneurons. J Appl Physiol 88, 1581–1589.
+
+Acknowledgements
+This work was supported by grants from the National Health
+and Medical Research Council.
+
+

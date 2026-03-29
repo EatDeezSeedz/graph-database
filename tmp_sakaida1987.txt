@@ -1,0 +1,644 @@
+THE ANATOMICAL RECORD 218:267-274 (1987)
+
+Physiological Role of Skeletal Muscle Glycogen in
+Starved Mice
+MINORU SAKAIDA, JUN WATANABE, SHINSUKE KANAMURA, HIROHIKO
+TOKUNAGA, AND RYOKEI OGAWA
+Department of Anatomy and Orthopedics, Kansai Medical University, Fumizonecho 1,
+Moriguchi, Osaka, 570 Japan
+
+ABSTRACT
+To study the physiological role of skeletal muscle glycogen in starved
+animals, effects of starvation on glycogen and glycogen phosphorylase (EC 2.4.1.1.)
+activity were studied in muscle fibers (morphologic study) and in whole muscles
+(biochemical study) of the rectus femoris muscle of mouse. Glycogen content in the
+liver of the starved animals was also measured. PAS reaction, strong in muscle
+fibers of fed animals, became weak predominantly in type IIB fibers after 2 days
+and almost disappeared after 4 days of starvation. Glycogen particles, numerous in
+the sarcoplasm between myofibrils of muscle fibers, decreased markedly predominantly in type IIB fibers after 2 days and almost disappeared after 4 days. Phosphorylase a activity, undetected in fibers of fed mice, appeared weak in type IIB fibers
+and very weak in type IIA fibers after 2 days and became moderate in type IIB
+fibers and weak in type IIA fibers after 4 days. Muscle glycogen content did not
+differ by 16 hours from the values of corresponding fed animals. However, liver
+glycogen content had already decreased after 8 hours and markedly so after 12
+hours. The results support our hypothesis--"skeletal muscle glycogen is used for
+maintaining the blood glucose level in starved mice" (Hirose et al.: Anat. Rec.,
+216:133-138, 1986)-and show that type IIB fibers play a main role in maintaining
+the glucose level and that muscle glycogen is utilized after depletion of liver glycogen.
+Glycogen in skeletal muscle is utilized as the energy phorylase activity assay), 8, 12, 16, 24, 48, or 96 hours
+source for muscle contraction. However, we recently ob- (glycogen content assay), and 12, 24, 48, and 96 hours
+served that in the skeletal muscle (rectus femoris mus- (blood glucose assay). Starvation was started at 10 A.M.
+cle) of starved mice glucose 6-phosphatase (GGPase) and for morphologic experiments and a t 6 or 10 A.M. for
+glycogen phosphorylase a activities increase and glyco- chemical experiments. Experiments of starvation for 5
+gen content decreases, and we supposed that the role of days or more were not carried out because about a half
+the increased G6Pase in skeletal muscle fibers of starved of the animals died at 5 days of starvation. The animals
+mice is to release glucose into the blood by hydrolyzing were killed by cervical dislocation.
+glucose 6-phosphate (G6P) produced through the inLight Microscopy
+creased phosphorylase activity from their glycogen (Hirose et al., 1986). In the present study, to obtain further
+Rectus femoris muscles were removed quickly and froevidence supporting this hypothesis, we examined 1) zen on dry ice. Serial transverse sections (10 pm in
+whether the changes in phosphorylase a activity and thickness) were cut in a cryostat through the midbelly
+glycogen content occur predominantly in any fiber type portion of the muscles.
+of the rectus femoris muscle (histochemical and ultrastructural studies) and 2) whether glycogen mobilization Classification of fiber types
+Serial fresh frozen sections were incubated for 1)acidin the skeletal muscle occurs before or after the glycogen
+mobilization in the liver, which is the greatest glucose stable myofibrilar adenosine triphosphatase (ATPase)
+supplier into the blood during starvation (biochemical activity (Padykula and Herman, 1955; as modified by
+Brooke and Kaiser, 1970), for 2) alkaline-stable ATPase
+study).
+activity (Guth and Samaha, 19701, and for 3) succinate
+dehydrogenase (SDH) activity (Barka and Anderson,
+MATERIALS AND METHODS
+1963). Muscle fibers showing dark reaction for acid-staTwo hundred thirty male ddY mice, 2 months old, ble ATPase and light reaction for alkaline-stable ATwere used. The animals were divided into two groups
+and individually housed in cages. One group of animals
+had free access to food and water prior to the experiReceived August 12,1986; accepted January 27,1987.
+ments (fed animals) and the other group of animals
+Address reprint requests to Dr. Shinsuke Kanamura, Department
+(starved animals) was given only water for 2 or 4 days of Anatomy, Kansai Medical University, Fumizono-cho 1,Moriguchi,
+(morphologic experiments), 24, 48, or 96 hours (phos- Osaka, 570 Japan.
+0 1987 ALAN R. LISS, INC
+
+268
+
+M. SAKAIDA ET AL.
+
+269
+
+MUSCLE GLYCOGEN
+
+Electron Microscopy
+
+Pase were classified as type I, and the fibers showing
+light reaction for acid-stable ATPase and dark reaction
+for alkaline-stable ATPase were classified as type 11.
+Type I1 fibers were subclassified into type IIA if they
+had intense SDH reaction, into type IIB if they showed
+weak SDH reaction, and into atypical type 11if they had
+moderate SDH reaction.
+
+Rectus femoris muscles were quickly removed and cut
+into small pieces. The blocks were immersed in 2.5%
+glutaraldehyde in 0.1 M phosphate buffer (pH 7.4) a t
+4°C for 2.5 hours, washed with 8% sucrose in 0.1 M
+phosphate buffer (pH 7.4) at 4°C for 20 minutes, postfixed with buffered 1% osmium tetroxide at 4°C for 2
+hours, dehydrated in graded ethanol, and embedded in
+Glycogen
+Spurr's resin. Longitudinal ultrathin sections were
+Fresh frozen sections were stained with the periodic stained with uranyl acetate and lead citrate and examacid Schiff (PAS) reaction and mounted in glycerin-jelly. ined in a JEM-100s electron microscope.
+For control, the sections were preincubated with saliva
+The fiber types at the electron microscope level were
+a t 37 "C for 30 minutes and stained with PAS reaction.
+identified on the basis of the size and distribution of
+mitochondria in the muscle cells (Maxwell et al., 1977;
+Phosphorylase activity
+Armstrong, 1980).
+For histochemical demonstration of total phosphoryBiochemical Methods
+lase activity, fresh frozen sections were incubated in the
+reaction medium containing 10.6 mM glucose l-phos- Glycogen content
+phate (GlP), 2.3 mM adenosine monophosphate (AMP),
+Rectus femoris muscles or livers were digested with
+80 pg/ml glycogen, 3 mM ethylenediaminetetraacetic 20 volumes of 30%KOH at 95°C for 20 minutes. Glycoacid (EDTA), 5 mM NaF, and 0.1 M acetate buffer (pH gen in the digest was purified with ethanol according to
+5.7) at 20°C for 1hour (Takeuchi, 1956). For phosphory- the method of Hassid and Abraham (1957), and the glylase a (active form) activity, the sections were incubated cogen amount was estimated by the anthrone reaction
+in the medium lacking AMP (Godlewski, 1963). The (Hassid and Abraham, 1957). The content of glycogen
+sections were immersed in 10% Gram solution for 3 was expressed as milligrams glycogen per gram of wet
+minutes and mounted in iodoglycerin. The sections were tissue.
+incubated in the medium lacking G1P (for total activity)
+or lacking G1P and AMP (for phosphorylase a activity) Phosphorylase activity
+as controls.
+Rectus femoris muscles were homogenized a t 4°C with
+20 volumes of 0.2 M Tris-maleate buffer (pH 6.1) conFigs. 1-12. Serial transverse sections of the rectus femoris muscles. taining 50 mM NaF and 5 mM EDTA for 1 minute at
+A, type IIA fiber; B, type IIB fiber; X, atypical type I1 fiber. x 120.
+2,000 rpm. The homogenate was centrifuged a t 4°C for
+10 minutes at 3,OOOg. Phosphorylase activity was asFigs. 1-6. Fed (10 A.M.).
+sayed by the method of Saheki et al. (1971). An aliquot
+Fig. 1. Incubated for adenosine triphosphatase (ATPase) activity
+(0.05 ml) of the supernatant was incubated with 0.15 ml
+after acid preincubation.
+of the medium (40 mM GlP, 100 mg/ml glycogen, 13 mM
+NaF, 1.3 mM EDTA, 50 mM Tris-maleate, pH 6.1) in
+Fig. 2. Incubated for ATPase activity after alkaline preincubation.
+the presence or absence of 1 mM AMP a t 30°C for 5
+Fig. 3. Incubated for succinate dehydrogenase activity.
+minutes. The inorganic phosphorus released was determined by Phosphor C-test. The reaction in the presence
+Fig. 4. PAS reaction. The staining reaction is strong.
+of AMP shows total phosphorylase activity and the reFig. 5. Histochemical demonstration of total phosphorylase activity. action in the absence of AMP shows phosphorylase a
+The staining reaction is strong in type IIA fibers (A) and moderate in activity. The activity was expressed a s micrograms
+type IIB (B) and atypical type I1 (X) fibers.
+phosphorus liberated per minute per gram of wet tissue.
+Fig. 6. Histochemical demonstration of phosphorylase a activity. No
+staining reaction is seen.
+
+Blood glucose
+
+Animals were anesthetized with chloroform. Blood was
+taken from the right atrium by syringe and centrifuged
+at 4°C for 30 minutes at 3,OOOg. Then, glucose in the
+Fig. 7. Succinate dehydrogenase activity.
+serum was assayed by the mutarotase-glucose oxidase
+Fig. 8. PAS reaction. The staining reaction becomes weak in type method (Miwa et al., 1972).
+IIB fibers (B) but moderate in type IIA (A) and atypical type I1 (XI
+Figs. 7, 8. Starved for 2 days (10 A.M.).
+
+fibers.
+Figs. 9-12. Starved for 4 days (10A.M.).
+Fig. 9. Succinate dehydrogenase activity.
+Fig. 10. PAS reaction. The staining reaction almost disappears in
+type IIB (B) and atypical type I1 (X) fibers although it remains very
+weak in type IIA fibers (A).
+Fig. 11. Total phosphorylase activity. The staining reaction is strong
+
+in type IIB fibers (B), atypical type I1 fibers (X), and few type IIA fibers
+(*) and mostly moderate in type IIA fibers (A).
+
+Fig. 12. Phosphorylase a activity. The staining reaction is moderate
+in type IIB (B) and atypical type I1 (X) fibers and weak in type IIA
+fibers (A).
+
+Statistical analysis
+
+Results were expressed as means k S.E. Student's ttest was used for comparison o€ values between experimental groups.
+RESULTS
+
+The starved mice became gradually less active than
+the fed mice, and they appeared curled up after 2 or
+more days of starvation.
+Average body weight of fed mice was 38.3 k 0.6 g
+(means + S.E., n = 32). The weight decreased after 2
+days (33.9
+0.4 g, n = 11)( P < .01) and 4 days of
+starvation (29.8 0.6 g, n = 11)( P < .01).
+
+270
+
+M. SAKAIDA ET AL.
+
+Figs. 13-15. Electron micrographs of muscle fibers in rectus femoris
+muscles of mice.
+
+Fig. 14. Portion of a type IIB fiber from a n animal starved for 2 days.
+A few glycogen particles are seen in the sarcoplasm between myofibrils
+at the I bands, whereas the particles are rare or absent in other
+
+Fig. 13. Portions of type IIB fibers from fed animals (10 A.M.). A
+Glycogen particles are abundant in sarcoplasm near the triads and
+between myofibrils. X30,OOO. B: High-power magnification. Numerous
+particles, 25-30 nm in diameter, are observed in sarcoplasm near the
+triad. Some particles are also present between myofilaments (arrows).
+
+portions of sarcoplasm. ~ 3 0 , 0 0 0 .
+
+~50,000.
+
+Fig. 15. Portions of muscle fibers from animals starved for 4 days. A
+Portion of a type IIB fiber. Glycogen particles are absent. ~ 3 0 , 0 0 0B:
+.
+Portion of a type IIA fiber. A few particles are seen in sarcoplasm
+between myofibrils (arrows). ~ 3 0 , 0 0 0 .
+
+271
+
+MUSCLE GLYCOGEN
+
+Morphologic Results
+Distribution of fiber types
+
+h
+
+?!v)
+
+v)
+.c
+
+Rectus femoris muscles contained numerous type IIB
+fibers (fed: 63.1 rf: 2.5%, starved for 2 days: 65.8 rf: 3.4%,
+starved for 4 days: 62.9 & 1.8%, n = 4), a few type IIA
+fibers (fed 25.4 2.3%, starved for 2 days: 26.3 2.3,
+starved for 4 days: 26.0 & 1.5%), a few atypical type I1
+fibers (fed: 11.5 & 1.3%, starved for 2 days: 7.9 rf: 2.7%,
+starved for 4 days: 11.1 rf: 1.4%), and no type I fibers
+(Figs. 1-3,7,9).
+
+-E"
+
+PAS reaction
+
+% I -
+
+The staining reaction was strong in muscle fibers of
+fed mice (Fig. 4). The reaction, however, became weak
+in type IIB fibers and moderate in type IIA and atypical
+type I1 fibers after 2 days of starvation (Fig. 8).Although
+very weak reaction was sometimes seen in type IIA
+fibers, the staining almost disappeared after 4 days of
+starvation (Fig. 10).
+
+-U0x
+
++
+a,
+
+3
+
+s
+c
+
+2-
+
+C
+
+a,
+*
+C
+0
+
+0
+C
+0
+
+Glycogen phosphorylase activity
+
+In muscle fibers of fed mice, the staining reaction for
+total phosphorylase activity was strong in type IIA fibers and moderate in type IIB and atypical type I1 fibers
+(Fig. 5). Phosphorylase a (active form) activity was undetected in muscle fibers of fed mice (Fig. 6).
+After 2 days of starvation, the reaction for the total
+activity was somewhat intense, although it was slightly
+stronger in type IIB and atypical type I1 fibers than in
+type IIA fibers. The reaction for phosphorylase a activity
+appeared very weak in type IIA fibers and weak in type
+IIB and atypical type I1 fibers.
+After 4 days of starvation, the reaction for the total
+activity became intense, although it was generally
+stronger in type IIB fibers than in type IIA fibers (Fig.
+11). The reaction for phosphorylase a activity became
+moderate in type IIB and atypical type I1 fibers and
+weak in type IIA fibers (Fig. 12).
+Electron microscopy
+
+Electron microscopic observations were carried out on
+typical type IIA and IIB fibers, because atypical type I1
+fibers could not be identified under the electron microscope. In fed animals, numerous glycogen particles (beta
+particles) were observed in the sarcoplasm between myofibrils of all muscle fibers, particularly near the triad
+(Fig. 13A,B). A few particles were occasionally present
+in spaces between myofilaments. After 2 days of starvation, the particles decreased markedly, although a few
+were still seen in the sarcoplasm between myofibrils a t
+the I-bands (Fig. 14). The remaining particles appeared
+more numerous in type IIA fibers than in type IIB fibers.
+After 4 days of starvation, the particles almost disappeared (Fig. 15A), although a few granules were occasionally found in the sarcoplasm between myofibrils of
+some type IIA fibers (Fig. 15B).
+Biochemical Results
+Glycogen content
+
+Muscle glycogen content did not differ from values of
+corresponding fed animals by 12 hours of starvation,
+although the value decreased to 40% of that of animals
+at the start of starvation (Fig. 16). After 24, 48, and 96
+hours, the values became 23, 18, and 7% of that at the
+
+v)
+
+8
+
+12
+
+16
+
+2
+
+2,
+3
+
+"I
+6
+
+Hours of Starvation
+Fig. 16. Glycogen content i n rectus femoris muscles of fed (open
+column) and starved (dotted column) mice. Animals were starved from
+6:OO A.M. Each point represents t h e mean of four mice and standard
+error i s shown as a vertical line. The values of starved animals for 24
+hours or longer are different significantly from values of corresponding
+fed animals ( P < .001,.001,,001).Values at 12,24,48, and 96 hours of
+starvation were not different from those of animals starved from 1O:OO
+AM.
+
+start of starvation-smaller than those of corresponding
+fed animals (P < . 001, .001, .001). However, liver glycogen content already decreased after 8 hours to 27% of
+that at the start of starvation ( P < . 02) and was 33% of
+that of corresponding fed animals (P <. 02) (Fig. 17).
+After 12 hours, the value became 3% of that at the start
+of starvation, the minimal level.
+There were no differences in values at 12, 24, 48, and
+96 hours of starvation between animals starved from
+6:OO A.M. and from 1O:OO A.M.
+Glycogen phosphorylase activity
+
+Total glycogen phosphorylase activity did not change
+during 96 hours of starvation. However, phosphorylase
+a activity increased between the start and 48 hours ( P
+< .01)and markedly between 48 and 96 hours of starvation (P <. 05) (Fig. 18).
+There were no differences in values between animals
+starved from 6:OO A.M. and from 1O:Oo A.M.
+Blood glucose
+
+The values decreased to 44% of that in fed animals
+after 24 hours of starvation and then remained unchanged (Table 1).
+
+DISCUSSION
+
+In the present results, PAS reaction for glycogen and
+glycogen particles almost disappeared, and histochemical phosphorylase a activity increased in the muscle
+fibers during 4 days of starvation. These are consistent
+with our previous biochemical results on glycogen and
+phosphorylase a activity in the rectus femoris muscle of
+mice starved for 4 days and support our hypothesis on a
+physiological role of skeletal muscle glycogen in starved
+mice (Hirose et al., 1986).
+
+272
+
+M. SAKAIDA ET AL.
+
+h
+
+a,
+
+-2
+(I)
+
+ffl
+
+(I)
+.c
+
+ffl
+.c
+c
+
+c
+
+3
+
+$
+
+a,
+
+-?
+
+E" 20
+
+v
+
++
+C
+a,
++
+
+C
+0
+0
+
+c
+
+a,
+
+10
+
+T
+
+m
+
+0
+
+n
+T
+
+0
+
+>
+U
+
+tj o
+.->
+-1
+
+a,
+(I)
+
+m
+-
+
+0
+
+8
+
+12
+
+16
+
+24
+
+36
+
+Hours of Starvation
+Fig. 17. Glycogen content in the liver of fed (open column) and
+
+starved (dotted column) mice. Animals were starved from 6:OO A.M.
+Each point represents the mean of four animals and standard error is
+shown as a vertical line. The values of starved animals for 8 hours or
+longer are significantly different from values of corresponding fed
+animals. ( P < .02, .05, ,001, ,001,.001).Values at 12, 24,48,and 96
+hours of starvation were not different from those of animals starved
+from 1O:OO A.M.
+
+U
+
+c
+
+a
+
+Hours of Starvation
+
+Fig. 18. Phosphorylase activity in rectus femoris muscles of fed and
+
+starved mice. Animals were starved from 6:OO A.M. Each point represents the mean of five animals and standard error is shown as a
+vertical line. Total activity (open histogram dotted histogram) is not
+changed but phosphorylase a activity (dotted histogram) increases
+between the start and 48 hours (P < ,011and markedly between 48
+and 96 hours of starvation ( P < .05).These values were not different
+from those of animals starved from 1O:OO A.M.
+
++
+
+Phosphorylase a activity was higher and PAS reaction
+for glycogen decreased more markedly in type IIB fibers
+TABLE 1. Blood glucose level (mgldl) of fed and
+than in type IIA fibers after 2 and 4 days of starvation.
+starved mice
+Type IIA fibers contain numerous mitochondria (EisenBlood glucose
+berg and Kuda, 1976; Galvas et al., 1982) and the path- Group
+way of the aerobic glycolysis (Jobsis and Duffield, 1967; Fed
+Burke et al., 1973), whereas type IIB fibers have few
+219.8 k 9.57
+at 10 A.M.
+mitochondria (Eisenberg and Kuda, 1975; Galvas et al.,
+192.1 k 27.91
+at 10 P.M.
+1982) and the anaerobic glycolysis occurs in the fibers Starved for:
+131.4 f 17.04*
+(Burke et al., 1973). In type IIB fibers, G6P produced via 12 hours
+(at 10 P.M.)
+the glycogenolysis is converted into lactate by the anaer96.8 f 2.69**
+obic glycolysis (Conn and Stumpf, 1972; Burke et al., 24 hours
+(at 10 A.M.)
+1973). Lactate thus produced is released into the blood
+89.6 k 12.24**
+and changed via the Cori-cycle in the liver and kidney 48 hours
+10 A.M.)
+into glucose that is released into the blood (Felig et al., 96(at
+99.3 +
+hours
+- 10.43**
+1970; Kusaka and Ui, 1977). On the other hand, in type
+(at 10 A.M.)
+IIA fibers, G6P is converted into pyruvate by the aerobic
+glycolysis (Jobsis and Duffield, 1967; Burke et al., 1973). Values are means + S.E. for five animals. *P < .05, **P < ,001:
+Significantly different from the value of corresponding fed animals
+During the process of the aerobic glycolysis, no metabo- (Student's
+t-test).
+lites that are sources of the blood glucose are released
+from type IIA fibers (Conn and Stumpf, 1972; Burke et gen but from the blood glucose in spite of a marked
+al., 1973). Thus, via the anaerobic glycolysis and Cori- decrease in muscle glycogen by increased glycogen phoscycle, some of the glycogen in type IIB fibers is probably phorylase activity (Ichihara and Ui, 1974; Kusaka and
+used for maintaining the blood glucose level in starved Ui, 1977). Therefore, if changes in glucose and lactate in
+mice.
+skeletal muscles of epinephrine-treated animals are simIchihara and Ui (1974) and Kusaka and Ui (1977) ilar to those of starved animals, most of the G6P proobserved a decrease in glucose uptake and increase in duced via the glycogenolysis in skeletal muscles of
+lactate production in skeletal muscles of epinephrine- starved animals is possibly metabolized through a pathtreated rats. The authors noticed these changes to be way other than the anaerobic glycolysis and Cori-cycle
+similar to changes in glucose and lactate in skeletal mentioned above. We recently found G6Pase activity
+muscles of starved animals and supposed that epineph- and its marked increase by starvation in murine skelerine is the most important factor regulating glucose tal muscle fibers (Watanabe et al., 1986; Hirose et al.,
+metabolism in skeletal muscle of starved animals. Fur- 1986). It is therefore likelv that G6P derived from d v ther, the authors showed that, in rats injected with cogen in skeletal muscle; of starved mice is largely
+epinephrine, most of the lactate released from the skel- hydrolyzed by G6Pase activity to produce glucose that
+eta1 muscle into the blood is not derived from its glyco- is released directly into the blood.
+U
+
+"
+
+MUSCLE GLYCOGEN
+
+273
+
+Glycogen is more abundant in the white muscle con- moris muscles of mice contained a few atypical type I1
+taining numerous type I1 fibers than in the red muscle fibers. Thus, the fiber type composition of the rectus
+including numerous type I fibers (Beatty et al., 1963; femoris muscle of the mouse is slightly different from
+Bocek et al., 1966).G6Pase activity is also higher in type that of other species. Histochemical findings for fiber
+I1 fibers than in type I fibers Watanabe et al., 19861, type classification in atypical type I1 fibers were interand it increases in both type IIA and type IIB fibers as mediate between those in type IIA and IIB fibers. The
+a result of starvation (Hirose et al., 1986). As shown in fibers are probably “transitional fibers between type IIA
+the present study, decrease in glycogen and activation and type IIB fibers” as suggested by Wirtz et al. (1983).
+of phosphorylase activity during starvation occur preThe starved mice became less active than the fed mice
+dominantly in type IIB fibers. Thus, type IIB fibers and appeared curled up after 2 or more days of starvapossibly play a main role in releasing glucose into the tion. Therefore, there is probably no necessity to consider the possibility that the glycogen depletion in the
+blood in starved mice.
+ATP is shown to inhibit the activation of phosphory- muscle observed in the present study is due to high
+lase in the skeletal muscle of the rabbit (Sanner and activity of starved mice.
+Tron, 1975; Kamogawa and Fukui, 1975). ATP producLITERATURE CITED
+tion is four times more in aerobic glycolysis than in
+anaerobic glycolysis (Fairly and Kilgour, 1966). Thus, Ariano, M.A., R.B. Armstrong, and V.R. Edgerton (1973) Hindlimb
+muscle fiber populations in five mammals. J. Histochem. Cytohigh ATP concentration is probably a cause of less phoschem. 21:51-55.
+phorylase activation in type IIA fibers than in type IIB Armstrong,
+R.B. (1980) Properties and distributions of the fiber types
+fibers. Other factors regulating phosphorylase activain the locomotory muscles of mammals. In: Comparative Physiology: Primitive Mammals. K. Schmidt-Neilsen and C.R. Taylor, eds.
+tion-various hormones, such as insulin, glucagon, and
+Cambridge University Press, Cambridge, pp. 243-254.
+glucocorticoids, and the concentration of G6P, Ca++,
+T., and P.J. Anderson (1963) Histochemistry. New York: Harper
+phosphorylase b-kinase, and others in the muscle fi- Barka,
+and Row, p. 314.
+bers-are known. However, the detailed mechanism of Beatty, C.H., R.D. Peterson, and R.M. Bocek (1963) Metabolism of red
+the regulation by these factors is unknown.
+and white muscle fiber groups. Am. J. Physiol., 204:939-942.
+Liver glycogen decreased to 33%of that of correspond- Bocek, R.M., R.D. Peterson, and C.H. Beatty (1966) Glycogen metabolism in red and white muscle. Am. J. Physiol., 21O:llOl-1107.
+ing fed animals after 8 hours and to the minimal level Brooke,
+M.H., and K.K. Kaiser (1970) Muscle fiber types: How many
+(3%of the value of fed animals at the start of starvation)
+and what kind? Arch. Neurol., 19:369-379.
+after 12 hours. However, muscle glycogen content did Burke, R.E., D.N. Levine, P. Tsairis, and F.E. Zajac (1973) Physiological types and histochemical profiles in motor units of the cat gasnot differ by 16 hours from values of corresponding fed
+trocnemius. J. Physiol., 234:723-748.
+animals, and it decreased gradually and became smaller Conn.
+E.E., and P.K. Stumpf (1972) Outlines of Biochemistry. 3rd
+than those of corresponding fed animals after 24, 48,
+edition. John Wiley and Sons Inc., New York, pp. 235-318.
+and 96 hours. Thus, glycogen decrease in the liver pre- Eisenberg, B.R., and A.M. Kuda (1975) Stereological analysis of mammalian skeletal muscle. 11. White vastus muscle of the adult guinea
+cedes that in the skeletal muscle; glycogen in the muscle
+pig. J. Ultrastruct. Res. 52:176-187.
+is mobilized after its depletion in the liver in starved Eisenberg,
+B.R., and A.M. Kuda (1976) Discrimination between fiber
+mice. At the beginning of starvation, liver glycogen
+populations in mammalian skeletal muscle by using ultrastrucmaintains the blood glucose level and, after depletion of
+tural parameters. J. Ultrastruct. Res. 54:76-88.
+liver glycogen, muscle glycogen is utilized to maintain Fairley, J.L., and Kilgour, G.L. (1966)Essentials of Biological Chemistry. 2nd edition. Reinhold Publishing Co., New York, pp. 155-190.
+the blood glucose level. The blood glucose level de- Felig,
+P., T. Pozefsky, E. Marliss, and G.F. Cahill, Jr. (1970) Alanine:
+creased to 44% after 24 hours of starvation and then
+Key role in gluconeogenesis. Science, 167:1003-1004.
+remained unchanged. Some of the blood glucose after 24 Galvas, P.E., W.B. Neaves, and W.J. Gonyea (1982) Direct correlation
+of histochemical profile to the ultrastructure of single myofibers
+or longer hours of starvation is probably derived from
+and their neuromuscular junctions from a mixed muscle. Anat.
+muscle glycogen. However, the mechanism of such a
+Rec., 203:l-17.
+combination of the liver and muscle for glucose supply Garlick, P.J., D.J. Millward, W.P.T. James, and J.C. Waterlow (1975)
+to the blood in starved mice is unknown.
+The effect of protein deprivation and starvation on the rate of
+protein synthesis in tissues of the rat. Biochim. Biophys. Acta,
+The amount of muscle protein decreases during star414:71-84.
+vation (Li et al., 1979; Hirose et al., 1986). Therefore, Godlewski,
+H.G. (1963) Are active and inactive phosphorylases histoprotein catabolism in the muscle might be also related
+chemically distinguishable? J. Histochem. Cytochem., 11:108-112.
+t o the maintenance of blood glucose level in starved Guth, L., and F.J. Samaha (1970) Procedure for the histochemical
+demonstration of actomyosin ATPase. Exp. Neurol., 28:365-367.
+animals. Felig et al. (1970) reported that alanine, proW.Z., and S. Abraham (1957) Chemical procedures for analysis
+duced by the breakdown of muscle protein and released Hassid,
+of polysaccharides. Methods Enzymol., 3:34-50.
+into the blood, serves as precursor for gluconeogenesis Hirose, K., J. Watanabe, S. Kanamura, H. Tokunaga, and R. Ogawa
+in the liver (glucose-alaninecycle).However, Kusaka and
+(1986)Significance of the increase in glucose 6-phosphatase activity
+in skeletal muscle cells of the mouse by starvation. Anat. Rec.,
+Ui (1977) showed that the amount of glucose produced
+216:133-138.
+via the glucose-alanine cycle is very small in starved Ichihara,
+K., and M. Ui (1974) Activation of muscle phosphorylase by
+animals. Further, Garlick et al. (1975) and Li et al.
+subcutaneously injected epinephrine as related to other metabolic
+changes in vivo. Biochem. Pharmarcol., 23:1945-1954.
+(1979) found that the reduction in muscle protein in
+starved animals is not due to an increase in the rate of Jobsis, F.F., and J.L. Duffield (1967) Oxidative and glycolytic recovery
+metabolism in muscle. J. Gen. Physiol., 5Ot1009-1047.
+protein catabolism but is the result of a decrease in the Kamogawa, A., and T. Fukui (1975) Photooxidation of or-glucan phosrate of protein synthesis.
+phorylases from rabbit muscle and potato tubers. Biochim. Biophys. Acta, 403:326-334.
+In the present results, rectus femoris muscles of mice
+M., and M. Ui (1977) Activation of the Cori cycle by epinephcontained no type I fibers, although Ariano et al. (1973) Kusaka,
+rine. Am. J. Physiol., 232:E145-E155.
+reported the presence of at least a small percentage of Li, J.B., J.E. Higgins, and L.S. Jefferson (1979) Changes in protein
+type I fibers in the muscles of the guinea pig, rat, cat,
+turnover in skeletal muscle in response to fasting. Am. J. Physiol.,
+236:E222-E228.
+lesser bushbaby, and slow loris. Moreover, rectus fe-
+
+274
+
+M. SAKAIDA ET AL
+
+Maxwell, L.C., J.K. Barklay, D.D. Mohrman, and J.A. Faulkner (1977)
+Physiological characteristics of skeletal muscles of dogs and cats.
+Am. J. Physiol., 233:C14-C18.
+Miwa, I., J. Okuda, K. Maeda, and G. Okuda (1972) Mutarotase effect
+on colorimetric determination of blood glucose with D-glucose oxidase. Clin. Chim. Acta, 37:538-540.
+Padykula, H.A., and E. Herman (1955)The specificity of the histochemical method for adenosine tri-phosphatase. J. Histochem. Cytochem., 3:170-195.
+Saheki, R., K. Sato, and S. Tsuiki (1971) Glycogen synthesis and
+glycogen synthetase in rat ascites hepatomas of low and high
+glycogen content. Biochim. Biophys. Acta, 230:571-582.
+
+Sanner, T., and L. Tron (1975) Properties of the highly reactive SH
+groups of phosphorylase b. Biochemistry, 14.230-235.
+Takeuchi, T. (1956) Histochemical demonstration of phosphorylase. J.
+Histochem. Cytochem., 4234.
+Watanabe, J., S.Kanarnura, K. Kanai, and Y. Shugyo (1986) Cytochemical and biochemical glucose 6-phosphatase activity in skeletal muscle cells of mice. Anat. Rec., 214:25-31.
+Wirtz, P., H.M.Th. Loermans, P.G.M. Peer, and A.G.M. Reintjes (1983)
+Postnatal growth and differentiation of muscle fibers in the mouse.
+I. A histochemical and morphometrical investigation of normal
+muscle. J. Anat., 137:109-126.
+
+

@@ -1,0 +1,23 @@
+Sakaida et al. 1987 extraction notes
+
+Used for graph page:
+- Rectus femoris glycogen: text-reported percentages of start
+  - 12 h = 40%
+  - 24 h = 23%
+  - 48 h = 18%
+  - 96 h = 7%
+- Liver glycogen: text-reported percentages of start
+  - 8 h = 27%
+  - 12 h = 3% (minimal)
+  - later values held at the minimal level for visualization because the text says 12 h reached the minimal level
+- Blood glucose table means (mg/dL)
+  - Fed 10 A.M. = 219.8
+  - Fed 10 P.M. = 192.1
+  - 12 h = 131.4
+  - 24 h = 96.8
+  - 48 h = 89.6
+  - 96 h = 99.3
+- Body weight from results text
+  - Fed = 38.3 g
+  - 2 d = 33.9 g
+  - 4 d = 29.8 g

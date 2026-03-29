@@ -1,0 +1,1967 @@
+Journal of Electromyography and Kinesiology 17 (2007) 57–73
+www.elsevier.com/locate/jelekin
+
+Muscles within muscles: Coordination of 19 muscle segments
+within three shoulder muscles during isometric motor tasks
+J.M.M. Brown a, J.B. Wickham b,*, D.J. McAndrew a, X.-F. Huang a
+b
+
+a
+Department of Biomedical Science, University of Wollongong, Wollongong 2500, Australia
+Department of Anatomy and Physiology, School of Human Biosciences, La Trobe University, Vic. 3086, Australia
+
+Received 10 April 2005; received in revised form 24 September 2005; accepted 26 October 2005
+
+Abstract
+The aim of the present study was to determine how the intra-muscular segments of three shoulder muscles were coordinated to produce isometric force impulses around the shoulder joint and how muscle segment coordination was inﬂuenced by changes in movement
+direction, mechanical line of action and moment arm (ma).
+Twenty male subjects (mean age 22 years; range 18–30 years) with no known history of shoulder pathologies, volunteered to participate in this experiment. Utilising an electromyographic technique, the timing and intensity of contraction within 19 muscle segments of
+three superﬁcial shoulder muscles (Pectoralis Major, Deltoid and Latissimus Dorsi) were studied and compared during the production of
+rapid (e.g. approximately 400 ms time to peak) isometric force impulses in four diﬀerent movement directions of the shoulder joint (ﬂexion, extension, abduction and adduction).
+The results of this investigation have suggested that the timing and intensity of each muscle segment’s activation was coordinated
+across muscles and inﬂuenced by the muscle segment’s moment arm and its mechanical line of action in relation to the intended direction
+of shoulder movement (e.g. ﬂexion, extension, abduction or adduction). There was also evidence that motor unit task groups were
+formed for individual motor tasks which comprise motor units from both adjacent and distant muscles.
+It was also conﬁrmed that for any particular motor task, individual muscle segments can be functionally classiﬁed as prime mover,
+synergist or antagonist – classiﬁcations which are ﬂexible from one movement to the next.
+ 2005 Elsevier Ltd. All rights reserved.
+Keywords: Electromyography; Functional diﬀerentiation; Muscle segment; Shoulder muscles; Motor control; Motor unit task group
+
+1. Introduction
+It is now well accepted that motor units, within individual muscle segments of single skeletal muscles, can be independently controlled by the central nervous system (CNS)
+to produce particular motor outcomes [3,21]. This phenomenon, which may be termed ‘functional diﬀerentiation’
+[18], has been described within a number of individual skeletal muscles, including the Tensor Fascia Latae [18], the
+Gluteus Maximus and Medius [16], the Triceps Surae [3],
+the Biceps Brachii [2] and the Pectoralis Major [19]. Ettema
+*
+
+Corresponding author. Tel.: +61 3 94795725; fax: +61 3 94795784.
+E-mail address: j.wickham@latrobe.edu.au (J.B. Wickham).
+
+1050-6411/$ - see front matter  2005 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.jelekin.2005.10.007
+
+et al. [5] has suggested that large absolute diﬀerences in
+moment arms between diﬀerent segments of a single muscle
+partially explain this phenomenon.
+More recent studies on the Deltoid [24] have shown that
+skeletal muscle has a greater potential for functional diﬀerentiation than hitherto accepted. Wickham and Brown [24]
+have determined that the Deltoid muscle, commonly
+described as having only three (anterior, middle and posterior heads) functional muscle segments [10], is composed of
+at least seven muscle segments which all have the potential
+to be independently coordinated by the CNS. Functionally
+independent muscle segments provided the CNS greater
+ﬂexibility to ‘‘ﬁne tune’’ the activity of its Deltoid motor
+units when controlling movements of the shoulder joint.
+
+58
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Furthermore, Wickham and Brown [24] have suggested
+that the seven individual muscle segments of the Deltoid
+may be functionally classiﬁed as either prime mover, synergist or antagonist muscle segments based upon their
+mechanical lines of action (joint movement most likely
+from approximation of a segment’s origin and insertion)
+and periods of activation. Attempts to assign functional
+classiﬁcations to individual muscle segments, classiﬁcations
+hitherto used to describe whole muscle function [1] are useful in characterising the activity of each individual muscle
+segment. For example, the prime mover segments of the
+Deltoid were found to have the most eﬃcient mechanical
+lines of action, the earliest and longest durations of activation and the highest amplitudes of myoelectric activity.
+Deltoid muscle segments with increasingly divergent
+mechanical lines of action (synergist segments) were found
+to have increasingly later onsets, shorter periods of activation and lower intensities of myoelectric activity. Finally,
+antagonist segments, with mechanical lines of action opposing the movement, were activated last, had the shortest
+periods of activation and variable amplitudes of myoelectric activity [24].
+Applying functional classiﬁcations to muscle segments
+within a single muscle is useful to provide a clearer understanding of how the CNS controls motor unit activity
+within a muscle during a range of motor tasks. However,
+there have been few studies into how the CNS controls
+the muscle segments of individual muscles constituting a
+muscle group around a particular joint. We do not as yet
+understand how the muscle segments of individual muscles,
+within a muscle group, are coordinated together to produce
+motor tasks or how that coordination is aﬀected by factors
+such as movement direction and moment arm.
+Therefore, the aim of the present study was to determine
+how the muscle segments of individual shoulder muscles
+were coordinated together to produce isometric force
+impulses around the shoulder joint and how that coordina-
+
+tion was inﬂuenced by movement direction, mechanical
+line of action and moment arm. This investigation compared the activation of 19 muscle segments within three
+superﬁcial shoulder muscles (Pectoralis Major, Deltoid
+and Latissimus Dorsi) during the execution of rapid (e.g.
+400 ms time to peak) isometric force impulses in four diﬀerent movement directions (shoulder-ﬂexion, -extension,
+-abduction and -adduction). Our intention was to understand how individual muscle segments were coordinated
+not only within a single muscle, but across a group of muscles that controlled a single joint.
+2. Methods
+2.1. Procedures
+Twenty male subjects (mean age 22 years; range 18–30
+years) with no known history of shoulder pathologies, volunteered to participate in this experiment.
+The subjects sat in an adjustable dental chair within a
+wire cage with their extended right upper limb positioned
+snugly within an arm cast (Fig. 1). The arm cast was immobilised by attachment to the wire cage to permit the subjects to perform a series of isometric shoulder joint tasks.
+The arm cast, so ﬁtted, ensured that the right upper limb
+was ﬁxed securely in space and did not move, other than
+due to unavoidable compression of its soft tissues, during
+any of the isometric motor tasks investigated.
+Each subject performed four isometric tasks; shoulderabduction, -adduction, -ﬂexion and -extension, at 75% of
+MVC, a movement time (MT) approximating 400 ms and
+with an inter-trial period of at least 30 s. Each task was performed with the right upper limb secured in 20 of abduction in the coronal plane with subject feedback on
+movement accuracy being provided by an oscilloscope.
+Ten trials were recorded from each isometric movement
+task. Following an auditory trigger signal, each subject was
+
+Fig. 1. The experimental setup. Depicted is one of the subjects seated in the experimental chair with the arm cast set at 20 of abduction in the frontal
+plane. In this position subjects performed the static tasks of shoulder joint ﬂexion, extension, abduction and adduction.
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+asked to match an electronically generated force–time
+curve on an oscilloscope which provided the subject with
+feedback on movement direction, movement speed and
+the force of contraction. The order in which the trials were
+performed was randomised to minimise muscular fatigue
+and order eﬀects. To permit normalisation of the intensity
+data, three MVC contractions were recorded for each
+movement direction at the beginning of the experiment.
+The MVC contractions were recorded with an inter-trail
+interval of 3 min.
+2.2. Force recordings
+Two load cells, connecting the arm cast to the wire cage,
+recorded the isometric force produced by the subjects in the
+
+59
+
+coronal (abduction and adduction) and the sagittal (ﬂexion
+and extension) planes. The output of each load cell was
+ampliﬁed by a DC ampliﬁer.
+2.3. Electromyographic recordings
+Nineteen miniature gold bipolar surface electrodes
+(6.5 mm inter-electrode distance; 1.6 mm active plates)
+were located over the muscle segments of the three shoulder muscles investigated using anatomical landmarks
+derived through cadaveric dissection (Fig. 2). The anatomical criteria used to identify muscle segments within each of
+the three muscles may be found in Wickham [23] and Wickham et al. [25]. In short these included, distinctive origins/
+insertions, architectural diﬀerences (strap vs. pennate
+
+Fig. 2. Muscle segments of Pectoralis Major (P), the Deltoid (D) and the Latissimus Dorsi (L). ‘‘d’’ indicates bipolar surface electrode site. Note that in
+this view segment L6 of the Latissimus Dorsi lies anterior to segment L5. Muscle segments were identiﬁed by obvious anatomical segmentation (e.g.
+Deltoid) or by division of relatively homogenous muscle tissue (e.g. L1 and L2 of Latissimus Dorsi).
+
+60
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+ﬁbered), intramuscular fascial thickenings and >10 diﬀerence in lines of action between adjacent segments. One or
+more of these criteria needed to be present. In all 19 bipolar
+surface electrodes were applied to each subject; seven over
+the Deltoid and six each over the Pectoralis Major and the
+Latissimus Dorsi (Fig. 1).
+Electrode gel was injected into the electrode wells by
+utilising a syringe coupled to a 1 mm cannula. The surface
+electrodes were secured to the subject by double-sided tape
+after the skin had been shaved, abraded and washed with
+alcohol to reduce skin resistance. Reference surface electrodes (3M paediatric electrodes) were positioned over
+the acromion, clavicle and the anterior superior iliac spine.
+The 19 bipolar surface electrodes and their reference electrodes were connected to diﬀerential preampliﬁers and
+HUMTEC 100 EMG ampliﬁers (input impedance of
+1 · 1013 X, CMRR of 110 db, signal to noise ratio of
+1000:1, 1000k gain). The raw EMG signals were ampliﬁed
+and ﬁltered (10 Hz high pass and 1 kHz low pass; Butterworth ﬁlters) prior to storage.
+The isometric force impulse and the raw EMG waveforms were stored on an IBM compatible microcomputer
+after A–D conversion at 1 kHz. A 2000 ms recording period, commencing at least 200 ms before the beginning of
+the each motor task, was recorded for each trial.
+2.4. Data analysis
+Data analysis of the EMG waveforms utilised a digital
+signal processing (DSP) package for determinations of
+muscle segment contraction intensity and timing (Fig. 3).
+
+This program permitted the raw EMG signals to be processed (rectiﬁed, low passed, high passed, etc.) prior to
+analysis.
+2.5. Timing analysis
+Firstly, the time of force onset and the timing of force
+peak were determined with the temporal features of muscle
+segment activation determined in relation to these values
+(Fig. 3).
+To determine the timing of each muscle segment, the
+raw EMG waveforms were rectiﬁed and smoothed with a
+20 Hz low pass ﬁlter (Fig. 3). Threshold detectors (10%
+peak amplitude), combined with visual analysis, were used
+to locate the onset (ON), peak (PEAK) and end (OFF) of
+activity within each muscle segment (Fig. 3). From this
+data the duration of segmental activation could also be
+determined. ON and OFF were determined in relation to
+the beginning of the isometric force onset while PEAK
+was measured in relation to the timing of peak isometric
+force (Fig. 3).
+2.6. Intensity analysis
+Each EMG waveform, representing the activity of a segment within a particular trial was integrated to determine
+the intensity of muscle segment contraction. The EMG
+waveforms were full wave rectiﬁed and then integrated
+(10 ms bins) to determine the muscle segment’s intensity
+of activation or discharge rate (DR: mVms/ms). The discharge rate was the average intensity of motor unit con-
+
+Fig. 3. The analysis screen window that was used to locate the temporal and consequently the intensity parameters of the EMG signals. The top window
+shows a representative raw EMG signal with its 20 Hz linear envelope displayed in the middle window. The middle window also displays the threshold
+detector set at 10% of peak segmental intensity (horizontal line) that was used to locate the on/oﬀ positions of the EMG signals. Visual detection of the
+signal was used when there was a low signal to noise ratio and the threshold detector could not determine an appropriate on/oﬀ location. The force record
+from the 100 kg prime load cell is displayed in the bottom window. The duration of each burst was integrated (time reset; 1 ms bins) to give a value of
+average V/ms (total V ms divided by duration). Representative data from one subject (segment D1) during a 75% MVC shoulder joint ﬂexion task.
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+traction throughout the muscle segments period of activation. This value was then normalised against the discharge
+rate found during the MVC contractions associated with
+each particular movement direction.
+2.7. Biomechanical analysis
+Three-dimensional cartesian coordinates of each of the
+19 muscle segments were determined through use of a vertical milling machine. This sort of machine, which is commonly used in engineering workshops for shaping metal
+very accurately (to within 0.01 mm), was considered more
+than adequate for our biomechanical analysis. By securing
+a cadaver (bisected at the waist) to a specially designed
+frame in front of the milling machine, 3D coordinates of
+each muscle segment and the axis of rotation of the shoulder joint were determined (Fig. 4). This was made possible
+by securing custom made pointers to the mill vice and then
+manipulating the milling machine X, Y and Z mill slides to
+approximate the pointers at each segmental attachment
+point. A detailed description of the utilisation of the vertical milling machine may be found in Wickham et al. [25].
+AutoCAD was utilised to graphically represent the biomechanical relationships (e.g. mechanical lines of action)
+between each of the muscle segments and the axis of shoulder joint rotation. In addition, moment arms (ma) were
+determined for each individual segment for both shoulder
+abduction/adduction and ﬂexion/extension.
+2.8. Functional classiﬁcations of muscle segments
+The functional classiﬁcations of each muscle segment
+were simpliﬁed from those previously proposed by Wickham and Brown [24]. In the present study, functional classiﬁcations of muscle segments were applied as followed:
+
+61
+
+(a) Prime Mover segment: A muscle segment which was
+activated ﬁrst and had an agonist moment arm for
+the intended motor task. Prime mover segments had
+muscle ﬁbres with mechanical lines of action similar,
+or identical to, the direction of the intended joint
+motion.
+(b) Synergist segment: A muscle segment, with an agonist
+muscle arm, which was activated signiﬁcantly
+(p < 0.05) later than the prime mover segment/s.
+Often, the synergist segments had mechanical lines
+of action divergent away from the prime mover segments and the intended movement direction.
+(c) Antagonist segment: A muscle segment with an antagonist moment arm which was activated with, or signiﬁcantly (p < 0.05) after, the prime mover segment/
+s. In all cases, antagonist segments had mechanical
+lines of action and moment arms that opposed the
+direction of intended joint movement.
+The functional classiﬁcation of a muscle segment was
+determined after review of all muscles segments’ contributions, from the three muscles investigated, to the motor
+task. Therefore particular functional classiﬁcations (e.g.
+prime mover segment) for a given motor task may be
+applied to the muscle segments of one or more muscles.
+2.9. Statistical evaluations
+Repeated measures analysis of variance and Student
+Neumann Keuls techniques were used to evaluate the data.
+Pearson’s correlation coeﬃcients were used to determine
+the relationship between the timing of activity in muscle
+segments of adjacent muscles. Statistical evaluations were
+designed to determine whether the timing and contraction
+intensity of muscle segment activity varied signiﬁcantly:
+(a) within each individual muscle and (b) across all three
+muscles investigated. The level of signiﬁcance was set at
+(p < 0.05).
+3. Results
+3.1. Biomechanical data
+
+Fig. 4. A composite representation (AutoCad) of the lines of action to the
+humerus for each segment of the Pectoralis Major (P), the Deltoid (D) and
+the Latissimus Dorsi (L). Coronal view with the upper limb abducted to
+20 in the coronal plane. Representative data from one cadaver.
+
+Table 1 provides a biomechanical analysis of each of the
+19 muscle segments derived from one representative cadaver. Note that the largest muscle segment cross-sectional
+areas were found in segments P1 and P2 (clavicular head)
+of the Pectoralis Major, segment D3 (middle head) of the
+Deltoid and segment L2 (upper ﬁbres) of Latissimus Dorsi.
+Within both the Deltoid and the Latissimus Dorsi, the
+‘‘stronger’’ muscle segments were found towards the middle of the muscle. In contrast, the upper segments (clavicular head) of the Pectoralis Major had the greatest force
+generation potential.
+Table 2 illustrates the moment arms for each muscle segment derived for both ﬂexion/extension and abduction/
+adduction of the shoulder joint. All muscle segments of
+
+62
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Table 1
+Anthropometric data from one cadaver
+Volume (cm3)
+
+Muscle length (cm)
+
+CSA (cm2)
+
+% of total muscle mass
+
+Adjusted CSA (cm2)
+
+Force (N)
+
+P1
+P2
+P3
+P4
+P5
+P6
+
+36.3
+50.8
+27.3
+33.9
+35.5
+26.6
+
+14.9
+17.1
+17.5
+19.4
+19.2
+20.3
+
+2.4
+3.0
+1.6
+1.7
+1.8
+1.3
+
+20.5
+25.1
+13.2
+14.7
+15.6
+11.0
+
+3.1
+3.8
+2.0
+2.2
+2.3
+1.7
+
+91.9
+112.6
+59.1
+65.8
+69.8
+49.4
+
+L1
+L2
+L3
+L4
+L5
+L6
+
+23.9
+42.9
+41.5
+44.4
+47.3
+26.7
+
+19.2
+23.1
+23.9
+25.6
+28.3
+22.1
+
+1.2
+1.9
+1.7
+1.7
+1.7
+1.2
+
+13.2
+19.7
+18.3
+18.3
+17.7
+12.7
+
+1.2
+1.8
+1.7
+1.7
+1.6
+1.2
+
+36.6
+54.6
+50.7
+50.7
+49.1
+35.2
+
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+
+55.3
+47.5
+62.1
+59.3
+42.6
+18.9
+26.7
+
+15.6
+14.6
+12.4
+14
+12.1
+11
+13.4
+
+3.5
+3.3
+5.0
+4.2
+3.5
+1.7
+2.0
+
+15.2
+14.0
+21.5
+18.2
+15.1
+7.4
+8.5
+
+4.2
+3.9
+6.0
+5.0
+4.2
+2.0
+2.4
+
+126.1
+115.8
+178.6
+151.2
+125.6
+61.4
+71.0
+
+The volume was calculated by the mass (g) divided by the density (g/cm3). The muscle length did not include any tendinous components. The volume (cm3)
+divided by the muscle length (cm) was used to calculate CSA. The percentage of total muscle mass (% of total muscle) column refers to the cross-sectional
+area (CSA in cm2) column with the segment now expressed as a percentage of the total muscle mass for that muscle. The adjusted CSA (cm2) column has
+been obtained by dividing a representative ﬁgure (cm2) from the literature [22], for the particular muscle, by the percentage of total muscle mass obtained
+in this study. The above study used 29 deltoid, 16 Pectoralis Major and 18 Latissimus Dorsi specimens. The average of these values was used for each
+muscle. The size of the cadaver used in this study approximated values obtained by other authors (see text). The force data was obtained by multiplying the
+adjusted CSA (cm2) by a constant of 30 N [4].
+
+Table 2
+Segmental moment arms
+Segment
+
+P1
+P2
+P3
+P4
+P5
+P6
+
+Moment arms at 20 abduction in a sagittal plane
+
+Moment arms at 20 abduction in a frontal plane
+
+Flexor
+
+Abductor
+
+20.5 (1.8)
+53.3 (4.2)
+49.7 (4.1)
+32.2 (2.4)
+12.1 (1.1)
+6.1 (0.7)
+
+L1
+L2
+L3
+L4
+L5
+L6
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+
+Extensor
+
+Adductor
+38.5 (3.3)
+56.4 (5.6)
+52.6 (5.1)
+55.6 (5.9)
+43.9 (2.1)
+41.6 (1.4)
+
+59.7 (4.8)
+54.4 (4.2)
+48.5 (3.8)
+30.6 (2.5)
+20.9 (1.9)
+15.8 (1.5)
+17.7 (1.6)
+23.7 (2.2)
+8.3 (0.8)
+35.5 (3.1)
+45.9 (3.8)
+50.4 (4.1)
+62.9 (5.9)
+
+57.3 (4.9)
+52.1 (4.8)
+45.9 (3.5)
+35.5 (2.2)
+30.8 (1.6)
+27.8 (1.1)
+2.0 (1.5)
+17.5 (0.3)
+35.4 (1.4)
+30.1 (0.7)
+16.9 (0.3)
+8.2 (0.3)
+10.5 (1.2)
+
+The moment arm data is given in millimetres with segment actions also extrapolated and labeled as either shoulder joint ﬂexors/extensors (anterior or
+posterior to the joint centre respectively) and/or abductors/adductors (superior or inferior to the joint centre respectively). The moment arm data has been
+determined from both frontal (abductor and adductor) and sagittal (ﬂexor and extensor) plane views. The axis of rotation of the shoulder joint was
+considered as a ﬁxed centre of rotation located in the middle of the humeral head with this position being used in similar experiments [8]. The coordinates
+for each segmental attachment point gathered from the milling machine was put into AUTOCAD software were moment arms were calculated. Standard
+deviations are in brackets. Grand mean data from 20 subjects.
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+the Pectoralis Major were found to have both shoulder
+ﬂexion and shoulder adduction moment arms. Similarly,
+all muscle segments of the Latissimus Dorsi were shown
+to have both shoulder extension and shoulder adduction
+moment arms. In contrast, the muscle segments of the Deltoid were found to have moment arms for all four movement directions; segments D1–D3 (anterior and middle
+heads) had shoulder ﬂexion moment arms while segments
+D4–D7 (posterior head) had shoulder extension moment
+arms. Abductor moment arms were associated with
+segments D1–D6 while a single segment, D7, was found
+to have a shoulder adductor moment arm.
+
+63
+
+Segment
+
+P6
+P5
+P4
+P3
+P2
+P1
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+
+3.2. Shoulder abduction
+3.2.1. Timing of muscle segment activation
+To produce an isometric shoulder abduction impulse,
+myoelectric activity was found only within the muscle segments of the Deltoid (Figs. 5 and 6); all muscle segments of
+Pectoralis Major and Latissimus Dorsi were myoelectrically silent (<10% MVC activity) during this task. The
+mean data (Table 3) indicated that the Deltoid’s middle
+segments, D3 and D4, were activated ﬁrst more than
+40 ms before the initial rise of the force impulse, with adjacent muscle segments being activated successively later
+(p < 0.05). The postero-medial segment D7 was activated
+last some 34 ms after the initial rise of the force impulse.
+The timing of peak myoelectric activity was identical in
+segments D1–D6 occurring, on average, some 74 ms before
+the peak of the force impulse (Fig. 5). In contrast, the peak
+activation of the antagonist segment D7 occurred signiﬁcantly (p < 0.05) later at 26 ms before the peak of the force
+impulse (Table 3).
+The duration of muscle segment activation within the
+Deltoid was signiﬁcantly (p < 0.05) longer in the muscle’s
+middle segments (D2–D5), those anatomically closer to
+the most eﬃcient mechanical line of action for shoulder
+abduction, than its more peripheral obliquely orientated
+muscle segments (D1, D6 and D7) (Table 3). In all
+segments the duration of activation was longer than
+movement time (MT = 408 ms) (Fig. 5).
+3.2.2. Intensity of muscle segment activation
+As seen in Fig. 6 and Table 3, the intensity (%MVC) of
+Deltoid segment activation was signiﬁcantly (p < 0.05)
+higher in the Deltoid’s middle segments (D2–D5) when
+compared to the muscles more peripheral muscle segments
+(D1, D6 and D7).
+3.3. Shoulder adduction
+3.3.1. Timing of muscle segment activation
+The shoulder adduction task elicited segmental activity
+within all three muscles investigated although this activity
+was conﬁned to only the two postero-medial segments
+(D6 and D7) of the Deltoid (Figs. 7 and 8).
+
+L1
+L2
+L3
+L4
+L5
+L6
+% MVC
+
+75
+50
+25
+
+-100
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+Time (ms)
+Fig. 5. Shoulder abduction. Timing of muscle segment activation.
+P = Pectoralis Major; D = Deltoid; L = Latissimus Dorsi. Vertical dotted
+lines indicate the beginning (FcON) and the peak (FcPEAK) of the
+isometric force impulse. Note the waves of segment activation spreading
+from D3 to more medial segments. m = peak of myoelectric activity in
+that segment, which contrasted with the myoelectric silence seen in all
+segments of the Pectoralis Major and the Latissimus Dorsi. Group mean
+data.
+
+As seen in Table 4, the adduction force impulse was initiated by a broad activation of all muscle segments within
+Latissimus Dorsi (L1–L6) followed signiﬁcantly later
+(p < 0.05) by the lower muscle segments of the Pectoralis
+Major (P4–P6). The mean data indicated that segments
+L1–L6 and P4–P6 were all activated before the initial rise
+of the force impulse (FcON) (Table 4). There followed a
+later (p < 0.05) activation of the upper ﬁbres of the Pectoralis Major (P1–P3), along with the D6 segment of the Deltoid, after the initial rise of the force impulse. In contrast,
+segment D7 of the Deltoid had a signiﬁcantly (p < 0.05)
+earlier activation than segment D6 just 7 ms before FcON
+(Table 4).
+Peak myoelectric activity occurred, in all muscle segments, before the peak of the force impulse (FcPEAK).
+However, it was found that segments L2, L3, L4 and L6
+of the Latissimus Dorsi reached their highest myoelectric
+activity signiﬁcantly (p < 0.05) earlier (approximately
+
+64
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Fig. 6. Shoulder abduction. Intensity of muscle segment contraction in Latissimus Dorsi (L1–L6), Deltoid (D1–D7) and Pectoralis Major (P1–P7).
+Diagram based on group mean data. Note that muscle segment activity is limited to the Deltoid muscle only and more intense in the middle (adductor)
+segments of the muscle.
+
+Table 3
+Shoulder abduction; timing (ms) and intensity (%MVC)
+On (ms)
+x
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+
+s.d.
+04*
+35*
+53
+42
+24*
+05*
+34*
+
+26
+19
+19
+23
+24
+21
+26
+
+Peak (ms)
+
+Duration
+(ms)
+
+x
+
+s.d.
+
+x
+
+43
+58
+37
+31
+31
+41
+66
+
+554*
+
+68
+85
+82
+81
+59
+66
+26*
+
+617
+636
+657
+624
+560*
+528*
+
+Intensity
+(%MVC)
+s.d.
+
+x
+
+s.d.
+
+96
+87
+76
+96
+81
+84
+70
+
+38*
+
+24
+33
+17
+20
+23
+30
+30
+
+83
+87
+88
+73
+58*
+51*
+
+Mean and standard deviations. Signiﬁcant (p < 0.05) diﬀerence: *to segment D3. Movement time (FcOn to FcPeak) of 408 ms.
+
+117 ms) than all other muscle segments (approximately
+65 ms) investigated (Table 4).
+The duration of muscle segment activation was found to
+be longest in segments L1–L6, D7 and P3–P6 (approximately 584 ms). Segments P1, P2 and D6 were all found
+to have signiﬁcantly (p < 0.05) shorter periods of activation
+(approximately 495 ms) during this task (Table 4). All
+active muscle segments had periods of activity longer than
+adduction movement time of 390 ms (Table 4).
+3.3.2. Intensity of muscle segment activation
+The intensities of muscle segment activation (%MVC)
+were similar throughout the muscle segments of Latissimus
+Dorsi and the lower segments of the Pectoralis Major
+(Table 4). All muscle segments of Latissimus Dorsi (L1–
+L6), and the lower segments of Pectoralis Major (P4–P6)
+had signiﬁcantly (p < 0.05) higher intensities of activation
+(approximately 64% MVC) than the other activated muscle
+segments (approximately 34% MVC) (Table 4 and Fig. 8).
+
+3.3.3. The sequence of muscle segment activation
+Correlation of muscle segment activation times during
+the adduction motor task (Fig. 9) indicated that each muscle segment, within the three muscles investigated, was activated in a sequence that ignored anatomical boundaries
+between adjacent muscles. As seen in Fig. 9, the CNS produced three waves of muscle segment activation (sequential
+activation of muscle segments) during the adduction motor
+task. Two muscle segment activation waves, centred on
+segment L3, progressively activated the muscle segments
+of Latissimus Dorsi as well as the postero-medial segments
+of the Deltoid. The other wave of muscle segment activation began within segments P5 and P6 (lower ﬁbres) and
+then progressively activated higher muscle segments of
+the Pectoralis Major. All three muscle segment activation
+waves were associated with high correlation coeﬃcients
+(R2) of between 0.88 and 0.94 (Fig. 9).
+3.4. Shoulder ﬂexion
+3.4.1. Timing of muscle segment activation
+The shoulder ﬂexion task was accomplished by widespread activation of the Pectoralis Major (P1–P6), the anterior four segments of the Deltoid (D1–D4) and only one
+segment (L1) of the antagonist Latissimus Dorsi
+(Fig. 10). The task was initiated by simultaneous activation
+of four adjacent muscle segments on the anterior aspect of
+the shoulder; P1 and P2 (clavicular head) with D1 and D2
+(anterior head) (Fig. 10). A signiﬁcantly (p < 0.05) later
+activation occurred in segments P3–P6, D3, D4 and L1
+(Table 5). The remaining segments (D5–D7; L2–L6) of
+the Deltoid and the Latissimus Dorsi respectively remained
+inactive during this task (Fig. 11).
+All active muscle segments across the three muscle investigated, except segment P4, reached their maximum inten-
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+65
+
+MVC) than muscle segments (approximately 29% MVC)
+with later activation times.
+3.5. Shoulder extension
+3.5.1. Timing of muscle segment activation
+The results for shoulder extension were almost the mirror image of those for shoulder ﬂexion (Figs. 12 and 13).
+Shoulder extension was achieved through activation of
+the Latissimus Dorsi (L1–L6), the posterior ﬁve segments
+of the Deltoid (D3–D7), and the P3 segment of the Pectoralis Major (Fig. 12). The extension force impulse was initiated by synchronous activation of the upper muscle
+segments of Latissimus Dorsi (L1–L4) in conjunction with
+the posterior muscle segments of the Deltoid (D5 and D7)
+and segment P3 of the antagonist Pectoralis Major muscle.
+Other muscle segments were either activated signiﬁcantly
+(p < 0.05) later (D3, D4, D6, L5, L6,) or not activated at
+all (P1, P2, P4–P6; D1 and D2) (Table 6).
+The timing of peak muscle activation was reached in all
+muscle segments before the peak of the force impulse
+(FcPEAK) (Table 6). Note that segments L3, L6 and P3
+had the earliest (p < 0.05) myoelectric peak, approximately
+100 ms prior to FcPK compared to between 60 ms and
+70 ms prior to FcPK in the other active segments (L1,
+L2, L4, L5, D3–D7) (Fig. 13).
+All active muscle segments within the three investigated
+muscles, except segment D3, had similar durations of activation (approximately 630 ms). Segment D3 had a signiﬁcantly (p < 0.05) shorter duration of activation
+(approximately 574 ms) although all active muscle segments were activated longer than movement time
+(MT = 430 ms) (Table 6).
+Fig. 7. Shoulder adduction. Timing of muscle segment activation.
+P = Pectoralis Major; D = Deltoid; L = Latissimus Dorsi. Vertical dotted
+lines indicate the beginning (FcON) and the peak (FcPEAK) of the
+isometric force impulse. m = peak of myoelectric activity in that segment.
+Note the sequential onset of segment activation, the similar timing of
+segmental peak activity and the myoelectric silence within the more
+anterior segments of the Deltoid. Group mean data.
+
+3.5.2. Intensity of muscle segment activation
+As seen in Table 6, segments L2 and L3 along with segments D5–D7 had signiﬁcantly (p < 0.05) higher intensities
+of muscle activation (approximately 73% MVC) when
+compared with other (L1, L4–L6, D3, D4 and P3) active
+muscle segments (approximately 42% MVC).
+4. Discussion
+
+sity (peak) simultaneously some 73 ms before the peak of
+the ﬂexion force impulse (FcPK). Segment P4 had a significantly (p < 0.05) later peak activation approximately
+46 ms before FcPK (Table 5).
+The duration of muscle segment activation was shown
+to be signiﬁcantly (p < 0.05) shorter in segments D4
+(513 ms) and L1 (349 ms) than in the other activated muscle segments (585 ms). All segments, except the antagonist
+L1, had durations of activity longer than movement time
+(MT = 408 ms) (Table 5).
+3.4.2. Intensity of muscle segment activation
+As seen in Table 5, two of the four initially activated
+muscle segments (D1 and D2) had signiﬁcantly (p < 0.05)
+higher intensities of contraction (approximately 55%
+
+4.1. Overview
+The aim of the present study was to determine how 19
+muscle segments within three adjacent superﬁcial shoulder
+muscles, the Pectoralis Major, the Deltoid and the Latissimus Dorsi, were controlled by the CNS during the production of four rapid isometric shoulder tasks (abduction,
+adduction, ﬂexion and extension).
+Of particular interest was to understand how the timing
+and intensity of muscle segment activation within and
+across the three superﬁcial shoulder muscles was inﬂuenced
+by the muscle segments mechanical line of action (joint
+movement most likely from approximation of a segment’s
+origin and insertion) and its moment arm. We wished to
+
+66
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Fig. 8. Shoulder adduction. Intensity of muscle segment contraction in Latissimus Dorsi (L1–L6), Deltoid (D1–D7) and Pectoralis Major (P1–P7).
+Diagram based on group mean data. Note that muscle segment activity included the postero-medial segments of the Deltoid – a muscle normally described
+as an abductor of the shoulder joint.
+
+Table 4
+Shoulder adduction; timing (ms) and intensity (%MVC)
+On (ms)
+x
+
+Peak (ms)
+s.d.
+
+x
+
+Duration (ms)
+
+Intensity (%MVC)
+
+s.d.
+
+x
+
+s.d.
+
+x
+
+s.d.
+
+P6
+P5
+P4
+P3
+P2
+P1
+
+24 m
+25 m
+15 m
+11 m*
+21 m*
+26 m*
+
+37
+26
+23
+36
+48
+34
+
+61 m
+72 m
+58 m
+53 m
+56 m
+50 m
+
+40
+51
+51
+31
+34
+47
+
+587
+588
+579
+540
+511 m*
+498 m*
+
+119
+153
+112
+107
+100
+83
+
+62
+66
+56
+41 m
+34 m*
+33 m*
+
+15
+20
+19
+18
+18
+26
+
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+
+22 m#
+7m
+
+46
+28
+
+62 m
+70 m
+
+46
+35
+
+477 m
+536
+
+133
+89
+
+28 m
+47 m
+
+18
+36
+
+L1
+L2
+L3
+L4
+L5
+L6
+
+43
+53
+66
+58
+48
+46
+
+23
+32
+30
+25
+28
+25
+
+87 m
+100
+132
+128
+86 m
+109
+
+53
+52
+56
+75
+46
+35
+
+612
+601
+600
+594
+594
+596
+
+109
+99
+112
+123
+130
+134
+
+55
+56
+79
+67
+64
+70
+
+34
+22
+39
+24
+25
+31
+
+Mean and standard deviations. Within muscle analysis: signiﬁcant diﬀerences (p < 0.05): * to segment P5; # to segment D7;  to segment L3. Between
+muscle analysis: signiﬁcant diﬀerence (p < 0.05) : m to segment L3. Movement time (FcOn to FcPeak) of 390 ms.
+
+determine whether functional classiﬁcation of muscle segments as ‘‘prime movers’’, ‘‘synergists’’ and ‘‘antagonists’’,
+as described previously within the Deltoid muscle [24], was
+more widely applicable to muscle segments within a group
+of active muscles.
+In general, the results of this investigation indicated that
+the timing and intensity of each muscle segment’s activation was often determined by the segment’s function
+
+through its mechanical line of action, in relation to the
+intended movement direction, and its moment arm. The
+results support the hypothesis that the function of each
+muscle segment, to initiate the motor task (prime mover),
+to support the motor task’s goal (synergist) or to act in
+opposition to the motor task (antagonist), determined the
+muscle segments onset, duration of activity and intensity
+of activation. Furthermore, our results clearly showed that
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+67
+
+Segment
+
+FcON
+
+L6
+L5
+
+R2 = .94
+
+L4
+L3
+L2
+
+R2 = .94
+
+L1
+D7
+D6
+D5
+D4
+D3
+P1
+P2
+P3
+P4
+
+R2 = .88
+
+P5
+P6
+
+-75
+
+-50
+
+-25
+
+0
+
+25
+
+50
+
+Time (ms)
+Fig. 9. Onset (ON) of muscle segment activation within the Latissimus
+Dorsi (L), Deltoid (D) and the Pectoralis Major (P) during shoulder
+adduction. Note the waves of muscle segment activation sweeping out
+from segment L3 both superiorly to the Deltoid (L3–D6) and inferiorly
+(L3–L6). Within the Pectoralis Major, the excitation wave passes from
+inferior (P6) to superior (P1) segments. FcOn = initial rise of the isometric
+force impulse. Group mean and SEM data. High correlation coeﬃcients
+(R2) characterised the waves of segment activation.
+
+the activity of muscle segments within adjacent, and more
+distant muscles, are closely coordinated and, in agreement
+with Kuechle et al. [12], that the functional classiﬁcations
+of muscle segments were ﬂuid and may change from one
+motor task to the next. Finally, our results support the contention [2,19,24] that individual skeletal muscles are composed of discrete sub-volumes (segments) of muscle tissue
+which may be independently controlled by the CNS to produce the desired motor outcome.
+4.2. Prime mover, synergist and antagonist muscle segments
+Initially we have shown that within the three superﬁcial
+shoulder muscles investigated, there were muscle segments
+which had a range of mechanical lines of action and
+moment arms related to the intended movement direction.
+Those muscle segments which were activated ﬁrst and
+which tended to have higher contraction intensities and
+longer periods of activation were termed the prime mover
+
+Fig. 10. Shoulder ﬂexion. Timing of muscle segment activation. P = Pectoralis Major; D = Deltoid; L = Latissimus Dorsi. Vertical dotted lines
+indicate the beginning (FcON) and the peak (FcPEAK) of the isometric
+force impulse. m = peak of myoelectric activity in that segment. Note the
+sequential activation of segments within the Pectoralis major and the
+(anterior and middle) Deltoid, and the myoelectric silence throughout
+most of the Latissimus Dorsi and the posterior segments of the Deltoid.
+Group mean data.
+
+segments [24]. These muscle segments were found to have
+large agonist moment arms and favourable mechanical
+lines of action for the intended motor task. The early activation of the prime mover segments to initiate production
+of the isometric force impulses is consistent with the ﬁndings of Flanders and Soechting [6] who have reported that
+the ﬁrst ‘‘peak’’ of muscle activation was always close to
+the mechanical line of action of the muscle.
+Muscle segments with more divergent mechanical lines
+of actions or smaller agonist moment arms than the prime
+mover segments, the synergist segments, were generally
+activated next with similar, or smaller, durations and intensities of activation. Most agonist muscles involved in each
+motor task had both prime mover and synergist muscle
+segments the exception of the Latissimus Dorsi during
+shoulder adduction whose six muscle segments (L1–L6)
+
+68
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Table 5
+Shoulder ﬂexion; timing (ms) and intensity (%MVC)
+On (ms)
+x
+
+Peak (ms)
+s.d.
+
+3 m*
+
+x
+
+Duration
+(ms)
+s.d.
+
+x
+
+Intensity
+(%MVC)
+s.d.
+
+x
+
+s.d.
+
+27 .*
+
+2 m*
+4 m*
+11 m*
+38
+47
+
+44
+36
+32
+37
+32
+26
+
+53
+59
+46 c
+80
+88
+75
+
+29
+49
+41
+52
+49
+34
+
+596
+602
+576
+567
+576
+625
+
+88
+86
+82
+99
+136
+123
+
+31 .*
+27 .*
+24 .*
+33 .*
+42 .
+
+16
+19
+16
+13
+17
+22
+
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+
+27
+29
+11 m#
+28 m#
+
+23
+23
+28
+23
+
+70
+75
+82
+65
+
+29
+33
+38
+25
+
+586
+594
+548
+513 m
+
+126
+125
+130
+96
+
+55
+55
+44 .#
+19 .#
+
+24
+24
+16
+15
+
+L1
+L2
+L3
+L4
+L5
+L6
+
+35 m
+
+20
+
+85
+
+20
+
+349 m
+
+43
+
+11 .
+
+24
+
+P6
+P5
+P4
+P3
+P2
+P1
+
+Mean and standard deviations. Within muscle analysis: signiﬁcant diﬀerences (p < 0.05): * to segment P1; # to segment D2. Between muscle
+analysis: signiﬁcant diﬀerences (p < 0.05) : m to segment P1; c to segment
+P2; . to segment D1. Movement time (FcOn to FcPeak) of 408 ms.
+
+all appeared to have a prime mover function (Fig. 6 and
+Table 4). This notable exception will be discussed further
+below.
+We have also noted in the results that muscle segments
+with antagonist moment arms, whether located within an
+antagonist muscle (e.g. D1–D6 Deltoid during shoulder
+adduction) or as a single segment within an agonist muscle
+(e.g. D7 during shoulder abduction), had characteristic
+periods of activation (Figs. 4, 6, 9 and 11).
+
+In general, antagonist muscle segments tended to have
+delayed onsets, shorter periods of activity and lower contraction intensities than the prime mover segments (e.g.
+D7 in shoulder abduction; D6 during shoulder adduction
+and L1 during shoulder ﬂexion) (Tables 3–5). An exception
+was segment P3 (Pectoralis Major) during shoulder extension which was co-activated with the prime mover segments of the Latissimus Dorsi (Table 6). This was an
+unexpected result given that numerous reports [11,15] of
+‘‘triphasic’’ muscle activation patterns during rapid isometric motor tasks have suggested that the antagonist (Ant)
+muscle burst is always activated after the initial agonist
+(Ag1) period of activation.
+However, the involvement of antagonist muscle segments in these rapid isometric motor tasks is consistent
+with the ﬁndings of Flanders and Soechting [6] who state
+that antagonist muscle activity, in part, is important to
+counteract internal joint forces which may cause tissue
+damage.
+In general these results, obtained from the superﬁcial
+shoulder muscle group, broadly support the previous ﬁndings of Wickham and Brown [24] for the Deltoid muscle.
+These ﬁndings, with notable exceptions to these generalisations, will now be discussed in more detail with reference to
+each movement direction.
+4.3. Inﬂuence of movement direction
+The most simple motor control strategies were employed
+by the CNS during the shoulder abduction task (Table 3).
+Here the middle muscle segments of the Deltoid (D3 and
+D4) were found to have the most favourable mechanical
+lines of action and the greatest moment arms to produce
+shoulder abduction in the coronal plane. Shoulder abduction was initiated by activation of the prime mover seg-
+
+Fig. 11. Shoulder Flexion. Intensity of muscle segment contraction in Latissimus Dorsi (L1–L6), Deltoid (D1–D7) and Pectoralis Major (P1–P7).
+Diagram based on group mean data. Note that the highest intensities of muscle segment contraction were seen in adjacent segments of the Deltoid and the
+Pectoralis Major. Also note the unique antagonist role played by muscle segment L1.
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Fig. 12. Shoulder extension. Timing of muscle segment activation.
+P = Pectoralis Major; D = Deltoid; L = Latissimus Dorsi. Vertical dotted
+lines indicate the beginning (FcON) and the peak (FcPEAK) of the
+isometric force impulse. m = Peak of myoelectric activity in that segment.
+Note that the pattern of muscle segment activity is almost the reverse of
+that seen in shoulder ﬂexion (Fig. 9). Group mean data.
+
+ments D3 and D4. These segments, along with the adjacent
+segments D2 and D5, had the longest periods of activation
+and the highest intensities of contraction within the Deltoid
+muscle. The more peripheral and divergent segments of this
+muscle, D1, D6 and D7, all had later onsets, shorter periods of activation and lower contraction intensities reﬂecting their less favourable mechanical lines of action and
+smaller abduction moment arms (Table 2).
+Interestingly, segment D7 on the postero-medial
+aspect of the Deltoid was found uniquely to have an
+antagonist moment arm for shoulder abduction. Accordingly, its period of activation was very late (e.g. 34 ms
+after FcON), short and of low intensity. Although D7
+was anatomically contingent with segment D6, it is
+clearly seen that the CNS controlled the motor units of
+D7 independently of those within D6. The diﬀerence in
+
+69
+
+moment arms between D7 (antagonist ma = 10.5 mm)
+and D6 (agonist ma = +8.2 mm) for the shoulder abduction task appeared to explain their contrasting periods of
+activity.
+A more complicated and diﬃcult to explain muscle
+segment control strategy was seen during shoulder adduction (Table 4). This motor task involved all three superﬁcial muscles including segments of the Deltoid muscle
+(Fig. 6) – a muscle which Hughes and Kai-Nan [9] had
+previously predicted should have had no activity for this
+motor task.
+Shoulder adduction was initiated by activation of the
+entire Latissimus Dorsi (L1–L6), some 52 ms (group
+mean) before the initial rise of the force–time curve
+(FcON) (Fig. 6). Therefore, all segments of the Latissimus Dorsi could be considered prime mover segments
+although their mechanical lines of action and adduction
+moment arms were variable (Table 1). In contrast, the
+segments of the Pectoralis Major were all activated as
+synergists with the lower ﬁbres (P4–P6) and then the
+upper ﬁbres (P1–P3) being activated in sequence (Table
+4). The utilisation of all segments of the Latissimus
+Dorsi as the prime movers for shoulder adduction, in
+preference to those of the Pectoralis Major, was an unexpected result which was diﬃcult to explain. Both muscles
+have large adductor moment arms (Table 2) and muscle
+segments with eﬀective mechanical lines of action for the
+motor task. Both muscles also insert into the bicipital
+groove [7] and have similar cross-sectional areas (Table
+1). Possibly the more posterior orientation of the Latissimus Dorsi muscle segments aﬀorded biomechanical
+advantages to the CNS in the initiation of this motor
+task. However, further work is required before this result
+can be fully explained.
+During shoulder adduction, all segments of the antagonist Deltoid muscle were myoelectrically silent except
+for segments D6 (antagonist ma = 8 mm) and D7 (agonist ma = +10.5 mm) (Fig. 6 and Table 4). The onset of
+segment D7 activation suggested a synergist function,
+with the lower ﬁbres of the Pectoralis Major (P4–P6),
+to assist production of the adduction force impulse. In
+contrast, segment D6 clearly functioned as an antagonist
+to the motor task. D6 was coactivated with the ﬁbres of
+the Pectoralis Major although only at a very low (28%
+MVC) intensity of activation. Similar ﬁndings were made
+by Flanders and Soechting [6] who noted, in the posterior (and medial) Deltoid during isometric motor tasks,
+that motor units may be directionally tuned in opposite
+movement directions within the same muscle segment.
+Muscle segment function during shoulder ﬂexion and
+shoulder extension appeared as a mirror image. During
+shoulder ﬂexion (Table 5), the clavicular head of Pectoralis
+Major (P1 and P2), along with the anterior head of the Deltoid (D1 and D2), acted as the prime mover segments. All
+four segments had good mechanical lines of action and
+large moment arms for the shoulder ﬂexion task (agonist
+ma = +18 mm to +53 mm). The lower ﬁbres of Pectoralis
+
+70
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+Fig. 13. Shoulder extension. Intensity of muscle segment contraction in Latissimus Dorsi (L1–L6), Deltoid (D1–D7) and Pectoralis Major (P1–P7).
+Diagram based on group mean data. Note the unique role of the antagonist muscle segment P3 during the extension task. Segment activity, in shoulder
+extension, is almost a mirror image of that seen in shoulder ﬂexion (Fig. 10).
+
+Major (P3–P6) and the middle ﬁbres of the Deltoid (D3–
+D4) then acted as synergist segments. These segments all
+had more divergent mechanical lines of action although
+their ﬂexion moment arms were still impressive (e.g., P3
+agonist ma = 50 mm; P4 agonist ma = 32 mm) (Table 2).
+It is interesting to note in this motor task that muscle segments with very large agonist moment arms (e.g. P3 and
+Table 6
+Shoulder extension; timing (ms) and intensity (%MVC)
+On (ms)
+x
+P6
+P5
+P4
+P3
+P2
+P1
+
+Peak (ms)
+s.d.
+
+x
+
+Duration
+(ms)
+
+Intensity
+(%MVC)
+
+s.d.
+
+x
+
+s.d.
+
+x
+
+s.d.
+
+34
+
+19
+
+83
+
+57
+
+629
+
+51
+
+11 m
+
+29
+
+D1
+D2
+D3
+D4
+D5
+D6
+D7
+L1
+
+43 m#
+5m
+25
+14 m
+37
+45
+
+27
+29
+27
+30
+30
+28
+
+45 m
+53 m
+60 m
+79 m
+62 m
+62 m
+
+57
+49
+36
+48
+39
+46
+
+574 c
+622
+641
+595
+637
+670
+
+116
+126
+99
+87
+100
+135
+
+33 m#
+50 m#
+63#
+81
+84
+58 m
+
+10
+17
+14
+25
+30
+22
+
+L2
+L3
+L4
+L5
+L6
+
+39
+49
+28
+7 m
+3 m
+
+27
+31
+25
+45
+39
+
+80 m
+126
+78 m
+61 m
+92
+
+44
+71
+61
+31
+56
+
+633
+664
+624
+608
+612
+
+127
+155
+74
+96
+73
+
+67
+71
+59 m
+42 m
+43 m
+
+19
+31
+13
+20
+15
+
+Mean and standard deviations. Within muscle analysis: signiﬁcant diﬀerences (p < 0.05):  to segment L3; # to segment D7. Between muscle
+analysis: signiﬁcant diﬀerences (p < 0.05): m to segment L3; c to segment
+L1. Movement time (FcOn to FcPeak) of 430 ms.
+
+P4) were not necessarily activated as prime mover segments
+if their mechanical lines of action were too divergent from
+movement direction.
+With an antagonist moment arm of 60 mm, segment
+L1 was the only segment of the Latissimus Dorsi to be
+active during the shoulder ﬂexion task. Its late activation,
+shorter duration of activity and low intensity of activation
+clearly deﬁned this segment’s antagonist role (Table 5).
+The horizontal orientation of its muscle ﬁbres may have
+also produced an optimal ability to oppose the forward
+translatory motion of the humerus during the ﬂexion
+motor task.
+In contrast shoulder extension (Table 6) was initiated by
+the upper ﬁbres of Latissimus Dorsi (L1–L4) and two segments of the Deltoid (D5 and D7) (Fig. 11). Again these
+prime mover segments had good mechanical lines of action
+for shoulder extension and large extension moment arms
+(ma range = +63 mm (D7) to +31 mm (L4)) (Table 2).
+The synergist segments (L5, L6, D6 and D4) were then activated to complete the motor task. Again, these synergist
+segments had more divergent mechanical lines of action
+and generally smaller extension moment arms (ma range = +50 mm to +21 mm).
+Two antagonist muscle segments were activated during
+shoulder extension. Segment D3 of the Deltoid, with an
+antagonist moment arm of 8.3 mm, was activated after
+the prime mover segments. Its late activation, shorter duration of activity and lower intensity of activation (33%
+MVC), clearly reﬂected its antagonist role. In contrast segment P3 of the Pectoralis Major, with an antagonist
+moment arm of 50 mm, had an onset similar to the prime
+mover segments. As seen in Table 6, segment P3 was coactivated with the prime mover segments L1–L4, D5 and
+D7. Its peak intensity and duration of activity (Table 6)
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+71
+
+were also similar to the prime mover segments although its
+intensity of activation was signiﬁcantly (p < 0.05) lower at
+11% of MVC. It is diﬃcult to explain why this particular
+antagonist muscle segment, the only segment of the Pectoralis Major to be activated during shoulder extension,
+should have such an early activation although its horizontal muscle ﬁbre orientation may be implicated. Activation
+of the P3 segment may have been required early to protect
+the anterior shoulder from injury during the vigorous activation (approximately 73% of MVC group mean) of the
+prime mover segments; a role commonly given to antagonist muscle action [6]. If this hypothesis is true, it is evident
+that the CNS has considerable ﬂexibility regarding the timing of antagonist muscle activity during the production of
+motor tasks.
+With regard to the peak of muscle segment activation, it
+is clear that for all muscle segments involved in the four
+motor tasks investigated, maximal motor unit activation
+occurred before the peak of the isometric force–time curve.
+In general, prime mover segments had earlier peak intensities when compared to synergist segments although this
+was not always the case. There was, however, some limited
+evidence to suggest that the peak activation of some antagonist muscle segments was signiﬁcantly (p < 0.05) later
+than the agonist muscle segments (Table 3).
+
+Shoulder adduction was accomplished with the formation of three motor unit task groups. The ﬁrst contained
+all motor units within the Latissimus Dorsi muscle which
+acted together as the prime movers for the motor task. A
+second group was formed by motor units within the lower
+ﬁbres of Pectoralis Major along with the agonist segment
+D7 of the Deltoid. A third group was formed by motor
+units within the upper ﬁbres of the Pectoralis Major along
+with the antagonist D6 segment of the Deltoid. Fig. 8
+clearly shows the three motor unit task groups and conﬁrms that the activation of segments (motor units) within
+each task group was sequential away from muscle segments
+with higher agonist moment arms.
+Two motor unit task groups were formed during shoulder ﬂexion while three were formed during shoulder extension. In both movement tasks, the ﬁrst group contained the
+prime mover segments while the second comprised synergist segments. All motor unit task groups contained motor
+units from a number of muscles. The antagonist segments
+either formed their own motor unit task group (shoulder
+extension) or were distributed either to the ﬁrst (shoulder
+extension) or the second (shoulder ﬂexion) motor unit task
+group.
+
+4.4. Motor unit task groups
+
+The production of muscle force is a product of
+moment arm, muscle size, the muscle’s length tension relationship as well as the timing and intensity of motor unit
+activation; the latter controlled by the CNS [12]. Our
+results support the suggestion that the CNS, through its
+upper and lower motoneurons, has the ﬂexibility to ‘‘ﬁne
+tune’’ and coordinate the timing and intensity of motor
+unit activity both within a single muscle and between
+adjacent and more distant muscles, to meet the intended
+goals of the motor task.
+It has been previously demonstrated, in monkey cortex,
+that pyramidal tract neurons from layer 5 of M1 (the primary motor cortex) directly innervate lower motor neurons
+in layer IX of the spinal cord [20]. These are the motoneurons which have direct control over the activation of a
+muscle’s constituent ﬁbres.
+Given that there is a proven relationship between the
+activity of upper motoneurons within a cortical column,
+and the subsequent EMG activity within an active muscle
+[17], the results of this study may be used to gain further
+insight into the strategies used by the CNS to control voluntary movement.
+Speciﬁcally, our study supports the contention that speciﬁc motor columns within the human M1 (primary motor
+cortex), have the ability to independently control discrete
+subpopulations of motor units within a single skeletal muscle. This has previously only been conﬁrmed in animal
+studies [13,17]. Therefore, our results give further insight
+into the complexity of the task faced by the CNS to control
+each and every muscle involved in even the most simple of
+motor tasks.
+
+It was evident that to produce each of the four movement tasks, motor unit task groups were formed both
+within, and where appropriate, across the three shoulder
+muscles, and then activated (timing and intensity) sequentially to produce the movement task. Motor unit task
+groups may be deﬁned as a group of motor units, from
+within a muscle or across several muscles, which are active
+simultaneously for a particular motor task [14]. It is
+thought that diﬀerences in moment arms, or physiological
+factors such as ﬁbre type, may explain the existence of
+motor unit task groups, and therefore functionally independent muscle segments within muscle [5].
+In the present study, each motor task was accomplished
+through the formation of at least two, and up to four, different motor unit task groups which often comprised
+motor units from adjacent, and more distant, muscles.
+For example, during shoulder abduction two motor unit
+task groups were formed within the Deltoid to achieve
+the motor task. The ﬁrst motor unit task group formed
+included the prime mover segments (D3, D4), a common
+feature in all movement tasks in this study. A second motor
+unit task group was then formed by the remaining synergist
+and antagonist segments (D1, D2, D5, D6 and D7) which
+all had smaller abduction moment arms, or in the case of
+D7, an adduction moment arm. Contrary to the hypothesis
+of Flanders and Soechting [6], there was no evidence to
+suggest that the motor units of the middle (D3) and posterior (D4–D7) Deltoid were tightly coupled during this
+motor task.
+
+4.5. Muscle segment function and the CNS
+
+72
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+
+4.6. Limitations
+Several limitations in the experimental design may have
+inﬂuenced the results.
+Firstly, it should not be concluded that the 19 muscle
+segments identiﬁed in this study represented the ‘‘ultimate’’
+design imposed by the CNS. In some instances (e.g. Latissimus Dorsi), the anatomical borders of each muscle segment were found by simple division of relatively
+homogenous muscle tissue. Even when the muscle segments
+were clearly deﬁned anatomically (e.g. Deltoid), it may be
+possible that each segment could be further subdivided into
+ever smaller functional units. It is not beyond possibility
+that the ‘‘ultimate muscle segment’’ would be represented
+by a single muscle spindle and its associated muscle ﬁbers!
+However, it remains probable that similar ﬁndings, to
+those found here, would have been found if fewer, or more,
+muscle segments had been investigate. The exciting possibility now exists for the application of a multi-electrode
+ﬁne-wire EMG technique, to an in vitro analysis of animal
+muscle, whereby more muscle segments may be investigated and greater clarity provided to their neuromuscular
+control.
+A second limitation was the problem of crosstalk
+between adjacent bipolar electrode pairs. If detectable levels of crosstalk were present, the ability to diﬀerentiate
+between the activity of adjacent muscle segments would
+be compromised. Considerable eﬀort was made to minimize the eﬀects of electrode crosstalk. The bipolar electrodes were speciﬁcally designed to have small active
+plates (1.6 mm in diameter) and inter-electrode distances
+(6.5 mm). This electrode design, using the crosstalk ‘‘rule
+of thumb’’ reported by Basmajian and DeLuca [1], would
+suggest meaningful pickup of muscle ﬁber activity only
+within approximately 6.5 mm of each bipolar electrode
+pair. Adjacent bipolar electrode pairs were generally
+spaced more than 2 cm from each other so as to minimize,
+as much as practicable, electrode crosstalk. In addition,
+regardless of possible electrode crosstalk, the results presented here provide strong evidence of the sequential activation of adjacent muscle segments to control these
+isometric tasks (Fig. 8). It would have been expected that
+high levels of electrode crosstalk would have negated the
+possibility of this result.
+5. Conclusion
+The aim of this study was to determine how 19 muscle
+segments within the Latissimus Dorsi, Deltoid and Pectoralis Major, were controlled by the CNS to produce four
+isometric shoulder motor tasks.
+The results of this investigation have suggested that the
+timing and intensity of each muscle segment’s activation
+were coordinated across muscles and inﬂuenced by the
+muscle segment’s moment arm and its mechanical line of
+action in relation to the intended shoulder movement direction (e.g. ﬂexion, extension, abduction or adduction).
+
+There was also evidence that motor unit task groups were
+formed for individual motor tasks which comprised motor
+units from both adjacent and distant muscles. In addition,
+the results supported the hypothesis that individual muscles
+segments may be functionally classiﬁed as prime mover,
+synergist or antagonist; functional classiﬁcations which
+were generally determined by the muscles segments
+moment arm and/or mechanical line of action.
+Acknowledgements
+The authors wish to thank the University of Wollongong for technical and ﬁnancial support to Dr. Wickham
+during his doctoral studies and to Dr. Brown during his
+sabbatical leave in Germany. Thank you also to Mr. Luke
+Bones and Mr. Daniel Wickham for assistance with preparation of the illustrations and to the reviewers for the
+excellent comments and suggestions. The work described
+in this study was approved by the Human Ethics Committee of the University of Wollongong.
+References
+[1] Basmajian JV, DeLuca C. Muscles alive; their functions revealed by
+electromyography. 5th ed. Baltimore: Williams & Wilkins; 1985.
+[2] Brown JMM, Solomon C, Paton ME. Further evidence of functional
+diﬀerentiation within biceps brachii. Electromyograph Clin Neurophysiol 1993;33:301–9.
+[3] Campbell KM, Norman BA, Biggs L, Blanton PL, Lehr RP.
+Electromyographic investigation of the relative activity among
+four components of the triceps surae. Am J Phys Med
+1973;52(1):30–41.
+[4] Enoka RM. The neuromechanical basis of kinesiology, 2nd ed. In:
+Human kinetics, 1994.
+[5] Ettema GJC, Styles G, Kippers V. The moment arms of 23 muscle
+segments of the upper limb with varying elbow and forearm positions:
+Implications for motor control. Human Movement Sci
+1998;17(2):201–20.
+[6] Flanders M, Soechting JF. Arm muscle activation for static forces in
+three-dimensional space. J Neurophysiol 1990;64(6):1818–37.
+[7] Gray’s Anatomy. The anatomical basis of medicine and surgery.
+Sydney: Churchill Livingstone; 1990.
+[8] Hogfors C, Sigholm G, Herberts P. Biomechanical model of the
+human shoulder – I. Elements. J Biomech 1987;20(2):157–66.
+[9] Hughes RE, Kai-Nan A. Force analysis of rotator cuﬀ muscles. Clin
+Orthopaed Related Res 1996;1(330):75–83.
+[10] Jenkins DB. In: Hollinshead’s functional anatomy of the limbs and
+back. Sydney: W.B. Saunders; 1998.
+[11] Karst GM, Hassan Z. Antagonist muscle activity during forearm
+movements under varying kinematic and loading conditions. Exp
+Brain Res 1987;67:391–401.
+[12] Kuechle DK, Newman SR, Itoi E, Niebur GL, Morrey BF, An K-N.
+The relevance of the moment arm of shoulder muscles with respect to
+axial rotation of the glenohumeral joint in four positions. Clin
+Biomech 2000;15(5):322–9.
+[13] Lemon R. The output map of the primate motor cortex. Trends
+Neurosci 1988;11:501–6, 1989, erratum appears in Trends Neurosci
+Apr;12(4):158..
+[14] Loeb GE. Motorneuron task groups: Coping with kinematic heterogeneity. J Exp Biol 1985;115:137–46.
+[15] MacKinnon CD, Rothwell JC. Time-varying changes in corticospinal
+excitability accompanying the triphasic EMG pattern. J. Physiol.
+1998;506P:114P.
+
+J.M.M. Brown et al. / Journal of Electromyography and Kinesiology 17 (2007) 57–73
+[16] Manueddu Y, Blanc W, Taillard W. Study of the functioning of the
+Gluteus Medius and Maximus: An electromyographic analysis. Ann
+Kinesither 1989;16:193–201.
+[17] Muir RB, Lemon RN. Corticospinal neurons with a special role in
+precision grip. Brain Res 1983;61:312–6.
+[18] Pare EB, Stern JR, Schwartz JM. Functional diﬀerentiation within
+the tensor fascia latae. J Bone Joint Surg A 1981;63(9):239–46.
+[19] Paton ME, Brown JMM. An electromyographic analysis of functional diﬀerentiation in human pectoralis major muscle. J Electromyograph Kinesiol 1994;4(3):161–9.
+[20] Shinoda Y, Yokota J, Futami T. Divergent projection of individual
+corticospinal axons to motoneurons of multiple muscles in the
+monkey. Neurosci Lett 1981;23:7–12.
+[21] Soderberg GL, Dostal WF. Electromyographic study of three parts of
+the gluteus medius muscle during functional activities. Phys Therapy
+1978;58(6):691–6.
+[22] Veeger HEV, VanDerHelm FCT, VanDerWoude LHV, Pronk GM,
+Rozendal RH. Inertia and muscle contraction parameters for
+musculoskeletal modelling of the shoulder mechanism. J Biomech
+1991;24(7):615–29.
+[23] Wickham JB. Muscles within Muscles: The neuromotor activation
+patterns of intramuscular segments. PhD thesis, Department of
+Biomedical Science, University of Wollongong, 2002.
+[24] Wickham JB, Brown JMM. Muscles within muscles: the neuromotor
+control of intra-muscular segments. Eur J Appl Physiol 1998;78:219–25.
+[25] Wickham JB, Brown JMM, McAndrew DJ. Muscles within muscles:
+Anatomical and functional segmentation of selected shoulder joint
+musculature. J Musculoskeletal Res 2004;8(1):57–73.
+Mark Brown has a Doctoral qualiﬁcation from
+the University of Queensland and is currently a
+Senior Lecturer and Assistant Dean at the
+University of Wollongong. He was Head of the
+Department of Biomedical Science between
+1997 and 2001 and is the immediate past Vice
+President (exercise science) of Australia’s professional Exercise Science association (AAESS).
+His research interests include functional segmentation of skeletal muscle and sustainable
+transport.
+
+73
+
+James Wickham received a Bachelor of Sports
+Science (exercise science) from the University
+of New South Wales in 1992 and a Diploma
+of Education (physical education) in 1993
+from the same institution. In 1995 he received
+an Honours Degree from the University of
+Wollongong and a PhD in 2002. Since 1999
+James has been employed as an Anatomy
+Lecturer at La Trobe University in Melbourne. His research interests include using
+electromyography to quantify shoulder muscle
+activation patterns and functional diﬀerentiation within skeletal muscles.
+
+Darryl McAndrew received a Bachelor of Science (Human Movement Science) from the
+University of Wollongong in 1993 and is currently an Associate Lecturer within the
+Department of Biomedical Science, UoW. He is
+concurrently completing a PhD focusing on the
+ﬁbre type characteristics of segmental muscle
+and a M.Sc. in OH & S, specialising in Occupational Hygeine. His research interests include
+identifying muscle ﬁbre type characteristics via
+mechanomyography and occupational exposure
+to industrial noise.
+Xu-Feng Huang received his PhD degree from
+the University of New South Wales in 1992. He
+is currently an Associate Professor in the
+Department of Biomedical Science and the
+Director of Neurobiology Research Centre for
+Metabolic and Psychiatric Disorders in the
+University of Wollongong. His research interest
+includes the central regulation of energy
+balance.
+
+

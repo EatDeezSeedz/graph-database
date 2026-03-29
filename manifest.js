@@ -6,6 +6,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Adduction IMALs",
                        "file":  "views/ackland2008_shoulder_adductors_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Ackland",
                        "updatedAt":  "2026-03-20T01:50:18.6855869-04:00"
                    },
                    {
@@ -13,6 +14,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Abduction IMALs",
                        "file":  "views/ackland2008_shoulder_abduction_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Ackland",
                        "updatedAt":  "2026-03-20T01:50:18.6845849-04:00"
                    },
                    {
@@ -20,13 +22,15 @@ window.GRAPH_MANIFEST = {
                        "title":  "Kuechle Shoulder IMALs",
                        "file":  "views/kuechle1997_shoulder_imal_interactive.html",
                        "kind":  "interactive",
-                       "updatedAt":  "2026-03-20T01:51:08.2449212-04:00"
+                       "folder":  "Kuechle",
+                       "updatedAt":  "2026-03-21T15:45:49.3859574-04:00"
                    },
                    {
                        "id":  "ackland2008_shoulder_flexion_imal_interactive",
                        "title":  "Flexion IMALs",
                        "file":  "views/ackland2008_shoulder_flexion_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Ackland",
                        "updatedAt":  "2026-03-20T01:50:18.6885842-04:00"
                    },
                    {
@@ -34,6 +38,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Extension IMALs",
                        "file":  "views/ackland2008_shoulder_extension_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Ackland",
                        "updatedAt":  "2026-03-20T01:50:18.6875841-04:00"
                    },
                    {
@@ -41,6 +46,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Elbow flexor IMAL",
                        "file":  "views/murray1995_elbow_flexor_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
                        "updatedAt":  "2026-03-20T01:50:18.7035847-04:00"
                    },
                    {
@@ -48,6 +54,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Ettema IMALs",
                        "file":  "views/ettema1998_upper_limb_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
                        "updatedAt":  "2026-03-20T01:50:18.6955859-04:00"
                    },
                    {
@@ -55,6 +62,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Knee extension IMAL",
                        "file":  "views/buford1997_knee_extension_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Lower Body IMALs",
                        "updatedAt":  "2026-03-20T01:50:18.6945847-04:00"
                    },
                    {
@@ -62,6 +70,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Hip extension IMAL",
                        "file":  "views/nemeth1985_hip_extension_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Lower Body IMALs",
                        "updatedAt":  "2026-03-20T01:50:18.7015845-04:00"
                    },
                    {
@@ -69,6 +78,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Hip abduction IMAL",
                        "file":  "views/song2020_hip_abduction_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Lower Body IMALs",
                        "updatedAt":  "2026-03-19T21:35:38.1938227-04:00"
                    },
                    {
@@ -76,6 +86,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Hip adduction IMAL",
                        "file":  "views/kleinhorsman2007_hip_adduction_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Lower Body IMALs",
                        "updatedAt":  "2026-03-19T00:50:39.5534821-04:00"
                    },
                    {
@@ -83,6 +94,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Neck IMAL",
                        "file":  "views/ackland2011_neck_imal_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Ackland",
                        "updatedAt":  "2026-03-19T00:50:39.5419678-04:00"
                    },
                    {
@@ -90,13 +102,71 @@ window.GRAPH_MANIFEST = {
                        "title":  "Muscle sizes",
                        "file":  "views/lube2015_muscle_sizes_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Muscle Sizes",
                        "updatedAt":  "2026-03-19T00:50:39.5953724-04:00"
+                   },
+                   {
+                       "id":  "holecek2001_bckad_starvation_interactive",
+                       "title":  "Starvation and BCKAD",
+                       "file":  "views/holecek2001_bckad_starvation_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Calorie Deficit",
+                       "updatedAt":  "2026-03-21T02:18:59.4445202-04:00"
+                   },
+                   {
+                       "id":  "murphy2021_energy_deficit_rt_interactive",
+                       "title":  "Energy deficit RT outcomes",
+                       "file":  "views/murphy2021_energy_deficit_rt_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Calorie Deficit",
+                       "updatedAt":  "2026-03-21T01:50:36.1928445-04:00"
+                   },
+                   {
+                       "id":  "sakaida1987_muscle_glycogen_starvation_interactive",
+                       "title":  "Muscle glycogen in starvation",
+                       "file":  "views/sakaida1987_muscle_glycogen_starvation_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Calorie Deficit",
+                       "updatedAt":  "2026-03-21T02:31:23.3202293-04:00"
+                   },
+                   {
+                       "id":  "calbet2014_fat_mass_restriction_interactive",
+                       "title":  "4-day caloric restriction + exercise",
+                       "file":  "views/calbet2014_fat_mass_restriction_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Calorie Deficit",
+                       "updatedAt":  "2026-03-21T02:34:11.1242340-04:00"
+                   },
+                   {
+                       "id":  "gantois2021_smartphone_mental_fatigue_rt_interactive",
+                       "title":  "Smartphone mental fatigue and RT",
+                       "file":  "views/gantois2021_smartphone_mental_fatigue_rt_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Fatigue and Performance",
+                       "updatedAt":  "2026-03-29T04:02:49.9261019-04:00"
+                   },
+                   {
+                       "id":  "ribeiro2023_cho_rt_interactive",
+                       "title":  "Carbohydrate intake and RT",
+                       "file":  "views/ribeiro2023_cho_rt_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Calorie Deficit",
+                       "updatedAt":  "2026-03-22T00:24:45.5969536-04:00"
+                   },
+                   {
+                       "id":  "paoli2021_kd_bodybuilder_interactive",
+                       "title":  "Ketogenic diet in bodybuilders",
+                       "file":  "views/paoli2021_kd_bodybuilder_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Calorie Deficit",
+                       "updatedAt":  "2026-03-24T01:06:28.6192401-04:00"
                    },
                    {
                        "id":  "ochi2016_elbow_flexor_swelling_chart",
                        "title":  "Ochi 2016 swelling",
                        "file":  "views/ochi2016_elbow_flexor_swelling_chart.html",
                        "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
                        "updatedAt":  "2026-03-19T01:09:34.1379985-04:00"
                    },
                    {
@@ -104,6 +174,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Gastrocnemius plantarflexion torque",
                        "file":  "views/landin2015_gastrocnemius_torque_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Calves",
                        "updatedAt":  "2026-03-19T00:50:39.5913675-04:00"
                    },
                    {
@@ -111,6 +182,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Incline vs preacher curl hypertrophy",
                        "file":  "views/ecss2024_arm_curl_hypertrophy_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
                        "updatedAt":  "2026-03-19T21:32:30.4264506-04:00"
                    },
                    {
@@ -118,6 +190,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Elbow flexor ECC CSA",
                        "file":  "views/tsuchiya2015_elbow_flexor_csa_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
                        "updatedAt":  "2026-03-19T00:50:39.6138810-04:00"
                    },
                    {
@@ -125,6 +198,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Preacher vs Bayesian curls",
                        "file":  "views/ejsc2025_preacher_vs_bayesian_curl_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
                        "updatedAt":  "2026-03-19T21:32:52.4105094-04:00"
                    },
                    {
@@ -132,6 +206,7 @@ window.GRAPH_MANIFEST = {
                        "title":  "Calf raise swelling",
                        "file":  "views/kassiano2022_calf_raise_swelling_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Calves",
                        "updatedAt":  "2026-03-19T21:43:06.2724378-04:00"
                    },
                    {
@@ -139,16 +214,162 @@ window.GRAPH_MANIFEST = {
                        "title":  "Standing vs seated calf hypertrophy",
                        "file":  "views/kinoshita2023_triceps_surae_hypertrophy_interactive.html",
                        "kind":  "interactive",
+                       "folder":  "Calves",
                        "updatedAt":  "2026-03-19T21:32:10.7753176-04:00"
+                   },
+                   {
+                       "id":  "koo2002_elbow_flexor_parameters_interactive",
+                       "title":  "Koo elbow flexor parameters",
+                       "file":  "views/koo2002_elbow_flexor_parameters_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
+                       "updatedAt":  "2026-03-24T01:16:59.8484127-04:00"
+                   },
+                   {
+                       "id":  "gentil2015_single_vs_multi_joint_interactive",
+                       "title":  "Single vs multi-joint elbow flexors",
+                       "file":  "views/gentil2015_single_vs_multi_joint_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
+                       "updatedAt":  "2026-03-24T02:34:59.1547108-04:00"
+                   },
+                   {
+                       "id":  "vanzuylen1988_biceps_activation_interactive",
+                       "title":  "Biceps flexion vs supination activation",
+                       "file":  "views/vanzuylen1988_biceps_activation_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
+                       "updatedAt":  "2026-03-24T17:58:48.0281245-04:00"
+                   },
+                   {
+                       "id":  "terhaarromeny1982_biceps_recruitment_interactive",
+                       "title":  "Biceps recruitment by task",
+                       "file":  "views/terhaarromeny1982_biceps_recruitment_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
+                       "updatedAt":  "2026-03-24T18:01:09.7529530-04:00"
+                   },
+                   {
+                       "id":  "kang2013_pulley_elbow_activation_interactive",
+                       "title":  "Pulley elbow flexor activation",
+                       "file":  "views/kang2013_pulley_elbow_activation_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Elbow Flexors",
+                       "updatedAt":  "2026-03-29T02:48:06.9326637-04:00"
+                   },
+                   {
+                       "id":  "elbow_flexion_nmm_indirect_interactive",
+                       "title":  "Elbow flexion",
+                       "file":  "views/elbow_flexion_nmm_indirect_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Indirect evidence/Human",
+                       "updatedAt":  "2026-03-29T03:00:56.8861293-04:00"
+                   },
+                   {
+                       "id":  "stoutenberg2005_quadriceps_foot_position_interactive",
+                       "title":  "Foot position quadriceps EMG",
+                       "file":  "views/stoutenberg2005_quadriceps_foot_position_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Lower Body EMG",
+                       "updatedAt":  "2026-03-28T23:38:28.3517970-04:00"
+                   },
+                   {
+                       "id":  "signorile2014_leg_extension_rom_rotation_interactive",
+                       "title":  "ROM and leg rotation quadriceps EMG",
+                       "file":  "views/signorile2014_leg_extension_rom_rotation_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Lower Body EMG",
+                       "updatedAt":  "2026-03-28T23:53:06.4964073-04:00"
+                   },
+                   {
+                       "id":  "signorile1995_knee_extension_foot_position_interactive",
+                       "title":  "Knee extension foot position EMG",
+                       "file":  "views/signorile1995_knee_extension_foot_position_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Lower Body EMG",
+                       "updatedAt":  "2026-03-29T00:02:02.6385141-04:00"
+                   },
+                   {
+                       "id":  "detroyer2003_external_intercostal_neuromechanical_matching_interactive",
+                       "title":  "External intercostal neuromechanical matching",
+                       "file":  "views/detroyer2003_external_intercostal_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T00:20:48.4296626-04:00"
+                   },
+                   {
+                       "id":  "gandevia2006_parasternal_neuromechanical_matching_interactive",
+                       "title":  "Parasternal intercostal neuromechanical matching",
+                       "file":  "views/gandevia2006_parasternal_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T00:33:13.5485103-04:00"
+                   },
+                   {
+                       "id":  "hudson2024_parasternal_surface_emg_interactive",
+                       "title":  "Parasternal intercostal surface EMG",
+                       "file":  "views/hudson2024_parasternal_surface_emg_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T02:11:22.4204471-04:00"
+                   },
+                   {
+                       "id":  "hudson2007_scalene_sternomastoid_neuromechanical_matching_interactive",
+                       "title":  "Scalene vs sternomastoid matching",
+                       "file":  "views/hudson2007_scalene_sternomastoid_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T00:40:49.4342440-04:00"
+                   },
+                   {
+                       "id":  "hudson2009_fdi_thumb_neuromechanical_matching_interactive",
+                       "title":  "FDI thumb-position matching",
+                       "file":  "views/hudson2009_fdi_thumb_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T01:05:53.7237432-04:00"
+                   },
+                   {
+                       "id":  "park2014_lumbar_region_neuromechanical_matching_interactive",
+                       "title":  "Lumbar region neuromechanical matching",
+                       "file":  "views/park2014_lumbar_region_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T00:48:32.5619737-04:00"
+                   },
+                   {
+                       "id":  "brown2007_deltoid_lat_neuromechanical_matching_interactive",
+                       "title":  "Deltoid and lat neuromechanical matching",
+                       "file":  "views/brown2007_deltoid_lat_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T01:21:41.1453280-04:00"
+                   },
+                   {
+                       "id":  "detroyer2005_intercostal_nmm_review_interactive",
+                       "title":  "Canine intercostal NMM review",
+                       "file":  "views/detroyer2005_intercostal_nmm_review_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Animal",
+                       "updatedAt":  "2026-03-29T02:45:40.0586620-04:00"
+                   },
+                   {
+                       "id":  "abboud2023_lumbar_extensor_neuromechanical_matching_interactive",
+                       "title":  "Lumbar extensor perturbation matching",
+                       "file":  "views/abboud2023_lumbar_extensor_neuromechanical_matching_interactive.html",
+                       "kind":  "interactive",
+                       "folder":  "Neuromechanical Matching/Direct evidence/Human",
+                       "updatedAt":  "2026-03-29T01:33:51.2448658-04:00"
                    },
                    {
                        "id":  "digitizer",
                        "title":  "Digitizer",
                        "file":  "views/digitizer.html",
                        "kind":  "interactive",
+                       "folder":  "Tools",
                        "updatedAt":  "2026-03-19T00:50:39.5439693-04:00"
                    }
                ],
-    "generatedAt":  "2026-03-20T01:51:18.4415711-04:00"
+    "generatedAt":  "2026-03-29T04:02:59.5760901-04:00"
 };
 

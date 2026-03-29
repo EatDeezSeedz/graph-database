@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hudson et al. (2024) - Parasternal intercostal surface EMG</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(280px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(40dvh,calc(100dvh - 230px));min-height:270px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:280px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,44dvh,360px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Hudson et al. (2024) - Parasternal intercostal surface EMG</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={female:'#f472b6',male:'#60a5fa',benchmark:'#22c55e',amplitude:'#f59e0b'};
+      const MODES={
+        priorLeverage:{
+          label:'Prior mechanical advantage',
+          subtitle:'Study-cited prior parasternal mechanical-advantage profile. This was not remeasured in 2024, but the paper explicitly interprets the graded onset pattern using earlier rostral-to-caudal leverage data.',
+          hint:'This is the earlier leverage profile the 2024 paper is referring to when it discusses neuromechanical matching. Rostral parasternal spaces had better inspiratory mechanical advantage than caudal spaces.',
+          overlay:'Bars = prior inspiratory mechanical advantage (relative units, study-cited reconstruction)',
+          yLabel:'Inspiratory mechanical advantage (relative units)',
+          categories:['1st interspace','2nd interspace','3rd interspace','4th interspace','5th interspace'],
+          series:[
+            {key:'benchmark',name:'Prior leverage data',values:[3.0,2.0,1.4,0.8,0.4],notes:[
+              'Largest inspiratory mechanical advantage in the rostral 1st interspace from the earlier parasternal leverage work cited by Hudson et al. (2024).',
+              'Still high inspiratory leverage, but below the 1st interspace in the earlier data.',
+              'Intermediate inspiratory leverage in the earlier parasternal dataset.',
+              'Lower inspiratory leverage in the more caudal spaces.',
+              'Smallest inspiratory leverage in the cited prior parasternal data.'
+            ]}
+          ],
+          yMin:0,
+          yMax:3.5
+        },
+        caudalDuration:{
+          label:'Caudal onset duration by sex',
+          subtitle:'Exact reported estimated marginal means for inspiratory activity duration in the caudal parasternal interspaces. Higher percentages mean activity started earlier within inspiration.',
+          hint:'This is the cleanest exact onset result from the paper. The 4th and 5th interspaces stayed active for a larger share of inspiratory time in women than in men, meaning earlier caudal onset in women.',
+          overlay:'Bars = inspiratory activity duration (% of inspiratory time)',
+          yLabel:'Inspiratory activity duration (% inspiratory time)',
+          categories:['4th interspace','5th interspace'],
+          series:[
+            {key:'female',name:'Females',values:[87.5,82.6],notes:[
+              'Exact EMM: 87.5%TI [95% CI 80.6, 94.3].',
+              'Exact EMM: 82.6%TI [95% CI 75.3, 89.8].'
+            ]},
+            {key:'male',name:'Males',values:[68.9,70.2],notes:[
+              'Exact EMM: 68.9%TI [95% CI 61.7, 76.1].',
+              'Exact EMM: 70.2%TI [95% CI 63.0, 77.3].'
+            ]}
+          ],
+          yMin:0,
+          yMax:100
+        },
+        delayFromFirst:{
+          label:'Caudal delay vs 1st interspace',
+          subtitle:'Exact reported delays of the 4th and 5th spaces compared with the earliest onset in the 1st interspace. Larger values mean later caudal recruitment.',
+          hint:'This is the strongest sex-difference result in the paper: men had a more graded rostrocaudal onset pattern, while women were more homogeneous across interspaces.',
+          overlay:'Bars = delay after 1st interspace onset (% inspiratory time)',
+          yLabel:'Delay after 1st interspace onset (% inspiratory time)',
+          categories:['4th interspace','5th interspace'],
+          series:[
+            {key:'female',name:'Females',values:[11.4,16.3],notes:[
+              'Exact delay: 11.4%TI [95% CI 3.6, 19.3].',
+              'Exact delay: 16.3%TI [95% CI 7.6, 24.9].'
+            ]},
+            {key:'male',name:'Males',values:[27.0,25.8],notes:[
+              'Exact delay: 27.0%TI [95% CI 18.5, 35.6].',
+              'Exact delay: 25.8%TI [95% CI 17.3, 34.2].'
+            ]}
+          ],
+          yMin:0,
+          yMax:40
+        },
+        secondSpaceAmplitude:{
+          label:'2nd-space normalized EMG by sex',
+          subtitle:'Exact reported normalized inspiratory EMG amplitudes for the 2nd parasternal interspace, the surface-recording site most commonly used as a neural-respiratory-drive estimate.',
+          hint:'The paper found the 2nd interspace had the clearest surface EMG amplitude signal. Women showed higher normalized amplitude there, but amplitude overall did not capture the expected 1st-to-5th activation gradient as cleanly as onset timing.',
+          overlay:'Bars = normalized inspiratory EMG amplitude (%max)',
+          yLabel:'Normalized inspiratory EMG amplitude (%max)',
+          categories:['2nd interspace'],
+          series:[
+            {key:'female',name:'Females',values:[7.5],notes:['Exact EMM: 7.5%max [95% CI 5.6, 9.5].']},
+            {key:'male',name:'Males',values:[2.7],notes:['Exact EMM: 2.7%max [95% CI 0.8, 4.6].']}
+          ],
+          yMin:0,
+          yMax:10
+        },
+        loadChallenge:{
+          label:'Load challenge vs onset invariance',
+          subtitle:'Exact mouth-pressure swings from Table 1 showing the inspiratory loads clearly increased breathing effort, even though parasternal onset timing itself did not change with load (P = 0.31).',
+          hint:'This view helps with the main methods/result logic: the loads made breathing harder, but they did not shift the rostrocaudal onset pattern. So onset timing looked robust to load in this study.',
+          overlay:'Bars = inspiratory mouth-pressure swing (cmH2O); onset timing still showed no load effect (P = 0.31)',
+          yLabel:'Mouth-pressure swing (cmH2O, magnitude)',
+          categories:['Quiet','Low load','High load'],
+          series:[
+            {key:'female',name:'Females',values:[1.19,3.07,4.32],notes:[
+              'Exact Table 1 mean magnitude during quiet breathing.',
+              'Exact Table 1 mean magnitude during low load.',
+              'Exact Table 1 mean magnitude during high load.'
+            ]},
+            {key:'male',name:'Males',values:[1.26,3.16,4.13],notes:[
+              'Exact Table 1 mean magnitude during quiet breathing.',
+              'Exact Table 1 mean magnitude during low load.',
+              'Exact Table 1 mean magnitude during high load.'
+            ]}
+          ],
+          yMin:0,
+          yMax:5
+        },
+        onsetVsPriorLeverage:{
+          label:'Onset pattern vs prior leverage',
+          subtitle:'Direct visual comparison: the prior leverage profile falls from 1st to 5th, and the 2024 onset pattern falls in the same general direction, especially in men.',
+          hint:'Use this one for the simplest read. If the lines track together, onset timing is matching leverage. The key point is that onset timing follows the rostral-to-caudal leverage order much better than surface EMG amplitude does.',
+          overlay:'Lines compare prior leverage with 2024 inspiratory-duration pattern',
+          yLabel:'Relative value',
+          categories:['1st','2nd','3rd','4th','5th'],
+          series:[
+            {key:'benchmark',name:'Prior leverage (relative)',values:[100,67,47,27,13],notes:[
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.'
+            ]},
+            {key:'female',name:'2024 onset pattern (women, summary)',values:[100,100,100,87.5,82.6],notes:[
+              '1st-to-3rd spaces began at or within about 400 ms of inspiratory-flow onset in the 2024 study.',
+              '1st-to-3rd spaces began at or within about 400 ms of inspiratory-flow onset in the 2024 study.',
+              '1st-to-3rd spaces began at or within about 400 ms of inspiratory-flow onset in the 2024 study.',
+              'Exact 2024 EMM inspiratory duration for the 4th space in women.',
+              'Exact 2024 EMM inspiratory duration for the 5th space in women.'
+            ]},
+            {key:'male',name:'2024 onset pattern (men, summary)',values:[100,100,100,68.9,70.2],notes:[
+              '1st-to-3rd spaces began at or within about 400 ms of inspiratory-flow onset in the 2024 study.',
+              '1st-to-3rd spaces began at or within about 400 ms of inspiratory-flow onset in the 2024 study.',
+              '1st-to-3rd spaces began at or within about 400 ms of inspiratory-flow onset in the 2024 study.',
+              'Exact 2024 EMM inspiratory duration for the 4th space in men.',
+              'Exact 2024 EMM inspiratory duration for the 5th space in men.'
+            ]}
+          ],
+          yMin:0,
+          yMax:110
+        },
+        leverageVsOutcomes:{
+          label:'Leverage vs onset vs amplitude',
+          subtitle:'Single comparison view: prior leverage, 2024 onset timing, and the 2024 surface-amplitude pattern. This makes it easier to see that onset matched leverage better than amplitude did.',
+          hint:'Green = prior leverage. Pink/blue = 2024 onset timing. Orange = 2024 surface amplitude summary. The main takeaway is that onset timing tracks leverage better, while amplitude peaks in the 2nd interspace and does not recreate the full 1st-to-5th leverage gradient.',
+          overlay:'Relative comparison only: leverage and onset align better than amplitude',
+          yLabel:'Relative value (peak or 1st = 100)',
+          categories:['1st','2nd','3rd','4th','5th'],
+          series:[
+            {key:'benchmark',name:'Prior leverage',values:[100,67,47,27,13],notes:[
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.',
+              'Prior leverage profile normalized to the 1st interspace.'
+            ]},
+            {key:'female',name:'2024 onset pattern (women)',values:[100,100,100,87.5,82.6],notes:[
+              '1st-to-3rd spaces were all early in women in the 2024 study.',
+              '1st-to-3rd spaces were all early in women in the 2024 study.',
+              '1st-to-3rd spaces were all early in women in the 2024 study.',
+              'Exact 4th-space inspiratory duration in women.',
+              'Exact 5th-space inspiratory duration in women.'
+            ]},
+            {key:'male',name:'2024 onset pattern (men)',values:[100,100,100,68.9,70.2],notes:[
+              '1st-to-3rd spaces were all early in men in the 2024 study.',
+              '1st-to-3rd spaces were all early in men in the 2024 study.',
+              '1st-to-3rd spaces were all early in men in the 2024 study.',
+              'Exact 4th-space inspiratory duration in men.',
+              'Exact 5th-space inspiratory duration in men.'
+            ]},
+            {key:'amplitude',name:'2024 surface amplitude',values:[85,100,72,50,42],notes:[
+              'Study-consistent summary only: amplitude was not the clearest at the 1st interspace.',
+              'Exact qualitative result: the 2nd interspace had the greatest normalized surface EMG amplitude.',
+              'Study-consistent summary only: 3rd was below the 2nd space.',
+              'Study-consistent summary only: caudal spaces were lower than the rostral spaces.',
+              'Study-consistent summary only: caudal spaces were lower than the rostral spaces.'
+            ]}
+          ],
+          yMin:0,
+          yMax:110
+        }
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='leverageVsOutcomes',visible={female:true,male:true,benchmark:true,amplitude:true},view={minX:0,maxX:3,minY:0,maxY:100},drag=null;
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      const cfg=()=>MODES[mode];
+      const activeSeries=()=>cfg().series.filter(s=>visible[s.key]);
+      function baseBounds(){
+        const c=cfg();
+        return {minX:0.5,maxX:c.categories.length+0.5,minY:c.yMin,maxY:c.yMax};
+      }
+      function fit(){ view={...baseBounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      const sx=(x,p)=>p.x+((x-view.minX)/(view.maxX-view.minX))*p.w;
+      const sy=(y,p)=>p.y+p.h-((y-view.minY)/(view.maxY-view.minY))*p.h;
+      function niceTicks(min,max,target=5){ const span=max-min||1, rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+      function drawAxes(plot){
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of niceTicks(view.minY,view.maxY,5)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(y.toFixed(Math.abs(y)>=10?0:1).replace(/\.0$/,''),16,py+4); }
+        ctx.textAlign='center';
+        cfg().categories.forEach((cat,idx)=>{ const px=sx(idx+1,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(cat,px,plot.y+plot.h+28,100,14); });
+        ctx.fillText('Condition / interspace',plot.x+plot.w/2,plot.y+plot.h+54);
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(cfg().yLabel,0,0); ctx.restore();
+      }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:86,y:20,w:Math.max(120,w-116),h:Math.max(110,h-106)};
+        drawAxes(plot);
+        const c=cfg(), series=activeSeries(), markers=[], categories=c.categories.length;
+        if(mode==='onsetVsPriorLeverage' || mode==='leverageVsOutcomes'){
+          series.forEach(s=>{
+            ctx.strokeStyle=COLORS[s.key]; ctx.lineWidth=3; ctx.setLineDash(s.key==='benchmark'?[7,5]:(s.key==='amplitude'?[2,5]:[]));
+            ctx.beginPath();
+            s.values.forEach((value,idx)=>{
+              const x=sx(idx+1,plot), y=sy(value,plot);
+              if(idx===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+            });
+            ctx.stroke(); ctx.setLineDash([]);
+            s.values.forEach((value,idx)=>{
+              const x=sx(idx+1,plot), y=sy(value,plot);
+              ctx.fillStyle=COLORS[s.key];
+              ctx.beginPath(); ctx.arc(x,y,5.5,0,Math.PI*2); ctx.fill();
+              ctx.strokeStyle='rgba(255,255,255,.2)'; ctx.lineWidth=1.2; ctx.stroke();
+              markers.push({shape:'point',x,y,r:10,series:s,category:idx,value,note:s.notes[idx]});
+            });
+          });
+        } else {
+          const groupWidth=Math.max(0.25,(view.maxX-view.minX)/Math.max(2,categories*1.5));
+          const barWidth=Math.min(0.28,groupWidth/Math.max(1,series.length+0.4));
+          series.forEach((s,sIdx)=>{
+            s.values.forEach((value,idx)=>{
+              const center=(idx+1) - ((series.length-1)/2 - sIdx)*barWidth*1.25;
+              const x0=sx(center-barWidth/2,plot);
+              const x1=sx(center+barWidth/2,plot);
+              const y=sy(value,plot), zeroY=sy(0,plot), top=Math.min(y,zeroY), hBar=Math.max(1,Math.abs(zeroY-y));
+              ctx.fillStyle=COLORS[s.key]; ctx.globalAlpha=.92; ctx.fillRect(x0,top,Math.max(1,x1-x0),hBar); ctx.globalAlpha=1;
+              ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x0,top,Math.max(1,x1-x0),hBar);
+              markers.push({shape:'bar',x:x0,y:top,w:Math.max(1,x1-x0),h:hBar,series:s,category:idx,value,note:s.notes[idx]});
+            });
+          });
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._plot=plot; stage._markers=markers; status.textContent=`${series.length} series visible`;
+      }
+      function renderLegend(){
+        const c=cfg(); subtitle.textContent=c.subtitle; hint.textContent=c.hint; overlay.textContent=c.overlay; legend.innerHTML='';
+        c.series.forEach(s=>{ const row=document.createElement('div'); row.className='check'+(visible[s.key]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[s.key]?'checked':''} /><span class="swatch" style="background:${COLORS[s.key]}"></span><label>${s.name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{ visible[s.key]=e.target.checked; draw(); renderLegend(); }); row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[s.key]=box.checked; draw(); renderLegend(); }}); legend.appendChild(row); });
+      }
+      function clampView(){
+        const b=baseBounds(); const spanX=view.maxX-view.minX, fullSpan=b.maxX-b.minX; const minSpan=Math.max(1.2,Math.min(fullSpan,1.3));
+        if(spanX>fullSpan){ view.minX=b.minX; view.maxX=b.maxX; return; }
+        if(spanX<minSpan){ const mid=(view.minX+view.maxX)/2; view.minX=mid-minSpan/2; view.maxX=mid+minSpan/2; }
+        if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; }
+        if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; }
+        view.minY=b.minY; view.maxY=b.maxY;
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>m.shape==='point' ? Math.hypot(m.x-x,m.y-y)<=m.r : (x>=m.x&&x<=m.x+m.w&&y>=m.y&&y<=m.y+m.h));
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.series.name}</strong></div><div class="muted">${cfg().categories[hit.category]}</div><div>${cfg().yLabel}: <strong>${hit.value.toFixed(1)}</strong></div><div>${hit.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90, left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)), top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={female:true,male:true,benchmark:true,amplitude:true}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ visible={female:true,male:true,benchmark:true,amplitude:true}; draw(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ visible={female:false,male:false,benchmark:false,amplitude:false}; draw(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const plot=stage._plot||{x:86,w:Math.max(120,stage.clientWidth-116)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const b=baseBounds(); const newSpan=Math.max(1.2,Math.min(b.maxX-b.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

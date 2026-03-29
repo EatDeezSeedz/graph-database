@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Murphy 2021 energy deficiency and RT outcomes</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.65);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.12),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)} select,option,optgroup{background:var(--panel);color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(250px,31vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}.check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.4}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(58dvh,calc(100dvh - 210px));min-height:320px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)} .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.hint,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(14rem,20dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(260px,54dvh,460px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Murphy &amp; Koehler (2021) - Energy deficiency and RT outcomes</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="all" class="btn">Show all</button>
+          <button id="none" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left">
+          <div class="sectionTitle">Toggle</div>
+          <div id="checks"></div>
+          <div id="hint" class="hint"></div>
+        </div>
+        <div id="stage" class="stage">
+          <canvas id="c"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={analysisA:'#60a5fa',analysisB:'#f97316',rted:'#ef4444',rtcon:'#22c55e',threshold:'#a78bfa',summary:'#facc15'};
+      const FOREST_LM=[
+        {name:'Nicklas 2015 (W)', value:-0.85, low:-1.38, high:-0.32, color:'#60a5fa'},
+        {name:'Nicklas 2015 (M)', value:-1.15, low:-1.75, high:-0.55, color:'#60a5fa'},
+        {name:'Galbreath 2018', value:-0.13, low:-0.78, high:0.52, color:'#60a5fa'},
+        {name:'Kerksick 2010', value:-0.11, low:-1.04, high:0.82, color:'#60a5fa'},
+        {name:'Figueroa 2013', value:-0.56, low:-1.32, high:0.20, color:'#60a5fa'},
+        {name:'Ballor 1988', value:-0.76, low:-1.67, high:0.15, color:'#60a5fa'},
+        {name:'Bouchard 2009', value:-0.48, low:-1.31, high:0.35, color:'#60a5fa'},
+        {name:'Jabekk 2010', value:-0.81, low:-1.83, high:0.21, color:'#60a5fa'},
+        {name:'Overall', value:-0.58, low:-0.92, high:-0.24, color:'#facc15', summary:true},
+        {name:'Prediction interval', value:-0.58, low:-1.16, high:0.00, color:'#c084fc', prediction:true}
+      ];
+      const FOREST_STRENGTH=[
+        {name:'Nicklas 2015 (W-LL)', value:0.11, low:-0.40, high:0.62, color:'#22c55e'},
+        {name:'Nicklas 2015 (M-LL)', value:-0.45, low:-1.02, high:0.12, color:'#22c55e'},
+        {name:'Nicklas 2015 (W-RL)', value:0.32, low:-0.20, high:0.84, color:'#22c55e'},
+        {name:'Nicklas 2015 (M-RL)', value:0.14, low:-0.42, high:0.70, color:'#22c55e'},
+        {name:'Galbreath 2018 (CP)', value:-0.58, low:-1.24, high:0.08, color:'#22c55e'},
+        {name:'Galbreath 2018 (LP)', value:0.10, low:-0.55, high:0.75, color:'#22c55e'},
+        {name:'Figueroa 2013', value:-0.29, low:-1.04, high:0.46, color:'#22c55e'},
+        {name:'Ballor 1988', value:0.20, low:-0.68, high:1.08, color:'#22c55e'},
+        {name:'Bouchard 2009', value:-1.47, low:-2.40, high:-0.54, color:'#22c55e'},
+        {name:'Overall', value:-0.31, low:-0.80, high:0.18, color:'#facc15', summary:true},
+        {name:'Prediction interval', value:-0.31, low:-2.22, high:1.60, color:'#c084fc', prediction:true}
+      ];
+      const SUMMARY=[
+        {name:'Analysis A LM', group:'Lean mass', value:-0.58, color:'#60a5fa', note:'Parallel-group comparison: RT+ED vs RT+CON. Negative favors control.'},
+        {name:'Analysis A strength', group:'Strength', value:-0.31, color:'#60a5fa', note:'Parallel-group comparison: no significant difference.'},
+        {name:'Analysis B RT+ED LM', group:'Lean mass', value:-0.11, color:'#ef4444', note:'Within RT+ED literature, lean mass effect was slightly negative.'},
+        {name:'Analysis B RT+CON LM', group:'Lean mass', value:0.20, color:'#22c55e', note:'Within matched RT+CON literature, lean mass effect was positive.'},
+        {name:'Analysis B RT+ED strength', group:'Strength', value:0.84, color:'#ef4444', note:'Strength still improved strongly during RT+ED.'},
+        {name:'Analysis B RT+CON strength', group:'Strength', value:0.81, color:'#22c55e', note:'Strength improved similarly in RT+CON.'}
+      ];
+      const THRESHOLD=[
+        {x:0,y:0.16},
+        {x:250,y:0.08},
+        {x:500,y:0.00},
+        {x:750,y:-0.08},
+        {x:1000,y:-0.16}
+      ];
+      const MODES={
+        forest_lm:{label:'Analysis A lean mass forest',subtitle:'Figure 2A forest plot data comparing RT in energy deficit (RT+ED) versus RT without energy deficit (RT+CON) for lean mass. Negative values favor RT+CON.',hint:'Each row is a reported Analysis A effect size with its 95% CI. The overall line matches the paper’s pooled lean-mass result.',overlay:'Hover = exact ES and 95% CI',kind:'forest',items:FOREST_LM,xLabel:'Effect size (negative favors RT+CON)',xMin:-2.6,xMax:1.0},
+        forest_strength:{label:'Analysis A strength forest',subtitle:'Figure 2B forest plot data comparing RT+ED versus RT+CON for strength. Effects cluster around zero, consistent with no clear between-condition difference.',hint:'Each row is a reported Analysis A strength effect size with its 95% CI.',overlay:'Hover = exact ES and 95% CI',kind:'forest',items:FOREST_STRENGTH,xLabel:'Effect size (negative favors RT+CON)',xMin:-2.8,xMax:1.8},
+        pooled:{label:'Pooled outcomes summary',subtitle:'Abstract-level summary of the pooled lean-mass and strength outcomes from Analyses A and B.',hint:'This view puts the key study takeaways in one place: lean-mass gains were impaired by energy deficit, while strength gains stayed similar.',overlay:'Hover = study-reported interpretation',kind:'bar',items:SUMMARY,yLabel:'Effect size',yMin:-0.8,yMax:1.0},
+        threshold:{label:'Energy deficit threshold',subtitle:'Study-derived lean-mass threshold reference from the unadjusted meta-regression: energy balance corresponded to a small positive effect (~0.16), and ~500 kcal/day deficit reduced that to ~0.',hint:'This line is a simple reference built from the paper’s reported intercept (~0.16 at energy balance) and the statement that ~500 kcal/day prevented lean-mass gain.',overlay:'Hover = predicted lean-mass effect size | Dashed line = ~500 kcal/day threshold',kind:'line',items:[{name:'Predicted LM effect',color:'#a78bfa',data:THRESHOLD,visible:true,note:'Approximation from reported intercept ES = 0.16 and ~500 kcal/day zero crossing.'}],xLabel:'Estimated energy deficit (kcal/day)',yLabel:'Predicted lean-mass effect size',xMin:0,xMax:1000,yMin:-0.22,yMax:0.22}
+      };
+
+      const modeEl=document.getElementById('mode'),checksEl=document.getElementById('checks'),subtitleEl=document.getElementById('subtitle'),hintEl=document.getElementById('hint'),overlayEl=document.getElementById('overlay'),statusEl=document.getElementById('status'),stage=document.getElementById('stage'),canvas=document.getElementById('c'),ctx=canvas.getContext('2d'),tip=document.getElementById('tip');
+      let modeKey='forest_lm',items=[],activeName=null,hits=[];
+      const currentMode=()=>MODES[modeKey];
+      function populateModes(){for(const [key,val] of Object.entries(MODES)){const opt=document.createElement('option');opt.value=key;opt.textContent=val.label;modeEl.appendChild(opt)} modeEl.value=modeKey}
+      function buildItems(){items=currentMode().kind==='line'?currentMode().items.map(item=>({...item})) : currentMode().items.map(item=>({...item,visible:true}))}
+      function syncActiveRows(){for(const row of checksEl.querySelectorAll('.check'))row.classList.toggle('active',row.dataset.name===activeName)}
+      function rebuildChecks(){checksEl.innerHTML=''; if(currentMode().kind==='line'){const row=document.createElement('div');row.className='check';row.dataset.name=items[0].name;const cb=document.createElement('input');cb.type='checkbox';cb.checked=items[0].visible;cb.addEventListener('click',e=>e.stopPropagation());cb.addEventListener('change',()=>{items[0].visible=cb.checked;if(!items[0].visible&&activeName===items[0].name)activeName=null;syncActiveRows();draw()});const sw=document.createElement('div');sw.className='swatch';sw.style.background=items[0].color;const lab=document.createElement('label');lab.textContent=items[0].name;row.addEventListener('click',()=>{activeName=activeName===items[0].name?null:items[0].name;syncActiveRows();draw()});row.append(cb,sw,lab);checksEl.appendChild(row);return;} for(const item of items){const row=document.createElement('div');row.className='check';row.dataset.name=item.name;const cb=document.createElement('input');cb.type='checkbox';cb.checked=item.visible;cb.addEventListener('click',e=>e.stopPropagation());cb.addEventListener('change',()=>{item.visible=cb.checked;if(!item.visible&&activeName===item.name)activeName=null;syncActiveRows();draw()});const sw=document.createElement('div');sw.className='swatch';sw.style.background=item.color;const lab=document.createElement('label');lab.textContent=item.name;row.addEventListener('click',()=>{activeName=activeName===item.name?null:item.name;syncActiveRows();draw()});row.append(cb,sw,lab);checksEl.appendChild(row)}}
+      function hideTip(){tip.style.display='none'}
+      function showTip(html,x,y){tip.innerHTML=html;tip.style.display='block';const r=stage.getBoundingClientRect(),tr=tip.getBoundingClientRect(),pad=14;tip.style.left=Math.max(pad,Math.min(r.width-tr.width-pad,x+pad))+'px';tip.style.top=Math.max(pad,Math.min(r.height-tr.height-pad,y+pad))+'px'}
+      function xToPx(v,left,w,min,max){return left+((v-min)/(max-min))*w}
+      function yToPx(v,top,h,min,max){return top+((max-v)/(max-min))*h}
+      function drawForest(){const W=Math.max(320,stage.clientWidth||320),H=Math.max(520,items.length*42+110),left=170,top=26,right=26,bottom=62,plotW=W-left-right,plotH=H-top-bottom;canvas.width=Math.floor(W*(window.devicePixelRatio||1));canvas.height=Math.floor(H*(window.devicePixelRatio||1));canvas.style.width=W+'px';canvas.style.height=H+'px';ctx.setTransform(window.devicePixelRatio||1,0,0,window.devicePixelRatio||1,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle='#0f172a';ctx.fillRect(0,0,W,H);const m=currentMode();hits=[];ctx.strokeStyle='rgba(255,255,255,.08)';ctx.lineWidth=1;for(let x=Math.ceil(m.xMin*2)/2;x<=m.xMax+1e-6;x+=0.5){const px=xToPx(x,left,plotW,m.xMin,m.xMax);ctx.beginPath();ctx.moveTo(px,top);ctx.lineTo(px,top+plotH);ctx.stroke();ctx.fillStyle='rgba(229,231,235,.92)';ctx.font='12px Segoe UI, system-ui';ctx.textAlign='center';ctx.fillText((Math.round(x*10)/10).toString(),px,H-18)}const zero=xToPx(0,left,plotW,m.xMin,m.xMax);ctx.strokeStyle='rgba(255,255,255,.35)';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(zero,top);ctx.lineTo(zero,top+plotH);ctx.stroke();ctx.strokeStyle='rgba(255,255,255,.18)';ctx.strokeRect(left,top,plotW,plotH);const visible=items.filter(item=>item.visible);visible.forEach((item,i)=>{const y=top+24+i*34;const low=xToPx(item.low,left,plotW,m.xMin,m.xMax),high=xToPx(item.high,left,plotW,m.xMin,m.xMax),mid=xToPx(item.value,left,plotW,m.xMin,m.xMax);const isActive=activeName===item.name,hasActive=!!activeName,alpha=hasActive?(isActive?1:.22):1;ctx.save();ctx.globalAlpha=alpha;ctx.strokeStyle=item.color;ctx.lineWidth=item.summary?4:2.5;ctx.beginPath();ctx.moveTo(low,y);ctx.lineTo(high,y);ctx.stroke();ctx.beginPath();ctx.moveTo(low,y-6);ctx.lineTo(low,y+6);ctx.moveTo(high,y-6);ctx.lineTo(high,y+6);ctx.stroke();ctx.fillStyle=item.color;if(item.summary){ctx.save();ctx.translate(mid,y);ctx.beginPath();ctx.moveTo(-10,0);ctx.lineTo(0,-8);ctx.lineTo(10,0);ctx.lineTo(0,8);ctx.closePath();ctx.fill();ctx.restore();}else if(item.prediction){ctx.setLineDash([6,6]);ctx.strokeStyle=item.color;ctx.strokeRect(low,y-7,high-low,14);ctx.setLineDash([]);}else{ctx.fillRect(mid-5,y-5,10,10);}ctx.restore();ctx.fillStyle='rgba(229,231,235,.92)';ctx.font='12px Segoe UI, system-ui';ctx.textAlign='right';ctx.fillText(item.name,left-12,y+4);hits.push({x:Math.min(low,high)-8,y:y-10,w:Math.abs(high-low)+16,h:20,item})});ctx.fillStyle='rgba(156,163,175,.95)';ctx.textAlign='center';ctx.fillText(m.xLabel,left+plotW/2,H-38);statusEl.textContent=`${visible.length} rows shown`}
+      function drawBars(){const W=Math.max(320,stage.clientWidth||320),H=560,left=90,top=28,right=24,bottom=100,plotW=W-left-right,plotH=H-top-bottom,m=currentMode();canvas.width=Math.floor(W*(window.devicePixelRatio||1));canvas.height=Math.floor(H*(window.devicePixelRatio||1));canvas.style.width=W+'px';canvas.style.height=H+'px';ctx.setTransform(window.devicePixelRatio||1,0,0,window.devicePixelRatio||1,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle='#0f172a';ctx.fillRect(0,0,W,H);hits=[];ctx.strokeStyle='rgba(255,255,255,.08)';for(let y=m.yMin;y<=m.yMax+1e-6;y+=0.2){const py=yToPx(y,top,plotH,m.yMin,m.yMax);ctx.beginPath();ctx.moveTo(left,py);ctx.lineTo(W-right,py);ctx.stroke();ctx.fillStyle='rgba(229,231,235,.92)';ctx.font='12px Segoe UI, system-ui';ctx.textAlign='right';ctx.fillText((Math.round(y*100)/100).toString(),left-10,py+4)}const zero=yToPx(0,top,plotH,m.yMin,m.yMax);ctx.strokeStyle='rgba(255,255,255,.35)';ctx.beginPath();ctx.moveTo(left,zero);ctx.lineTo(W-right,zero);ctx.stroke();ctx.strokeStyle='rgba(255,255,255,.18)';ctx.strokeRect(left,top,plotW,plotH);const groups=[...new Set(items.map(i=>i.group))],visible=items.filter(i=>i.visible),barW=34,barGap=8,groupGap=30;let x=left+26;for(const group of groups){const groupItems=items.filter(i=>i.group===group);const visibleGroup=visible.filter(i=>i.group===group);const center=x+(groupItems.length*barW+(groupItems.length-1)*barGap)/2;for(const item of groupItems){const isVisible=visibleGroup.some(v=>v.name===item.name);const isActive=activeName===item.name,hasActive=!!activeName,alpha=isVisible?(hasActive?(isActive?1:.22):1):.08;const topY=Math.min(zero,yToPx(item.value,top,plotH,m.yMin,m.yMax));const barH=Math.max(2,Math.abs(zero-yToPx(item.value,top,plotH,m.yMin,m.yMax)));ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=item.color;if(isActive){ctx.shadowColor=item.color;ctx.shadowBlur=18}ctx.fillRect(x,topY,barW,barH);ctx.restore();ctx.fillStyle='rgba(229,231,235,.92)';ctx.font='11px Segoe UI, system-ui';ctx.textAlign='center';ctx.fillText(item.name.includes('RT+ED')?'RT+ED':item.name.includes('RT+CON')?'RT+CON':'A',x+barW/2,H-bottom+18);if(isVisible)hits.push({x,y:topY,w:barW,h:barH,item});x+=barW+barGap;}ctx.fillStyle='rgba(156,163,175,.95)';ctx.font='12px Segoe UI, system-ui';ctx.fillText(group,center,H-bottom+44);x+=groupGap;}ctx.fillStyle='rgba(156,163,175,.95)';ctx.save();ctx.translate(18,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.fillText(m.yLabel,0,0);ctx.restore();statusEl.textContent=`${visible.length} bars shown`}
+      function drawLine(){const W=Math.max(320,stage.clientWidth||320),H=520,left=80,top=26,right=24,bottom=66,plotW=W-left-right,plotH=H-top-bottom,m=currentMode();canvas.width=Math.floor(W*(window.devicePixelRatio||1));canvas.height=Math.floor(H*(window.devicePixelRatio||1));canvas.style.width=W+'px';canvas.style.height=H+'px';ctx.setTransform(window.devicePixelRatio||1,0,0,window.devicePixelRatio||1,0,0);ctx.clearRect(0,0,W,H);ctx.fillStyle='#0f172a';ctx.fillRect(0,0,W,H);hits=[];ctx.strokeStyle='rgba(255,255,255,.08)';for(let x=0;x<=1000;x+=250){const px=xToPx(x,left,plotW,m.xMin,m.xMax);ctx.beginPath();ctx.moveTo(px,top);ctx.lineTo(px,top+plotH);ctx.stroke();ctx.fillStyle='rgba(229,231,235,.92)';ctx.font='12px Segoe UI, system-ui';ctx.textAlign='center';ctx.fillText(String(x),px,H-18)}for(let y=-0.2;y<=0.2+1e-6;y+=0.1){const py=yToPx(y,top,plotH,m.yMin,m.yMax);ctx.beginPath();ctx.moveTo(left,py);ctx.lineTo(W-right,py);ctx.stroke();ctx.fillStyle='rgba(229,231,235,.92)';ctx.textAlign='right';ctx.fillText(y.toFixed(2),left-10,py+4)}ctx.strokeStyle='rgba(255,255,255,.18)';ctx.strokeRect(left,top,plotW,plotH);const zero=yToPx(0,top,plotH,m.yMin,m.yMax);ctx.strokeStyle='rgba(255,255,255,.35)';ctx.beginPath();ctx.moveTo(left,zero);ctx.lineTo(W-right,zero);ctx.stroke();const item=items[0];if(item.visible){const pts=item.data.map(p=>({px:xToPx(p.x,left,plotW,m.xMin,m.xMax),py:yToPx(p.y,top,plotH,m.yMin,m.yMax),...p}));const isActive=activeName===item.name;ctx.save();ctx.strokeStyle=item.color;ctx.lineWidth=isActive?5:4;if(isActive){ctx.shadowColor=item.color;ctx.shadowBlur=18}ctx.beginPath();ctx.moveTo(pts[0].px,pts[0].py);for(let i=1;i<pts.length;i++)ctx.lineTo(pts[i].px,pts[i].py);ctx.stroke();ctx.restore();ctx.strokeStyle='#facc15';ctx.setLineDash([8,6]);const thresholdX=xToPx(500,left,plotW,m.xMin,m.xMax);ctx.beginPath();ctx.moveTo(thresholdX,top);ctx.lineTo(thresholdX,top+plotH);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='rgba(156,163,175,.95)';ctx.fillText('~500 kcal/day threshold',thresholdX+6,top+16);for(const p of pts){ctx.fillStyle=item.color;ctx.beginPath();ctx.arc(p.px,p.py,4,0,Math.PI*2);ctx.fill();hits.push({x:p.px-8,y:p.py-8,w:16,h:16,item:{...item,value:p.y,deficit:p.x}})}}ctx.fillStyle='rgba(156,163,175,.95)';ctx.textAlign='center';ctx.fillText(m.xLabel,left+plotW/2,H-38);ctx.save();ctx.translate(16,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.fillText(m.yLabel,0,0);ctx.restore();statusEl.textContent=`${items[0].visible?'1 line shown':'0 lines shown'}`}
+      function draw(){subtitleEl.textContent=currentMode().subtitle;hintEl.textContent=currentMode().hint;overlayEl.textContent=currentMode().overlay;if(currentMode().kind==='forest')drawForest();else if(currentMode().kind==='bar')drawBars();else drawLine()}
+      function applyMode(){activeName=null;buildItems();rebuildChecks();syncActiveRows();draw()}
+      modeEl.addEventListener('change',()=>{modeKey=modeEl.value;applyMode()});
+      document.getElementById('all').addEventListener('click',()=>{for(const item of items)if('visible' in item)item.visible=true;for(const cb of checksEl.querySelectorAll('input'))cb.checked=true;syncActiveRows();draw()});
+      document.getElementById('none').addEventListener('click',()=>{for(const item of items)if('visible' in item)item.visible=false;activeName=null;for(const cb of checksEl.querySelectorAll('input'))cb.checked=false;syncActiveRows();draw()});
+      stage.addEventListener('pointermove',e=>{const r=stage.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;const hit=hits.find(h=>x>=h.x&&x<=h.x+h.w&&y>=h.y&&y<=h.y+h.h);if(!hit){hideTip();return}if(currentMode().kind==='forest'){showTip(`<div><strong>${hit.item.name}</strong></div><div class='muted'>ES ${hit.item.value.toFixed(2)} [${hit.item.low.toFixed(2)}, ${hit.item.high.toFixed(2)}]</div>`,x,y)}else if(currentMode().kind==='bar'){showTip(`<div><strong>${hit.item.name}</strong></div><div class='muted'>ES ${hit.item.value.toFixed(2)}</div><div class='muted'>${hit.item.note}</div>`,x,y)}else{showTip(`<div><strong>${hit.item.name}</strong></div><div class='muted'>${hit.item.deficit} kcal/day | ES ${hit.item.value.toFixed(2)}</div><div class='muted'>${hit.item.note}</div>`,x,y)}});
+      stage.addEventListener('pointerleave',hideTip);
+      window.addEventListener('resize',draw);
+      populateModes();
+      applyMode();
+    </script>
+  </body>
+</html>

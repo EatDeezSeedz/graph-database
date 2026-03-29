@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signorile 2014 leg extension ROM and leg rotation EMG</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(260px,28vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(44dvh,calc(100dvh - 230px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){
+        html,body{height:auto;overflow:auto}body{overflow:auto}
+        .wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}
+        .top{grid-template-columns:1fr}
+        .controls{justify-content:flex-start;gap:6px}
+        .btn,select{padding:6px 9px;font-size:11px}
+        .status{width:100%;white-space:normal}
+        .subtitle,.overlay{display:none}
+        .main{display:flex;flex-direction:column}
+        .left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh);padding-bottom:8px}
+        .check{margin:6px 4px;padding:7px 8px}
+        .stage{order:1;min-height:clamp(260px,46dvh,380px);flex:0 0 auto}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Signorile et al. (2014) - Range of motion and leg rotation during leg extension</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle conditions</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={ti:'#60a5fa',neu:'#e5e7eb',to:'#f59e0b',init:'#60a5fa',mid:'#22c55e',final:'#f59e0b'};
+      const MODES={
+        musclePos:{
+          label:'Muscles by foot position',
+          type:'bar',
+          subtitle:'Study-based summary comparing overall EMG by foot position across the three superficial quadriceps muscles. RF is taken from Figure 6, VL is summarized from Figure 4 and the results text, and VMO reflects the reported lack of a foot-position effect.',
+          hint:'This view is meant for quick cross-muscle comparison. Left to right, the muscles are Vastus medialis oblique (VMO), Rectus femoris (RF), and Vastus lateralis (VL).',
+          overlay:'Bars = study summary of EMG by muscle and foot position',
+          yLabel:'Normalized rms EMG',
+          groups:[
+            {x:1,label:'Vastus medialis oblique (VMO)'},
+            {x:2,label:'Rectus femoris (RF)'},
+            {x:3,label:'Vastus lateralis (VL)'}
+          ],
+          series:[
+            {name:'Toes in',key:'ti',color:COLORS.ti,points:[
+              {x:1,y:0.69,note:'VMO showed no significant foot-position effect in this paper; this is a matched summary value.'},
+              {x:2,y:0.61,note:'Rectus femoris was lower than toes out.'},
+              {x:3,y:0.68,note:'Vastus lateralis had the strongest early/mid-ROM response with toes in.'}
+            ]},
+            {name:'Neutral',key:'neu',color:COLORS.neu,points:[
+              {x:1,y:0.69,note:'VMO showed no significant foot-position effect in this paper; this is a matched summary value.'},
+              {x:2,y:0.62,note:'Rectus femoris was lower than toes out.'},
+              {x:3,y:0.67,note:'Vastus lateralis became strongest in the final ROM with neutral foot position.'}
+            ]},
+            {name:'Toes out',key:'to',color:COLORS.to,points:[
+              {x:1,y:0.69,note:'VMO showed no significant foot-position effect in this paper; this is a matched summary value.'},
+              {x:2,y:0.67,note:'Highest rectus femoris condition; significantly above toes in and neutral.'},
+              {x:3,y:0.63,note:'Lower overall vastus lateralis activity, especially if the goal is to reduce VL contribution.'}
+            ]}
+          ]
+        },
+        vlRom:{
+          label:'Vastus lateralis by ROM and foot position',
+          type:'bar',
+          subtitle:'Figure 4 reconstruction of normalized vastus lateralis rms EMG across the first, middle, and final 0.524 rad segments of leg extension.',
+          hint:'This is the key ROM × foot-position result for the VL. The paper reports toes in highest in the middle ROM, while neutral is strongest in the final ROM.',
+          overlay:'Bars = Figure 4 estimated mean NrmsEMG',
+          yLabel:'Normalized rms EMG',
+          groups:[
+            {x:1,label:'0–0.524 rad'},
+            {x:2,label:'0.525–1.047 rad'},
+            {x:3,label:'1.06–1.57 rad'}
+          ],
+          series:[
+            {name:'Toes in',key:'ti',color:COLORS.ti,points:[
+              {x:1,y:0.62,note:'Early ROM. Similar to neutral, higher than toes out.'},
+              {x:2,y:0.71,note:'Middle ROM. Highest VL condition in the study figure.'},
+              {x:3,y:0.72,note:'Late ROM. Lower than neutral, similar to toes out.'}
+            ]},
+            {name:'Neutral',key:'neu',color:COLORS.neu,points:[
+              {x:1,y:0.60,note:'Early ROM. Similar to toes in.'},
+              {x:2,y:0.66,note:'Middle ROM. Below toes in.'},
+              {x:3,y:0.75,note:'Late ROM. Highest VL activity in the final segment.'}
+            ]},
+            {name:'Toes out',key:'to',color:COLORS.to,points:[
+              {x:1,y:0.56,note:'Early ROM. Lowest early-ROM VL condition.'},
+              {x:2,y:0.65,note:'Middle ROM. Similar to neutral, below toes in.'},
+              {x:3,y:0.68,note:'Late ROM. Below neutral.'}
+            ]}
+          ]
+        },
+        vlRep:{
+          label:'Vastus lateralis across repetitions',
+          type:'line',
+          subtitle:'Figure 5 reconstruction of vastus lateralis normalized rms EMG across repetitions for the three ROM segments.',
+          hint:'The first 0.524 rad stayed lower than the middle and final segments through the set. Middle and final ROM tracked closely together.',
+          overlay:'Lines = Figure 5 estimated average NrmsEMG',
+          yLabel:'Normalized rms EMG',
+          xLabel:'Repetition',
+          xValues:[1,2,3,4,5,6,7,8],
+          series:[
+            {name:'0–0.524 rad',key:'init',color:COLORS.init,points:[{x:1,y:0.46},{x:2,y:0.56},{x:3,y:0.58},{x:4,y:0.60},{x:5,y:0.63},{x:6,y:0.67},{x:7,y:0.68},{x:8,y:0.70}]},
+            {name:'0.525–1.047 rad',key:'mid',color:COLORS.mid,points:[{x:1,y:0.60},{x:2,y:0.63},{x:3,y:0.63},{x:4,y:0.67},{x:5,y:0.69},{x:6,y:0.73},{x:7,y:0.75},{x:8,y:0.78}]},
+            {name:'1.047–1.570 rad',key:'final',color:COLORS.to,points:[{x:1,y:0.63},{x:2,y:0.65},{x:3,y:0.67},{x:4,y:0.69},{x:5,y:0.71},{x:6,y:0.73},{x:7,y:0.75},{x:8,y:0.78}]}
+          ]
+        },
+        rfPos:{
+          label:'Rectus femoris by foot position',
+          type:'bar',
+          subtitle:'Figure 6 reconstruction of normalized rectus femoris rms EMG by foot position.',
+          hint:'This is the cleanest rectus femoris result in the paper: toes out was clearly highest regardless of ROM.',
+          overlay:'Bars = Figure 6 estimated mean NrmsEMG',
+          yLabel:'Normalized rms EMG',
+          groups:[
+            {x:1,label:'Toes in'},
+            {x:2,label:'Neutral'},
+            {x:3,label:'Toes out'}
+          ],
+          series:[
+            {name:'Rectus femoris',key:'rf',color:'#f472b6',points:[
+              {x:1,y:0.61,note:'Lower than toes out.'},
+              {x:2,y:0.62,note:'Lower than toes out.'},
+              {x:3,y:0.67,note:'Highest RF condition; significantly greater than neutral and toes in.'}
+            ]}
+          ]
+        },
+        rfRep:{
+          label:'Rectus femoris across repetitions',
+          type:'line',
+          subtitle:'Figure 7 reconstruction of rectus femoris normalized rms EMG across the 8-repetition set.',
+          hint:'Rectus femoris climbed steadily across the set, showing the fatigue-related rise in EMG reported in the paper.',
+          overlay:'Line = Figure 7 estimated average NrmsEMG',
+          yLabel:'Normalized rms EMG',
+          xLabel:'Repetition',
+          xValues:[1,2,3,4,5,6,7,8],
+          series:[
+            {name:'Rectus femoris',key:'rfline',color:'#f472b6',points:[{x:1,y:0.52},{x:2,y:0.56},{x:3,y:0.61},{x:4,y:0.63},{x:5,y:0.67},{x:6,y:0.69},{x:7,y:0.70},{x:8,y:0.74}]}
+          ]
+        },
+        vmoRep:{
+          label:'VMO across repetitions',
+          type:'line',
+          subtitle:'Figure 8 reconstruction of vastus medialis oblique normalized rms EMG across repetitions for the three ROM segments.',
+          hint:'The study’s VMO result was mainly about ROM, not foot position: middle and final ROM were higher than the first 0.524 rad, especially later in the set.',
+          overlay:'Lines = Figure 8 estimated average NrmsEMG',
+          yLabel:'Normalized rms EMG',
+          xLabel:'Repetition',
+          xValues:[1,2,3,4,5,6,7,8],
+          series:[
+            {name:'0–0.524 rad',key:'init',color:COLORS.init,points:[{x:1,y:0.49},{x:2,y:0.56},{x:3,y:0.60},{x:4,y:0.62},{x:5,y:0.67},{x:6,y:0.70},{x:7,y:0.72},{x:8,y:0.73}]},
+            {name:'0.525–1.047 rad',key:'mid',color:COLORS.mid,points:[{x:1,y:0.62},{x:2,y:0.64},{x:3,y:0.67},{x:4,y:0.70},{x:5,y:0.73},{x:6,y:0.76},{x:7,y:0.77},{x:8,y:0.80}]},
+            {name:'1.047–1.570 rad',key:'final',color:COLORS.to,points:[{x:1,y:0.63},{x:2,y:0.65},{x:3,y:0.66},{x:4,y:0.68},{x:5,y:0.72},{x:6,y:0.74},{x:7,y:0.75},{x:8,y:0.78}]}
+          ]
+        }
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='vlRom',visible={ti:true,neu:true,to:true,init:true,mid:true,final:true,rf:true,rfline:true},drag=null,view={minX:0,maxX:4,minY:0,maxY:1};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      const cfg=()=>MODES[mode];
+      const currentSeries=()=>cfg().series.filter(s=>visible[s.key]);
+      function bounds(){
+        const c=cfg(), pts=currentSeries().flatMap(s=>s.points);
+        if(!pts.length) return c.type==='bar'?{minX:0.4,maxX:3.6,minY:0,maxY:1}:{minX:1,maxX:8,minY:0.45,maxY:0.85};
+        const xs=pts.map(p=>p.x), ys=pts.map(p=>p.y);
+        const minX=Math.min(...xs), maxX=Math.max(...xs), minY=Math.min(...ys), maxY=Math.max(...ys);
+        if(c.type==='bar') return {minX:minX-0.7,maxX:maxX+0.7,minY:0,maxY:Math.max(1,maxY*1.22)};
+        const yPad=Math.max(0.04,(maxY-minY||0.1)*0.22);
+        return {minX:minX-0.45,maxX:maxX+0.45,minY:Math.max(0,minY-yPad),maxY:maxY+yPad};
+      }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      const sx=(x,p)=>p.x+((x-view.minX)/(view.maxX-view.minX))*p.w;
+      const sy=(y,p)=>p.y+p.h-((y-view.minY)/(view.maxY-view.minY))*p.h;
+      function niceTicks(min,max,target=5){ const span=max-min||1, rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function drawAxes(plot){
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of niceTicks(view.minY,view.maxY,5)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(y.toFixed(y<1?2:1).replace(/\.00$/,''),16,py+4); }
+        ctx.textAlign='center';
+        const c=cfg();
+        const ticks=c.type==='bar'?c.groups.map(g=>g.x):c.xValues.filter(x=>x>=view.minX-0.001&&x<=view.maxX+0.001);
+        for(const x of ticks){ const px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); const label=c.type==='bar'?(c.groups.find(g=>g.x===x)?.label||x):`${x}`; wrapText(label,px,plot.y+plot.h+28,90,14); }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(c.yLabel,0,0); ctx.restore();
+        ctx.fillText(c.type==='bar'?'Condition / ROM':c.xLabel,plot.x+plot.w/2,plot.y+plot.h+62);
+      }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:82,y:20,w:Math.max(120,w-112),h:Math.max(110,h-106)};
+        drawAxes(plot);
+        const markers=[], c=cfg();
+        if(c.type==='bar'){
+          const series=currentSeries(), spacing=6, barW=Math.max(8,Math.min(32,Math.max(10,plot.w/(c.groups.length*6))));
+          for(const group of c.groups){
+            const xCenter=sx(group.x,plot), totalW=(barW*series.length)+Math.max(0,series.length-1)*spacing;
+            series.forEach((s,idx)=>{ const point=s.points.find(p=>p.x===group.x); if(!point) return; const x=xCenter-totalW/2+idx*(barW+spacing), y=sy(point.y,plot), hBar=Math.max(1,plot.y+plot.h-y); ctx.fillStyle=s.color; ctx.globalAlpha=0.92; ctx.fillRect(x,y,barW,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x,y,barW,hBar); markers.push({shape:'bar',x,y,w:barW,h:hBar,series:s,point,group}); });
+          }
+        } else {
+          for(const s of currentSeries()){ ctx.strokeStyle=s.color; ctx.lineWidth=3.5; ctx.beginPath(); s.points.forEach((p,i)=>{ const x=sx(p.x,plot), y=sy(p.y,plot); if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); }); ctx.stroke(); for(const p of s.points){ const x=sx(p.x,plot), y=sy(p.y,plot); ctx.fillStyle=s.color; ctx.beginPath(); ctx.arc(x,y,5,0,Math.PI*2); ctx.fill(); markers.push({shape:'point',x,y,r:10,series:s,point:p}); } }
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=c.type==='bar'?`${currentSeries().length} series visible`:`${(view.maxX-view.minX).toFixed(1)} rep view`;
+      }
+      function renderLegend(){
+        const c=cfg(); subtitle.textContent=c.subtitle; hint.textContent=c.hint; overlay.textContent=c.overlay; legend.innerHTML='';
+        for(const s of c.series){ const row=document.createElement('div'); row.className='check'+(visible[s.key]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[s.key]?'checked':''} /><span class="swatch" style="background:${s.color}"></span><label>${s.name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{visible[s.key]=e.target.checked; fit(); renderLegend();}); row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[s.key]=box.checked; fit(); renderLegend(); }}); legend.appendChild(row); }
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>m.shape==='bar'?(x>=m.x&&x<=m.x+m.w&&y>=m.y&&y<=m.y+m.h):Math.hypot(m.x-x,m.y-y)<=m.r);
+        if(!hit){ tooltip.style.display='none'; return; }
+        const c=cfg();
+        if(c.type==='bar') tooltip.innerHTML=`<div><strong>${hit.group.label}</strong></div><div class="muted">${hit.series.name}</div><div>${c.yLabel}: <strong>${hit.point.y.toFixed(2)}</strong></div><div>${hit.point.note}</div>`;
+        else tooltip.innerHTML=`<div><strong>${hit.series.name}</strong></div><div class="muted">Repetition ${hit.point.x}</div><div>${c.yLabel}: <strong>${hit.point.y.toFixed(2)}</strong></div><div>Figure-based reconstruction of the reported fatigue/ROM trend.</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90, left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)), top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      function clampView(){ const b=bounds(), spanX=view.maxX-view.minX; if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; } if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; } if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; } }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={ti:true,neu:true,to:true,init:true,mid:true,final:true,rf:true,rfline:true}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ for(const c of Object.values(MODES)) for(const s of c.series) visible[s.key]=true; fit(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ for(const c of Object.values(MODES)) for(const s of c.series) visible[s.key]=false; fit(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const c=cfg(); const plot=stage._plot||{x:82,w:Math.max(120,stage.clientWidth-112)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const newSpan=Math.max(c.type==='bar'?1.2:1.6,Math.min(bounds().maxX-bounds().minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

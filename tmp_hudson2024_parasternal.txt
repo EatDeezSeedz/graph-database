@@ -1,0 +1,765 @@
+                                                                                                              J Appl Physiol 136: 695–706, 2024.
+                                                                           First published February 8, 2024; doi:10.1152/japplphysiol.00604.2023
+
+
+
+ RESEARCH ARTICLE
+
+Graded onset of parasternal intercostal inspiratory activity detected with
+surface electromyography in healthy young females and males
+         Anna L. Hudson,1,2,3        Billy L. Luu,2      Simon C. Gandevia,2,3 and             Jane E. Butler2,3
+     1
+     Flinders Health and Medical Research Institute, Flinders University, Adelaide, South Australia, Australia; 2Neuroscience
+     Research Australia, Sydney, New South Wales, Australia; and 3University of New South Wales, Sydney, New South Wales,
+     Australia
+
+Abstract
+Intramuscular recordings of single motor unit activity from parasternal intercostal muscles show a rostrocaudal gradient in timing
+and amplitude of inspiratory activity. This study determined the feasibility of surface electromyographic activity (EMG) to measure
+graded parasternal intercostal activity in young females and males during quiet breathing and breathing with inspiratory resistive
+loads. Surface EMGs were recorded from the 1st-to-5th parasternal intercostal muscles during 10 min of breathing. EMGs were
+processed to remove 50 Hz and electrocardiogram artifacts and integrated. Amplitude and onset time of inspiratory activity
+were measured from waveform averages triggered at the onset of inspiratory ﬂow. Onset times were measured independently
+by two assessors, blinded to interspace and EMG scale, with excellent agreement (ICC3,k ¼ 0.86). The onset of inspiratory activ-
+ity in the 1st-to-3rd interspaces was at or within 400 ms of the start of inspiratory airﬂow, but activity in the caudal (4th and
+5th) spaces was delayed by up to 1,000 ms (P < 0.001). There was no main effect of sex on onset time (P ¼ 0.07), but an inter-
+action with interspace (P < 0.001) revealed that inspiratory activity in the caudal interspaces was delayed by 15% of inspiratory
+time in female participants compared with 30% of inspiratory time in male participants. Inspiratory loads did not affect EMG onset
+time (P ¼ 0.31). Thus, surface EMG is feasible to assess the onset time of inspiratory activity as a marker of inspiratory neural
+drive and pattern of activation across spaces, in both females and males.
+NEW & NOTEWORTHY We demonstrated that surface EMG is a valid method to measure graded inspiratory EMG in the para-
+sternal intercostal muscles in healthy young male and female participants during quiet breathing and loaded breathing. Across
+the 1st-to-5th interspaces, there was more homogenous activation in women and more graded activity in men across parasternal
+intercostal muscles during breathing. By recording surface EMG from both male and female participants, we have revealed sex
+differences in inspiratory activity across intercostal muscles.
+
+EMG; neuromechanical matching; noninvasive; sex differences
+
+
+
+
+   INTRODUCTION                                                          peak ﬁring frequencies of 13 Hz in the 1st interspace and 8
+                                                                         Hz in the 5th space (3). This graded motor unit activity across
+  The human inspiratory muscles are arguably the hardest                 interspaces parallels the muscles’ “mechanical advantage”
+working skeletal muscles in the body. They contract rhyth-               for inspiration, which is a measure of the relative airﬂow
+mically all our lives to ventilate the lungs. Intramuscular              each portion of muscle can generate when it contracts and
+recordings of single motor unit activity from human inspira-             shortens (5). The muscles with greater inspiratory mechani-
+tory pump muscles have revealed a precise pattern of muscle              cal advantage (e.g., 1st parasternal intercostal muscle) are
+activation during quiet breathing (1, 2). This precision occurs          active earlier in the breath and the peak discharge rate of the
+within and across motoneurone pools as revealed by differ-               motor units is higher compared with those with a lower me-
+ences in the onset times and discharge rates of single motor             chanical advantage (e.g., 5th parasternal intercostal) that
+units during inspiration, with the diaphragm consistently                are recruited later with lower discharge rates during inspi-
+recruited earliest and exhibiting the highest motor unit dis-            ration (3). This graded activation pattern according to the
+charge rates (1, 3, 4). For the parasternal intercostal muscles,         relative mechanical advantage of the muscles is termed
+inspiratory activity in the 1st interspace begins early, coin-           “neuromechanical matching,” and functions to minimize
+ciding with the onset of inspiratory ﬂow, whereas muscle                 the metabolic cost of their activation for inspiration (6).
+activities in the 4th and 5th spaces are delayed until 1 s              Neuromechanical matching is now recognized to also occur
+into the breath. The discharge rates of parasternal intercostal          in limb and trunk muscles (e.g., Refs. 7, 8, 9, for review see
+motor units also vary along a rostrocaudal gradient with                 Ref. 10).
+
+
+Correspondence: A. L. Hudson (anna.hudson@ﬂinders.edu.au).
+Submitted 29 August 2023 / Revised 25 January 2024 / Accepted 5 February 2024
+
+http://www.jap.org                    8750-7587/24 Copyright © 2024 the American Physiological Society.                                     695
+
+               Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                          SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+   Neuromechanical matching is well-deﬁned in healthy                   both the onset time of inspiratory activity and the peak dis-
+(male) participants for both the parasternal and external in-           charge rates of parasternal intercostal motor units have
+tercostal muscles (3, 4, 10), but it is not known if recruitment        graded patterns, where the earliest onset of inspiratory activ-
+of the intercostal muscles by neuromechanical matching                  ity across interspaces corresponds with the highest peak
+persists in lung diseases such as chronic obstructive pulmo-            discharge rates (3, 21, 22). Furthermore, when the peak dis-
+nary disease (COPD). Structural changes in the lungs, chest,            charge rates increase in voluntary breaths compared with
+and respiratory muscles increase the work of breathing in               quiet breaths, the onset of inspiratory activity also advances
+COPD through both increased airway resistance and hyper-                to be earlier relative to inspiratory ﬂow (21). Thus, the timing
+inﬂation. The latter also reduces respiratory capacity and              of activity from surface recordings relative to the onset of
+severely compromises the pressure-generating capacity of                inspiratory ﬂow may be used to assess the graded muscle ac-
+the diaphragm in COPD. We also predict hyperinﬂation                    tivity across intercostal spaces without the need to normalize
+reduces the pressure-generating capacity of the intercostal             to maximal efforts. Compared with the single motor unit
+muscles (11, 12), which would further increase the work of              technique in which the onset of inspiratory activity is easily
+breathing (13), especially if the intercostal muscles are not           identiﬁed from the ﬁrst motor unit spike, surface EMG has
+recruited according to their mechanical advantages, i.e., by            lower ﬁdelity. Thus, our study design included blinded and
+neuromechanical matching, as occurs in health. The inter-               independent measurement of onset time by two assessors.
+costal muscles contribute 20% of the total inspiratory nega-           To assess the sensitivity of surface recordings to changes in
+tive pressure during maximal breaths in healthy participants            neural respiratory drive, we included both quiet breathing
+(14, 15). During exercise (minute ventilation of 40 L/min), it          and breathing through external inspiratory loads, as resistive
+is estimated from esophageal and gastric pressure changes               loads have been shown previously to increase intercostal
+that there is a greater contribution from the inspiratory               EMG amplitude in dogs (e.g., Ref. 23) and also do so in peo-
+muscles acting on the rib cage (i.e., intercostal and scalenes          ple with COPD (24).
+muscles) than from the diaphragm in people with severe                     The aim of this study was to determine the feasibility of sur-
+COPD compared with controls (16). This suggests optimal                 face EMG to measure graded inspiratory EMG in the paraster-
+pressure generation by the intercostal muscles is even                  nal intercostal muscles in healthy young male and female
+more important during exercise in COPD when dynamic                     participants during quiet breathing and loaded breathing using
+hyperinﬂation occurs. Unfortunately, because people with                inspiratory resistive loads. We hypothesized that onset times
+respiratory disease are particularly vulnerable to the risks            for surface recordings of parasternal intercostal EMG would
+associated with the use of intramuscular recordings from the            follow a graded pattern of inspiratory activity as has been
+intercostal muscles (e.g., pneumothorax), it is not known               shown with intramuscular EMG. In contrast, we hypothesized
+whether the pattern of activation of the intercostal muscles            that the amplitude of inspiratory EMG would not show a
+in COPD has adapted to the associated altered chest wall,               graded pattern due to the variable distances between the skin
+lung, and respiratory muscle mechanics. In addition, intra-             and parasternal intercostal muscles and inaccuracies that can
+muscular recordings from the intercostal muscles in females             occur during EMG normalization.
+can be difﬁcult, presumably due to thinner muscles and nar-
+rower intercostal spaces for needle insertion. All previous                 METHODS
+intramuscular assessments of intercostal muscle activity in
+healthy participants have been made in men. Therefore, it is               The study received ethical approval from the Southern
+not known if the graded output across the parasternal inter-            Adelaide Clinical Human Research Ethics Committee (2021/
+costal muscles is comparable between men and women. Sex                 HRE00408) and South Eastern Sydney Local Health District
+differences in inspiratory muscle activity amplitude have               Human Research Ethics Committee (2022/ETH00113). All par-
+been observed previously (17).                                          ticipants gave informed and written consent to participate.
+   The parasternal intercostal and external intercostal                 The study was performed in accordance with the Declaration
+muscles, although very thin (1–2 mm) are close to the skin,             of Helsinki (2013) except for Clause 35 - registration in a public
+which makes noninvasive surface recordings of their electro-            database (25). Data were collected at two sites: Flinders
+myographic activity (EMG) possible. Surface EMG of para-                University (n ¼ 16) and Neuroscience Research Australia (n ¼
+sternal intercostal muscle activity from the 2nd interspace is          4) with comparable equipment, as detailed below, and the
+used as an alternative to crural diaphragm EMG to estimate              same protocol.
+overall “neural respiratory drive” (18, 19). Typically, this               Twenty participants [10 females, aged 24.8 ± 5.5 yr (mean ±
+involves normalizing EMG amplitude to the maximum EMG                   SD), body mass index (BMI) 22.7 ± 3.1 and 10 males, aged
+amplitude in a maximal inspiratory effort. Absolute surface             29.5 ± 5.3 yr, BMI 23.1 ± 1.8] with no signiﬁcant history of smok-
+EMG amplitude cannot be compared between intercostal                    ing or respiratory disease were recruited.
+spaces because it is impacted by variable distances and                    Measurements of forced expiratory volume in 1 s (FEV1)
+impedances between electrodes on the skin and the underly-              and forced vital capacity (FVC) were made using a USB desk-
+ing muscles. However, EMG cannot accurately be normal-                  top or handheld spirometer (Spiro USB, CareFusion, San
+ized to maximum in intercostal muscles because maximal                  Diego, CA or One Flow FVC Memo, Clement Clarke, Essex,
+EMG can be confounded by postural nonrespiratory activity               UK, respectively) using the American Thoracic Society/
+and is variable during attempted maximal efforts (20). To               European Respiratory Society (ERS) criteria (26). Predicted
+our knowledge, no previous studies have reported the timing             values for FEV1 and FVC were calculated using the ERS
+of surface parasternal intercostal EMG during breathing. We             Global Lung Function Initiative values (27). Maximal inspir-
+have shown in three studies using intramuscular EMG that                atory pressure at residual volume was measured with a
+
+696                                   J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org
+              Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                          SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+pressure meter (MicroRPM, CareFusion). At least three                      EMG and ECG signals were ampliﬁed and ﬁltered (second
+attempts were made, until at least two were within 10% of               order 16–1,000 Hz, 1902, Cambridge Electronic Design,
+each other, and the best of these was recorded. Predicted               Cambridge, UK, or ﬁrst order 53–1,000 Hz, modiﬁed D140
+values were calculated (28).                                            analog ﬁlter, Digitimer Ltd, Welwyn Garden City, UK) and
+   Surface EMG from the 1st-to-5th parasternal intercostal              sampled at 2,000 Hz. Respiratory variables were sampled at
+muscles on the right side were recorded simultaneously using            1,000 Hz. All signals were digitized (Power 1401, Cambridge
+bipolar electrodes (Triode Electrodes, Thought Technology,              Electronic Design) for ofﬂine analysis.
+Montreal, Canada; trimmed to 2 electrodes with an interelec-               Following EMG recordings, or on a separate visit, ultra-
+trode distance of 20 mm). The position for each electrode pair          sound was used to visualize and measure the depth of the
+was determined by palpation. The active electrode was posi-             1st-to-5th parasternal intercostal muscles where surface
+tioned over the parasternal intercostal muscle where the wid-           electrodes were placed (5 cm MHz linear probe, CX50 or
+est gap between costal cartilages was palpated, as close to the         iU22, Philips, Amsterdam, The Netherlands) in 18 of 20
+sternum as possible. The reference electrode was positioned             participants (8 females). Images were taken at end-expira-
+medially along the interspace over a narrower portion of the            tion, ﬁrst with usual pressure on the ultrasound probe to
+muscle. Bipolar electrodes (Cleartrace, ConMed Corp., Utica,            optimize the image of the muscles, and then the pressure
+NY) were also used to record EMG from the right lateral chest           on the probe was slowly released to the point just before
+wall overlying the costal diaphragm (40 mm interelectrode              the probe lifted off the skin to minimize error in the mus-
+distance along the 7th or 8th intercostal space) and left chest         cle depth measurements due to compression of superﬁcial
+to record the electrocardiogram (ECG, 50 mm above and                  tissues.
+below the nipple). A common ground electrode was on the
+                                                                        Data Analysis
+right shoulder. All electrode sites were cleaned using alcohol
+swabs and gauze, and a conductive, adhesive gel (Tensive,                  Data were analyzed using Spike2 (Cambridge Electronic
+Parker Labs, Fairﬁeld, NJ) was applied to each electrode pair           Design) and MATLAB (R2016b, The MathWorks, Inc., Natick,
+before their placement over the parasternal intercostals.               MA). EMG collected with the Digitimer ampliﬁers (n ¼ 4) was
+   During EMG recordings, participants were seated com-                 reﬁltered ofﬂine using a zero-phase, second-order Butterworth
+fortably with arm and head supports to minimize postural                ﬁlter 16–1,000 Hz in MATLAB to remove remanent low-fre-
+activity in the trunk and neck. Participants removed their              quency components (see Ref. 30). All EMG data were then
+upper garments, but for modesty reasons, female partici-                processed to remove 50-Hz noise using the HumRemove
+pants chose to keep on a bra which was moved aside as nec-              script (Spike2), which subtracts a replica of the noise from the
+essary to place electrodes in the 4th and 5th interspaces.              EMG based on waveform averaging over windows of 3–4 s.
+Participants wore a nose clip and breathed through a mouth-             ECG artifacts were removed in MATLAB using the independ-
+piece connected to a bacterial/viral ﬁlter (MicroGard II, Vyaire,       ent component analysis and wavelet transform technique
+Hoechberg, Germany) and pneumotachometer (Series 3813,                  described by Wu and colleagues (31; see Ref. 32).
+Hans Rudoph Inc., Shawnee, KS, and DP45-14, Validyne,                      Processed EMG channels were integrated with a leaky
+Northridge, CA) connected to a two-way valve. Mouth pressure            integrator (time constant 0.1 s). A custom-made Spike2
+was monitored close to the mouth (DP45-26, Validyne) and                script was then used to place markers at the start of each
+fraction of expired CO2 at the expiratory port of the two-way           breath, based on a threshold crossing at zero inspiratory
+valve (Normocap; Datex Instrumentarium, Helsinki, Finland or            airﬂow. All markers were veriﬁed by eye and markers
+CO2 Analyzer, model 17630, VacuMed, Ventura, CA).                       were removed if there was postural activity on any of the
+   Participants performed three slow vital-capacity (VC)                EMG channels. Continuous measures of airﬂow were inte-
+maneuvers on the mouthpiece to determine inspiratory                    grated ofﬂine to determine tidal volume. Waveform aver-
+capacity (IC; between end-expiratory lung volume and                    ages triggered from the start of each breath were created
+total lung capacity) from the best of the three efforts.                for all respiratory variables and EMGs over the 10 min of
+Participants then breathed quietly on the mouthpiece for                quiet or loaded breathing and over 20 min of quiet breath-
+10 min. No instructions were given regarding the depth                  ing for ﬁve participants. The signal processing steps are
+and frequency at which they breathed. To determine the                  illustrated in Fig. 1.
+effect of measurement of more breaths in the waveform                      The onset of inspiratory EMG for each muscle was deter-
+average and improved signal-to-noise ratio on the mea-                  mined from the trigger-averaged waveforms by two assessors
+surement of the onset of EMG in each muscle, 5 of 20 par-               (authors AH and BL) who were blinded to the muscle and its
+ticipants (2 females) performed an additional 10 min of                 amplitude (y-axis scale; see Fig. 2). Only one muscle
+quiet breathing (i.e., total 20 min). Then, all participants            (diaphragm or 1st–5th parasternal intercostal muscles) was
+performed two conditions of loaded breathing (10 min                    presented to the assessor at a time, whereas ECG, mouth pres-
+each) using external nonlinear resistive loads that reduced             sure, and airﬂow were always shown. The order of muscle pre-
+the internal diameter of the inspiratory port of the two-               sentation was randomized, and all channels were presented
+way valve. Expiration was not loaded. The “low load” had                with ﬁxed, consistent axes to ensure that both assessors per-
+an estimated resistance of 2.9–3.9 cmH2O/L/s and the                    formed the analyses using the same scale ranges. These analy-
+“high load” of 7.2–9.4 cmH2O/L/s for airﬂows of 0.2–0.3 L/s             ses were performed separately by the assessors. If the onset of
+(see loads 1 and 3 in Fig. 2 for pressure vs. ﬂow characteris-          inspiratory EMG could not be determined, i.e., no clear
+tics of each load in Ref. 29). One participant completed the            inspiratory signal above the background noise, the muscle
+low load only due to time restraints during recordings.                 could be skipped (which resulted in a missing value for sta-
+Five-minute breaks were taken between conditions.                       tistical analysis). For one participant, EMG from the 4th
+
+                                      J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org                            697
+              Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                              SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+
+
+Figure 1. Inspiratory EMG recording and signal processing. Traces from one participant showing raw EMG data (A) for three breaths from the 1st-to-5th
+parasternal intercostal (PSIC) muscles and costal diaphragm (Dia), along with electrocardiogram (ECG, top trace), mouth pressure (Pm) and airﬂow (inspir-
+atory ﬂow > zero ﬂow, as indicated by the horizontal line). B: processed data after removal of 50-Hz noise and ECG artifacts, which improved the signal-
+to-noise ratio of all EMG data. In this example, raw diaphragm EMG had single motor unit activity recorded from surface electrode over the right chest
+wall (A, the only case from all 20 participants), which was removed in the ECG ﬁltering due to the similarity in shape between the single motor unit and
+ECG waveforms. However, multiunit diaphragm activity remained. Inspiratory (Insp.) markers, generated off-line from a threshold crossing of airﬂow,
+were used to make waveform averages with a ﬁxed window width of 8 s (C). The onset of inspiratory EMG (indicated by black arrows) was determined in-
+dependently by two assessors blinded to muscle and EMG scale and the amplitude of inspiratory EMG (relative to baseline, indicated by gray arrows)
+was determined by one assessor. Respiratory parameters were also measured from waveform averages. Vertical scale bars for mouth pressure and air-
+ﬂow are 1 cmH2O, and 0.5 L·s1 for all panels.
+
+
+parasternal intercostal muscle was unavailable as the elec-                   intercostal muscles (3), ECG, a large and pervasive waveform
+trode and ground wires were incorrectly attached. The                         was used as the “signal” in this estimate. The amplitude of
+Spike2 script also measured respiratory variables from the                    the QRS waveform of the ECG signal differed throughout the
+average data for each participant and condition.                              respiratory cycle due to the big interelectrode distance and
+   For analysis, the average onset times (TO) of the assessors                chest movement during breathing. Thus, the amplitudes of
+for each participant were used, expressed as a percentage of                  QRS waveforms over a respiratory cycle were measured
+inspiratory time (TI), i.e., TO/TI%. To allow for comparison                  before the data were processed, and the average amplitude
+with previously published data (3), the duration of activity
+(TI  TO)/TI % was calculated for Fig. 4. The duration per-
+centage was greater than 100 when activity preceded the
+onset of inspiratory airﬂow and less than 100 when activity
+started after the onset of airﬂow.
+   One assessor also rated the onset of inspiratory EMG
+from waveform averages of 20 min of quiet breathing for
+participants. This assessor also measured the amplitude of
+integrated EMG for quiet and loaded breathing from the
+waveform averages (Fig. 1) and for the three slow vital-
+capacity maneuvers. The largest EMG value recorded from
+each muscle during the inspiratory phase of the FVC maneu-
+ver was taken as “maximal” EMG and used to compute nor-
+malized EMG (i.e., EMG%max). Surface EMG electrodes had
+to be replaced between conditions for 11 muscles from ﬁve
+participants due to signal degradation, so these values of
+EMG amplitude could not be compared with EMG in quiet
+breathing and are missing in the statistics. Maximal EMGs
+were not measured for 24 muscles from ﬁve participants due
+to poor EMG signals during FVC maneuvers that were subse-                     Figure 2. Comparison of the blinded assessment of inspiratory onset
+quently replaced before the quiet and loaded breathing condi-                 times by two assessors from waveform averages of surface EMG record-
+tions. Thus, EMG%max was not computed for these muscles.                      ings. Means ± SD across all conditions for the onset of inspiratory EMG
+                                                                              from the costal diaphragm (Dia) and 1st-to-5th parasternal intercostal
+   To indicate the quality of the surface recordings, an esti-                muscles (PSIC) in 20 participants (10 females). Two assessors measured
+mate of the signal-to-noise ratio was computed. Given the                     the onset times independently, blinded to the muscle, and the average
+known differences in intercostal EMG amplitude across the                     onset time was used for further analysis.
+
+698                                       J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org
+                Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                               SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+was computed. The number of waveforms ranged between 5                         between all ﬁxed effects, on the onset time, EMG amplitude,
+and 16 depending on the heart rate and respiratory cycle                       and normalized EMG amplitude (EMG%max). The depend-
+length of each participant. The amplitude of “noise” (includ-                  ence of data from the same participant was accounted for by
+ing 50 Hz interference) for all EMG signals was measured                       including random intercepts for each participant in all mod-
+from the raw data before processing during a period of EMG                     els. Pairwise comparisons were made with Bonferroni
+and ECG quiescence. A ratio of ECG signal to noise was                         adjustments for multiple comparisons. Statistical analyses
+determined for each muscle.                                                    were performed using IBM SPSS Statistics (v28, IBM Corp,
+   The ultrasound images with pressure off the probe were                      Armonk, NY), except t tests and Mann–Whitney rank sum
+used to measure the depth between the skin and superﬁcial                      tests, which were performed using SigmaStat, version 12.0
+edge of the 1st-to-5th intercostal muscles as a straight line to               (Systat Software Inc., San Jose, CA). Data are expressed as
+the midpoint of the muscle between the cartilages (line func-                  mean ± SD or estimated marginal means (EMM) with 95%
+tion, Philips Dicom Viewer, Cambridge, MA).                                    conﬁdence intervals, and statistical signiﬁcance was set at
+                                                                               P < 0.05.
+Statistics
+   Intraclass correlation (two-way mixed, absolute agree-                         RESULTS
+ment, average measures; ICC3,k) was used to determine the
+reliability of onset times for two assessors and to compare                       Participants had normal lung function with an FEV1 of
+onset times between 10 and 20 min of quiet breathing.                          3.8 ± 0.8 L (101 ± 12%predicted; means ± SD), FVC of 4.9 ± 1.1 L
+Skipped assessments were not included. Chi-squared test                        (104 ± 14%predicted), FEV1/FVC ratio of 0.83 ± 0.4 (97 ± 5%
+(cross tabs, likelihood ratio) was used to assess if the number                predicted), and maximal inspiratory pressures of 91.6 ± 27.9
+of skipped assessments of onset time, across all breathing                     cmH2O (90.3 ± 23.9%predicted). The mean ± SD (range) num-
+conditions, differed between parasternal intercostal muscles                   ber of breaths included in waveform averages was 115 ± 31
+and assessors. T tests or Mann–Whitney rank-sum tests were                     breaths (44  165), 93 ± 32 (39  167), and 87 ± 32 breaths
+used to compare muscle depth and ECG signal-to-noise ratio                     (39  153) for quiet breathing, low-load, and high-load condi-
+for EMG signals that were measured and those skipped by at                     tions, respectively. The respiratory variables during quiet
+least one assessor for quiet breathing assessments.                            and loaded breathing are summarized in Table 1. Mouth
+   Mixed-effect linear models ﬁt by restricted maximum like-                   pressure swings increased sequentially from quiet breathing
+lihood were used to assess the effect of condition (i.e., quiet                to low load to high load. Mean inspiratory ﬂow was less with
+breathing, low load, high load), sex (male, female), and their                 both loads, compared with quiet breathing, with larger
+interaction, on respiratory parameters (see Ref. 33). A mixed-                 reductions in ﬂow during loaded breathing in males com-
+effect linear model was also used to assess the effect of para-                pared with females (see Table 1). Inspiratory time was
+sternal interspace, sex and their interaction, on the depth                    shorter and tidal volume was less in females compared with
+of parasternal intercostal muscles, estimated from ultra-                      males. However, as a proportion of inspiratory capacity, tidal
+sound images and the ECG signal-to-noise ratio. Separate                       volume was comparable between sexes.
+mixed-effect linear models were used to assess the effects of                     The onset of inspiratory EMG could not be determined for
+condition, sex, parasternal interspace, and the interaction                    all muscles in all participants. Table 2 shows the number
+
+Table 1. Respiratory parameters during quiet breathing and breathing with inspiratory resistive loads
+                                       Quiet Breathing                    Low Load                            High Load
+                                           n 5 20                          n 5 20                              n 5 19
+      Participant Sex             Females          Males          Females            Males          Females               Males           Statistics
+
+Inspiratory time, s              2.04 ± 0.30     2.69 ± 1.23    2.64 ± 0.60      4.16 ± 1.65    2.86 ± 0.81       4.34 ± 1.69    Cond P < 0.001
+                                                                                                                                     Sex P < 0.05
+                                                                                                                                     Interact. P ¼ 0.052
+Mean inspiratory ﬂow, L·s1      0.32 ± 0.07     0.35 ± 0.07    0.28 ± 0.06      0.26 ± 0.07    0.28 ± 0.06       0.24 ± 0.07    Cond P < 0.001
+                                                                                                                                     Sex P ¼ 0.78
+                                                                                                                                     Interact. P < 0.05
+Tidal volume, L                  0.66 ± 0.16     0.91 ± 0.37    0.72 ± 0.19      1.07 ± 0.42    0.80 ± 0.22        1.01 ± 0.37   Cond P < 0.05
+                                                                                                                                     Sex P < 0.05
+                                                                                                                                     Interact. P ¼ 0.31
+Tidal volume, %IC                28.5 ± 4.2      26.7 ± 7.7      31.5 ± 7.3      31.2 ± 10.1    34.2 ± 8.4        29.4 ± 7.4     Cond P < 0.01
+                                                                                                                                     Sex P ¼ 0.49
+                                                                                                                                     Interact. P ¼ 0.28
+Pm, cmH2O                       1.19 ± 0.22   1.26 ± 0.17    3.07 ± 0.95     3.16 ± 0.45   4.32 ± 0.91†    4.13 ± 0.49†    Cond P < 0.001
+                                                                                                                                     Sex P ¼ 0.93
+                                                                                                                                     Interact. P ¼ 0.78
+Fraction of expired CO2, %       5.04 ± 0.62     5.26 ± 0.70    4.88 ± 0.72       5.30 ± 0.57     4.99 ± 0.63        5.39 ± 0.48     Cond P ¼ 0.64
+                                                                                                                                     Sex P ¼ 0.18
+                                                                                                                                     Interact. P ¼ 0.15
+   Means ± SD values, measured from waveform averages from 10 min of breathing. Inspiratory capacity (IC) was measured from slow
+vital capacity maneuvers. Mouth pressure (Pm) was measured as the pressure swing. Data were analyzed with linear mixed models for
+ﬁxed effects of breathing condition (cond), sex, and their interaction (interact.); P < 0.05 compared with quiet breathing, †P < 0.001
+compared with low load for pairwise comparisons with Bonferroni adjustments.
+
+                                          J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org                                           699
+                  Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                               SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+Table 2. The number of skipped EMG assessments, muscle depth, and signal size across parasternal interspaces
+                         Skipped Assessments                  Skipped Assessments
+                             all conditions                      quiet breathing            Intercostal Muscle Depth, cm         ECG Signal-to-Noise Ratio
+
+Assessor                 1                   2                 1                 2
+  PSIC1                                      2                                                       1.5 ± 0.3                           4.9 ± 3.7
+  PSIC2                  2                   6                 1                   1                 1.6 ± 0.3                           6.6 ± 4.8
+  PSIC3                  3                   5                 2                  2                  1.8 ± 0.4                           6.2 ± 5.5
+  PSIC4                  4                  10                 1                  2                  1.9 ± 0.4                           6.1 ± 5.1
+  PSIC5                  6                 20                  5                  6                  1.9 ± 0.5                          5.3 ± 4.6
+Total (%)             15 (5%)            43 (15%)           9 (9%)            11 (11%)
+Statistics          Interspace         Interspace                                              Interspace P < 0.001                Interspace P ¼ 0.54
+                      P ¼ 0.053          P < 0.001                                             Sex P ¼ 0.67                        Sex P ¼ 0.95
+                                                                                               Interact. P ¼ 0.16                  Interact. P ¼ 0.52
+   Two assessors, blinded to the muscle, determined the onset of inspiratory activity from waveform averages of surface EMG recordings from
+the 1st-to-5th parasternal intercostal (PSIC) muscles for 10 male and 10 female participants. Data from male and female participants were com-
+bined as there was no effect of sex. Inspiratory onset could not be determined for all averages (i.e., skipped assessments), as shown for all condi-
+tions (quiet and loaded breathing) and quiet breathing only. The incidence of skipped assessments differed with interspace for Assessor 1.
+Means ± SD depth of PSIC muscles, measured with ultrasound, are also shown for 18 participants (10 males). As an indicator of signal to noise,
+the ratio of the ECG waveform and noise were computed from raw signals. Incidence data were analyzed by cross tabs and continuous varia-
+bles with linear mixed models. Statistics show ﬁxed effects and their interaction (interact.) where relevant. P < 0.05 compared to PSIC1.
+
+
+of waveform averages for each muscle that could not be                         2nd parasternal intercostal muscle (ICC3,k ¼ 0.61). For the
+assessed, i.e., skipped. Across all conditions, the number of                  ﬁve participants tested, the onset of inspiratory activity dur-
+skipped assessments differed with interspace for Assessor 2                    ing 10 min of quiet breathing (117 ± 32 breaths, range 77–164)
+(P < 0.001) with more skipped assessments for lower interspa-                  was comparable to the onset computed from 20 min of quiet
+ces, but not for Assessor 1 (P ¼ 0.053). Parasternal intercostal               breathing (231 ± 48 breaths, range 169–298; ICC3,k ¼ 0.86).
+muscle depth, estimated from ultrasound images, differed                          The onsets of inspiratory activity in the parasternal inter-
+between interspaces (P < 0.001), but not participant sex (P ¼                  costal muscles during quiet breathing for all participants are
+0.67) with no interaction (P ¼ 0.16), such that the distance                   shown in Fig. 3. Figure 4 summarizes the group data during
+from the skin to the parasternal intercostal muscle in the 5th                 quiet and loaded breathing for both male and female partici-
+interspace was greater than the distance to the 1st interspace                 pants. For the group, the onset of inspiratory activity dif-
+(P < 0.05). An estimate of the signal quality in each inter-                   fered between interspace (P < 0.001), but there was no effect
+space, the ECG signal-to-noise ratio, did not differ between                   of condition (P ¼ 0.31) or sex (P ¼ 0.07). However, there was
+interspace (P ¼ 0.54) or sex (P ¼ 0.95), with no interaction                   an interaction between interspace and sex (P < 0.001), such
+(P ¼ 0.52). For waveform averages during quiet breathing that                  that the difference in the onset of inspiratory activity across
+were measured by both assessors compared with averages                         interspaces was greater in men than in women (Fig. 4).
+that were skipped by one or both assessors (Table 2), there                       Across conditions, the delay in inspiratory activity in the
+was no difference in muscle depth of the parasternal intercos-                 caudal spaces was 15% of the inspiratory time in females,
+tal muscles or ECG signal-to-noise ratio (see Table 3).                        but 30% of the inspiratory time in males. The estimated
+   For the onset of inspiratory EMG measured by two asses-                     marginal means (EMM) of inspiratory activity duration in the
+sors, the agreement was excellent across all conditions and                    4th and 5th spaces was 87.5% [95% CI (80.6, 94.3)] and 82.6%
+muscles for females (ICC3,k ¼ 0.91), males (ICC3,k ¼ 0.83),                    [95% CI (75.3, 89.8)], respectively, in females, and 68.9% [95%
+and both sexes combined (ICC3,k ¼ 0.86). When individual                       CI (61.7, 76.1)] and 70.2% [95% CI (63.0, 77.3)], respectively, in
+muscles were evaluated (sexes combined), the agreement                         males. This equates to a sex difference in the onset of inspira-
+was best for the diaphragm (ICC3,k ¼ 0.96) and worst for the                   tory activity (EMM) of 18.5%TI [95% CI (8.6, 28.5)] and 12.4%TI
+
+
+Table 3. Comparison of muscle depth and signal features for EMG data for inspiratory onset time assessments dur-
+ing quiet breathing
+                                                           Muscle Depth, cm                                            ECG Signal-to-Noise Ratio
+                                               Analyzed                        Skipped                     Analyzed                                Skipped
+         Muscle                                 n 5 79                          n 5 10                      n 5 89                                  n 5 11
+
+PSIC1                                          1.5 ± 0.3                                                   4.9 ± 3.7
+PSIC2                                          1.5 ± 0.3                      1.7 (n ¼ 1)                  6.1 ± 4.4                          16.1 (n ¼ 1)
+PSIC3                                          1.8 ± 0.4                       1.9 ± 0.4                   5.6 ± 4.1                           11.6 ± 14.8
+PSIC4                                          2.0 ± 0.4                       1.6 ± 0.2                   6.6 ± 5.2                            1.7 ± 0.4
+PSIC5                                          2.0 ± 0.5                       1.7 ± 0.5                   6.0 ± 4.5                           3.5 ± 4.8
+Statistics (all interspaces)                                                  P ¼ 0.87                                                          P ¼ 0.11
+    Most EMG waveform averages could be analyzed for inspiratory onset time, but some were skipped by one or both assessors due to
+lack of inspiratory activity (Table 2). Muscle depth and the ratio of ECG signal-to-noise ratio in the raw signals were compared using t
+tests or Mann–Whitney rank-sum tests to investigate if the lack of inspiratory activity in the skipped assessments was due to anatomical
+(i.e., muscle depth) or signal quality (i.e., signal-to-noise ratio) issues. Means ± SD values for 18 participants (10 males) and 20 partici-
+pants (10 males) are shown for muscle depth and ratio, respectively.
+
+700                                       J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org
+                  Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                               SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+
+
+Figure 3. The onset of inspiratory muscle EMG in the 1st-to-5th parasternal intercostal muscles during quiet breathing. Small gray circles show average
+(from two blinded assessments) inspiratory EMG onset times, relative to inspiratory (insp) time, for 10 male participants (A) and 10 female participants (B).
+Each dashed line connects data from an individual participant. Means ± SD shown in larger black circles and lines (from 10, 10, 9, 9, and 7 male and 10, 9,
+9, 8, and 7 female participants for the 1st, 2nd, 3rd, 4th, and 5th PSIC muscles, respectively). The onset of inspiratory EMG could not be assessed in
+some participants in some muscles but their data for the other interspaces are shown and were included in the statistics (see METHODS).
+
+
+[95% CI (2.2, 22.6] for the 4th and 5th interspaces, respectively.              muscle compared with the 3rd, 4th, and 5th muscles (all P <
+Compared with the earliest onset of inspiratory activity (i.e.,                 0.01) and greater activity in the 1st compared with the 4th
+1st interspace), the onset of inspiratory activity (EMM) in the                 space (P < 0.01), but there was no effect of condition (P ¼
+4th and 5th spaces occurred after 11.4% [95% CI (3.6, 19.3)]                    0.40) or sex (P ¼ 0.85), with no interactions. After normaliza-
+and 16.3% [95% CI (7.6, 24.9)], respectively, for females but                   tion of the EMG to the maximal EMG during an inspiratory
+27.0 [95% CI (18.5, 35.6)] and 25.8 [95% CI (17.3, 34.2)], respec-              maneuver to total lung capacity, an effect of interspace
+tively, for males. In other words, there was more homogenous                    persisted (P ¼ 0.01), but only for the 2nd interspace com-
+activation in women and more graded activity in men across                      pared with the 4th (P ¼ 0.04) and 5th (P < 0.01) spaces.
+parasternal intercostal muscles during breathing.                               Normalized EMG amplitude was greater in females (P ¼
+   The amplitude of EMG differed between interspace (P <                        0.009) but was not different across conditions (P ¼ 0.41).
+0.001) with greater activity in the 2nd parasternal intercostal                 There was an interaction between sex and muscle (P ¼
+
+
+
+
+                                                                                              Figure 4. Graded onset of inspiratory muscle EMG in the
+                                                                                              1st-to-5th parasternal intercostal muscles. Bar graphs show
+                                                                                              means ± SD duration of inspiratory (insp) activity as a per-
+                                                                                              centage of inspiratory time, calculated from onset of inspira-
+                                                                                              tory activity from waveform averages of surface EMG in the
+                                                                                              1st-to-5th parasternal intercostal (PSIC) muscles. A and B
+                                                                                              show the duration of activity during quiet breathing and
+                                                                                              incremental loaded breathing (see Table 1) for 10 male and
+                                                                                              10 female participants, respectively, with mean 8 (range 5–
+                                                                                              10) data points for each mean, shown by circles (see
+                                                                                              Table 2). A mixed-effect linear model showed no effects
+                                                                                              of load (P ¼ 0.31) or sex (P ¼ 0.07), but a main effect of
+                                                                                              interspace (P < 0.001) and an interaction between inter-
+                                                                                              space and sex (P < 0.001). Activity in the rostral (1st-to-
+                                                                                              3rd) interspaces started at or just after the start of inspira-
+                                                                                              tory airﬂow, but activity in the caudal (4th and 5th) spaces
+                                                                                              was signiﬁcantly delayed, more so in males than females
+                                                                                              (see RESULTS).
+
+
+
+
+                                           J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org                                            701
+                 Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                                  SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+
+
+Figure 5. Amplitude of inspiratory muscle EMG in the 1st-
+to-5th parasternal intercostal muscles. Bar graphs show
+means ± SD amplitude of inspiratory (insp) activity as a
+percentage of maximal EMG (see METHODS) from waveform
+averages of surface EMG in the 1st-to-5th parasternal inter-
+costal muscles. The amplitude of activity during quiet breath-
+ing and incremental loaded breathing is shown for 10 male
+(A) and 10 female (B) participants with mean 9 (range 6–10)
+data points for each mean as shown by circles. The ampli-
+tude of activity was signiﬁcantly less in males relative to maxi-
+mal EMG; note the different scales used in A and B. A mixed-
+linear model showed main effects of interspace (P ¼ 0.01)
+and sex (P ¼ 0.009), but not condition (P ¼ 0.41). There was
+an interaction between sex and interspace (P ¼ 0.019) sug-
+gesting the difference in normalized EMG amplitude across
+spaces occurred in female participants (see RESULTS).
+
+
+
+
+0.019), suggesting that the difference in normalized EMG                       muscles. By recording surface EMG from both male and
+amplitude across spaces occurred in the female participants                    female participants, we have revealed sex differences in
+(Fig. 5). Normalized EMG amplitude (EMM) in the 2nd space                      inspiratory activity across intercostal muscles.
+was 7.5%max [95% CI (5.6, 9.5)] in females and 2.7% [95% CI
+(0.8, 4.6)] in males. The sex difference in normalized EMG                     The Validity of Surface Recordings from the Parasternal
+amplitude (EMM) in the 2nd space was 4.9%max [95% CI                           Intercostal Muscles
+(2.1, 7.6)].                                                                      Normalized amplitudes of surface EMG recordings from
+                                                                               the 2nd parasternal intercostal muscle are used as a noninva-
+    DISCUSSION                                                                 sive estimate of neural respiratory drive in health and dis-
+                                                                               ease (18, 19, 24, 34). Reference values for the amplitude of
+   We have shown for the ﬁrst time that the graded onset of                    inspiratory EMG from the 2nd parasternal intercostal muscle
+inspiratory EMG in the human parasternal intercostal                           during quiet breathing show good intersession repeatability
+muscles can be measured using surface electrodes. In young,                    and, as conﬁrmed in the current study, greater EMG ampli-
+healthy participants, the onsets of inspiratory activity in the                tude in women than in men during quiet breathing (35).
+4th and 5th interspaces were delayed compared with the                         Here, both the unnormalized and normalized inspiratory
+more rostral 1st, 2nd, and 3rd spaces. The pattern of inspira-                 EMG amplitudes were greatest in the 2nd interspace, rather
+tory onset in the 4th and 5th spaces differed with sex, being                  than the 1st interspace as shown in previous studies of single
+earlier in female participants, compared with male partici-                    motor units recorded intramuscularly, with the highest
+pants. A graded pattern of EMG amplitude across the 1st to                     inspiratory discharge rate of motor units and the earliest
+5th spaces, as was expected from prior intramuscular record-                   onset of activation evident in the 1st interspace (3, 21). While
+ings, was not evident in the current study. Although EMG                       the assessment of single motor unit discharge has only lim-
+amplitude was greater in the 2nd space compared with the                       ited ability to assess motor unit recruitment, we believe it
+caudal spaces, it was not the largest in the 1st space.                        unlikely that neural drive to the 2nd space was underesti-
+Nevertheless, EMG amplitude (%max) was twice as large in                       mated in our previous study (3). Thus, as hypothesized, the
+women than in men. The data showed no differences in                           surface EMG amplitude did not detect the expected decreas-
+inspiratory EMG onset times or amplitudes between quiet                        ing gradient of muscle activation from the 1st to the 5th
+breathing and loaded breathing using resistive loads that                      parasternal intercostal space (3, 21), with differences and
+tripled inspiratory mouth pressure. As hypothesized, surface                   uncertainties arising due to nonstandardized distances of the
+EMG is feasible to assess the onset time of inspiratory activ-                 electrodes on the skin to the muscles across the different
+ity as a surrogate for the timing of neural drive and indicator                spaces (greater in the more caudal spaces, resulting in rela-
+of the pattern of activation across parasternal intercostal                    tively smaller signals) that are also variable across individuals.
+
+702                                          J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org
+                 Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                          SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+In addition, normalization of EMG amplitudes to a maximal               there was less or no inspiratory EMG during breathing. The
+effort across spaces or muscle depths is difﬁcult to interpret          peak discharge rates of motor units during inspiration are
+because it is limited by how each muscle is activated during            lower in the 4th and 5th parasternal muscles, especially for
+the inspiratory phase before the slow vital-capacity maneuver           motor units with background tonic activity, which are more
+(or other maximal inspiratory effort), which itself may be              frequent in the 5th interspace (3). In another study of single
+graded across interspaces.                                              motor unit activity from the parasternal intercostal muscles,
+   Despite the difﬁculties in the assessment of EMG ampli-              one participant had no inspiratory activity in the 5th inter-
+tude in the current study, we have demonstrated deﬁnitively             space during quiet breathing (21). This suggests that an inabil-
+that the graded onset time of inspiratory activity can be               ity to assess the onset of inspiratory activity in recordings in
+measured using surface EMG, which parallels the outcomes                the 5th space reﬂects the physiology rather than an artifact of
+of graded onset time, peak motor unit discharge, and num-               the surface EMG method. Thus, noninvasive surface EMG
+ber of inspiratory motor units identiﬁed at each recording              recordings are a valid alternative to intramuscular recordings
+site in previous studies (3). The rostral parasternal intercostal       as a surrogate marker of neural drive and indicator of the pat-
+muscles are accessible, and their anatomy (minimal overly-              tern of activation across the human intercostal muscles dur-
+ing muscles) and relatively high neural drive make them                 ing quiet and loaded breathing in participants with a “healthy
+amenable to surface recordings. In the present study, we                weight” BMI.
+measured surface EMG from the 1st-to-5th interspaces and
+therefore must consider the validity of surface EMG from the            Sex Diﬀerences in Inspiratory Muscle Activity
+caudal interspaces due to the potential interaction between
+disadvantageous anatomy (overlying muscles, breast, and                    Our result of sex differences in onset times of the caudal
+other tissues), lower intercostal muscle mass (14), and rela-           parasternal intercostal muscles during breathing is novel
+tively less inspiratory EMG activity (3). The number of wave-           and not easily compared with previous ﬁndings because all
+form averages that could not be assessed for the onset of               previous assessments of the graded output from the para-
+inspiratory activity (i.e., skipped) did increase with interspace       sternal intercostal muscles in healthy participants have been
+number for one assessor. The distance between the electrodes            made using intramuscular electrodes in men (3, 21, 22).
+on the skin and muscle was greater in the 5th compared with             Using surface recordings, this study has compared both the
+the 1st interspace. However, the muscle depths for the aver-            amplitude and onset of inspiratory activity in women and
+ages that were and were not skipped were similar, suggesting            men. Although there was no main effect of sex on the timing
+any reduction in EMG signal amplitude with transit through              of EMG onset, an interaction highlighted an earlier onset
+overlying tissues did not affect the ability to measure inspira-        time of inspiratory activity in the 4th and 5th interspaces in
+tory activity in the caudal interspaces. Furthermore, the ECG           females than in males for comparable changes in tidal vol-
+signal-to-noise ratio, which was used as an indicator of EMG            ume (%IC) and mouth pressure. In other words, there was a
+signal quality, was similar across interspaces and in assess-           more homogenous pattern of activation across the intercos-
+ments that were or were not skipped.                                    tal muscles in women compared with men.
+   Although cross talk from expiratory-related activity is                 If earlier onset time of inspiratory activity in the 4th and
+likely to be minimal, including during the loaded breathing             5th interspaces in women in the current study indicates
+conditions as only inspiration was loaded, any expiratory ac-           greater neural drive, this may explain why EMG amplitude
+tivity picked up by the surface electrodes could mask a clear           (%max) was twice as large in women compared with men
+inspiratory onset, this may have been an issue for the dia-             across the 1st-to-5th spaces in the current study, although as
+phragm as the mean onset of inspiratory activity in the cur-            highlighted above, this ﬁnding should be interpreted cau-
+rent study occurred at 7.4%TI compared with previous                    tiously. Nevertheless, the ﬁndings are consistent with pre-
+studies using intramuscular recordings from the costal dia-             vious results from the 2nd interspace (35), where a greater
+phragm, where mean EMG onset occurred at 2.5%TI, before                EMG amplitude in women was not due to differences in
+the onset of inspiratory airﬂow (1). From that study (1), the           height, weight, or body mass index between sexes (35).
+onset of inspiratory activity in the parasternal intercostal in         Similarly, during exercise, there is greater activation of
+the 2nd interspace using intramuscular recordings was 4.4%              scalene and sternocleidomastoid muscles in women com-
+TI, comparable to that reported here for surface recordings             pared with men for the same relative ventilation (17).
+from the 2nd interspace (4.0%TI). This suggests that para-              However, crural diaphragm EMG amplitude (%max) does
+sternal intercostal muscles are less affected by cross talk             not differ between men and women during resting breath-
+from expiratory muscles (i.e., triangularis sterni) during sur-         ing (37) or exercise (17). Greater neural drive to the extra-
+face recordings than the costal diaphragm is from the inter-            diaphragmatic inspiratory muscles in women may be due
+nal intercostal muscles and/or abdominal muscles, at least              to the requirement to lift breast tissue, in addition to over-
+for the 2nd interspace. The mass of triangularis sterni, as             coming the recoil pressure of the lungs, during inspiration.
+measured in cadavers, does increase with a rostrocaudal                 In addition, women have smaller airways, relative to their
+gradient from 1 g in the 2nd interspace to 3 g in the 5th               lung size, than men, termed “dysnapsis,” which results in
+space (14), but it is probably electrically silent in the 4th           greater airway resistance at high ﬂows during exercise (38,
+and 5th interspaces during quiet breathing (36) and there-              39). Whatever the mechanisms, the metabolic cost of ven-
+fore unlikely to contribute to the delayed inspiratory onset            tilation in moderate- and high-intensity exercise is greater
+times in the lower spaces.                                              in women than in men (40).
+   Despite these methodological issues, it is likely that more             It is not known if the differences in the pattern of activity
+recordings from the caudal interspaces were skipped because             in the parasternal intercostal muscles in male and female
+
+                                      J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org                            703
+              Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                          SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+participants align with sex differences in the mechanical               Clinical Applications
+advantages of these muscles as only ﬁve and seven partici-
+pants were studied for the mechanical advantage on the                     In health, the graded output from intercostal motoneur-
+external (15) and parasternal (14) intercostal muscles, respec-         ons is matched to the mechanics of the muscles for breath-
+tively, with only two female participants in each study. The            ing, termed “neuromechanical matching” (10). This is a
+mechanical advantage of the intercostal muscles depends on              robust ﬁnding, having been replicated in three studies using
+muscle angle, rib number, and the curvature of the rib (6).             intramuscular EMG in male participants (3, 21, 22) and is
+Given females have steeper rib angles, a higher sternum                 an efﬁcient strategy to activate these synergist muscles for
+position, and a more barrel-shaped than pyramidal-shaped                breathing (10). Intramuscular recordings from intercostal
+ribcage than males (17, 41), it is likely that the mechanical           muscles as used in healthy participants come with a risk of
+advantage of the parasternal intercostal muscles differs                pneumothorax. Although the risk is small with appropriate
+between sexes. Indeed, from X-ray data, the mechanical                  precautions (e.g., ultrasound, visual and audio feedback of
+advantage of the intercostal muscles is estimated to be                 EMG), the consequences of a pneumothorax are higher in
+higher in females, but these calculations were for the                  people with compromised lung function. The use of surface
+external intercostal muscles, not the parasternal intercos-             electrodes to assess the graded pattern of activity in the
+tals, and were not during passive inﬂation. Thus, the rela-             human parasternal intercostal muscles is feasible. This tech-
+tionship between sex differences in the graded onset of                 nique will allow noninvasive and safe assessments of the pat-
+parasternal intercostals and the mechanical advantages                  tern of inspiratory drive to intercostal muscles in health and
+of these muscles, i.e., “neuromechanical matching” (10),                disease over long periods without repeated exposure to the
+remains to be determined.                                               risks of intramuscular EMG. This will facilitate discoveries
+                                                                        on neuromechanical matching in clinical populations in
+Lack of Load Eﬀect                                                      whom it is not known if the graded pattern of intercostal
+                                                                        muscle activity occurs. A failure in neuromechanical
+   In dogs, breathing through inspiratory resistive loads               matching has been deﬁned in Achilles tendinopathy, but
+increases the amount of inspiratory activity in the paraster-           exercise rehabilitation can reinstate the distribution of
+nal and external intercostal muscles to a similar extent                electrical activity across synergist triceps surae muscles
+across interspaces (i.e., comparable increases in all muscles),         (43, 44). Demonstration of failure of neuromechanical
+such that the rostrocaudal gradient of activity remains intact          matching in the respiratory muscles in COPD could be tar-
+(23, 42). Increased EMG amplitude with loading was not evi-             geted with specialized pulmonary rehabilitation, e.g.,
+dent in the current study, although we do not have much                 inspiratory muscle training or biofeedback of EMG activ-
+conﬁdence in our amplitude measures (see above), but the                ity, to restore neuromechanical matching to minimize rib
+rostrocaudal gradient of inspiratory onset times across the             cage distortion and optimize the efﬁciency of breathing.
+1st to 5th interspaces present in quiet breathing was pre-                 In addition, although the onset of inspiratory activity as
+served during loaded breathing. However, rather than seeing             determined here required longer recording times to increase
+an advance in onset time in all interspaces with inspiratory            the signal-to-noise, especially for the caudal interspaces with
+loading, analogous to the increase in amplitudes in all inter-          less EMG, the advantage of onset time as an indicator of neu-
+spaces in dogs (23, 42), here, breathing with inspiratory resis-        ral drive is that recordings do not need to be normalized. In
+tive loads had no effect overall, on the onset time of                  previous studies where normalized parasternal intercostal
+inspiratory activity in any interspace. Given the threefold             EMG amplitude from the 2nd interspace has been used to
+increase in mouth pressure with inspiratory resistive loads             indicate neural drive in disease, some participants were too
+used here, it was expected that the onset of inspiratory activ-         unwell to perform maximal efforts and thus neural drive
+ity would occur earlier, relative to quiet breathing, due to the        could not be assessed (24, 34).
+increased neural drive to inspiratory motoneurones.
+   Of note, inspiratory airﬂow while breathing through                  Conclusions
+resistive loads was lower compared with quiet breathing.
+Compared with quiet breathing, the onset of inspiratory ac-                When combined with signal processing to remove electri-
+tivity of the same single motor units is earlier in voluntary           cal and ECG interference and waveform averages to increase
+breaths (21). In this previous study, using linear regressions          the signal-to-noise ratio, surface recordings of parasternal in-
+and standardized beta weights, the majority of variance in              tercostal EMG are a valid method to assess differences in the
+onset time of motor units between quiet and voluntary                   onset of inspiratory activity across parasternal intercostal
+breathing was explained by mean inspiratory airﬂow (b ¼                 muscles and as a marker of inspiratory neural drive and pat-
+0.49), even more than the variance due to interspace num-              tern of activation across spaces, in both females and males.
+ber (b ¼ 0.14). Thus, earlier onset times as an indicator of
+increased neural drive may be more sensitive in conditions
+that increase both pressure swings and inspiratory ﬂow (e.g.,               DATA AVAILABILITY
+exercise, see Ref. 17) and not decrease ﬂow as in the loading
+                                                                           Data will be made available upon reasonable request.
+conditions here. Thus, the onset time derived from surface
+EMG can indicate the pattern of activation between interspa-
+ces, i.e., the relative distribution of neural drive, but not nec-          ACKNOWLEDGMENTS
+essarily the extent of any increases in neural drive, which are           We thank Lady Samantha Calonzo, a laboratory technician,
+better reﬂected by discharge rates of motor units.                      who assisted with data collection at Flinders University.
+
+704                                   J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org
+              Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                               SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+      GRANTS                                                                   13.   De Troyer A, Boriek AM. Mechanics of the respiratory muscles.
+                                                                                     Compr Physiol 1: 1273–1300, 2011. doi:10.1002/cphy.c100009.
+  This work was supported by the National Health and Medical                   14.   De Troyer A, Legrand A, Gevenois P-A, Wilson TA. Mechanical
+Research Council (NHMRC Australia 1138920) and a Flinders                            advantage of the human parasternal intercostal and triangularis
+Foundation Health Seed Grant. S.C.G. and J.E.B. are funded by                        sterni muscles. J Physiol 513: 915–925, 1998. doi:10.1111/j.1469-
+NHMRC Fellowships.                                                                   7793.1998.915ba.x.
+                                                                               15.   Wilson TA, Legrand A, Gevenois P-A, De Troyer A. Respiratory
+                                                                                     effects of the external and internal intercostal muscles in humans. J
+      DISCLOSURES                                                                    Physiol 530: 319–330, 2001. doi:10.1111/j.1469-7793.2001.0319l.x.
+                                                                               16.   James MD, Phillips DB, Vincent SG, Abdallah SJ, Donovan AA, de-
+   S. C. Gandevia is an editor of Journal of Applied Physiology                      Torres JP, Neder JA, Smith BM, Jensen D, O’Donnell DE;
+and was not involved and did not have access to information                          Canadian Respiratory Research Network. Exertional dyspnoea in
+regarding the peer-review process or ﬁnal disposition of this arti-                  patients with mild-to-severe chronic obstructive pulmonary disease:
+cle. An alternate editor oversaw the peer-review and decision-                       neuromechanical mechanisms. J Physiol 600: 4227–4245, 2022.
+making process for this article. None of the other authors has any                   doi:10.1113/JP283252.
+conﬂicts of interest, ﬁnancial or otherwise, to disclose.                      17.   Molgat-Seon Y, Dominelli PB, Ramsook AH, Schaeffer MR, Romer
+                                                                                     LM, Road JD, Guenette JA, Sheel AW. Effects of age and sex on
+                                                                                     inspiratory muscle activation patterns during exercise. Med Sci Sports
+      AUTHOR CONTRIBUTIONS                                                           Exerc 50: 1882–1891, 2018. doi:10.1249/MSS.0000000000001648.
+   A.L.H., S.C.G., and J.E.B. conceived and designed research;                 18.   Reilly CC, Ward K, Jolley CJ, Lunt AC, Steier J, Elston C, Polkey
+                                                                                     MI, Rafferty GF, Moxham J. Neural respiratory drive, pulmonary
+A.L.H. and J.E.B. performed experiments; A.L.H. and B.L.L. ana-                      mechanics and breathlessness in patients with cystic ﬁbrosis.
+lyzed data; A.L.H., B.L.L., S.C.G., and J.E.B. interpreted results of                Thorax 66: 240–246, 2011. doi:10.1136/thx.2010.142646.
+experiments; A.L.H. prepared ﬁgures; A.L.H. drafted manuscript;                19.   Laveneziana P, Albuquerque A, Aliverti A, Babb T, Barreiro E, Dres
+A.L.H., B.L.L., S.C.G., and J.E.B. edited and revised manuscript;                    M, Dube BP, Fauroux B, Gea J, Guenette JA, Hudson AL, Kabitz
+A.L.H., B.L.L., S.C.G., and J.E.B. approved ﬁnal version of                          HJ, Laghi F, Langer D, Luo YM, Neder JA, O’Donnell D, Polkey MI,
+manuscript.                                                                          Rabinovich RA, Rossi A, Series F, Similowski T, Spengler CM,
+                                                                                     Vogiatzis I, Verges S. ERS statement on respiratory muscle testing
+                                                                                     at rest and during exercise. Eur Respir J 53: 1801214, 2019.
+      REFERENCES                                                                     doi:10.1183/13993003.01214-2018.
+                                                                               20.   Gandevia SC, McKenzie DK, Plassman BL. Activation of human re-
+1.    Saboisky JP, Gorman RB, De Troyer A, Gandevia SC, Butler JE.                   spiratory muscles during different voluntary manoeuvres. J Physiol
+      Differential activation among ﬁve human inspiratory motoneuron                 428: 387–403, 1990. doi:10.1113/jphysiol.1990.sp018218.
+      pools during tidal breathing. J Appl Physiol (1985) 102: 772–780,        21.   Hudson AL, Gandevia SC, Butler JE. Common rostrocaudal gradi-
+      2007. doi:10.1152/japplphysiol.00683.2006.                                     ent of output from human intercostal motoneurones during voluntary
+2.    Butler JE, Hudson AL, Gandevia SC. The neural control of human                 and automatic breathing. Respir Physiol Neurobiol 175: 20–28, 2011.
+      inspiratory muscles. Prog Brain Res 209: 295–308, 2014. doi:10.                doi:10.1016/j.resp.2010.08.023.
+      1016/B978-0-444-63274-6.00015-1.                                         22.   Hudson AL, Gandevia SC, Butler JE. Task-dependent output of
+3.    Gandevia SC, Hudson AL, Gorman RB, Butler JE, De Troyer A.                     human parasternal intercostal motor units across spinal levels. J
+      Spatial distribution of inspiratory drive to the parasternal intercos-         Physiol 595: 7081–7092, 2017. doi:10.1113/JP274866.
+      tal muscles in humans. J Physiol 573: 263–275, 2006. doi:10.1113/        23.   Legrand A, Brancatisano A, Decramer M, De Troyer A.
+      jphysiol.2005.101915.                                                          Rostrocaudal gradient of electrical activation in the parasternal inter-
+4.    De Troyer A, Gorman RB, Gandevia SC. Distribution of inspiratory               costal muscles of the dog. J Physiol 495: 247–254, 1996. doi:10.1113/
+      drive to the external intercostal muscles in humans. J Physiol 546:            jphysiol.1996.sp021589.
+      943–954, 2003. doi:10.1113/jphysiol.2002.028696.                         24.   Murphy PB, Kumar A, Reilly C, Jolley C, Walterspacher S, Fedele F,
+5.    Wilson TA, De Troyer A. Effect of respiratory muscle tension on                Hopkinson NS, Man WD, Polkey MI, Moxham J, Hart N. Neural re-
+      lung volume. J Appl Physiol (1985) 73: 2283–2288, 1992. doi:10.                spiratory drive as a physiological biomarker to monitor change dur-
+      1152/jappl.1992.73.6.2283.                                                     ing acute exacerbations of COPD. Thorax 66: 602–608, 2011.
+6.    De Troyer A, Kirkwood PA, Wilson TA. Respiratory action of the in-             doi:10.1136/thx.2010.151332.
+      tercostal muscles. Physiol Rev 85: 717–756, 2005. doi:10.1152/           25.   World Medical Association. World Medical Association Declaration
+      physrev.00007.2004.                                                            of Helsinki: ethical principles for medical research involving human
+7.    Kennedy PM, Cresswell AG. The effect of muscle length on motor-                subjects. JAMA 310: 2191–2194, 2013. doi:10.1001/jama.2013.281053.
+      unit recruitment during isometric plantar ﬂexion in humans. Exp          26.   Miller MR, Hankinson J, Brusasco V, Burgos F, Casaburi R, Coates
+      Brain Res 137: 58–64, 2001. doi:10.1007/s002210000623.                         A, Crapo R, Enright P, van der Grinten CP, Gustafsson P, Jensen R,
+8.    Park RJ, Tsao H, Cresswell AG, Hodges PW. Anticipatory postural                Johnson DC, MacIntyre N, McKay R, Navajas D, Pedersen OF,
+                                                                                     Pellegrino R, Viegi G, Wanger J; ATS/ERS Task Force.
+      activity of the deep trunk muscles differs between anatomical
+                                                                                     Standardisation of spirometry. Eur Respir J 26: 319–338, 2005.
+      regions based on their mechanical advantage. Neuroscience 261:
+                                                                                     doi:10.1183/09031936.05.00034805.
+      161–172, 2014. doi:10.1016/j.neuroscience.2013.12.037.
+                                                                               27.   Quanjer PH, Stanojevic S, Stocks J, Cole TJ. Ethnically speciﬁc
+9.    Hudson AL, Taylor JL, Gandevia SC, Butler JE. Coupling between                 norms for ventilatory function. Int J Epidemiol 41: 1490; author reply
+      mechanical and neural behaviour in the human ﬁrst dorsal interosse-            1491–1492, 2012. doi:10.1093/ije/dys153.
+      ous muscle. J Physiol 587: 917–925, 2009. doi:10.1113/jphysiol.2008.     28.   Harik-Khan RI, Wise RA, Fozard JL. Determinants of maximal
+      165043.                                                                        inspiratory pressure. The Baltimore Longitudinal Study of Aging.
+10.   Hudson AL, Gandevia SC, Butler JE. A principle of neuromechanical              Am J Respir Crit Care Med 158: 1459–1464, 1998. doi:10.1164/
+      matching for motor unit recruitment in human movement. Exerc Sport             ajrccm.158.5.9712006.
+      Sci Rev 47: 157–168, 2019. doi:10.1249/JES.0000000000000191.             29.   Luu BL, Lewis RHC, Gandevia SC, Boswell-Ruys CL, Butler JE. The
+11.   McKenzie DK, Butler JE, Gandevia SC. Respiratory muscle function               detection and sensory perception of inspiratory resistive loads in
+      and activation in chronic obstructive pulmonary disease. J Appl                people with chronic tetraplegia. J Appl Physiol (1985) 133: 1192–1201,
+      Physiol (1985) 107: 621–629, 2009. doi:10.1152/japplphysiol.00163.             2022 [Erratum in J Appl Physiol (1985) 134: 276, 2023]. doi:10.1152/
+      2009.                                                                          japplphysiol.00064.2022.
+12.   Luu BL, McDonald RJ, Bolsterlee B, Heroux ME, Butler JE, Hudson          30.   Luu BL, Saboisky JP, Taylor JL, Gorman RB, Gandevia SC, Butler
+      AL. Movement of the ribs in supine humans for small and large                  JE. Supraspinal fatigue in human inspiratory muscles with repeated
+      changes in lung volume. J Appl Physiol (1985) 131: 174–183, 2021.              sustained maximal efforts. J Appl Physiol (1985) 129: 1365–1372,
+      doi:10.1152/japplphysiol.01046.2020.                                           2020. doi:10.1152/japplphysiol.00610.2020.
+
+                                          J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org                                            705
+                 Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+                                              SURFACE PARASTERNAL INTERCOSTAL EMG RECORDINGS
+
+
+31.   Wu F-Y, Tong F, Yang Z. EMGdi signal enhancement based on ICA           38.   Sheel AW, Guenette JA. Mechanics of breathing during exercise in
+      decomposition and wavelet transform. Appl Soft Comput 43: 561–                men and women: sex versus body size differences? Exerc Sport Sci
+      571, 2016. doi:10.1016/j.asoc.2016.03.002.                                    Rev 36: 128–134, 2008. doi:10.1097/JES.0b013e31817be7f0.
+32.   Nguyen DAT, Amirjani N, McCaughey EJ, Gandevia SC, Butler JE,           39.   Peters CM, Leahy MG, Hohert G, Lane P, Lam S, Sin DD, McKenzie
+      Hudson AL. Differential activation of the human costal and crural di-         DC, Sheel AW. Airway luminal area and the resistive work of breath-
+      aphragm during voluntary and involuntary breaths. J Appl Physiol              ing during exercise in healthy young females and males. J Appl
+      (1985) 128: 1262–1270, 2020. doi:10.1152/japplphysiol.00790.2019.             Physiol (1985) 131: 1750–1761, 2021. doi:10.1152/japplphysiol.00418.
+33.   Yu Z, Guindani M, Grieco SF, Chen L, Holmes TC, Xu X. Beyond t                2021.
+      test and ANOVA: applications of mixed-effects models for more rig-      40.   Sheel AW. The effects of ageing on the respiratory physiology of
+      orous statistical analysis in neuroscience research. Neuron 110: 21–          exercise. Physiology: Annual Conference of the Physiological
+      35, 2022. doi:10.1016/j.neuron.2021.10.030.                                   Society. Harrogate, UK, 2023.
+34.   Suh ES, Mandal S, Harding R, Ramsay M, Kamalanathan M,                  41.   Garcia-Martinez D, Torres-Tamayo N, Torres-Sanchez I, Garcia-Rio
+      Henderson K, O’Kane K, Douiri A, Hopkinson NS, Polkey MI,
+                                                                                    F, Bastir M. Morphological and functional implications of sexual
+      Rafferty G, Murphy PB, Moxham J, Hart N. Neural respiratory
+                                                                                    dimorphism in the human skeletal thorax. Am J Phys Anthropol 161:
+      drive predicts clinical deterioration and safe discharge in exacer-
+                                                                                    467–477, 2016. doi:10.1002/ajpa.23051.
+      bations of COPD. Thorax 70: 1123–1130, 2015. doi:10.1136/thoraxjnl-
+      2015-207188.                                                            42.   Legrand A, De Troyer A. Spatial distribution of external and internal
+35.   MacBean V, Hughes C, Nicol G, Reilly CC, Rafferty GF.                         intercostal activity in dogs. J Physiol 518: 291–300, 1999. doi:10.1111/
+      Measurement of neural respiratory drive via parasternal intercostal           j.1469-7793.1999.0291r.x.
+      electromyography in healthy adult subjects. Physiol Meas 37:            43.   Crouzier M, Tucker K, Lacourpaille L, Doguet V, Fayet G, Dauty M,
+      2050–2063, 2016. doi:10.1088/0967-3334/37/11/2050.                            Hug F. Force-sharing within the triceps surae: an achilles heel in
+36.   De Troyer A, Ninane V, Gilmartin JJ, Lemerre C, Estenne M.                    achilles tendinopathy. Med Sci Sports Exerc 52: 1076–1087, 2020.
+      Triangularis sterni muscle use in supine humans. J Appl Physiol               doi:10.1249/MSS.0000000000002229.
+      (1985) 62: 919–925, 1987. doi:10.1152/jappl.1987.62.3.919.              44.   Masood T, Kalliokoski K, Magnusson SP, Bojsen-Moller J, Finni T.
+37.   Jolley CJ, Luo YM, Steier J, Reilly C, Seymour J, Lunt A, Ward K,             Effects of 12-wk eccentric calf muscle training on muscle-tendon
+      Rafferty GF, Polkey MI, Moxham J. Neural respiratory drive in                 glucose uptake and SEMG in patients with chronic Achilles ten-
+      healthy subjects and in COPD. Eur Respir J 33: 289–297, 2009.                 don pain. J Appl Physiol (1985) 117: 105–111, 2014. doi:10.1152/
+      doi:10.1183/09031936.00093408.                                                japplphysiol.00113.2014.
+
+
+
+
+706                                       J Appl Physiol  doi:10.1152/japplphysiol.00604.2023  www.jap.org
+                Downloaded from journals.physiology.org/journal/jappl (2600:4040:28DA:7700:B5A2:5672:5329:65E9) on March 28, 2026.
+

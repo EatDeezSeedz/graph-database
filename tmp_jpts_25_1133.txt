@@ -1,0 +1,350 @@
+The Effects of Elbow Joint Angle Change on the
+Elbow Flexor Muscle Activation in Pulley with
+Weight Exercise
+
+J. Phys. Ther. Sci.
+25: 1133–1136, 2013
+
+Taewook K ang, PT1), Youngjoon Seo, PT1), Jaehoon Park, PT2), Eunseok Dong, MS2),
+Byungdo Seo, MS, PT3), Dongwook Han, PhD, PT4)*
+1) Department of Physical Therapy, Graduate School of College of Medical and Life Science, Silla
+
+University
+
+2) Technical Research Center, Wellthech Corporation
+
+3) Department of Physical Therapy, College of Health and Welfare, Kyungwoon University
+
+4) Department of Physical Therapy, College of Medical and Life Science, Silla University: 700 Beon-gi,
+
+140 Baegyang-daero, Sasang-gu, Busan 617-736, Republic of Korea. TEL: +82 51-999-6238,
+FAX: +82 51-999-5176
+
+Abstract. [Purpose] This research investigated the effect of angular variation of flexion of the elbow joint on the
+muscle activation of elbow flexor muscles. [Subjects] The research subjects were 24 male college students with a
+dominant right hand who had no surgical or neurological disorders and gave their prior written consent to participation with full knowledge of the method and purpose of this study. [Methods] The subjects’ shoulder joints stayed in
+the resting position, and the elbow joint was positioned at angles of 55°, 70°, and 90°. The angle between the pulley
+with weights and forearm stayed at 90°. Surface electromyography was used to measure muscle activities. Three
+measurements were made at each elbow angle, and every time the angle changed, two minutes rest was given.
+[Result] The muscle activities of the elbow flexors showed significant changes with change in the elbow joint angle,
+except for the biceps brachii activities between the angles of 55° and 70° of elbow flexion. The muscle activities of
+the biceps brachii and brachioradialis showed angle-related changes in the order of 55°, which showed the biggest
+value, followed by 70° and 90°. [Conclusion] In order to improve muscle strength of the elbow flexor using a pulley system, it seems more effective to have a 90° angle between the pulley with weights and the forearm when the
+muscle is stretched to a length 20% greater than its resting position.
+Key words: Pulley with weight exercise, Joint angle, Muscle activation
+(This article was submitted Apr. 10, 2013, and was accepted Apr. 26, 2013)
+
+INTRODUCTION
+A pulley system is a useful tool for facilitating articular rehabilitation and muscle strengthening. Especially, the
+pulley with weight is relatively easy to standardize, and
+readily available in places like hospitals and fitness centers
+for improving muscle strength and muscle endurance1). The
+pulley with weight is an exercise in which weights are lifted
+using a pulley system. This fitness equipment can be used to
+create a variety of joint angles and muscle lengths. Kapandji
+et al.2) noted that the angle of the joint was related to muscle length, so muscle strength would vary according to the
+angle of the joint. Also, Norkin3) reported that the moment
+of force was affected by the angle of the joint and muscle
+length, and Kim et al.4) reported that angular variation of
+the joint changes muscle activation. Thus, to heighten the
+effect of pulley exercise with change in the joint angle and
+muscle length, the weights of the pulley system or the subject’s joint angle need to be changed. Nevertheless, there is
+*To whom correspondence should be addressed.
+
+E-mail: dwhan@silla.ac.kr
+
+little guidance and research regarding the joint angle and
+the method for exercise using the pulley system.
+From the aspect of biomechanics, change in the joint
+angle results from periarticular muscle contraction5). The
+change in the joint angle leads to change in the lever arm
+length and muscle length, and this accompanies variation in
+muscle contraction6). Therefore, there should be a joint angle
+which has an optimal mechanical advantage in each joint5),
+and the optimal muscle length would be at the angle which
+exercises maximal strength3). Consequently, the muscular
+strength would be determined by the length-tension relationship and the mechanical characteristics of the lever. In
+order to perform an exercise for muscle strength improvement, it is important to know the relationship between the
+muscle strength and the joint angle of the muscle7). It has
+been reported that when the muscle length increases, the
+muscle activation begins to decrease8–10). It has also been reported that the muscle length is unrelated to muscle activation11). However, recently, Deusen12) showed that the muscle
+length affects muscle contraction, and reported that there
+was a relationship between the muscle length and muscle
+activation. Thus, it can be assumed that there must be a
+
+1134 J. Phys. Ther. Sci. Vol. 25, No. 9, 2013
+muscle length that generates optimal strength, and it seems
+meaningful to study the joint angle and muscle activation
+because of the close connection between muscle length and
+joint angle. Particularly, considering this aspect, an exercise
+program needs to be developed for the pulley exercise with
+changes in joint angle and muscle length, because knowing the joint angle that creates maximal strength increases
+the effect of the pulley exercise. Therefore, this study was
+conducted in order to find out the joint angle which creates
+maximal muscle activation using a pulley system, based on
+the premise that the joint angle is related to muscle activation. Also, this research offers basic data for the development of an effective exercise program for muscle strength
+improvement.
+SUBJECTS AND METHODS
+The research subjects were 24 healthy male students
+attending S university in Busan, Republic of Korea, who
+gave their prior written consent to participation. They were
+right-handed, had no congenital deformity in upper extremity which would have affected the results of this study, no
+surgical or neurological disorders, and no pain in the neck,
+back, or shoulder. Their average age was 30.38 years, their
+average height was 175.8 cm, and their average weight was
+75.09 kg. Surface electromyography (Keypoint, Medtronic,
+USA) was used to measure muscle activations of the brachioradialis and biceps brachii at different elbow joint
+angles with the shoulder joint in the resting position. The
+electrodes were 1.5–2.5 centimeter disposable unipolar surface electrodes. The angle between the shoulder joint and
+elbow joint was measured using a goniometer (Anymedi,
+Korea). To trigger the contraction of elbow flexor, a special,
+customized pulley system with an electric motor was used.
+The pulley system could control the load amount in onehundred-gram units according to the muscle strength, and
+could provide the merit of maintaining the load regardless
+of the length of the rope in a pulley system. To show the
+effect of angular variation of the elbow joint on the muscle
+activation of elbow flexor muscles, the non-dominant hand,
+the left hand, was used. The subjects were made to stand
+with their feet shoulder width apart, and their shoulder
+joints and elbow joints were placed in a resting position.
+For the resting position, the shoulder joint was abducted at
+55°, and horizontally abducted at 30°; and the elbow joint
+was flexed at 70°, and supinated at 10°13). During the pulley
+exercise, the resting position of the shoulder joint was maintained, while the angle of the elbow joint was positioned
+at 3 different angles. Sohn et al.14) reported the maximum
+tension was likely to be developed at 1.2 times the length of
+the muscle in the resting position. Thus, the flexion angle
+of the elbow joint was positioned at 55° in the first step; at
+70°, the same as the resting position of the elbow joint, in
+the second step; and at 90°, the angle usually used during
+exercise, in the third step. A 90° angle was made between
+the pulley system and the forearm. When the muscle contracts, the change in muscle strength is proportionate to the
+change in the electromyogram value, because the action potential occurs in the muscle4). Consequently, to detect the
+
+change in the muscle strength due to the angular variation at
+the elbow joint in the resting position of the shoulder joint,
+isometric contraction was induced, and then the muscle
+activation was measured using surface electromyography.
+Isometric contraction was performed for 5 seconds, and the
+electromyogram of the 4 seconds, excluding the first second, was recorded. Three measurement trials at each elbow
+angle were made, and two minutes rest was given before
+changing the angle of the elbow joint, based on the preceding studies, to prevent the muscle fatigue15). The flexion of
+the elbow joint is induced by the brachialis, biceps brachii,
+brachioradialis, pronator teres16), but we only recorded the
+electromyograms of the biceps brachii and brachioradialis
+due to the ease of their measurability. The electrodes were
+attached 2 centimeters apart at the thickest part of the muscle belly after muscle contraction17). Before the electrodes
+were attached, hair on the attachment site was removed by
+shaving to reduce the skin resistance, and then the site was
+cleaned with an alcohol swab for exfoliation. The ground
+electrode was attached to the non-dominant left triceps brachii. To determine the significance of the changes in muscle
+strength due to the angular variation of the elbow, repeated
+measures ANOVA was conducted. To find the joint angle
+which showed differences in the muscle activation, Wilcoxon’s Signed Rank test, a nonparametric method, was performed, because the Shapiro-Wilk’s test showed the data
+were not normally distributed. For the analysis, we used
+SPSS for Windows (Ver. 20.0) statistical software, and a
+significance level of α=0.05.
+RESULTS
+The muscle activations of the biceps brachii and brachioradialis showed statistically significant changes with changes of the elbow joint. The muscle activities of the biceps brachii were 366.5 mV at 55°, 295.3 mV at 70°, and 159.9 mV
+at 90° (p<0.05). The muscle activities of the brachioradialis
+were 1678.1 mV at 55°, 1043.3 mV at 70°, and 362.4 mV at
+90° (p<0.05). The muscle activation of the biceps brachii
+was not significantly different between the elbow angles of
+55° and 70°; however, between 55° and 90°, the muscle activation was significantly higher at 55° (p<0.05), and between
+70° and 90°, the muscle activation was significantly higher
+at 70° (p<0.05). For the brachioradialis, between elbow angles of 55° and 70°, the muscle activation was significantly
+higher at 55° (p<0.05), between 55° and 90°, the muscle
+activation was significantly higher at 55° (p<0.05), and between 70° and 90°, the muscle activation was significantly
+higher at 70° (p<0.05) (Table 1).
+DISCUSSION
+The bones of the human body are connected through
+joints18), and the human body can adopt various postures
+due to angular movement of the joints19). The movements
+of the joints are developed through muscle contraction,
+which is closely connected with muscle length20). In other
+words, changes in muscle length lead to changes in joint
+angles, affecting the muscle’s strength 21). The change in the
+muscle strength depending on the angular variation of the
+
+1135
+Table 1.  Muscle activities at different angles of elbow flexion (unit: mV)
+Muscle
+Biceps brachii*
+Brachioradialis*
+
+55°
+
+Elbow Angle
+70°
+
+90°
+
+366.5 ± 339.5a
+1678.1 ± 1805.6c, d
+
+295.3 ± 295.2b
+1043.3 ± 1164.3e
+
+159.9 ± 95.0
+362.4 ± 347.3
+
+Mean ± SD. *: Repeated measures ANOVA test (p<0.05)
+a: 55°>90° (p<0.05), b: 70°>90° (p<0.05), c: 55°>70° (p<0.05), d: 55°>90° (p<0.05), e: 70°>90°
+(p<0.05) by Wilcoxon’s Signed Rank test
+
+elbow joint can be explained through the lever principle and
+the length-tension curve of the muscle. In explaining the
+movement of the human body using the lever principle, the
+fulcrum is the joint, the force generating the effect is the
+muscle, and the weight or resistance is the human body22).
+In this respect, change in the joint angle accompanies the
+change in the length of the lever arm and muscle, leading to change in the muscle activation and contraction4, 6).
+Also, the biggest tension is developed at a specific range of
+musle length in the length-tension curve, which is why the
+change in the muscle strength induced by angular variation
+of the elbow joint can affect the muscle activation 23). In this
+context, Eloranta and Komi11) and Bobbert and Harlaar24)
+confirmed that isokinetic contraction of extensor muscles
+and electromyogram values of maximum voluntary isometric contraction were the biggest at the middle range of
+angles, and that is why correlation exists between the joint
+angles and muscle activation. Kim et al.25) argued that during specific movements, the muscle length and joint position changes constantly, causing change in the moment of
+force. Consequently, they said that when a muscle contracts,
+the muscle strength will differ depending on the angular
+variation. Lee et al.26) also reported that during movement,
+if proper muscle length and joint position were set, a subject would display the maximum power in the easiest way,
+and perform exercise properly. Thus, if the exercise were
+done with a pulley system, consideration of the joint angles
+would be an important factor for the maximum effect of
+the exercise. Nevertheless, there are few studies which have
+scientifically investigated the optimal joint angle, which can
+improve the effect of the exercise when using a pulley system. Thus, the object of this study was to provide basic data
+concerning the proper joint angle during pulley exercise.
+Borstad 27) researched the relationship between the
+changes in muscle length relative to the resting position
+and damage to the shoulder joint. He argued that change of
+the resting position occurred when the resting length of the
+muscle involved in the related movement became shorter.
+Therefore, when joint angles were selected for this study,
+three elbow angles were chosen considering to the resting
+position of the elbow joint and the length tension relationship of the muscle. While the shoulder joint was placed on
+the resting position, the elbow joint was flexed at an angle
+of 70°, which is its resting position, in the first step. In the
+next step, it was flexed at an angle of 55°, which gives a
+length 20% greater than the resting position. Finally, the elbow was flexed at an angle of 90°, which gives a length 30%
+less than its resting position. Since the change in muscle
+activation depends on the angular variation of the elbow
+
+joint, the biceps brachii and brachioradialis were measured.
+Only the muscle activation of the biceps brachii showed no
+significant difference between the elbow angles of 55° and
+70°. The other muscle activities of the biceps brachii and
+brachioradialis showed angle-related changes in the order
+of 55°, which showed the biggest value, followed by 70°
+and 90° (p<0.05). Therefore, the results suggest it would be
+more effective to make an angle of 90° between the pulley
+with weights and the forearm when the muscle is stretched
+to a length 20% greater than its resting position. This result
+and those of other studies’ agree with the study of Sohn14),
+who reported the smaller the angle of the elbow joint was,
+the higher the muscle activation was. Also, Nam and Kim 28)
+varied the angle of the flexion of the elbow joint from 110°
+to 70° at 5° intervals, and investigated the muscle strength.
+They reported that the smaller the angle of flexion of the elbow joint was, the higher the muscle activation was, and that
+the rate of increase in the muscle strength was the highest at
+an angle of 70°. This is in consistent with the results of the
+present study, that the muscle strengths of the biceps brachii
+and brachioradialis were higher at an angle of 90° than at
+70°. Although, most studies have not provided a scientific
+basis that is applicable to all joints, the results of the present
+study can be generalized to all joints because the angles at
+which the muscle length was stretched by 20% compared to
+the resting position of each joint were used. The results of
+this study can be explained through the results of the study
+by Cooke and Fay29). They showed that the active force at
+the resting length was the greatest, but if the muscle length
+were stretched by 20 to 30% of its resting length, the bigger
+the passive force became, and the bigger the total force was.
+That’s why the results of the present study show that the
+muscle activation became greater, because active force was
+added to the passive force at the angle at which the muscle
+length was stretched by more than 20% of its length.
+Consequently, in order to improve the muscle strength
+of the elbow flexor using a pulley system, it would be more
+effective to set an angle of 90° between the pulley with
+weights and the forearm, and use an angle at which the
+muscle is stretched to a length 20% greater than its resting
+position. However, more research is needed to confirm this
+result through a comparative study of muscle activations at
+angles at which the muscle length is stretched by more than
+20% from its resting length and using joints other than the
+elbow, which was studied in the present study.
+
+1136 J. Phys. Ther. Sci. Vol. 25, No. 9, 2013
+ACKNOWLEDGEMENT
+This work (Grants No. SA112985) was supported by Business for Cooperative R&D between Industry, Academy, and
+Research Institute funded by the Korea Small and Medium
+Business Administration in 2011.
+REFERENCES
+1)
+
+Amundsen LR, Takahashi M, Carter CL, et al.: Exercise response during
+wall-pulley versus bicycle ergometer work. Phys Ther, 1980, 60: 173–178.
+[Medline]
+2) Kapandji IA: The physiology of the joints, 5th ed. Edinburgh: Churchill
+Livingstone, 1983, pp 138–142.
+3) Norkin CC, Levangie PK: Joint structure and function, 2nd ed. Philadelphia: FA Davis, 1992, pp 57–296.
+4) Kim JJ, Lee MH, Kim YJ, et al.: Comparison of the maximum EMG levels
+recorded in maximum effort isometric contractions at five different knee
+flexion angles. Korean J Sport Biomech, 2005, 15: 197–206.  [CrossRef]
+5) Baltzopoulos V, Brodie DA: Isokinetic dynamometry application and limitations. Sports Med, 1989, 8: 101–116. [Medline] [CrossRef]
+6) Kaufman KR, An KN, Chao EY: Incorporation of muscle architecture
+into the muscle length tension relationship. J Biomech, 1989, 22: 943–948.
+[Medline] [CrossRef]
+7) Knapik JJ, Wright JE, Mawdsley RH, et al.: Isometric, isotonic, and isokinetic torque variation in four muscle groups through a range of joint motion. Phys Ther, 1983, 63: 938–947. [Medline]
+8) Andriacchi TP, Anderrson GI, Ortengern R: A study of factors influencing muscle activity about the knee joint. J Orthop Res, 1984, 1: 266–275.
+[Medline] [CrossRef]
+9) Heckathorne CW, Childress DS: Relationships of the surface electromyogram to the force, length, velocity, and contraction rate of the cine plastic
+human biceps. Am J Phys Med, 1981, 60: 1–19. [Medline]
+10) Lunnen JD, Yack J, LeVeau B: Relationship between muscle length, muscle activity and torque of hamstring muscles. Phys Ther, 1981, 61: 190–195.
+[Medline]
+11) Eloranta V, Komi PV: Function of the quadriceps femoris muscle under
+maximal concentric and eccentric contractions. Electromyogr Clin Neurophysiol, 1980, 20: 159–154. [Medline]
+12) Deusen JV, Brunt D: Assessment in occupational therapy and physical
+therapy. Philadelphia: WB Saunders, 1997, pp 27–114.
+
+13) Magee DJ: Orthopedic Physical Assessment. Elsevier Health Sciences,
+2007.
+14) Sohn MK, Yoon YS, Kim BO: Effect of elbow flexion on supination, pronation and grip strengths. J Korean Acad Rehab Med, 2001, 25: 678–683.
+15) Roger MZ, Mary LD: Comparison of force and peak EMG during a maximal voluntary isometric contraction at selected angles, In the range of motion for knee extension. Perceptural and Motor Skills, 1996, 83: 976–978.
+16) Baek SH: Basic Human Anatomy, 3rd ed. Seoul: Korean Nurses Association, 1986, pp 48–50.
+17) Cram JR, Kasman GS, Holtz J: Introduction to Surface Electromyography.
+Maryland: Aspen Pub, 1998.
+18) Choi HN, Kwak CS, Lee DH: A quantitative analysis of the activation
+pattern of elbow flexors using autoregressive model. Korean J Phys Educ,
+1996, 35: 299–308.
+19) Kim TW: The Analysis of Muscle Activation about Wrist Joint Flexion &
+Extension During Elbow Joint Extension Movement. Hanyang University,
+dissertation of doctorate degree, 2010.
+20) Kang SY, Bae JH, Kim HW: The variation of isokinetic strength in the
+wrist flexors and extensors as the change of elbow joint angle. J Korean
+Acad Rehab Med, 1990, 14: 110–114.
+21) Williams M, Statzman L: Strength variation through the range of joint motion. Phys Ther Rev, 1959, 39: 145–152. [Medline]
+22) Park CE, Oh JH, Lee KW: Clinical Kinesiology, 2nd ed. Daihak Publishing, 1990.
+23) Kendal FP, McCreary EK, Provance PG, et al.: Muscle Testing and Function, 3rd ed. Williams and Wilkins, 1983, 19: pp 158–159.
+24) Bobbert MF, Harlaar J: Evaluation of moment-angle curves in isokinetic
+knee extension. Med Sci Sports Exerc, 1993, 25: 251–259. [Medline]
+25) Kim JW, Lee KM: Evaluation of isometric shoulder strength in Korean
+adults using a hand-held dynamometer. J Korean Acad Rehab Med, 1996,
+20: 186–193.
+26) Lee CR, Kim KJ, Kim BW: The effect on grasp and pinch strength according to degree of elbow flexion in normal adult. Korean J Orthop Manu
+Ther, 2008, 14: 25–33.
+27) Borstad JD: Resting position variable at the shoulder: evidence to support
+a posture-impairment association. Phys Ther, 2006, 86: 549–557. [Medline]
+28) Nam TG, Kim BS: Cross effect and overflow effect of short term isometric
+training of elbow joint at 90 degree flexion. Korea Sport Res, 2003, 14:
+1367–1388.
+29) Cooke PH, Fay FS: Correlation between fober length, ultrastructure, and
+the length-tension relationship of mammalian smooth muscle. J Cell Biol,
+1972, 52: 105–116. [Medline] [CrossRef]
+
+

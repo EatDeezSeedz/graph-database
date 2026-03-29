@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>van Zuylen 1988 biceps activation patterns</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.65);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(168,85,247,.12),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)} .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(250px,29vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}.check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(48dvh,calc(100dvh - 220px));min-height:300px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)} .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(260px,46dvh,390px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">van Zuylen et al. (1988) - Biceps flexion vs supination activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={biceps:'#60a5fa',others:'#f59e0b',long:'#a855f7',short:'#22c55e',activation:'#ef4444',presence:'#14b8a6'};
+      const MODES={
+        subpops:{label:'Biceps unit specializations',subtitle:'This is the clearest summary of the main finding: the biceps did not act like one uniform muscle.',hint:'In this paper, the sampled biceps pool contained many flexion+supination “summing” units and a smaller flexion-only set. The paper also cites earlier related biceps work showing medial long-head supination-only units.',overlay:'Hover = class count or evidence marker',yLabel:'Observed units / evidence',categories:['Flexion + supination units','Flexion-only units','Supination-only units'],series:[{name:'Observed in this paper',color:COLORS.long,values:[18,5,0],errors:[0,0,0],note:'Current van Zuylen paper: 18 summing units and 5 flexion-only units were directly reported.'},{name:'Supported by earlier related biceps work',color:COLORS.presence,values:[0,0,1],errors:[0,0,0],note:'This paper discusses prior ter Haar Romeny biceps recordings showing medial long-head supination-only units; that class was not directly sampled here.'}]},
+        regional:{label:'Regional biceps task map',subtitle:'Regional interpretation from the paper text: lateral long head behaved differently from the sampled short head, and prior related work placed supination-only units more medially.',hint:'This is a study-based map of where different task-specialized biceps motor-unit patterns were found. It is meant to show the flexion-vs-supination specialization visually.',overlay:'Hover = qualitative task pattern (1 = present)',yLabel:'Pattern present (0 or 1)',categories:['Long head lateral','Short head sampled here','Long head medial (earlier work)'],series:[{name:'Flexion-linked pattern',color:COLORS.activation,values:[1,1,0],errors:[0,0,0],note:'Flexion-only units were consistently lateral long head; summing units were also flexion-active.'},{name:'Supination-linked pattern',color:COLORS.presence,values:[0,1,1],errors:[0,0,0],note:'Supination-linked behavior was present in summing units and in the medial long-head supination-only units discussed from earlier related biceps studies.'}]},
+        contribution:{label:'Biceps contribution (%)',subtitle:'Table 2 estimated relative contribution of the biceps to flexion and supination torques at 100° and 130° elbow angles.',hint:'The biceps contributes more to flexion at 130°, but less to supination at 130°.',overlay:'Hover = reported contribution percentage',yLabel:'Relative contribution (%)',categories:['Flexion 100°','Flexion 130°','Supination 100°','Supination 130°'],series:[{name:'Biceps contribution',color:COLORS.biceps,values:[38,43,35,26],errors:[0,0,0,0],note:'Exact Table 2 values.'}]},
+        threshold:{label:'Biceps recruitment threshold vs elbow angle',subtitle:'Figure 14-based reconstruction of normalized biceps recruitment thresholds. The paper normalized each series to 1.0 at 100°.',hint:'Biceps flexion recruitment threshold drops away from 100°, meaning relatively greater biceps activation is needed/seen as the elbow moves toward flexion or extension. Supination threshold stays much flatter.',overlay:'Hover = normalized relative threshold (Fig. 14 reconstruction)',yLabel:'Relative recruitment threshold',categories:['70°','100°','130°','160°'],series:[{name:'Biceps flexion threshold',color:COLORS.biceps,values:[0.86,1.00,0.76,0.63],errors:[0.05,0.05,0.05,0.05],note:'Approximate from Fig. 14A; normalized to 100° = 1.'},{name:'Biceps supination threshold',color:COLORS.others,values:[0.98,1.00,1.06,1.05],errors:[0.05,0.05,0.05,0.05],note:'Approximate from Fig. 14B; normalized to 100° = 1.'}]}
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='subpops',visible={},zoomX=1,panX=0,drag=null,activeSeries=null,layout=null;
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function initVisible(){ for(const s of MODES[mode].series){ if(!(s.name in visible)) visible[s.name]=true; } }
+      function seriesShown(){ return MODES[mode].series.filter(s=>visible[s.name]); }
+      function maxY(){ const vals=[]; for(const s of seriesShown()){ for(let i=0;i<s.values.length;i++) vals.push((s.values[i]||0)+(s.errors?.[i]||0)); } return Math.max(1.1,...vals)*1.18; }
+      function xWindow(){ const n=MODES[mode].categories.length; const total=Math.max(n/zoomX,1); const maxPan=Math.max(0,n-total); panX=Math.max(0,Math.min(maxPan,panX)); return {start:panX,end:panX+total}; }
+      function yTicks(max){ const rough=max/5; const pow=Math.pow(10,Math.floor(Math.log10(rough||1))); const norm=rough/pow; const step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow; const out=[]; for(let y=0;y<=max+step*0.5;y+=step) out.push(y); return out; }
+      function resize(){ const dpr=window.devicePixelRatio||1; const rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function fit(){ zoomX=1; panX=0; draw(); }
+      function renderLegend(){ legend.innerHTML=''; const cfg=MODES[mode]; subtitle.textContent=cfg.subtitle; hint.textContent=cfg.hint; overlay.textContent=cfg.overlay; for(const s of cfg.series){ const row=document.createElement('div'); row.className='check'+(visible[s.name]?' active':''); if(activeSeries===s.name) row.classList.add('active'); row.innerHTML=`<input type="checkbox" ${visible[s.name]?'checked':''} /><span class="swatch" style="background:${s.color}"></span><label>${s.name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{visible[s.name]=e.target.checked; if(activeSeries===s.name&&!visible[s.name]) activeSeries=null; draw(); renderLegend();}); row.addEventListener('click',e=>{ if(e.target!==box){ activeSeries=activeSeries===s.name?null:s.name; draw(); renderLegend(); }}); legend.appendChild(row);} }
+      function draw(){ initVisible(); const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h); const pad={l:84,r:26,t:20,b:72}; const plot={x:pad.l,y:pad.t,w:Math.max(120,w-pad.l-pad.r),h:Math.max(100,h-pad.t-pad.b)}; const cats=MODES[mode].categories; const shown=seriesShown(); const max=maxY(); const ticks=yTicks(max); const win=xWindow(); layout={plot,bars:[],catCenters:[]}; ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; for(const tick of ticks){ const y=plot.y+plot.h-(tick/max)*plot.h; ctx.beginPath(); ctx.moveTo(plot.x,y); ctx.lineTo(plot.x+plot.w,y); ctx.stroke(); ctx.fillText(MODES[mode].yLabel.includes('%')?`${tick.toFixed(0)}%`:tick.toFixed(tick<10?1:0),16,y+4);} ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore(); const visibleCount=Math.max(1,win.end-win.start); const slotW=plot.w/visibleCount; for(let i=0;i<cats.length;i++){ if(i<win.start||i>=win.end) continue; const x=plot.x+((i-win.start)+0.5)*slotW; layout.catCenters[i]=x; ctx.textAlign='center'; ctx.fillText(cats[i],x,plot.y+plot.h+28);} const groupW=slotW*0.72; const barW=Math.min(56,groupW/Math.max(1,shown.length)); for(let i=0;i<cats.length;i++){ if(i<win.start||i>=win.end) continue; const cx=layout.catCenters[i]; for(let sIdx=0;sIdx<shown.length;sIdx++){ const s=shown[sIdx], val=s.values[i], err=s.errors?.[i]||0; const x=cx-groupW/2+sIdx*barW+(groupW/Math.max(1,shown.length)-barW)/2; const y=plot.y+plot.h-(Math.max(0,val)/max)*plot.h; const hBar=Math.max(2,(Math.max(0,val)/max)*plot.h); ctx.fillStyle=(activeSeries&&activeSeries!==s.name)?`${s.color}55`:s.color; ctx.strokeStyle='rgba(255,255,255,0.22)'; ctx.lineWidth=1.2; ctx.fillRect(x,y,barW,hBar); ctx.strokeRect(x,y,barW,hBar); if(err>0){ const ey=plot.y+plot.h-((val+err)/max)*plot.h; const mid=x+barW/2; ctx.strokeStyle='rgba(255,255,255,0.65)'; ctx.beginPath(); ctx.moveTo(mid,ey); ctx.lineTo(mid,y); ctx.moveTo(mid-6,ey); ctx.lineTo(mid+6,ey); ctx.stroke(); } layout.bars.push({x,y,w:barW,h:hBar,series:s.name,color:s.color,value:val,error:err,category:cats[i],note:s.note}); }} ctx.strokeStyle='rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke(); status.textContent=`${Math.round(zoomX*100)}% zoom`; }
+      function hitBar(p){ return layout?.bars.findLast(b=>p.x>=b.x&&p.x<=b.x+b.w&&p.y>=b.y&&p.y<=b.y+b.h); }
+      function pointerPos(ev){ const r=stage.getBoundingClientRect(); return {x:ev.clientX-r.left,y:ev.clientY-r.top}; }
+      function updateTooltip(ev){
+        const p=pointerPos(ev), hit=hitBar(p);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.category}</div><div>${MODES[mode].yLabel}: <strong>${hit.value.toFixed(2)}</strong>${MODES[mode].yLabel.includes('%')?'%':''}</div>${hit.error?`<div>SEM/SD display: ±${hit.error.toFixed(2)}</div>`:''}<div>${hit.note}</div>`;
+        tooltip.style.display='block';
+        const tipW = tooltip.offsetWidth || 210;
+        const tipH = tooltip.offsetHeight || 80;
+        const left = Math.min(stage.clientWidth - tipW - 8, Math.max(8, p.x + 14));
+        const preferredTop = p.y - tipH - 10;
+        const top = preferredTop >= 8 ? preferredTop : Math.min(stage.clientHeight - tipH - 8, p.y + 14);
+        tooltip.style.left=`${left}px`;
+        tooltip.style.top=`${Math.max(8, top)}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; activeSeries=null; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit); btnReset.addEventListener('click',()=>{ activeSeries=null; fit(); renderLegend(); }); btnShowAll.addEventListener('click',()=>{ for(const s of MODES[mode].series) visible[s.name]=true; draw(); renderLegend(); }); btnHideAll.addEventListener('click',()=>{ for(const s of MODES[mode].series) visible[s.name]=false; draw(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); zoomX=Math.max(1,Math.min(3.5,zoomX*(e.deltaY>0?0.9:1.1))); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,panX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const cats=MODES[mode].categories.length; const span=Math.max(1,cats/zoomX); const pxPerCat=(layout?.plot.w||stage.clientWidth)/span; panX=drag.panX-(e.clientX-drag.x)/Math.max(1,pxPerCat); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none'); window.addEventListener('resize',resize);
+      renderLegend(); resize();
+    </script>
+  </body>
+</html>

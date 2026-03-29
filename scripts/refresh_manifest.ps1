@@ -59,6 +59,7 @@ if (Test-Path $interactivePath) {
       title = $_.title
       file = $_.file
       kind = $_.kind
+      folder = $_.folder
       updatedAt = $updatedAt
     }
   }

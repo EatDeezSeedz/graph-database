@@ -1,0 +1,913 @@
+Clinical Biomechanics 17 (2002) 390–399
+www.elsevier.com/locate/clinbiomech
+
+In vivo determination of subject-speciﬁc musculotendon
+parameters: applications to the prime elbow ﬂexors
+in normal and hemiparetic subjects
+Terry K.K. Koo a, Arthur F.T. Mak a,*, L.K. Hung b
+a
+
+Jockey Club Rehabilitation Engineering Centre, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China
+b
+Department of Orthopedics and Traumatology, The Chinese University of Hong Kong, Hong Kong, China
+Received 23 October 2001; accepted 17 April 2002
+
+Abstract
+Objective. This study aimed at estimating the musculotendon parameters of the prime elbow ﬂexors in vivo for both normal and
+hemiparetic subjects.
+Design. A neuromusculoskeletal model of the elbow joint was developed incorporating detailed musculotendon modeling and
+geometrical modeling.
+Background. Neuromusculoskeletal modeling is a valuable tool in orthopedic biomechanics and motor control research. However, its reliability depends on reasonable estimation of the musculotendon parameters. Parameter estimation is one of the most
+challenging aspects of neuromusculoskeletal modeling.
+Methods. Five normal and ﬁve hemiparetic subjects performed maximum isometric voluntary ﬂexion at nine elbow positions
+(0°–120° of ﬂexion with an increment of 15°). Maximum ﬂexion torques were measured at each position. Computational optimization was used to search for the musculotendon parameters of four prime elbow ﬂexors by minimizing the root mean square
+diﬀerence between the predicted and the experimentally measured torque-angle curves.
+Results. The normal group seemed to have larger maximum muscle stress values as compared to the hemiparetic group. Although
+the functional ranges of each selected muscle were diﬀerent, they were all located at the ascending limb of the force–length relationship. The muscle optimal lengths and tendon slack lengths found in this study were comparable to other cadaver studies reported in the literature.
+Conclusion. Subject-speciﬁc musculotendon parameters could be properly estimated in vivo.
+Relevance
+Estimation of subject-speciﬁc musculotendon parameters for both normal and hemiparetic subjects would help clinicians better
+understand some of the eﬀects of this pathological condition on the musculoskeletal system. Ó 2002 Elsevier Science Ltd. All rights
+reserved.
+Keywords: Elbow biomechanics; Neuromusculoskeletal modeling; Muscle architecture; Muscle mechanics; Muscle stress; Hemiparesis
+
+1. Introduction
+Skeletal muscle architecture can be regarded as the
+structural properties of the whole muscle that dominate
+its function [1]. Important architectural parameters include muscle optimal length; tendon slack length; and
+physiological cross sectional area (PCSA). By deﬁnition,
+
+*
+
+Corresponding author.
+E-mail address: rcafmak@inet.polyu.edu.hk (A.F.T. Mak).
+
+muscle optimal length is the muscle ﬁber length at which
+a muscle can generate its maximum isometric force. It
+is generally assumed to be the ﬁber length at which a
+muscle begins to develop passive force in musculoskeletal modeling [2]. Tendon slack length is deﬁned as the
+in vivo tendon length beyond which a tendon begins
+to develop force. Unlike muscle optimal length, tendon
+slack length cannot be measured directly in cadaver
+specimens. These length-related parameters are pertinent to determining the physiological operating range of
+a muscle within the force–length relationship. PCSA can
+
+0268-0033/02/$ - see front matter Ó 2002 Elsevier Science Ltd. All rights reserved.
+PII: S 0 2 6 8 - 0 0 3 3 ( 0 2 ) 0 0 0 3 1 - 1
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+be estimated by dividing the muscle volume by the
+muscle optimal length. This formulation implies that the
+PCSA is proportional to the number of muscle ﬁbers
+within a muscle. When the PCSA is multiplied by the
+maximum isometric muscle stress (a critical biomechanical parameter that limits the amount of force
+exerted on the tendon-bone interface), it yields the
+maximum isometric muscle force that a muscle can
+exert. Therefore, the PCSA and maximum isometric
+muscle stress are relevant to the force generating capacity of a muscle and when coupled with the moment
+arms, determine the torque generating capacity of a
+muscle. It has been documented that muscles of diﬀerent
+architectures but similar ﬁber type may diﬀer in strength
+and speed by factors of 10–20 [1,3].
+Neuromusculoskeletal modeling has been applied
+in the design of muscle-tendon surgical and rehabilitation procedures [4–9], in non-invasive estimation of individual muscle forces [10–12], and in the study of
+control strategies for movement coordination [13–15].
+Musculotendon models were often implicitly included
+within these neuromusculoskeletal models. Musculotendon parameters critical to these models, including
+muscle optimal length, tendon slack length, maximum
+muscle stress, and PCSA, were often adopted or scaled
+from earlier cadaver studies. Sensitivity analysis has
+showed that neuromusculoskeletal model behavior tended to be very sensitive to the values of these parameters [8,16]. Given that the musculotendon parameters
+can vary substantially among subjects, it is important to estimate them on a subject speciﬁc basis. Careful estimations of such parameters in vivo are critical
+to the success of modern neuromusculoskeletal simulations.
+Numerous studies have been performed in cadaveric
+human upper limbs [17–21] to measure the musculotendon parameters, but in vivo estimations of these
+parameters are rare. Few investigators have combined
+experimental measurements, musculoskeletal modeling,
+and computational optimization to estimate the musculotendon parameters in vivo [14,22]. However, only
+normal subjects were tested in these studies. No examination of the musculotendon parameters for pathological subjects could be found in these reports.
+We hypothesized that musculotendon parameters for
+both normal and pathological subjects could be reasonably estimated in vivo using a neuromusculoskeletal
+modeling technique in combination with experimental
+measurements. The objectives of this study were to estimate the musculotendon parameters of the prime elbow ﬂexors in vivo for both normal and hemiparetic
+subjects and to compare the biomechanical and architectural diﬀerences among muscle and subject groups.
+The interplay between muscle architecture and joint
+geometry on the force and torque-generating characteristics of the elbow muscles was also investigated. Part
+
+391
+
+of this work has been reported previously in abstract
+form [23].
+
+2. Methods
+2.1. Musculotendon modeling
+Four major elbow ﬂexors––the long and short heads
+of biceps (LHB and SHB), the brachialis (BRA), and the
+brachioradialis (BRD) were considered in the current
+study. Selection of these muscles was based on computing and comparing the potential moment contribution among the 24 muscles wrapping across the elbow
+joint [17].
+The musculotendon model used in this study was
+based on the work of Giat [13]. Each muscle was biomechanically modeled as a unit of three parallel components (i.e. CE, PE, and VE) where CE represents the
+active contractile element of the muscle, and PE and VE
+represent the non-linear elastic component and viscous
+component of the ﬂuid-ﬁlled connective tissues of the
+muscle, respectively (Fig. 1). It was assumed that all the
+muscle ﬁbers are parallel, equal in length and oriented at
+the same pennation angle a. T represents the tendon,
+which was modeled as a stiﬀ and non-linear elastic
+spring. M is the muscle mass and lm , lt , and lmt represent
+the muscle ﬁber length, tendon length, and musculotendon length respectively. This tendon length value
+represents the total of proximal and distal tendon
+lengths within a muscle. Hence, the empirical relationship between the muscle, tendon and musculotendon
+lengths can be stated as follows:
+lmt ¼ lm cos a þ lt
+
+ð1Þ
+
+During isometric contraction, the muscle can be assumed to be at a zero velocity, hence
+Ft ¼ Fm cos a
+
+ð2Þ
+
+where Ft is the tendon force and the net muscle force Fm
+equals the sum of the passive and active force components of the muscle (i.e. Fm ¼ Fp þ Fa þ Fd ). Fa , Fp , and
+Fd are the forces produced by the CE, PE, and VE
+
+Fig. 1. A musculotendon model used in the current study.
+
+392
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+components respectively. Fd can be assumed to be zero
+in isometric contraction. Detailed formulation for Ft , Fp
+and Fa can be found in Zajac [2] and Giat et al. [7].
+The maximum isometric ﬂexion torque at position h
+can be written as:
+T ðhÞ ¼
+
+4
+X
+
+Fti ðhÞ  MAi ðhÞ
+
+ð3Þ
+
+i¼1
+
+where Fti ðhÞ is the tendon force and MAi ðhÞ is the moment arm of muscle i (i.e. 1 ¼ LHB, 2 ¼ SHB, 3 ¼ BRA,
+4 ¼ BRD) at position h.
+2.2. Experimental protocol
+Five normal subjects (four males and one female with
+a mean age of 28.8 years, ranging from 27 to 30 years,
+and a mean weight of 67.9 kg, ranging from 46.4 to 89.4
+kg) and ﬁve hemiparetic stroke subjects (three males and
+two females, with a mean age of 43.4 years, ranging
+from 21 to 54 years, and mean weight 61.9 kg, ranging
+from 51.3 to 69.1 kg) were recruited for this study. All
+subjects gave their informed consent to the investigation, which was approved by the Hong Kong Polytechnic University human subject ethics committee.
+A Cybex Norm dynamometer (Cybex, Ronkonkoma,
+USA) was used to measure the elbow ﬂexion torque
+under maximum isometric voluntary ﬂexion. An eight
+channel telemetric surface EMG system (Noraxon,
+Scottsdale, USA) was used to capture the surface EMG
+signals of the biceps, the bradioradialis, and the medial,
+lateral, and long heads of the triceps. A pair of presterilized hook wire electrodes (Nicolet Biomedical,
+Madison, USA) were used to capture the ﬁne wire EMG
+signals of the brachialis. Torque and EMG signals were
+recorded at 2000 Hz and stored on a PC computer via
+an A-D converter (Data translation, Marlboro, USA)
+for further oﬀ-line processing. The torque signals were
+lowpass ﬁltered at 10 Hz to remove noise. The raw
+surface and ﬁne wire EMG signals were bandpass ﬁltered at 10–500 and 10–1000 Hz respectively, rectiﬁed,
+and then lowpass ﬁltered (3 Hz) to obtain the linear
+envelope signals. In all cases, a second-order zero-phase
+forward and reverse digital ﬁlter was adopted to avoid
+time delay of the ﬁltered data. Based on the torque and
+EMG measurements, the eﬀort made by individual
+subjects and the level of antagonistic co-contraction at
+each testing position could be identiﬁed.
+During the test, each subject sat on an assessment
+chair with the trunk restrained by straps to minimize
+movement. The forearm was placed in a supinated position and ﬁxed over a custom-made adapter so that the
+elbow ﬂexion-extension axis was aligned with the vertical axis of the Cybex Norm dynamometer. The shoulder
+assumed 80°–90° abduction and 0° ﬂexion. Proper
+placement of the limb was visually veriﬁed by the ab-
+
+sence of upper arm translation during manual rotation
+of the elbow joint. Nine elbow positions (0–120° of
+ﬂexion at 15° increments) were tested. At each position,
+the subject was ﬁrst instructed to relax completely and
+then to gradually increase the elbow torque to maximum
+and maintain that for about 2 s. The maximum isometric ﬂexion and extension were conducted alternatively and a one-minute recovery period was allowed
+between contractions to avoid muscle fatigue. The
+maximum ﬂexion torque that each subject could attain
+at each testing position were recorded. The torque-angle
+data were then curve-ﬁtted by a third order polynomial
+which was later served as the input to the neuromusculoskeletal model.
+A pair of neurostimulation electrodes (32 mm dia.,
+PALS PLUS, Nidd Valley Medical, Knaresborough,
+UK) was then attached over the biceps and brachioradialis with the cathode placed over the motor points
+and the anode at the distal end of the target muscle.
+The testing conﬁguration was similar to those described
+above except that a sub-maximal constant current electrical stimulation (current ¼ 20 mA, frequency ¼ 30 Hz,
+pulse width ¼ 0.3 ms) was applied to the biceps and
+brachioradialis separately at the nine diﬀerent elbow
+positions mentioned above. The torque elicited by the
+stimulation was measured by the dynamometer. Individual muscle force at each elbow position was then
+estimated by dividing the elicited muscle torque by the
+corresponding moment arm. For each subject, a subject
+speciﬁc geometrical model was employed to estimate
+these moment arms [24]. A lowest-order equation with
+an R2 value greater than 0.95 was then ﬁtted to the forceposition data and the position with maximum muscle
+force was taken as the optimal angle. These optimal
+angles were used to guide the optimization computation.
+2.3. Solution procedure
+In the current study, maximum muscle stress was
+assumed to be the same for each prime elbow ﬂexor (i.e.
+LHB, SHB, BRA, BRD) and was denoted as rf . All
+together, the neuromusculoskeletal model featured 9
+musculotendon parameters (i.e. four muscles, each with
+two length-related parameters muscle optimal length
+(lmo ) and tendon slack length (lto ), as well as rf ). The
+neuromusculoskeletal model minimized the root mean
+square diﬀerence between the polynomial-ﬁtted and
+predicted maximum isometric ﬂexion torques for the
+range of 10–110° with an increment of 2° by optimizing
+the musculotendon parameters. The objective function
+is:
+vﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+u 51
+uP m
+u ðTi  Tip Þ2
+t
+Minimize i¼1
+ð4Þ
+51
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+where Tim and Tip are the polynomial-ﬁtted and predicted
+joint torques at the ith position respectively.
+Inputs to the model include pennation angle, muscle
+optimal angle, and PCSA of each muscle, as well as
+moment arms and musculotendon lengths of each
+muscle over the physiological range of motion. Values of
+pennation angle were based on data reported in the literature [25]. Whenever possible, the optimal angles of
+the biceps and brachioradialis were based on the results
+of in vivo electrical stimulation tests and the optimal
+angle of the brachialis was assumed to be equal to that
+of the biceps. For those muscles where an electrical
+stimulation test was not conducted, the optimal angles
+were assumed to be 20° [20]. Values of PCSAs for the
+elbow muscles of each subject were scaled from the cadaver data reported in [20] based on the ratio of cross
+sectional area of the upper arm (i.e. (CIR2 )/4p).
+i:e: PCSAi ¼ PCSAci  ðCIR=CIRcÞ
+i ¼ LHB; SHB; BRA; BRD
+
+2
+
+for
+ð5Þ
+
+where CIR and CIRc are the measured upper arm circumference of the subject and the mean circumference of
+the cadaver upper arms reported in [20] respectively, and
+PCSAci is the mean PCSA of the ith muscle reported in
+[20].
+Moment arms and musculotendon lengths of the selected muscles of each subject over the elbow range of
+motion were estimated using subject-speciﬁc interactive
+graphic-based geometrical model of the elbow joint,
+which was scaled from a generic geometrical model of
+the elbow joint developed in the SIMM (MusculoGraphics, Chicago, USA) environment [26]. The generic
+model deﬁned the bone surfaces of the humerus, ulna,
+radius, hand, rib cage, scapula and clavicle, the joint
+kinematics of the elbow, and the musculotendon paths
+of those selected muscles. The bone surfaces were provided by the SIMM software, which were obtained by
+digitizing a male skeleton. The elbow ﬂexion/extension
+axis was deﬁned as the line passing through the centers
+of the capitulum and trochlear sulcus [27] and the slight
+translation of the joint center as a function of elbow
+angle [28] was also incorporated in the generic model.
+The musculotendon paths of those selected muscles were
+modeled as a series of points connected by line segments,
+which included the muscle origin and insertion points as
+well as the additional intermediate points that were deﬁned when the muscle wrapped over the joint surface.
+For example, the brachioradialis was modeled to wrap
+across the capitulum when the elbow extended beyond
+25°. Muscle origin and insertion points of each selected
+muscle were deﬁned as the centroids of muscle attachment areas marked on a commercially available A11
+muscle skeleton (Kappa Medical, Prescott, USA). For
+each bone segment, three anatomical landmarks were
+
+393
+
+identiﬁed to deﬁne a local coordinate system and the
+coordinates of those muscle origin and insertion points
+were digitized with respect to the aforesaid local coordinate systems using a mechanical 3-D digitizer (MicroScribe-3D, USA). These coordinates were then
+transformed and scaled to match the local coordinate
+systems of the generic model. The generic model was
+then scaled to speciﬁc subject model based on the ratio
+of segment lengths.
+A number of constraints were imposed on the
+optimization process. First, the total moment produced by the summation of passive elastic component of
+each muscle at 10° of ﬂexion was set to be less than 2
+Nm. This constraint is consistent with in vivo measurement of passive moment [29–31]. Second, the tendon slack lengths must be greater than zero. Third,
+the muscle optimal lengths (lmo ) for the ﬂexors followed
+the sequence: lmo ðBRAÞ < lmo ðLHBÞ < lmo ðSHBÞ <
+lmo (BRD). This constraint is consistent with cadaver
+data [17,20,21,25,32]. Finally, it was assumed that each
+muscle was able to exert active force over the range of
+10–110° ﬂexion. Initial estimates of the optimal length
+of each muscle were based on anthropometric scaling
+of the cadaver data [20]. An initial estimate of maximum muscle stress was set to 100 N/cm2 , which is within
+the range reported in the literature (i.e. 10–243 N/cm2 ).
+The optimization scheme consisted of one full dimensional Nelder–Mead simplex call, followed by N þ 1
+two-dimensional (2-D) Nelder–Mead simplex calls.
+These N þ1 2-D simplex calls provided initial vertices for
+the next full dimensional simplex call (next iteration),
+where N denotes the number of parameters to be estimated [33].
+The parameter searching process was an iterative
+searching procedure. First, the maximum muscle stress
+was optimized by keeping the length-related parameters
+constant. Second, the length-related parameters were
+optimized by keeping the maximum muscle stress constant. These two steps were repeated until the root mean
+square diﬀerence was minimized.
+During maximum isometric voluntary ﬂexion, level of
+activation (a) of each prime elbow ﬂexor was assumed to
+be fully activated (i.e. a ¼ 1) and co-contraction of each
+prime elbow extensor was assumed nonexistent (i.e.
+a ¼ 0). Two of the ﬁve hemiparetic subjects were excluded from the simulation because inconsistent subject
+eﬀort and/or excessive antagonistic co-contraction were
+observed at some positions, which apparently violated
+the basic assumption.
+2.4. Statistical analysis
+Eﬀects of muscles and subject groups on dependent
+variables of (1) muscle optimal angle, (2) muscle optimal
+length, (3) tendon slack length, (4) tendon slack length/
+muscle optimal length (lto /lmo ), and (5) muscle optimal
+
+394
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+length/average moment arm (lmo /MAa ) were evaluated
+by a ﬁxed eﬀect model using two-way analysis of variance (A N O V A ). Post hoc comparisons were based on the
+Bonferroni test. Independent sample t-test was used to
+analyze the subject group eﬀect on maximum isometric
+muscle stress. The level of signiﬁcance was set at 0.05 for
+all statistical tests.
+
+3. Results
+Fig. 2 shows a typical torque-position and forceposition relationship elicited by the biceps and brachioradialis. The optimal angle of each stimulated muscle
+could be estimated from the force-position relationship.
+It was noted that the mean optimal angle of the biceps
+was 19.6° (SD, 2.9°) for the normal group and 26.5°
+(SD, 8.1°), for the hemiparetic group. The mean optimal
+angle of the brachioradialis were found to be 17.0° (SD,
+1.6°) for the normal group and 27.0° (SD, 8.5°) for the
+hemiparetic group. Two way A N O V A revealed a signiﬁcant main eﬀect of subject group on the optimal angle
+(P ¼ 0:014) but no signiﬁcant main eﬀect of muscle
+group on the optimal angle was noted (P ¼ 0:742).
+For the normal group, the maximum muscle stresses
+were found to range from 98.29 to 167.58 N/cm2 and
+those of the hemiparetic group were found to range
+from 47.66 to 146.88 N/cm2 . The mean values of the
+maximum muscle stress for the hemiparetic and normal
+groups were 96.61 N/cm2 (SD, 49.62) and 129.37 N/cm2
+(SD, 32.29) respectively. Although not statistically sig-
+
+niﬁcant (P ¼ 0:293), it appears that the maximum
+muscle stress for the hemiparetic group is lower than
+that of the normal group while the variability of the
+maximum muscle stress for the hemiparetic group is
+larger than that of the normal group.
+Fig. 3A and B summarize the results related to the
+estimated muscle optimal lengths and tendon slack
+lengths. The mean muscle optimal lengths of the LHB,
+SHB, BRA, and BRD were found to be 11.31, 14.71,
+10.14, and 23.76 cm respectively for the normal group
+and 12.52, 13.46, 11.53, and 22.42 cm respectively for
+the hemiparetic group (Fig. 3A). The mean tendon slack
+lengths of the LHB, SHB, BRA, and BRD were found
+to be 25.91, 21.57, 3.49, and 8.96 cm respectively for the
+normal group and 25.71, 24.37 2.54, and 11.57 cm respectively for the hemiparetic group (Fig. 3B). Two way
+A N O V A showed a highly signiﬁcant diﬀerence of both
+the muscle optimal length and the tendon slack lengths
+between the four prime elbow ﬂexors (P < 0:001 for
+both parameters). However, no signiﬁcant diﬀerence
+between subject groups were found for either parameters
+(P ¼ 0:997 for lmo and P ¼ 0:367 for lto ).
+Two speciﬁc ratios of the tendon slack length to
+muscle optimal length (lto /lmo ) and the muscle optimal
+length to average moment arm across the range of 10° to
+110° ﬂexion (lmo /MAa ) were computed for each muscle
+(Fig. 3C and D). The ratio lto /lmo is related to the stiﬀness of the musculotendon actuators. Zajac [2] demonstrated that a stiﬀ tendon actuator would have a small
+lto /lmo ratio, whereas a compliant tendon actuator
+would have a large lto /lmo ratio [34]. The mean values of
+
+Fig. 2. Typical torque-angle and force-angle responses of the biceps and brachioradialis under sub-maximal electrical stimulation. 0° represents fully
+extension. Stimulating parameters: current ¼ 20 mA, pulse width ¼ 0.3 ms, duration ¼ 3.3 s, frequency ¼ 30 Hz.
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+395
+
+Fig. 3. Comparison of the musculotendon parameters estimated by the model: (A) muscle optimal length, (B) tendon slack length and (C) lto /lmo
+ratio; (D) lmo /MAa ratio. The error bar indicates one standard deviation length.
+
+lto /lmo for LHB, SHB, BRA, and BRD were found to be
+2.34, 1.49, 0.43, and 0.40 respectively for the normal
+group, and 2.06, 1.83, 0.24, and 0.55 respectively for
+the hemiparetic group. A highly signiﬁcant diﬀerence
+among the four muscles was found (P < 0:001). Post hoc
+comparisons indicated that the brachialis and brachioradialis were signiﬁcantly stiﬀer than the two heads of
+the biceps (P < 0:001) and the short head of biceps
+was signiﬁcantly stiﬀer than the long head (P <
+0:001). However, no signiﬁcant diﬀerence between subject groups was found (P ¼ 0:974). The ratio lmo /MAa is
+related to the amount of excursion of the muscle ﬁber
+over the physiological range of motion. If the ﬁber
+length is very long compared with the moment arm,
+relatively little change in sarcomere length will occur
+during joint rotation, and change in muscle force will
+contribute little to the joint moment. If the ﬁber length is
+very short and moment arm is long however, both the
+sarcomere length and the muscle force will change
+markedly during joint rotation. This dramatically aﬀects
+the muscle contribution to the joint moment [34]. It was
+found that the mean value of lmo /MAa of the ﬂexor
+muscles (i.e. LHB, SHB, BRA, and BRD) were 3.56,
+4.54, 5.14, and 4.77 respectively for the normal group
+and 3.83, 4.04, 5.60, and 4.28 respectively for the hemiparetic group. Statistical analysis revealed a signiﬁcant
+diﬀerence of ‘mo /MAa between muscles (P ¼ 0:003).
+Post hoc comparisons revealed that only the BRA and
+LHB were signiﬁcantly diﬀerent from each other (P ¼
+
+0:002). Subject eﬀect was not found to be signiﬁcant
+(P ¼ 0:829).
+Fig. 4 shows typical results of the measured and
+predicted maximum isometric ﬂexion torque versus joint
+angle for a normal and a hemiparetic subject. Contribution of individual muscles to the total ﬂexion torque
+are also plotted on the same ﬁgure. In general, the
+predicted torque-angle proﬁle closely matches the measured data, with the root mean square diﬀerences
+ranging from 0.69 to 4.35 Nm (mean ¼ 2:74, SD ¼ 1:54,
+n ¼ 5) for the normal group and from 1.00 to 3.22 Nm
+(mean ¼ 2:15, SD ¼ 1:11, n ¼ 3) for the hemiparetic
+group.
+
+4. Discussion
+The current study introduced an in vivo method to
+estimate the musculotendon parameters of the prime
+elbow ﬂexors for both normal and hemiparetic subjects.
+This work extends the previous eﬀorts of musculotendon parameter estimation by incorporating the optimal
+angles found using an in vivo electrical stimulation
+technique to guide the optimization computation. In
+previous modeling studies, muscle optimal angles were
+often arbitrarily assumed [13,22,35–38]. For example,
+Feng et al. [35] assumed that the muscle lengths came to
+their optimal lengths at 70° ﬂexion and Caldwell [36]
+chose lmo at 90% of the maximum physiological length.
+
+396
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+the long and short heads of biceps, the brachioradialis,
+and the brachialis were all about 20°, which agreed with
+our data estimated using electrical stimulation. In the
+current study, the mean optimal angles of the hemiparetic group were found to be at a relatively more ﬂexed
+position as compared to the normal group, reﬂecting
+possibly the eﬀect of muscle contracture after brain injuries. Muscle contracture features a shortening of muscle optimal length due a decrease in the number of
+sarcomeres in series along the myoﬁbrils. Although the
+origins of developing muscle contracture in hemiparesis
+following stroke are still far from conclusive, it is often
+attributed to immobilization of elbow ﬂexors in a shortened position and the abnormal muscle tone of the
+elbow ﬂexors developed after stroke.
+Table 1 summarizes the muscle optimal length and
+tendon slack length values reported in the literature
+[14,17,20,21,25,32], as well as our values based on results
+of the normal subject group. Wide variations among
+diﬀerent studies were noted for these parameters. It
+appears that such discrepancy may be due to diﬀerences
+in number of subjects, diﬀerences in subject sizes, and
+diﬀerences in dissection and measurement methods
+employed by diﬀerent investigators. Our values closely
+approximate the ranges reported in the literature. Given
+that the predicted torque-angle proﬁles closely match
+the experimentally measured data and the estimated
+musculotendon parameters closely approximate the
+ranges reported in the literature, we believe that subjectspeciﬁc musculotendon parameters can be properly
+predicted in vivo using the technique described in the
+current study. The statistically signiﬁcant diﬀerences in
+the muscle optimal length between the prime elbow
+ﬂexors are consistent with constraints we imposed on our
+numerical optimization process. Estimation of subjectspeciﬁc musculotendon parameters would be useful for
+diagnosis of musculoskeletal injuries, surgical planning
+(e.g. tendon transfer), and customization of rehabilita-
+
+Fig. 4. The predicted, polynomial-ﬁtted and measured ﬂexion torqueangle proﬁles for (A) a normal subject and (B) a hemiparetic subject.
+Individual muscle torque-angle proﬁles are also computed and plotted.
+
+The wide variability of the selected optimal angles
+among these studies indicates the lack of consensus
+on the optimal conﬁguration for human muscles. With
+appropriate setting and proper placement of stimulating
+electrodes over the motor points of a target muscle, we
+demonstrated the possibility of using electrical stimulation to estimate the optimal angles of surface muscles
+in vivo.
+Murray et al. [20] estimated the optimal angles and
+functional ranges of eight elbow muscles based on measurements of moment arms and muscle optimal lengths
+of 10 cadavers. They found that the optimal angles of
+
+Table 1
+Comparison of the muscle optimal lengths and tendon slack lengths found in the current study and those reported in the literature
+Muscle
+
+Gonzalez et al. [14]
+
+Winters and
+Stark [32]
+
+An et al. [17]
+
+Amis et al. [25]
+
+Veeger et al. [21]
+
+Murray et al. [20]
+
+Current study
+
+Optimal ﬁber length (cm)
+LHB
+14
+SHB
+14
+BRA
+7
+BRD
+14.4
+
+14
+15
+9
+16
+
+13.6
+15
+9
+16.4
+
+15
+15.7
+8
+14.2
+
+14.1
+17.6
+11.6
+21.2
+
+12.8
+14.5
+9.9
+17.7
+
+11.3
+14.5
+10.1
+23.8
+
+Tendon slack length (cm)
+LHB
+20
+SHB
+20
+BRA
+4.3
+BRD
+12
+
+22
+19
+3
+7
+
+NR
+NR
+NR
+NR
+
+NR
+NR
+NR
+NR
+
+NR
+NR
+NR
+NR
+
+22.9
+18.3
+11.6
+16.9
+
+25.9
+21.7
+3.5
+9.0
+
+NR stands for not reported. Winters and Stark [32] claimed that their data were based on those reported in the literature and scaled to the 50th
+percentile male. Gonzalez et al. [14] estimated the parameters using mathematical modeling. The three heads of triceps and two heads of biceps were
+lumped together in that study. Others were cadaver studies.
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+397
+
+BRA, lto =lmo ¼ 0:43) results in less shift, whereas a
+compliant actuator (e.g. LHB, lto =lmo ¼ 2:34) results in
+more shift. Table 2 summarizes the amount of excursion
+and the amount of force change over the range from 10°
+to 110° of ﬂexion. It is evident that the ratio lmo /MAa is
+directly related to the amount of excursion. If a muscle
+is fully activated, the amount of excursion is relatively
+small as compared with an inactivated muscle but the
+change in force magnitude is larger. This phenomenon
+can be explained by the non-uniform slopes of the force–
+length relationship over diﬀerent regions. In general, our
+functional range estimations are quite similar to those
+estimated by Murray et al. [20] except for the brachioradialis, which has an estimated operating range substantially smaller than that estimated by Murray et al.
+[20]. This may be due to the fact that the estimated
+muscle optimal length which was longer in the current
+study than in Murray et al. [20].
+An interesting ﬁnding is that the ﬂexion moment
+arm proﬁles for the elbow ﬂexors tend to increase with
+ﬂexion whereas the muscle forces tend to decrease
+with ﬂexion (compare Figs. 5 and 6). It turns out that
+the resultant torque proﬁle does not ﬂuctuate much
+throughout the physiological range of motion. It appears that the musculoskeletal system itself is a highly
+organized and integrated structure in which the muscle
+architecture and joint geometry have been precisely designed to optimize function.
+We assumed that during maximum isometric voluntary ﬂexion, the prime elbow ﬂexors are fully activated
+(i.e. a ¼ 1). It has been shown that well-motivated normal subjects could achieve near complete voluntary activation during attempted maximum isometric voluntary
+contraction. For instance, the level of voluntary activation of the brachioradialis and the biceps during
+maximum isometric voluntary ﬂexion were found to be
+over 0.92 and 0.99 respectively [39]. For hemiparetic
+subjects, owing to the disruption of the descending
+motor pathways after brain injuries, they may not be
+able to fully activate the ﬂexor muscles during attempted
+maximum isometric voluntary ﬂexion. Therefore, the
+maximum muscle stress values computed by the current
+study should be interpreted accordingly.
+The maximum muscle stress values estimated (129.37
+N/cm2 for the normal group and 96.61 N/cm2 for the
+hemiparetic group) were within the range reported in the
+
+Fig. 5. Operating ranges of the elbow muscles. Excursions are expressed relative to the muscle optimal lengths and superimposed on a
+normalized force–length curve. Two conditions were simulated: muscle
+inactivated (region marked by ‘’) and muscle fully activated (region
+marked by ‘’). The ratios lto /lmo and lmo /MAa are related to stiﬀness
+and amount of excursion of an actuator respectively.
+
+tion programs. Using subject-speciﬁc parameters for
+computer simulation would enhance the reliability and
+specialty of the simulations. The basic musculotendon
+parameters revealed in the current study would also
+enhance our knowledge of the specialization of muscle
+architectures and the force-generating characteristics of
+diﬀerent elbow muscles. Comparison of the musculotendon parameters between normal and hemiparetic
+subjects would enhance our understanding of the eﬀects
+of brain injuries on the musculoskeletal system.
+Based on the musculotendon parameters of the normal subjects found in the current study, we estimated
+the operating ranges of each muscle in the force–length
+relationship throughout the range from 10° to 110°
+under two conditions. The ﬁrst condition assumed that
+the muscle is fully activated and the second one assumed
+that the muscle is inactivated. Fig. 5 shows the mean
+operating range of each muscle for the ﬁve normal
+subjects tested. Although the functional ranges of each
+muscle are diﬀerent, they are all located at the ascending
+limb of the force–length relationship. We also note that
+the eﬀect of muscle activation is to shift the functional
+range to a shortened position. A stiﬀ actuator (e.g.
+
+Table 2
+Eﬀects of muscle activation on the amount of excursion and the amount of force change over the range from 10° to 110° of ﬂexion
+Condition
+
+Amount of Excursion
+
+Amount of Force Change
+
+LHB
+
+SHB
+
+BRA
+
+BRD
+
+LHB
+
+SHB
+
+BRA
+
+BRD
+
+Inactivated
+Fully activated
+
+0.454
+0.398
+
+0.364
+0.342
+
+0.319
+0.311
+
+0.331
+0.325
+
+0.792
+0.839
+
+0.509
+0.580
+
+0.391
+0.407
+
+0.437
+0.457
+
+The values for amount of excursion and amount of force change were normalized by the muscle optimal length (lmo ) and the maximum isometric
+muscle force (Fz ) respectively.
+
+398
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+
+levels of disability by estimating the levels of muscle
+activation during maximum isometric voluntary contractions. This may be accomplished by imposing a super-maximal electrical pulse on a target muscle while the
+muscle is exerting maximal isometric eﬀort [39–41].
+A limitation of the current technique is that it is only
+applicable to subjects with relatively good motor function. Only three out of the ﬁve hemiparetic subjects
+recruited for this study could meet the modeling requirements for maximum isometric ﬂexion. Nevertheless, to our knowledge, this is the ﬁrst report on the
+estimation of the in vivo musculotendon parameters in
+hemiparetic subjects. Future study will include extending the current technique to the prime elbow extensors
+to estimate their musculotendon parameters and compare them with those of the prime elbow ﬂexors so that
+the architectural diﬀerences between the prime elbow
+ﬂexors and extensors can be evaluated.
+
+Acknowledgements
+The authors would like to thank J. Cheng, G. Ng,
+W.Z. Rymer, B. Schmit, J. Hidler, and A. Holmes for
+their comments and helps at various stages of this work.
+This work was supported by the Research Committee of
+the Hong Kong Polytechnic University.
+
+References
+
+Fig. 6. Comparison of the modeled moment arms with those reported
+in the literature. 0° represents fully extension. The modeled moment
+arms reported in this ﬁgure were computed from a subject-speciﬁc
+geometrical model of the elbow joint. It represents a male normal
+subject (forearm length ¼ 26.5 cm, upperlimb length ¼ 31 cm) with the
+forearm in supinated position, and the shoulder in 90° abduction.
+Amis’s moment arm curves were based on the muscle paths of a
+specimen with the forearm pronated 30°. Murray’s moment arm curves
+were based on the polynomial equations and the linear regression
+equations between anthropometric variables and peak moment arm
+reported in [42].
+
+literature. It appears that the mean value for the hemiparetic group is considerably smaller than that of
+the normal group. Such muscle weakness may be neurological and/or biomechanical in nature. In order to
+diﬀerentiate the relative contributions of the biomechanical and neurological components to the overall
+weakness, the current technique should be further developed to facilitate the testing of subjects with diﬀerent
+
+[1] Lieber RL, Friden J. Functional and clinical signiﬁcance of
+skeletal muscle architecture. Muscle Nerve 2000;23:1647–66.
+[2] Zajac FE. Muscles and tendon: properties, models, scaling, and
+application to biomechanics and motor control. CRC Crit Rev
+Biomed Eng 1989;17:359–411.
+[3] Gans C. Fiber architecture and muscle function. Exerc Sport Sci
+Rev 1982;10:160–207.
+[4] Delp SL, Zajac FE. Force- and moment-generating capacity of
+lower-extremity muscles before and after tendon lengthening. Clin
+Orthop 1992;284:247–59.
+[5] Delp SL, Ringwelski DA, Carroll NC. Transfer of the rectus
+femoris: eﬀects of transfer siter on moment arms about the knee
+and hip. J Biomech 1994;27:1201–11.
+[6] Delp SL, Statler K, Carroll NC. Preserving plantar ﬂexion
+strength after surgical treatment for contracture of the triceps
+surae: a computer simulation study. J Orthop Res 1994;13:96–
+104.
+[7] Giat Y, Mizrahi J, Levine WS, Chen J. Simulation of distal tendon
+transfer of the biceps brachii and the brachialis muscles. J
+Biomech 1994;27:1005–14.
+[8] Lemay MA, Crago PE. A dynamic model for simulating movements of the elbow, forearm, and wrist. J Biomech 1996;29:1319–
+30.
+[9] Schutte LM, Hayden SW, Gages JR. Lengths of hamstrings and
+psoas muscles during crouch gait: eﬀects of femoral anteversion.
+J Orthop Res 1997;15:615–21.
+[10] An KN, Kaufman KR, Chao EYS. Physiological considerations
+of muscle force through the elbow joint. J Biomech 1989;22:249–
+1256.
+
+T.K.K. Koo et al. / Clinical Biomechanics 17 (2002) 390–399
+[11] Buchanan TS, Moniz MJ, Dewald JPA, Rymer ZW. Estimation
+of muscle forces about the wrist joint during isometric tasks using
+an EMG coeﬃcient method. J Biomech 1993;26:547–60.
+[12] Van Zuylen EJ, Van Velzen A, Van Der Gon JJD. A biomechanical model for ﬂexion torques of human arm muscles as a function
+of elbow angle. J Biomech 1988;21:183–90.
+[13] Giat Y. Prediction of muscular synergism and antagonism of
+human upper extremity––a dynamic optimization approach. PhD
+dissertation, University of Maryland, College Park, USA, 1990.
+[14] Gonzalez RV, Hutchins EL, Barr RE, Abraham LD. Development and evaluation of a musculoskeletal model of the elbow joint
+complex. Trans ASME J Biomech Eng 1996;118:32–40.
+[15] Pandy MG, Zajac FE, Sim E, Levine W. An optimal control
+model for maximum-height human jumping. J Biomech 1990;23:
+1185–98.
+[16] Gonzalez RV, Buchanan TS, Delp SL. How muscle architecture
+and moment arms aﬀect wrist ﬂexion-extension moments. J
+Biomech 1997;30:705–12.
+[17] An KN, Hui FC, Morrey BF, Linscheid RL, Chao EY. Muscles
+across the elbow joint: A biomechanical analysis. J Biomech
+1981;4:659–69.
+[18] Lieber RL, Jacobson MD, Fazeli BM, Abrams RA, Botte MJ.
+Architecture of selected muscles of the arm and forearm: anatomy
+and implications for tendon transfer. J Hand Surg 1992;17A:787–
+98.
+[19] Lieber RL, Fazeli BM, Botte MJ. Architecture of selected wrist
+ﬂexor and extensor muscles. J Hand Surg 1990;15A:244–50.
+[20] Murray WM, Buchanan TS, Delp SL. The isometric functional capacity of muscles that cross the elbow. J Biomech 2000;33:943–52.
+[21] Veeger HEJ, Yu B, An KN, Rozendal RH. Parameters for
+modeling the upper extremity. J Biomech 1997;30:647–52.
+[22] Chang YW, Su FC, Wu HW, An KN. Optimum length of muscle
+contraction. Clin Biomech 1999;14:537–42.
+[23] Koo TKK, Mak AFT. A musculoskeletal model for estimation
+of the musculotendon parameters of the prime elbow ﬂexors. In:
+Muller R, Gerber H, Stacoﬀ A, editors. Proceeding of the XVIII
+Congress of the International Society of Biomechanics, Zurich,
+Switzerland, 2001. p. P219.
+[24] Koo TKK, Mak AFT. An interactive graphics-based model of the
+upper extremity. In: Proceedings of Hong Kong Orthopedic
+Association 19th Annual Congress, 1999.
+[25] Amis AA, Dowson D, Wright V. Muscle strengths and musculoskeletal geometry of the upper limb. Eng Med 1979;8:41–8.
+[26] Delp SL, Loan JP. A graphics-based software system to develop
+and analyze models of msuculoskeletal structures. Comput Biol
+Med 1995;25:21–34.
+[27] London JT. Kinematics of the elbow. J Bone Joint Surg 1981;63A:
+529–35.
+
+399
+
+[28] Morrey BF, Chao EYS. Passive motion of the elbow joint. J Bone
+Joint Surg 1976;58A:501–8.
+[29] Given JD, Dewald JPA, Rymer WZ. Joint dependent passive
+stiﬀness in paretic and contralateral limbs of spastic patients with
+hemiparetic stroke. J Neurol Neurosurg Psychiatry 1995;59:
+271–9.
+[30] Wiegner AW, Watts RL. Elastic properties of muscles measured
+at the elbow in man: I. Normal controls. J Neurol Neurosurg
+Psychiatry 1986;49:1171–6.
+[31] Watts RL, Wiegner AW, Young RR. Elastic properties of muscles
+measured at the elbow in man: II. patients with Parkinsonian
+rigidity. J Neurol Neurosurg Psychiatry 1986;49:1177–81.
+[32] Winters JM, Stark L. Estimated mechanical properties of synergistic muscles involved in movements of a variety of human joints.
+J Biomech 1988;21:1027–41.
+[33] Nelder JA, Mead R. A simplex method for function minimization.
+Comput J 1965;7:308–13.
+[34] Lieber RL. Skeletal muscle structure and function––implications
+for rehabilitation and sports medicine. Baltimore: Williams &
+Wilkins; 1992.
+[35] Feng CJ, Mak AFT, Koo TKK. A surface EMG driven
+musculoskeletal model of the elbow ﬂexion-extension movement
+in normal subjects and in subjects with spasticity. J Musculoskeletal Res 1999;3:109–23.
+[36] Caldwell EG. Applied muscle models in prediction of forces at the
+elbow. Ph.D. dissertation, Simon Fraser University, Burnaby,
+Canada, 1987.
+[37] Lemay MA, Crago PE. A dynamic model for simulating movements of the elbow, forearm, and wrist. J Biomech 1987;29:1319–
+30.
+[38] Soechting JF, Flanders M. Evaluating an integrated musculoskeletal model of the human arm. J Biomech Eng 1997;119:93–
+102.
+[39] Allen GM, McKenzie DK, Gandevia SC. Twitch interpolation of
+the elbow ﬂexor muscles at high forces. Muscle Nerve 1998;21:
+318–28.
+[40] Kent-Braun JA, Le Blanc R. Quantitation of central activation
+failure during maximal voluntary contractions in humans. Muscle
+Nerve 1996;19:861–9.
+[41] Suter E, Brodino L, Herzog W, Lee HD. Length dependence of
+muscle inhibition in the elbow ﬂexors. In: Muller R, Gerber H,
+Stacoﬀ A, editors. Proceeding of the XVIII Congress of the
+International Society of Biomechanics Zurich, Switzerland, 2001.
+p. O789.
+[42] Murray WM. The functional capacity of the elbow muscles:
+anatomical measurements, computer modeling, and anthropometric scaling. Ph.D. dissertation, Northwestern University,
+Chicago, USA, 1997.
+
+

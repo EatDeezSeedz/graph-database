@@ -1,0 +1,915 @@
+Received: 15 June 2021
+                         | Revised: 1 October 2021 | Accepted: 4 October 2021
+DOI: 10.1111/sms.14075  
+
+
+ORIGINAL ARTICLE
+
+
+
+
+Energy deficiency impairs resistance training gains in lean
+mass but not strength: A meta-­analysis and meta-­regression
+
+Chaise Murphy                        | Karsten Koehler
+
+Department of Sport and Health
+Sciences, Technical University of                    Short-­term energy deficits impair anabolic hormones and muscle protein syn-
+Munich, Munich, Germany                              thesis. However, the effects of prolonged energy deficits on resistance training
+                                                     (RT) outcomes remain unexplored. Thus, we conducted a systematic review of
+Correspondence
+Karsten Koehler, Department of                       PubMed and SportDiscus for randomized controlled trials performing RT in an
+Sport and Health Science, Technical                  energy deficit (RT+ED) for ≥3 weeks. We first divided the literature into stud-
+University of Munich, Uptown
+München-­Campus D, Georg-­Brauchle-­
+                                                     ies with a parallel control group without an energy deficit (RT+CON; Analysis
+Ring 60/62, D-­80992 München,                        A) and studies without RT+CON (Analysis B). Analysis A consisted of a meta-­
+Germany.                                             analysis comparing gains in lean mass (LM) and strength between RT+ED and
+Email: karsten.koehler@tum.de
+                                                     RT+CON. Studies in Analysis B were matched with separate RT+CON studies
+                                                     for participant and intervention characteristics, and we qualitatively compared
+                                                     the gains in LM and strength between RT+ED and RT+CON. Finally, Analyses
+                                                     A and B were pooled into a meta-­regression examining the relationship between
+                                                     the magnitude of the energy deficit and LM. Analysis A showed LM gains were
+                                                     impaired in RT+ED vs RT+CON (effect size (ES) = −0.57, p = 0.02), but strength
+                                                     gains were comparable between conditions (ES = −0.31, p = 0.28). Analysis B
+                                                     supports the impairment of LM in RT+ED (ES: −0.11, p = 0.03) vs RT+CON (ES:
+                                                     0.20, p < 0.001) but not strength (RT+ED ES: 0.84; RT+CON ES: 0.81). Finally,
+                                                     our meta-­regression demonstrated that an energy deficit of ~500 kcal · day−1 pre-
+                                                     vented gains in LM. Individuals performing RT to build LM should avoid pro-
+                                                     longed energy deficiency, and individuals performing RT to preserve LM during
+                                                     weight loss should avoid energy deficits >500 kcal day−1.
+
+                                                     KEYWORDS
+                                                     body composition, caloric restriction, low energy availability, strength training, weightlifting
+
+
+
+
+1     |    I N T RO DU CT ION                                                             are a growing recognition that energy deficiency sup-
+                                                                                          presses reproductive and metabolic hormones3 leading to
+Periods of energy deficiency occur throughout the lifespan,                               adverse health outcomes such as impaired bone health.4,5
+from younger athletes within the relative energy deficiency                               Despite a growing recognition of these important implica-
+in sport1 or the female athlete triad2 frameworks to older                                tions, limited knowledge of the training responses in an
+adults engaging in weight loss. Within these populations                                  energy deficient state exists, particularly with respect to
+This is an open access article under the terms of the Creat​ive Commo​ns Attri​butio​n-­NonCo​mmerc​ial-­NoDerivs License, which permits use and distribution in any
+medium, provided the original work is properly cited, the use is non-­commercial and no modifications or adaptations are made.
+© 2021 The Authors. Scandinavian Journal of Medicine & Science In Sports published by John Wiley & Sons Ltd.
+
+Scand J Med Sci Sports. 2022;32:125–137.                                              ﻿                                        wileyonlinelibrary.com/journal/sms      | 125
+      |   
+
+
+
+
+                                                                                                                              16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+126                                                                                                    MURPHY and KOEHLER
+
+
+
+resistance training (RT). RT is recommended for adults of      conditions within the same intervention to be insufficient
+all ages to build lean mass (LM), promote skeletal health,     for a meta-­analysis with adequate power.13 To address this
+and improve quality of life.6 However, adequate nutrient       limitation, we supplemented our classical meta-­analysis of
+status is a limiting factor for the production of anabolic     studies containing both RT+CON and RT+ED conditions
+hormones such as insulin-­like growth factor-­1 (IGF-­1),7     (Analysis A) with a qualitative comparison of separate
+suggesting that performing RT in an energy deficit may         systematic quantitative analyses of RT+CON and RT+ED
+compromise the hormonal response to RT. Indeed, we             studies matched for pre-­defined subject and interven-
+have previously demonstrated both IGF-­1 and growth            tion characteristics (Analysis B). Finally, all studies were
+hormone exhibit impaired responses to resistance exercise      pooled into a meta-­regression to determine the energy de-
+after as little as three days in an energy deficit.8 Growth    ficiency threshold at which LM gains are prevented.
+hormone regulates a number of metabolic processes,
+with which IGF-­1 assists, including protein metabolism.9
+Furthermore, muscle protein synthesis is also suppressed       2.2   | Inclusion criteria
+by an energy deficient status,10 an impairment often ac-
+companied by the loss of LM.11 For a more comprehensive        For Analysis A, randomized controlled trials with at least
+review of the effects of low energy availability, the reader   one condition performing RT+ED and one condition per-
+is referred to a recent review.3                               forming RT+CON were included in the meta-­analysis.
+    In a field of research containing a large number of        For Analysis B, interventions needed to include only one
+small studies, synthesis of results using methods like         condition performing RT+ED or RT+CON to be included.
+meta-­analyses is important to objectively evaluate the ef-    For each analysis, interventions had to contain at least
+fectiveness of these interventions and provide strong ev-      three weeks of RT performed at least two times per week
+idence of directions for future research. However, to our      to align with meta-­analyses on similar outcomes14,15 and
+knowledge, the impact of energy deficiency on RT out-          could not include concurrent aerobic training due to po-
+comes has never been assessed systematically in the lit-       tential interference with both hypertrophy and strength
+erature. Thus, the overall objective of this meta-­analysis    outcomes.16 All included studies were required to be origi-
+was to test whether, and to what degree, the presence of       nal research and written in English.
+energy deficiency attained via a reduction in dietary en-
+ergy intake, attenuates training responses induced by RT.
+The primary aim was to quantify the discrepancy in LM          2.3   | Search strategy
+accretion between interventions prescribing RT in an en-
+ergy deficit (RT+ED) and interventions prescribing RT          We first conducted a systematic literature search to iden-
+without an energy deficit (RT+CON). Our second aim was         tify potential RT+ED interventions for either Analysis
+to quantify whether energy deficiency impairs strength         A or Analysis B due to the substantially smaller body of
+gains in response to RT. Finally, we analyzed the impact       RT+ED literature compared to RT+CON literature. This
+of several moderator variables such as participant age, sex,   systematic literature search was conducted in PubMed
+weight status, and study duration on these outcomes. We        and SportDiscus current to June 2021 (Supplementary
+hypothesized that LM gains, but not strength gains, would      Appendix 1). The original searches yielded 560 total re-
+be significantly attenuated in interventions conducted in      sults and two additional records were identified during
+an energy deficit compared to those without. We formed         the matching process described below. After screening
+this hypothesis on the basis that increases in LM are typ-     titles, abstracts, and removing duplicates, 107 results
+ically preceded by improvements in strength due to the         were retained. A final count of 38 results was eligible to
+earlier involvement of neuronal mechanisms compared to         be included in the analysis following full-­text screening
+morphological changes.12                                       (Figure 1).
+                                                                   After the 38 eligible RT+ED studies were identified,
+                                                               these were further divided into studies which contained a
+2     |      M ET H ODS                                        RT+CON group (n = 7), which were included in Analysis
+                                                               A, and studies which did not contain a RT+CON group
+2.1       | Study design                                       (n = 31), which were eligible for Analysis B. Potential
+                                                               matches for the studies eligible for Analysis B were sub-
+Before beginning the systematic search process, an appar-      sequently identified from a pool of literature obtained by
+ent gap in the literature was identified a priori. Based on    replicating the previous search with the energy deficit
+our familiarity with the subject matter, we anticipated the    terminology removed. This search yielded 24,826 results.
+number of studies employing both RT+CON and RT+ED              Intervention-­ and population-­specific terminology such as
+                                                                                                                               | 127
+
+
+
+
+                                                                                                                                       16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+MURPHY and KOEHLER                                                                                                          
+
+
+
+
+ Idenficaon
+                      Records idenfied through                                                Records idenfied through
+                          database search                                                     database search [sans energy
+                               (n = 560)                                                             deficit terms]
+                                                                  Addional records                   (n = 24,826)
+                                                                  idenfied through
+                                                                    other sources
+                                                                       (n = 2)
+                   Records aer duplicates removed
+                              (n = 438)
+ Screening
+
+
+
+
+                           Records screened                                                 Records excluded
+                               (n = 438)                                                        (n = 331)
+
+
+                                                                     Full-text arcles excluded:
+                                                                      Studies from same trial
+                       Full-text arcles assessed                               (n = 37)
+                              for eligibility                          Aerobic or concurrent
+ Eligibility
+
+
+
+
+                                (n = 107)                                  training (n = 26)
+                                                                      Reported composite or
+                                                                      relave strength (n = 7)
+                Studies eligible for      Studies eligible for
+                    Analysis A                Analysis B
+                      (n = 7)                  (n = 31)
+
+                                                                           Unable to find suitable
+                                                                               match (n = 6)
+ Included
+
+
+
+
+                Studies included in        Studies matched                                                     Studies matched
+                    Analysis A               for Analysis B                                                     with Analysis B
+                      (n = 7)                   (n = 25)                                                           (n = 27)
+                                                                              Studies included in
+                                                                                  Analysis B
+                                                                                   (n = 52)
+
+FIGURE 1            PRISMA flowchart of the systematic literature search
+
+
+“postmenopausal” or “10-­week” were used to identify sub-                  reporting strength.19 The other case20 matched to two
+sets of this literature pool containing potential matches.                 RT+CON studies for male21 and female22 participants
+Due to the number of sub-­searches conducted, these could                  separately.
+not be represented in Figure 1. Not all studies were able                     In studies containing multiple RT+CON or RT+ED
+to be matched using this method. Of the original 31 re-                    groups, we only included groups we could confidently
+sults, only 25 were able to be paired and were included in                 match—­for example, in supplement studies, placebo
+Analysis B. These 25 results were paired with 27 RT+CON                    groups were included in the analysis over intervention
+studies. On two occasions, one RT+ED study was paired                      groups. When macronutrient composition of the groups
+with two RT+CON studies. In one case, a RT+ED study                        within a study differed, groups were matched between
+reporting both outcomes17 was paired to one RT+CON                         studies using available information to achieve a similar
+study reporting LM18 and to another RT+CON study                           macronutrient distribution.
+      |   
+
+
+
+
+                                                                                                                                  16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+128                                                                                                        MURPHY and KOEHLER
+
+
+
+2.4     | Data extraction                                         2.5     | Calculation of effect sizes
+Relevant variables to be extracted included pre-­defined          All analyses were performed on effect sizes calculated as
+characteristics of the participants (age, sex, BMI), RT in-       the mean change divided by the standard deviation within
+terventions (duration, frequency, sets, repetitions), and         (SDwithin) corrected for small sample sizes.27 All data anal-
+outcomes related to body composition and strength. When           ysis for both Analysis A and Analysis B was conducted in
+data were not available in text or tables, data were extracted    R (R Core Team, Version 3.6) using the robumeta pack-
+from figures when possible using Web Plot Digitizer               age (V.2.0, Fisher and Tipton, 2017).28 Effect sizes are pre-
+(V.4.2, Texas, USA: Ankit Rohatgi, 2019). Corresponding           sented as means ±SD with 95% confidence intervals for
+authors were solicited for information which could not be         all outcomes.
+gleaned from the aforementioned sources.
+   Body composition outcomes extracted included
+LM, fat-­f ree mass, and fat mass and had to be assessed          2.5.1    | Meta-­analysis (Analysis A)
+via dual-­e nergy X-­ray absorptiometry (DXA), a pre-
+ferred method for whole-­b ody composition analysis. 23           In Analysis A, the difference between pre-­  to post-­
+An exception was made for one study in Analysis A                 intervention changes for RT+ED and RT+CON was used
+using hydrostatic weighing, which has a comparable                as the numerator and the denominator was calculated
+degree of accuracy with DXA on a study-­w ide scale.24            using the following equation where the SD for each condi-
+However, hydrostatic weighing was not allowed for                 tion refers to the SD of the change29:
+
+                                                            √ ((
+                                                                nRT+ED − 1 × SD2RT+ED + nRT+CON − 1 × SD2RT+CON
+                                                                          )          ) ((          )            )
+                                               SDwithin =                                                                    .
+                                                                                  nRT+ED + nRT+CON − 2
+
+
+studies in Analysis B due to the high degree of vari-                 In Analysis A, when SD of the change values was
+ability in how the method is executed between labora-             unavailable, they were estimated from pre-­  and post-­
+tories, which could introduce unnecessary variability             intervention SD by using the following equation where r
+into the analysis. Though both LM and fat-­f ree mass             is the correlation between pre-­ and post-­intervention mea-
+were included as primary outcomes due to data avail-              surements obtained from one representative study in the
+ability, the term LM will be used exclusively in this             analysis for which we obtained access to complete partic-
+analysis to represent changes in these compartments.              ipant data30:
+Per definition of the DXA methodology, the only dif-
+ference between fat-­f ree mass and LM is the inclu-
+                                                                                √
+                                                                                 SD2pre + SD2post − 2 × r × SDpre × SDpost .
+                                                                                                   (                      )
+                                                                   SDchange =
+sion of bone mass, which does not change on the
+same order of magnitude as LM, 25 making it a neg-
+ligible factor. Thus, changes in fat-­f ree mass and LM              In Analysis A, effect size variance was calculated from
+were considered equivalent for the present analysis.              the following formula where nRT+CON and nRT+ED are the
+Strength was measured through either a repetition                 sample sizes for the RT+CON and RT+ED conditions, re-
+maximum strength test (e.g., one-­ or three-­repetition           spectively, and EScorr is the effect size corrected for small
+maximum) or maximum voluntary contraction, but                    sample size bias29:
+not lower intensity tests of muscular endurance due
+to their lower predictive reliability. 26 Strength could
+                                                                        (                  )         ( 2 )
+                                                                         nRT+CON + nRT+ED             EScorr
+                                                                   Vi = (                  )+                      ).
+not be expressed relative to body weight due to the                       nRT+CON × nRT+ED
+                                                                                                 (
+                                                                                              2 × nRT+CON + nRT+ED
+difference in weight change between groups. From
+the 7 studies in Analysis A, we calculated 16 body                2.5.2 | Comparative quantitative analysis
+composition effect sizes from the 16 groups in 7 stud-            (Analysis B)
+ies reporting body composition and 18 strength ef-
+fect sizes from the 12 groups in 5 studies reporting              In Analysis B, either the mean change or the differ-
+strength. From the 52 studies in Analysis B, we cal-              ence between post-­  and pre-­intervention means was
+culated 44 body composition effect sizes from the                 used as the numerator, depending on data availability.
+44 groups in 37 studies reporting body composition                When pre-­  and post-­intervention SDs were available,
+and 44 strength effect sizes from the 30 groups in                the denominator was calculated from the following
+28 studies reporting strength.                                    equation29:
+                                                                                                                          | 129
+
+
+
+
+                                                                                                                                  16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+MURPHY and KOEHLER                                                                                                     
+
+
+
+                                                                by its severity, we calculated an average estimated en-
+                            √
+                                SD2pre + SD2post
+               SDwithin =                          .            ergy deficit for each condition. Because dietary pre-
+                                        2                       scriptions differed between studies (e.g., consume
+                                                                a specific amount of kcal, reduce energy intake by a
+   When pre-­ and post-­intervention SD were unavailable,       specific amount of kcal), compliance to prescriptions is
+SDwithin was calculated using the following equation where      generally low32 and studies lacked sufficient informa-
+r is the correlation between pre-­  and post-­intervention      tion to calculate dietary intake plus all components of
+measurements. Because most of the studies did not report        energy expenditure, we objectively quantified the en-
+correlations between pre-­ and post-­intervention measure-      ergy deficit via changes in energy stores. To this end,
+ments, an average value was calculated from the available       the energy deficit was estimated from changes in fat
+data sets which provided this information and applied to        mass, which was estimated to have an energy value of
+each remaining study in the analysis29:                         ~9400 kcal per kg.33 Changes in LM were not included
+                                                                in the calculation to avoid autocorrelation issues, con-
+                             SDchange                           sidering that LM changes are a primary outcome, as
+                 SDwithin = √            .
+                             2 × (1 − r)                        well as the difficulty of quantifying the energy cost
+                                                                of building LM.34 Further, the impact of LM changes
+   In Analysis B, variance in the effect sizes was assessed     was deemed minor based on both the lack of change
+using the following formula for a pre-­post design meta-­       in the average energy deficit (<1 kcal day−1) and the
+analysis where n is the group size, EScorr is the effect size   high correlation between the energy deficit calculated
+corrected for small sample bias and r is the correlation be-    from fat mass changes and the energy deficit calculated
+tween pre-­ and post-­measurements29:                           from both fat mass and LM (r > 0.95) as well as the
+                                                                similarity between the regression outcomes with and
+                    (
+                             2
+                                   )                            without including changes in LM with an energy value
+                        1 EScorr
+             Vi =         +            × 2 (1 − r) .            of ~1800 kcal kg −1.35
+                        n   2n
+                                                                   We first regressed our outcome variables on the esti-
+                                                                mated energy deficit. Then, to understand the contribu-
+2.6   | Heterogeneity and risk of bias                          tions of other variables to the relationship between the
+                                                                energy deficit and our outcome variables, we assessed
+Heterogeneity was reported as the I-­squared value and the      a group of a priori selected covariates including age,36
+prediction interval derived from Tau. Risk of bias was as-      weight status,37 sex,38 and duration of the interven-
+sessed in both Analysis A and Analysis B using visual in-       tion12 because each may influence the response to RT.
+spection of Funnel plots and accompanying Egger's Tests
+using the metafor package (V.2.4, Viechtbauer, 2020) for
+LM outcomes.31 These analyses were not performed using          3     |    RESULTS
+strength outcomes due to the scarcity of RT papers that
+do not improve strength leading to false-­positive risk of      3.1       | Analysis A study characteristics
+bias tests.
+                                                                Studies included in Analysis A were published between
+                                                                1988 and 2018. Analysis A contained 7 studies (6 in women
+2.7   | Analysis of study characteristics                       exclusively, 1 in both men and women) with a total of 282
+                                                                participants (60 ± 11 years) across 16 groups.30,39-­44 Only
+For factors on which we matched studies in Analysis B,          one intervention did not specify that their participants
+including RT intervention characteristics and participant       were either sedentary or physically inactive prior to the
+age, sex, and BMI, a two-­tailed t test was performed to        intervention.42
+check for differences between the RT+ED and RT+CON                  The RT interventions included in Analysis A lasted be-
+study pools.                                                    tween 8 and 20 weeks (13.3 ± 4.4 weeks) and involved
+                                                                2–­3 sessions per week (2.9 ± 0.3 sessions) with 4–­13 exer-
+                                                                cises per session (8.3 ± 2.4 exercises), 2–­4 sets per exercise
+2.8 | Estimation of energy deficit and                          (2.7 ± 0.4 sets), and 8–­20 repetitions per set (11.3 ± 4.1
+meta-­regression                                                repetitions). All included studies performed whole-­body
+                                                                RT routines. Detailed participant and intervention char-
+In order to assess whether outcomes were influenced             acteristics for each study included in Analysis A are pre-
+not just by the presence or absence of an ED, but also          sented in Table S1.
+       |   
+
+
+
+
+                                                                                                                                                                                                         16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+130                                                                                                                                                              MURPHY and KOEHLER
+
+
+  (A)                                                                                             (B)
+   [30] Nicklas 2015 (W)                                            -0.85 [-1.38 , -0.32]            [30] Nicklas 2015 (W-LL)                                                       0.11 [-0.4 , 0.62]
+   [30] Nicklas 2015 (M)                                            -1.15 [-1.75 , -0.55]            [30] Nicklas 2015 (M-LL)                                                    -0.45 [-1.02 , 0.12]
+   [39] Galbreath 2018                                               -0.13 [-0.78 , 0.52]            [30] Nicklas 2015 (W-RL)                                                       0.32 [-0.2 , 0.84]
+   [40] Kersick 2010                                                 -0.11 [-1.04 , 0.82]            [30] Nicklas 2015 (M-RL)                                                       0.14 [-0.42 , 0.7]
+                                                                                                     [39] Galbreath 2018 (CP)                                                    -0.58 [-1.24 , 0.08]
+   [41] Figueroa 2013                                                 -0.56 [-1.32 , 0.2]
+                                                                                                     [39] Galbreath 2018 (LP)                                                       0.1 [-0.55 , 0.75]
+   [42] Ballor 1988                                                  -0.76 [-1.67 , 0.15]
+                                                                                                     [41] Figueroa 2013                                                          -0.29 [-1.04 , 0.46]
+   [43] Bouchard 2009                                                -0.48 [-1.31 , 0.35]
+                                                                                                     [42] Ballor 1988                                                               0.2 [-0.68 , 1.08]
+   [44] Jabekk 2010                                                  -0.81 [-1.83 , 0.21]            [43] Bouchard 2009                                                           -1.47 [-2.4 , -0.54]
+
+   Prediction Interval                                                  -0.58 [-1.16 , 0]            Prediction Interval                                                          -0.31 [-2.22 , 1.6]
+   Overall                                                          -0.58 [-0.92 , -0.24]            Overall                                                                      -0.31 [-0.8 , 0.18]
+
+-3.5                -2.5       -1.5          -0.5   0.5            1.5                      2.5   -3.5                     -2.5      -1.5           -0.5   0.5             1.5                  2.5
+                           Favours Control                Favours Energy Deficit                                                  Favours Control                  Favours Energy Deficit
+
+
+
+
+F I G U R E 2 Forest plots of Analysis A for the effect on lean mass (A) and strength (B). A positive effect favors resistance training in an
+energy deficit while a negative effect favors resistance training without an energy deficit. Each box represents the effect size for that group
+and the lines around the box represent the 95% confidence interval. Abbreviations: CP, chest press; LL, left leg extension; LP, leg press; M,
+men; RL, right leg extension; W, women
+
+
+3.2 | Analysis A: Effect of energy deficit                                                          3.4 | Analysis B: Qualitative
+assignment on lean mass and strength                                                                comparison of changes in lean
+                                                                                                    mass and strength
+Meta-­analysis of the effect of group assignment on
+the relationship between RT and LM revealed a mod-                                                  Figure 3 illustrates the individual group effects of RT+ED
+erate effect favoring RT+CON studies over RT+ED                                                     and RT+CON on LM (3A and 3B, respectively) and
+studies (Figure 2A, effect size (ES) = −0.58, p = 0.02).                                            strength (3C and 3D, respectively). The overall effect of
+However, there was not a significant effect of group as-                                            RT+ED on LM was negative (ES = −0.11, p = 0.03) while
+signment on strength (Figure 2B, ES = −0.31, p = 0.28).                                             the overall effect of RT+CON on LM was positive (ES
+Given that only 7 and 5 studies were included in the                                                =0.20, p < 0.001). However, both RT+ED (ES =0.84, p <
+two analyses, respectively, no moderator analyses were                                              0.001) and RT+CON (ES =0.81, p < 0.001) had large, posi-
+conducted.                                                                                          tive effects on strength.
+
+
+3.3         | Analysis B study characteristics                                                      3.5 | Meta-­regression: Estimation of
+                                                                                                    energy deficit and its effect on lean mass
+Studies included in Analysis B were published between
+1992 and 2018. Analysis B contained 52 studies (10 in                                               The pooled RT+ED groups from Analysis A and
+men, 24 in women, 18 in both men and women) with a                                                  Analysis B had an average estimated energy deficit
+total sample size of 1213 participants (51 ± 16 years)                                              of 567 ± 350 kcal day−1 while the pooled RT+CON
+across 57 groups.17-­22,45-­90 Only one study did not specify                                       groups were in an approximate energy balance
+whether their participants were either sedentary or physi-                                          (92 ± 116 kcal day−1).
+cally inactive prior to the intervention,81 and only one                                               Due to the apparent lack of relationship between en-
+pair of studies explicitly identified their participants as                                         ergy deficiency and strength in Analyses A and B, we per-
+resistance-­trained.55,56                                                                           formed the meta-­regression analysis only on LM. We first
+    The RT interventions included in Analysis B lasted                                              ran a model with no covariates regressing the change in
+between 3 and 28 weeks (15.8 ± 6.0 weeks) and involved                                              LM on the estimated energy deficit. The intercept, rep-
+2–­4 sessions per week (2.9 ± 0.5 sessions) with 4–­14 exer-                                        resenting a state of energy balance, maintained its very
+cises per session (8.2 ± 2.6 exercises), 1–­4 sets per exercise                                     small, significant effect (ES =0.16, p < 0.001). The coeffi-
+(2.7 ± 0.6 sets), and 1–­16 repetitions per set (10.1 ± 1.9 rep-                                    cient for the estimated energy deficit (ES = −3.1 × 10−4, p
+etitions). All included studies performed whole-­body RT                                            = 0.02) illustrates that an energy deficit of 1000 kcal day−1
+routines. Detailed participant and intervention characteris-                                        reduces the anticipated ES by 0.31. In other words, an en-
+tics for each study included in Analysis B are presented in                                         ergy deficit of ~500 kcal day−1 (ES = −0.16) would result
+Table S2.                                                                                           in no LM change (ES =0; Figure 4).
+    In studies from Analysis B, we were successful in                                                  We then conducted a meta-­regression using the esti-
+matching RT+ED and RT+CON groups for participant                                                    mated energy deficit, age, sex, study duration, and BMI as
+age and sex, study duration, and all RT characteristics (all                                        predictors (Table 1). Of the variables tested, energy deficit
+p > 0.75). We were not, however, able to match groups for                                           and BMI were significant moderators, age did not achieve
+participant BMI (p < 0.001) due to irrevocable differences                                          statistical significance as a moderator and neither sex
+in the two bodies of literature.                                                                    nor study duration significantly influenced the observed
+                                                                                                                                                                                                                                                | 131
+
+
+
+
+                                                                                                                                                                                                                                                        16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+MURPHY and KOEHLER                                                                                                                                                                                                                         
+
+
+        (A)                                                                                                                     (C)
+                                                                                                                                                   3
+                           0.6
+
+
+
+
+                                                                                                                                ∆ Strength (ES)
+  ∆ Lean Mass (ES)
+
+
+
+                                                                                                                                                   2
+
+
+                           0.0                                                                                                                     1
+
+
+                                                                                                                                                   0
+
+                   −0.6
+                                       ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]
+                                    [77 [20 [79 [20 [73 [59 [75 [45 [53 [61 [30 [61 [79 [83 [49 [17 [57 [67 [87 [47 [51 [85
+                                                                                                                            ]                     −1          ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]    ]
+                                                                                                                                                           [55 [63 [81 [47 [47 [55 [17 [77 [71 [51 [71 [51 [79 [69 [89 [65 [17 [79 [65 [85 [20 [63
+
+
+
+
+        (B)                                                                                                                     (D)
+                                                                                                                                                   3
+                           0.6
+
+
+
+
+                                                                                                                                ∆ Strength (ES)
+  ∆ Lean Mass (ES)
+
+
+
+
+                                                                                                                                                   2
+
+
+                           0.0                                                                                                                     1
+
+
+                                                                                                                                                   0
+
+                   −0.6
+                                       ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]
+                                    [60 [50 [62 [62 [54 [68 [30 [22 [52 [18 [76 [58 [80 [74 [46 [21 [80 [78 [48 [86 [84 [88
+                                                                                                                            ]                     −1          ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]   ]    ]
+                                                                                                                                                           [70 [90 [56 [19 [72 [56 [82 [19 [66 [78 [66 [48 [80 [80 [22 [64 [86 [52 [72 [48 [64 [52
+
+
+
+F I G U R E 3 Waterfall plots of Analysis B for the effect of resistance training in an energy deficit on lean mass (A) and strength (C) and
+for resistance training without an energy deficit on lean mass (B) and strength (D). Numbers below the bars correspond to citation numbers
+where each effect was calculated. The lines around each bar represent the 95% confidence interval for the effect size
+
+
+
+                                                                                                           Condition                     (I2 = 80–­95). Visual inspection of the Funnel Plot for LM
+                                                                                                                 RT+CON                  outcomes in both Analysis A and Analysis B revealed
+Change in Lean Mass (ES)
+
+
+
+
+                            0.4                                                                                  RT+ED                   some horizontal spread attributable to heterogeneity, but
+                                                                                                                                         no apparent asymmetry (Figure S1). In support of this ob-
+                                                                                                                                         servation, the Egger's Tests (Analysis A: z = 0.80, p = 0.42;
+                            0.0
+                                                                                                                                         Analysis B: z = −0.21, p = 0.83) revealed no asymmetries
+                                                                                                                                         that would suggest a publication bias.
+
+                           −0.4
+
+                                                                                                                                         4             |   DISC USSION
+                                    0                      500                     1000                     1500
+                                                       Energy Deficit (kcal · day                    )                                   Overall, our results suggest that the presence of an energy
+                                                                                                −1
+
+
+                                                                                                                                         deficit impairs the accretion of LM but not strength gains
+F I G U R E 4 Relationship between estimated energy deficit                                                                              in response to RT. Furthermore, we observed that an en-
+and change in lean mass. The shaded area on either side of the                                                                           ergy deficit of 500 kcal day−1 (ES = −0.16) completely ab-
+regression line represents the 95% confidence interval for the                                                                           lated the accretion of LM in response to RT observed in a
+regression
+                                                                                                                                         state of energy balance (intercept ES =0.16). This result
+                                                                                                                                         aligns with previous literature showing the commonly
+                                                                                                                                         prescribed energy deficit of 500 kcal day−1 impairs LM
+LM outcome. It is important to note the inclusion of co-                                                                                 retention.11
+variates did not substantially alter the coefficient for the                                                                                 The relationship between RT and LM was influenced
+estimated energy deficit seen in the first meta-­regression                                                                              by the severity of the energy deficit, weight status, and
+(ES = −3.5 × 10−4).                                                                                                                      age, but not sex or duration of the intervention. As a result
+                                                                                                                                         of the regression analysis, we represented the negative
+                                                                                                                                         association between LM gains and the strength of energy
+3.6                               | Heterogeneity and risk of bias                                                                       deficit as a linear relationship. However, we acknowledge
+                                                                                                                                         the relationship between LM and energy deficit may even-
+A substantial portion of the heterogeneity in Analysis A                                                                                 tually plateau, resulting in a breakpoint at which a max-
+originated from sampling variability, in addition to be-                                                                                 imal rate of LM loss occurs in the presence of RT, which
+tween study factors (I2 = 0 and 63). By contrast, a vast ma-                                                                             may or may not be greater than the maximal rate of LM
+jority of the heterogeneity in Analysis B originated from                                                                                loss without the presence of RT. Despite this, the level of
+between study factors, rather than sampling variability                                                                                  energy deficit required to achieve these theoretical values
+      |   
+
+
+
+
+                                                                                                                                           16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+132                                                                                                                 MURPHY and KOEHLER
+
+
+TABLE 1        Meta-­regression of energy deficit on lean mass effect size with all moderators
+
+                                     Energy Deficit         Age           Sex                                    Study Duration
+ Variable           Intercept        (kcal/day)             (years)       (0 = F, 1 = M)         BMI (kg/m2)     (weeks)
+ Coefficient        1.1088           −0.0003                −0.0050       0.0668                 −0.0243         0.0002
+ p value            0.003             0.03                    0.07        0.37                    0.03           0.97
+
+
+
+
+was not well-­represented within the included literature,                  continues to suppress LM accretion in response to resis-
+if at all, due to the lack of studies with an energy deficit               tance exercise for as long as it is maintained; however, this
+>1000 kcal day−1. Thus, we felt both that these theoretical                hypothesis is weakened by the fact that an effect of study
+extremes were not of practical relevance to the research                   duration did not appear in the RT+CON studies alone
+question in this population and that these data were ill-­                 (ES = −0.005, p = 0.39).
+suited to explore these theoretical concepts.                                  Strength gains were unaffected by the presence or ab-
+    Our results indicate individuals with a higher BMI                     sence of an energy deficit as well as its estimated sever-
+gained less LM as a result of RT; however, existing litera-                ity. That subjects gained strength despite impaired gains,
+ture shows lean individuals tend to lose more LM during                    or even losses, of LM suggests these strength gains may
+energy-­restricted weight loss.37 Thus, RT appears to alter                be independent of hypertrophy and instead due to neu-
+the relationship between body composition and compo-                       ral adaptations12 or microarchitectural changes92 typi-
+sition of weight loss. It is also possible that differences in             cally preceding detectable gains in LM at the onset of a
+weight status between the RT+ED (BMI =32.7 ± 3.0) and                      RT program. Of note, one of the two negative effects on
+RT+CON (BMI =27.5 ± 3.6) study populations may have                        strength in the present analysis occurred in the singular
+accentuated this observed relationship.                                    study where resistance-­trained individuals trained in an
+    Despite not achieving statistical significance, the nega-              energy deficit. It is unclear whether this association would
+tive relationship we observed between age and LM gained                    be normal in experienced lifters, as not enough data exist
+from RT parallels another recent meta-­analysis showing a                  on experienced lifters training in an energy deficit, so fu-
+reduced impact of protein supplementation on LM with                       ture research is needed to answer this question.
+increasing age,15 which supports the well-­documented                          The covariates assessed by our meta-­regression of the
+paradigm of age-­related anabolic resistance.36 Our results                relationship between the severity of energy deficit and
+suggest a 500 kcal day−1 deficit and aging 30 years produce                LM gained through RT did not include protein intake.
+a similar effect on the predicted change in lean mass in                   While existing literature shows protein intake influences
+response to RT (ES = −0.15). Given that energy deficiency                  the LM gain from RT,15 such an analysis was outside
+and age influence the anabolic response to resistance ex-                  the scope of the present study for several reasons. First,
+ercise through the same molecular pathways36,91 and we                     while many of the included studies reported an assigned
+observed effects of each factor, the effects of energy defi-               protein intake, few studies reported actual intake data.
+ciency and age appear to be additive, at least until a point               In addition, there was significant variability in how pro-
+of minimal response to RT.                                                 tein intake data were collected and reported which led
+    We did not observe a significant moderation effect of                  to concerns with comparability between studies. Unlike
+sex on the relationship between RT and LM. This could                      with the severity of the energy deficit, where we were
+be attributed to the fact that the majority of the studies                 able to use changes in body composition as an objective
+included females only and that several studies conducted                   parameter, there is no objective proxy indicator of protein
+in both sexes failed to report the sex distribution such that              intake. Thus, we felt the data were not of a high enough
+they could not be used in the analysis. However, the pos-                  quality or volume to be of practical use in this analysis.
+itive coefficient of 0.07 suggests that males do add more                  Future research should emphasize accurate, objective,
+LM than females, which is an expected observation.38                       and homogenous reporting of dietary intake information
+Duration of the RT intervention was also not a significant                 to allow secondary analyses to be conducted accurately
+moderator of the relationship between RT and LM. While                     and efficiently.
+we anticipated a positive relationship between LM gains                        The present meta-­analysis provides statistical evidence
+and study duration indicating larger gains in LM from                      for the observed impact of energy deficiency on the out-
+longer interventions,12 the lack of such a relationship                    comes of RT, but it does not provide any mechanistic ev-
+demonstrates significant differences in lean mass accrual                  idence. However, existing literature shows energy deficits
+within interventions 3−26 weeks in length were not de-                     directly impair insulin-­like growth factor-­1 production7
+tected in this analysis. This may suggest energy deficiency                and reduces serum concentrations in a dose-­dependent
+                                                                                                                         | 133
+
+
+
+
+                                                                                                                                 16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+MURPHY and KOEHLER                                                                                                    
+
+
+
+manner.93 Whether this impaired IGF-­1 production persists       5   |   CONC LUSION
+in the face of potent anabolic stimulation from resistance
+exercise has only just been investigated. We recently pub-       In conclusion, the results of the present analysis indicate
+lished a study which showed an impaired IGF-­1 response          an energy deficient state impairs LM gains as a result of
+following a bout of resistance exercise during three days of     RT. Furthermore, the impairment of LM gains scaled
+an energy deficit.8 This observation combined with observed      with the severity of the energy deficit. However, con-
+impairments in muscle protein synthesis accompanying             ducting RT in an energy deficient state did not impair
+loss of LM during energy deficiency11 present potential          strength gains. With this framework of relationships es-
+mechanisms which may explain the impaired LM accretion           tablished, research can now focus on alternative RT pro-
+in response to resistance exercise during caloric restriction.   tocols or dietary strategies to overcome the gap between
+    While we have made substantial efforts toward en-            RT performed in the presence and absence of an energy
+suring an accurate and impartial meta-­analysis, we rec-         deficit.
+ognize the present analysis has limitations. First of all,
+our primary analysis of studies containing both RT+CON
+and RT+ED groups (Analysis A) had a limited literature           6   |   PERSPECTIVES
+pool to draw from. Although we undertook a comprehen-
+sive approach to matching studies in Analysis B in order         While LM is lost as a function of losing weight without
+to overcome this limitation, it is impossible to create two      intervention, RT during an energy deficit is recommended
+groups as comparable as those found in randomized con-           to preserve LM to aid in the prevention of weight regain
+trolled trials when matching groups from different stud-         and improve performance. We found that performing
+ies. However, we included only studies which were as             RT in an energy deficit impaired gains in LM, but not
+comparable as possible in Analysis B by matching them            strength, compared to those performing RT without an en-
+on several variables including age, sex, and duration of the     ergy deficit. Furthermore, the common energy deficit of
+intervention. This resulted in only being able to match 25       500 kcal day−1 was sufficient to prevent gains in LM from
+of the 31 potential RT+ED studies for Analysis B. While          RT in this population. Individuals looking to gain LM from
+it was originally our intention to match for weight status       RT should avoid prolonged energy deficits while individu-
+as well, this proved to be impossible due to irrevocable         als trying to lose weight should practice RT and maintain
+differences in the study populations between available           an energy deficit ≤500 kcal day−1 to maintain LM.
+RT+CON and RT+ED literature. Furthermore, though
+all studies included in the LM analysis used DXA scans,          ACKNOWLEDGEMENTS
+we recognize there may be differences between different          The authors would like to thank Michael Hebert from the
+machines and protocols for measurement. Despite these            University of Nebraska -­  Lincoln and J. Marc Goordich
+limitations, it is encouraging that the results of Analysis      from Texas A&M University for lending their statistical
+A parallel those from Analysis B.                                expertise and offering practical guidance whenever it was
+    Low energy availability is a more widely recognized          asked. Open access funding enabled and organized by
+perspective than energy deficiency, but we were un-              Projekt DEAL.
+able to quantify energy availability within this analysis.
+Future research in this field should endeavor to report          AUTHOR CONTRIBUTIONS
+sufficient dietary and exercise information for the cal-         CM developed and conducted the systematic search and
+culation of energy availability. However, our objective          acquired the data. CM performed the data analysis with
+calculation of energy deficiency from changes in whole-­         guidance from JMG and MH. All authors contributed to
+body fat mass circumvented common issues such as                 the conceptualization and design of the study, assisted
+absence of or differences in quantification of energy            with the interpretation, wrote and revised the manuscript,
+intake, energy expenditure, and energy requirements.             and approved the final version of the manuscript.
+By definition, an energy deficit may be induced via a
+reduced energy intake, increased exercise energy expen-          DATA AVAILABILITY STATEMENT
+diture, or a combination of both. However, for the pur-          The data that supports the findings of this study are avail-
+poses of this meta-­analysis, we focused on reductions in        able from the corresponding author upon reasonable
+energy intake due to the low exercise energy expenditure         request.
+of RT and to obtain a clearer picture of the impact of
+performing RT in an energy deficit without the potential         ORCID
+additional interference effects of aerobic training on RT        Chaise Murphy      https://orcid.org/0000-0003-0830-2866
+outcomes.16                                                      Karsten Koehler    https://orcid.org/0000-0002-9618-2069
+      |   
+
+
+
+
+                                                                                                                                                      16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+134                                                                                                                       MURPHY and KOEHLER
+
+
+
+REFERENCES                                                               14. Grgic J, Schoenfeld BJ, Skrepnik M, Davies TB, Mikulic P.
+ 1. Mountjoy M, Sundgot-­Borgen JK, Burke LM, et al. IOC consen-             Effects of rest interval duration in resistance training on
+    sus statement on relative energy deficiency in sport (RED-­S):           measures of muscular strength: A systematic review. Sports
+    2018 update. Br J Sports Med. 2018;52(11):687-­697. https://doi.         Med. 2018;48(1):137-­151. https://doi.org/10.1007/s4027​
+    org/10.1136/bjspo​rts-­2018-­099193                                      9-­017-­0788-­x
+ 2. De Souza MJ, Nattiv A, Joy E, et al. 2014 Female athlete triad       15. Morton RW, Murphy KT, McKellar SR, et al. A systematic re-
+    coalition consensus statement on treatment and return to                 view, meta-­analysis and meta-­regression of the effect of pro-
+    play of the female athlete triad: 1st international conference           tein supplementation on resistance training-­induced gains
+    held in San Francisco, California, May 2012 and 2nd interna-             in muscle mass and strength in healthy adults. Br J Sports
+    tional conference held in Indianapolis, Indiana, May 2013. Br            Med.        2018;52(6):376-­384.    https://doi.org/10.1136/bjspo​
+    J Sports Med. 2014;48(4):289. https://doi.org/10.1136/bjspo​             rts-­2017-­097608
+    rts-­2013-­093218                                                    16. Wilson JM, Marin PJ, Rhea MR, Wilson SM, Loenneke JP,
+ 3. Areta JL, Taylor HL, Koehler K. Low energy availability: history,        Anderson JC. Concurrent training: a meta-­analysis examining
+    definition and evidence of its endocrine, metabolic and physio-          interference of aerobic and resistance exercises. J Strength Cond
+    logical effects in prospective studies in females and males. Eur         Res. 2012;26(8):2293-­2307. https://doi.org/10.1519/JSC.0b013​
+    J Appl Physiol. 2021;121(1):1-­21. https://doi.org/10.1007/s0042​        e3182​3a3e2d
+    1-­020-­04516​-­0                                                    17. Normandin E, Senechal M, Prud‘homme D, Rabasa-­Lhoret
+ 4. De Souza MJ, Williams NI. Beyond hypoestrogenism in amen-                R, Brochu M. Effects of Caloric Restriction with or without
+    orrheic athletes: energy deficiency as a contributing factor for         Resistance Training in Dynapenic-­Overweight and Obese
+    bone loss. Curr Sports Med Rep. 2005;4(1):38-­44.                        Menopausal Women: A MONET Study. J Frailty Aging.
+ 5. Villareal DT, Fontana L, Weiss EP, et al. Bone mineral density           2015;4(3):155-­162. https://doi.org/10.14283/​jfa.2015.54
+    response to caloric restriction-­induced weight loss or exercise-­   18. Holm L, Olesen JL, Matsumoto K, et al. Protein-­containing nu-
+    induced weight loss: a randomized controlled trial. Arch Intern          trient supplementation following strength training enhances
+    Med. 2006;166(22):2502-­2510. https://doi.org/10.1001/archi​             the effect on muscle mass, strength, and bone formation in
+    nte.166.22.2502                                                          postmenopausal women. J Appl Physiol. 2008;105(1):274-­281.
+ 6. Garber CE, Blissmer B, Deschenes MR, et al. American College             https://doi.org/10.1152/jappl​physi​ol.00935.2007
+    of Sports Medicine position stand. Quantity and quality of ex-       19. Vanni AC, Meyer F, da Veiga AD, Zanardo VP. Comparison of
+    ercise for developing and maintaining cardiorespiratory, mus-            the effects of two resistance training regimens on muscular
+    culoskeletal, and neuromotor fitness in apparently healthy               and bone responses in premenopausal women. Osteoporos Int.
+    adults: guidance for prescribing exercise. Med Sci Sports Exerc.         2010;21(9):1537-­1544. https://doi.org/10.1007/s0019​8-​­009-​­1139-­z
+    2011;43(7):1334-­1359. https://doi.org/10.1249/MSS.0b013​e3182​      20. Marsh AP, Shea MK, Vance Locke RM, et al. Resistance train-
+    13fefb                                                                   ing and pioglitazone lead to improvements in muscle power
+ 7. Clemmons DR. Metabolic actions of insulin-­like growth fac-              during voluntary weight loss in older adults. J Gerontol A
+    tor-­I in normal physiology and diabetes. Endocrinol Metab               Biol Sci Med Sci. 2013;68(7):828-­836. https://doi.org/10.1093/
+    Clin North Am. 2012;41(2):425-­443. https://doi.org/10.1016/j.           geron​a/gls258
+    ecl.2012.04.017                                                      21. Treuth MS, Ryan AS, Pratley RE, et al. Effects of strength
+ 8. Murphy C, Koehler K. Caloric restriction induces anabolic re-            training on total and regional body composition in older men.
+    sistance to resistance exercise. Eur J Appl Physiol. 2020;120(5):​       J Appl Physiol. 1994;77(2):614-­620. https://doi.org/10.1152/
+    1155-­1164. https://doi.org/10.1007/s0042​1-­020-­04354​-­0              jappl.1994.77.2.614.
+ 9. Moller N, Jorgensen JO. Effects of growth hormone on glucose,        22. Tibana RA, da Cunha ND, Frade de Souza NM, et al. Irisin lev-
+    lipid, and protein metabolism in human subjects. Endocr Rev.             els are not associated to resistance training-­induced alterations
+    2009;30(2):152-­177. https://doi.org/10.1210/er.2008-­0027               in body mass composition in older untrained women with
+10. Areta JL, Burke LM, Camera DM, et al. Reduced resting skel-              and without obesity. J Nutr Health Aging. 2017;21(3):241-­246.
+    etal muscle protein synthesis is rescued by resistance exercise          https://doi.org/10.1007/s1260​3-­016-­0748-­4
+    and protein ingestion following short-­term energy deficit. Am J     23. Shepherd JA, Ng BK, Sommer MJ, Heymsfield SB. Body
+    Physiol Endocrinol Metab. 2014;306(8):E989-­E997. https://doi.           composition by DXA. Bone. 2017;104:101-­105. https://doi.
+    org/10.1152/ajpen​do.00590.2013                                          org/10.1016/j.bone.2017.06.010
+11. Oikawa SY, McGlory C, D‘Souza LK, et al. A randomized                24. Mahon AK, Flynn MG, Iglay HB, et al. Measurement of
+    controlled trial of the impact of protein supplementation on             body composition changes with weight loss in postmeno-
+    leg lean mass and integrated muscle protein synthesis during             pausal women: comparison of methods. J Nutr Health Aging.
+    inactivity and energy restriction in older persons. Am J Clin            2007;11(3):203-­213.
+    Nutr. 2018;108(5):1060-­1068. https://doi.org/10.1093/ajcn/          25. Weiss EP, Jordan RC, Frese EM, Albert SG, Villareal DT. Effects
+    nqy193                                                                   of weight loss on lean mass, strength, bone, and aerobic ca-
+12. Folland JP, Williams AG. The adaptations to strength train-              pacity. Med Sci Sports Exerc. 2017;49(1):206-­217. https://doi.
+    ing : morphological and neurological contributions to in-                org/10.1249/MSS.00000​00000​001074
+    creased strength. Sports Med. 2007;37(2):145-­168. https://doi.      26. Lawton TW, Cronin JB, McGuigan MR. Strength testing and
+    org/10.2165/00007​256-­20073​7020-­00004                                 training of rowers: A review. Sports Med. 2011;41(5):413-­432.
+13. Jackson D, Turner R. Power analysis for random-­effects meta-­           https://doi.org/10.2165/11588​540-­00000​0000-­00000
+    analysis. Res Synth Methods. 2017;8(3):290-­302. https://doi.        27. Hedges LV, Olkin I. Statistical methods for meta-­analysis.
+    org/10.1002/jrsm.1240                                                    Academic Press Inc.; 1985.
+                                                                                                                                              | 135
+
+
+
+
+                                                                                                                                                        16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+MURPHY and KOEHLER                                                                                                                         
+
+
+28. Fisher Z, Tipton E, Zhipeng H. robumeta: Robust Variance                    2009;16(1):66-­72.        https://doi.org/10.1097/gme.0b013​e3181​
+    Meta-­Regression. R package version 2.0. 2017.                              7dacf7
+29. Handbook of research synthesis and meta-­analysis. The Russell        44.   Jabekk PT, Moe IA, Meen HD, Tomten SE, Hostmark AT.
+    Sage Foundation; 2009.                                                      Resistance training in overweight women on a ketogenic diet
+30. Nicklas BJ, Chmelo E, Delbono O, Carr JJ, Lyles MF, Marsh AP.               conserved lean body mass while reducing body fat. Nutr Metab.
+    Effects of resistance training with and without caloric restric-            2010;7:17. https://doi.org/10.1186/1743-­7075-­7-­17
+    tion on physical function and mobility in overweight and obese        45.   Villareal DT, Aguirre L, Gurney AB, et al. Aerobic or resis-
+    older adults: a randomized controlled trial. Am J Clin Nutr.                tance exercise, or both, in dieting obese older adults. N Engl J
+    2015;101(5):991-­999. https://doi.org/10.3945/ajcn.114.105270               Med. 2017;376(20):1943-­1955. https://doi.org/10.1056/NEJMo​
+31. Viechtbauer W. Conducting meta-­analyses in R with the meta-                a1616338
+    for package. J Stat Softw. 2010;36(3):1-­48.                          46.   Leenders M, Verdijk LB, van der Hoeven L, van Kranenburg J,
+32. Wright G, Dawson B, Jalleh G, Law S. Impact of compliance                   Nilwik R, van Loon LJ. Elderly men and women benefit equally
+    on weight loss and health profile in a very low energy diet pro-            from prolonged resistance-­type exercise training. J Gerontol A
+    gram. Aust Fam Physician. 2010;39(1–­2):49-­52.                             Biol Sci Med Sci. 2013;68(7):769-­779. https://doi.org/10.1093/
+33. Hall KD. What is the required energy deficit per unit weight                geron​a/gls241
+    loss? Int J Obes (Lond). 2008;32(3):573-­576. https://doi.            47.   Hunter GR, Fisher G, Neumeier WH, Carter SJ, Plaisance EP.
+    org/10.1038/sj.ijo.0803720                                                  Exercise training and energy expenditure following weight
+34. Slater GJ, Dieter BP, Marsh DJ, Helms ER, Shaw G, Iraki J. Is an            loss. Med Sci Sports Exerc. 2015;47(9):1950-­1957. https://doi.
+    energy surplus required to maximize skeletal muscle hypertro-               org/10.1249/MSS.00000​00000​000622
+    phy associated with resistance training. Front Nutr. 2019;6:131.      48.   Schroeder ET, Hawkins SA, Jaque SV. Musculoskeletal adapta-
+    https://doi.org/10.3389/fnut.2019.00131                                     tions to 16 weeks of eccentric progressive resistance training in
+35. Wishnofsky M. Caloric equivalents of gained or lost weight.                 young women. J Strength Cond Res. 2004;18(2):227-­235. https://
+    Am J Clin Nutr. 1958;6(5):542-­546. https://doi.org/10.1093/                doi.org/10.1519/R-­13443.1
+    ajcn/6.5.542                                                          49.   Beavers KM, Ambrosius WT, Rejeski WJ, et al. Effect of exer-
+36. Hodson N, West DWD, Philp A, Burd NA, Moore DR. Molecular                   cise type during intentional weight loss on body composition
+    regulation of human skeletal muscle protein synthesis in re-                in older adults with obesity. Obesity. 2017;25(11):1823-­1829.
+    sponse to exercise and nutrients: a compass for overcoming                  https://doi.org/10.1002/oby.21977
+    age-­related anabolic resistance. Am J Physiol Cell Physiol.          50.   Vincent KR, Braith RW, Feldman RA, et al. Resistance
+    2019;317(6):C1061-­C1078.            https://doi.org/10.1152/ajpce​         exercise and physical performance in adults aged 60 to
+    ll.00209.2019                                                               83. J Am Geriatr Soc. 2002;50(6):1100-­1107. https://doi.
+37. Forbes GB. Body fat content influences the body composi-                    org/10.1046/j.1532-­5415.2002.50267.x
+    tion response to nutrition and exercise. Ann N Y Acad Sci.            51.   Dunstan DW, Daly RM, Owen N, et al. High-­intensity resis-
+    2000;904:359-­365.                                                          tance training improves glycemic control in older patients with
+38. Ivey FM, Roth SM, Ferrell RE, et al. Effects of age, gender,                type 2 diabetes. Diabetes Care. 2002;25(10):1729-­1736. https://
+    and myostatin genotype on the hypertrophic response to                      doi.org/10.2337/diaca​re.25.10.1729
+    heavy resistance strength training. J Gerontol A Biol Sci Med         52.   Tarnopolsky M, Zimmer A, Paikin J, et al. Creatine monohy-
+    Sci. 2000;55(11):M641-­M648. https://doi.org/10.1093/geron​                 drate and conjugated linoleic acid improve strength and body
+    a/55.11.m641                                                                composition following resistance exercise in older adults.
+39. Galbreath M, Campbell B, LaBounty P, et al. Effects of adher-               PLoS One. 2007;2(10):e991. https://doi.org/10.1371/journ​
+    ence to a higher protein diet on weight loss, markers of health,            al.pone.0000991
+    and functional capacity in older women participating in a             53.   Verreijen AM, Verlaan S, Engberink MF, Swinkels S, de
+    resistance-­based exercise program. Nutrients. 2018;10(8):1070.             Vogel-­van den Bosch J, Weijs PJM. A high whey protein-­,
+    https://doi.org/10.3390/nu100​81070                                         leucine-­, and vitamin D-­enriched supplement preserves
+40. Kerksick CM, Wismann-­Bunn J, Fogt D, et al. Changes in                     muscle mass during intentional weight loss in obese older
+    weight loss, body composition and cardiovascular disease risk               adults: a double-­blind randomized controlled trial. Am J
+    after altering macronutrient distributions during a regular ex-             Clin Nutr. 2015;101(2):279-­286. https://doi.org/10.3945/
+    ercise program in obese women. Nutr J. 2010;9:59. https://doi.              ajcn.114.090290
+    org/10.1186/1475-­2891-­9-­59                                         54.   Rogers ME, Bohlken RM, Beets MW, Hammer SB, Ziegenfuss
+41. Figueroa A, Vicil F, Sanchez-­Gonzalez MA, et al. Effects of                TN, Sarabon N. Effects of creatine, ginseng, and astragalus sup-
+    diet and/or low-­intensity resistance exercise training on arte-            plementation on strength, body composition, mood, and blood
+    rial stiffness, adiposity, and lean mass in obese postmenopausal            lipids during strength-­training in older adults. J Sports Sci Med.
+    women. Am J Hypertens. 2013;26(3):416-­423. https://doi.                    2006;5(1):60-­69.
+    org/10.1093/ajh/hps050                                                55.   Dudgeon WD, Kelley EP, Scheett TP. In a single-­blind, matched
+42. Ballor DL, Katch VL, Becque MD, Marks CR. Resistance weight                 group design: branched-­chain amino acid supplementation
+    training during caloric restriction enhances lean body weight               and resistance training maintains lean body mass during a ca-
+    maintenance. Am J Clin Nutr. 1988;47(1):19-­25. https://doi.                loric restricted diet. J Int Soc Sports Nutr. 2016;13:1. https://doi.
+    org/10.1093/ajcn/47.1.19                                                    org/10.1186/s1297​0-­015-­0112-­9
+43. Bouchard DR, Soucy L, Senechal M, Dionne IJ, Brochu M.                56.   Wilson JM, Lowery RP, Roberts MD, et al. The effects of keto-
+    Impact of resistance training with or without caloric restric-              genic dieting on body composition, strength, power, and hor-
+    tion on physical capacity in obese older women. Menopause.                  monal profiles in resistance training males. J Strength Cond
+      |   
+
+
+
+
+                                                                                                                                                     16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+136                                                                                                                       MURPHY and KOEHLER
+
+
+      Res. 2017;34(12):3463-­3474. https://doi.org/10.1519/JSC.00000​       69. Donnelly JE, Sharp T, Houmard J, et al. Muscle hypertro-
+      00000​001935                                                              phy with large-­scale weight loss and resistance training.
+57.   Jo E, Worts PR, Elam ML, et al. Resistance training                       Am J Clin Nutr. 1993;58(4):561-­565. https://doi.org/10.1093/
+      during a 12-­week protein supplemented VLCD treat-                        ajcn/58.4.561
+      ment enhances weight-­loss outcomes in obese patients.                70. Ring-­Dimitriou S, Steinbacher P, von Duvillard SP, Kaessmann
+      Clin Nutr. 2019;38(1):372-­382. https://doi.org/10.1016/j.                H, Muller E, Sanger AM. Exercise modality and physical fitness
+      clnu.2017.12.015                                                          in perimenopausal women. Eur J Appl Physiol. 2009;105(5):739-­
+58.   Rosenbaum M, Heaner M, Goldsmith RL, et al. Resistance train-             747. https://doi.org/10.1007/s0042​1-­008-­0956-­7
+      ing reduces skeletal muscle work efficiency in weight-­reduced        71. Campbell WW, Haub MD, Wolfe RR, et al. Resistance train-
+      and non-­weight-­reduced subjects. Obesity (Silver Spring).               ing preserves fat-­free mass without impacting changes in pro-
+      2018;26(10):1576-­1583. https://doi.org/10.1002/oby.22274                 tein metabolism after weight loss in older women. Obesity.
+59.   Hudson JL, Kim JE, Paddon-­Jones D, Campbell WW. Within-­                 2009;17(7):1332-­1339. https://doi.org/10.1038/oby.2009.2
+      day protein distribution does not influence body composition          72. de Oliveira SA, Dutra MT, de Moraes W, et al. Resistance
+      responses during weight loss in resistance-­training adults who           training-­induced gains in muscle strength, body composition,
+      are overweight. Am J Clin Nutr. 2017;106(5):1190-­1196. https://          and functional capacity are attenuated in elderly women with
+      doi.org/10.3945/ajcn.117.158246                                           sarcopenic obesity. Clin Interv Aging. 2018;13:411-­417. https://
+60.   Arciero PJ, Baur D, Connelly S, Ormsbee MJ. Timed-­daily in-              doi.org/10.2147/CIA.S156174
+      gestion of whey protein and exercise training reduces visceral        73. Andersen RE, Wadden TA, Herzog RJ. Changes in bone mineral
+      adipose tissue mass and improves insulin resistance: the PRISE            content in obese dieting women. Metabolism. 1997;46(8):857-­
+      study. J Appl Physiol. 2014;117(1):1-­10. https://doi.org/10.1152/        861. https://doi.org/10.1016/s0026​-­0495(97)90070​-­6
+      jappl​physi​ol.00152.2014                                             74. Boyden TW, Pamenter RW, Going SB, et al. Resistance exercise
+61.   Wycherley TP, Noakes M, Clifton PM, Cleanthous X, Keogh JB,               training is associated with decreases in serum low-­density li-
+      Brinkworth GD. A high-­protein diet with resistance exercise              poprotein cholesterol levels in premenopausal women. Arch
+      training improves weight loss and body composition in over-               Intern Med. 1993;153(1):97-­100.
+      weight and obese patients with type 2 diabetes. Diabetes Care.        75. Gornall J, Villani RG. Short-­term changes in body composition
+      2010;33(5):969-­976. https://doi.org/10.2337/dc09-­1974                   and metabolism with severe dieting and resistance exercise.
+62.   Karelis AD, Messier V, Suppere C, Briand P, Rabasa-­Lhoret R.             Int J Sport Nutr. 1996;6(3):285-­294. https://doi.org/10.1123/
+      Effect of cysteine-­rich whey protein (immunocal(R)) supple-              ijsn.6.3.285
+      mentation in combination with resistance training on muscle           76. Fernandez-­del-­Valle M, Gonzales JU, Kloiber S, Mitra S,
+      strength and lean body mass in non-­frail elderly subjects: a ran-        Klingensmith J, Larumbe-­Zabala E. Effects of resistance train-
+      domized, double-­blind controlled study. J Nutr Health Aging.             ing on MRI-­derived epicardial fat volume and arterial stiffness
+      2015;19(5):531-­536. https://doi.org/10.1007/s1260​3-­015-­0442-­y        in women with obesity: a randomized pilot study. Eur J Appl
+63.   Demling RH, DeSanti L. Effect of a hypocaloric diet, increased            Physiol. 2018;118(6):1231-­1240. https://doi.org/10.1007/s0042​
+      protein intake and resistance training on lean mass gains and             1-­018-­3852-­9
+      fat mass loss in overweight police officers. Ann Nutr Metab.          77. Nakata Y, Ohkawara K, Lee DJ, Okura T, Tanaka K. Effects
+      2000;44(1):21-­29. https://doi.org/10.1159/00001​2817                     of additional resistance training during diet-­induced weight
+64.   Sakashita M, Nakamura U, Horie N, Yokoyama Y, Kim M, Fujita               loss on bone mineral density in overweight premenopausal
+      S. Oral supplementation using gamma-­aminobutyric acid and                women. J Bone Miner Metab. 2008;26(2):172-­177. https://doi.
+      whey protein improves whole body fat-­free mass in men after              org/10.1007/s0077​4-­007-­0805-­5
+      resistance training. J Clin Med Res. 2019;11(6):428-­434. https://    78. Singh JA, Schmitz KH, Petit MA. Effect of resistance exer-
+      doi.org/10.14740/​jocmr​3817                                              cise on bone mineral density in premenopausal women. Joint
+65.   Cardoso GA, Salgado JM, Cesar Mde C, Donado-­Pestana CM.                  Bone Spine. 2009;76(3):273-­280. https://doi.org/10.1016/j.
+      The effects of green tea consumption and resistance training              jbspin.2008.07.016
+      on body composition and resting metabolic rate in overweight          79. Wood RJ, Gregory SM, Sawyer J, Milch CM, Matthews TD,
+      or obese women. J Med Food. 2013;16(2):120-­127. https://doi.             Headley SA. Preservation of fat-­free mass after two distinct
+      org/10.1089/jmf.2012.0062                                                 weight loss diets with and without progressive resistance exer-
+66.   Tibana RA, Navalta J, Bottaro M, et al. Effects of eight weeks of         cise. Metab Syndr Relat Disord. 2012;10(3):167-­174. https://doi.
+      resistance training on the risk factors of metabolic syndrome             org/10.1089/met.2011.0104
+      in overweight /obese women -­ “A Pilot Study”. Diabetol Metab         80. Holwerda AM, Overkamp M, Paulussen KJM, et al. Protein
+      Syndr. 2013;5(1):11. https://doi.org/10.1186/1758-­5996-­5-­11            supplementation after exercise and before sleep does not fur-
+67.   Amamou T, Normandin E, Pouliot J, Dionne IJ, Brochu M,                    ther augment muscle mass and strength gains during resistance
+      Riesco E. Effect of a high-­protein energy-­restricted diet com-          exercise training in active older men. J Nutr. 2018;148(11):1723-­
+      bined with resistance training on metabolic profile in older              1732. https://doi.org/10.1093/jn/nxy169
+      individuals with metabolic impairments. J Nutr Health Aging.          81. Pronk NP, Donnelly JE, Pronk SJ. Strength changes induced by
+      2017;21(1):67-­74. https://doi.org/10.1007/s1260​3-­016-­0760-­8          extreme dieting and exercise in severely obese females. J Am
+68.   Bacchi E, Negri C, Zanolin ME, et al. Metabolic effects of aero-          Coll Nutr. 1992;11(2):152-­158.
+      bic training and resistance training in type 2 diabetic subjects: a   82. Yoshizawa M, Maeda S, Miyaki A, et al. Effect of 12 weeks of
+      randomized controlled trial (the RAED2 study). Diabetes Care.             moderate-­intensity resistance training on arterial stiffness:
+      2012;35(4):676-­682. https://doi.org/10.2337/dc11-­1655                   a randomised controlled trial in women aged 32–­59 years. Br
+                                                                                                                                            | 137
+
+
+
+
+                                                                                                                                                     16000838, 2022, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14075, Wiley Online Library on [20/03/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+MURPHY and KOEHLER                                                                                                                       
+
+
+      J Sports Med. 2009;43(8):615-­618. https://doi.org/10.1136/          90. Polito MD, Papst R, Goessler K. Twelve weeks of resistance
+      bjsm.2008.052126                                                         training performed with different number of sets: Effects on
+83.   Kreider RB, Rasmussen C, Kerksick CM, et al. A carbohydrate-­            maximal strength and resting blood pressure of individuals
+      restricted diet during resistance training promotes more                 with hypertension. Clin Exp Hypertens. 2021;43(2):164-­168.
+      favorable changes in body composition and markers of                     https://doi.org/10.1080/10641​963.2020.1833024
+      health in obese women with and without insulin resistance.           91. Sharples AP, Hughes DC, Deane CS, Saini A, Selman C,
+      Phys Sportsmed. 2011;39(2):27-­40. https://doi.org/10.3810/              Stewart CE. Longevity and skeletal muscle mass: the role of
+      psm.2011.05.1893                                                         IGF signalling, the sirtuins, dietary restriction and protein in-
+84.   Ferreira FC, de Medeiros AI, Nicioli C, et al. Circuit resistance        take. Aging Cell. 2015;14(4):511-­523. https://doi.org/10.1111/
+      training in sedentary women: body composition and serum                  acel.12342
+      cytokine levels. Appl Physiol Nutr Metab. 2010;35(2):163-­171.       92. Seynnes OR, de Boer M, Narici MV. Early skeletal muscle hyper-
+      https://doi.org/10.1139/H09-­136                                         trophy and architectural changes in response to high-­intensity
+85.   Thomas DT, Wideman L, Lovelady CA. Effects of a dairy sup-               resistance training. J Appl Physiol. 2007;102(1):368-­373. https://
+      plement and resistance training on lean mass and insulin-­               doi.org/10.1152/jappl​physi​ol.00789.2006
+      like growth factor in women. Int J Sport Nutr Exerc Metab.           93. Loucks AB, Thuma JR. Luteinizing hormone pulsatility is dis-
+      2011;21(3):181-­188. https://doi.org/10.1123/ijsnem.21.3.181             rupted at a threshold of energy availability in regularly men-
+86.   Schmitz KH, Jensen MD, Kugler KC, Jeffery RW, Leon AS.                   struating women. J Clin Endocrinol Metab. 2003;88(1):297-­311.
+      Strength training for obesity prevention in midlife women.               https://doi.org/10.1210/jc.2002-­020369
+      Int J Obes Relat Metab Disord. 2003;27(3):326-­333. https://doi.
+      org/10.1038/sj.ijo.0802198
+87.   Galedari M, Azarbayjani MA, Peeri M. Effects of type of ex-
+      ercise along with caloric restriction on plasma apelin 36 and        SUPPORTING INFORMATION
+      HOMA-­IR in overweight men. Sci Sports. 2017;32(4):e137-­e145.       Additional supporting information may be found in the
+      https://doi.org/10.1016/j.scispo.2016.12.002                         online version of the article at the publisher’s website.
+88.   Bird SP, Tarpenning KM, Marino FE. Independent and com-
+      bined effects of liquid carbohydrate/essential amino acid
+      ingestion on hormonal and muscular adaptations follow-                  How to cite this article: Murphy C, Koehler K.
+      ing resistance training in untrained men. Eur J Appl Physiol.
+                                                                              Energy deficiency impairs resistance training gains
+      2006;97(2):225-­238. https://doi.org/10.1007/s0042​1-­005-­0127-­z
+                                                                              in lean mass but not strength: A meta-­analysis and
+89.   Reljic D, Herrmann HJ, Neurath MF, Zopf Y. Iron beats elec-
+      tricity: Resistance training but not whole-­body electromyostim-        meta-­regression. Scand J Med Sci Sports. 2022;32:125–­
+      ulation improves cardiometabolic health in obese metabolic              137. https://doi.org/10.1111/sms.14075
+      syndrome patients during caloric restriction-­a randomized-­
+      controlled study. Nutrients. 2021;13(5):1640. https://doi.
+      org/10.3390/nu130​51640
+

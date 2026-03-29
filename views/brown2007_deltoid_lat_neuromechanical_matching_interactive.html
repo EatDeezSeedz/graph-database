@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brown 2007 deltoid and lat neuromechanical matching</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(300px,31vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(40dvh,calc(100dvh - 230px));min-height:280px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:320px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,44dvh,360px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Brown et al. (2007) - Deltoid and lat neuromechanical matching</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle segments</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SERIES_COLORS={
+        d1:'#60a5fa', d2:'#5eead4', d3:'#22c55e', d4:'#84cc16', d5:'#f59e0b', d6:'#f97316', d7:'#ef4444',
+        l1:'#8b5cf6', l2:'#a78bfa', l3:'#c084fc', l4:'#d946ef', l5:'#ec4899', l6:'#f472b6'
+      };
+      const SEGMENTS={
+        deltoid:[
+          {key:'d1',name:'D1'},{key:'d2',name:'D2'},{key:'d3',name:'D3'},{key:'d4',name:'D4'},{key:'d5',name:'D5'},{key:'d6',name:'D6'},{key:'d7',name:'D7'}
+        ],
+        lat:[
+          {key:'l1',name:'L1'},{key:'l2',name:'L2'},{key:'l3',name:'L3'},{key:'l4',name:'L4'},{key:'l5',name:'L5'},{key:'l6',name:'L6'}
+        ]
+      };
+      const DELTOID_NOTES={
+        d1:'Anterior deltoid segment.',
+        d2:'Anterior deltoid segment with the largest flexion moment arm in Brown Table 2.',
+        d3:'Middle deltoid segment; Brown identified this as a prime abduction segment.',
+        d4:'Posterior-middle deltoid segment; prime abduction segment and active flexion/extension synergist.',
+        d5:'Posterior deltoid segment with strong extension function.',
+        d6:'Posterior deltoid segment with smaller abduction and strong extension function.',
+        d7:'Postero-medial deltoid segment; only deltoid adductor in Brown Table 2 and strongest deltoid extensor.'
+      };
+      const LAT_NOTES={
+        l1:'Upper lat segment; the only lat segment active during Brown’s flexion task.',
+        l2:'Upper-middle lat segment with strong extension/adduction leverage.',
+        l3:'Middle lat segment with the highest extension/adduction activation in Brown.',
+        l4:'Middle-lower lat segment with strong leverage and high activation.',
+        l5:'Lower lat segment; synergist in adduction and extension.',
+        l6:'Most caudal lat segment; still strongly adductive, weaker as an extensor.'
+      };
+      const MODES={
+        deltoidAbduction:{
+          label:'Deltoid abduction matching',
+          family:'deltoid',
+          subtitle:'Using Brown’s exact reported deltoid values: Table 2 abduction/adduction moment arms and Table 3 abduction activation intensities.',
+          hint:'Left bars are exact moment arms in mm. Right bars are exact activation intensities in %MVC for the abduction task.',
+          overlay:'Brown 2007 exact values: Table 2 + Table 3',
+          metrics:[
+            {name:'Abduction / adduction leverage',unit:'mm',values:{d1:2.0,d2:17.5,d3:35.4,d4:30.1,d5:16.9,d6:8.2,d7:-10.5}},
+            {name:'Abduction activation',unit:'%MVC',values:{d1:38,d2:83,d3:87,d4:88,d5:73,d6:58,d7:51}}
+          ],
+          notes:DELTOID_NOTES
+        },
+        deltoidFlexion:{
+          label:'Deltoid flexion matching',
+          family:'deltoid',
+          subtitle:'Using Brown’s exact reported deltoid values: Table 2 flexion/extension moment arms and Table 5 flexion activation intensities.',
+          hint:'Flexion leverage is shown positive and extension leverage negative so we can see which segments were mechanically favored for the flexion task.',
+          overlay:'Brown 2007 exact values: Table 2 + Table 5',
+          metrics:[
+            {name:'Flexion / extension leverage',unit:'mm',values:{d1:17.7,d2:23.7,d3:8.3,d4:-35.5,d5:-45.9,d6:-50.4,d7:-62.9}},
+            {name:'Flexion activation',unit:'%MVC',values:{d1:55,d2:55,d3:44,d4:19,d5:0,d6:0,d7:0}}
+          ],
+          notes:DELTOID_NOTES
+        },
+        deltoidExtension:{
+          label:'Deltoid extension matching',
+          family:'deltoid',
+          subtitle:'Using Brown’s exact reported deltoid values: Table 2 extension/flexion moment arms and Table 6 extension activation intensities.',
+          hint:'Extension leverage is shown positive and flexion leverage negative so the mechanically favored posterior segments stand out.',
+          overlay:'Brown 2007 exact values: Table 2 + Table 6',
+          metrics:[
+            {name:'Extension / flexion leverage',unit:'mm',values:{d1:-17.7,d2:-23.7,d3:-8.3,d4:35.5,d5:45.9,d6:50.4,d7:62.9}},
+            {name:'Extension activation',unit:'%MVC',values:{d1:0,d2:0,d3:33,d4:50,d5:63,d6:81,d7:84}}
+          ],
+          notes:DELTOID_NOTES
+        },
+        latActivation:{
+          label:'Lat activation measurements',
+          family:'lat',
+          subtitle:'Using Brown’s exact reported latissimus activation values from Table 4 and Table 6, plus the single antagonist value from Table 5.',
+          hint:'These are the actual reported activation intensities: adduction, extension, and the small flexion-antagonist activation in L1.',
+          overlay:'Brown 2007 exact values: Tables 4, 5, and 6',
+          metrics:[
+            {name:'Adduction activation',unit:'%MVC',values:{l1:55,l2:56,l3:79,l4:67,l5:64,l6:70}},
+            {name:'Extension activation',unit:'%MVC',values:{l1:58,l2:67,l3:71,l4:59,l5:42,l6:43}},
+            {name:'Flexion activation',unit:'%MVC',values:{l1:11,l2:0,l3:0,l4:0,l5:0,l6:0}}
+          ],
+          notes:LAT_NOTES
+        },
+        latLeverage:{
+          label:'Lat leverage summary',
+          family:'lat',
+          subtitle:'Using Brown’s exact latissimus moment arms from Table 2.',
+          hint:'Adduction and extension moment arms are both reported directly in Table 2, in millimetres.',
+          overlay:'Brown 2007 exact values: Table 2',
+          metrics:[
+            {name:'Adduction leverage',unit:'mm',values:{l1:57.3,l2:52.1,l3:45.9,l4:35.5,l5:30.8,l6:27.8}},
+            {name:'Extension leverage',unit:'mm',values:{l1:59.7,l2:54.4,l3:48.5,l4:30.6,l5:20.9,l6:15.8}}
+          ],
+          notes:LAT_NOTES
+        }
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='deltoidAbduction',visible={d1:true,d2:true,d3:true,d4:true,d5:true,d6:true,d7:true,l1:true,l2:true,l3:true,l4:true,l5:true,l6:true},drag=null,view={minX:0.4,maxX:2.6};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      const cfg=()=>MODES[mode];
+      const activeSegments=()=>SEGMENTS[cfg().family].filter(s=>visible[s.key]);
+      const sameUnit=()=>cfg().metrics.every(metric=>metric.unit===cfg().metrics[0].unit);
+      function bounds(){ return {minX:0.4,maxX:cfg().metrics.length+0.6}; }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      const sx=(x,p)=>p.x+((x-view.minX)/(view.maxX-view.minX))*p.w;
+      function niceTicks(min,max,target=5){ const span=Math.max(0.0001,max-min), rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function wrapText(text,x,y,maxWidth,lineHeight){ const words=String(text).split(' '); let line='', lines=[]; for(const word of words){ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth&&line){ lines.push(line); line=word; } else line=test; } if(line) lines.push(line); lines.forEach((ln,i)=>ctx.fillText(ln,x,y+i*lineHeight)); }
+      function extentForMetric(metric){ const values=activeSegments().map(segment=>metric.values[segment.key]??0); const min=Math.min(0,...values), max=Math.max(0,...values); if(min===max){ return {min:min-1,max:max+1}; } const pad=(max-min)*0.12; return {min:min-pad,max:max+pad}; }
+      function syFor(value,plot,extent){ return plot.y+plot.h-((value-extent.min)/(extent.max-extent.min))*plot.h; }
+      function formatValue(value,unit){ return `${Math.abs(value % 1) < 0.001 ? value.toFixed(0) : value.toFixed(1)} ${unit}`; }
+
+      function drawAxes(plot,leftExtent,rightExtent){
+        ctx.strokeStyle='rgba(255,255,255,0.08)';
+        ctx.lineWidth=1;
+        ctx.fillStyle='rgba(229,231,235,0.82)';
+        ctx.font='12px system-ui';
+        const leftTicks=niceTicks(leftExtent.min,leftExtent.max,5);
+        leftTicks.forEach(value=>{ const py=syFor(value,plot,leftExtent); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='left'; ctx.fillText(Number(value.toFixed(1)).toString(),16,py+4); });
+        if(rightExtent){ const rightTicks=niceTicks(rightExtent.min,rightExtent.max,5); rightTicks.forEach(value=>{ const py=syFor(value,plot,rightExtent); ctx.textAlign='right'; ctx.fillText(Number(value.toFixed(1)).toString(),plot.x+plot.w+46,py+4); }); }
+        ctx.textAlign='center';
+        cfg().metrics.forEach((metric,idx)=>{ const px=sx(idx+1,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); wrapText(`${metric.name} (${metric.unit})`,px,plot.y+plot.h+28,120,14); });
+        ctx.fillText('Outcome',plot.x+plot.w/2,plot.y+plot.h+56);
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(cfg().metrics[0].unit,0,0); ctx.restore();
+        if(rightExtent){ ctx.save(); ctx.translate(plot.x+plot.w+60,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(cfg().metrics[1].unit,0,0); ctx.restore(); }
+      }
+
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height;
+        ctx.clearRect(0,0,w,h);
+        const rightPad=sameUnit()?32:84;
+        const plot={x:82,y:20,w:Math.max(120,w-(82+rightPad+18)),h:Math.max(110,h-108)};
+        const metricExtents=cfg().metrics.map(extentForMetric);
+        const leftExtent=metricExtents[0];
+        const rightExtent=sameUnit()?null:metricExtents[1];
+        drawAxes(plot,leftExtent,rightExtent);
+        const shown=activeSegments();
+        const markers=[];
+        const barW=Math.max(10,Math.min(28,plot.w/(cfg().metrics.length*Math.max(3,shown.length)*1.45)));
+        cfg().metrics.forEach((metric,metricIdx)=>{
+          const xCenter=sx(metricIdx+1,plot);
+          const totalW=shown.length*barW+(shown.length-1)*6;
+          const extent=sameUnit()?leftExtent:(metricIdx===0?leftExtent:rightExtent||metricExtents[metricIdx]);
+          const zeroY=syFor(0,plot,extent);
+          shown.forEach((segment,segmentIdx)=>{
+            const value=metric.values[segment.key]??0;
+            const center=xCenter-totalW/2+segmentIdx*(barW+6)+barW/2;
+            const y=syFor(value,plot,extent);
+            const top=Math.min(y,zeroY);
+            const height=Math.max(1,Math.abs(zeroY-y));
+            const x=center-barW/2;
+            ctx.fillStyle=SERIES_COLORS[segment.key];
+            ctx.globalAlpha=.92;
+            ctx.fillRect(x,top,barW,height);
+            ctx.globalAlpha=1;
+            ctx.strokeStyle='rgba(255,255,255,.22)';
+            ctx.lineWidth=1.1;
+            ctx.strokeRect(x,top,barW,height);
+            markers.push({x,top,w:barW,h:height,segment,metric,value});
+          });
+        });
+        ctx.strokeStyle='rgba(255,255,255,.18)';
+        ctx.beginPath();
+        ctx.moveTo(plot.x,plot.y);
+        ctx.lineTo(plot.x,plot.y+plot.h);
+        ctx.lineTo(plot.x+plot.w,plot.y+plot.h);
+        ctx.stroke();
+        stage._markers=markers;
+        stage._plot=plot;
+        status.textContent=`${shown.length} segments visible`;
+      }
+
+      function renderLegend(){
+        subtitle.textContent=cfg().subtitle;
+        hint.textContent=cfg().hint;
+        overlay.textContent=cfg().overlay;
+        legend.innerHTML='';
+        SEGMENTS[cfg().family].forEach(segment=>{
+          const row=document.createElement('div');
+          row.className='check'+(visible[segment.key]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[segment.key]?'checked':''} /><span class="swatch" style="background:${SERIES_COLORS[segment.key]}"></span><label>${segment.name}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[segment.key]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[segment.key]=box.checked; draw(); renderLegend(); }});
+          legend.appendChild(row);
+        });
+      }
+
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>x>=m.x&&x<=m.x+m.w&&y>=m.top&&y<=m.top+m.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        const note=cfg().notes[hit.segment.key];
+        tooltip.innerHTML=`<div><strong>${hit.segment.name}</strong></div><div class="muted">${hit.metric.name}</div><div>Value: <strong>${formatValue(hit.value,hit.metric.unit)}</strong></div><div>${note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`;
+        tooltip.style.top=`${top}px`;
+      }
+
+      function clampView(){
+        const b=bounds(), spanX=view.maxX-view.minX;
+        if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; }
+        if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; }
+        if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; }
+      }
+
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ Object.keys(visible).forEach(k=>visible[k]=true); fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ SEGMENTS[cfg().family].forEach(s=>visible[s.key]=true); draw(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ SEGMENTS[cfg().family].forEach(s=>visible[s.key]=false); draw(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const plot=stage._plot||{x:82,w:Math.max(120,stage.clientWidth-112)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const b=bounds(); const newSpan=Math.max(1.1,Math.min(b.maxX-b.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      fit(); renderLegend(); resize();
+    </script>
+  </body>
+</html>

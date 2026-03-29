@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ribeiro 2023 carbohydrate intake and RT outcomes</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.65);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.15),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.12),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:var(--panel);color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .main{display:grid;grid-template-columns:minmax(240px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}.check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.4}
+      .stage{position:relative;overflow:auto;min-width:0;height:min(56dvh,calc(100dvh - 215px));min-height:300px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px)} .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.hint,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(14rem,20dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(250px,50dvh,420px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Ribeiro et al. (2023) - Carbohydrate intake and RT outcomes</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="fit" class="btn">Fit</button>
+          <button id="reset" class="btn">Reset</button>
+          <button id="all" class="btn">Show all</button>
+          <button id="none" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="checks"></div>
+          <div id="hint" class="hint"></div>
+        </div>
+        <div id="stage" class="stage">
+          <canvas id="c"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={lcho:"#60a5fa",hcho:"#f97316"};
+      const MODES={
+        relative:{
+          label:"Relative change (%)",
+          subtitle:"Pre- to post-training percentage changes reported in the abstract for lean soft tissue and 1RM outcomes.",
+          hint:"This is the cleanest summary view from the abstract: both groups improved, with the higher-CHO group showing larger average gains and better arm-curl response.",
+          overlay:"Hover = reported % change",
+          yLabel:"Change (%)",
+          categories:["Lean soft tissue","Bench press 1RM","Squat 1RM","Arm curl 1RM"],
+          series:[
+            {name:"Lower CHO",color:COLORS.lcho,values:[0.8,3.6,7.5,3.0],note:"L-CHO = \u2264 5.0 g/kg/day."},
+            {name:"Higher CHO",color:COLORS.hcho,values:[3.5,5.8,9.4,6.6],note:"H-CHO = > 5.0 g/kg/day."}
+          ]
+        },
+        absolute:{
+          label:"Absolute changes",
+          subtitle:"Table 2 adjusted absolute pre- to post-training changes from ANCOVA for body composition and strength outcomes.",
+          hint:"This view uses the paper's adjusted deltas. Fat-mass changes stayed near zero in both groups, while strength rose in both groups and arm curl clearly favored the higher-CHO condition.",
+          overlay:"Hover = Table 2 adjusted delta",
+          yLabel:"Absolute change",
+          categories:["LST (kg)","Fat mass (kg)","Relative fat (% pts)","Bench press (kg)","Squat (kg)","Arm curl (kg)"],
+          series:[
+            {name:"Lower CHO",color:COLORS.lcho,values:[1.39,-0.08,-0.07,3.17,9.23,1.62],note:"Adjusted \u0394 from Table 2."},
+            {name:"Higher CHO",color:COLORS.hcho,values:[1.37,0.45,0.35,4.64,14.1,2.62],note:"Adjusted \u0394 from Table 2."}
+          ]
+        },
+        responders:{
+          label:"Responders (%)",
+          subtitle:"Responder proportions from the Results text, based on changes exceeding the study's minimum real difference threshold.",
+          hint:"The higher-CHO group had many more responders for LST and arm curl 1RM, while bench, squat, and fat-mass responder rates were more similar.",
+          overlay:"Hover = responder percentage from Results text",
+          yLabel:"Responders (%)",
+          categories:["LST","Fat mass","Relative fat mass","Bench press","Squat","Arm curl"],
+          series:[
+            {name:"Lower CHO",color:COLORS.lcho,values:[21,36,29,43,43,43],note:"Responder rates from Results section."},
+            {name:"Higher CHO",color:COLORS.hcho,values:[80,27,20,73,73,87],note:"Responder rates from Results section."}
+          ]
+        }
+      };
+
+      const modeEl=document.getElementById("mode"),checksEl=document.getElementById("checks"),subtitleEl=document.getElementById("subtitle"),hintEl=document.getElementById("hint"),overlayEl=document.getElementById("overlay"),statusEl=document.getElementById("status"),stage=document.getElementById("stage"),canvas=document.getElementById("c"),ctx=canvas.getContext("2d"),tip=document.getElementById("tip");
+      let modeKey="relative",series=[],activeSeries=null,hits=[],zoomX=1,dragging=false,dragStartX=0,dragStartScrollLeft=0;
+      const mode=()=>MODES[modeKey];
+
+      function populateModes(){for(const [k,v] of Object.entries(MODES)){const opt=document.createElement("option");opt.value=k;opt.textContent=v.label;modeEl.appendChild(opt)}modeEl.value=modeKey}
+      function rebuildSeries(){series=mode().series.map(item=>({visible:true,...item}))}
+      function syncActiveRows(){for(const row of checksEl.querySelectorAll(".check"))row.classList.toggle("active",row.dataset.name===activeSeries)}
+      function rebuildChecks(){
+        checksEl.innerHTML="";
+        for(const item of series){
+          const row=document.createElement("div");row.className="check";row.dataset.name=item.name;
+          const cb=document.createElement("input");cb.type="checkbox";cb.checked=item.visible;
+          cb.addEventListener("click",e=>e.stopPropagation());
+          cb.addEventListener("change",()=>{item.visible=cb.checked;if(!item.visible&&activeSeries===item.name)activeSeries=null;syncActiveRows();draw()});
+          const sw=document.createElement("div");sw.className="swatch";sw.style.background=item.color;
+          const lab=document.createElement("label");lab.textContent=item.name;
+          row.addEventListener("click",()=>{activeSeries=activeSeries===item.name?null:item.name;syncActiveRows();draw()});
+          row.append(cb,sw,lab);checksEl.appendChild(row);
+        }
+      }
+      function hideTip(){tip.style.display="none"}
+      function showTip(html,x,y){tip.innerHTML=html;tip.style.display="block";const r=stage.getBoundingClientRect(),tr=tip.getBoundingClientRect(),pad=14;tip.style.left=Math.max(pad,Math.min(r.width-tr.width-pad,x+pad))+"px";tip.style.top=Math.max(pad,Math.min(r.height-tr.height-pad,y+pad))+"px"}
+      function resetViewport(){zoomX=1;stage.scrollLeft=0;draw()}
+      function fitViewport(){zoomX=1;stage.scrollLeft=0;draw()}
+      function draw(){
+        const categories=mode().categories,visibleSeries=series.filter(s=>s.visible),baseW=Math.max(620,stage.clientWidth||620),groupGap=36,barW=34,barGap=10,left=92,top=28,right=28,bottom=108;
+        const groupW=series.length*barW+(series.length-1)*barGap;
+        const contentW=Math.max(baseW,Math.round((left+right+categories.length*(groupW+groupGap))*zoomX));
+        const H=560,plotW=contentW-left-right;
+        canvas.style.height=H+"px";
+        const dpr=window.devicePixelRatio||1;
+        canvas.width=Math.floor(contentW*dpr);canvas.height=Math.floor(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
+        ctx.clearRect(0,0,contentW,H);ctx.fillStyle="#0f172a";ctx.fillRect(0,0,contentW,H);
+
+        const vals=visibleSeries.flatMap(s=>s.values);
+        const minVal=Math.min(0,...vals),maxVal=Math.max(0,...vals);
+        const range=Math.max(1,maxVal-minVal),pad=Math.max(range*.14,modeKey==="responders"?6:.6);
+        const yMin=minVal-pad,yMax=maxVal+pad;
+        const yToPx=v=>top+(yMax-v)*(H-top-bottom)/(yMax-yMin);
+        const zeroY=yToPx(0);
+        hits=[];
+
+        const step=modeKey==="responders"?20:(modeKey==="relative"?2:2);
+        ctx.strokeStyle="rgba(255,255,255,.08)";ctx.lineWidth=1;
+        for(let y=Math.floor(yMin/step)*step;y<=yMax+1e-6;y+=step){
+          const py=yToPx(y);ctx.beginPath();ctx.moveTo(left,py);ctx.lineTo(contentW-right,py);ctx.stroke();
+          ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="right";
+          ctx.fillText(modeKey==="responders"?`${Math.round(y)}%`:`${Math.round(y*100)/100}`,left-10,py+4);
+        }
+        ctx.strokeStyle="rgba(255,255,255,.28)";ctx.strokeRect(left,top,plotW,H-top-bottom);
+        ctx.strokeStyle="rgba(255,255,255,.22)";ctx.beginPath();ctx.moveTo(left,zeroY);ctx.lineTo(contentW-right,zeroY);ctx.stroke();
+
+        let x=left+26;
+        for(let i=0;i<categories.length;i++){
+          const groupCenter=x+(groupW/2);
+          for(let sIndex=0;sIndex<series.length;sIndex++){
+            const baseItem=series[sIndex];
+            const barLeft=x+sIndex*(barW+barGap);
+            const val=baseItem.values[i];
+            const isVisible=baseItem.visible;
+            const isActive=activeSeries===baseItem.name,hasActive=!!activeSeries,alpha=isVisible?(hasActive?(isActive?1:.18):1):.08;
+            const barTop=Math.min(zeroY,yToPx(val)),barBottom=Math.max(zeroY,yToPx(val)),barH=Math.max(1,barBottom-barTop);
+            ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=baseItem.color;if(isActive){ctx.shadowColor=baseItem.color;ctx.shadowBlur=18}ctx.fillRect(barLeft,barTop,barW,barH);ctx.restore();
+            if(isVisible)hits.push({x:barLeft,y:barTop,w:barW,h:barH,series:baseItem,category:categories[i],value:val});
+            ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle="rgba(229,231,235,.92)";ctx.font="11px Segoe UI, system-ui";ctx.textAlign="center";ctx.fillText(sIndex===0?"L-CHO":"H-CHO",barLeft+barW/2,H-bottom+18);ctx.restore();
+          }
+          ctx.fillStyle="rgba(156,163,175,.95)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="center";ctx.fillText(categories[i],groupCenter,H-bottom+44);
+          x+=groupW+groupGap;
+        }
+
+        ctx.fillStyle="rgba(156,163,175,.95)";
+        ctx.save();ctx.translate(18,top+(H-top-bottom)/2);ctx.rotate(-Math.PI/2);ctx.textAlign="center";ctx.fillText(mode().yLabel,0,0);ctx.restore();
+        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;
+        statusEl.textContent=`${visibleSeries.length} series shown • ${Math.round(zoomX*100)}% zoom`;
+      }
+
+      function applyMode(){activeSeries=null;rebuildSeries();rebuildChecks();syncActiveRows();resetViewport()}
+      modeEl.addEventListener("change",()=>{modeKey=modeEl.value;applyMode()});
+      document.getElementById("fit").addEventListener("click",fitViewport);
+      document.getElementById("reset").addEventListener("click",()=>{activeSeries=null;syncActiveRows();resetViewport()});
+      document.getElementById("all").addEventListener("click",()=>{for(const item of series)item.visible=true;for(const cb of checksEl.querySelectorAll("input"))cb.checked=true;syncActiveRows();draw()});
+      document.getElementById("none").addEventListener("click",()=>{for(const item of series)item.visible=false;activeSeries=null;for(const cb of checksEl.querySelectorAll("input"))cb.checked=false;syncActiveRows();draw()});
+      stage.addEventListener("pointerdown",e=>{if(e.button!==0)return;dragging=true;dragStartX=e.clientX;dragStartScrollLeft=stage.scrollLeft;stage.classList.add("is-dragging");stage.setPointerCapture(e.pointerId);hideTip()});
+      stage.addEventListener("pointermove",e=>{
+        if(dragging){stage.scrollLeft=Math.max(0,dragStartScrollLeft-(e.clientX-dragStartX));return}
+        const r=stage.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,contentX=x+stage.scrollLeft;
+        const hit=hits.find(h=>contentX>=h.x&&contentX<=h.x+h.w&&y>=h.y&&y<=h.y+h.h);
+        if(!hit){hideTip();return}
+        const valueText=modeKey==="responders"?`${hit.value.toFixed(0)}%`:`${hit.value.toFixed(2)}`;
+        showTip(`<div><strong>${hit.category}</strong></div><div class="muted">${hit.series.name}: ${valueText}</div><div class="muted">${hit.series.note}</div>`,x,y)
+      });
+      stage.addEventListener("pointerup",()=>{dragging=false;stage.classList.remove("is-dragging")});
+      stage.addEventListener("pointercancel",()=>{dragging=false;stage.classList.remove("is-dragging")});
+      stage.addEventListener("pointerleave",()=>{if(!dragging)hideTip()});
+      stage.addEventListener("wheel",e=>{e.preventDefault();const factor=e.deltaY>0?1/1.08:1.08;zoomX=Math.max(.75,Math.min(3,zoomX*factor));draw()},{passive:false});
+      window.addEventListener("resize",draw);
+
+      populateModes();applyMode();
+    </script>
+  </body>
+</html>

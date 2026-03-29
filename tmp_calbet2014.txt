@@ -1,0 +1,1685 @@
+© 2014 John Wiley & Sons A/S.
+
+Scand J Med Sci Sports 2015: 25: 223–233
+doi: 10.1111/sms.12194
+
+Published by John Wiley & Sons Ltd
+
+A time-efficient reduction of fat mass in 4 days with exercise and
+caloric restriction
+J. A. L. Calbet1,2, J. G. Ponce-González1, I. Pérez-Suárez1, J. de la Calle Herrero1, H.-C. Holmberg3
+1
+
+Department of Physical Education, University of Las Palmas de Gran Canaria, Las Palmas de Gran Canaria, Canary Islands, Spain,
+Instituto Universitario de Investigaciones Biomédicas y Sanitarias de la Universidad de Las Palmas de Gran Canaria, Las Palmas de
+Gran Canaria, Canary Islands, Spain,
+3
+Department of Health Sciences, Swedish Winter Sports Research Centre, Mid Sweden University, Östersund, Jämtland, Sweden
+Corresponding author: Jose A. L. Calbet, Departamento de Educación Física, Campus Universitario de Tafira, Las Palmas de Gran
+Canaria, 35017 Canary Islands, Spain. Tel: +34 928 458 896, Fax: +34 928 458 867, E-mail: lopezcalbet@gmail.com
+2
+
+Accepted for publication 20 January 2014
+
+To determine whether a fast reduction in fat mass can
+be achieved in 4 days by combining caloric restriction
+(CR: 3.2 kcal/kg body weight per day) with exercise
+(8-h walking + 45-min arm cranking per day) to induce
+an energy deficit of ∼5000 kcal/day, 15 overweight men
+underwent five experimental phases: pretest, exercise +
+CR for 4 days (WCR), control diet + reduced exercise for
+3 days (DIET), and follow-up 4 weeks (POST1) and 1
+year later (POST2). During WCR, the diet consisted
+solely of whey protein (n = 8) or sucrose (n = 7) (0.8 g/kg
+body weight per day). After WCR, DIET, POST1, and
+POST2, fat mass was reduced by a mean of 2.1, 2.8, 3.8,
+
+and 1.9 kg (P < 0.05), with two thirds of this loss from the
+trunk; and lean mass by 2.8, 1.0, 0.5, and 0.4 kg, respectively. After WCR, serum glucose, insulin, homeostatic
+model assessment, total and low-density lipoprotein cholesterol and triglycerides were reduced, and free fatty
+acid and cortisol increased. Serum leptin was reduced by
+64%, 50%, and 33% following WCR, DIET, and POST1,
+respectively (P < 0.05). The effects were similar in both
+groups. In conclusion, a clinically relevant reduction in
+fat mass can be achieved in overweight men in just 4 days
+by combining prolonged exercise with CR.
+
+The World Health Organization (WHO, 2011) predicts
+that by 2015 there will be 2.3 billion overweight adults
+and more than 700 million obese adults worldwide.
+Obesity can be counteracted by reducing energy intake
+and/or increasing energy expenditure (EE) to achieve a
+negative energy balance (EB). Meta-analyses have
+reported that diet alone produces on the average only a
+moderate weight loss (0.5–10.7 kg), whereas combining
+diet with exercise enhances this weight loss by 0.3–
+1.1 kg (Garrow & Summerbell, 1995; Miller et al., 1997;
+Shaw et al., 2009). In general, such a reduction is associated with an improved serum lipid profile, lowered
+blood pressure, and attenuated fasting levels of plasma
+glucose (Shaw et al., 2009).
+A similar or more pronounced reduction in body mass
+can be achieved much more rapidly (i.e., within 3–10
+days) by combining severe caloric restriction (CR) with
+extensive daily exercise (Carlson & Fröberg, 1967;
+Marniemi et al., 1984; Shpilberg et al., 1990). However,
+in earlier investigations of this nature neither the influence of dietary composition, the impact on body composition, nor medium- and long-term effects (e.g.,
+whether the reduction in weight is maintained or not)
+were assessed. It has been shown that elevating the
+amount of protein relative to carbohydrate in weight loss
+
+diets lessens the loss of lean mass (LM) and promotes
+loss of fat (Farnsworth et al., 2003; Krieger et al., 2006).
+Accordingly, the primary aim of the present investigation was to characterize the effects of low energy
+intake (3.2 kcal/kg body mass per day) in combination
+with 9 h of low-intensity exercise daily on body composition (i.e., regional changes in fat and LM), and serum
+levels of lipids, glucose, insulin, and leptin in overweight
+men. In addition, the potential ability of dietary whey
+protein to preserve LM under these same conditions of
+pronounced short-term negative EB was examined. A
+final aim was to assess long-term effects 1 year after the
+intervention. Our hypotheses were that this regimen
+would reduce body weight and fat mass markedly, that
+this effect will to some extent present 12 months later
+and, that the protein diet would be associated with more
+loss of fat and less reduction in LM than ingestion of
+sucrose.
+Methods
+Participants
+The general criteria for inclusion were (a) an age of 18–55 years;
+(b) stable body weight for at least 3 months prior to the start of the
+experiments; (c) a body mass index of ≥25 kg/m2; (d) a waist
+circumference of >102 cm; and (e) 20%–40% body fat. The
+
+223
+
+Calbet et al.
+
+Pretests or phase I
+2 days
+
+Phase II
+
+Phase III
+
+1 week (intervention)
+
+1 week (normal life)
+
+No
+exercise
+
+Phase IV
+
+Phase V
+
+4 weeks
+
+1 year
+
+POST1
+
+POST2
+
+Control period
+Diet analysis, IPAQ
+
+320 kcal/day
++
+9-h exercise
+
+Blood sample
+DXA
+Bioimpedance
+RMR
+VO2max
+Cost of walking
+Single-arm cranking VO2
+
+DIET
+Isoenergetic
+diet with usual
+daily energy
+intake
++
+exercise (10 000
+steps per day)
+
+Eating and
+exercise by
+own choice
+
+Eating and
+exercise by
+own choice
+
+DXA
+
+Fig. 1. Schematic illustration of the experimental protocol. RMR, resting metabolic rate; IPAQ, International Physical Activity
+Questionnaire, DXA, dual-energy x-ray absorptiometry.
+
+exclusion criteria were (a) orthopedic limitations incompatible
+with prolonged walking or exercise; (b) smoking; and (c) chronic
+disease of any kind. Of the 16 men recruited initially, one was
+unable to combine the intervention with his work schedule
+(Table 1). The 15 remaining participants were assigned randomly
+to ingest a diet consisting of sucrose (n = 7) or whey protein (Whey
+PRO, Syntrax Nectar, Syntrax Innovations, Scott City, Missouri,
+USA; n = 8) during the main experimental phase. A study population of this size should reveal any significant difference ≥1.5-fold
+the coefficient of variation (which was < 10% in most cases)
+between the mean values for any given parameter, with a significance level of P < 0.05 and a statistical power of 0.8. This
+study was approved by the Regional Ethical Review Board
+Table 1. The pretest physical characteristics, fitness, and energy intake
+(means ± SD) of the overweight men who subsequently ingested different
+diets
+
+Diet
+
+Age (years)
+Height (cm)
+Weight (kg)
+BMI (kg/m2)
+Lean mass (kg)
+Fat mass (kg)
+Body fat (%)
+RMR (kcal/day)
+VO2max (L/min)
+VO2max (mL/kg/min)
+VO2max (mL/kg lean mass per min)
+Daily energy intake (kcal)
+Carbohydrate intake (g/day)
+Fat intake (g/day)
+Protein intake (g/day)
+Alcohol intake (g/day)
+Physical activity (IPAQ) kcal/day
+Systolic blood pressure (mmHg)
+Diastolic blood pressure (mmHg)
+
+Sucrose
+(n = 7)
+
+Whey protein
+(n = 8)
+
+38.7 ± 8.2
+181.0 ± 5.5
+98.0 ± 12.0
+29.9 ± 3.1
+63.1 ± 3.1
+31.5 ± 9.1
+31.6 ± 5.3
+1780 ± 272
+3.8 ± 0.3
+38.8 ± 6.0
+59.6 ± 6.4
+2256 ± 513
+211.5 ± 59.4
+92.0 ± 14.6
+99.8 ± 29.6
+26.1 ± 17.4
+612 ± 315
+135 ± 7
+88 ± 5
+
+43.0 ± 8.0
+180.0 ± 4.2
+100.1 ± 14.9
+30.9 ± 4.2
+65.4 ± 6.0
+31.4 ± 9.2
+30.9 ± 4.1
+1970 ± 348
+3.9 ± 0.3
+39.7 ± 5.5
+60.2 ± 6.1
+2086 ± 489
+212.3 ± 59.8
+80.2 ± 21.7
+83.7 ± 18.0
+25.7 ± 14.2
+601 ± 289
+132 ± 13
+89 ± 9
+
+BMI, body mass index; IPAQ, International Physical Activity Questionnaire; RMR, resting metabolic rate; SD, standard deviation.
+
+224
+
+of Umeå University (Umeå, Sweden), as well as the Ethical
+Committee of the University of Las Palmas de Gran Canaria
+(Canary Islands, Spain). The participants provided their written
+consent after being informed about potential risks and benefits.
+
+Experimental protocol
+The experimental protocol was divided into five different phases: I
+(pretest), II [walking and arm-cranking exercise + caloric restriction (WCR), lasting 4 days], III [control diet + reduced exercise
+(DIET), lasting 3 days], IV (4 weeks after the end of WCR), and V
+(1 year later) (Fig. 1). During phase I and at the end of phases II, III,
+and IV, body composition (Lunar iDXA, GE Healthcare, Madison,
+Wisconsin, USA; and Bioimpedance, InBody720, Biospace Co.,
+Ltd, Seoul, Korea) and VO2max (on a cycle ergometer) were
+assessed. In addition, during phases I, II, and III, 30 mL of blood
+samples was drawn (in the supine position), following a 12-h
+overnight fast. In phase I, blood samples were obtained on two
+occasions, 1 week apart. During phase V, only body composition
+was characterized.
+Phase II started with a 12-h overnight fast, after which a blood
+sample was taken. The subjects performed 45 min of one-arm
+cranking exercise (at 15% maximal intensity), followed by 8 h of
+walking at 4.5 km/h (35 km/day) (at temperatures ranging from
+2.9 to 10.2 °C). On each day of this phase, the participants
+ingested (in a double-blinded fashion) either sucrose or whey
+protein [0.8 g/kg body weight (Syntrax Innovations)], both dissolved in 1.5 L of water containing minerals, as their only nutrients, providing an overall energy intake of 3.2 kcal/kg body weight
+per day. The solution of whey protein also contained Na+
+(308 mg/L) and K+ (370 mg/L), as did the sucrose solution
+(160 mg/L of Na+ and 100 mg/L of K+). The subjects drank 0.5 L
+in the morning (just before arm cranking), again at midday and at
+20:00 h. In addition, both groups were allowed to drink a hypotonic rehydrating solution containing Na+ (160 mg/L), Cl−
+(200 mg/L), K+ (100 mg/L), citrate (700 mg/L), and sucrose
+(3 g/L) ad libitum.
+During phase III, the participants received a standardized meal
+containing their normal daily intake of energy (as assessed during
+the pretest by weighing all food ingested during a 7-day period)
+and were not allowed to walk more than 10 000 steps per day. The
+purpose of this phase was to allow replenishment of water and
+stabilization of body weight. At the end of this phase, they were
+
+Fast and efficient reduction of fat mass
+counseled about changes in diet and other aspects of their lifestyle
+required to maintain their new body composition and allowed to
+decide themselves whether to follow this advice or not. Four
+weeks and again 1 year after the end of phase III, the subjects were
+examined to determine if they had been able to maintain their new
+body composition and, on the first of these occasions, their hydration status was also checked. Each testing session started with the
+determination of body composition and resting metabolic rate
+(RMR).
+
+Assessment of physical activity, nutrition, and
+body composition
+The short version of the International Physical Activity Questionnaire was used to assess daily EE related to physical activity
+(Craig et al., 2003; Serrano-Sanchez et al., 2010). During phase I,
+a 7-day dietary diary was kept by each participant and their food
+items analyzed (Dietist XP, Kost och Näringsdata, Bromma,
+Sweden). During phase III, they were provided a diet of similar
+composition and the same energy as that recorded during phase I,
+and the weight of the food they ingested was determined. Energy
+intake was also calculated employing Dietist XP (Kost och
+Näringsdata AB). During this phase, the sucrose group ingested
+2256 ± 513 and the Whey PRO group 2086 ± 450 kcal/day
+[means ± standard deviation (SD)] (Table 1).
+In the morning following a 12-h overnight fast, body composition was determined by bioimpedance (Gibson et al., 2008), and
+dual-energy x-ray absorptiometry (DXA) as reported elsewhere
+(Calbet et al., 2001; Perez-Gomez et al., 2008). For analysis of
+bioimpedance, the participants were requested to stand upright and
+to grasp the handles of the InBody720 to make contact with a total
+of eight electrodes (two for each foot and hand). LM as assessed
+with the iDXA was defined as LM = total tissue mass − fat mass −
+bone mineral content.
+
+RMR, submaximal VO2, and VO2max
+RMR, submaximal VO2, and VO2max were assessed employing a
+metabolic cart (Jaeger Oxycon Pro, Viasys Healthcare, Hoechberg,
+Germany), calibrated with 16.0% O2 and 4.0% CO2 (Air Liquide,
+Kungsängen, Sweden), at low, medium, and high flow rates with
+3 L of air syringe (Hans Rudolph, Inc, Kansas City, Missouri,
+USA), in accordance with the recommendations of the manufacturer. Ambient conditions were monitored with an external apparatus (Vaisala PTU200, Vaisala Oyj, Helsinki, Finland). The
+highest VO2 value during any 20-s interval of an incremental test
+on the cycle ergometer (Monark 839E; Ergomedic, Vansbro,
+Sweden) was designated as the VO2max. RMR was determined
+following 10 min of steady ventilation and VO2 in the supine
+position. The submaximal VO2 during walking and arm cranking
+was utilized to estimate EE during exercise.
+
+EE during exercise and the expected rate of fat loss during
+phase II
+Daily EE during phase II was calculated on the basis of the
+duration and mean speed of walking (Forerunner 305, Garmin,
+Olathe, Kansas, USA). The energy cost of walking was measured
+in phase I during horizontal walking on a treadmill at 3.5 and
+6.0 km/h (averaging the last 2 min of each 6-min bout) (RL 4000,
+Rodby Innovation AB, Vänge, Sweden). The energy cost of singlearm cranking was determined by an incremental test with the axis
+of the arm crank at shoulder level, a frequency of 1 Hz, and an
+initial load of 10 W, which was increased by 10 W every third
+minute. The last minute at each load was used to obtain the VO2.
+The corresponding EE for both forms of exercise was calculated
+
+from the VO2 and VCO2 (Frayn, 1983). The energy cost of walking
+on the terrain was calculated employing the equation developed by
+Pandolf and coworkers (Givoni & Goldman, 1971; Pandolf et al.,
+1977), taking into account the characteristics of the terrain (terrain
+factor = 1.2), which was further increased by 2% to account for the
+load being carried (a small backpack with extra clothing and
+approximately 3 L of water).
+The EB was determined as EB = energy intake − EE. The daily
+EE was calculated as the measured RMR + the thermodynamic
+effect of food (10% of the ingested energy) + the EE during
+walking (EEW) + the EE during arm cranking (EEAC) + EE due
+to miscellaneous physical activities (MPAs) + estimated oxygen
+debt (assumed to represent 10% of EE due to physical activities
+(Bahr & Sejersted, 1991), i.e., 1.1 × (EEW + EEAC + MPA). The
+MPA was calculated as MPA = (RMR × 100 × 0.4) × time awake
+and sedentary/total time awake (i.e., 341 ± 58 kcal/day). This
+assessment assumes a physical activity level of 1.4 for sedentary
+subjects (Westerterp, 2013), a total of 16 h awake and 7.15 min
+awake and sedentary.
+The EB was also estimated from the changes in the energy
+content of the body using the changes in body composition,
+assigning energy values of 39.4 and 3.7 MJ/kg to fat and LM,
+respectively (Elia et al., 2003; Guerra et al., 2014).
+
+Biochemical and hormonal analyses
+After a 12-h overnight fast, 20 mL of blood samples was drawn
+from an antecubital vein directly into Vacutainer tubes (REF:
+368499; 368498; BD Vacutainer, Stockholm, Sweden). To obtain
+plasma, some samples were collected in tubes containing
+ethylenediaminetetraacetic acid and centrifuged for 5 min at 4000
+rpm and 4 °C. To prepare serum, other samples were centrifuged
+for 10 min at 4000 rpm and 4 °C. All plasma and serum samples
+were stored at −80 °C until analyzed.
+The serum concentration of glucose was measured by the hexokinase procedure utilizing ABX Pentra kits (Horiba Medical,
+Montpellier, France). Non-esterified free fatty acids, total cholesterol, high-density lipoprotein (HDL) cholesterol and triglycerides
+were determined enzymatically with kits from Wako Chemicals
+(Neuss, Germany) and Instrumentation Laboratory (Izasa, Barcelona, Spain).
+Serum insulin was quantified by an electrochemiluminescence
+immunoassay performed with reagent kits and a Modular Analytics Analyzer E170 (Roche Diagnostics SL, Barcelona, Spain). In
+this case, the sensitivity was 0.2 μU/mL, and the corresponding
+intra- and inter-assay coefficients of variation were 2.0% and
+2.6%, respectively.
+Serum leptin was determined by the enzyme-linked immunosorbent assay (ELx800 Universal Microplate Reader, Bio-Tek
+Instruments, Inc, Winooski, Vermont, USA), employing reagent
+kits from Linco Research (#EZHL-80SK, St Charles, Missouri,
+USA). In this case, the sensitivity was 0.05 ng/mL and the intraand inter-assay coefficients of variation were 3.8% and 4.4%,
+respectively.
+Cortisol was measured with a chemiluminescent enzyme
+immunoassay (Immulite 2000 Cortisol, Ref. L2KCO2; Siemens
+AG, Munich, Germany) exhibiting a sensitivity of 0.20 μg/dL, and
+intra- and inter-assay coefficients of variation of 6.1% and 8.2%,
+respectively. The formula developed by Friedewald et al. (1972)
+was applied to calculate plasma levels of low-density lipoprotein
+cholesterol (LDL cholesterol).
+
+Assessment of insulin resistance
+The degree of insulin resistance was estimated by homeostasis
+model assessment (HOMA) (Matthews et al., 1985). In brief, the
+
+225
+
+Calbet et al.
+HOMA index was calculated as the fasting plasma concentration
+of insulin (μU/mL) × the corresponding concentration of glucose
+(mmol/L)/22.5.
+
+Statistical analyses
+Variables were checked for normal distribution with the Shapiro–
+Wilk test and when necessary, logarithmically transformed data
+were analyzed. A repeated-measures analysis of variance with
+time and the two different diets (sucrose vs whey protein) was
+applied to analyze the mean responses. When a significant effect of
+diet or interaction between diet and time was indicated, pairwise
+comparisons at specific time points were adjusted for multiple
+comparisons with the Holm–Bonferroni procedure. The relationship between variables was examined by linear regression. Unless
+otherwise stated, the values reported are means ± SDs and a
+P-value ≤ 0.05 was considered statistically significant. All statistical analyses were performed using SPSS v.15.0 for Windows
+(SPSS, Inc, Chicago, Illinois, USA).
+
+Results
+As shown in Table 1, the baseline (pretest) characteristics of both groups were similar.
+Body composition
+Following 4 days of CR in combination with exercise,
+total body mass in both dietary groups was reduced by an
+average of 4.9 kg and this reduction persisted during all
+subsequent phases (P < 0.05) (Table 2) (being 3.9, 4.4,
+and 2.4 kg lower than the pretest value after phases II,
+IV, and V, respectively), with no significant difference
+between groups.
+Whole-body fat mass (DXA data) was reduced by 2.1,
+2.8, 3.8, and 1.9 kg following phases II, III, IV, and V,
+respectively (Fig. 2(a)), with similar changes in percentage of body fat (Table 2). Whole-body LM was reduced
+by 2.8, 1.0, 0.5, and 0.4 kg following phases II, III, IV,
+and V, respectively (Table 2). Because there were no
+significant differences between groups in these respects,
+their values have been pooled in Fig. 2. During phase II,
+the EB from the estimated EE was −4873 ± 952 kcal/
+day, which was similar to the value obtained from
+the body composition changes (−5535 ± 2083 kcal/day,
+P = 0.24; without correction for changes in body water).
+The mass of trunk fat was reduced by 1.6, 2.1, 2.8, and
+1.1 kg following phases II, III, IV, and V, respectively
+(Fig. 2(b)). The amount of fat loss from the extremities
+was smaller (Fig. 2(b) and Table 3), the corresponding
+values being 0.5, 0.7, 1.1, and 0.8 kg, respectively
+(Fig. 2(c)). Again, these changes were similar in both
+dietary groups.
+Whole-body water (bioimpedance) was reduced by
+3.1 ± 1.3 L (P < 0.05) following phase II, reflecting
+1.8 ± 0.9 and 1.3 ± 0.5 L reductions in intracellular and
+extracellular water, respectively (P < 0.05), with no
+significant effect of diet. After 3 days of normal
+diet + reduced exercise (phase III), body water recovered.
+
+226
+
+Waist circumference
+Waist circumference was reduced by 4.5 ± 2.8 cm
+following phase II and remained diminished by
+5.6 ± 3.5 cm after phase III (P < 0.05). However, the
+most pronounced lowering (7.0 ± 4.3 cm) was observed
+after phase IV. Again, the nature of the diet ingested
+during CR exerted no impact.
+
+Biochemical and hormonal responses
+The biochemical and hormonal responses are depicted in
+Table 4. The two determinations performed during phase
+I gave similar values, and the average of these two was
+taken as baseline. CR in combination with exercise (phase
+II) lowered serum levels of glucose, insulin, and HOMA
+by 15%, 49%, and 57%, respectively (P < 0.05). Three
+days later, after consuming a control diet with limited
+exercise (phase III), the levels of insulin and HOMA were
+still reduced by 32% and 37%, respectively (P < 0.05). In
+comparison with the baseline values, plasma triglycerides
+fell by 45% and 33% after phases II and III, respectively
+(P < 0.05); serum levels of FFA were 2.9-fold higher after
+phase II; the total cholesterol and LDL cholesterol levels
+were attenuated by 17% and 16%, respectively, after
+phase III (P < 0.05); and HDL cholesterol rose by 25%
+after phase II, returning to values similar to baseline after
+phase III. Four weeks after the intervention (phase IV),
+when the subjects had 3.8 kg less fat mass than before the
+experiment, most of the biochemical values determined
+had returned to baseline, with the exception of the persistent reduction in total (−7%) and LDL serum cholesterol
+(−6%) (P < 0.05).
+Compared with the corresponding baseline values, the
+serum levels of cortisol rose by 16% following phase II,
+but had returned to the original level after phase III.
+Serum leptin concentration was lowered 64%, 50%, and
+33%, following phases II, III, and IV, respectively. No
+significant between-group differences in biochemical
+and hormonal responses were observed.
+Discussion
+The present investigation reveals that whole-body fat
+mass can be reduced by ∼3 kg with a 4-day intervention
+combining a reduction of energy intake (to barely 10%
+of the habitual level) and 9 h of low-intensity exercise
+per day. Interestingly, most of this reduction was
+accounted for by loss of adipose depots in the trunk, with
+an accompanying marked diminution of the waist circumference. Moreover, despite no specific request for
+lifestyle changes, subjects lost an additional kilogram of
+fat during the 4 weeks after the intervention (phase IV),
+giving a total fat loss of 3.8 kg (of which 2.8 kg was from
+the trunk).
+This outcome is better than several interventions combining low-calorie diets and exercise lasting from 12
+
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+
+WB mass (kg)
+
+Exercise + caloric
+restriction (phase II)
+93.7 ± 11.8
+94.7 ± 14.2
+60.7 ± 3.0
+62.2 ± 6.0
+29.6 ± 8.9
+29.2 ± 8.6
+31.0 ± 5.6
+30.3 ± 4.3
+46.0 ± 6.4
+46.7 ± 7.6
+27.5 ± 1.4
+28.2 ± 2.8
+17.5 ± 5.4
+17.5 ± 5.3
+37.2 ± 6.7
+37.0 ± 5.0
+3.02 ± 1.14
+3.16 ± 1.14
+41.3 ± 8.1
+41.1 ± 5.7
+4.42 ± 1.53
+3.92 ± 1.36
+29.6 ± 5.4
+26.0 ± 5.5
+58.9 ± 3.8
+60.2 ± 3.3
+
+Pretest (phase I)
+98.0 ± 12.0
+100.1 ± 14.9
+63.1 ± 3.1
+65.4 ± 6.0
+31.5 ± 9.1
+31.4 ± 9.2
+31.6 ± 5.3
+30.9 ± 4.1
+48.7 ± 7.1
+50.1 ± 7.9
+28.8 ± 1.8
+29.9 ± 2.5
+19.0 ± 5.6
+19.3 ± 5.7
+38.2 ± 6.0
+37.9 ± 4.8
+3.37 ± 1.22
+3.51 ± 1.27
+42.4 ± 6.9
+41.9 ± 5.4
+4.67 ± 1.58
+4.28 ± 1.44
+29.8 ± 5.4
+26.7 ± 5.2
+60.1 ± 3.4
+61.4 ± 3.6
+
+*P < 0.05 for phase I vs phase II.
+†
+P < 0.05 for phase I vs phase III.
+‡
+P < 0.05 for phase I vs phase IV.
+§
+P < 0.05 for phase I vs phase V.
+¶
+log-transformed.
+DXA, dual-energy x-ray absorptiometry; SD, standard deviation.
+
+Trunk fat /WB fat (%)
+
+Gynoid fat (%)
+
+Gynoid fat mass (kg)¶
+
+Android fat (%)
+
+Android fat mass (kg)
+
+Trunk fat (%)
+
+Trunk fat mass (kg)
+
+Trunk lean mass (kg)
+
+Trunk mass (kg)
+
+WB fat (%)
+
+WB fat mass (kg)
+
+WB lean mass (kg)
+
+Diet during caloric
+restriction
+
+Variables
+94.5 ± 11.7
+96.0 ± 14.2
+62.5 ± 2.8
+64.0 ± 5.8
+28.7 ± 8.8
+28.6 ± 8.8
+29.8 ± 5.7
+29.3 ± 4.4
+46.3 ± 6.7
+47.6 ± 7.3
+28.6 ± 1.5
+29.4 ± 2.4
+16.8 ± 5.5
+17.2 ± 5.4
+35.4 ± 7.0
+35.5 ± 5.3
+2.91 ± 1.12
+3.10 ± 1.13
+39.1 ± 8.2
+39.7 ± 6.0
+4.21 ± 1.52
+3.83 ± 1.36
+28.1 ± 5.8
+25.2 ± 5.4
+58.1 ± 3.6
+60.2 ± 3.3
+
+Normal diet + limited
+exercise (phase III)
+93.9 ± 11.7
+95.5 ± 13.4
+63.2 ± 2.7
+64.4 ± 5.7
+27.4 ± 9.0
+27.8 ± 8.1
+28.5 ± 6.0
+28.7 ± 4.1
+45.9 ± 6.6
+47.5 ± 7.4
+29.0 ± 1.4
+29.8 ± 2.7
+16.0 ± 5.6
+16.7 ± 5.2
+33.9 ± 7.5
+34.6 ± 4.8
+2.74 ± 1.15
+2.95 ± 1.07
+37.1 ± 8.8
+38.1 ± 5.8
+4.01 ± 1.49
+3.73 ± 1.24
+26.9 ± 5.8
+24.7 ± 5.1
+57.9 ± 3.8
+59.9 ± 3.4
+
+4 weeks later
+(phase IV)
+97.2 ± 13.1
+96.4 ± 14.3
+62.9 ± 2.8
+64.8 ± 5.2
+30.9 ± 10.3
+28.3 ± 9.2
+31.1 ± 6.5
+28.7 ± 5.1
+48.0 ± 7.8
+48.5 ± 8.1
+28.4 ± 1.3
+30.1 ± 2.2
+18.6 ± 6.7
+17.5 ± 6.2
+37.7 ± 7.8
+35.1 ± 6.7
+3.29 ± 1.41
+3.13 ± 1.31
+41.5 ± 9.2
+38.3 ± 8.2
+4.55 ± 1.69
+3.79 ± 1.33
+29.1 ± 6.2
+24.5 ± 5.2
+59.9 ± 4.1
+61.2 ± 4.3
+
+1 year later
+(phase V)
+
+*, †, ‡
+
+*, †, ‡, §
+
+*, †, ‡, §
+
+†, ‡
+
+*, †, ‡
+
+*, †, ‡
+
+*, †, ‡
+
+*
+
+*, †, ‡
+
+*, †, ‡
+
+*, †, ‡, §
+
+*, †
+
+*, †, ‡, §
+
+Time effect
+
+0.51 (0.25)
+
+0.08 (0.50)
+
+0.16 (0.34)
+
+0.18 (0.30)
+
+0.28 (0.22)
+
+0.20 (0.28)
+
+0.22 (0.25)
+
+0.08 (0.61)
+
+0.65 (0.07)
+
+0.21 (0.26)
+
+0.18 (0.29)
+
+0.59 (0.21)
+
+0.27 (0.22)
+
+Time × supplementation
+interaction P (power)
+
+Table 2. Whole-body (WB) and trunk compositions (means ± SD) of the participants subjected to caloric restriction in the form of a sucrose or protein diet in combination with exercise as assessed by DXA following
+the various experimental phases
+
+Fast and efficient reduction of fat mass
+
+227
+
+Calbet et al.
+Fig. 2. Assessment of changes in whole-body (a), trunk (b), and
+extremities (c) fat mass by dual-energy x-ray absorptiometry
+immediately after 4 days of exercise and caloric restriction
+(WCR), followed by 3 days of normal diet and limited exercise
+(DIET), 4 weeks later (POST), and 1 year after the intervention
+(1-YEAR). In (d), the serum leptin concentrations associated
+with these same phases are documented (n.d., not determined;
+PRE, baseline values). Because there were no statistically significant differences between the dietary groups, their values have
+been combined here, so that n = 15 in all cases. The values
+presented are means ± standard errors of the mean. *P < 0.05
+compared with PRE.
+
+weeks to 1 year (Garrow & Summerbell, 1995; Shaw
+et al., 2009), as well as in the largest randomized control
+trial for the response to 8-month resistance training,
+aerobic training, or combined aerobic and resistance
+training (Willis et al., 2012). Furthermore, the mean fat
+loss here is greater than that achieved by administering
+agonists of glucagon-like peptide-1 receptor for at least
+20 weeks (which gave a weighted mean loss of 2.9 kg in
+21 trials involving 6411 participants) (Vilsboll et al.,
+2012). Interestingly, 1 year after the intervention the
+mass of whole-body fat was still 1.9 kg below the preintervention level, i.e., the subjects had regained only
+50% of the fat they lost. This is better than reported in
+meta-analyses on weight regain following adherence to
+weight loss diets (Anderson et al., 2001; Kraschnewski
+et al., 2010).
+In the present study, trunk fat (a valid surrogate for
+visceral fat; Doyon et al., 2011) was 2.8 kg lower 4
+weeks after the intervention. This finding is consistent
+with reports on preferential reduction of visceral fat with
+modest weight loss achieved by consuming very lowcalorie diets (Chaston & Dixon, 2008). Visceral fat augments blood levels of lipids and causes low-grade
+inflammation, endothelial dysfunction, and insulin resistance, thereby elevating the risk for cardiovascular
+disease (Despres et al., 2001; Nieves et al., 2003; Pou
+et al., 2007; Takata et al., 2007; Cartier et al., 2008; Fair
+& Montgomery, 2009; Kerr et al., 2011). This preferential reduction of fat in the trunk might have been facilitated by exercise-induced activation of lipolysis in this
+region, as well as by the elevation in serum cortisol and
+concomitant decrease in circulating levels of insulin following 4 days of exercise and CR (Gravholt et al., 2002;
+Drapeau et al., 2003; Djurhuus et al., 2004; McMurray
+& Hackney, 2005).
+Improvements in plasma levels of cholesterol, HDL
+cholesterol, and cholesterol/HDL cholesterol ratio, as
+well as in insulin sensitivity and resting systolic and
+diastolic blood pressure have been reported even after
+only a 5%–10% reduction in body mass (Ross et al.,
+2000; Brochu et al., 2003). This was also observed in the
+present investigation, where the levels of total cholesterol, LDL cholesterol, and triglycerides in the serum
+were lowered immediately after the 4-day period of exercise + CR. However, after the subsequent 3-day period
+
+228
+
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+
+Leg mass (kg)
+
+Exercise + caloric
+restriction (phase II)
+31.6 ± 4.5
+31.6 ± 4.7
+21.8 ± 1.7
+22.5 ± 2.6
+8.48 ± 2.98
+7.71 ± 2.45
+26.2 ± 5.7
+23.9 ± 4.5
+11.0 ± 1.1
+11.3 ± 2.1
+7.8 ± 0.4
+7.9 ± 1.0
+2.68 ± 0.77
+2.92 ± 1.22
+24.1 ± 4.6
+25.1 ± 5.4
+
+Pretest
+(phase I)
+32.8 ± 4.0
+32.8 ± 5.0
+22.6 ± 1.4
+23.4 ± 2.7
+8.85 ± 2.95
+8.10 ± 2.54
+26.4 ± 5.8
+24.2 ± 4.3
+11.4 ± 1.0
+12.0 ± 2.2
+8.2 ± 0.3
+8.5 ± 1.0
+2.71 ± 0.77
+3.03 ± 1.26
+23.4 ± 4.8
+24.5 ± 5.3
+
+*P < 0.05 for phase I vs phase II.
+†
+P < 0.05 for phase I vs phase III.
+‡
+P < 0.05 for phase I vs phase IV.
+§
+P < 0.05 for phase I vs phase V.
+¶
+log-transformed. DXA, dual-energy x-ray absorptiometry; SD, standard deviation.
+
+Arm fat (%)
+
+Arm fat mass (kg)
+
+Arm lean mass (kg)
+
+Arm mass (kg)¶
+
+Leg fat (%)
+
+Leg fat mass (kg) §
+
+Leg lean mass (kg) §
+
+Diet during caloric
+restriction
+
+Variables
+32.0 ± 4.0
+31.8 ± 4.9
+22.3 ± 1.3
+22.9 ± 2.6
+8.35 ± 2.79
+7.58 ± 2.43
+25.5 ± 5.6
+23.3 ± 4.2
+11.1 ± 1.0
+11.4 ± 2.1
+8.0 ± 0.5
+8.1 ± 0.9
+2.59 ± 0.73
+2.82 ± 1.26
+23.1 ± 4.6
+23.9 ± 5.7
+
+Normal diet + limited
+exercise (phase III)
+31.8 ± 4.2
+31.7 ± 4.3
+22.5 ± 1.6
+22.8 ± 2.3
+7.95 ± 2.84
+7.45 ± 2.22
+24.4 ± 5.8
+23.1 ± 4.0
+11.1 ± 1.1
+11.3 ± 1.8
+8.1 ± 0.4
+8.1 ± 0.9
+2.51 ± 0.77
+2.67 ± 0.99
+22.3 ± 4.9
+23.1 ± 4.8
+
+4 weeks later
+(phase IV)
+32.8 ± 4.3
+31.7 ± 4.7
+22.8 ± 1.4
+23.0 ± 2.4
+8.67 ± 3.12
+7.31 ± 2.42
+25.7 ± 6.1
+22.6 ± 4.2
+11.4 ± 1.1
+11.2 ± 1.8
+8.2 ± 0.4
+8.2 ± 0.9
+2.67 ± 0.87
+2.58 ± 0.97
+23.1 ± 5.6
+22.3 ± 4.8
+
+1 year later
+(phase V)
+
+*,†, ‡
+
+*,†,‡,§
+
+*,†,‡,§
+
+*,†,‡,§
+
+†, ‡
+
+*,†,‡,§
+
+*, †
+
+*,†, ‡
+
+Time effect
+
+0.26 (0.22)
+
+0.15 (0.33)
+
+0.22 (0.43)
+
+0.11 (0.44)
+
+0.19 (0.29)
+
+0.20 (0.27)
+
+0.25 (0.40)
+
+0.14 (0.39)
+
+Time × supplementation
+interaction P (power)
+
+Table 3. Composition of the arms and legs (means ± SD) of the participants subjected to caloric restriction in the form of a sucrose or protein diet in combination with exercise as assessed by DXA following the various
+experimental phases
+
+Fast and efficient reduction of fat mass
+
+229
+
+230
+
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+Sucrose
+Whey protein
+
+Glucose (mmol/L)
+
+Exercise + caloric
+restriction (phase II)
+4.9 ± 0.83
+4.6 ± 0.36
+1.22 ± 0.37
+1.52 ± 0.50
+70 ± 13
+108 ± 58
+201 ± 52
+225 ± 61
+50 ± 7
+50 ± 12
+4.1 ± 1.2
+4.7 ± 1.5
+137 ± 50
+153 ± 56
+4.9 ± 1.8
+5.8 ± 2.3
+1.1 ± 0.5
+1.2 ± 0.5
+3.7 ± 2.7
+3.1 ± 3.2
+24.9 ± 3.9
+29.4 ± 7.6
+
+Pretest
+(phase I)
+5.8 ± 0.4
+5.4 ± 0.4
+0.51 ± 0.08
+0.45 ± 0.11
+127 ± 23
+199 ± 89
+224 ± 43
+226 ± 43
+43 ± 6
+37 ± 10
+5.3 ± 1.3
+6.3 ± 1.8
+155 ± 42
+149 ± 29
+8.5 ± 3.3
+12.1 ± 9.9
+2.2 ± 0.9
+3.0 ± 2.7
+10.5 ± 5.5
+8.9 ± 6.0
+22.3 ± 3.5
+24.7 ± 3.1
+
+5.2 ± 0.47
+5.4 ± 0.26
+0.52 ± 0.09
+0.59 ± 0.12
+88 ± 12
+130 ± 33
+179 ± 35
+195 ± 46
+38 ± 7
+38 ± 9
+4.8 ± 1.2
+5.4 ± 1.6
+124 ± 33
+131 ± 41
+6.7 ± 1.7
+7.4 ± 3.8
+1.5 ± 0.4
+1.8 ± 1.0
+5.2 ± 3.1
+4.4 ± 3.4
+23.9 ± 3.2
+23.3 ± 4.4
+
+Normal diet + limited
+exercise (phase III)
+5.9 ± 0.5
+5.3 ± 0.4
+0.45 ± 0.12
+0.43 ± 0.14
+110 ± 39
+198 ± 132
+204 ± 46
+220 ± 50
+42 ± 7
+38 ± 10
+5.0 ± 1.2
+6.0 ± 1.8
+140 ± 41
+142 ± 33
+8.8 ± 2.1
+13.0 ± 10.6
+2.3 ± 0.7
+3.1 ± 2.7
+6.7 ± 3.8
+6.2 ± 4.2
+20.1 ± 2.8
+23.0 ± 3.6
+
+4 weeks later
+(phase IV)
+
+*
+
+*,†,‡
+
+*, †
+
+*, †
+
+†, ‡
+
+*, †
+
+*
+
+†, ‡
+
+*, †
+
+*
+
+*, †
+
+Time effect
+
+*P < 0.05 for phase I vs phase II.
+†
+P < 0.05 for phase I vs phase III.
+‡
+P < 0.05 for phase I vs phase IV.
+§
+log-transformed.
+FFA, free fatty acids; HDL, high-density lipoprotein cholesterol; HOMA, homeostasis model assessment; LDL, low-density lipoprotein cholesterol; SD, standard deviation; TG, triglycerides.
+
+Cortisol (μg/dL)
+
+Leptin (ng/mL)§
+
+HOMA§
+
+Insulin (mIU/L)§
+
+LDL (mg/dL)
+
+Cholesterol/HDL
+
+HDL (mg/dL)
+
+Cholesterol (mg/dL)
+
+TG mg/dL§
+
+FFA (mmol/L)
+
+Diet during caloric
+restriction
+
+Variables
+
+0.23 (0.36)
+
+0.39 (0.26)
+
+0.99 (0.05)
+
+0.92 (0.08)
+
+0.33 (0.20)
+
+0.85 (0.07)
+
+0.25 (0.35)
+
+0.32 (0.30)
+
+0.80 (0.08)
+
+0.20 (0.29)
+
+0.10 (0.42)
+
+Time × supplementation
+interaction P (power)
+
+Table 4. Biochemical and hormonal parameters (means ± SD) of the participants subjected to caloric restriction in the form of a sucrose or protein diet in combination with exercise following the various experimental
+phases
+
+Calbet et al.
+
+Fast and efficient reduction of fat mass
+of normal diet and limited exercise, the level of HLD
+cholesterol had returned to the baseline value, even
+though the 0.7 kg additional reduction in fat mass during
+this same period (phase III) indicated that the subjects
+still had a markedly negative EB.
+Four weeks after the intervention, when wholebody fat was 3.8 kg below the starting level, the
+serum levels of glucose, insulin, triglycerides, FFA, and
+HDL cholesterol were similar to the corresponding
+baseline values, whereas the serum concentrations of
+LDL cholesterol remained slightly (6%–7%) reduced.
+These findings suggest that physical activity and/or an
+energy deficit may have exerted a more pronounced
+impact on the lipid profile than did the changes in fat
+mass. This subsequent worsening of the lipid profile
+was accompanied by a rising serum level of leptin,
+perhaps reflecting progressive development of leptin
+resistance.
+In disagreement with our hypothesis, the extent and
+regional distribution of fat loss was similar in the
+groups ingesting either sucrose or whey protein only. In
+previous dietary studies, elevating the relative amount
+of protein in the diet resulted in more pronounced fat
+loss and better preservation of LM (Farnsworth et al.,
+2003; Krieger et al., 2006). Two major differences
+between the present and previous investigations are the
+number of kilocalories ingested daily and the magnitude of the energy deficit sustained on each day of
+exercise.
+Whey protein is rich in branched-chain amino acids,
+efficiently stimulates protein synthesis, and attenuates
+protein breakdown in humans (Pennings et al., 2011;
+Phillips, 2011). The total daily intake of whey protein
+(0.8 g/kg body weight) employed here exceeded by far
+the quantity (20 g) required to achieve maximal stimulation of protein synthesis in both rested and exercised
+muscle (Tang et al., 2009; Breen et al., 2011; Yang
+et al., 2012). Since after adjusting for the reduction in
+extracellular body water our subjects lost approximately 380 g of LM per day during phase II, the
+amount of protein ingested should have been sufficient
+to avoid these losses. However, our findings indicate
+that under such severe energy deficit, whey protein has
+no detectable sparing effect on LM and, consequently,
+the group receiving whey protein lost the same amount
+of LM as the group receiving only sucrose. It remains
+to be determined whether better preservation of LM
+could be achieved with a higher intake or other types of
+proteins (Agus et al., 2000; Carbone et al., 2012). We
+cannot rule out the possibility that protein ingestion
+might exert positive effects during a longer intervention
+or with a more moderate energy deficit (Pasiakos et al.,
+2013).
+Other factors may have prevented the stimulation of
+protein synthesis and/or attenuation of protein breakdown expected with our protein diet. For example,
+because the amount of energy ingested was so much
+
+less than EE, in the absence of dietary carbohydrate
+and the presence of considerable catabolic stress most
+of this protein may have undergone oxidation or ketogenesis to maintain hepatic gluconeogenesis (Cahill,
+2006).
+
+Limitations
+The present proof-of-concept study does not propose
+an alternative treatment for obesity. Although most of
+the subjects tolerated the intervention relatively well,
+all complained of muscle and joint pain, individuals
+who are less strongly motivated would probably not
+tolerate this type of intervention. The observation that
+body weight remained significantly reduced 1 year later
+could reflect a change in lifestyle, which was not
+assessed here. Although the analysis of EB was based
+on changes in body composition evaluated with DXA,
+this agreed relatively well with the energy deficit calculated from the daily EE. Finally, although we aimed
+at matching energy intake with EE during phase III, the
+subjects lost fat mass during this period, indicating a
+negative EB. The latter might have been caused by
+underreporting of food intake when measured during
+phase I.
+In conclusion, we have demonstrated that a clinically
+relevant reduction in fat mass, mostly from the trunk, can
+be achieved in overweight men by 4 days of extensive
+exercise in combination with severe CR. This effect is at
+least as large and sustainable as those obtained employing other regimens designed to reduce body weight. Our
+results also indicate that when the energy deficit is very
+high, ingestion of the recommended dietary requirements for protein (0.8 g/kg body weight per day) does
+not prevent loss of body protein any more effectively
+than the same amount of energy provided in the form of
+sucrose.
+
+Perspectives
+Prolonged walking for several hours on consecutive days
+in combination with a very low-calorie diet can reduce
+fat mass in overweight adults by 0.5 kg/day. The main
+advantage of this approach is that fat is lost primarily
+from the trunk and in a relatively short time. This intervention is accompanied by improvements in the blood
+lipid profile and a rapid and sustained reduction in the
+serum level of leptin, indicating attenuated leptin resistance that may help to maintain body weight. The LM
+also lost accounts for only less than 15% of the entire
+loss in mass. For these reasons, it would be worthwhile
+to determine whether this weight loss program could be
+repeated periodically to achieve greater reduction in fat
+mass during a much shorter period of time than with
+other programs.
+
+231
+
+Calbet et al.
+Key words: Obesity, hypocaloric diet, whey protein,
+sucrose, walking.
+
+Acknowledgements
+This study was supported financially by grants from the Ministerio
+de Educación y Ciencia (DEP2010-21866, and FEDER), Proyecto
+Estructurante de la ULPGC: ULPAPD-08/01-4, and Östersund
+municipality. We offer special thanks to José Navarro de Tuero for
+his excellent technical assistance.
+
+Authors contributions
+The authors’ contributions were as follows: J. G. P.-G.,
+H.-C. H., and J. A. L. C. designed and conducted
+this research, analyzed the data, and wrote the manuscript; H.-C. H. and J. A. L. C. had primary responsibility for the final version; J. D. C. H. and I. P.-S.
+analyzed the data. All authors read and approved the
+final manuscript.
+
+References
+Agus MS, Swain JF, Larson CL, Eckert
+EA, Ludwig DS. Dietary composition
+and physiologic adaptations to energy
+restriction. Am J Clin Nutr 2000: 71:
+901–907.
+Anderson JW, Konz EC, Frederich RC,
+Wood CL. Long-term weight-loss
+maintenance: a meta-analysis of US
+studies. Am J Clin Nutr 2001: 74:
+579–584.
+Bahr R, Sejersted OM. Effect of feeding
+and fasting on excess postexercise
+oxygen consumption. J Appl Physiol
+1991: 71: 2088–2093.
+Breen L, Philp A, Witard OC, Jackman
+SR, Selby A, Smith K, Baar K, Tipton
+KD. The influence of
+carbohydrate-protein co-ingestion
+following endurance exercise on
+myofibrillar and mitochondrial protein
+synthesis. J Physiol 2011: 589:
+4011–4025.
+Brochu M, Tchernof A, Turner AN, Ades
+PA, Poehlman ET. Is there a threshold
+of visceral fat loss that improves the
+metabolic profile in obese
+postmenopausal women? Metabolism
+2003: 52: 599–604.
+Cahill GF Jr. Fuel metabolism in
+starvation. Annu Rev Nutr 2006: 26:
+1–22.
+Calbet JA, Dorado C, Diaz-Herrera P,
+Rodriguez-Rodriguez LP. High femoral
+bone mineral content and density in
+male football (soccer) players. Med Sci
+Sports Exerc 2001: 33: 1682–1687.
+Carbone JW, McClung JP, Pasiakos SM.
+Skeletal muscle responses to negative
+energy balance: effects of dietary
+protein. Adv Nutr 2012: 3: 119–126.
+Carlson LA, Fröberg SO. Blood lipid and
+glucose levels during a ten-day period
+of low-calorie intake and exercise in
+man. Metabolism 1967: 16:
+624–634.
+Cartier A, Lemieux I, Almeras N,
+Tremblay A, Bergeron J, Despres JP.
+Visceral obesity and plasma
+glucose-insulin homeostasis:
+contributions of interleukin-6 and
+tumor necrosis factor-alpha in men. J
+Clin Endocrinol Metab 2008: 93:
+1931–1938.
+
+232
+
+Chaston TB, Dixon JB. Factors associated
+with percent change in visceral versus
+subcutaneous abdominal fat during
+weight loss: findings from a systematic
+review. Int J Obes (Lond) 2008: 32:
+619–628.
+Craig CL, Marshall AL, Sjöström M,
+Bauman AE, Booth ML, Ainsworth
+BE, Pratt M, Ekelund U, Yngve A,
+Sallis JF, Oja P. International physical
+activity questionnaire: 12-country
+reliability and validity. Med Sci Sports
+Exerc 2003: 35: 1381–1395.
+Despres JP, Lemieux I, Prud’homme D.
+Treatment of obesity: need to focus on
+high risk abdominally obese patients.
+BMJ 2001: 322: 716–720.
+Djurhuus CB, Gravholt CH, Nielsen S,
+Pedersen SB, Moller N, Schmitz O.
+Additive effects of cortisol and growth
+hormone on regional and systemic
+lipolysis in humans. Am J Physiol
+Endocrinol Metab 2004: 286:
+E488–E494.
+Doyon CY, Brochu M, Messier V, Lavoie
+ME, Faraj M, Doucet E, Rabasa-Lhoret
+R, Dionne IJ. Association between
+abdominal fat (DXA) and its
+subcomponents (CT scan) before and
+after weight loss in obese
+postmenopausal women: a MONET
+study. J Obes 2011: 2011: 239516.
+Drapeau V, Therrien F, Richard D,
+Tremblay A. Is visceral obesity a
+physiological adaptation to stress?
+Panminerva Med 2003: 45:
+189–195.
+Elia M, Stratton R, Stubbs J. Techniques
+for the study of energy balance in man.
+Proc Nutr Soc 2003: 62: 529–537.
+Fair AM, Montgomery K. Energy
+balance, physical activity, and cancer
+risk. Methods Mol Biol 2009: 472:
+57–88.
+Farnsworth E, Luscombe ND, Noakes M,
+Wittert G, Argyiou E, Clifton PM.
+Effect of a high-protein,
+energy-restricted diet on body
+composition, glycemic control, and
+lipid concentrations in overweight and
+obese hyperinsulinemic men and
+women. Am J Clin Nutr 2003: 78:
+31–39.
+
+Frayn KN. Calculation of substrate
+oxidation rates in vivo from gaseous
+exchange. J Appl Physiol 1983: 55:
+628–634.
+Friedewald WT, Levy RI, Fredrickson
+DS. Estimation of the concentration of
+low-density lipoprotein cholesterol in
+plasma, without use of the preparative
+ultracentrifuge. Clin Chem 1972: 18:
+499–502.
+Garrow JS, Summerbell CD.
+Meta-analysis: effect of exercise, with
+or without dieting, on the body
+composition of overweight subjects.
+Eur J Clin Nutr 1995: 49: 1–10.
+Gibson AL, Holmes JC, Desautels RL,
+Edmonds LB, Nuudi L. Ability of new
+octapolar bioimpedance spectroscopy
+analyzers to predict
+4-component-model percentage body
+fat in Hispanic, black, and white adults.
+Am J Clin Nutr 2008: 87: 332–338.
+Givoni B, Goldman RF. Predicting
+metabolic energy cost. J Appl Physiol
+1971: 30: 429–433.
+Gravholt CH, Dall R, Christiansen JS,
+Moller N, Schmitz O. Preferential
+stimulation of abdominal subcutaneous
+lipolysis after prednisolone exposure in
+humans. Obes Res 2002: 10:
+774–781.
+Guerra B, Ponce-González JG,
+Morales-Alamo D, Guadalupe-Grau A,
+Kiilerich K, Fuentes T, Ringholm S,
+Biensø RS, Santana A, Lundby C,
+Pilegaard H, Calbet JA. Leptin
+signaling in skeletal muscle after bed
+rest in healthy humans. Eur J Appl
+Physiol 2014: 114: 345–357.
+Kerr SM, Livingstone MB, McCrorie TA,
+Wallace JM. Endothelial dysfunction
+associated with obesity and the effect
+of weight loss interventions. Proc Nutr
+Soc 2011: 70: 418–425.
+Kraschnewski JL, Boan J, Esposito J,
+Sherwood NE, Lehman EB, Kephart
+DK, Sciamanna CN. Long-term weight
+loss maintenance in the United States.
+Int J Obes (Lond) 2010: 34:
+1644–1654.
+Krieger JW, Sitren HS, Daniels MJ,
+Langkamp-Henken B. Effects of
+variation in protein and carbohydrate
+
+Fast and efficient reduction of fat mass
+intake on body mass and composition
+during energy restriction: a
+meta-regression. Am J Clin Nutr 2006:
+83: 260–274.
+Marniemi J, Vuori I, Kinnunen V, Rahkila
+P, Vainikka M, Peltonen P. Metabolic
+changes induced by combined
+prolonged exercise and low-calorie
+intake in man. Eur J Appl Physiol
+Occup Physiol 1984: 53:
+121–127.
+Matthews DR, Hosker JP, Rudenski AS,
+Naylor BA, Treacher DF, Turner RC.
+Homeostasis model assessment: insulin
+resistance and beta-cell function from
+fasting plasma glucose and insulin
+concentrations in man. Diabetologia
+1985: 28: 412–419.
+McMurray RG, Hackney AC. Interactions
+of metabolic hormones, adipose tissue
+and exercise. Sports Med 2005: 35:
+393–412.
+Miller WC, Koceja DM, Hamilton EJ. A
+meta-analysis of the past 25 years of
+weight loss research using diet,
+exercise or diet plus exercise
+intervention. Int J Obes Relat Metab
+Disord 1997: 21: 941–947.
+Nieves DJ, Cnop M, Retzlaff B, Walden
+CE, Brunzell JD, Knopp RH, Kahn SE.
+The atherogenic lipoprotein profile
+associated with obesity and insulin
+resistance is largely attributable to
+intra-abdominal fat. Diabetes 2003: 52:
+172–179.
+Pandolf KB, Givoni B, Goldman RF.
+Predicting energy expenditure with
+loads while standing or walking very
+slowly. J Appl Physiol 1977: 43:
+577–581.
+Pasiakos SM, Cao JJ, Margolis LM,
+Sauter ER, Whigham LD, McClung JP,
+Rood JC, Carbone JW, Combs GF Jr,
+Young AJ. Effects of high-protein diets
+on fat-free mass and muscle protein
+synthesis following weight loss: a
+randomized controlled trial. FASEB J
+2013: 27: 3837–3847.
+Pennings B, Boirie Y, Senden JM, Gijsen
+AP, Kuipers H, van Loon LJ. Whey
+
+protein stimulates postprandial muscle
+protein accretion more effectively than
+do casein and casein hydrolysate in
+older men. Am J Clin Nutr 2011: 93:
+997–1005.
+Perez-Gomez J, Rodriguez GV, Ara I,
+Olmedillas H, Chavarren J,
+Gonzalez-Henriquez JJ, Dorado C,
+Calbet JA. Role of muscle mass on
+sprint performance: gender differences?
+Eur J Appl Physiol 2008: 102:
+685–694.
+Phillips SM. The science of muscle
+hypertrophy: making dietary protein
+count. Proc Nutr Soc 2011: 70:
+100–103.
+Pou KM, Massaro JM, Hoffmann U,
+Vasan RS, Maurovich-Horvat P, Larson
+MG, Keaney JF Jr, Meigs JB, Lipinska
+I, Kathiresan S, Murabito JM,
+O’Donnell CJ, Benjamin EJ, Fox CS.
+Visceral and subcutaneous adipose
+tissue volumes are cross-sectionally
+related to markers of inflammation and
+oxidative stress: the Framingham Heart
+Study. Circulation 2007: 116:
+1234–1241.
+Ross R, Dagnone D, Jones PJ, Smith H,
+Paddags A, Hudson R, Janssen I.
+Reduction in obesity and related
+comorbid conditions after diet-induced
+weight loss or exercise-induced weight
+loss in men. A randomized, controlled
+trial. Ann Intern Med 2000: 133:
+92–103.
+Serrano-Sanchez JA, Delgado-Guerra S,
+Olmedillas H, Guadalupe-Grau A,
+Arteaga-Ortiz R, Sanchis-Moysi J,
+Dorado C, Calbet JA. Adiposity and
+age explain most of the association
+between physical activity and fitness in
+physically active men. PLoS ONE
+2010: 5: e13435.
+Shaw K, Gennat H, O’Rourke P, Del Mar
+C. Exercise for overweight or obesity.
+Cochrane Database Syst Rev 2009: (4):
+CD003817.
+Shpilberg O, Burstein R, Epstein Y,
+Suessholz A, Getter R, Rubinstein A.
+
+Lipid profile in trained subjects
+undergoing complete food deprivation
+combined with prolonged intermittent
+exercise. Eur J Appl Physiol Occup
+Physiol 1990: 60: 305–308.
+Takata Y, Ansai T, Soh I, Akifusa S,
+Sonoki K, Fujisawa K, Awano S,
+Kagiyama S, Hamasaki T, Nakamichi I,
+Yoshida A, Takehara T. Association
+between body mass index and mortality
+in an 80-year-old population. J Am
+Geriatr Soc 2007: 55:
+913–917.
+Tang JE, Moore DR, Kujbida GW,
+Tarnopolsky MA, Phillips SM.
+Ingestion of whey hydrolysate, casein,
+or soy protein isolate: effects on mixed
+muscle protein synthesis at rest and
+following resistance exercise in young
+men. J Appl Physiol 2009: 107:
+987–992.
+Vilsboll T, Christensen M, Junker AE,
+Knop FK, Gluud LL. Effects of
+glucagon-like peptide-1 receptor
+agonists on weight loss: systematic
+review and meta-analyses of
+randomised controlled trials. BMJ
+2012: 344: d7771.
+Westerterp KR. Physical activity and
+physical activity induced energy
+expenditure in humans: measurement,
+determinants, and effects. Front Physiol
+2013: 4: 90.
+Willis LH, Slentz CA, Bateman LA,
+Shields AT, Piner LW, Bales CW,
+Houmard JA, Kraus WE. Effects of
+aerobic and/or resistance training on
+body mass and fat mass in overweight
+or obese adults. J Appl Physiol 2012:
+113: 1831–1837.
+World Health Organization (WHO). Fact
+sheet 311. Geneva: WHO, 2011.
+Yang Y, Breen L, Burd NA, Hector AJ,
+Churchward-Venne TA, Josse AR,
+Tarnopolsky MA, Phillips SM.
+Resistance exercise enhances
+myofibrillar protein synthesis with
+graded intakes of whey protein in older
+men. Br J Nutr 2012: 108: 1780–1788.
+
+233
+
+
