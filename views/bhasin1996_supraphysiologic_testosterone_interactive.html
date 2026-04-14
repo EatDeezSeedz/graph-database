@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bhasin et al. (1996) - supraphysiologic testosterone and exercise</title>
+    <style>
+      :root{
+        --bg:#07111d;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#9fb3cb;
+        --amber:#f59e0b;
+        --blue:#60a5fa;
+        --green:#34d399;
+        --rose:#fb7185;
+        --violet:#a78bfa;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(860px 520px at 10% 0%, rgba(245,158,11,.16), transparent 52%),
+          radial-gradient(980px 620px at 100% 0%, rgba(96,165,250,.12), transparent 48%),
+          linear-gradient(180deg,#06101b,#091421 54%,#08111b);
+      }
+      .wrap{max-width:1280px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--amber);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 10px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 8px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:920px){.meta,.grid{grid-template-columns:1fr}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">AAS</div>
+        <h1>Bhasin et al. (1996) supraphysiologic testosterone and exercise</h1>
+        <p class="lede">This NEJM study is the classic four-group testosterone-by-training experiment. Ten weeks of 600 mg/week testosterone increased fat-free mass, muscle size, and strength even without training, but the largest gains came when testosterone was combined with structured resistance exercise.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Design</div><div class="v">2x2 factorial</div></div>
+          <div class="pill"><div class="k">Dose</div><div class="v">600 mg/week</div></div>
+          <div class="pill"><div class="k">Duration</div><div class="v">10 weeks</div></div>
+          <div class="pill"><div class="k">Main pattern</div><div class="v">Testosterone plus training was highest</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Fat-Free Mass</h2>
+          <p class="sub">Change from baseline after 10 weeks. Testosterone alone outperformed placebo, and testosterone plus exercise produced the largest gain.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--amber)"></i>Change in fat-free mass (kg)</span>
+          </div>
+          <svg id="ffmChart" viewBox="0 0 620 320" aria-label="Fat free mass"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Muscle Size</h2>
+          <p class="sub">Changes in triceps and quadriceps cross-sectional area showed the same additive pattern, with the combined group clearly on top.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Triceps area change (mm2)</span>
+            <span><i class="sw" style="background:var(--green)"></i>Quadriceps area change (mm2)</span>
+          </div>
+          <svg id="sizeChart" viewBox="0 0 620 320" aria-label="Muscle size"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Strength</h2>
+          <p class="sub">Bench press and squat improved with testosterone alone and exercise alone, but the combination drove the largest strength gains.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--rose)"></i>Bench press change (kg)</span>
+            <span><i class="sw" style="background:var(--violet)"></i>Squat change (kg)</span>
+          </div>
+          <svg id="strengthChart" viewBox="0 0 620 320" aria-label="Strength"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Nadir Testosterone</h2>
+          <p class="sub">Week-10 hormone values confirm the treatment separation: both testosterone groups reached supraphysiologic concentrations while placebo groups stayed near baseline.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--amber)"></i>Total testosterone at week 10 (ng/dL)</span>
+            <span><i class="sw" style="background:var(--blue)"></i>Free testosterone at week 10 (pg/mL)</span>
+          </div>
+          <svg id="hormoneChart" viewBox="0 0 620 320" aria-label="Hormones"></svg>
+        </article>
+      </section>
+
+      <p class="foot">Data source: Bhasin et al., <em>N Engl J Med</em> 1996;335:1-7. Plotted from Tables 3 and 4 using the exact mean values for placebo with no exercise, testosterone with no exercise, placebo plus exercise, and testosterone plus exercise.</p>
+    </div>
+
+    <script>
+      const groups = ['Placebo\nNo ex','Testosterone\nNo ex','Placebo\nExercise','Testosterone\nExercise'];
+      const ffm = [0.8, 3.2, 1.9, 6.1];
+      const triceps = [-82, 424, 57, 501];
+      const quads = [-131, 607, 534, 1174];
+      const bench = [0, 9, 10, 22];
+      const squat = [3, 13, 25, 38];
+      const totalT = [453, 2828, 667, 3244];
+      const freeT = [74, 497, 81, 572];
+
+      function groupedBarChart(svgId, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 68, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const values = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...values);
+        const max = opts.max ?? Math.max(...values);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        const groupW = w / groups.length;
+        const barW = Math.min(38, groupW / (series.length + 0.8));
+        let html = '';
+        for (let i = 0; i <= 5; i++) {
+          const v = yMin + i * (yMax - yMin) / 5;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb3cb">${formatTick(v, opts.decimals)}</text>`;
+        }
+        if (yMin < 0 && yMax > 0) html += `<line x1="${m.l}" y1="${y(0)}" x2="${W-m.r}" y2="${y(0)}" stroke="rgba(255,255,255,.2)" />`;
+        groups.forEach((g, i) => {
+          const gx = m.l + i * groupW + groupW / 2;
+          html += `<text x="${gx}" y="${H-28}" text-anchor="middle" font-size="11" fill="#9fb3cb">${g.split('\n')[0]}</text>`;
+          html += `<text x="${gx}" y="${H-14}" text-anchor="middle" font-size="11" fill="#9fb3cb">${g.split('\n')[1]}</text>`;
+        });
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb3cb">${opts.yLabel}</text>`;
+        series.forEach((s, si) => {
+          s.values.forEach((v, i) => {
+            const x = m.l + i * groupW + (groupW - series.length * barW) / 2 + si * barW;
+            const y0 = y(0), yv = y(v);
+            const top = Math.min(y0, yv), bh = Math.abs(y0 - yv);
+            html += `<rect x="${x}" y="${top}" width="${barW-4}" height="${Math.max(1,bh)}" rx="5" fill="${s.color}" />`;
+            html += `<text x="${x + (barW-4)/2}" y="${top - 8}" text-anchor="middle" font-size="11" fill="${s.color}">${formatPoint(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+
+      function formatTick(v, decimals) {
+        const d = decimals ?? (Math.abs(v) < 10 ? 1 : 0);
+        return Number(v).toFixed(d).replace(/\.0$/, '');
+      }
+      function formatPoint(v, decimals) {
+        const d = decimals ?? (Math.abs(v) < 10 ? 1 : 0);
+        return Number(v).toFixed(d).replace(/\.0$/, '');
+      }
+
+      groupedBarChart('ffmChart', [
+        { color: '#f59e0b', values: ffm }
+      ], { zero: true, decimals: 1, yLabel: 'Change from baseline (kg)' });
+
+      groupedBarChart('sizeChart', [
+        { color: '#60a5fa', values: triceps },
+        { color: '#34d399', values: quads }
+      ], { zero: true, decimals: 0, yLabel: 'Change from baseline (mm2)' });
+
+      groupedBarChart('strengthChart', [
+        { color: '#fb7185', values: bench },
+        { color: '#a78bfa', values: squat }
+      ], { zero: true, decimals: 0, yLabel: 'Change from baseline (kg)' });
+
+      groupedBarChart('hormoneChart', [
+        { color: '#f59e0b', values: totalT },
+        { color: '#60a5fa', values: freeT }
+      ], { zero: true, decimals: 0, yLabel: 'Week-10 hormone values' });
+    </script>
+  </body>
+</html>

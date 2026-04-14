@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Watanabe et al. (2014) - Rectus femoris regional activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:260px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(260px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(58dvh,calc(100dvh - 210px));min-height:300px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:340px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh)}.stage{order:1;min-height:clamp(260px,48dvh,420px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Watanabe et al. (2014) - Rectus femoris regional activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle joint settings</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const CHANNELS=Array.from({length:18},(_,i)=>i+1);
+      const SERIES_META={
+        h90k90:{label:'H90-K90',color:'#60a5fa',note:'Baseline condition with both hip and knee at 90 degrees.'},
+        h130k90:{label:'H130-K90',color:'#22c55e',note:'More extended hip with knee fixed at 90 degrees.'},
+        h170k90:{label:'H170-K90',color:'#f97316',note:'Most extended hip with knee fixed at 90 degrees.'},
+        h90k130:{label:'H90-K130',color:'#a78bfa',note:'More extended knee with hip fixed at 90 degrees.'},
+        h90k170:{label:'H90-K170',color:'#f43f5e',note:'Most extended knee with hip fixed at 90 degrees.'}
+      };
+      const KE={
+        h90k170:[0.101,0.099,0.126,0.124,0.141,0.155,0.120,0.109,0.099,0.107,0.104,0.106,0.101,0.099,0.121,0.149,0.141,0.111],
+        h90k130:[0.101,0.100,0.107,0.135,0.149,0.151,0.113,0.106,0.103,0.115,0.108,0.106,0.101,0.094,0.117,0.159,0.165,0.139],
+        h90k90:[0.093,0.093,0.101,0.150,0.154,0.161,0.127,0.120,0.121,0.136,0.126,0.121,0.110,0.109,0.117,0.187,0.207,0.195],
+        h130k90:[0.090,0.099,0.107,0.155,0.160,0.161,0.124,0.124,0.118,0.134,0.124,0.118,0.108,0.110,0.119,0.178,0.192,0.177],
+        h170k90:[0.104,0.114,0.124,0.159,0.154,0.153,0.123,0.116,0.118,0.136,0.121,0.114,0.109,0.104,0.115,0.170,0.181,0.167]
+      };
+      const HF={
+        h90k170:[0.067,0.077,0.081,0.069,0.070,0.072,0.053,0.049,0.041,0.046,0.037,0.038,0.037,0.033,0.037,0.046,0.050,0.041],
+        h90k130:[0.086,0.096,0.102,0.093,0.100,0.106,0.079,0.071,0.066,0.068,0.058,0.060,0.051,0.048,0.051,0.064,0.069,0.061],
+        h90k90:[0.103,0.122,0.128,0.113,0.118,0.124,0.106,0.091,0.093,0.090,0.082,0.079,0.066,0.060,0.063,0.084,0.093,0.086],
+        h130k90:[0.108,0.123,0.138,0.122,0.117,0.114,0.095,0.082,0.085,0.096,0.077,0.072,0.055,0.053,0.056,0.079,0.084,0.076],
+        h170k90:[0.109,0.131,0.145,0.120,0.115,0.111,0.104,0.093,0.082,0.086,0.074,0.071,0.054,0.053,0.061,0.073,0.078,0.069]
+      };
+      const RATIO=Object.fromEntries(Object.keys(HF).map(k=>[k,HF[k].map((v,i)=>v/KE[k][i])]));
+      const MODES={
+        hipflex:{
+          label:'Hip flexion RMS',
+          subtitle:'Exact Table 3 multichannel rectus femoris RMS during hip flexion MVC at the five hip-knee joint combinations.',
+          hint:'This is the clearest hip-flexor view from the paper. Proximal channels stay relatively stronger than distal channels, and proximal hip-flexion RMS is preserved or raised with the hip extended and knee flexed.',
+          overlay:'Lines = exact RMS during hip flexion MVC',
+          yLabel:'RMS during hip flexion MVC'
+        },
+        ratio:{
+          label:'Hip flexion / knee extension',
+          subtitle:'Derived channel-by-channel hip-flexion-to-knee-extension RMS ratio from the exact Table 2 and Table 3 values.',
+          hint:'This ratio makes the task-specific regional behavior easy to see: proximal rectus femoris is much more hip-flexion biased than distal rectus femoris, especially with the hip extended.',
+          overlay:'Lines = derived HF/KE ratio by channel',
+          yLabel:'HF / KE RMS ratio'
+        },
+        kneeext:{
+          label:'Knee extension RMS',
+          subtitle:'Exact Table 2 multichannel rectus femoris RMS during knee extension MVC at the five hip-knee joint combinations.',
+          hint:'This comparison shows the opposite side of the study: with knee extension, hip extension raises proximal activity but distal channels drop relative to the H90-K90 condition.',
+          overlay:'Lines = exact RMS during knee extension MVC',
+          yLabel:'RMS during knee extension MVC'
+        }
+      };
+      const DATA={hipflex:HF, ratio:RATIO, kneeext:KE};
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode='hipflex',visible={h90k90:true,h130k90:true,h170k90:true,h90k130:true,h90k170:true},screenSeries=[];
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function activeKeys(){ return Object.keys(visible).filter(k=>visible[k]); }
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=MODES[mode].subtitle; hint.textContent=MODES[mode].hint; overlay.textContent=MODES[mode].overlay; renderLegend(); resize(); }
+      function fit(){ draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function xToPx(v,plot){ return plot.x+((v-1)/(18-1))*plot.w; }
+      function yToPx(v,plot,maxY){ return plot.y+plot.h-(v/maxY)*plot.h; }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:84,y:24,w:Math.max(140,w-116),h:Math.max(140,h-96)};
+        const values=DATA[mode], keys=activeKeys(), maxY=mode==='ratio'?1.6:0.24;
+        screenSeries=[];
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        const step=mode==='ratio'?0.2:0.04;
+        for(let y=0;y<=maxY+0.0001;y+=step){ const py=yToPx(y,plot,maxY); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(mode==='ratio'?y.toFixed(1):y.toFixed(2),plot.x-10,py); }
+        CHANNELS.forEach(x=>{ const px=xToPx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.strokeStyle='rgba(255,255,255,.05)'; ctx.stroke(); if(x<18){ ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(`${x}`,px,plot.y+plot.h+8); } });
+        keys.forEach(k=>{
+          const meta=SERIES_META[k];
+          const pts=CHANNELS.map((x,i)=>({x,y:values[k][i],px:xToPx(x,plot),py:yToPx(values[k][i],plot,maxY)}));
+          screenSeries.push({key:k,pts,meta});
+          ctx.save(); ctx.strokeStyle=meta.color; ctx.lineWidth=3.5; ctx.lineJoin='round'; ctx.lineCap='round'; ctx.beginPath(); ctx.moveTo(pts[0].px,pts[0].py); for(let i=1;i<pts.length;i++) ctx.lineTo(pts[i].px,pts[i].py); ctx.stroke();
+          ctx.fillStyle=meta.color; pts.forEach(p=>{ ctx.beginPath(); ctx.arc(p.px,p.py,3.5,0,Math.PI*2); ctx.fill(); }); ctx.restore();
+        });
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore();
+        ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.fillText('Rectus femoris channel (1 = proximal, 18 = distal)',plot.x+plot.w/2,plot.y+plot.h+34);
+        status.textContent=`${keys.length} joint settings shown`;
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        Object.entries(SERIES_META).forEach(([k,meta])=>{
+          const row=document.createElement('div'); row.className='check'+(visible[k]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[k]?'checked':''} /><span class="swatch" style="background:${meta.color}"></span><label>${meta.label}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[k]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[k]=box.checked; draw(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(),x=ev.clientX-rect.left,y=ev.clientY-rect.top;
+        let best=null;
+        screenSeries.forEach(s=>s.pts.forEach(p=>{ const d=Math.hypot(x-p.px,y-p.py); if(!best||d<best.d) best={d,p,s}; }));
+        if(!best||best.d>14){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${best.s.meta.label}</strong></div><div class="muted">Channel ${best.p.x}</div><div><strong>${best.p.y.toFixed(mode==='ratio'?2:3)}</strong></div><div>${best.s.meta.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,422 @@
+Scand J M e d Sci Sports 1995: 5: 10-16                                                          C o p y r i g h t 0 MunksRaard 1995
+Printed in Denmark . AN rights reserved                                                             Scandinavian Journal of
+                                                                                                   M E D I C I N E & SCIENCE
+                                                                                                           I N SPORTS
+                                                                                                          ISSN 0905-7188
+
+
+
+
+The role of the psoas and iliacus muscles for
+stability and movement of the lumbar spine,
+pelvis and hip
+ Anderson E, Oddsson L, Grundstrom H, Thorstensson A. The role of                  E. Anderson’, 1. Oddsson’,
+ the psoas and iliacus muscles for stability and movement of the lumbar            H. Grundstrom*, A. Thorstensson’
+ spine, pelvis and hip.                                                            ‘Department of Neuroscience, Karolinska
+ Scand J Med Sci Sports 1995: 5: 10-16. 0 Munksgaard, 1995                         Institute and Department of Sport and Health
+                                                                                   Science, University College of Physical Education
+ The activation patterns of the psoas and iliacus muscles were investigated        and Sports, Stockholm, 2Department of
+ in 7 healthy adult subjects (4 men and 3 women) during a variety of               Radiology, Danderyd Hospital, Sweden
+ motor tasks in standing, sitting and lying. Myoelectric activity was re-
+ corded simultaneously from the 2 muscles using thin wire electrodes in-
+ serted under guidance of high-resolution ultrasound. In general, both
+ muscles were coactivated, albeit to different relative levels, particularly
+ when hip flexor torque was required. Selective activation of the iliacus
+ could, however, be seen to stabilize the pelvis in contralateral hip extension
+ during standing. Psoas was found to be selectively involved in sitting with
+ a straight back and in contralateral loading situations requiring stabil-         Key words: iliopsoas; erector spinae;
+                                                                                   intramuscular electromyography; motor control;
+ ization of the spine in the frontal plane. During training exercises from a
+                                                                                   muscle coordination; posture; sit-up
+ supine position, such as sit-ups, the contribution of the psoas and iliacus
+ muscles could be varied by changing the range of motion as well as the            Eva Anderson, Department of Sport and Health
+ position and support for the legs. Thus, the 2 anatomically different             Science, University College of Physical Education
+ muscles of the iliopsoas complex were shown to have individual and task-          and Sports, Box 5626, 5-114 86 Stockholm,
+ specific activation patterns depending on the particular demands for              Sweden
+ stability and movement at the lumbar spine, pelvis and hip.                       Accepted for publication July 12, 1994
+
+
+
+
+The iliopsoas is the only muscle that has the anatom-         on single or very few subjects (2, 5 , 9, 15), and no
+ical prerequisites to simultaneously and directly con-        attempts were made to quantify the data (2, 4-6, 8,
+tribute to stability and movement of the trunk, pelvis        11, 14, 15). Using surface electrodes to record selec-
+and leg. The muscle has a complex geometry with 2             tively from the iliacus muscle is difficult and it is vir-
+major portions, psoas and iliacus, originating from           tually impossible from the psoas ( 6 , 7, 10). Problems
+the lumbar spine and the iliac bone, respectively, and        also adhere to the use of intramuscular electrodes.
+with a common insertion on the trochanter minor on            Wires are to be preferred (3, 4, 8, 9, 14, 16, 17), since
+the femur. The 2 muscles have separate innervations           needles ‘limit the moveability and can cause dis-
+(1), which makes selective involvement of each muscle         comfort (2, 5, 11-13, 15). Verification of the correct
+possible. The functions of, and interactions between,         placement of the electrodes has been lacking in most
+the 2 muscle portions are of interest not least in re-        earlier studies. Attempts have been made using roent-
+habilitation and sports contexts, but are largely un-         genograms (11, 15) which, however, give a limited
+known mainly due to the relative inaccessibility of the       visualization of the muscles. In our laboratory we
+2 muscles for electromyographic (EMG) recordings              have successfully used the clinically well established
+(24.                                                          method of high-resolution ultrasound to guide the in-
+   EMG measurements from either psoas or iliacus              sertion of intramuscular wire electrodes into the il-
+have been reported in several investigations (2-17). In       iacus (18) and simultaneously into the psoas and il-
+no case has the activation pattern of both iliacus and        iacus (19) as well as the different layers of the ab-
+vertebral psoas been recorded simultaneously, which           dominal muscles (20).
+is necessary to study their interaction (see, however,           The purpose of this study was to record myoelec-
+14). In some studies the observations were made only          tric activity simultaneously from the psoas and iliacus
+
+10
+                                                                                          Psoas and iliacus function
+muscles to establish their actual involvement and in-
+teraction in a variety of common motor tasks for the          Movement recordings
+trunk, pelvis and hip. Of particular interest was to          Electrogoniometers were placed bilaterally at troch-
+test the possibilities of provoking a selective acti-         antor major to record movements at the hip joint.
+vation of either of the 2 muscles.                            The angles in the static tests were set by a manual
+                                                              goniometer.
+
+Material and methods                                          Electromyography
+Subjects
+                                                              The EMG recordings were made unilaterally on the
+Seven healthy habitually active subjects participated,        right side, except for one subject, who was studied
+4 men with an average age, body mass and height               bilaterally. Bipolar fine-wire electrodes, made of
+(2SD) of 32 (23) years, 85 (22) kg and 1.89 (20.05)           stainless steel with a diameter of 0.22 mm and Teflon-
+m and 3 women, 28 (24) years, 64 (2 3 ) kg and 1.73           insulated except for 3 mm at each tip, were inserted
+(? 0.05) m, respectively. The experimental procedures         via a needle after hypodermic local anesthesia. Before
+were approved by the Ethics Committee of the Karol-           and after all experiments the length of the free ends
+inska Institute.                                              of the wires outside the skin were controlled and
+                                                              found to be unchanged. During insertion into the
+                                                              psoas muscle, high-resolution ultrasound was used
+                                                              for all subjects to facilitate guidance of the electrodes
+Protocol                                                      to the required area and provide assurance of place-
+Various tasks were performed standing, sitting and            ment.
+lying, including specific exercises for the trunk, pelvis        The insertion into psoas was made at the L3-L4
+and leg in different positions and at various move-           level, using a 0 . 9 X 150 mm needle, directly obliquely
+ment velocities.                                              from lateral to medial, starting 5-8 cm lateral to the
+   In standing, the following static positions were           spinal processes, to a depth from the skin of between
+tested: standing at ease on both legs, with the whole         8.5 to 12.5 cm (Fig. 1). The insertions into the psoas
+upper body flexed 30" at the hip or the trunk flexed          were performed without complications in all but one
+maximally to either side, standing on one leg (ipsi- or       subject for whom the testing had to be prematurely
+contralateral) on a box with the other leg hanging            finished due to a decrease of skin sensation for pain
+freely, flexed 30", 60" and 90" at the hip (straight leg      and pressure around the anterior and superior part
+or 90" flexed at the knee), extended 30" and maxim-           of the thigh. Wires into iliacus were inserted with a
+ally, or maximally abducted. Erect standing was also          0.7X50 mm needle, at a point about 3 cm lateral to
+tested carrying loads of 34 and 20 kg, either in 2            the femoral artery, 1 cm medial to the sartorius
+hands in front or in 1 hand on either side of the body.       muscle and 1 cm inferior to the inguinal ligament, 3
+In addition, dynamic trunk flexions from side to side         crn deep from the skin surface (Fig. 1B). High-resol-
+were performed at a slow angular velocity.                    ution ultrasound was used to check electrode place-
+   Sitting was performed with different static trunk          ment in the iliacus only for one subject since this
+configurations: straight, relaxed kyphotic, a combi-          method has become routine after being preceded by
+nation of maximal hyperlordosis of the lumbar spine           extensive studies of the anatomy on cadavers and
+and a forward tilted pelvis, extended and flexed 30"          magnetic resonance imaging.
+at the hip, and maximally flexed laterally to the ipsi-          In some tasks EMG was recorded from the erector
+and contralateral side. Also dynamic lateral flexions         spinae (ES) muscle at the L3-L4 level, 3 cm lateral to
+were performed in sitting, either as fast flexions to the     the spinal processes, using surface electrodes
+ipsi- or contralateral side from an upright position or       (Beckman miniature silverisilver choride, pick-up di-
+as slow movements from side to side. In all tasks the         ameter 4 mm, with a fixed interelectrode distance of
+subjects were sitting on a stool with the arms placed         8 mm).
+relaxed on the upper legs.                                       All EMG signals were differentially pre-amplified
+   In lying different static and dynamic training exer-       (100 times) close to the site of the electrodes using
+cises were executed in a supine position: "sit-ups",          small customized amplifiers attached to the skin. Sig-
+i.e., elevating the trunk, either via a flexion at the hip    nals were then bandpass-filtered at 10-1000 Hz,
+or as a trunk "curl" with a pivot point approximately         further amplified (10-50 times) and collected together
+at the T12 level, and "legs lifts" at the hip joint, either   with the signals from the goniometers on magnetic
+bi- or unilaterally. Different static positions were          tape for subsequent analogue-to-digital conversion
+tested. In the dynamic tests the movements were               and computer analysis. The sampling frequency was
+guided by a metronome set to give an average angular          0.5 kHz. The average EMG amplitude was calculated
+velocity of 30"h in the lying exercises.                      for the static tasks from the rectified and filtered
+
+                                                                                                                    11
+Anderson et al.
+
+
+
+
+                                                                                   1 P P .I
+                                                                     Fig. 2. Activity patterns ("raw" EMG recordings) for the psoas
+                                                                     and iliacus muscles in one representative subject during a series
+                                                                     of static positions in standing (illustrated by stick figures).
+                                                                     Upper row of traces shows, from left to right, unilateral leg
+                                                                     exercises of the ipsi- (hip flexions from 0-90") and contralateral
+                                                                     leg (hip extensions, 30" and maximal). Lower row of traces
+                                                                     shows upright standing at ease, standing with the trunk flexed
+                                                                     30" without and with a weight of 34 kg held in both hands in
+                                                                     front of the body, and erect with the weight in the ipsi- (I) and
+                                                                     contralateral (C) hand, respectively.
+
+
+Fig. I . A. MRI cross-section ot the trunk at the umbilicus level.
+The direction of the needle used for insertion of wire-electrodes
+into the psoas muscle is shown. The third lumbar vertebral           Standing
+body (L3) and left psoas (P) are marked for orientation. B. A
+schematic drawing of the iliopsoas muscle with the approximate       Typical recordings are shown in Fig. 2 and relative
+positions of the intramuscular electrodes in the psoas and il-       EMG amplitudes in the static positions are given in
+iacus muscles, respectively.                                         Table 1. In one leg standing, the activity significantly
+                                                                     increased for both psoas and iliacus with each step of
+                                                                     increased hip flexion angle of the ipsilateral leg, from
+EMG signals during the first 2 s after a stable posi-                0% with the leg hanging freely to 99% at 90". Gener-
+tion had been reached. The average EMG amplitude                     ally, both muscles were inactive in ipsilateral leg ex-
+for each individual muscle was normalized to and ex-                 tension, and in flexion of the contralateral leg at all
+pressed as a percentage of the highest average EMG                   angles, whereas contralateral leg extension resulted in
+value for that muscle observed in any of the static                  selective recruitment of iliacus in all of the 7 subjects
+exercises for each subject. From the normalized                      (average activation level 2654% at maximal angle).
+values, the average EMG values (?standard error,                     Maximal abduction of the ipsilateral leg showed rela-
+SE) for all subjects were calculated for each muscle.                tively high activity levels, especially in iliacus
+                                                                     (56t12%) but also in psoas (36-+5%). With the
+                                                                     contralateral leg maximally abducted, on the other
+Statistics
+                                                                     hand, the activation of iliacus was absent or clearly
+Differences in activity between specific exercises for               lower (16?7%) and psoas was generally inactive.
+each muscle were tested for significance with one-way                Erector spinae was activated at a relatively high level
+analyses of variance (ANOVA) with nonoverlapping                     when the ipsilateral leg was maximally abducted
+95% confidence intervals.                                            (81?8%) or extended (68k 12%).
+                                                                        No postural activity was seen for either psoas or
+                                                                     iliacus in standing at ease or with the whole trunk
+Results
+                                                                     flexed 30" forward at the hip. Holding a load of 34 or
+There were no consistent differences in the investi-                 20 kg with two hands in front of the body in an up-
+gated variables between sexes. Therefore, mean values                right position or with the whole trunk flexed 30°, did
+are presented for the entire group.                                  not involve psoas and iliacus, nor did holding the
+
+12
+                                                                                                                 Psoas and iliacus function
+Table 1. Average values (and SE) for the relative EMG amplitude for the psoas (PS), iiiacus (IL) and erector spinae (ES) muscles for all the subjects
+(n=7) in different static standing positions of the trunk and the ipsi- (above) and contralateral leg (below) (see Fig. 2). The abbreviations are: st=
+standing at ease, trf=standing with the trunk flexed 30" at the hip, 0-9090f=one leg standing with the other leg hanging freely or flexed at the hip,
+30", 60" and 90°, either straight or flexed 90" at the knee (9090f), e30 and emax=extension 30" and maximally, abd=maximal straight leg abduction.
+
+                 st         trf                            0          30f         60f         90f        9090f        e30        emax         abd
+           ~~
+
+
+
+
+PS x:            0           0                             0          21          52          85          34           0           2          36
+SE:                                                                    4           8          10           3                       2           5
+IL x:            0           0                             0          43          75          99          55           0           0          56
+                                           IPS1
+SE:                                                                    8           8           8           6                                  12
+ES X:            1          37                             0           0           2          13           3          23          68          81
+SE:              1           6                                                     2           6           2           7          12           8
+
+                                                           0          30f         60f         90f        9090f        e30        emax         abd
+                                                            ~                            ~~
+
+
+
+
+PS x:                                                      0           1           1           3           0           4           4           4
+SE:                                                                    1           1           3                       3           3           3
+IL x:                                                      0           1           0           0           0          16          26          16
+                                        CONTRA
+SE:                                                                    1                                               4           4           7
+ES R:                                                      0           2           3          11           2          14          26          13
+SE:                                                                    2           3           5           2           5           4           9
+
+
+
+
+weights with one hand on the ipsilateral side. How-                          all subjects (9?10/,); iliacus and erector spinae were
+ever, when loading the contralateral hand with the                           activated to a low level or not at all (averages 4 2 2 %
+heaviest weight (34 kg), psoas showed activity to a                          and 2 2 I%, respectively). In contrast, both iliacus and
+low or moderate level in all subjects except one (aver-                      psoas were inactive in relaxed sitting with a kyphotic
+age for all 11?3%), whereas iliacus was completely                           back or with the upper body inclined 30" forward at
+inactive. With 20 kg, psoas was silent in 4 subjects                         the hip. Erector spinae showed marked activity in the
+and showed only minor activity in the remaining 3.                           latter task (442 10%); it was absent or low in the for-
+Erector spinae showed no activity in ipsilateral load-                       mer (7 ? 5%).
+ing and moderate to high activity in contralateral                              Moderate activity levels were seen for psoas and
+loading (20 kg: 41210% and 34 kg: 65tlOY0). In all                           iliacus in sitting with a combination of hyperlordosis
+cases the highest erector spinae activation was seen                         and a forward tilted pelvis (17-+3% and 22?6%, re-
+when holding the heaviest weight with the trunk                              spectively), and with the trunk hyperextended 30" in
+flexed 30" forward.                                                          the hip (2225% and 19?4"/0, respectively). The corre-
+                                                                             sponding values for erector spinae were 2 2 5 14% and
+                                                                             2 t 1%, respectively.
+Sitting                                                                         During static lateral flexion to an extreme position
+The coordination of the muscles in sitting (Fig. 3)
+was drastically changed with varying curvature of the
+spine and inclination of the pelvis and hip.
+  In sitting with a straight back, psoas was active in
+
+
+
+                                  wvid*-----                     IFw
+                      -bf#qpw--                                  M
+                                                                                              8        B
+                LKLLLgc
+Fig. 3. Activity patterns (as in Fig. 2) for the psoas and iliacus
+                                                                              Fig. 4. Activity patterns (as in Fig. 2) for the psoas, iliacus and
+                                                                              erector spinae (ES) muscles during different types of dynamic
+                                                                              lateral flexions (LF) of the trunk: Fast dynamic LF to the ipsi-
+                                                                              and contralateral side from normal sitting. Start of the motion
+muscles during different static sitting positions, from left to               is indicated with arrows, and the instance of extreme positions
+right: with the back held straight, relaxed kyphotic, with a com-             to each side with I (ipsilateral) and C (contralateral) respec-
+bination of a hyperlordotic lumbar back and a forward tilted                  tively. Slow oscillating LF from side to side in sitting and stand-
+pelvis, extended and flexed upper body at the hip, and flexed                 ing are also shown (ES missing), as well as static ipsilateral LF
+trunk to the ipsi- (1) and contralateral (C) side, respectively.              in side lying with supported legs.
+
+                                                                                                                                                    13
+Andersson et al.
+                                                                     required moderate to high activation of both psoas
+                                                                     and iliacus. Similar dynamic sit-up exercises with sup-
+                                                                     ported legs held with a 90” angle between the thighs
+                                                                     and the floor and flexed knees (Fig. 5), resulted in
+                                                                     even higher activity in both psoas and iliacus. Main-
+                                                                     taining the static angle at 60°, with supported and
+                                                                     straight legs, resulted in average EMG values of
+                                                                     52?7% for psoas and 42?6% for iliacus, while corre-
+                                                                     sponding values with supported and bent legs (45“
+Fig. 5. Activity patterns (as in Fig. 2) for the psoas and iliacus   angle between the thighs and the floor and flexed kne-
+muscles during training exercises in a supine position. The two      es) were significantly higher, 88+7% and 602 13%, re-
+graphs to the left show dynamic sit-up exercises performed as        spectively.
+a pure hip flexion, to 60” up and down, from a straight position        In dynamic trunk flexion exercises (trunk curls)
+with straight legs or with a 90” hip and knee angle, both with
+supported legs. The angular displacements at the hip, recorded
+                                                                     both psoas and iliacus were generally inactive with
+with a goniometer, are given above each EMG. The graph to            straight legs. However, during the same exercise per-
+the right shows a static trunk flexion exercise (trunk curl), in a   formed with 90” in the hip and knee and no support
+corresponding position, with unsupported legs.                       to the legs, a selective psoas activation was found at
+                                                                     the most flexed position in three subjects (Fig. 5).
+                                                                        In dynamic straight leg raising of both legs or the
+at the contralateral side, the psoas, iliacus and erector            ipsilateral leg up and down 60” at the hip, moderate
+spinae muscles were activated (16-+4%, 1651% and                     to high activity was present for both psoas and il-
+7 t 5 % , respectively), whereas no activity was seen in             iacus, while in contralateral single leg lift both
+these muscles at the ipsilateral side.                               muscles were generally inactive. Static leg lifts at 60”,
+    The dynamic side-bendings were analyzed only                     bi- or ipsilaterally resulted in equal EMG levels for
+qualitatively, but showed some interesting phase-                    psoas (5954% and 58+9%, respectively) and for il-
+shifts between muscles (Fig. 4). In a fast dynamic lat-              iacus (55? 8% and 59 2 7%, respectively). Compared
+eral flexion to the ispilateral side from upright sitting,           to static trunk lifts (see above) at the same angle, per-
+both psoas and iliacus were activated together with                  formed with straight legs, these relative values in leg
+erector spinae. During the corresponding movement                    lifts were similar for psoas and tended to be higher
+to the contralateral side, both psoas and iliacus were               for iliacus, while compared to the situation with the
+activated before erector spinae, to brake the move-                  bent legs, the values were similar for iliacus and sig-
+ment. The 3 muscles were then co-activated to return                 nificantly lower for psoas.
+the trunk to an upright position. This pattern was
+also seen during slow dynamic lateral flexions from
+side to side in sitting (Fig. 4). In contrast, dynamic
+lateral flexions in standing were performed with less                Discussion
+involvement of the iliopsoas muscles; iliacus showed                 An interesting finding was that the two portions of
+no activity and psoas was only activated to a low level              the iliopsoas muscle were selectively activated in cer-
+in five of the subjects (Fig. 4). Unfortunately, erector             tain tasks. In contralateral leg extension in standing,
+spinae activity was not recorded during lateral flex-                the specific function of iliacus is clearly to stabilize
+ions in standing. In static, laterally flexed positions              between the pelvis and hip. Psoas, on the other hand,
+in standing, psoas and iliacus were inactive at both                 would assist in stabilizing the lumbar spine in the
+sides.                                                               frontal plane when a heavy load is applied on the
+   In contrast to the sitting and standing positions,                contralateral side. No hip flexor torque is evidently
+where both portions were inactive, static lateral flex-              needed in this situation and consequently the iliacus
+ion to the ipsilateral side in a lateral supine position,            is not activated. However, it should be noted that, in
+i.e., against gravity, recruited the psoas to a relatively           these situations of selective activation, the activity
+high degree (54-+9%), while the activity in iliacus was              level of the recorded muscle was always low or moder-
+markedly lower (16?4%, Fig. 4). Here also the ipsi-                  ate. Under most conditions, the psoas and iliacus
+lateral erector spinae was highly activated (94? 5%).                muscles showed a common activation pattern, al-
+                                                                     though the relative activation level of each muscle
+                                                                     could vary considerably and thus the resulting func-
+Lying
+                                                                     tion(s) of the whole muscle complex.
+Fig. 5 shows typical recordings from 2 dynamic train-                   In the present study no postural activity was found
+ing exercises (“sit-ups”). The pattern was the same in               in psoas or iliacus during normal standing for any of
+all 7 subjects. Dynamic lifting of a straight trunk via              the subjects. This is in accordance with several earlier
+a hip flexion to 60” with straight and supported legs                studies (3, 4, 6-8, 10, 14). However, other authors
+
+14
+                                                                                            Psoas and iliacus function
+have ascribed important postural functions to the ili-       and for some subjects even completely absent. Rela-
+opsoas muscles in normal standing (2, 5, 10, 11, 15,         tively higher activity for psoas in lateral trunk devi-
+21). This discrepancy could partly be explained by           ation in sitting as compared with standing has also
+individual differences in standing posture, placing the      been reported before (3).
+line of gravity anterior or posterior to the lumbar             The short lever arm to the lumbar spine for the
+spine or hip joint. Also the manner in which the             psoas muscle in the sagittal plane (22, 23) results in
+standing was executed could effect the results. Thus,        a relatively high compression force upon bilateral ac-
+standing with the trunk erected in a military position       tivation, such as in upper body and leg lift in a supine
+has been reported to involve psoas (3) as well as il-        position, tasks where a high disc pressure has been
+iacus (4). Another possible reason for the diverging         demonstrated (24-26). However, there is a misconcep-
+results could be methodological. Using needle elec-          tion that the psoas is involved in disc pressure elev-
+trodes instead of wires may lead to some activity due        ation during situations such as standing at ease,
+to irritation of the muscle (2, 5 , 11, 15, 21). Also lack   standing with the whole trunk 30" forward flexed at
+of control of electrode placement may lead to er-            the hip unloaded or with loads of 20 or 34 kg (15,
+roneous conclusions. Placement of the electrodes in          24-27), i.e., tasks where we found psoas to be inac-
+the nearby located quadratus lumborum or deep                tive. As mentioned before, the electromyographic re-
+parts of erector spinae could explain the reports on         cordings underlying these conclusions most likely
+psoas activity in standing at ease or with the upper         originate from muscles dorsal to the psoas muscle.
+body erect or flexed forward 20" in the hip (1 1). This      Interestingly, in a sitting position, a lower disc press-
+is supported by preliminary results of our own show-         ure has been found with a straight back (15), when
+ing activation of these muscles in similar tasks.            psoas is active, as compared with a relaxed kyphotic
+    Similarly, in sitting, the configuration of the lum-     back or with the trunk flexed 30" at the hip, where
+bar spine and position of the upper body caused dif-         there is no psoas activity.
+ferent involvement of the psoas and iliacus muscles.            Training exercises where high activity was found
+A postural function of psoas was seen in sitting with        for both psoas and iliacus were sit-ups performed by
+a straight back, where the muscle was active at a low        raising the whole upper body with supported legs,
+to moderate level for all subjects and selectively in        and during bi- and ipsilateral leg lifts. These exercises
+about half of the experiments. However, both psoas           can thus be used in different rehabilitation and sport
+and iliacus were silent in sitting with the back in a        contexts to increase maximal strength capacity in hip
+relaxed kyphotic or forward flexed position. This is         flexion (18), which is a definite requirement in differ-
+in accordance with the majority of earlier studies (2-       ent sports, such as gymnastics (28). It has also been
+4, 8). The activity shown in an illustration in both         reported that back insufficiency patients lack in
+studies by Nachemson (1 1, 21) for psoas in upright          strength in flexion of the trunk with the centre of ro-
+sitting and with the trunk flexed forward 20", most          tation at the hip joint (29). Hip flexor activation can
+likely originated from quadratus lumborum or deep            be excluded by performing "sit-ups" by only lifting
+erector spinae (see above). In sitting with a forward        the shoulders. However, it is interesting to note that
+tilted pelvis and a hyperlordosis of the back, the           some activity can remain in psoas even in this situ-
+psoas, iliacus and erector spinae muscles acted to-          ation.
+gether to keep the desired body position, i.e., to pre-
+vent the pelvis from rotating backwards and the lum-
+bar spine from flattening (1 5).                             Acknowledgements
+   Dynamic lateral flexions in sitting showed an inter-      This study was supported by grants from Swedish Work En-
+esting coordination between the iliopsoas and erector        vironment Fund (90-0798) and the Research Council of the
+spinae muscles. All 3 muscles were coactivated to in-        Swedish Sports Federation (27/9 1). We appreciate the assistance
+itiate a rapid ipsilateral side bending, whereas the         of Inger Ottander and Paul Balsom.
+contralateral psoas and iliacus were recruited clearly
+before erector spinae in braking and reversing the
+movement. In this context, it is worth noticing that         References
+the lever arm for the psoas muscle in the frontal plane       1. Williams F', Wanvick R. Gray's anatomy. New York: Chur-
+                                                                 chill Livingstone, 1980.
+is actually somewhat longer than that for erector spi-
+                                                              2. Basmajian JV. Electromyography of iliopsoas. Anat Rec
+nae (22, 23), which provides a mechanical advantage.             1958: 132: 127-132.
+Another noteworthy observation was that the contri-           3. Keagy RD, Brunlik J, Bergan JJ. Direct electromyography
+bution to lateral deviation of the lumbar spine by               of the psoas major in man. J Bone Joint Surg 1966: 7:
+psoas seems to be less pronounced in standing as                 1377-1382.
+                                                              4. Linden F', Delhez L. Modalites d'activite electrique du
+compared with sitting. In standing during slow dy-               psoas-iliaque en conditions slaliques el dynamiques. Me-
+namic lateral flexion of the trunk to either side, the           dia Phys 1986: 9: 131-140.
+activity level of psoas was relatively low, and selective,    5. Floyd WF, Silver PHS. The function of the erectores spinae
+
+                                                                                                                          15
+Anderson et al.
+    muscles in certain movements and postures in man. J Phy-     19. Andersson E, Grundstrom H, Oddsson L, Thorstensson
+    siol 1955: 129: 184203.                                          A. Psoas and iliacus muscles act in concert or selectively
+ 6. Joseph J, Williams PL. Electromyography of certain hip           during natural movements in man. XIIIth Int Congr Bi-
+    muscles. J Anat 1957: 91: 286-294.                               omech (ISB), Perth, Australia 1991: 254255.
+ 7. Carlsoo S. The static muscle load in diffrent work posi-     20. Cresswell AG, Grundstrom H, Thorstensson A. Obser-
+    tions: an electromyographic study. Ergonomics 1961: 4:           vations on intra-abdominal pressure and patterns of ab-
+    193-21 1.                                                        dominal intra-muscular activity in man. Acta Physiol
+ 8. La Ban MM, Raptou AD, Johnsson EW. Electromyogra-                Scand 1992: 144: 409418.
+    phic study of function in iliopsoas muscle. Arch Phys Med    21. Nachemson A. The possible importance of the psoas
+    1965: 46: 676-679.                                               muscle for stabilization of the lumbar spine. Acta Orthop
+ 9. Flint M. An electromyographic comparison of the func-            Scand 1968: 39: 47-57.
+    tion of the iliacus and the rectus abdominis muscles. J Am   22. Thorstensson A, Andersson E, Cresswell A. Lumbar spine
+    Phys Ther Assoc 1965: 45: 248-253.                               and psoas geometry revisited with magnetic resonance im-
+10. Klausen. The form and function of the loaded human               aging. Int Congr Biomech (ISB), Los Angeles, USA 1989:
+    spine. Acta Physiol Scand 1965: 65: 176-190.                     251-252.
+11. Nachemson A. Electromyographic studies on the vertebral      23. McGill SM, Patt N, Norman RW. Measurements of the
+    portion of the psoas muscle. Acta Orthop Scand 1966: 37:         trunk musculature of active males using CT scan radi-
+    177-1 90.                                                        ography: implications for force and moment generating ca-
+12. Tonnis D. Elektromyographische Untersuchungen uber die           pacity about the L4/L5 joint. J Biomech 1988: 4: 329-341.
+    Rillwirkung des M. iliopsoas. Z Ortop 1966: 102: 61-68.      24. Nachemson A, Elfstrom G. Intravital dynamic pressure
+13. Tonnis D. Elektromyographische Untersuchungen uber die           measurements in lumbar discs. Scand J Rehabil Med 1970:
+    Beteiligung des M. iliopsoas and der Ad- und Abduktion           suppl 1.
+    des Oberschenkels. Z Ortop 1966: 102: 68-74.                 25. Nachemson A. Towards a better understanding of low-
+14. Basmajian JV, Greenlaw RK. Electromyography of iliacus           back pain: a review of the mechanics of the lumbar disc.
+    and psoas with inserted fine-wire electrodes. Anat Rec           Rheumatol Rehabil 1975: 14: 129-143.
+    1968: 160: 130.                                              26. Nachemson A. Disc pressure measurements. Spine 1981:
+15. Andersson BJG, Ortengren R, Nachemson A. Lumbar                  6: 93-97.
+    disc pressure and myoelectric back muscle activity during    27. Nachemson A, Morris JM. In vivo measurements of in-
+    sitting. Scand J Rehabil Med 1974: 6: 104-1 14.                  tradiscal pressure. J Bone Joint Surg 1964: 46A: 1077-
+16. Fujiwaara M, Basmajian J. Electromyographic study of             1092.
+    two-joint muscles. Am J Phys Med 1975: 5 : 234242.           28. Andersson E, Sward L, Thorstensson A. Trunk muscle
+17. Mann RA, Moran GT, Dougherty SE. Comparative elec-               strength in athletes. Med Sci Sports Exerc 1988: 20: 587-
+    tromyography of the lower extremity in jogging, running,         593.
+    and sprinting. Am J Sports Med 1986: 6: 501-510.             29. Thorstensson A, Oddsson L, Andersson E, Arvidson A.
+18. Anderson E, Zhijia M, Nilsson J, Thorstensson A. Ab-             Balance in muscle strength between agonist and antagonist
+    dominal and hip flexor involvement in various training ex-       muscles of the trunk. In: Winter et al., ed. Biomechanics
+    ercises. XIIth Int Congr Biomech (ISB), Los Angeles; USA         IX-B. Champaign, IL: Human Kinetics Publishers, 1985:
+    1989: 253-254.                                                   15-20.
+
+
+
+
+16
+

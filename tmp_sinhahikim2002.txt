@@ -1,0 +1,730 @@
+Am J Physiol Endocrinol Metab 283: E154–E164, 2002.
+First published March 12, 2002; 10.1152/ajpendo.00502.2001.
+
+
+
+Testosterone-induced increase in muscle size in healthy
+young men is associated with muscle fiber hypertrophy
+
+            INDRANI SINHA-HIKIM,1 JORGE ARTAZA,1 LINDA WOODHOUSE,1
+            NESTOR GONZALEZ-CADAVID,1 ATAM B. SINGH,1 MARTIN I. LEE,1 THOMAS W. STORER,1
+            RICHARD CASABURI,2 RUOQUING SHEN,1 AND SHALENDER BHASIN1
+            1
+              Division of Endocrinology, Metabolism, and Molecular Medicine, Charles R. Drew
+            University of Medicine and Science, Los Angeles, 90059; and 2Division of Respiratory
+            and Critical Care Physiology and Medicine, Harbor-University of California
+            at Los Angeles Medical Center, Torrance, California 90509
+            Received 7 November 2001; accepted in final form 10 March 2002
+
+
+   Sinha-Hikim, Indrani, Jorge Artaza, Linda Wood-                       type II fibers did not change significantly after treatment in
+house, Nestor Gonzalez-Cadavid, Atam B. Singh, Mar-                      any group. The myonuclear number per fiber increased sig-
+tin I. Lee, Thomas W. Storer, Richard Casaburi, Ruo-                     nificantly in men receiving the 300- and 600-mg doses of TE
+quing Shen, and Shalender Bhasin. Testosterone-                          and was significantly correlated with testosterone concentra-
+induced increase in muscle size in healthy young men is                  tion and muscle fiber cross-sectional area. In conclusion, the
+associated with muscle fiber hypertrophy. Am J Physiol En-               increases in muscle volume in healthy eugonadal men
+docrinol Metab 283: E154–E164, 2002. First published                     treated with graded doses of testosterone are associated with
+March 12, 2002; 10.1152/ajpendo.00502.2001.—Administra-                  concentration-dependent increases in cross-sectional areas of
+tion of replacement doses of testosterone to healthy hypogo-             both type I and type II muscle fibers and myonuclear num-
+nadal men and supraphysiological doses to eugonadal men                  ber. We conclude that the testosterone induced increase in
+increases muscle size. To determine whether testosterone-                muscle volume is due to muscle fiber hypertrophy.
+induced increase in muscle size is due to muscle fiber hyper-            androgen; muscle hypertrophy; satellite cells; mechanism of
+trophy, 61 healthy men, 18–35 yr of age, received monthly                action
+injections of a long-acting gonadotropin-releasing hormone
+(GnRH) agonist to suppress endogenous testosterone secre-
+tion and weekly injections of 25, 50, 125, 300, or 600 mg                TESTOSTERONE ADMINISTRATION in replacement doses to
+testosterone enanthate (TE) for 20 wk. Thigh muscle volume
+was measured by magnetic resonance imaging (MRI) scan,
+                                                                         hypogonadal men (9, 12, 26, 43, 46) and in supraphysi-
+and muscle biopsies were obtained from vastus lateralis                  ological doses to healthy eugonadal men (8, 16, 18, 49)
+muscle in 39 men before and after 20 wk of combined treat-               is associated with significant increases in fat-free mass
+ment with GnRH agonist and testosterone. Administration of               and muscle size. Similarly, testosterone replacement
+GnRH agonist plus TE resulted in mean nadir testosterone                 in men infected with the human immunodeficiency
+concentrations of 234, 289, 695, 1,344, and 2,435 ng/dl at the           virus, who are experiencing weight loss and have low
+25-, 50-, 125-, 300-, and 600-mg doses, respectively. Graded             testosterone levels, induces significant gains in lean
+doses of testosterone administration were associated with                body mass with concomitant increases in muscle vol-
+testosterone dose and concentration-dependent increase in                ume (7, 10, 19). We have recently demonstrated that
+muscle volume measured by MRI (changes in vastus lateralis               changes in circulating testosterone concentrations, in-
+volume, ⫺4, ⫹7, ⫹15, ⫹32, and ⫹48 ml at 25-, 50-, 125-, 300-,            duced by combined administration of gonadotropin-
+and 600-mg doses, respectively). Changes in cross-sectional              releasing hormone (GnRH) agonist and graded doses of
+areas of both type I and II fibers were dependent on testos-
+terone dose and significantly correlated with total (r ⫽ 0.35,
+                                                                         testosterone, are associated with testosterone dose-
+and 0.44, P ⬍ 0.0001 for type I and II fibers, respectively) and         and concentration-dependent changes in fat-free mass
+free (r ⫽ 0.34 and 0.35, P ⬍ 0.005) testosterone concentra-              and muscle size (11). However, the mechanisms by
+tions during treatment. The men receiving 300 and 600 mg of              which testosterone increases muscle mass are not well
+TE weekly experienced significant increases from baseline in             understood. We do not know whether testosterone-
+areas of type I (baseline vs. 20 wk, 3,176 ⫾ 186 vs. 4,201 ⫾             induced increase in muscle mass is due to muscle fiber
+252 ␮m2, P ⬍ 0.05 at 300-mg dose, and 3,347 ⫾ 253 vs.                    hypertrophy, muscle cell hyperplasia, or both. The ef-
+4,984 ⫾ 374 ␮m2, P ⫽ 0.006 at 600-mg dose) muscle fibers;                fects of testosterone administration on muscle fiber
+the men in the 600-mg group also had significant increments              size and composition in humans are unknown, and the
+in cross-sectional area of type II (4,060 ⫾ 401 vs. 5,526 ⫾ 544          data from experimental animals are both limited and
+␮m2, P ⫽ 0.03) fibers. The relative proportions of type I and            somewhat contradictory. For instance, in a study by
+
+  Address for reprint requests and other correspondence: S. Bhasin,
+UCLA School of Medicine, Div. of Endocrinology, Metabolism, and            The costs of publication of this article were defrayed in part by the
+Molecular Medicine, Charles R. Drew Univ. of Medicine and Sci-           payment of page charges. The article must therefore be hereby
+ence, 1731 E. 120th St., Los Angeles, CA 90059 (E-mail: sbhasin          marked ‘‘advertisement’’ in accordance with 18 U.S.C. Section 1734
+@ucla.edu).                                                              solely to indicate this fact.
+
+E154                             0193-1849/02 $5.00 Copyright © 2002 the American Physiological Society                 http://www.ajpendo.org
+
+
+
+              Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                       TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY                                                    E155
+
+Tucek et al. (45), testosterone treatment of castrated                  weeks before the initiation of the study, subjects were pre-
+rats led to a 15% increase in the weight of the levator                 scribed a diet standardized for energy intake at 150
+ani muscle; this increase in muscle mass was accom-                     kJ 䡠 kg⫺1 䡠 day⫺1 and protein intake at 1.3 g 䡠 kg⫺1 䡠 day⫺1.
+panied by an increase in the size of muscle fibers. Tobin               These instructions were reinforced every 4 wk during a
+and Joubert (44) reported a significant sex difference in               meeting with the dietitian, in which subject’s actual nutrient
+                                                                        intake was verified by analysis of 3-day food records.
+both the number of fibers and their average cross-
+                                                                           Hormone assays. Serum total testosterone was measured
+sectional areas for levator ani muscle and speculated                   by a previously reported radioimmunoassay (7–11). Free
+that the higher fiber number and size in the male rats                  testosterone was separated by an equilibrium dialysis proce-
+might be related to the higher testosterone levels.                     dure and measured by radioimmunoassay (42). The sensitiv-
+However, a recent study (17) did not find any differ-                   ity of total testosterone assay was 0.6 ng/dl; intra-assay
+ences in the cross-sectional areas of fast- and slow-                   coefficient of variation was 8.2%, and interassay coefficient of
+twitch fibers between older men and women with                          variation was 13.2%. For free testosterone assay, the sensi-
+vastly different androgen concentrations.                               tivity was 0.22 pg/ml, and intra- and interassay coefficients of
+   Therefore, the overall objective of the present study                variation were 4.2 and 12.3%.
+was to determine whether testosterone-induced in-                          Quadriceps muscle volume. The volume of the quadriceps
+crease in muscle size is due to increase in muscle fiber                muscle group was measured by magnetic resonance imaging
+area or number or both. We treated healthy young men                    (MRI; Signa Horizons LX Scanner, General Electric Medical
+                                                                        Systems, Milwaukee, WI) before and after 20 wk of treat-
+with a long-acting GnRH agonist to suppress their
+                                                                        ment. The software used for data acquisition was Signa MR
+endogenous testosterone production and one of five                      Scan Assistant, version 8.3. Subjects entered the body coil
+different doses of testosterone enanthate to create dif-                feet first and lay in a supine position with the heels in a
+ferent circulating testosterone concentrations. Muscle                  neutral position. MRI scans were obtained for the entire
+biopsies were obtained before and after 20 wk of com-                   thigh, with the first slice taken at the distal border of the
+bined treatment with GnRH agonist and testosterone                      lateral femoral condyle. A total of 17 slices, each of 10 mm
+to determine the morphometric changes in muscle fi-                     thickness, was taken. The thigh muscle volume was then
+bers of vastus lateralis muscle. We assessed whether                    calculated by integrating the transverse slices by use of
+the morphometric changes in the vastus lateralis mus-                   commercially available software (General Electric Volume
+cle fibers were correlated with testosterone dose and                   Analysis Software, AW version 3.1, Milwaukee, WI). Accu-
+circulating testosterone concentrations and whether                     racy of the volume analysis software was determined by
+these changes were fiber type specific.                                 scanning and analyzing a phantom cylinder of known dimen-
+                                                                        sions. Duplicate manual tracings were drawn around the
+                                                                        outermost edge of the entire thigh (total thigh), the skeletal
+MATERIALS AND METHODS                                                   musculature (to subtract out subcutaneous fat), and the
+   Subjects. This was a double-blind, randomized study. The             femur (to subtract out femoral bone areas). The quadriceps
+details of the study design have been previously published              musculature was measured by manually tracing around the
+(11). Briefly, the participants were 61 healthy eugonadal               vastus lateralis, vastus medialis, vastus intermedius, and
+men, 18–35 yr of age. Each participant provided informed                rectus femoris muscles. The middle transverse slice with the
+consent approved by the institutional review boards of                  largest diameter was used to measure cross-sectional areas
+Charles R. Drew University and Harbor-UCLA Research and                 of the vastus lateralis. A single individual, who was unaware
+Education Institute. Participants were randomly assigned to             of the group assignments, performed all of the analyses.
+one of five experimental groups to receive monthly injections              Muscle biopsy and tissue fixation. Percutaneous needle
+of a long-acting GnRH agonist to suppress endogenous tes-               muscle biopsies were obtained from the midbelly of the vas-
+tosterone production and weekly injections of 25, 50, 125,              tus lateralis muscle in the quadriceps muscle group before
+300, or 600 mg of testosterone enanthate for 20 wk. The                 and within 5 days after the final testosterone enanthate
+lowest testosterone dose regimen, 25 mg/wk, was selected                injection. Each muscle biopsy was divided into two portions;
+because previous studies had shown that this weekly dose of             one portion was fixed in 10% formalin and the other in
+testosterone can maintain sexual function in GnRH antago-               Bouin’s fixative. Both formalin- and Bouin’s-fixed tissues
+nist-treated men (35). The selection of the 600-mg weekly               were oriented on their longitudinal axis and embedded in
+regimen was based on the consideration that this was the                paraffin and used for light microscopic, morphometric, and
+highest dose of testosterone enanthate that had been shown              immunohistochemical studies. In some individuals, in whom
+to be safe and effective in increasing muscle size and strength         additional muscle tissue was available, the tissue was snap-
+in healthy eugonadal men in short-term clinical trials (8).             frozen in liquid nitrogen in a solution of RNAase for subse-
+The staff of the General Clinical Research Center adminis-              quent extraction of RNA.
+tered testosterone and GnRH agonist injections to ensure                   Muscle fiber typing. Muscle fibers in the vastus lateralis
+compliance.                                                             were identified as type I and type II fibers by immunohisto-
+   Of the 61 men, who were randomized, 54 completed all                 chemical staining using a mouse monoclonal antibody (clone
+phases of the study (11). Thus body composition and muscle              MY 32, Sigma, St Louis, MO) specific for the heavy chain of
+volume data were available on 54 men. Of these, 39 men                  fast myosin. This antibody recognizes all subtypes of type II
+underwent pre- and posttreatment muscle biopsies: nine in               myosin heavy chain (MHC) but does not cross-react with type
+the 25-mg group, seven in the 50-mg group, eight in the                 I MHC (3, 4, 22). Both the formalin- and Bouin’s-fixed 6-␮m
+125-mg group, nine in the 300-mg group, and six in the                  tissue sections were immunostained using the diaminoben-
+600-mg group.                                                           zidine tetrahydrochloride-based detection method (Vecta-
+   Nutritional intake and exercise stimulus were controlled             stain-Elite ABC kit, Vector Labs). The slides were counter-
+at the outset of the study, as previously described (11). Two           stained with Harris hematoxylin. Tissue sections that were
+
+                                     AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+             Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E156                                   TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY
+
+incubated with mouse IgG instead of the primary antibody                II fibers and 100 type I fibers was analyzed in each biopsy
+served as negative controls.                                            specimen. The fields were randomly selected to measure the
+   In 19 men in whom sufficient biopsy material was avail-              fiber area, and all of the fibers encompassed in those fields
+able, we measured the relative mRNA concentrations of                   were evaluated.
+human MHC isotypes I, IIa, IIb, and IIx by reverse transcrip-              Fiber number was determined by counting each of the fiber
+tion and polymerase chain reaction (RT-PCR). The concen-                types per unit muscle area by use of slides that had been
+tration of RNA, isolated by TRIzol, was estimated by spec-              immunostained for MHC (2). We examined a minimum of 10
+trophotometry and verified by nondenaturing agarose gel                 fields (60,025-␮m2 area) in each biopsy. We also counted the
+electrophoresis, ethidium bromide staining, and densitome-              number of myonuclei in 20 randomly selected muscle fibers of
+try of the 28S and 18S bands. MHC mRNA isotypes were                    each type in each sample.
+determined by modification of a published procedure (48) for               Counting of blood capillaries. Sections from Bouin’s-fixed
+rat MHC isotypes. Briefly, 0.6–1 ␮g of total RNA was reverse            tissues were stained for alkaline phosphatase activity to
+transcribed with poly(dT) primer, and aliquots of this reac-            identify all of the capillaries surrounding the muscle fibers.
+tion were submitted to PCR utilizing a forward primer                   The capillaries were counted at a total magnification of ⫻400
+within a region identical for the four human MHC subtypes               by use of a square frame in the eyepiece of the microscope,
+(AAGG CCAAGAAGGCCATCAC) and reverse primers that                        and expressing the amount as capillary density per unit area
+were specific for MHC I (TCCAGCTCATTCTTCAGCTC),                         [unit area ⫽ 600 ␮m2 (14, 40)]. The fiber-to-capillary ratio
+MHC IIa (TGCCTGAAGTTTATCTACCA), MHC IIb (GGTT-                          was obtained by counting all of the capillaries and fibers in
+TGCAATTTGTCCACCA), or MHC IIx (CTTGCAGCTTGT-                            five artifact-free unit areas in each section.
+CCACCAGG). A fifth reaction was conducted for human                        Statistical analyses. All data are presented as means ⫾ SE
+glyceraldehyde-3-phosphate dehydrogenase (GAPDH) as a                   for each of the five treatment groups. We used one-way
+“housekeeping” gene. PCR conditions for each primer set                 ANOVA to compare between-group differences in the change
+were optimized utilizing the thermal Robocycler (Stratagene,            from baseline in each outcome measure. The main outcome
+La Jolla, CA), and the final reaction conditions were stan-             measures were change from baseline in muscle fiber number,
+dardized at 92°C for 5 min, followed by 25 cycles at 92°C for           relative proportion of type I and type II fibers, cross-sectional
+1 min, 58°C for 1 min, and 72°C for 1 min and an extension              areas of type I and type II fibers, number of myonuclei per
+at 72°C for 10 min. The expected amplified DNA fragment                 muscle fiber, capillary density, total testosterone, free testos-
+sizes were: MHC I, 221 bp, MHC IIa, 360 bp, MHC IIb, 360                terone, and quadriceps volume. If overall ANOVA revealed
+bp, MHC IIx, 358 bp, and GAPDH, 1,100 bp. The intensity of              significant differences, paired t-tests were used to examine
+the PCR product was determined by densitometry and cor-                 the differences between pre- and posttreatment values in
+rected by the amount of 28S RNA or the intensity of the                 each group. Pearson product-moment correlation coefficients
+GAPDH band.                                                             were computed, using linear regression, to evaluate the re-
+   Because our data were derived by using the RT-PCR tech-              lationships between serum total and free testosterone con-
+nique, we considered the possibility that the observed expres-          centrations and changes in key outcome measures.
+sion might be due to amplification of a closely related mRNA               For all statistical analyses, a 0.05 level of significance was
+species (perhaps another MHC isoform). To exclude this                  used. Sigma-Stat program (SPSS, Chicago, IL) was used for
+possibility, we sequenced the product of RT-PCR for IIb                 all statistical analyses.
+mRNA. The sequence was identical to the one reported in the
+literature and in GenBank for the human MHC type IIb.                   RESULTS
+These data provide unequivocal evidence that MHC isoform
+IIb mRNA is expressed in vastus lateralis.                                 Of the 61 men who enrolled in the study, 54 com-
+   Morphometry. The immunohistochemically stained slides                pleted the treatment (11). Thirty-nine of the men who
+were used for morphometric evaluation using an RG-3 grid                completed the study underwent baseline and posttreat-
+(square lattice with 121 intersections) in a Leitz Wetzler              ment muscle biopsies: nine in the 25-mg group, seven
+(HM-LUX) microscope. An observer who was unaware of the                 in the 50-mg group, eight in the 125-mg group, nine in
+group assignments evaluated all the slides. Fiber typing was            the 300-mg group, and six in the 600-mg group. The
+carried out by directly counting type I and type II muscle              five treatment groups did not differ significantly in
+fibers in a known area (9,216 ⫻ 15 ␮m2) of tissue sections. We          their baseline characteristics (Tables 1–3).
+counted ⱖ500 muscle fibers in each biopsy specimen. The                    A detailed description of the hormonal changes
+relative abundance of type I and II fibers was expressed as a
+percentage of the total fiber number.
+                                                                        in all 61 treated men has been previously pub-
+   The cross-sectional area of the muscle fibers (A) was de-            lished (11). In the 39 men who underwent muscle
+termined by point counting using the equation A ⫽ p 䡠 ␮2,               biopsies and are the subject of this report, serum
+where p is number of points per fiber profile and ␮ is the              total and free testosterone concentrations were not
+distance between two neighboring points, the magnification              significantly different among the five treatment
+used being taken into account (3, 41). A minimum of 150 type            groups at baseline (Table 2). Combined administra-
+
+Table 1. Baseline characteristics of the participants
+                                                                             Testosterone Dose, mg
+
+                                     25                      50                      125                       300                     600
+
+    Age, yr                       27 ⫾ 2                  30 ⫾ 2                   29 ⫾ 1                    29 ⫾ 1                   26 ⫾ 2
+    Height, cm                  173.5 ⫾ 1.2             175.8 ⫾ 2.               175.8 ⫾ 2.6               175.2 ⫾ 2.1              173.8 ⫾ 2.3
+    Weight, kg                   66.9 ⫾ 2.6              76.3 ⫾ 3.1               78.0 ⫾ 3.6                78.0 ⫾ 3.6               66.9 ⫾ 2.6
+ Data are means ⫾ SE. There were no significant differences among the groups for any of these variables at baseline.
+
+                                     AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+             Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                          TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY                                                     E157
+
+Table 2. Serum total and free testosterone concentrations at baseline and during week 16
+                                                                                     Dose, mg
+
+                                       25                      50                     125                     300                      600
+
+                               Serum total testosterone concentrations, ng/dl (overall ANOVA, P ⬍ 0.001)
+Baseline                           605 ⫾ 50                 562 ⫾ 79               620 ⫾ 70                 620 ⫾ 72                  613 ⫾ 66
+Week 16                            234 ⫾ 60                 289 ⫾ 67               695 ⫾ 83               1,344 ⫾ 98                2,435 ⫾ 489
+Change from baseline              ⫺371 ⫾ 97                ⫺264 ⫾ 67                75 ⫾ 83                 724 ⫾ 124               1,822 ⫾ 492
+n                                     9                        6                       7                        9                         6
+Baseline vs. week 16               0.005                    0.007                   0.400                   ⬍0.001                     0.01
+                               Serum free testosterone concentrations, pg/ml (overall ANOVA, P ⬍ 0.001)
+Baseline                              62 ⫾ 22                 60 ⫾ 25                55 ⫾ 24                 72 ⫾ 22                  69 ⫾ 27
+Week 16                               27 ⫾ 22                 33 ⫾ 25                58 ⫾ 24                137 ⫾ 22                 341 ⫾ 27
+n                                       9                       6                        7                      9                        6
+Week 16 vs. baseline                 0.008                    0.01                    0.75                   0.004                    0.04
+  Data are means ⫾ SE; n ⫽ number of subjects. Testosterone concentrations were measured during week 16, 7 days after the previous
+testosterone injection, and therefore represent nadir values.
+
+
+tion of GnRH agonist and graded doses of testoster-                     quadriceps and vastus lateralis muscle volumes (Table
+one enanthate resulted in dose-dependent changes in                     3). Administration of 300 (P ⬍ 0.005) and 600 mg (P ⫽
+serum total and free testosterone concentrations.                       0.002) of testosterone enanthate weekly was associated
+Thus this treatment regimen was effective in creat-                     with significant increases in quadriceps volume.
+ing and maintaining graded levels of serum total and                      Muscle fiber cross-sectional area. The average
+free testosterone concentrations, providing validity                    cross-sectional areas of type I and II muscle fibers
+to our experimental model.                                              were not significantly different among the five treat-
+  Mean quadriceps and vastus lateralis muscle vol-                      ment groups at baseline (Table 3). Testosterone
+umes, measured by MRI, were not significantly differ-                   treatment was associated with dose- and concentra-
+ent among the five groups at baseline (Table 3). Com-                   tion-dependent increases in the cross-sectional area
+bined administration of GnRH agonist and testosterone                   of both type I and type II fibers (Fig. 1C). The groups
+resulted in dose-dependent changes from baseline in                     receiving 300 and 600 mg of testosterone enanthate
+
+Table 3. Quadriceps and vastus lateralis muscle volumes and cross-sectional
+areas of type I and type II muscle fibers
+                                                                                   Dose, mg
+
+                                     25                      50                      125                       300                      600
+
+                                          Quadriceps muscle volume, ml (overall ANOVA, P ⬍ 0.001)
+Baseline                         441 ⫾ 36                 494 ⫾ 39                 527 ⫾ 41                 491 ⫾ 27                 520 ⫾ 21
+Week 20                          431 ⫾ 33                 504 ⫾ 43                 561 ⫾ 44                 439 ⫾ 24                 595 ⫾ 32
+Change                           ⫺10 ⫾ 11                  10 ⫾ 6                   24 ⫾ 6                   49 ⫾ 8                   75 ⫾ 13
+n                                   9                        6                        7                       9                         6
+Week 20 vs. baseline              0.419                    0.163                    0.007                   ⬍0.001                    0.002
+                                    Vastus lateralis muscle volume, ml (overall, ANOVA, P ⬍ 0.001)
+Baseline                          289 ⫾ 24                 321 ⫾ 25                349 ⫾ 30                 301 ⫾ 15                  339 ⫾ 14
+Week 20                           285 ⫾ 23                 328 ⫾ 28                365 ⫾ 29                 333 ⫾ 13                  387 ⫾ 21
+Change                             ⫺4 ⫾ 7                    7⫾4                    15 ⫾ 4                   32 ⫾ 5                    48 ⫾ 8
+n                                    9                        6                       7                       9                          6
+Week 20 vs. baseline            0.615                    0.156                   0.007                   ⬍0.001                     0.002
+                              Cross-sectional area of type I muscle fibers, ␮m2 (overall ANOVA, P ⬍ 0.001)
+Baseline                        3,337 ⫾ 256              3,198 ⫾ 172             3,484 ⫾ 283               3,176 ⫾ 186              3,347 ⫾ 253
+Week 20                         3,665 ⫾ 479              3,833 ⫾ 253             3,674 ⫾ 220               4,201 ⫾ 252              4,984 ⫾ 374
+Change                            328 ⫾ 326                634 ⫾ 208               189 ⫾ 134               1,025 ⫾ 164              1,637 ⫾ 359
+n                                    9                        7                       8                        9                         6
+Week 20 vs. baseline                NS                      0.02                     NS                     ⬍0.001                     0.006
+                             Cross-sectional area of type II muscle fibers, ␮m2 (overall ANOVA, P ⫽ 0.002)
+Baseline                        3,973 ⫾ 393              3,601 ⫾ 191             3,707 ⫾ 289               3,801 ⫾ 254              4,060 ⫾ 401
+Week 20                         3,989 ⫾ 454              4,455 ⫾ 238             4,011 ⫾ 281               4,521 ⫾ 210              5,526 ⫾ 544
+n                                    9                        7                       8                        9                         6
+Change                             16 ⫾ 217                853 ⫾ 247               304 ⫾ 162                 720 ⫾ 371              1,466 ⫾ 400
+Week 20 vs. baseline                NS                       NS                      NS                       NS                       0.03
+  Data are means ⫾ SE. NS, not significant.
+
+                                     AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+             Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E158                                      TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY
+
+
+
+
+Fig. 1. A: change in cross-sectional areas
+of type I and type II skeletal muscle
+fibers before and after 20 wk of treat-
+ment with gonadotropin-releasing hor-
+mone (GnRH) agonist and graded doses
+of testosterone. Data are means ⫾ SE.
+* Significantly different from 0. B: corre-
+lation between change in serum total
+testosterone concentrations during treat-
+ment and change in cross-sectional area
+of type I (top) and type II (bottom) mus-
+cle fibers. C: correlation between change
+in serum free testosterone concentra-
+tions during treatment and change in
+cross-sectional area of type I (top) and
+type II (bottom) muscle fibers.
+
+
+
+
+experienced a significant increase in cross-sectional                     I fibers were numerically greater than those in type II
+area of type I fibers (Figs. 1A and 2). Similarly, men                    fibers in men receiving the 300-mg dose (%increase:
+receiving the highest dose of testosterone enanthate                      33 ⫾ 6 vs. 24 ⫾ 11 in type I and type II fiber cross-
+demonstrated a significant increase in the cross-                         sectional area, respectively, P ⫽ 0.190) and the 600-mg
+sectional area of type II fibers. Figure 2 illustrates                    dose (%increase: 51 ⫾ 14 vs. 39 ⫾ 13 in type I and type
+the change in muscle fiber cross-sectional area in a                      II fibers, respectively, P ⫽ 0.384); however, the differ-
+representative subject, who received the 600-mg tes-                      ences in the increase in mean fiber cross-sectional
+tosterone dose.                                                           areas did not achieve statistical significance.
+   The changes in cross-sectional areas of both type I                       Muscle fiber composition. The relative proportions of
+and type II muscle fibers were significantly correlated                   type I and type II muscle fibers at baseline were not
+with total [r ⫽ 0.35 (P ⬍ 0.005) for type I fibers; r ⫽                   significantly different among the five treatment groups
+0.44 for type II fibers (P ⬍ 0.0001)] and free testoster-                 (Fig. 3). Administration of GnRH agonist plus testos-
+one [r ⫽ 0.34 (P ⬍ 0.005) for type I muscle fibers; r ⫽                   terone enanthate did not significantly change the num-
+0.35 (P ⬍ 0.001) for type II muscle fibers] concentra-                    ber of type I or type II fibers per unit area in the cross
+tions during treatment (Table 4; Fig. 1, B and C). The                    sections that were examined at any of the testosterone
+percent increases in mean cross-sectional areas of type                   doses. Similarly, there was no significant change from
+                                        AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+               Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                        TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY                                                        E159
+
+
+
+
+                                                                                                        Fig. 2. Cross sections of muscle biop-
+                                                                                                        sies before and after 20 wk of treat-
+                                                                                                        ment in one man treated with GnRH
+                                                                                                        agonist and 600 mg of testosterone en-
+                                                                                                        anthate weekly. A and C: baseline sec-
+                                                                                                        tions; B and D: sections obtained after
+                                                                                                        20 wk of treatment. The magnification
+                                                                                                        is 200-fold in A and B and 1,000-fold in
+                                                                                                        C and D.
+
+
+
+
+baseline in the relative proportion of type I and type II                istration of testosterone enanthate was associated with
+fibers in any treatment group (Fig. 3).                                  a dose-dependent increase in myonuclear number. In
+   The concentration of mRNAs for MHC isotypes, I,                       men receiving the 300-mg weekly dose of testosterone
+IIa, IIb, and IIx did not significantly change relative to               enanthate, the mean ⫾ SE myonuclear number in-
+GAPDH mRNA or the amount of 28S RNA (Table 5;                            creased from 3.2 ⫾ 0.2 to 3.9 ⫾ 0.2 per type I fiber (P ⫽
+Fig. 4).                                                                 0.001) and from 3.3 ⫾ 0.2 to 3.7 ⫾ 0.2 per type II fiber
+   Myonuclear number. The average number of myonu-                       (P ⫽ 0.118); similarly, myonuclear number increased
+clei per muscle fiber was not significantly different                    significantly from 3.4 ⫾ 0.2 to 4.2 ⫾ 0.2 per type I fiber
+among the five treatment groups at baseline. Admin-                      (P ⫽ 0.028) and from 2.9 ⫾ 0.3 to 4.2 ⫾ 0.2 per type II
+
+Table 4. Correlations of changes in skeletal muscle fiber morphometric measures
+with changes in serum total and free testosterone concentrations
+                                                                     Correlation with Change in                  Correlation with Change in
+                   Outcome Measure                                       Total Testosterone                          Free Testosterone
+
+    Change in mean CSA type II fibers, ␮m2                                 0.42 (⬍0.01)                                 0.35 (⬍0.05)
+    Change in mean CSA type I fibers, ␮m2                                  0.57 (⬍0.001)                                0.34 (⬍0.005)
+    Change in percent type II fibers                                       0.06 (NS)                                   0.006 (NS)
+    Change in percent type I fibers                                        0.07 (NS)                                    0.02 (NS)
+    Change in myonuclear number, type II fibers                            0.42 (⬍0.01)                                 0.40 (⬍ 0.01)
+    Change in myonuclear number, type I fibers                             0.17 (NS)                                    0.13 (NS)
+  CSA, cross-sectional area. Change in serum total and free testosterone concentrations was calculated as the difference between week 16
+and baseline values. Change in other morphometric measures represents the difference between week 20 and baseline values. Changes in
+muscle morphometric outcome measures were correlated with changes in total and free testosterone concentrations. The numbers in
+parentheses indicate P values.
+
+                                      AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+              Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E160                                      TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY
+
+                                                                            five groups. The capillary-to-muscle fiber ratio also did
+                                                                            not differ among the five groups.
+
+                                                                            DISCUSSION
+
+                                                                              In healthy young men in whom testicular testoster-
+                                                                            one production had been suppressed by a GnRH ago-
+                                                                            nist administration of graded doses of testosterone was
+                                                                            associated with dose-dependent changes in circulating
+                                                                            concentrations of total and free testosterone (11). We
+                                                                            have previously reported, using this Leydig cell clamp
+                                                                            model, that testosterone dose-dependently increases
+                                                                            fat-free mass and muscle size (11). Data presented in
+                                                                            this report demonstrate that testosterone-induced
+                                                                            gains in muscle size were associated with a significant
+                                                                            increase in muscle fiber cross-sectional area. The cross-
+                                                                            sectional areas of both type I and type II fibers in-
+                                                                            creased in proportion to testosterone concentrations.
+                                                                            The relative proportion of type I and type II fibers did
+Fig. 3. Effects of treatment with GnRH agonist and graded doses of
+testosterone on relative proportion of type I and type II skeletal
+                                                                            not change significantly. We therefore conclude that
+muscle fibers in healthy young men. Mean ⫾ SE percent type I and            testosterone increases skeletal muscle size primarily
+II skeletal muscle fibers in biopsies obtained at baseline before           by inducing muscle fiber hypertrophy.
+initiation of treatment (pretreatment, filled bars) and after 20 wk of        This study constitutes the first demonstration that
+treatment (posttreatment, hatched bars) are shown. The percentage           androgens induce skeletal muscle fiber hypertrophy in
+of type I muscle fibers is shown in top, and percentage of type II fibers
+is shown in bottom. None of the posttreatment values was signifi-           healthy young men. These data generated from skele-
+cantly different from baseline values.                                      tal muscle of healthy young men are consistent with
+                                                                            data from rat studies that reported an increase in fiber
+                                                                            diameter in levator ani muscle of androgen-treated
+fiber (P ⫽ 0.017) in men receiving the 600-mg dose (Fig.                    rats (22, 44, 45).
+5, A and B). The muscle fiber cross-sectional area was                        The adaptive response of the skeletal muscle varies
+significantly correlated with the myonuclear number                         with the type of stimulus, the fiber composition of the
+(Fig. 5B). The number of myonuclei per unit fiber area                      muscle being studied, and the time point at which the
+did not significantly change in any of the treatment                        biopsies are taken. For instance, muscle stretch in
+groups.                                                                     wing muscles of birds results in an early increase in
+   Blood capillary density. The capillary density, de-                      muscle fiber numbers (2), but the hypertropic and
+fined as the number of blood capillaries per unit muscle                    hyperplastic responses of the skeletal muscle have
+area, was not significantly different among the five                        different time courses. In this study, muscle biopsies
+treatment groups at baseline (Table 6). The change in                       were obtained only at one time point after testosterone
+capillary density after testosterone treatment was not                      treatment. Also, different muscle groups may respond
+significantly correlated with testosterone dose or con-                     differently to anabolic stimuli, depending in part on
+centration and did not significantly differ among the                       the fiber composition. We studied only one muscle
+
+
+
+
+Fig. 4. Representative electrophoretic gels demonstrat-
+ing the DNA bands resulting from RT-PCR of mRNAs
+of myosin heavy chain (MHC) isoforms and glyceralde-
+hyde-3-phosphate dehydrogenase (GAPDH). Top gels
+represent baseline samples from 4 randomly selected
+men from different treatment groups. Bottom gels rep-
+resent posttreatment samples from the same subjects.
+
+
+
+
+                                        AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+               Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                       TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY                                                         E161
+
+
+
+
+                                                                                                      Fig. 5. A: effects of treatment with
+                                                                                                      GnRH agonist and graded doses of tes-
+                                                                                                      tosterone on skeletal muscle fiber myo-
+                                                                                                      nuclear number in healthy young men.
+                                                                                                      Mean ⫾ SE numbers of myonuclei in
+                                                                                                      muscle fibers in baseline biopsies are
+                                                                                                      shown in filled bars, those in biopsies
+                                                                                                      obtained after 20 wk of treatment in
+                                                                                                      hatched bars. Top: number of myonu-
+                                                                                                      clei in type I muscle fibers; bottom: type
+                                                                                                      II muscle fibers. * P ⫽ 0.028 vs. base-
+                                                                                                      line; ** P ⫽ 0.017; ***P ⬍ 0.001. B:
+                                                                                                      correlation between the change in myo-
+                                                                                                      nuclear number and the change in
+                                                                                                      cross-sectional areas of type I (top) and
+                                                                                                      type II (bottom) muscle fibers.
+
+
+
+
+group; we do not know whether these findings can be                     and increase in myonuclear number were preceded by
+generalized to other muscle groups with different fiber                 testosterone-induced increase in satellite cell number
+composition.                                                            and their fusion with muscle fibers. The hypertrophy of
+  As discussed by Allen and Edgerton (1), muscle hy-                    levator ani muscle in the female rat induced by exog-
+pertrophy involves the addition of newly formed myo-                    enous testosterone administration is associated with
+nuclei via the fusion of myogenic cells to the adult                    satellite cell proliferation (32). Muscle remodeling and
+myofibers. There is substantial evidence supporting a                   repair after injury often involve satellite cell replica-
+role for the modulation of myonuclear number during                     tion and recruitment of new stem cells into the myo-
+muscle remodeling in response to injury or disease (1,                  genic cell lineage (38). The mechanisms by which tes-
+25). In our study, the myonuclear number increased in                   tosterone might increase satellite cell number are not
+direct relation to the increase in muscle fiber diameter.               known. An increase in satellite cell number could occur
+Therefore, it is possible that muscle fiber hypertrophy                 by an increase in satellite cell replication, inhibition of
+
+Table 5. mRNAconcentrations of MHC isotypes I, IIa, IIb, and IIx
+before and after treatment with graded doses of testosterone in healthy young men
+                                                                                Dose, mg
+
+                             25                         50                         125                        300                        600
+
+                                                                 MHC type I
+Baseline                  1.9 ⫾ 0.3                  2.2 ⫾ 0.2                  2.2 ⫾ 0.4                  1.7 ⫾ 0.3                   1.5 ⫾ 0.1
+Week 20                   2.2 ⫾ 0.2                  2.0 ⫾ 0.2                  2.2 ⫾ 0.1                  2.0 ⫾ 0.1                   2.0 ⫾ 0.2
+n                             4                          3                          4                          4                           4
+                                                                 MHC type IIa
+Baseline                  1.9 ⫾ 0.2                  2.3 ⫾ 0.3                  2.3 ⫾ 0.3                  1.7 ⫾ 0.2                   1.5 ⫾ 0.1
+Week 20                   2.2 ⫾ 0.1                  2.0 ⫾ 0.1                  2.3 ⫾ 0.1                  2.2 ⫾ 0.1                   2.1 ⫾ 0.2
+n                             4                          3                          4                          4                           4
+                                                                 MHC type IIb
+Baseline                  1.2 ⫾ 0.1                  1.3 ⫾ 0.3                  1.3 ⫾ 0.1                  1.3 ⫾ 0.3                   1.0 ⫾ 0.1
+Week 20                   1.2 ⫾ 0.4                  2.0 ⫾ 0.3                  1.8 ⫾ 0.2                  1.6 ⫾ 0.3                   1.2 ⫾ 0.3
+n                             4                          3                          4                          4                           4
+                                                                 MHC type IIx
+Baseline                  2.5 ⫾ 0.3                  2.7 ⫾ 0.3                  2.9 ⫾ 0.4                  2.1 ⫾ 0.3                   1.8 ⫾ 0.1
+Week 20                   2.7 ⫾ 0.2                  2.4 ⫾ 0.2                  2.8 ⫾ 0.1                  2.4 ⫾ 0.2                   2.5 ⫾ 0.2
+n                             4                          3                          4                          4                           4
+  Data are means ⫾ SE. Relative concentrations of myosin heavy chain (MHC) isoform mRNAs, measured by RT-PCR, are expressed as
+ratios of the optical densities of MHC isoform mRNA and glyceraldehyde-3-phosphate dehydrogenase mRNA. Changes from baseline scores
+were not significantly different for any of the outcome measures listed above.
+
+                                      AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+             Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E162                                   TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY
+
+
+Table 6. Absolute and relative blood capillary density bevore and after treatment
+with GnRH agonist and graded doses of testosterone
+                                                                                Dose, mg
+
+                             25                         50                         125                        300                     600
+
+                                       Capillary density per unit area (overall ANOVA, P ⫽ 0.49)
+Baseline                  17 ⫾ 2                      21 ⫾ 2                     22 ⫾ 2                     18 ⫾ 1                  18 ⫾ 1
+Week 20                   19 ⫾ 2                      22 ⫾ 2                     20 ⫾ 1                     21 ⫾ 2                  22 ⫾ 1
+                              Capillary density per muscle fiber (capillary-to-fiber number ratio, P ⫽ 0.08)
+Baseline                  1.0 ⫾ 0.2                  1.1 ⫾ 0.2                  1.2 ⫾ 0.1                  1.3 ⫾ 0.1                1.4 ⫾ 0.2
+Week 20                   1.1 ⫾ 0.2                  1.5 ⫾ 0.1                  1.4 ⫾ 0.1                  1.8 ⫾ 0.2                2.1 ⫾ 0.2
+  Data are means ⫾ SE. Unit area ⫽ 600 ␮m2. GnRH, gonadotropin-releasing hormone. None of the week 20 values was significantly
+different from the corresponding baseline values for any of the outcome measures listed above.
+
+
+
+satellite cell apoptosis, and/or increased differentiation              in the relative proportion of type I and type II fibers.
+of stem cells into the myogenic lineage. We do not know                 The mRNA concentrations of type I, IIa, IIB, and IIx
+which of these processes is the site of regulation by                   MHC isotypes did not change after treatment in any
+testosterone. The hypothesis that testosterone pro-                     group. Because the number of men in whom tissue was
+motes muscle fiber hypertrophy by increasing the num-                   available for these analyses was limited, it is possible
+ber of satellite cells should be further tested. Because                that the sample did not have sufficient power to detect
+of the constraints inherent in obtaining multiple biopsy                small differences in the relative proportions of MHC
+specimens in humans, the effects of testosterone on                     isotypes.
+satellite cell replication and stem cell recruitment                       There are some similarities and many notable differ-
+would be more conveniently studied in an animal                         ences in the skeletal muscle response to testosterone
+model.                                                                  and resistance exercise training. Both testosterone and
+   Although we did not find a significant change in                     resistance exercise training increase the cross-sec-
+muscle fiber number per unit muscle area in the cross                   tional areas of both type I and II fibers (31). Resistance
+sections that were examined at any dose of testoster-                   exercise in cats leads to the appearance of split fibers
+one, we recognize that the sampling was limited to a                    (20), which we did not see in longitudinal sections of
+small region, and small but significant changes in                      the muscle biopsies even at the highest dose of testos-
+muscle fiber number in other regions night have been                    terone. It is possible that the fiber splitting previously
+missed. Additionally, the muscle fibers in the human                    reported in cats with resistance exercise (20) was the
+vastus lateralis muscle do not run the entire length of                 result of mechanical loading of the muscle with rela-
+the muscle; therefore, it is not possible to accurately                 tively heavy loads, a stimulus for muscle fiber change
+measure the absolute number of muscle fibers in this                    that is not replicated by testosterone administration.
+muscle. The number of muscle cells that stained for                     Resistance exercise increases the ratio of type II to type
+proliferating cell nuclear antigen was too small to                     I fiber area (31), but testosterone does not affect fiber
+permit accurate measurement of change (data not                         type transition and induces the hypertrophy of both
+shown).                                                                 types I and II fibers. These data suggest that, although
+   Testosterone administration did not significantly af-                testosterone and resistance exercise training both in-
+fect the relative proportion of type I and type II fibers.              crease muscle size, they likely do so by different mech-
+Other anabolic hormones and interventions have been
+                                                                        anisms. We recognize that the effects of resistance
+reported to affect fiber type transition (reviewed in Ref.
+                                                                        exercise training vary with the intensity, mode, and
+36). In the rat, hypothyroidism causes a shift of fast-
+                                                                        frequency of exercise stimulus; therefore, the com-
+twitch to slow fibers, whereas hyperthyroidism causes
+                                                                        ments above may apply only to the specific regimens of
+a shift in the opposite direction (29, 33). Analogous
+                                                                        resistance exercise that were studied.
+effects of thyroid hormone have been demonstrated in
+human muscles (13, 37). The administration of growth                       In summary, our data demonstrate that the in-
+hormone in the rat increases muscle mass and also the                   crease in skeletal muscle mass during short-term
+relative proportion of type I fibers (5, 6). Testosterone               testosterone administration is associated with dose-
+treatment of female rats is associated with a decrease                  dependent increases in muscle fiber cross-sectional
+in the percentage of type I fibers in the gastrocnemius,                area and myonuclear number. The hypothesis that
+extensor digitorum longus, and soleus muscles (22).                     testosterone increases the number of satellite cells,
+High-intensity resistance training in previously un-                    whose fusion with the muscle fibers leads to muscle
+trained men induced an MHC IIb-to-MHC IIa transi-                       fiber hypertrophy and increase in myonuclear num-
+tion (36). Other studies have reported that resistance                  ber, should now be studied.
+exercise increases the ratio of type II to type I fiber                   The research support for this project was provided by a research
+area in biceps brachii, indicating preferential hypertro-               grant from the National Institute of Aging, 1RO1 AG-14369-01.
+phy of type II fibers (31). We did not observe a change                 Additional support was provided by Grants 1RO1 DK-59627-01, the
+
+                                      AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+             Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                        TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY                                                       E163
+
+Clinical Trials Unit Grant U01 DK-54047, (Research Centers for           16. Forbes GB, Porta CR, Herr BE, and Griggs RC. Sequence of
+Minority Institution) Clinical Research Infrastructure Initiative            changes in body composition induced by testosterone and rever-
+(P20 RR-11145), RCMI grants G12 RR-03026 and U54 RR-14616,                   sal of changes after drug is stopped. JAMA 267: 397–399, 1992.
+and General Clinical Research Center Grant MO1 RR-00425. Bio-            17. Frontera WR, Suh D, Krivickas LS, Hughes VA, Goldstein
+Technology General provided the testosterone enanthate, and Debio-           R, and Roubenoff R. Skeletal muscle fiber quality in older men
+Pharm (Geneva, Switzerland) provided the long-acting GnRH ago-               and women. Am J Physiol Cell Physiol 279: C611–C618, 2000.
+nist for these studies.                                                  18. Griggs RC, Kingston W, Jozefowicz RF, Herr BE, Forbes
+                                                                             G, and Halliday D. Effect of testosterone on muscle mass and
+                                                                             muscle protein synthesis. J Appl Physiol 66: 498–503, 1989.
+REFERENCES
+                                                                         19. Grinspoon S, Corcoran C, Askari H, Schoenfeld D, Wolf L,
+ 1. Allen DL, Roy RR, and Edgerton VR. Myonuclear domains in                 Burrows B, Walsh M, Hayden D, Parlman K, Anderson E,
+    muscle adaptation and disease. Muscle Nerve 22: 1350–1360,               Basgoz N, and Klibanski A. Effects of androgen administra-
+    1999.                                                                    tion in men with the AIDS wasting syndrome: a randomized,
+ 2. Antonio J and Gonyea WJ. Progressive stretch overload of                 double-blind, placebo-controlled trial. Ann Intern Med 129: 18–
+    skeletal muscle results in hypertrophy before hyperplasia.               26, 1998.
+    J Appl Physiol 75: 1263–1271, 1993.                                  20. Gonyea W, Ericson GC, and Bonde-Petersen F. Skeletal
+ 3. Always SE, Grumbt WH, Gonyea WJ, and Stray-Gun-                          muscle fiber splitting induced by weight-lifting exercise in cats.
+    dersen J. Contrasts in muscle and myofibers of elite male and            Acta Physiol Scand 99: 105–109, 1977.
+    female body builders. J Appl Physiol 67: 24–31, 1989.                21. Hansen-Smith FM, Blackwell LH, and Joswiak GR. Ex-
+ 4. Aspnes LE, Lee CE, Weindruch R, Chung SS, Roecker EB,                    pression of muscle capillary alkaline phosphatase is affected by
+    and Aiken JM. Caloric restriction reduces fiber loss and mito-           hypoxia. J Appl Physiol 73: 776–780, 1992.
+    chondrial abnormalities in aged rat muscle. FASEB J 11: 573–         22. Holmang A, Svedberg J, Jennische E, and Bjorntorp P.
+    581, 1997.                                                               Effect of testosterone on muscle insulin sensitivity and morphol-
+ 5. Ayling CM, Moreland BH, Zanelli JM, and Schulster D.                     ogy in female rats. Am J Physiol Endocrinol Metab 259: E555–
+    Human growth hormone of hypophysectomized rats increases                 E560, 1990.
+    the proportion of type-I fibers in skeletal muscle. J Endocrinol     23. Joubert Y and Tobin C. Testosterone treatment results in
+    123: 429–435, 1989.                                                      quiescent satellite cells being activated and recruited into cell
+ 6. Ayling CM, Zanelli JM, Moreland BM, and Schulster D.                     cycle in rat levator ani muscle. Dev Biol 169: 286–294, 1995.
+    Effect of human growth hormone injection on the fiber type           25. Kadi F and Thornell LE. Concomitant increases in myo-
+    composition and metabolic activity in a skeletal muscle from             nuclear and satellite cell content in female trapezius muscle
+    normal and hypophysectomized rats. Growth Regul 2: 133–143,              following strength training. Histochem Cell Biol 113: 99–103,
+    1992.                                                                    2000.
+ 7. Bhasin S, Storer TW, Asbel-Sethi N, Kilbourne A, Hays R,             26. Katznelson L, Finkelstein JS, Schoenfeld DA, Rosenthal
+    Sinha-Hikim I, Shen R, Arver S, and Beall G. Effects of                  DI, Anderson EJ, and Klibanski A. Increase in bone density
+    testosterone replacement with a non-genital, transdermal sys-            and lean body mass during testosterone administration in men
+    tem, Androderm, in human immunodeficiency virus-infected                 with acquired hypogonadism. J Clin Endocrinol Metab 81: 4358–
+    men with low testosterone levels. J Clin Endocrinol Metab 83:            4365, 1996.
+    3155–3162, 1998.                                                     27. Kelley G. Mechanical overload and skeletal muscle fiber hyper-
+ 8. Bhasin S, Storer TW, Berman N, Callegari C, Clevenger B,                 plasia: a meta analysis. J Appl Physiol 81: 1584–1587, 1996.
+    Phillips J, Bunnell TJ, Tricker R, Shirazi A, and Casaburi           28. Kuzon WM, Rosenblatt JD, Huebel SC, Leatt P, Plyley MJ,
+    R. The effects of supraphysiologic doses of testosterone on mus-         McKee NH, and Jacobs I. Skeletal muscle fiber type, fiber size,
+    cle size and strength in normal men. N Engl J Med 335: 1–6,
+                                                                             and capillary supply in elite soccer players. Int J Sports Med 11:
+    1996.
+                                                                             99–102, 1990.
+ 9. Bhasin S, Storer TW, Berman N, Yarasheski KE, Clev-
+                                                                         29. Lomax RB and Robertson WR. The effects of hypothyroidism
+    eneger B, and Casaburi RA. A replacement dose of testoster-
+                                                                             and hyperthyroidism on fiber composition and mitochondrial
+    one increases fat-free mass and muscle size in hypogonadal men.
+                                                                             enzyme activities in rat skeletal muscle. J Endocrinol 133: 375,
+    J Clin Endocrinol Metab 82: 407–413, 1997.
+                                                                             1992.
+10. Bhasin S, Storer TW, Javanbakht M, Berman N, Yara-
+    sheski KE, Phillips J, Dike M, Sinha-Hikim I, Shen R,                30. Mauras N, Hayes V, Welch S, Veldhuis J, and Urban R.
+    Hays RD, and Beall G. Testosterone replacement and resis-                Testosterone deficiency in young men: marked alterations in
+    tance exercise in HIV-infected men with weight loss and low              whole body protein kinetics, strength and adiposity. J Clin
+    testosterone levels. JAMA 283: 763–770, 2000.                            Endocrinol Metab 83: 1886, 1998.
+11. Bhasin S, Woodhouse L, Casaburi R, Singh AB, Bhasin D,               31. McCall GE, Byrnes WC, Dickinson A, Pattany PM, and
+    Berman N, Magliano L, Dzekov C, Dzekov J, Bross R,                       Fleck SJ. Muscle fiber hypertrophy, hyperplasia, and capillary
+    Phillips J, Sinha-Hikim I, Shen R, and Storer TW. Testos-                density in college men after resistance training. J Appl Physiol
+    terone dose response relationships in healthy young men. Am J            81: 2004–2012, 1996.
+    Physiol Endocrinol Metab 281: E1172–E1181, 2001.                     32. Nnodim J. Testosterone mediates satellite cell activation in
+12. Brodsky IG, Balagopal P, and Nair SK. Effects of testoster-              denervated rat levator ani muscle. Anat Rec 263: 19–24, 2001.
+    one replacement on muscle mass and muscle protein synthesis in       33. Nwoye L and Mommaerts WFHM. The effects of thyroid
+    hypogonadal men—a clinical research center study. J Clin En-             status on some properties of rat fast-twitch muscle. J Muscle Res
+    docrinol Metab 81: 3469–3475, 1996.                                      Cell Motil 2: 307–320, 1981.
+13. Celsing F, Blomstrand E, Melichna J, Terrados N, Clausen             34. Ohlsson C and Jennische E. Effects in skeletal soleus muscle
+    N, Lins PE, and Jansson E. Effect of hyperthyroidism on                  of supraphysiological growth hormone stimulation. Eur J Endo-
+    fiber-type composition, fiber area, glycogen content and enzyme          crinol 133: 678–679, 1995.
+    activity in human skeletal muscle. Clin Physiol 6: 171–181,          35. Pavlou SN, Brewer K, Farley MG, Linder J, Bastias MC,
+    1986.                                                                    Rogers BJ, Swift LL, Rivier JE, and Vale WW. Combined
+14. Deveci D, Janice MM, and Egginton S. Relationship between                administration of a gonadotropin-releasing hormone antagonist
+    capillary angiogenesis, fiber type, and fiber size in chronic sys-       and testosterone in men induces reversible azoospermia without
+    temic hypoxia. Am J Physiol Heart Circ Physiol 281: H241–                loss of libido. J Clin Endocrinol Metab 73: 1360–1369, 1991.
+    H252, 2001.                                                          36. Pette D and Staron RS. Mammalian skeletal muscle fiber type
+15. Donalies M, Cramer M, Ringwald M, and Starzininski-                      transitions. Int Rev Cytol 170: 143–223, 1997.
+    Powitz A. Expression of M-cadherin, a member of the cadeherin        37. Putman CT, Dusterhoft S, and Pette D. Satellite cell prolif-
+    multigene family, correlates with differentiation of skeletal mus-       eration in low frequency-stimulated fast muscle of hypothyroid
+    cle cells. Proc Natl Acad Sci USA 88: 8024–8028, 1991.                   rat. Am J Physiol Cell Physiol 279: C682–C690, 2000.
+
+                                       AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+              Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E164                                    TESTOSTERONE AND MUSCLE FIBER HYPERTROPHY
+
+38. Reimann J, Irintchev A, and Wering A. Regenerative capac-                terone replacement in hypogonadal men. J Clin Endocrinol
+    ity and the number of satellite cells in soleus muscles of normal        Metab 85: 2670–2677, 2000.
+    and mdx mice. Neuromuscul Disord 10: 276–282, 2000.                  44. Tobin C and Joubert Y. The levator ani of the female rat: a
+39. Salviati G, Betto R, Danieli Betto D, and Zeviani M. Myo-                suitable model for studying the effects of testosterone on the
+    fibrillar-protein isoforms and sarcoplasmic-reticulum Ca2⫹-              development of mammalian muscle. Biol Struct Morphog 1:
+    transport activity of single human muscle fibres. Biochem J 224:         28–33, 1988.
+    215–225, 1984.                                                       45. Tucek S, Kostirova D, and Gutmann E. Testosterone-in-
+40. Scarpelli M, Belardinell IR, and Provinciali L. Quantitative             duced changes of choline acetyl-transferase and cholinesterase
+    analysis of changes occurring in muscle vastus lateralis in pa-          activities in rat levator ani muscle. J Neurol Sci 27: 353–362,
+    tients with heart failure after low intensity training. Anal Quant       1976.
+    Cytol Histol 21: 374–380, 1999.                                      46. Wang C, Swerdloff RS, Iranmanesh A, Dobs A, Snyder PJ,
+                                                                             Cunningham G, Matsomoto AM, Weber T, and Berman N.
+41. Sinha Hikim AP, Bartke A, and Russell L. Morphometric
+                                                                             Transdermal testosterone gel improves sexual function, mood,
+    studies on hamster testis in gonadally active and inactive states:
+                                                                             muscle strength, and body composition parameters in hypogo-
+    light microscope findings. Biol Reprod 39: 1225–1237, 1988.              nadal men. J Clin Endocrinol Metab 85: 2839–2853, 2000.
+42. Sinha-Hikim I, Arver S, Beall G, Shen S, Guerrero M,                 47. Weibel ER, Taylor CR, and Hoppler H. The concept of sy-
+    Satler F, Shikuma C, Nelson J, Landgren BM, Mazer N,                     morphosis: a testable hypothesis of structure-function relation-
+    and Bhasin S. The use of a sensitive equilibrium dialy-                  ship. Proc Natl Acad Sci USA 88: 10357–10361, 1991.
+    sis method for the measurement of free testosterone levels           48. Wright C, Haddad F, Qin AX, and Baldwin KM. Analysis of
+    in healthy, cycling women and in human immunodeficiency                  myosin heavy chain mRNA expression by RT-PCR. J Appl
+    virus infected men. J Clin Endocrinol Metab 83: 1312–1318,               Physiol 83: 1389–1396, 1997.
+    1998.                                                                49. Young NR, Baker HWG, Liu G, and Seeman E. Body com-
+43. Snyder PJ, Peachey H, Berlin JA, Hannoush P, Haddad G,                   position and muscle strength in healthy men receiving testoster-
+    Dlewati A, Santanna J, Loh L, Lenrow DA, Holmes JH,                      one enanthate for contraception. J Clin Endocrinol Metab 77:
+    Kapoor SC, Atkinson LE, and Strom BL. Effects of testos-                 1028–1032, 1993.
+
+
+
+
+                                       AJP-Endocrinol Metab • VOL 283 • JULY 2002 • www.ajpendo.org
+
+
+
+              Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+

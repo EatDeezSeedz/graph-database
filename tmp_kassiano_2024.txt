@@ -1,0 +1,458 @@
+                                                                                                        Kassiano, W., Kunevaliki, G., Costa, B., Nunes, J. P., Castro-E-Souza, P., Tricoli, I., Ribeiro, A.
+                                                                                                      S., & Cyrino, E. S. (2024). Addition of The Barbell Hip Thrust Elicits Greater Increases in Gluteus
+                                                                                                                                                Maximus Muscle Thickness in Untrained Young Women.
+                                                                                                                                                      International Journal of Strength and Conditioning
+                                                                                                                                                                    https://doi.org/10.47206/ijsc.v4i1.284
+
+
+
+
+Addition of The Barbell
+Hip Thrust Elicits Greater
+Increases in Gluteus
+Maximus Muscle Thickness
+in Untrained Young Women
+Witalo Kassiano1, Gabriel Kunevaliki1, Bruna Costa1, João Pedro Nunes1,2, Pâmela Castro-E-Souza1, Ian
+Tricoli1, Alex S. Ribeiro3 and Edilson S. Cyrino1
+1
+  Metabolism, Nutrition and Exercise Laboratory, Physical Education and Sport Center, State University of Londrina,
+Londrina, PR, Brazil, 2School of Medical and Health Sciences, Edith Cowan University, Joondalup, Australia,
+3
+  University of Coimbra, FCDEF, Coimbra, Portugal
+
+ABSTRACT                                                                            Keywords: resistance training, muscle thickness,
+                                                                                    ultrasound, exercise selection.
+Background: Although the barbell hip thrust exercise
+is widely performed in resistance training programs,
+evidence on its effectiveness to inducing glutes                                    INTRODUCTION
+muscle hypertrophy is limited. Therefore, this study
+aimed to compare the effects of performing 45º leg                                  Superior muscle hypertrophy is frequently observed
+press and stiff-leg deadlift (L-S) vs. performing 45º                               when performing higher resistance training
+leg press, stiff-leg deadlift plus barbell hip thrust                               volumes (24); training volume herein operationally
+(L-S-BHT) on gluteus maximus muscle size.                                           defined as the number of sets per muscle group
+Methods: The participants were 33 untrained young                                   performed to or near task failure (1). Based on this,
+women randomly separated into 2 resistance                                          it is reasonable that increasing resistance training
+training groups: L-S (n = 15) and L-S-BHT (n = 18).                                 volume by adding sets of different resistance
+The muscle thickness of the gluteus maximus was                                     exercises to target a specific musculature would
+assessed through B-mode ultrasound before and                                       enhance muscle growth—e.g., performing barbell
+after 30 resistance training sessions. The resistance                               hip thrust in addition to leg press to increase gluteus
+training program was carried out over 10 weeks, 3                                   maximus hypertrophy. However, controversy exists
+days week-1.                                                                        as to whether this strategy in fact elicits superior
+Results: Both training regimens elicited significant                                increases in muscle hypertrophy (23). For instance,
+increases in gluteus maximus muscle thickness                                       in a recent meta-analysis, Rosa et al. (23) reported
+from pre to post-training (P < 0.001). Notably, L-S-                                trivial differences when comparing multi-joint versus
+BHT had superior augments (L-S-BHT = +9.3% vs.                                      multi-joint plus single joint resistance exercises,
+L-S = +6.0%, P = 0.016).                                                            even with greater number of sets for multi-joint
+Conclusion: The current results suggest that                                        and single-joint condition. Importantly, only seven
+performing barbell hip thrust, in addition to 45º                                   studies met the inclusion criteria, leading to a
+leg press and stiff-leg deadlift, enhances muscle                                   relatively imprecise estimate of the magnitude of
+hypertrophy of the gluteus maximus compared to                                      the effect (23). Thus, additional studies on the topic
+performing exclusively 45º leg press and stiff-leg                                  are needed to draw stronger general inferences;
+deadlift.                                                                           especially regarding the hypertrophic effects of
+                                                                                    exercise addition on other muscles, such as the
+
+                                         Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                              open access article distributed under the terms and conditions of the
+                                  Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                 Addition of The Barbell Hip Thrust Elicits Greater Increases in
+International Journal of Strength and Conditioning. 2024                                       Gluteus Maximus Muscle Thickness in Untrained Young Women
+
+
+gluteus maximus.                                                                          subjects were instructed to maintain their routines
+                                                                                          and habitual eating habits. This investigation was
+The gluteus maximus is a large muscle primarily                                           conducted according to the Declaration of Helsinki
+responsible for hip extension (27), which plays an                                        and the project was approved by the Institution’s
+important role in improving performance, health,                                          Ethics Committee of State University of Londrina
+and aesthetics (19). In this regard, practitioners and                                    (protocol number: 3.930.966). All subjects were
+athletes have been interested in how to optimize                                          informed of the inherent risks and benefits and
+adaptations in this muscle. Exercises often included                                      signed an informed consent form.
+in hypertrophy-oriented training programs are
+squat, lunge, 45º leg press, stiff-leg deadlift, and                                      Study Design
+barbell hip thrust (4, 5, 8, 13). There are indications
+that squat, and leg press effectively induce gluteus                                      This was a between-group repeated measures
+maximus hypertrophy (14, 22). In contrast, findings                                       design in which subjects were randomly allocated
+are limited for the other exercises, as is the case                                       to one of two possible resistance training regimens:
+for the barbell hip thrust. Notably, the gluteus                                          45º leg press and stiff-leg deadlift (L-S) or 45º
+maximus excitation is superior during the barbell                                         leg press, stiff-leg deadlift plus barbell hip thrust
+hip thrust compared to the squat (5, 7). However,                                         (L-S-BHT). This study is part of a larger research
+muscle excitation, per se, may not correspond to                                          project designed to analyze the effects of a whole-
+an exercise’s hypertrophic potential (26). Thus, the                                      body resistance training protocol on untrained
+efficacy of the barbell hip thrust in inducing gluteus                                    young women. In this sense, subjects performed
+maximus hypertrophy remains to be determined.                                             lat pull-down and bench press in addition to the
+Since resistance exercises may stimulate the same                                         lower-limbs exercises (same training protocol for
+muscle differently, it is possible to speculate that                                      both groups). Before the training intervention,
+their combination would optimize the hypertrophy of                                       subjects performed 2 weeks of familiarization (6
+specific targeted musculature. Thus, we compared                                          training sessions interspersed by 48 hours) with the
+the effects of performing exclusively leg press                                           specific resistance exercises. Seventy-two hours
+and stiff-leg deadlift vs. leg press, stiff-leg deadlift                                  after the final familiarization session, the muscle
+plus barbell hip thrust on gluteus maximus muscle                                         thickness of the gluteus maximus was measured.
+thickness. We hypothesized that leg press and                                             The resistance training period was initiated, with
+stiff-leg dead-lift would induce gluteus maximus                                          groups performing their respective training regimen
+hypertrophy but adding barbell hip thrust would                                           (i.e., L-S or L-S-BHT). The resistance training
+further enhance the gains.                                                                program was performed three times a week, for
+                                                                                          10 weeks, totalling 30 training sessions. Each
+                                                                                          training session was composed of 2 sets of 10–15
+MATERIALS AND METHODS                                                                     repetitions maximum in each specific resistance
+                                                                                          exercise. Reassessments of muscle thickness were
+Participants                                                                              performed at an interval of 72–120 hours after the
+                                                                                          final training session (session 30).
+This study’s sample comprised a total of 33 healthy
+untrained young women (L-S, n = 15 [22.6 ± 3.7                                            Gluteus Maximus Muscle Thickness Measurement
+years, 59.4 ± 7.6 kg, 163.2 ± 5.7 cm]; L-S-BHT,                                           The muscle thickness measurements of the gluteus
+n = 18 [22.3 ± 4.4 years, 60.0 ± 13.9 kg, 161.9                                           maximus were taken via B-mode ultrasound (Logiq
+± 5.3 cm]). Volunteers were contacted through                                             P5, GE Healthcare, Chicago, IL, USA) with a 7.5-
+dissemination on social media and folders on                                              MHz linear probe (8L-RS; GE Healthcare). Before
+the campus of the local University. All volunteers                                        starting the assessment, subjects were placed
+underwent a clinical anamnesis and answered the                                           in a prone position on a stretcher and rested for
+physical activity readiness questionnaire (PAR-Q).                                        10 minutes before the start of the assessment.
+The inclusion criteria were not responding “yes”                                          Gluteus maximus muscle thickness measurement
+to one or more PAR-Q questions; not having                                                was performed at 50% of the distance between
+osteoarticular problems that could compromise the                                         the sacral vertebra and the greater trochanter of
+performance of the resistance training program;                                           the femur. A generous quantity of water-soluble
+not being a user of anabolic steroids and/or dietary                                      transmission gel was applied over the assessed
+supplements (self-reported information); and not                                          muscle, without compressing the skin. Two
+being engaged in resistance training for at least                                         assessors, blinded to group allocation, participated
+6 months before starting the participation. All                                           in measurement procedures, so the first handled
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                     2
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                  Kassiano, W., Kunevaliki, G., Costa, B., Nunes, J. P., Castro-E-
+International Journal of Strength and Conditioning. 2024                                                      Souza, P., Tricoli, I., Ribeiro, A. S., & Cyrino, E. S.
+
+
+the probe, and the second was responsible for                                             press was performed in a specific device (Ipi-
+freezing the images. When the image quality                                               ranga®, Presidente Prudente, SP, Brazil) with
+was deemed to be satisfactory, it was stored and                                          weight plates. The stiff-leg deadlift was performed
+analyzed using the Image J software, version 1.46                                         with barbell and weight plates. During the 45º leg
+(National Institute of Health, Bethesda, MD, USA).                                        press and stiff-leg deadlift, the feet were positioned
+The same evaluators performed baseline and post-                                          between hip- and shoulder-width apart, with the
+training measurements. The depth of the images                                            toes pointed slightly outward (9). The hip thrust was
+was adjusted according to the thickness of the                                            performed with barbell and weight plates, having
+muscle of each subject and ranged between 10.0                                            the subjects’ upper backs on a bench. The barbell
+and 14.0 cm. All configuration parameters were                                            was padded with a thick bar pad and placed over
+kept constant (frequency = 7.5-MHz, dynamic                                               the subjects’ hips. During the barbell hip thrust,
+range = 75 dB, gain = 49 dB). Images were saved                                           subjects’ feet were slightly wider than shoulder-
+for posterior analysis in a blinded fashion, with the                                     width apart, with toes pointed slightly outward
+researcher unaware of the subjects’ names and their                                       (5). Representative photos of the initial and final
+training group. Representative muscle thickness of                                        phase of each lower limb exercise are presented
+gluteus maximus from one subject is presented in                                          in Figure 2. These exercises were interspersed
+Figure 1. Twelve subjects were randomly chosen                                            by lat pull-down and bench press in the following
+to be evaluated on two days separated by 72                                               order: 45º leg press, lat pull-down, stiff-leg deadlift,
+hours to determine the reliability of the muscle                                          bench press, and barbell hip thrust (only the L-S-
+thickness measurements. The intraclass correlation                                        BHT group performed it). The resistance exercises
+coefficient for the gluteus maximus was 0.975; the                                        were performed in 2 sets of 10–15 repetitions,
+coefficient of variation was 1.9%; the standard error                                     executed until momentary concentric failure (i.e.,
+of measurement was 0.073 cm.                                                              the point where, despite trying to do so, subjects
+                                                                                          cannot complete a concentric muscle action) (25).
+Resistance Training Program                                                               Whenever the subjects reached 15 repetitions in a
+                                                                                          given set and reported that they could perform ≥
+The resistance training program was performed                                             1 repetition, the weight was increased by 5–10%
+thrice weekly (Mondays, Wednesdays, and Fri-                                              for the next set to ensure that the participants
+days) in the afternoon for 10 weeks. The 45º leg                                          kept performing the sets to (or very near to) failure
+
+
+
+
+                   Figure 1. Typical ultrasound image of gluteus maximus.
+                   Note. Image of a participant with the following characteristics: body mass = 58.6
+                   kg, height = 166.0 cm, body mass index = 21.2 kg/m2.
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                          3
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                 Addition of The Barbell Hip Thrust Elicits Greater Increases in
+International Journal of Strength and Conditioning. 2024                                       Gluteus Maximus Muscle Thickness in Untrained Young Women
+
+
+
+
+Figure 2. Illustrative photos of 45º leg press (A), stiff-leg deadlift (B), and barbell hip thrust (C) exercises.
+
+
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                     4
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                  Kassiano, W., Kunevaliki, G., Costa, B., Nunes, J. P., Castro-E-
+International Journal of Strength and Conditioning. 2024                                                      Souza, P., Tricoli, I., Ribeiro, A. S., & Cyrino, E. S.
+
+
+in the established repetition range. A 2-min rest                                         for L-S (meandiff = 0.25 cm [95% CI: 0.14; 0.35],
+interval was given between sets and 3-min between                                         P < 0.01) and L-S-BHT (meandiff = 0.40 cm [95%
+exercises. Exercises were performed in a tempo of                                         CI: 0.31; 0.49], P < 0.01). A significant group effect
+1/1/2/0 (concentric, concentric-eccentric transition,                                     was observed for the changes in gluteus maximus
+eccentric, and eccentric-concentric transition                                            muscle thickness (F = 6.45; P = 0.01), indicating
+phases, respectively). Subjects performed all                                             greater increases for L-S-BHT (between-groups
+training sessions under specialized supervision                                           meandiff = 0.15 cm [95% CI: 0.03; 0.27]). Pre and
+(1:2 participant: supervisor ratio) to ensure proper                                      post-training muscle thickness were as follows: L-S
+technique and safety.                                                                     = 4.26 ± 0.46 and 4.51 ± 0.49; L-S-BHT = 4.40 ±
+                                                                                          0.50 and 4.80 ± 0.51. Figure 3 shows the individual
+Statistical Analysis                                                                      relative changes in the gluteus maximus muscle
+                                                                                          thickness (L-S = +6.0%, ES = 0.52; L-S-BHT =
+Data distribution and variance homogeneity were                                           +9.3%, ES = 0.83).
+verified through Shapiro-Wilk’s and Levene’s tests,
+respectively. The independent t-test was used to                                          Repetitions and load
+compare the baseline characteristics and training
+attendance between groups. The effects of different                                       Table 1 shows the number of repetitions and weight
+resistance training programs (L-S vs. L-S-BHT) on                                         in the first and last training session.
+gluteus maximus muscle thickness were compared
+using an analysis of covariance (ANCOVA) of the
+raw difference between baseline and post-training                                         DISCUSSION
+values with the baseline score as a covariate.
+Bonferroni’s post hoc test was used to identify the                                       The purpose of this study was to examine the
+differences between pre and post-training raw data
+when the F-ratio was significant. The P values for
+group comparisons were also presented. The effect
+of time was interpreted from the 95% confidence
+interval (95% CI) of the mean difference pre to post-
+training (i.e., there was a significant difference when
+the inferior and superior confidence limits did not
+cross zero). The effect size (ES) was calculated as
+post-training group mean minus the pre-training
+mean, divided by the groups-pooled pre-training
+standard deviation (3). For all statistical analyses,
+significance was accepted at P < 0.05. The data
+were stored and analyzed using Jeffreys’s Amazing
+Statistics Program (JASP) software (version 0.14.1,
+Amsterdam, NL). The data are presented as mean
+and standard deviations.
+
+
+RESULTS
+
+Baseline and training attendance comparisons
+
+No significant differences were found between
+groups at baseline for any of the compared variables
+(P ≥ 0.41). Training session attendance was 88.2 ±
+5.0% for the L-S, and 89.0 ± 5.4% for the L-S-BHT,                                        Figure 3. Changes from pre to posttraining period for glu-
+with no difference between the groups (P = 0.64).                                         teus maximus muscle thickness.
+                                                                                          Note. †P < 0.05 vs. L-S. The horizontal lines represent
+Muscle thickness of gluteus maximus                                                       mean and 95% confidence intervals, whereas each circle
+                                                                                          represents individual responses. L-S = 45º leg press and
+                                                                                          stiff-leg deadlift (n = 15); L-S-BHT = 45º leg press, stiff-leg
+There was significant increase in muscle thickness
+of the gluteus maximus from pre to post-training                                          deadlift plus barbell hip thrust (n = 18).
+
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                          5
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                 Addition of The Barbell Hip Thrust Elicits Greater Increases in
+International Journal of Strength and Conditioning. 2024                                       Gluteus Maximus Muscle Thickness in Untrained Young Women
+
+Table 1. Means and standard deviation of pre (first-session) and post-intervention (last session) repetitions and load.
+                                        45º leg press                                           Stiff-leg deadlift                         Barbell hip thrust
+                                       Pre         Post                                         Pre          Post                           Pre         Post
+                                                  105.8 ±
+                   Load (kg)       65.3 ± 32.8                                           17.3 ± 4.4                   29.2 ± 6.2            ***           ***
+ L-S                                               39.5
+                    Reps (n)       12.1 ± 2.1 14.0 ± 1.4                                 14.1 ± 1.7                   14.3 ± 1.2            ***           ***
+                                                  105.9 ±
+                   Load (kg)       66.7 ± 30.8                                           15.3 ± 3.3                   29.4 ± 5.1         27.0 ± 5.6   64.9 ± 15.4
+ L-S-BHT                                           36.9
+                    Reps (n)       12.8 ± 2.4 14.2 ± 1.0                                 14.3 ± 1.3                   14.0 ± 1.2         13.8 ± 1.3   14.8 ± 1.6
+Note. We averaged across sets; the values represent the average per set within session. L-S = 45º leg press and
+stiff-leg deadlift; L-S-BHT = 45º leg press, stiff-leg deadlift plus barbell hip thrust.
+
+effects of two different resistance training regimens                                     gluteus maximus is at longer lengths (i.e., at the
+(L-S and L-S-BHT) on changes in muscle thickness                                          start of the concentric phase). Thus, it is reasonable
+of the gluteus maximus in untrained young women.                                          to suggest that the results observed in the present
+The main finding of this study was that adding                                            investigation—as well as in previous studies with
+a hip-focused resistance exercise to a lower-                                             leg press (22) and squat (14)—may be attributable
+limb resistance training regime influenced the                                            to the combination of high peak forces imposed
+magnitude of increases in muscle thickness of the                                         while the gluteus maximus is more elongated.
+gluteus maximus. Specifically, both training groups
+increased muscle thickness of the gluteus maximus                                         Indeed, growing evidence suggests that training
+in response to 10 weeks of regimented resistance                                          specific muscles at longer muscle lengths optimizes
+training. Importantly, the L-S-BHT (i.e., performing                                      hypertrophy (10, 16). For example, a previous study
+45º leg press, stiff-leg deadlift plus barbell hip thrust)                                observed that full squat training which trains gluteus
+elicited greater gains on the gluteus maximus size                                        maximus at longer lengths was more effective in
+compared to the L-S (i.e., performing exclusively                                         inducing gluteus maximus hypertrophy than half
+45º leg press and stiff-leg deadlift). Therefore,                                         squat training in non-resistance trained individuals
+our hypotheses that a) performing exclusively 45º                                         (14). Among the potential explanations for these
+leg press and stiff-leg deadlift effectively induces                                      findings, one that stands out is based on the length-
+gluteus maximus hypertrophy and b) adding barbell                                         tension relationship (11, 27). Specifically, muscles
+hip thrust would elicit greater gains were confirmed.                                     that have fibers that work on the descending
+Potential mechanisms and explanations for our                                             limb of the length-tension curve may experience
+results are presented following.                                                          greater overall mechanical tension (due to the sum
+                                                                                          of forces from the active and passive elements)
+The first finding of the present study was that                                           when trained at longer muscle lengths (15) and,
+exclusively performing the 45º leg press and stiff-                                       as a consequence, experience stretch-mediated
+leg deadlift was effective in inducing muscle                                             hypertrophy (11, 20). This conceivably helps to
+hypertrophy of the gluteus maximus. Regarding the                                         explain, at least in part, the muscle hypertrophy of
+45º leg press, our results are in line with a previous                                    the gluteus maximus observed in the group that
+study that observed hypertrophy of the gluteus                                            performed exclusively 45º leg press and stiff-leg
+maximus after 8 weeks of leg press training in non-                                       deadlift. However, it is important to note that, to
+resistance trained young men (22). Given that the                                         the best of our knowledge, the working sarcomere
+glutes are primarily hip extensors, it is probably one                                    length ranges of the gluteus maximus have not yet
+of the main muscles to contribute during the stiff-                                       been measured (21). Therefore, this explanation
+leg deadlift (17). This corroborates with the findings                                    needs investigations to verify its support with
+suggesting similar muscle excitation (measured by                                         empirical data.
+surface electromyography [sEMG]) of the gluteus
+maximus during the stiff-leg deadlift and squat (17).                                     The second finding of the present study was that
+Thus, it is plausible to suggest that 45º leg press                                       adding the barbell hip thrust enhanced muscle
+and stiff-leg deadlift acted synergistically to elicit                                    growth of the gluteus maximus. Notably, sEMG
+gluteus maximus hypertrophy. Interestingly, based                                         studies have reported heightened muscle excitation
+on the greater perpendicular distance between the                                         of the gluteus maximus during the barbell hip thrust,
+axis of rotation and the line of force, both exercises                                    comparable to or greater than other exercises such
+likely impose peak forces in the position where the                                       as squats (5, 7). Importantly, concerns have arisen
+
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                           6
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                  Kassiano, W., Kunevaliki, G., Costa, B., Nunes, J. P., Castro-E-
+International Journal of Strength and Conditioning. 2024                                                      Souza, P., Tricoli, I., Ribeiro, A. S., & Cyrino, E. S.
+
+
+regarding the effectiveness of sEMG amplitude as                                          45º leg press, and stiff-leg deadlift, plus barbell hip
+a valid indicator of the hypertrophic potential of                                        thrust. This characteristic of the training program
+an exercise (26); denoting the importance of long-                                        prevents us from inferring how much each exercise,
+term investigations. For example, a muscle may                                            in particular, contributed to the hypertrophy
+exhibit greater sEMG amplitude at shortened than                                          observed in the present study. Especially when
+at lengthened muscle length (26), however greater                                         trying to determine how much hypertrophy was
+hypertrophy is often observed when muscles                                                induced by the 45º leg press and the stiff leg
+are trained at longer muscle lengths (11). In this                                        deadlift individually. Therefore, future studies should
+sense, our study adds an important finding to the                                         compare the hypertrophic effects of these exercises
+literature when presenting the hypertrophic effects                                       separately. It is important to note that hypertrophy-
+of performing the barbell hip thrust. Regarding the                                       oriented resistance training programs are commonly
+potential explanations for the increased hypertrophy                                      comprised of a variety of exercises (8, 12). This
+with the addition of the barbell hip thrust, we                                           highlights the external validity of our study. Second,
+highlight exercise biomechanics. The barbell hip                                          we measured the changes in muscle thickness at
+thrust imposes high forces throughout the entire                                          one site of the gluteus maximus to express muscle
+lifting phase (2, 6) with substantial peak forces at                                      hypertrophy; a more valid substitute would be
+the full hip extension. Interestingly, the gluteus                                        the change in total muscle volume. Furthermore,
+maximus has a greater internal moment arm length                                          given that the gluteus has different subdivisions,
+with increasing proximity to full hip extension (27).                                     measurements in different regions could indicate
+Therefore, the resistance profile of the barbell hip                                      whether the hypertrophy could be regional. Finally,
+thrust fits with the ability of the gluteus maximus                                       we measured exclusively untrained young women.
+to produce force and contribute to hip extension                                          Thus, future studies should consider testing subjects
+torque. This may have enhanced the stimulus for                                           of different ages, sexes, and training statuses.
+the glutes and led to the noted greater hypertrophy
+for the gluteus maximus.
+                                                                                          CONCLUSION
+This fit between the resistance profile of the
+barbell hip thrust and the contribution capacity                                          Our findings highlight that adding a hip-focused
+of the gluteus maximus is important because                                               exercise influences the magnitude of gluteus
+other muscles (such as hamstrings, and adductor                                           maximus muscle hypertrophy in response to
+magnus) play an important role during the task of                                         regimented resistance training. More specifically, in
+hip extension (18, 27). Notably, the contribution of                                      the present study, both regimens—i.e., performing
+the hamstrings and adductor magnus is greater                                             exclusively 45º leg press and stiff-leg deadlift
+with increased hip flexion and lower with increased                                       and performing 45º leg press, stiff-leg deadlift,
+hip extension (18, 27). Therefore, it is likely that                                      plus barbell hip thrust—were effective in eliciting
+during the performance of the barbell hip thrust, the                                     gluteus maximus muscle hypertrophy after 10
+gluteus maximus plays a greater role than during                                          weeks of resistance training in untrained young
+other exercises involving peak forces with increased                                      women. Notably, muscle size growth was greater
+hip flexion (e.g., leg press, stiff-leg deadlift, squat,                                  with the addition of the barbell hip thrust. From a
+etc.). Moreover, it is interesting to note that in the top                                practical perspective, strength and conditioning
+portion of the barbell hip thrust, the gluteus maximus                                    professionals and practitioners should consider the
+is at shorter muscle lengths. Of note, this factor                                        inclusion of barbell hip thrust in gluteus maximus
+conflicts with the previously raised hypothesis that                                      hypertrophy-orientated training program.
+the gluteus maximus fibers work on the descending
+limb of the length-tension curve. In this sense, it is
+plausible to suggest that the gluteus maximus has                                         CONFLICTS OF INTEREST
+fibers that work on the descending limb as well as
+in the plateau portion (21). This conceivably helps                                       The authors certify that there is no conflict of interest
+to reconcile the fact that the gluteus maximus                                            with any financial organization regarding the
+hypertrophies in longer and shorter lengths.                                              material discussed in the manuscript.
+
+Our study has limitations that need to be addressed.
+First, in both groups, the subjects performed a                                           FUNDING
+combination of exercises; for the L-S group, 45º leg
+press and stiff-leg deadlift, for the L-S-BHT group,                                      The authors report no involvement in the research
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                          7
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                 Addition of The Barbell Hip Thrust Elicits Greater Increases in
+International Journal of Strength and Conditioning. 2024                                       Gluteus Maximus Muscle Thickness in Untrained Young Women
+
+
+by the sponsor that could have influenced the                                                 Res 37: 1746-1753, 2023.
+outcome of this work.                                                                     11. Kassiano W, Costa B, Nunes JP, Ribeiro AS,
+                                                                                              Schoenfeld BJ, and Cyrino ES. Which ROMs lead to
+                                                                                              Rome? A systematic review of the effects of range of
+                                                                                              motion on muscle hypertrophy. J Strength Cond Res
+AUTHORS’ CONTRIBUTIONS
+                                                                                              37: 1135-1144, 2023.
+                                                                                          12. Kassiano W, Nunes JP, Costa B, Ribeiro AS,
+Author WK and author JPN have given substantial                                               Schoenfeld BJ, and Cyrino ES. Does varying
+contributions to the conception or the design of the                                          resistance exercises promote superior muscle
+manuscript, all authors contributed to acquisition,                                           hypertrophy and strength gains? a systematic review.
+analysis, and interpretation of the data. All authors                                         J Strength Cond Res 36: 1753-1762, 2022.
+have participated to drafting the manuscript and                                          13. Kawama R, Takahashi K, and Wakahara T. Effect of
+revised it critically. All authors read and approved                                          hip joint position on electromyographic activity of the
+the final version of the manuscript.                                                          individual hamstring muscles during stiff-leg deadlift.
+                                                                                              J Strength Cond Res 35: S38-s43, 2021.
+                                                                                          14. Kubo K, Ikebukuro T, and Yata H. Effects of squat
+                                                                                              training with different depths on lower limb muscle
+REFERENCES                                                                                    volumes. Eur J Appl Physiol 119: 1933-1942, 2019.
+                                                                                          15. Lieber RL and Ward SR. Skeletal muscle design to
+1. Baz-Valle E, Fontes-Villalba M, and Santos-Concejero                                       meet functional demands. Philos Trans R Soc Lond B
+    J. Total number of sets as a training volume                                              Biol Sci 366: 1466-1476, 2011.
+    quantification method for muscle hypertrophy: a                                       16. Maeo S, Wu Y, Huang M, Sakurai H, Kusagawa
+    systematic review. J Strength Cond Res 35: 870-878,                                       Y, Sugiyama T, Kanehisa H, and Isaka T. Triceps
+    2018.                                                                                     brachii hypertrophy is substantially greater after
+2. Brazil A, Needham L, Palmer JL, and Bezodis IN. A                                          elbow extension training performed in the overhead
+    comprehensive biomechanical analysis of the barbell                                       versus neutral arm position. Eur J Sport Sci 23: 1240-
+    hip thrust. PLoS One 16: e0249307, 2021.                                                  1250, 2023.
+3. Cohen J. A power primer. Psychol Bull 112: 155-159,                                    17. McCurdy K, Walker J, and Yuen D. Gluteus maximus
+    1992.                                                                                     and hamstring activation during selected weight-
+4. Contreras B, Cronin J, and Schoenfeld BJ. Barbell                                          bearing resistance exercises. J Strength Cond Res
+    hip thrust. Strength Cond J 33: 58-61, 2011.                                              32: 594-601, 2018.
+5. Contreras B, Vigotsky AD, Schoenfeld BJ,                                               18. Neumann DA. Kinesiology of the hip: a focus on
+    Beardsley C, and Cronin J. A comparison of gluteus                                        muscular actions. J Orthop Sports Phys Ther 40: 82-
+    maximus, biceps femoris, and vastus lateralis                                             94, 2010.
+    electromyographic activity in the back squat and                                      19. Niinimäki S, Härkönen L, Nikander R, Abe S, Knüsel
+    barbell hip thrust exercises. J Appl Biomech 31: 452-                                     C, and Sievänen H. The cross-sectional area of the
+    458, 2015.                                                                                gluteus maximus muscle varies according to habitual
+6. Contreras B, Vigotsky AD, Schoenfeld BJ,                                                   exercise loading: Implications for activity-related and
+    Beardsley C, and Cronin J. A comparison of gluteus                                        evolutionary studies. Homo 67: 125-137, 2016.
+    maximus, biceps femoris, and vastus lateralis                                         20. Nishikawa K. Titin: a tunable spring in active muscle.
+    electromyography amplitude for the barbell, band,                                         Physiology (Bethesda) 35: 209-217, 2020.
+    and american hip thrust variations. J Appl Biomech                                    21. Ottinger CR, Sharp MH, Stefan MW, Gheith RH, de
+    32: 254-260, 2016.                                                                        la Espriella F, and Wilson JM. Muscle hypertrophy
+7. Delgado J, Drinkwater EJ, Banyard HG, Haff GG,                                             response to range of motion in strength training:
+    and Nosaka K. Comparison between back squat,                                              a novel approach to understanding the findings.
+    romanian deadlift, and barbell hip thrust for leg and                                     Strength Cond J 45: 162-176, 2023.
+    hip muscle activities during hip extension. J Strength                                22. Popov DV, Swirkun DV, Netreba AI, Tarasova OS,
+    Cond Res 33: 2595-2601, 2019.                                                             Prostova AB, Larina IM, Borovik AS, and Vinogradova
+8. Hackett DA. Training, supplementation, and                                                 OL. Hormonal adaptation determines the increase
+    pharmacological practices of competitive male                                             in muscle mass and strength during low-intensity
+    bodybuilders across training phases. J Strength                                           strength training without relaxation. Human Physiol
+    Cond Res 36: 963-970, 2022.                                                               32: 609-614, 2006.
+9. Haff GG and Triplett NT. Essentials of strength                                        23. Rosa A, Vazquez G, Grgic J, Balachandran AT,
+    training and conditioning. 4th ed. Champaign, IL:                                         Orazem J, and Schoenfeld BJ. Hypertrophic effects
+    Human kinetics, 2015.                                                                     of single- versus multi-joint exercise of the limb
+10. Kassiano W, Costa B, Kunevaliki G, Soares D,                                              muscles: a systematic review and meta-analysis.
+    Zacarias G, Manske I, Takaki Y, Ruggiero MF,                                              Strength Cond J 45: 49-57, 2023.
+    Stavinski N, Francsuel J, Tricoli I, Carneiro MAS,                                    24. Schoenfeld BJ, Ogborn D, and Krieger JW. Dose-
+    and Cyrino ES. Greater gastrocnemius muscle                                               response relationship between weekly resistance
+    hypertrophy after partial range of motion training                                        training volume and increases in muscle mass: a
+    performed at long muscle lengths. J Strength Cond
+
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                     8
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+                                                                                                  Kassiano, W., Kunevaliki, G., Costa, B., Nunes, J. P., Castro-E-
+International Journal of Strength and Conditioning. 2024                                                      Souza, P., Tricoli, I., Ribeiro, A. S., & Cyrino, E. S.
+
+
+    systematic review and meta-analysis. J Sports Sci
+    35: 1073-1082, 2017.
+25. Steele J, Fisher J, Giessing J, and Gentil P. Clarity in
+    reporting terminology and definitions of set endpoints
+    in resistance training. Muscle Nerve 56: 368-374,
+    2017.
+26. Vigotsky AD, Halperin I, Trajano GS, and Vieira TM.
+    Longing for a longitudinal proxy: acutely measured
+    surface EMG amplitude is not a validated predictor of
+    muscle hypertrophy. Sports Med 52: 193-199, 2022.
+27. Ward SR, Winters TM, and Blemker SS. The
+    architectural design of the gluteal muscle group:
+    implications for movement and rehabilitation. J
+    Orthop Sports Phys Ther 40: 95-102, 2010.
+
+
+
+
+                                               Copyright: © 2024 by the authors. Licensee IUSCA, London, UK. This article is an
+                                                    open access article distributed under the terms and conditions of the                                          9
+                                        Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/).
+

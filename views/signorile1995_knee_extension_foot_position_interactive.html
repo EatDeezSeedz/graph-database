@@ -15,7 +15,7 @@
       .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
       .btn{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px;cursor:pointer}
       .btn:hover{background:var(--btnHover)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(260px,28vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -158,8 +158,9 @@
       btnReset.addEventListener('click',()=>{ visible={inward:true,forward:true,outward:true}; fit(); renderLegend(); });
       btnShowAll.addEventListener('click',()=>{ visible={inward:true,forward:true,outward:true}; fit(); renderLegend(); });
       btnHideAll.addEventListener('click',()=>{ visible={inward:false,forward:false,outward:false}; fit(); renderLegend(); });
-      window.addEventListener('resize',resize);
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
       fit(); renderLegend(); resize();
     </script>
   </body>
 </html>
+

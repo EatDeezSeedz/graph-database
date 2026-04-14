@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Worrell et al. (2001) - Gluteus maximus hip extension activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:260px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(260px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(48dvh,calc(100dvh - 220px));min-height:300px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:340px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh)}.stage{order:1;min-height:clamp(260px,48dvh,400px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Worrell et al. (2001) - Gluteus maximus hip extension activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const HIP_ANGLES=['0 deg','30 deg','60 deg','90 deg'];
+      const SERIES_META={
+        emg:{label:'Gluteus maximus EMG',color:'#60a5fa',note:'Normalized MVIC EMG was highest near hip extension and fell as the hip moved into deeper flexion.'},
+        torque:{label:'Hip extension torque',color:'#f97316',note:'Normalized hip extension torque rose strongly with hip flexion, peaking at 90 degrees.'}
+      };
+      const MODES={
+        emg:{
+          label:'Glute max EMG',
+          subtitle:'Exact Table 4 normalized gluteus maximus EMG during maximal isometric hip extension at four hip angles.',
+          hint:'This is the direct activation result for the glute tab: gluteus maximus EMG was highest at 0 degrees and lowest at 90 degrees, even though torque peaked at 90 degrees.',
+          overlay:'Bars = normalized glute max EMG',
+          yLabel:'Glute max EMG (% MVIC-EMG)',
+          unit:'% MVIC-EMG',
+          values:[93.8,84.4,80.1,64.3],
+          errors:[10.0,12.6,13.9,20.4]
+        },
+        torque:{
+          label:'Hip extension torque',
+          subtitle:'Exact Table 4 normalized hip extension torque during maximal isometric hip extension at four hip angles.',
+          hint:'Torque showed the opposite angle trend from gluteus maximus EMG, climbing from 36.1% at 0 degrees to 100% at 90 degrees.',
+          overlay:'Bars = normalized hip extension torque',
+          yLabel:'Hip extension torque (% MVIC-torque)',
+          unit:'% MVIC-torque',
+          values:[36.1,57.7,70.7,100.0],
+          errors:[10.1,16.8,12.6,0.0]
+        },
+        contrast:{
+          label:'EMG vs torque contrast',
+          subtitle:'Table 4 activation-versus-output contrast, showing how glute max EMG and hip extension torque move in opposite directions across hip angle.',
+          hint:'This contrast view makes the indirect NMM point easy to see: glute max activation favors the more extended hip, while net hip extension torque favors the flexed hip.',
+          overlay:'Bars = normalized EMG and torque by hip angle',
+          yLabel:'Normalized value (%)',
+          unit:'%',
+          groups:[
+            {key:'emg',values:[93.8,84.4,80.1,64.3]},
+            {key:'torque',values:[36.1,57.7,70.7,100.0]}
+          ]
+        }
+      };
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode='emg',visible={emg:true,torque:true};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function activeKeys(){ return Object.keys(visible).filter(k=>visible[k]); }
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=MODES[mode].subtitle; hint.textContent=MODES[mode].hint; overlay.textContent=MODES[mode].overlay; renderLegend(); resize(); }
+      function fit(){ draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function drawAxes(plot,maxY,yLabel,step){
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        for(let y=0;y<=maxY+0.001;y+=step){ const py=plot.y+plot.h-(y/maxY)*plot.h; ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(`${Math.round(y)}`,plot.x-10,py); }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(yLabel,0,0); ctx.restore();
+      }
+      function drawSingle(cfg){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height;
+        const plot={x:84,y:24,w:Math.max(140,w-116),h:Math.max(140,h-96)};
+        drawAxes(plot,110,cfg.yLabel,20);
+        const width=Math.min(58,(plot.w/HIP_ANGLES.length)*0.45);
+        stage._bars=[];
+        cfg.values.forEach((v,i)=>{
+          const cx=plot.x+((i+0.5)/HIP_ANGLES.length)*plot.w, x=cx-width/2, y=plot.y+plot.h-(v/110)*plot.h, hBar=plot.y+plot.h-y;
+          const color=mode==='emg'?SERIES_META.emg.color:SERIES_META.torque.color;
+          const note=mode==='emg'?SERIES_META.emg.note:SERIES_META.torque.note;
+          ctx.fillStyle=color; ctx.globalAlpha=.92; ctx.fillRect(x,y,width,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,width,hBar);
+          const err=cfg.errors[i];
+          if(err>0){
+            const errTop=plot.y+plot.h-((Math.min(110,v+err))/110)*plot.h, errBot=plot.y+plot.h-((Math.max(0,v-err))/110)*plot.h;
+            ctx.strokeStyle='rgba(229,231,235,.85)'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(cx,errTop); ctx.lineTo(cx,errBot); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(cx-8,errTop); ctx.lineTo(cx+8,errTop); ctx.moveTo(cx-8,errBot); ctx.lineTo(cx+8,errBot); ctx.stroke();
+          }
+          ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(HIP_ANGLES[i],cx,plot.y+plot.h+8);
+          stage._bars.push({bar:{x,y,w:width,h:hBar},label:HIP_ANGLES[i],value:v,error:err,unit:cfg.unit,note});
+        });
+        status.textContent='4 hip angles shown';
+      }
+      function drawContrast(cfg){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height;
+        const plot={x:84,y:24,w:Math.max(140,w-116),h:Math.max(140,h-96)};
+        drawAxes(plot,110,cfg.yLabel,20);
+        stage._bars=[];
+        const groupWidth=plot.w/HIP_ANGLES.length;
+        const barWidth=Math.min(28,groupWidth*0.26);
+        HIP_ANGLES.forEach((angle,i)=>{
+          const center=plot.x+((i+0.5)/HIP_ANGLES.length)*plot.w;
+          cfg.groups.forEach((group,j)=>{
+            if(!visible[group.key]) return;
+            const v=group.values[i];
+            const x=center + (j===0?-barWidth-4:4), y=plot.y+plot.h-(v/110)*plot.h, hBar=plot.y+plot.h-y;
+            const meta=SERIES_META[group.key];
+            ctx.fillStyle=meta.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,barWidth,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,barWidth,hBar);
+            stage._bars.push({bar:{x,y,w:barWidth,h:hBar},label:`${angle} - ${meta.label}`,value:v,unit:cfg.unit,note:meta.note});
+          });
+          ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(angle,center,plot.y+plot.h+8);
+        });
+        status.textContent=`${activeKeys().length} series shown`;
+      }
+      function draw(){ const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return; ctx.clearRect(0,0,w,h); if(mode==='contrast') drawContrast(MODES[mode]); else drawSingle(MODES[mode]); }
+      function renderLegend(){
+        legend.innerHTML='';
+        const keys=mode==='contrast'?['emg','torque']:[mode];
+        keys.forEach(k=>{
+          const meta=SERIES_META[k];
+          const row=document.createElement('div'); row.className='check'+(visible[k]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[k]?'checked':''} /><span class="swatch" style="background:${meta.color}"></span><label>${meta.label}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[k]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[k]=box.checked; draw(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._bars||[]).find(b=>x>=b.bar.x&&x<=b.bar.x+b.bar.w&&y>=b.bar.y&&y<=b.bar.y+b.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=hit.error!=null && hit.error>0
+          ? `<div><strong>${hit.label}</strong></div><div class="muted">${hit.value.toFixed(1)} ${hit.unit}</div><div>SD ${hit.error.toFixed(1)}</div><div>${hit.note}</div>`
+          : `<div><strong>${hit.label}</strong></div><div class="muted">${hit.value.toFixed(1)} ${hit.unit}</div><div>${hit.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

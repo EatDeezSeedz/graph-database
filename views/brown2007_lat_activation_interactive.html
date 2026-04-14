@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brown et al. (2007) - Latissimus dorsi activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(250px,28vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(42dvh,calc(100dvh - 230px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:300px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh)}.stage{order:1;min-height:clamp(260px,46dvh,390px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Brown et al. (2007) - Latissimus dorsi activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle segments</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SEGMENTS=[
+        {key:'l1',name:'Upper lat (L1)',color:'#60a5fa',note:'Upper lat segment; Brown reports it as active in both adduction and extension, with the only small flexion-antagonist value too.'},
+        {key:'l2',name:'Upper-middle lat (L2)',color:'#22c55e',note:'Upper-middle lat segment.'},
+        {key:'l3',name:'Middle lat (L3)',color:'#f59e0b',note:'Middle lat segment; highest extension activation in Brown.'},
+        {key:'l4',name:'Middle-lower lat (L4)',color:'#f472b6',note:'Middle-lower lat segment.'},
+        {key:'l5',name:'Lower lat (L5)',color:'#a78bfa',note:'Lower lat segment.'},
+        {key:'l6',name:'Caudal lat (L6)',color:'#f87171',note:'Most caudal lat segment.'}
+      ];
+      const MODES={
+        adduction:{label:'Frontal adduction activation',subtitle:'Exact Brown Table 4 latissimus activation values for the frontal-plane adduction task.',hint:'This is the frontal-plane lat activation bar graph from Brown: segments 3, 4, 5, and 6 were the main adduction contributors, with segment 3 highest.',overlay:'Bars = adduction activation (%MVC)',values:{l1:55,l2:56,l3:79,l4:67,l5:64,l6:70}},
+        extension:{label:'Sagittal extension activation',subtitle:'Exact Brown Table 6 latissimus activation values for the sagittal-plane extension task.',hint:'This is the sagittal-plane lat activation bar graph from Brown: upper and middle segments were strongest in extension, with segment 3 again highest.',overlay:'Bars = extension activation (%MVC)',values:{l1:58,l2:67,l3:71,l4:59,l5:42,l6:43}}
+      };
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode=new URLSearchParams(location.search).get('mode')||'adduction',visible={l1:true,l2:true,l3:true,l4:true,l5:true,l6:true},view={minX:-0.8,maxX:5.8,minY:0,maxY:90},drag=null;
+      if(!(mode in MODES)) mode='adduction';
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=MODES[mode].subtitle; hint.textContent=MODES[mode].hint; overlay.textContent=MODES[mode].overlay; fit(); renderLegend(); resize(); }
+      function activeSegments(){ return SEGMENTS.filter(s=>visible[s.key]); }
+      function bounds(){ const vals=activeSegments().map(s=>MODES[mode].values[s.key]); const maxY=Math.max(85,...vals); return {minX:-0.8,maxX:SEGMENTS.length-0.2,minY:0,maxY:maxY+8}; }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function sx(x,plot){ return plot.x + ((x-view.minX)/(view.maxX-view.minX))*plot.w; }
+      function sy(y,plot){ return plot.y + plot.h - ((y-view.minY)/(view.maxY-view.minY))*plot.h; }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:86,y:20,w:Math.max(140,w-118),h:Math.max(140,h-100)};
+        stage._plot=plot;
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        for(let y=0;y<=view.maxY+0.001;y+=20){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(`${y}`,plot.x-10,py); }
+        ctx.textAlign='center'; ctx.textBaseline='top';
+        const bars=[]; const visibleSegs=activeSegments(); const width=Math.min(42, (plot.w/Math.max(1,SEGMENTS.length))*0.58);
+        visibleSegs.forEach(seg=>{
+          const idx=SEGMENTS.findIndex(s=>s.key===seg.key), value=MODES[mode].values[seg.key], cx=sx(idx,plot), x=cx-width/2, y=sy(value,plot), hBar=plot.y+plot.h-y;
+          ctx.fillStyle=seg.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,width,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,width,hBar);
+          ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(`L${idx+1}`,cx,plot.y+plot.h+8);
+          bars.push({bar:{x,y,w:width,h:hBar},seg,value,cx});
+        });
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText('Activation (%MVC)',0,0); ctx.restore();
+        ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText('Latissimus dorsi segments',plot.x+plot.w/2,plot.y+plot.h+34);
+        stage._bars=bars; status.textContent=`${visibleSegs.length} segments shown`;
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        SEGMENTS.forEach(seg=>{
+          const row=document.createElement('div'); row.className='check'+(visible[seg.key]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[seg.key]?'checked':''} /><span class="swatch" style="background:${seg.color}"></span><label>${seg.name}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[seg.key]=e.target.checked; fit(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[seg.key]=box.checked; fit(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._bars||[]).find(b=>x>=b.bar.x&&x<=b.bar.x+b.bar.w&&y>=b.bar.y&&y<=b.bar.y+b.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.seg.name}</strong></div><div class="muted">${MODES[mode].label}</div><div>Activation: <strong>${hit.value}</strong>%MVC</div><div>${hit.seg.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

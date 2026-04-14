@@ -1,0 +1,664 @@
+            Journal of Musculoskeletal Research, Vol. 8, Nos. 2 & 3 (2004) 107 – 117
+            © World Scientific Publishing Company
+
+
+
+
+                                                                  ORIGINAL ARTICLES
+                      MUSCLES WITHIN MUSCLES: THE CLASSICAL TRIPHASIC EMG
+                       BURST AND ITS APPLICABILITY TO SEGMENTS OF LARGE
+                             RADIATE AGONIST/ANTAGONIST MUSCLES
+
+
+
+
+                               J. B. Wickham*,‡, J. M. M. Brown, R. Green* and D. J. McAndrew
+                                    *Department of Anatomy and Physiology, School of Human Biosciences
+
+                                                      La Trobe University, Victoria 3086, Australia
+                                           Department of Biomedical Science, University of Wollongong
+
+                                                              Wollongong, 2522 NSW, Australia
+                                                                 j.wickham@latrobe.edu.au
+
+
+
+
+                                                     Received May 18, 2004; Accepted July 30, 2004
+
+                                                                       ABSTRACT
+                          The purpose of the current study was to determine if the classically described triphasic EMG burst
+                          was applicable in describing the EMG patterns across the breadth of three large radiate muscles
+                          during the production of a rapid shoulder joint movement. Miniature (6.5 mm inter-electrode
+                          distance) bipolar surface electrodes were placed across the breadth of the pectoralis major (6 off),
+                          latissimus dorsi (6 off) and the deltoid (7 off). Subjects performed a series of rapid shoulder joint
+                          adduction movements (< 400 ms) against the resistance of a free weight and pulley apparatus
+                          whilst seated in an experimental chair. EMG data sampled from the multiple recording sites of the
+                          three muscles identified four different types of EMG waveforms. This was based on the presence,
+                          or absence, of multiple bursts, the length of each burst and the level of the silent period between
+                          bursts from the same segment of a muscle. The four bursts included a one-burst pattern, a one-
+                          continuous burst pattern, a two-continuous burst pattern and a two non-continuous burst pattern.
+                          Upon further analysis it was established that a relationship existed between the type of burst
+                          displayed by a segment and the functional role of that segment (prime mover, synergist, primary
+                          or secondary antagonist), hence a uniform type of burst pattern was not apparent across the
+                          breadth of the agonist (pectoralis major and latissimus dorsi) and antagonist (deltoid) muscles. It
+                          was evident that the triphasic EMG burst was most applicable for the EMG patterns arising from
+
+
+
+
+            Correspondence to: Dr. James Wickham, Department of Anatomy and Physiology, School of Human Biosciences
+            La Trobe University, Victoria 3086, Australia.
+
+
+
+                                                                                       107
+
+
+
+
+00127.p65                            107                                                     09/20/2004, 2:46 PM
+            108   J. B. Wickham et al.
+
+                          the prime mover segments of the pectoralis major and the latissimus dorsi and the primary
+                          antagonist segment of the deltoid. In conclusion, these results suggest that caution is warranted if
+                          stating that popular motor control theories10, 11 based on EMG patterns produced by small agonist
+                          and antagonist muscles during rapid limb movement, apply to all segments of large radiate
+                          muscles.
+
+                          Keywords: Segment; Pectoralis major; Latissimus dorsi; Deltoid; Triphasic EMG burst; Agonist;
+                          Antagonist.
+
+
+
+            INTRODUCTION                                                      bursts or there are differences in the temporal or
+            A triphasic pattern of EMG activity is a feature                intensity values of the two bursts then it could by
+            of the activation patterns appearing in agonist and               implied that this is indicative of differences in
+            antagonist muscles during rapid limb movement.                    feedback and control strategies amongst seg-
+            This triphasic pattern arises due to an initial                 ments of the same muscle. The same reasoning
+            burst of activity in the agonist muscle (Ag1),                    would apply to antagonist muscles that have
+            which initiates the movement, followed by a silent                typically displayed a one-burst pattern (ANT).1
+            period during which the antagonist (Ant) becomes                  Therefore, it seems justified to have a closer
+            active, with the agonist sometimes being activated                investigation and analyze the morphology of
+            again (Ag2) at some point after the initial                       the triphasic EMG burst pattern arising from large
+            activation of the antagonist. This three-burst                    radiate skeletal muscles. If differing agonist and
+            pattern (triphasic) of EMG activity involving                     antagonist waveforms do become apparent from
+            antagonistic muscles is thus characteristic of the                the multiple agonist and antagonist electrode sites
+            neuromotor control of rapid limb movements                        then movement control expressed in terms of
+            less than 400 ms duration and is considered                       whole muscle activation patterns is clearly
+            to be a modus operandi for these types of                       misleading and not totally accurate.
+            movements.1, 6, 9, 12, 14, 17                                       The aim of the present study was thus to
+              The above-mentioned studies that examined the                   determine whether the classical triphasic three-
+            triphasic EMG burst have typically utilized one                   burst pattern is applicable for describing the
+            electrode pair for both the agonist and antagonist                activation patterns from all segments of three
+            muscles. The EMG waveforms from these studies                     large radiate muscles. This aim will be fulfilled by
+            are therefore derived from a small portion of a                   analyzing the burst morphology of each segment
+            large muscle or a large portion of a relatively                   to determine if each agonist and antagonist
+            small non-radiate muscle, such as the biceps                      segment exhibit typical EMG patterns as predicted
+            brachii, but never from the entire breadth of a                   by previous literature3 on the triphasic EMG burst
+            large radiate muscle using multiple electrodes. If                pattern.
+            an agonist muscle were to be considered
+            functionally homogenous it would be expected
+                                                                              METHODS
+            that the same two non-continuous burst pattern
+            (Ag1 and Ag2) with a silent period in the middle                  Subjects
+            be apparent across the breadth of the muscle. If                  Sixteen neurologically healthy male volunteers,
+            only some segments of the agonist, the prime                      with no previous history of shoulder injuries,
+            mover segments, for example, are displaying two                   participated in this experiment. The subjects
+
+
+
+
+00127.p65                                108                                                 09/20/2004, 2:46 PM
+                                                                                                            Muscles within Muscles   109
+
+
+            ages ranged between 18 and 30 years (mean                 equal to 40°. The subjects completed the trials
+            age 22 ± 3.1 years) with anthropometric charac-           with the aid of feedback from a storage
+            teristics indicating predominantly lean muscular          oscilloscope.
+            physiques with bodyfat levels below 16%.7                   Prior to the recorded trials, subjects were given
+                                                                      30 practice trials during which they were
+                                                                      encouraged to move as fast and accurately as
+            Protocol                                                  possible over the 40° angular movement dis-
+            Subjects performed a series of rapid (< 400 ms)           tance. Subjects were instructed to move from their
+            dynamic shoulder joint adduction movements                initial arm position to the final arm position
+            against the resistance of a free weight pulley and        according to the limits displayed on a storage
+            cable apparatus (Fig. 1) whilst seated upright in         oscilloscope. This was to be performed ap-
+            an experimental chair. Specifically, subjects were        proximately 1000 ms after a verbal trigger signal.
+            seated with their upper limb abducted to 90° in           The subjects were then to hold the final position
+            the coronal plane (starting position) with their          for a further 500 ms and then return the load
+            forearm resting on a triangular padded cable              slowly to the initial position and wait for the next
+            handle situated 50 mm distal to the elbow joint           signal. A total of 10 trials were recorded for data
+            (Fig. 1). This positioning helped alleviate excessive     analysis. Inter-trial intervals were approximately
+            valgus forces that would have been felt at the            20 seconds in duration.
+            elbow joint had the cable handle been grasped in
+            the palm of the hand. No muscular activity was
+            necessary to maintain this abducted position. This        Equipment
+            was verified by baseline EMG data from all                A series of pulleys and cables loaded with free
+            segments at rest. The angular distance of the             weights provided the external resistance. The load
+            movements was kept constant in all trials, being          utilized during this experiment was a medium
+
+
+
+
+                                       arm
+                                       rest
+
+
+
+                                                cable
+                                                handle
+
+
+
+
+                                                    Fig. 1 The experimental set-up.
+
+
+
+
+00127.p65                     109                                                     09/20/2004, 2:46 PM
+            110   J. B. Wickham et al.
+
+
+            weight of 9.2 kg, with this figure being derived        onset, peak and offset) to be identified. These
+            solely from the free weights utilized. This weight      temporal variables were determined by visual
+            provided enough of a load to support the arm            inspection and with the aid of a threshold detector
+            whilst not being so heavy that the movement             set at 10% of maximum amplitude. The analysis
+            could not be performed fast enough to obtain a          of these temporal variables thus enabled the
+            triphasic EMG burst pattern.                            detection of differences in the activation patterns
+              A digital computer recorded shoulder joint            (e.g. onset and duration) of each segment
+            angles from the electrogoniometer and muscle            waveform.
+            EMGs were sampled at 2000 Hz over a recording            The shapes of the EMG bursts representing the
+            period of 2000 ms. Shoulder joint angle was             activation of each segment were categorized in
+            measured by a 10 turn, 20 K electrogoniometer           this experiment and from preliminary data it was
+            with its shaft attached through the centre of a         envisaged that four types of EMG waveforms
+            V pulley. Velocity and acceleration were mea-           would become apparent. These hypothesized
+            sured off line by double differentiation of the         types of agonist and antagonist EMG waveforms
+            electrogoniometer trace. This was made possible         were as follows:
+            with prior experimentation utilizing a Cathode
+                                                                    • one burst pattern;
+            Ray Oscilloscope, custom arthrodial protractor
+                                                                    • one continuous-burst pattern;
+            and the electrogoniometer, which found that 1°,
+                                                                    • two continuous-burst pattern; and
+            was equal to 44 millivolts.
+                                                                    • two non-continuous-burst pattern.
+                                                                    A summary of the hypothesized temporal
+            Electrode Sites                                         activation patterns for the four types of EMG
+            Electromyographic activity from six sites of            bursts to be analyzed is categorized below in
+            pectoralis major, all sites of the latissimus dorsi     Table 1.
+            except L4 (five sites total), and segments D1, D3,        The differentiation between a one burst pattern
+            D5 and D7 of the deltoid were utilized for              and a one continuous-burst pattern of EMG
+            recording purposes (for explanation of recording        activity will be considered to be a duration, which
+            sites see Wickham and Brown;15 Wickham et al.16).       represents the majority of the movement time
+            The peripheral segments of each muscle were             (250 ms). This is in accordance to earlier research,4
+            always included and it was decided that                 which found that fast ballistic movements (similar
+            recording from only 4 segments of the deltoid           in degrees to our experiments) result in EMG
+            would be more than adequate. Segment L4 was
+            the chosen segment for exclusion along with D2,         Table 1 EMG Burst Categorization. See Text for More
+            D4 and D6 also excluded due to the limitation of        Details.
+            only 15 EMG channels available.
+                                                                       One burst pattern               = < 250 ms in duration
+                                                                       One continuous-burst            = > 250 ms in duration
+                                                                       pattern
+            EMG Analysis
+                                                                       Two continuous-burst            = Two bursts joined
+            Raw EMG signals, representing muscle activity
+                                                                       pattern                           (no silent period)
+            from the adduction task, were rectified and
+                                                                       Two non-continuous-burst = Two bursts separated
+            low-pass filtered (fifth-order Butterworth filter) at
+                                                                       pattern                    (silent period)
+            20 Hz to allow for temporal variables (segment
+
+
+
+
+00127.p65                                110                                     09/20/2004, 2:46 PM
+                                                                                                         Muscles within Muscles   111
+
+
+            bursts of less than 250 ms in duration. For             (primary and secondary) due to significant
+            example, an EMG burst durations less than              (p < 0.05) differences between antagonist seg-
+            250 ms will be considered as being one-burst,           ments. A late activation and predominant one
+            and an EMG burst durations > 250 ms being              burst pattern were used to characterize a primary
+            considered as one continuous-burst. The dif-            antagonist segment, whilst an earlier activation
+            ferentiation between a one continuous and a two         and a less predominant one burst pattern were
+            continuous-burst pattern was by visual inspection       used to characterize a secondary antagonist
+            with any indication of two bursts being given a         segment (see Table 2 for more details).
+            two continuous-burst criterion. For segments EMG
+            to be considered two non-continuous bursts the
+            amplitude within the silent period between the          Burst Morphology
+            two bursts had to be below 10% of the peak              The EMG morphology analysis revealed four
+            intensity. The classification between two con-          types of EMG bursts (Fig. 2) as predicted and
+            tinuous and two non-continuous bursts was               outlined in the methods section. The four types
+            considered valid as agonist segments typically          included:
+            display a relative silent period between the first
+                                                                    • one burst patterns;
+            (Ag1) and second (Ag2) bursts.3 When a segment
+                                                                    • one continuous-burst patterns;
+            displayed a two-burst pattern, the onset and offset
+                                                                    • two continuous-burst patterns; and
+            of each burst were determined whilst only the
+                                                                    • two non-continuous-burst patterns.
+            largest peak amplitude, in whichever burst it
+            appeared, was stored. The segmental EMG bursts          Table 2 The functional roles adopted by each segment
+            from within each trial were categorized using both      during the adduction task. Note that the functional roles
+                                                                    relate to the movement and not for each individual
+            the raw and the linear envelope signal. The
+                                                                    muscle for simplicity reasons. Prime mover segments
+            existence of significantly (p < 0.05) different types   were characterized by early onsets and a high percentage
+            of EMG waveforms between segments (according            of a two non-continuous burst pattern. To distinguish
+            to the previously mentioned criteria) was taken to      between these segments and synergist segments, which
+                                                                    are characterized as having slightly later onsets and a
+            be suggestive of functional differentiation within
+                                                                    lower percentage of a two non-continuous burst pattern,
+            the muscle.                                             the synergist segments needed to display at least one sig-
+              One-Way Repeated Measures ANOVAs were                 nificant (p < 0.05) difference in these dependent variables
+            used to determine differences in type of burst          to a prime mover segment. For the multiple prime mover
+                                                                    segments there was no significant differences displayed
+            patterns and onset times amongst segments. A
+                                                                    in any dependent variable for these segments. Segments
+            Student–Newman–Keuls test was used for post-hoc         that display at least one significant (p < 0.05) difference
+            comparisons of significant (p < 0.05) differences.      to any of the designated prime mover segment/s were
+                                                                    labelled as synergists. The antagonists were denoted
+                                                                    by their later onsets and one burst patterns. Significant
+                                                                    (p < 0.05) differences were found amongst the antagonist
+            RESULTS
+                                                                    segments in onset times and burst patterns (see results).
+            Overall summaries of the results for the dynamic
+            adduction task are displayed below in Table 2.          Movement
+                                                                                Prime
+                                                                                            Synergists
+                                                                                                          Primary   Secondary
+            This table depicts the functional roles adopted by                  Movers                   Antagonist Antagonists
+
+            segments during the adduction movement. Note            Adduction L2, L3, L5,     L1,
+            that the functional roles of segments have been                       L6      P1, P2, P3,       D3           D1, D5
+                                                                               P5, P6         P4
+            extended to include two types of antagonists
+
+
+
+
+00127.p65                     111                                                 09/20/2004, 2:46 PM
+            112   J. B. Wickham et al.
+
+
+
+
+                                                       One Burst                                          One Continuous Burst
+
+
+
+
+                                                   Two Continuous Bursts                                Two Non-Continuous Bursts
+
+                                                                                    Scale (ms)
+
+                                                                          0   200                400     600
+
+            Fig. 2 Representative EMG burst pattern types for the adduction task. Four different types of bursts were identified (see
+            methods). A one burst criterion was characteristic of D3 whilst a two non-continuous burst criterion was characteristic of L6.
+            Representative EMG data from various subjects.
+
+
+
+                                              P1
+
+                                              P2
+
+                                              P3                                                                           2 Continuous
+                                                                                                   L1                         Bursts
+                                              P4
+
+                                              P5
+                                                                                                                         2 Non-Continuous
+                                              P6                                                   L6                         Bursts
+
+                                          L1
+
+                                          L2
+
+                                          L3
+
+                                          L5                                                                                  1 Burst
+                                                                                                   D3
+                                          L6
+
+                                          D1
+
+                                          D3
+                                                                                                   D5                        1 Continous
+                                          D5                                                                                    Burst
+
+                                          D7
+                                                                                                  0             400                        800
+                                          Goniometer                                                        Scale (ms)
+
+
+                                          0                     500             1000
+                                                             Scale (ms)
+
+
+            Fig. 3 Raw EMG traces for a single trial from one subject during the adduction task. Selected segments have been
+            expanded (right side) to emphasize the four different types of EMG burst patterns, which were the most commonly seen
+            from these selected segments.
+
+
+
+
+00127.p65                                112                                                              09/20/2004, 2:47 PM
+                                                                                                                              Muscles within Muscles   113
+
+
+                                                                            50.9%
+                                                                                                                              46.3%
+                                                   L1                        79.9%
+                                                                                                       P1                     47.1%
+                                                    L2
+                                                                                90.1%                   P2
+                                                        L3                                                                      64.7%
+                                      latissimus                                                            P3
+                                        dorsi           L4                                pectoralis
+                                                                                             major          P4                  67.3%
+                                                    L5
+                                                                                                        P5
+                                               L6                             92%
+                                                                                                       P6                       83.4%
+
+
+                                                                            97.5%                                             85.3%
+
+
+
+
+                                                                 55.1%                         97.3%
+
+
+                                                         53.1%
+                                                                                                                 44.9%
+
+
+                                                                            D5 D4 D3
+                                                                       D6                 D2
+                                                                  D7          deltoid          D1
+
+
+
+
+            Fig. 4 Schematic diagrams illustrating the predominant type of EMG burst that was apparent for that particular segment
+            during the adduction task for the three muscles investigated. Note that all segments except P2 predominantly displayed a
+            two non-continuous burst pattern with a gradual decrease in this two non-continuous burst pattern from P6 to P1. Also note
+            that P1 is the most superior segment with P6 the most inferior. For the latissimus dorsi note that all segments predominantly
+            displayed a two non-continuous burst pattern with a gradual decrease in this two non-continuous burst pattern from L6 to
+            L1. Note that L1 is the most superior segment and L6 the most inferior. The deltoid has been oriented vertically to coincide
+            somewhat with its anatomy as seen from a lateral view of the right shoulder. D1 is the most anterior segment with D7 being
+            the most posterior. See Table 6 for more quantitative measures. Grand mean data from 16 subjects.
+
+
+
+
+              Figure 3 illustrates a representative raw EMG                             displayed a higher percentage of a one burst pat-
+            trace from a single trial during the adduction task                         tern (39.4 ± 33.2% and 47.1 ± 38.7% respectively)
+            for an overview of the data.                                                when compared to P6 at 8 ± 9.8%.
+              For the pectoralis major, a trend was apparent                              For the latissimus dorsi, a similar pattern to the
+            where a two non-continuous EMG burst pattern                                pectoralis major was apparent where a two non-
+            was characteristic of the lower segments (P5 and                            continuous EMG burst pattern was predominantly
+            P6 at over 80%) of this muscle (Fig. 4). For                                (> 90%) exhibited from the lower segments
+            example, significant (p < 0.05) differences were                            (L3, L5, L6) of this muscle (Fig. 4). Significant
+            apparent between the upper segments P1 and P2                               (p < 0.05) differences in a two non-continuous
+            (a lower percentage of a two non-continuous                                 burst pattern were evident between the upper
+            burst type) and P6. Segments P1 and P2 also                                 segment L1 (50.9% ± 26.6) in comparison to L6
+
+
+
+
+00127.p65                       113                                                                     09/20/2004, 2:47 PM
+            114   J. B. Wickham et al.
+
+
+            (97.5% ± 6.8). Significant (p < 0.05) differences                    Table 3 EMG burst categorization table delineating
+                                                                                 quantitatively the type of EMG burst most representative
+            between the remaining segments and L6 were not
+                                                                                 for segments of the deltoid during the adduction task. A
+            apparent.                                                            (*) is used to indicate significant (p < 0.05) differences
+              Of the three muscles analyzed the deltoid                          between that segment and D3. Standard deviations are in
+            displayed the greater number of significant                          brackets. Grand mean data from 16 subjects.
+            (p < 0.05) differences in the type of EMG wave-
+                                                                                        One          One                  Two       Two Non-
+            form detected within its constituent segments
+                                                                                        Burst     Continuous           Continuous   Continuous
+            (Table 3 and Fig. 4). For example, D3 exhibited a                            (%)      Bursts (%)           Bursts (%)   Bursts (%)
+            significantly (p < 0.05) larger percentage of a
+                                                                                        44.9*           23                9.6         21.8*
+            one burst EMG pattern (97.3% of the time) in                         D1
+                                                                                        (42.1)        (31.1)             (16.4)       (35.3)
+            comparison to all other segments during the
+                                                                                         97.3           2.5                0            0
+            adduction dynamic task with D1 at 44.9% being                        D3
+                                                                                        (10.0)        (10.1)              (0)          (0)
+            the next highest percentage of a one burst EMG
+                                                                                        39.1*         55.1*                0.5         6.1
+            pattern. A one continuous burst pattern was pre-                     D5
+                                                                                        (32.5)        (29.0)              (3.1)       (23.4)
+            dominantly displayed by D5 and D7 with sig-
+                                                                                         4.7*         53.1*              14.7*        27.5*
+            nificantly (p < 0.05) higher percentages displayed                   D7
+                                                                                        (12.6)        (37.0)             (17.8)       (22.7)
+            when compared to D3 (Table 3).
+
+
+            Temporal Analysis                                                    for rapid limb movements1, 2, 8, 10, 13 less than
+            Figure 5 gives an overall impression of segmental                    400 ms.5 It is characterized by two bursts from the
+            activation during the adduction dynamic task                         agonist muscle/s that are separated by a silent
+            showing that all segments from all muscles tested                    period, and a one burst pattern at some point in-
+            were activated (> 10% MVC). A trend was ap-                          between these two bursts from the antagonist. To
+            parent where the lowermost segments (L6 and P6)                      date, experimenters have utilized one, or possibly
+            of the latissimus dorsi and the pectoralis major                     two, agonists or antagonist electrode sites to
+            were activated first with the wave of myoelectric                    investigate the triphasic EMG pattern. The
+            activity spreading superiorly to sequentially                        possibility of distinct differences in the EMG
+            activate the more superior segments of these                         waveform patterns when recording from multiple
+            muscles. The middle segment of the deltoid (D3)                      agonist/antagonist electrode sites across the
+            was the last to be activated. Note the temporal                      breadth of large radiate muscles, as determined in
+            delays between the agonist (all pectoralis major                     this experiment, have not previously been
+            and latissimus dorsi and segment D7) and                             considered.
+            antagonist (D3, D5 and D1) segments.                                   From the results it was apparent that the EMG
+                                                                                 waveforms associated with the triphasic EMG
+                                                                                 burst pattern* were not homogenously dis-
+            DISCUSSION                                                           played across the breadth of the three muscles.
+            The triphasic EMG pattern is well documented in                      Specifically, the expected waveforms were pre-
+            representing a basic neuromotor control strategy                     dominantly displayed by segments of the muscles
+
+
+            *Typically a two non-continuous burst pattern for the agonist and a one burst pattern for the antagonist.
+
+
+
+
+00127.p65                                114                                                     09/20/2004, 2:47 PM
+                                                                                                                          Muscles within Muscles   115
+
+
+                                                                                                                  Onset
+                                                L6
+
+                                                L5
+
+                                                L3
+
+                                                L2
+
+                                                L1
+
+                                                D7
+
+                                                D5                                                     Waves of
+                                      Segment
+
+
+
+
+                                                D3
+
+                                                D1
+                                                                                                         Activation
+                                                P1
+
+                                                P2
+
+                                                P3
+
+                                                P4
+
+                                                P5
+
+                                                P6
+
+
+                                                     -150   -125   -100   -75   -50      -25    0         25        50
+
+                                                                           Time (ms)
+            Fig. 5 Onset times (ms) for segments during the adduction task. Segments activated before the onset of the force (0 ms to
+            the left) are given negative values with segments activated after the force record (0 ms to the right) given positive values.
+            Segments have been graphed according to anatomy starting anteriorly from the lowermost pectoralis major segment (P6), to
+            ascend superiorly over the shoulder to then descend to the most inferior latissimus dorsi segment (L6). Note the waves of
+            activation (represented by dotted lines), both anteriorly and posteriorly, meeting at the D3 segment. Standard error bars are
+            shown with this graph representing grand mean data from 16 subjects.
+
+
+
+            that have been labelled as the prime mover and                            of EMG waveforms (one burst, one continuous
+            what has been termed the primary antagonist                               burst, two continuous bursts and a two non-
+            segments. The basis for this labelling of segment                         continuous-burst pattern) distributed amongst
+            function being that a high percentage of a two                            segments. It is thus the authors opinion that with
+            non-continuous EMG burst type was taken to be                             the variety of different EMG waveforms displayed
+            indicative of prime mover segment function,                               in this current work, the classically described
+            whilst a one burst pattern is predominantly                               triphasic EMG burst pattern is not appropriate for
+            exhibited by agonist (prime mover) muscles                                a description of segment activation patterns across
+            during fast dynamic movements.1–3 Instead of                              the breadth of large radiate agonist and antagonist
+            these two characteristic burst patterns, what was                         muscles; such as the muscles investigated in this
+            apparent, however, was the presence of four types                         experiment.
+
+
+
+
+00127.p65                       115                                                                 09/20/2004, 2:47 PM
+            116   J. B. Wickham et al.
+
+
+              A further finding in regard to the triphasic EMG     the pectoralis major and the latissimus dorsi,
+            burst was the later onsets of the primary              whose segments functioned as prime movers
+            antagonist segment/s in relation to the secondary      and synergists, deltoid segments functioned as
+            antagonist segment/s (Fig. 5). This is in direct       synergists, primary antagonists and secondary
+            contrast to the prime mover segments of the            antagonist segments (Table 2) during the un-
+            pectoralis major and latissimus dorsi during           perturbed adduction dynamic task. For example,
+            adduction, which were categorized partly because       of the three antagonist segments, Table 2 shows
+            of their early onsets. An explanation for this         that only segment D3 was designated as the
+            finding may stem from differences in reciprocal        primary antagonist segment during the adduc-
+            innervation amongst the antagonist segments of         tion task. This was due to a significantly
+            the deltoid. It is well-known that reciprocal          (p < 0.05) later onset and its total lack of a second
+            innervation of agonist and antagonist muscle           EMG burst. Furthermore, D3 exhibited a signi-
+            groups occurs during movement. The results of          ficantly larger percentage of a one burst EMG
+            the current work would suggest that certain            pattern (97.3% of the time) than all other segments
+            portions of an antagonist muscle (primary              during the adduction task with D1 at 44.9%
+            antagonist segments) receive a stronger neural       being the next highest percentage of a one burst
+            inhibition which results in the onsets of these       pattern. A one continuous burst pattern was
+            segments being significantly (p < 0.05) delayed in     predominantly displayed by D5 and D7 with
+            comparison to other antagonist segments of the         significantly (p < 0.05) higher percentages dis-
+            same muscle.                                           played when compared to D3 (Table 2). The
+              The functional roles of deltoid segments are         categorization of these two types of antagonist
+            indicated in Table 2. This table shows that the        segments from the deltoid mass seemed
+            segments of the deltoid assumed both synergistic       warranted with the differences in onsets and burst
+            (D7) and antagonistic (D1, D3 and D5) roles            patterns apparent amongst segments D1, D3 and
+            during the adduction motion. This is exemplified,      D5 in the braking of the adduction movement.
+            in part, by the onset times displayed in Fig. 5. For     In conclusion, the triphasic EMG burst pattern
+            example, the relatively early onset time of            could not account for the activation patterns of
+            segment D7 (in comparison to the other deltoid         all segments across the breadth of these
+            segments) indicated its lack of involvement as an      multisegmental muscles. This was particularly
+            antagonist segment. The onset time of D7 was           apparent with the novel finding of four different
+            found to be significantly (p < 0.05) earlier than D5   types of EMG waveform patterns and the
+            thus categorizing D7 as a synergist segment to aid     differences in antagonist activation patterns,
+            the latissimus dorsi and pectoralis major segments     which gave rise to the classification of two types
+            in producing the initial EMG burst. In contrast,       of antagonist segments. If agonists can have two
+            the significant (p < 0.05) temporal delays between     subcategories (prime movers and synergists), why
+            D1, D3 and D5, in comparison to all other active       not antagonists? To further extrapolate, the results
+            segments indicated their involvement in the            also suggest that caution is warranted if stating
+            antagonist (Ant) burst (second part of the clas-       that popular motor control theories,10, 11 based on
+            sical triphasic burst pattern) confirming their        EMG patterns produced by small agonist and
+            antagonistic roles. Therefore, in comparison to        antagonist muscles during rapid limb movement,
+
+
+
+
+00127.p65                                116                                    09/20/2004, 2:47 PM
+                                                                                                                Muscles within Muscles   117
+
+
+            apply to all segments of large radiate muscles.                 6. Brown SH, Cooke JD, Movement-related phasic muscle
+                                                                               activation. I. Relations with temporal profile of
+            Further research is needed to validate this
+                                                                               movement, J Neurophysiol 63(3): 455–464, 1990.
+            statement.                                                      7. Durnin JVGA, Womersley J, Body fat assessed from
+                                                                               total body density and its estimation from skin fold
+                                                                               thickness: Measurements on 481 men and women aged
+            ACKNOWLEDGEMENTS                                                   16 to 72 years, Br J Nutr 32: 77–97, 1974.
+                                                                            8. Gottlieb GL, Corcos DM, Agarwal GC, Organising
+            The authors would like to thank the Department                     principles for single joint movements I. A speed
+            of Biomedical Science, University of Wollongong                    insensitive strategy. J Neurophysiol 62(2): 342–357, 1989.
+            for the technical and financial support to Dr                   9. Hannaford B, Stark L, Roles of the elements of the
+                                                                               triphasic control signal, Exp Neurol 90(3): 619–634, 1985.
+            Wickham during his doctoral studies. Further
+                                                                           10. Latash ML, Control of fast elbow movement: A study of
+            thanks go to Daniel Wickham for his assistance                     electromyographic patterns during movements against
+            with the illustrations and to Annette Wickham for                  unexpectedly decreased inertial load, Exp Brain Res 98:
+            her proofreading skills. The work described in this                145–152, 1994.
+                                                                           11. Latash ML, Gottlieb GL, An equilibrium point model
+            study was approved by the Human Ethics
+                                                                               for fast single joint movement: Emergence of strategy
+            Committee of the University of Wollongong.                         dependent EMG patterns, J Motor Behav 23(3): 163–177,
+                                                                               1991.
+                                                                           12. Marsden CD, Obeso JA, Rothwell JC, The function of
+            References                                                         the antagonist muscle during fast limb movements in
+                                                                               man. J Physiol London 335: 1–13, 1983.
+            1. Angel RW, Myoelectric patterns associated with
+                                                                           13. Richardson C, Simmons RW, Electromyographic and
+               ballistic movement: Effect of unexpected changes in
+                                                                               neuromuscular force patterns associated with unex-
+               load, J Hum Movement Stud 1: 96–103, 1975.
+                                                                               pectedly loaded rapid limb movements, Brain Res
+            2. Angel RW, Antagonist muscle activity during rapid
+                                                                               343(2): 246–251, 1985.
+               arm movements: Central versus proprioceptive
+                                                                           14. Wadman WJ, Denier Van Der Gon JJ, Derksen RJA,
+               influences, J Neurol Neurosurg Psychiatry 40(7): 683–686,
+                                                                               Muscle activation patterns for fast goal-directed arm
+               1977.
+                                                                               movements, J Hum Movement Stud 6: 19–37, 1980.
+            3. Angel RW, Electromyographic patterns during ballistic
+                                                                           15. Wickham JB, Brown JMM, Muscles within muscles: The
+               movements in normals and hemiplegic patients,
+                                                                               neuromotor control of intra-muscular segments, Eur J
+               Desmedt E, Karger, Basel (eds.) Progress in Clinical
+                                                                               Appl Physiol 78: 219–225, 1998.
+               Neurophysiology, Vol. 9, pp. 347–357, 1981.
+                                                                           16. Wickham JB, Brown JMM, McAndrew DJ, Muscles
+            4. Berardelli A, Rothwell JC, Day BL, Kachi T, Marsden
+                                                                               within Muscles: Anatomical and functional segmen-
+               CD, Duration of the first agonist EMG burst in ballistic
+                                                                               tation of selected shoulder joint musculature, J
+               arm movements, Brain Res 304(1): 183–187, 1984.
+                                                                               Musculoskelet Res 8(1): 57–73, 2004.
+            5. Brown JMM, Gilleard W, Transition from slow to
+                                                                           17. Wierzbicka MM, Wiegner AW, Shahani BT, Role of
+               ballistic movement: Development of triphasic electro-
+                                                                               agonist and antagonist muscles in fast arm movements
+               myogram patterns. Eur J Appl Physiol 63: 381–386, 1991.
+                                                                               in man, Exp Brain Res 63(2): 331–340, 1986.
+
+
+
+
+00127.p65                       117                                                       09/20/2004, 2:47 PM
+

@@ -38,7 +38,7 @@
         font-size:12px
       }
       select,option,optgroup{background:#111827;color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .frameWrap{position:relative;min-height:0;height:100%}
       iframe{
         width:100%;
@@ -84,6 +84,18 @@
           subtitle:'Activation evidence showing comparatively more brachioradialis activation at the more flexed / shortened position and relatively more biceps brachii activation at the more extended / lengthened position.',
           status:'Kang 2013 normalized activation view'
         },
+        handgripSynergy:{
+          label:'Handgrip synergy (Coratella 2023)',
+          file:'coratella2023_biceps_curl_handgrip_activation_interactive.html',
+          subtitle:'Handgrip-specific biceps curl activation patterns showing how biceps brachii, brachioradialis, and anterior deltoid change their contributions across supinated, pronated, and neutral grips.',
+          status:'Coratella 2023 handgrip activation view'
+        },
+        orientationForce:{
+          label:'Orientation force and drive (Kohn 2018)',
+          file:'kohn2018_forearm_orientation_elbow_flexor_interactive.html',
+          subtitle:'Forearm-orientation evidence showing how supinated, neutral, and pronated positions change maximal force, voluntary activation, and twitch force of the elbow flexors.',
+          status:'Kohn 2018 orientation-force view'
+        },
         leverage:{
           label:'Leverage (Murray 1995)',
           file:'murray1995_elbow_flexor_imal_interactive.html',
@@ -122,3 +134,4 @@
     </script>
   </body>
 </html>
+

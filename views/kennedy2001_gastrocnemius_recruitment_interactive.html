@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kennedy and Cresswell (2001) - Gastrocnemius recruitment thresholds</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:240px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(260px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(44dvh,calc(100dvh - 220px));min-height:300px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:340px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh)}.stage{order:1;min-height:clamp(260px,48dvh,400px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Kennedy and Cresswell (2001) - Gastrocnemius recruitment thresholds</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SERIES_META={
+        long:{label:'Knee extended / long GAS',color:'#60a5fa',note:'Medial gastrocnemius at the longer muscle length. Units were recruited at very low plantarflexor torque and low soleus EMG.'},
+        short:{label:'Knee flexed / short GAS',color:'#f97316',note:'Medial gastrocnemius shortened by knee flexion. Units were recruited much later, at much higher plantarflexor torque and higher soleus EMG.'}
+      };
+      const MODES={
+        torque:{
+          label:'Torque threshold',
+          subtitle:'Exact mean onset torque for medial gastrocnemius motor-unit recruitment from Kennedy and Cresswell 2001 Table 1 / Fig. 3.',
+          hint:'This is the clearest indirect NMM result from the paper. When gastrocnemius was shortened by knee flexion, its motor units were not recruited until much higher plantarflexor torque was already being produced.',
+          overlay:'Bars = onset torque for MG motor-unit recruitment',
+          yLabel:'Plantarflexor torque at onset (Nm)',
+          values:{long:2.97,short:32.14},
+          errors:{long:7.78,short:10.25},
+          unit:'Nm'
+        },
+        soleus:{
+          label:'Soleus EMG threshold',
+          subtitle:'Exact soleus EMG level present at the onset of medial gastrocnemius motor-unit recruitment from Kennedy and Cresswell 2001 Table 1 / Fig. 3.',
+          hint:'This is the synergist-compensation side of the result. The shortened gastrocnemius only began contributing after soleus activity had risen a lot, suggesting the soleus had to carry more of the plantarflexor demand first.',
+          overlay:'Bars = soleus EMG present when MG units first appear',
+          yLabel:'Soleus EMG at MG onset (mV rms)',
+          values:{long:0.045,short:0.231},
+          errors:{long:0.075,short:0.129},
+          unit:'mV rms'
+        },
+        ratio:{
+          label:'Recruitment delay ratio',
+          subtitle:'Simple ratio view derived from the reported means, showing how much later medial gastrocnemius recruitment occurred in the short-length condition.',
+          hint:'The shortened gastrocnemius condition required about 10.8 times more plantarflexor torque and about 5.1 times more soleus EMG before MG motor units started to fire.',
+          overlay:'Bars = short-length onset relative to long-length onset',
+          yLabel:'Short / long recruitment threshold ratio',
+          unit:'x',
+          categories:['Torque threshold','Soleus EMG threshold'],
+          ratioValues:[10.82,5.13]
+        }
+      };
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode='torque',visible={long:true,short:true};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function activeKeys(){ return Object.keys(visible).filter(k=>visible[k]); }
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=MODES[mode].subtitle; hint.textContent=MODES[mode].hint; overlay.textContent=MODES[mode].overlay; renderLegend(); resize(); }
+      function fit(){ draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:84,y:20,w:Math.max(140,w-116),h:Math.max(140,h-92)};
+        if(mode==='ratio'){
+          const vals=MODES[mode].ratioValues, cats=MODES[mode].categories;
+          const maxY=Math.max(...vals)+1.5;
+          ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+          for(let y=0;y<=maxY+0.001;y+=2){ const py=plot.y+plot.h-(y/maxY)*plot.h; ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(`${y}`,plot.x-10,py); }
+          const width=Math.min(52,(plot.w/cats.length)*0.34), bars=[];
+          vals.forEach((v,i)=>{
+            const cx=plot.x+((i+0.5)/cats.length)*plot.w, x=cx-width/2, y=plot.y+plot.h-(v/maxY)*plot.h, hBar=plot.y+plot.h-y;
+            const color=i===0?'#f97316':'#22c55e';
+            ctx.fillStyle=color; ctx.globalAlpha=.92; ctx.fillRect(x,y,width,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,width,hBar);
+            ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(cats[i],cx,plot.y+plot.h+8);
+            bars.push({bar:{x,y,w:width,h:hBar},label:cats[i],value:v,note:i===0?'Short-length MG recruitment required about 10.8 times more plantarflexor torque.':'Short-length MG recruitment required about 5.1 times more soleus EMG.'});
+          });
+          stage._bars=bars; status.textContent='2 ratios shown';
+        } else {
+          const values=MODES[mode].values, errors=MODES[mode].errors, unit=MODES[mode].unit, keys=activeKeys();
+          const maxY=Math.max(...keys.map(k=>values[k]+errors[k]))*1.18;
+          ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+          const step=maxY>5?5:0.05;
+          for(let y=0;y<=maxY+0.001;y+=step){ const py=plot.y+plot.h-(y/maxY)*plot.h; ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(maxY>5?`${Math.round(y)}`:`${y.toFixed(2)}`,plot.x-10,py); }
+          const width=Math.min(58,(plot.w/Math.max(1,keys.length))*0.45), bars=[];
+          keys.forEach((k,i)=>{
+            const cx=plot.x+((i+0.5)/keys.length)*plot.w, x=cx-width/2, v=values[k], y=plot.y+plot.h-(v/maxY)*plot.h, hBar=plot.y+plot.h-y;
+            const meta=SERIES_META[k];
+            ctx.fillStyle=meta.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,width,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,width,hBar);
+            const errTop=plot.y+plot.h-((v+errors[k])/maxY)*plot.h, errBot=plot.y+plot.h-(Math.max(0,v-errors[k])/maxY)*plot.h;
+            ctx.strokeStyle='rgba(229,231,235,.85)'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(cx,errTop); ctx.lineTo(cx,errBot); ctx.stroke();
+            ctx.beginPath(); ctx.moveTo(cx-8,errTop); ctx.lineTo(cx+8,errTop); ctx.moveTo(cx-8,errBot); ctx.lineTo(cx+8,errBot); ctx.stroke();
+            ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(meta.label,cx,plot.y+plot.h+8);
+            bars.push({bar:{x,y,w:width,h:hBar},label:meta.label,value:v,error:errors[k],unit,note:meta.note});
+          });
+          stage._bars=bars; status.textContent=`${keys.length} conditions shown`;
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore();
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        if(mode==='ratio') return;
+        Object.entries(SERIES_META).forEach(([k,meta])=>{
+          const row=document.createElement('div'); row.className='check'+(visible[k]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[k]?'checked':''} /><span class="swatch" style="background:${meta.color}"></span><label>${meta.label}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[k]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[k]=box.checked; draw(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._bars||[]).find(b=>x>=b.bar.x&&x<=b.bar.x+b.bar.w&&y>=b.bar.y&&y<=b.bar.y+b.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=hit.error!=null
+          ? `<div><strong>${hit.label}</strong></div><div class="muted">${mode==='torque'?'Motor-unit onset torque':'Soleus EMG at MG onset'}</div><div><strong>${hit.value.toFixed(mode==='torque'?2:3)}</strong> ${hit.unit} (SD ${hit.error.toFixed(mode==='torque'?2:3)})</div><div>${hit.note}</div>`
+          : `<div><strong>${hit.label}</strong></div><div class="muted">Short / long ratio</div><div><strong>${hit.value.toFixed(2)}</strong>x</div><div>${hit.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

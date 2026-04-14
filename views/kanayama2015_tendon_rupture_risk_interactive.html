@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kanayama et al. (2015) - tendon rupture risk in AAS users</title>
+    <style>
+      :root{
+        --bg:#07101b;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#9fb3cb;
+        --amber:#f59e0b;
+        --blue:#60a5fa;
+        --green:#34d399;
+        --rose:#fb7185;
+        --violet:#a78bfa;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(860px 520px at 10% 0%, rgba(245,158,11,.16), transparent 52%),
+          radial-gradient(980px 620px at 100% 0%, rgba(96,165,250,.12), transparent 48%),
+          linear-gradient(180deg,#06101b,#091421 54%,#08111b);
+      }
+      .wrap{max-width:1280px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--amber);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 10px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 8px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:920px){.meta,.grid{grid-template-columns:1fr}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">AAS</div>
+        <h1>Kanayama et al. (2015) tendon rupture risk in AAS users</h1>
+        <p class="lede">This study shifts the AAS folder from lab and hypertrophy outcomes into real-world injury risk. Compared with similarly experienced non-using bodybuilders, long-term AAS users had a much higher lifetime incidence of tendon rupture, with the excess risk concentrated in upper-body tendons.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Design</div><div class="v">Cross-sectional cohort</div></div>
+          <div class="pill"><div class="k">Sample</div><div class="v">88 AAS users, 54 nonusers</div></div>
+          <div class="pill"><div class="k">Main risk</div><div class="v">HR 9.0 for first rupture</div></div>
+          <div class="pill"><div class="k">Main pattern</div><div class="v">Upper-body ruptures drove the difference</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Lifetime Tendon Rupture Incidence</h2>
+          <p class="sub">At least one lifetime tendon rupture was reported by 22% of long-term AAS users versus 6% of comparison weightlifters.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--rose)"></i>AAS users</span>
+            <span><i class="sw" style="background:var(--blue)"></i>Nonusers</span>
+          </div>
+          <svg id="incidenceChart" viewBox="0 0 620 320" aria-label="Lifetime incidence"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Upper vs Lower Body Ruptures</h2>
+          <p class="sub">The striking group difference came from upper-body tendon ruptures, which occurred only in the AAS users.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--green)"></i>Upper body</span>
+            <span><i class="sw" style="background:var(--violet)"></i>Lower body</span>
+          </div>
+          <svg id="regionChart" viewBox="0 0 620 320" aria-label="Region-specific rupture risk"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Total Rupture Burden</h2>
+          <p class="sub">Several men had multiple separate lifetime ruptures. The AAS group accumulated 27 total ruptures versus 5 in the nonuser group.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--rose)"></i>Total ruptures</span>
+          </div>
+          <svg id="burdenChart" viewBox="0 0 620 320" aria-label="Total rupture burden"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Context of Injury</h2>
+          <p class="sub">Most tendon ruptures did not occur during weightlifting itself. Only 19% happened while lifting, and 26% were preceded by local pain.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--amber)"></i>Weightlifting-related</span>
+            <span><i class="sw" style="background:var(--blue)"></i>Other activities</span>
+            <span><i class="sw" style="background:var(--green)"></i>Prodromal pain present</span>
+          </div>
+          <svg id="contextChart" viewBox="0 0 620 320" aria-label="Context of injury"></svg>
+        </article>
+      </section>
+
+      <p class="foot">Data source: Kanayama et al., <em>Am J Sports Med</em> 2015;43:2638-2644. Plotted from the paper’s reported cohort counts and risk estimates: 19 of 88 AAS users versus 3 of 54 nonusers with at least one rupture, hazard ratio 9.0 (2.5, 32.3), 15 upper-body ruptures in users versus 0 in nonusers, and 27 versus 5 total lifetime ruptures.</p>
+    </div>
+
+    <script>
+      function groupedBarChart(svgId, categories, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 62, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const vals = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...vals, 0);
+        const max = opts.max ?? Math.max(...vals);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        const groupW = w / categories.length;
+        const barW = Math.min(42, groupW / (series.length + 0.8));
+        let html = '';
+        for (let i = 0; i <= 5; i++) {
+          const v = yMin + i * (yMax - yMin) / 5;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb3cb">${fmt(v, opts.decimals)}</text>`;
+        }
+        if (yMin < 0 && yMax > 0) html += `<line x1="${m.l}" y1="${y(0)}" x2="${W-m.r}" y2="${y(0)}" stroke="rgba(255,255,255,.2)" />`;
+        categories.forEach((c, i) => {
+          const gx = m.l + i * groupW + groupW / 2;
+          html += `<text x="${gx}" y="${H-18}" text-anchor="middle" font-size="11" fill="#9fb3cb">${c}</text>`;
+        });
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb3cb">${opts.yLabel}</text>`;
+        series.forEach((s, si) => {
+          s.values.forEach((v, i) => {
+            const x = m.l + i * groupW + (groupW - series.length * barW) / 2 + si * barW;
+            const y0 = y(0), yv = y(v), top = Math.min(y0, yv), bh = Math.abs(y0 - yv);
+            html += `<rect x="${x}" y="${top}" width="${barW-4}" height="${Math.max(1,bh)}" rx="5" fill="${s.color}" />`;
+            html += `<text x="${x + (barW-4)/2}" y="${top-8}" text-anchor="middle" font-size="11" fill="${s.color}">${fmt(v, opts.decimals)}</text>`;
+          });
+        });
+        if (opts.note) html += `<text x="${W-18}" y="${m.t+14}" text-anchor="end" font-size="11" fill="#9fb3cb">${opts.note}</text>`;
+        svg.innerHTML = html;
+      }
+      function fmt(v, d) { return Number(v).toFixed(d ?? (Math.abs(v) < 10 ? 1 : 0)).replace(/\.0$/, ''); }
+
+      groupedBarChart(
+        'incidenceChart',
+        ['At least 1 rupture'],
+        [
+          { color: '#fb7185', values: [22] },
+          { color: '#60a5fa', values: [6] }
+        ],
+        { zero: true, decimals: 0, yLabel: 'Percent of group', note: 'HR 9.0 (2.5, 32.3)' }
+      );
+
+      groupedBarChart(
+        'regionChart',
+        ['AAS users', 'Nonusers'],
+        [
+          { color: '#34d399', values: [17, 0] },
+          { color: '#a78bfa', values: [7, 6] }
+        ],
+        { zero: true, decimals: 0, yLabel: 'Percent with rupture', note: 'Upper-body risk difference 0.17' }
+      );
+
+      groupedBarChart(
+        'burdenChart',
+        ['AAS users', 'Nonusers'],
+        [
+          { color: '#fb7185', values: [27, 5] }
+        ],
+        { zero: true, decimals: 0, yLabel: 'Total lifetime ruptures' }
+      );
+
+      groupedBarChart(
+        'contextChart',
+        ['All assessed ruptures'],
+        [
+          { color: '#f59e0b', values: [19] },
+          { color: '#60a5fa', values: [81] },
+          { color: '#34d399', values: [26] }
+        ],
+        { zero: true, decimals: 0, yLabel: 'Percent', note: 'Weightlifting vs other; prodromal pain separately' }
+      );
+    </script>
+  </body>
+</html>

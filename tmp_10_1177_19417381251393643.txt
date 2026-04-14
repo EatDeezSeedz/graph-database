@@ -1,0 +1,511 @@
+1393643
+research-article2025
+                       SPHXXX10.1177/19417381251393643Muñoz-Garcés et al.Sports Health
+
+
+
+
+                                      vol. XX • no. X                                                                                                                                                   SPORTS HEALTH
+
+
+
+
+                                      Regional Activation of the Latissimus
+                                      Dorsi Muscle by High-Density Surface
+                                      Electromyography During Isometric
+                                      Shoulder and Trunk Exercises
+                                      Melissa Muñoz-Garcés, PT, MSc,† Luis Peñailillo, PT, PhD,‡ and
+                                      Guillermo Mendez-Rebolledo, PT, MSc, PhD*†§
+
+
+                                      Background: The latissimus dorsi (LD) comprises 2 neuromuscular regions—the thoracic and lumbar-pelvic-costal (LPC)—
+                                      that may exhibit distinct activation patterns during shoulder and trunk exercises. A detailed understanding of these regional
+                                      differences is crucial for optimizing therapeutic interventions due to their potential impact on muscle imbalances and
+                                      rehabilitation outcomes in people with musculoskeletal conditions.
+                                      Hypothesis: Increasing contraction levels are expected to amplify differences between the thoracic and LPC regions, with
+                                      the thoracic region demonstrating greater activation, particularly during shoulder extension and internal rotation tasks.
+                                      Study Design: Descriptive laboratory study.
+                                      Level of Evidence: Level 5.
+                                      Methods: A total of 20 healthy participants (15 men and 5 women) were recruited. High-density surface electromyography
+                                      (HD-sEMG) electrode grids were positioned over the LD. Participants performed isometric contractions for shoulder
+                                      extension, adduction, internal rotation, and lateral trunk bending at 10%, 30%, 50%, 70%, and 100% of their maximum
+                                      voluntary contraction (MVC). The variables assessed included sEMG amplitude for each region and the spatial distribution of
+                                      muscle activation (x- and y-axis barycenter).
+                                      Results: During shoulder extension, the thoracic region showed greater sEMG amplitudes than the LPC region at 50%
+                                      (P = 0.02), 70% (P = 0.01), and 100% MVC (P < 0.01). Furthermore, shoulder extension generated greater amplitudes than
+                                      all other exercises across both regions (P < 0.05). Barycenter analysis revealed a significant cephalomedial shift in the x-axis
+                                      during both shoulder extension and internal rotation.
+                                      Conclusion: The thoracic region is preferentially recruited during isometric shoulder extension and internal rotation. This
+                                      spatial redistribution of muscle activity suggests a functional specialization within the LD, which has important implications
+                                      for the development of targeted shoulder rehabilitation strategies.
+                                      Clinical Relevance: Exercises emphasizing shoulder extension may preferentially activate the thoracic region of the LD,
+                                      thereby enhancing scapular stability while reducing strain on the rotator cuff tendons.
+                                      Keywords: compartment; electromyography; latissimus dorsi; rehabilitation; shoulder
+
+
+
+
+                                      From §Laboratorio de Investigación Somatosensorial y Motora, Escuela de Kinesiología, Facultad de Salud, Universidad Santo Tomás, Chile, †Master in Health and Sports
+                                      Sciences, Faculty of Medicine, Finis Terrae University, Santiago, Chile, and ‡Exercise and Rehabilitation Sciences Institute, School of Physical Therapy, Faculty of Rehabilitation
+                                      Sciences, Universidad Andrés Bello, Santiago, Chile
+                                      *Address correspondence to Guillermo Mendez-Rebolledo, PT, MSc, PhD, Laboratorio de Investigación Somatosensorial y Motora, Escuela de Kinesiología, Facultad de Salud,
+                                      Universidad Santo Tomás, Avenida Circunvalación Poniente 1855, Talca, 3460000, Chile (email: guillermomendezre@santotomas.cl).
+                                      The authors declare that they have no conflicts of interest in the authorship or publication of this contribution.
+                                      DOI: 10.1177/19417381251393643
+                                      © 2025 The Author(s)
+
+
+                                                                                                                                                                                                                            1
+    Muñoz-Garcés et al.                                                                                                           Mon • Mon XXXX
+
+
+
+
+    R
+              ehabilitation exercise programs are essential in managing     Methods
+              shoulder pathologies, including rotator cuff disorders,8,35
+              scapular dyskinesis,16 and irreparable rotator cuff tears     All procedures followed the World Medical Association’s Code
+    requiring tendon transfers.30,33 In these situations, the latissimus    of Ethics for human experimentation and the STROBE
+    dorsi (LD) often assumes a critical role by contributing to             guidelines. A nonprobabilistic convenience sample of students
+    shoulder extension, adduction, internal rotation, and lateral           from the Faculty of Health at Universidad Santo Tomás (Talca,
+    trunk bending.12,31,33,35,37 A shortened or stiff LD has also been      Chile) was used, and all participants signed an informed
+    implicated in chronic shoulder and back pain due to its broad           consent form approved by the institution’s Scientific Ethics
+    attachment from the spine to the humerus, impairing                     Committee (No. 23-48).
+    glenohumeral function or leading to tendinitis in its fascial             Participants were aged 18 to 40 years and engaged in ≥300
+    connections.4 Consequently, optimizing LD activation through            minutes of moderate physical activity per week, as assessed by
+    targeted exercise prescriptions supports shoulder stability,            the Global Physical Activity Questionnaire. Exclusion criteria
+    promotes balanced muscle recruitment, and alleviates excess             included a history of shoulder or lower back pain in the past 6
+    strain on compromised rotator cuff tendons.2,7,27                       months, pain during evaluation, body mass index (BMI) > 30,
+      The LD is a large, fan-shaped muscle that originates from the         and LD shortening (assessed by restricted shoulder flexion or
+    lower 6 thoracic vertebrae, thoracolumbar fascia, and iliac crest,      compensatory lumbar extension in a supine position).9 All
+    and inserts into the intertubercular sulcus of the humerus and,         procedures were performed on the dominant upper limb,
+    occasionally, the inferior angle of the scapula and ribs 10 to          defined as the limb used for writing. The final sample included
+    12.5,12,12,31 The LD is innervated by the thoracodorsal nerve,          18 participants: 15 men (age, 20.9 ± 3.2 years; BMI, 23.7 ± 2.4;
+    which divides into distinct branches that may activate 2                body mass, 72.8 ± 11.4 kg; height, 174.9 ± 8.4 cm) and 3 women
+    neuromuscular regions: the thoracic and lumbopelvic-costal              (age, 20.0 ± 0.6 years; BMI, 24.5 ± 3.1; body mass, 63.0 ± 8.8 kg;
+    (LPC) regions.6,12 Several authors have proposed functional             height, 160.1 ± 2.0 cm).
+    differences between these regions, potentially explained by             Sample Size
+    variations in physiologic cross-sectional area, fascicle length,
+    and fiber orientation.5,6,12 However, studies examining surface         A repeated measures analysis of variance (ANOVA) model was
+    electromyographic (sEMG) activity in the thoracic and LPC               used, accounting for intra- and intersubject interactions. With
+    regions of the LD have yielded mixed findings regarding which           an alpha level of 0.05 and a power (1−β) of 0.95, considering 2
+    region predominates in isometric extension, adduction, internal         regions (thoracic and LPC), a correlation of 0.5 between
+    rotation, or lateral trunk bending.2,6,25-28 Notably, previous          repeated measures, and a 20% potential loss during sEMG
+    investigations utilized primarily bipolar surface sEMG methods,         signal processing, it was determined that 20 participants were
+    which records from only a limited superficial area of the               required to detect an effect size f of 0.62. This effect size was
+    muscle, potentially overlooking spatial differences.10,11,20            observed in previous research examining differences in the
+    Nowadays, high-density surface electromyography (HD-sEMG)               sEMG amplitude between the thoracic and LPC regions of the
+    offers a more comprehensive mapping of muscle regional                  LD using conventional bipolar sEMG.27 Sample size calculations
+    activation by employing closely spaced electrode grids.10,23 Such       were performed using G*Power software (Version 3.1.9.6, Franz
+    enhanced resolution is particularly relevant for rehabilitation         Faul, Universität Kiel).
+    strategies, as region-specific activation of the LD could be
+                                                                            Procedures
+    harnessed to optimize exercise protocols, promote scapular
+    stability, and guide postoperative care after tendon                    The protocol included maximal voluntary isometric contractions
+    transfers.21,22,33                                                      (MVC) and submaximal voluntary isometric contractions at 10%,
+      Hence, understanding whether these regions exhibit distinct           30%, 50%, 70%, and 100% MVC during shoulder extension,
+    activation patterns under varying loads and exercises may have          adduction, internal rotation, and lateral trunk bending exercises
+    practical implications for tailoring rehabilitation programs.36         while HD-sEMG signals were recorded from the LD. Participants
+    Therefore, the present study aimed to investigate the regional          were assessed in a single session.
+    activation of the LD during isometric shoulder and spinal
+    exercises performed at multiple intensities. We hypothesized            HD-sEMG Electrode Placement
+    that increasing contraction levels would amplify differences            A researcher first shaved the posterior torso skin on the
+    between the thoracic and LPC regions, with the thoracic region          dominant side, if necessary, cleaned it with an abrasive paste
+    demonstrating greater activation, especially during isometric           (Everi, Spes Medica), and rinsed it with water. Following
+    shoulder tasks. By elucidating these activation profiles using          previous research recommendations,6,15 an anatomical reference
+    HD-sEMG, clinicians may be better equipped to prescribe                 line was drawn from the highest point of the iliac crest to the
+    targeted interventions that maximize therapeutic benefit,               posterior axillary fold, marking a point at 65% of this distance
+    minimize tendon stress, and guide surgical procedures where             from the axillary fold. Another reference line was drawn from
+    the LD is harvested for reconstructive purposes.                        the T8 spinous process to the posterior axillary fold, marking a
+
+
+
+2
+vol. XX • no. X                                                                                                           SPORTS HEALTH
+
+
+
+
+point at 85% of this line. These 2 points were connected, and a      100% MVC for each exercise: shoulder extension (Figure 1b),
+third anatomical reference line was drawn from 40% of this           shoulder adduction (Figure 1c), shoulder internal rotation
+distance toward the T12 spinous process. A linear electrode          (Figure 1c), and lateral trunk bending (Figure 1d). Each
+array (SA 16/5, Bioelettronica) with an interelectrode distance of   contraction lasted 9 seconds, with a 2-minute rest period
+2.5 mm was placed temporarily along this line to determine the       between exercises. Participants were allowed 1 practice trial
+propagation direction of action potentials along the LD muscle       per submaximal contraction to familiarize themselves with the
+fibers. This step ensured that the muscle fibers were aligned        procedure. Real-time visual feedback was provided via a bar
+with the electrode direction, avoiding misalignment that could       graph displayed on a monitor to help participants maintain the
+compromise signal quality. This procedure was not used to            target force level.
+assess regional activity but rather to confirm correct fiber
+orientation for accurate electrode placement. Once the direction     HD-sEMG Signal Processing
+of propagation was confirmed, a semidisposable adhesive              Monopolar sEMG signals were filtered offline using a second-
+HD-sEMG grid consisting of 8 rows and 8 columns (64                  order Butterworth bandpass filter (20-400 Hz) (OT BioLab+
+electrodes in total; 1 mm electrode diameter and 10 mm               v1.7, OT Bioelettronica). The 64 monopolar signals were
+interelectrode distance) (GR10MM0808, OT Bioelettronica) was         processed differentially along the cephalocaudal axis, yielding
+positioned carefully such that the interface between columns 4       56 differential signals organized into 8 columns of 7 signals
+and 5 aligned precisely with both the previously identified fiber    each. HD-sEMG signal processing for shoulder and trunk
+direction and the third anatomical reference line. This alignment    exercises involved 2 key steps:
+ensured that the interface between columns 4 and 5 coincided
+with the third reference line, which corresponds anatomically to        sEMG Amplitude Calculation
+the division between the thoracic and LPC compartments of the        The root mean square (RMS) was used to quantify sEMG
+LD.12 For analysis purposes, columns 1-4 (positioned caudally)       amplitude. A 500 ms nonoverlapping window was applied to
+were assigned to the LPC region, while columns 5-8 (positioned       the recorded signals, which were then normalized to MVC. To
+cephalically, near the posterior axillary fold) were assigned to     minimize fluctuations in the first 2 seconds and reduce fatigue
+the thoracic region, following previous anatomical and sEMG          effects in the final 2 seconds, only the central 5 seconds of
+references (Figure 1a).6,12,15                                       each 9-second trial were analyzed.18 The normalized sEMG
+                                                                     amplitude values from each column (7 signals per column)
+MVC Recording                                                        were averaged. The mean values from columns 1 to 4 were
+Isometric force during shoulder extension, adduction, internal       further averaged to obtain the LPC region amplitude, while the
+rotation, and lateral trunk bending was measured using a             mean values from columns 5 to 8 were averaged to determine
+calibrated force transducer (CCT Transducer) mounted on a            the thoracic region amplitude.
+customized half rack (Figure 1). The force transducer’s analog
+signal was amplified by a factor of 200 and sampled at 2048 Hz.         Topographical Distribution of sEMG Amplitude
+Participants stood with their feet parallel and shoulder-width       The spatial distribution of sEMG amplitude at each contraction
+apart, while the dominant arm and shoulder remained in a             intensity and exercise was analyzed using the barycenter
+neutral position at the side of the trunk. The force transducer      coordinates in the cephalomedial (x-axis barycenter) and
+was adjusted to align with the movement axes for each exercise,      caudomedial (y-axis barycenter) directions relative to the
+following a configuration similar to that used in previous           electrode grid. The x- and y-axis barycenters were calculated
+studies.25,26 Participants performed 3 MVC trials per movement,      using the RMS values of the 56 sEMG signals. Activation maps
+each lasting 5 seconds, with 2-minute rest intervals between         were constructed based on the RMS values and electrode
+trials. The highest recorded force value across the 3 trials was     position coordinates. Data were interpolated into a
+considered the MVC magnitude.                                        2-dimensional representation using a smoothed spline model
+                                                                     with an 8-factor smoothing parameter.
+HD-sEMG Recording During
+Shoulder and Trunk Exercises                                         Statistical Analysis
+Monopolar sEMG signals were recorded at a 2048 Hz sampling           Data normality and homogeneity of variance were assessed
+frequency, amplified by a factor of 200, and band-pass filtered      using the Shapiro-Wilk and Levene’s tests, respectively. Results
+using an eighth-order Bessel filter (10-500 Hz, anti-aliasing).      are reported as means and standard deviations, with 95% CIs
+Force and HD-sEMG signals were digitized using a 16-bit              provided where applicable to illustrate differences among
+analog-to-digital converter (EMG-Quattrocento, Bioelettronica)       conditions. To evaluate potential interactions between LD
+and acquired using OTBiolab software (OT Bioelettronica).            regions (thoracic and LPC) and contraction intensity (10%, 30%,
+HD-sEMG activity was recorded during randomized                      50%, 70%, and 100% MVC) for each exercise (shoulder
+submaximal isometric contractions at 10%, 30%, 50%, 70%, and         extension, adduction, internal rotation, and trunk lateral
+
+
+
+
+                                                                                                                                          3
+    Muñoz-Garcés et al.                                                                                                             Mon • Mon XXXX
+
+
+
+
+        Figure 1. Experimental setup for evaluating the regional activation of the LD using HD-sEMG in different shoulder and trunk
+        exercises. (a) Posterior view showing placement of the 64-electrode HD-sEMG grid on the LD. The anatomical division between
+        the thoracic (columns 5-8) and LPC (columns 1-4) regions is indicated, with the interface between columns 4 and 5 aligned with
+        the anatomical boundary between compartments. This division is represented by a white dashed line, and the columns of the grid
+        are labeled explicitly to facilitate identification and avoid misinterpretation. (b) Isometric shoulder extension exercise performed
+        with the elbow flexed at 90°, where the white arrow indicates the backward direction of force exerted by pulling on the force
+        transducer. (c) Isometric shoulder adduction (white arrow pointing medially) and internal rotation (white arrow depicting rotation
+        along the longitudinal axis) exercises, both performed with the elbow flexed at 90°. (d) Isometric lateral trunk bending exercise,
+        with the white arrow showing the direction of inclination against the force transducer’s resistance. HD-sEMG, high-density surface
+        electromyography; LD, latissimus dorsi; LPC, lumbar-pelvis-costal.
+
+
+
+    bending), a 2-way repeated-measures ANOVA was conducted.                 Results
+    For contraction intensities where significant differences between
+    regions were identified, an additional 2-way repeated-measures           Of the 20 participants initially recruited, 2 were excluded due to
+    ANOVA was applied to examine the effects of exercise type and            excessive noise and artifacts in the sEMG signals, yielding a
+    LD region. When the assumption of sphericity was violated, the           final sample of 18 participants for data analysis. The descriptive
+    Greenhouse-Geisser correction was implemented. To analyze                statistics for each exercise intensity and LD region are
+    barycenter x- and y-axes, a 1-way ANOVA was used to assess               summarized in Table 1.
+    the effect of contraction intensity for each exercise. Tukey’s post
+    hoc multiple comparisons test was performed in cases of                  sEMG Amplitude: Region and
+    significant interaction effects. All statistical analyses were carried   Contraction Intensity
+    out using GraphPad Prism (Version 9.0.0, GraphPad Software),             A significant interaction between region and contraction
+    with a significance level set at P < 0.05.                               intensity was observed for sEMG amplitude during shoulder
+4
+vol. XX • no. X                                                                                                                                 SPORTS HEALTH
+
+
+
+
+     Table 1. Descriptive statistics
+
+        Extension                   10% MVC                  30% MVC                  50% MVC                  70% MVC                 100% MVC
+        Thoracic region,            22.9 ± 9.4               42.0 ± 10.0              64.3 ± 17.9              87.4 ± 17.4             129.5 ± 27.7
+          % RMS
+        LPC region, %               16.5 ± 9.3               34.5 ± 14.4              49.3 ± 19.5              68.9 ± 21.0              88.7 ± 21.0
+          RMS
+        x-axis barycenter,          39.5 ± 3.2               37.2 ± 2.8               36.6 ± 2.3               35.4 ± 2.4               34.6 ± 2.3
+          mm
+        y-axis barycenter,          45.5 ± 4.7               44.0 ± 4.1               43.1 ± 3.5               42.2 ± 3.0               41.7 ± 3.0
+          mm
+        Adduction                   10% MVC                  30% MVC                  50% MVC                  70% MVC                 100% MVC
+        Thoracic region,            30.0 ± 12.1              39.1 ± 14.2              51.7 ± 15.0              63.9 ± 17.1              72.9 ± 22.3
+          % RMS
+        LPC region, %               24.9 ± 15.8              29.6 ± 14.6              47.2 ± 20.9              52.5 ± 21.5              61.2 ± 23.9
+          RMS
+        x-axis barycenter,          37.3 ± 3.5               36.6 ± 2.8               36.8 ± 2.8               36.4 ± 2.5               36.3 ± 2.9
+          mm
+        y-axis barycenter,          44.7 ± 4.6               42.5 ± 4.3               41.2 ± 4.3               41.4 ± 3.9               40.8 ± 4.2
+          mm
+        Internal rotation           10% MVC                  30% MVC                  50% MVC                  70% MVC                 100% MVC
+        Thoracic region,            20.1 ± 7.9               33.7 ± 10.5              51.2 ± 16.7              69.8 ± 18.5              76.3 ± 19.2
+          % RMS
+        LPC region, %               20.5 ± 7.6               28.3 ± 11.3              38.3 ± 14.4              42.3 ± 20.1              43.8 ± 17.4
+          RMS
+        x-axis barycenter,          39.5 ± 4.2               38.1 ± 5.0               38.2 ± 5.0               37.6 ± 3.7               36.6 ± 3.7
+          mm
+        y-axis barycenter,          46.6 ± 4.2               45.8 ± 4.2               45.7 ± 4.5               43.1 ± 4.2               41.7 ± 3.9
+          mm
+        Trunk lateral
+        bending                     10% MVC                  30% MVC                  50% MVC                  70% MVC                 100% MVC
+        Thoracic region,            18.7 ± 5.3               20.1 ± 7.3               21.9 ± 7.9               25.3 ± 7.6               25.5 ± 7.8
+          % RMS
+        LPC region, %               17.5 ± 4.8               20.0 ± 5.6               19.0 ± 6.3               20.4 ± 7.5               21.3 ± 6.7
+          RMS
+        x-axis barycenter,          38.8 ± 4.4               38.0 ± 3.2               37.9 ± 3.6               39.0 ± 3.5               38.7 ± 3.4
+          mm
+        y-axis barycenter,          46.4 ± 4.2               45.3 ± 4.4               46.2 ± 4.4               45.2 ± 3.9               45.7 ± 3.7
+          mm
+
+     Data presented as mean ± SD of the normalized electromyographic amplitude for the LD regions (thoracic and LPC), as well as the x-axis and y-axis
+     barycenters, during shoulder and trunk exercises performed at different percentages of MVC. LD, latissimus dorsi; RMS, root mean square; MVC, maximum
+     voluntary contraction; LPC, lumbar-pelvis-costal.
+
+
+
+
+                                                                                                                                                                5
+    Muñoz-Garcés et al.                                                                                                             Mon • Mon XXXX
+
+
+
+
+        Figure 2. Electromyographic amplitude (normalized RMS) of the thoracic and LPC regions of the LD across different contraction
+        intensities (10%, 30%, 50%, 70%, and 100% MVC) for 4 exercises: (a) shoulder extension, (b) shoulder adduction, (c) shoulder
+        internal rotation, and (d) lateral trunk bending. For shoulder extension and internal rotation, the thoracic region consistently
+        demonstrated greater electromyographic amplitude than the LPC region at higher contraction intensities (50%, 70%, and
+        100% MVC). In contrast, no significant interaction was found between regions for shoulder adduction and lateral trunk bending,
+        suggesting a more uniform spatial activation across these exercises. The significant difference between exercises or regions are
+        indicated by grey lines. *P < 0.05; **P < 0.01; ***P < 0.001; ****P < 0.001. LD, latissimus dorsi; LPC, lumbar-pelvis-costal; MVC,
+        maximum voluntary contraction; RMS, root mean square.
+
+
+
+    extension (F4,136 = 10.9; P = 0.001) and internal rotation (F4,136 =    and 100% (F3,102 = 10.6; P = 0.001) MVC. Post hoc analysis
+    16.4; P = 0.001). Post hoc analysis indicated that, for both            indicated that, for both LD regions, shoulder extension
+    exercises, the thoracic region exhibited significantly greater          produced significantly (P < 0.05) greater amplitudes than all
+    amplitude compared with the LPC region at 50% (mean                     other shoulder and trunk exercises. Moreover, shoulder internal
+    difference [MD], 15.0% RMS; 95% CI, 2.3-27.6; P = 0.02), 70%            rotation showed significantly (P < 0.05) greater amplitudes than
+    (MD, 18.4% RMS; 95% CI, 5.4-31.5; P = 0.007), and 100% MVC              lateral trunk bending (Figure 3).
+    (MD, 40.8% RMS; 95% CI, 24.1-57.6; P = 0.001) (Figure 2). In
+    contrast, no significant interaction between region and                 Barycenter
+    contraction intensity was observed for sEMG amplitude during            For the x-axis barycenter, a significant effect of contraction
+    shoulder adduction (F4,136 = 0.8; P = 0.52) or lateral trunk            intensity for shoulder extension (F2.3,39.8 = 18.8; P < 0.001) and
+    bending (F4,136 = 1.1; P = 0.34).                                       internal rotation (F2.2,38.0 = 6.7; P = 0.001), consistent with a
+                                                                            cephalomedial displacement at higher contraction intensities.
+    sEMG Amplitude: Region and Exercise                                     Post hoc analyses indicated significant differences (P < 0.05)
+    A significant interaction between region and exercise was               when comparing lower-intensity (e.g., 10% or 30%) with higher-
+    observed for sEMG amplitude at 70% (F3,102 = 4.2; P = 0.007)            intensity (e.g., 70% or 100%) contractions (Figure 4). For
+
+
+6
+vol. XX • no. X                                                                                                                  SPORTS HEALTH
+
+
+
+
+     Figure 3. Electromyographic amplitude (normalized RMS) of the thoracic and LPC regions of the LD during isometric shoulder and
+     trunk exercises at (a) 70% MVC and (b) 100% MVC. At both contraction intensities, shoulder extension exhibited significantly higher
+     amplitudes than all other shoulder and trunk exercises. Moreover, shoulder internal rotation showed significantly higher amplitudes
+     than lateral trunk bending. Furthermore, the thoracic region exhibits consistently higher activation compared with the LPC region
+     during shoulder extension and internal rotation. The significant difference between exercises or regions are indicated by grey lines:
+     *P < 0.05; **P < 0.01; ***P < 0.001; ****P < 0.001. LD, latissimus dorsi; LPC, lumbar-pelvis-costal; MVC, maximum voluntary
+     contraction; RMS, root mean square.
+
+
+
+shoulder adduction (F2.7,45.8 = 1.3; P = 0.26) and lateral trunk         and LPC regions of the LD respond differently depending on
+bending (F2.6,44.5 = 0.8; P = 0.48), the x-axis barycenter did not       the specific shoulder movement and intensity level, highlighting
+vary significantly with contraction intensity.                           the need for targeted rehabilitation approaches that consider
+  Regarding the y-axis barycenter, there was a significant effect        regional muscle activation.36
+of contraction intensity for shoulder extension (F1.8,29.7 P =             Our results can be interpreted in the context of muscle
+12.9; P = 0.001), shoulder adduction (F1.6,28.3 = 11.9; P = 0.001),      anatomical organization and neuromuscular control. One of the
+and shoulder internal rotation (F2.8,46.8 = 17.0; P = 0.001). This       first studies to explore regional LD activation was conducted by
+manifested as a caudomedial shift in the y-axis barycenter with          Paton and Brown,29 followed by Brown et al.6 These studies
+increasing contraction intensity in these 3 exercises. Post hoc          suggested that the central nervous system can selectively
+analyses indicated significant differences (P < 0.05) when               activate different segments of the LD depending on the motor
+comparing lower-intensity (eg, 10% or 30%) with higher-                  task. However, their use of 6 bipolar electrode pairs failed to
+intensity (eg, 100%) contractions (Figure 4).                            identify a clear activation pattern between regions. Subsequent
+                                                                         studies by Beaudette et al2 and Park and Yoo,26 also employing
+                                                                         bipolar surface electromyography, reported uniform activation
+Discussion
+                                                                         patterns within the LD during isometric shoulder tasks, with no
+Our findings demonstrate that the thoracic region of the LD              significant differences between the thoracic and LPC regions.
+exhibits greater activation compared with the LPC region during          Park and Yoo27 also investigated LD activation using bipolar
+shoulder extension and internal rotation at intensities above            electrodes placed over the thoracic and LPC regions during
+50% MVC. Furthermore, a cephalomedial displacement of the                various isometric exercises. While they reported greater overall
+barycenter activity was observed with increasing contraction             LD activation during shoulder extension, they did not find
+intensity, supporting the notion that the thoracic region plays a        significant differences between the 2 regions. However, a
+predominant role during shoulder movements. In contrast, no              subsequent study by Park and Too28 observed that the inverted
+significant regional differences were found during shoulder              row, an exercise involving shoulder extension, activated
+adduction and lateral trunk bending exercises. These results             primarily the thoracic region, whereas lateral trunk bending
+allow us to partially accept our initial hypothesis, which               showed greater activation in the LPC region. While these
+proposed marked regional differences in all movements                    findings partially align with ours, our data suggest that LD
+assessed. Collectively, these findings suggest that the thoracic         regional activation is more complex and functionally
+
+
+                                                                                                                                                 7
+    Muñoz-Garcés et al.                                                                                                              Mon • Mon XXXX
+
+
+
+
+        Figure 4. Spatial distribution of LD activation as a function of contraction intensity (% MVC). (a-d) Displacement in the x-axis
+        barycenter during (a) shoulder extension, (b) shoulder adduction, (c) shoulder internal rotation, and (d) lateral trunk bending. (e-h)
+        Displacement in the y-axis barycenter for (e) shoulder extension, (f) shoulder adduction, (g) shoulder internal rotation, and (h)
+        lateral trunk bending. A significant cephalomedial (x-axis) and caudomedial displacement (y-axis) were observed as contraction
+        intensity increased during shoulder extension and internal rotation, indicating greater activation of the thoracic region of the LD.
+        No significant changes were found for lateral trunk bending, suggesting a more homogeneous spatial activation. The significant
+        difference between exercises or regions are indicated by grey lines: *P < 0.05; **P < 0.01; ***P < 0.001. LD, latissimus dorsi; MVC,
+        maximum voluntary contraction.
+
+
+
+    differentiated based on movement type and contraction                   variations in physiological cross-sectional area, fiber orientation,
+    intensity. In contrast, our results using HD-sEMG revealed a            and fascicle length.12 Their results indicated that the thoracic
+    predominant activation of the thoracic region during isometric          region has an average fascicle length of 24.2 cm and a cross-
+    shoulder extension and internal rotation, accompanied by a              sectional area of 2 cm2 (comprising 36% of the muscle), with
+    medial shift in the barycenter toward this region. These                fibers oriented horizontally toward the humeral insertion. In
+    discrepancies with previous studies may stem from the                   contrast, the LPC region exhibits a longer fascicle length (28.9
+    limitations of bipolar sEMG, which lacks the spatial resolution         cm) and a larger cross-sectional area (3.6 cm2, representing 64%
+    necessary to detect subtle regional variations in muscle                of the muscle), with fibers arranged more vertically. Based on
+    activation.19 The use of HD-sEMG allowed for a more precise             these architectural characteristics, Gerling and Brown concluded
+    mapping of activation distribution,10,23 thereby identifying a          that the thoracic region is involved primarily in shoulder
+    greater recruitment of motor units possibly confined to the             movements, especially extension and adduction, while the LPC
+    thoracic region of the LD. This may suggest a functional                region contributes more to trunk support and stability.
+    specialization of this area. Similar compartmentalized activation       Moreover, the horizontal fiber orientation in the thoracic region
+    patterns have been observed in muscles such as the vastus               not only aligns the line of action of the LD with the
+    medialis and lateralis,11,24 where distinct regions and their motor     glenohumeral joint but also could enhance muscle spindle
+    units are selectively activated depending on the type of                feedback,1,3 potentially favoring the preferential recruitment of
+    contraction and movement.                                               motor units in this region during these movements.
+      From an anatomical perspective, our findings are supported              These findings suggest potential clinical implications for
+    by Gerling and Brown,12 who conducted an architectural                  shoulder rehabilitation, particularly in cases of tendinopathies,
+    analysis of the LD and proposed functional differences between          scapular dyskinesis, and massive irreparable rotator cuff tears
+    its thoracic and LPC regions. They attributed these differences to      requiring LD tendon transfer. The higher activation seen in the
+
+
+
+8
+vol. XX • no. X                                                                                                                             SPORTS HEALTH
+
+
+
+
+thoracic region of the LD during shoulder extension and              clinical relevance, particularly in the rehabilitation of shoulder
+internal rotation, especially above 50% MVC, may suggest that        tendinopathies and LD tendon transfers, where targeted pre-
+exercises emphasizing these movements could enhance scapular         and postsurgical strategies may optimize scapular stabilization
+stabilization, dynamic control, and the compensatory role of the     and shoulder function.
+LD when the supraspinatus or infraspinatus are
+compromised.13,32,33 In prehabilitation protocols, targeting the     References
+thoracic fibers may optimize the LD’s readiness for tendon            1. Ackerley R, Samain-Aupic L, Ribot-Ciscar E. Passive proprioceptive training alters
+transfer, potentially improving postoperative outcomes by                the sensitivity of muscle spindles to imposed movements. eNeuro. 2022;9(1):
+facilitating adaptation to its new biomechanical function in             ENEURO.0249-21.2021.
+                                                                      2. Beaudette SM, Unni R, Brown SHM. Electromyographic assessment of
+external rotation and abduction.13 In people with shoulder               isometric and dynamic activation characteristics of the latissimus dorsi muscle.
+tendinopathies or scapular dyskinesis, impaired scapular                 J Electromyogr Kinesiol. 2014;24(3):430-436.
+kinematics can exacerbate pain and impede functional                  3. Bergenheim M, Ribot-Ciscar E, Roll J-P. Proprioceptive population coding of
+                                                                         two-dimensional limb movements in humans: I. Muscle spindle feedback during
+recovery.14 Targeting the thoracic region through progressive            spatially oriented movements. Exp Brain Res. 2000;134(3):301-310.
+shoulder extension and internal rotation exercises may enhance        4. Bhatt CR, Prajapati B, Patil DS, Patel VD, Singh BGP, Mehta CD. Variation in the
+scapular positioning while reducing stress on the rotator cuff           insertion of the latissimus dorsi & its clinical importance. J Orthop. 2013;10(1):
+                                                                         25-28.
+tendons, potentially improving pain relief and mechanics. When        5. Bogduk N, Johnson G, Spalding D. The morphology and biomechanics of
+the thoracic fibers of the LD are sufficiently strengthened, they        latissimus dorsi. Clin Biomech. 1998;13(6):377-385.
+may help maintain scapular alignment by contributing to               6. Brown JMM, Wickham JB, McAndrew DJ, Huang X-F. Muscles within muscles:
+                                                                         coordination of 19 muscle segments within three shoulder muscles during
+downward rotation, positioning of the scapula against the rib            isometric motor tasks. J Electromyogr Kinesiol. 2007;17(1):57-73.
+cage, or mitigating compensatory movements commonly                   7. De Casas R, Lois M, Cidoncha M, Valadron M. Clinic and electromyographic
+associated with scapular dyskinesis.5,34 These exercises,                results of latissimus dorsi transfer for irreparable posterosuperior rotator cuff
+                                                                         tears. J Orthop Surg. 2014;9:83.
+although performed with the arm in 0° of elevation, remain            8. Devorski L, M. Bazett-Jones D, Mangum LC, Glaviano NR. Muscle activation in
+valuable in structured rehabilitation programs, particularly             the shoulder girdle and lumbopelvic-hip complex during common therapeutic
+during early and intermediate stages,17 as they allow safe yet           exercises. J Sport Rehabil. 2022;31(1):31-37.
+                                                                      9. Feijen S, Tate A, Kuppens K, Struyf T, Claes A, Struyf F. Intrarater and interrater
+focused recruitment of the thoracic LD without placing                   reliability of a passive shoulder flexion range of motion measurement for
+excessive load on healing tissues or the subacromial space.              latissimus dorsi flexibility in young competitive swimmers. J Sport Rehabil.
+Future research should clarify how exercise protocols can be             2020;29(6):855-858.
+                                                                     10. Gallina A, Disselhorst-Klug C, Farina D, et al. Consensus for experimental design
+tailored to diverse patient populations and movement demands             in electromyography (CEDE) project: high-density surface electromyography
+to maximize therapeutic benefit.                                         matrix. J Electromyogr Kinesiol. 2022;64:102656.
+  While this study provides valuable insights, several limitations   11. Gallina A, Wakeling JM, Hodges PW, Hunt MA, Garland SJ. Regional vastus
+                                                                         medialis and vastus lateralis activation in females with patellofemoral pain.
+must be acknowledged. First, the sample size consisted of                Med Sci Sports Exerc. 2019;51(3):411-420.
+young, healthy participants, limiting the generalizability of the    12. Gerling ME, Brown SHM. Architectural analysis and predicted functional
+findings to people with shoulder pathologies. In addition, we            capability of the human latissimus dorsi muscle. J Anat. 2013;223(2):112-122.
+                                                                     13. Henseler JF, Nagels J, Nelissen RGHH, De Groot JH. Does the latissimus dorsi
+did not stratify participants by type of physical activity (eg,          tendon transfer for massive rotator cuff tears remain active postoperatively and
+resistance vs aerobic training), which could influence                   restore active external rotation? J Shoulder Elbow Surg. 2014;23(4):553-560.
+neuromuscular recruitment strategies and regional activation         14. Karabay D, Yeşilyaprak SS, Erduran M, Ozcan C. Effects of eccentric versus
+                                                                         concentric strengthening in patients with subacromial pain syndrome: a
+patterns. Another limitation is that the study focused solely on         randomized controlled trial. Sports Health. 2025;17(2):322-331.
+isometric contractions due to the need to minimize movement          15. Kaya Benli T, Kara D, Dulger E, Bilgin S. Electromyography study of six parts of
+artifacts and ensure more stable sEMG recordings, leaving the            the latissimus dorsi during reaching tasks while seated: a comparison between
+                                                                         healthy subjects and stroke patients. J Electromyogr Kinesiol. 2023;70:102770.
+dynamic activation patterns of the LD unexplored. Future             16. Laudner KG, Williams JG. The relationship between latissimus dorsi stiffness and
+research should examine LD activation during dynamic                     altered scapular kinematics among asymptomatic collegiate swimmers. Phys Ther
+movements and under different loading conditions to enhance              Sport. 2013;14(1):50-53.
+                                                                     17. Mendez-Rebolledo G, Araya-Quintanilla F, Guzmán-Muñoz E, et al. A
+the clinical applicability of these findings in rehabilitation and       comparative electromyographic study of scapular stabilizing muscles during five
+sports settings. Expanding the investigation to diverse age              main rehabilitation exercises. Am J Phys Med Rehabil. 2024;103(6):502-509.
+groups and people with musculoskeletal conditions could              18. Mendez-Rebolledo G, Calatayud J, Martinez-Valdes E. High-density surface
+                                                                         electromyography feedback enhances fibularis longus recruitment in chronic
+further improve the translational relevance of these results.            ankle instability. Med Sci Sports Exerc. 2025;57(1):1-10.
+                                                                     19. Mendez-Rebolledo G, Guzmán-Venegas R, Cruz-Montecinos C, Watanabe K,
+Conclusion                                                               Calatayud J, Martinez-Valdes E. Individuals with chronic ankle instability show
+                                                                         altered regional activation of the peroneus longus muscle during ankle eversion.
+These findings confirm the presence of regional activation in            Scand J Med Sci Sports. 2024;34(1):e14535.
+                                                                     20. Mendez-Rebolledo G, Guzmán-Venegas R, Valencia O, Watanabe K.
+the LD muscle, with greater activation in its thoracic region            Contribution of the peroneus longus neuromuscular compartments to eversion
+during isometric shoulder extension and internal rotation. The           and plantarflexion of the ankle. Plos One. 2021;16(4):e0250159.
+observed medial shift in the activation barycenter suggests a        21. Mendez-Rebolledo G, Morales-Verdugo J, Orozco-Chavez I, Habechian FAP,
+                                                                         Padilla EL, de la Rosa FJB. Optimal activation ratio of the scapular muscles
+task-dependent spatial redistribution of LD activity, supporting         in closed kinetic chain shoulder exercises: a systematic review. J Back
+the hypothesis of functional specialization. These results have          Musculoskelet Rehabil. 2021;34(1):3-16.
+
+
+
+
+                                                                                                                                                               9
+     Muñoz-Garcés et al.                                                                                                                                                   Mon • Mon XXXX
+
+
+
+
+      22. Mendez-Rebolledo G, Orozco-Chavez I, Morales-Verdugo J, Ramirez-Campillo                     rotation after reverse total shoulder arthroplasty with isolated latissimus dorsi
+          R, Cools AMJ. Electromyographic analysis of the serratus anterior and upper                  transfer: surgical technique and midterm follow-up. J Shoulder Elbow Surg.
+          trapezius in closed kinetic chain exercises performed on different unstable                  2019;28(12):2356-2363.
+          support surfaces: a systematic review and meta-analysis. PeerJ. 2022;10:e13589.        31.   Pouliart N, Gagey O. Significance of the latissimus dorsi for shoulder instability.
+      23. Mendez-Rebolledo G, Orozco-Chavez I, Salazar-Méndez J, Morales-Verdugo                       I. Variations in its anatomy around the humerus and scapula. Clin Anat.
+          J, Martinez-Valdes E. Effect of experimental and clinical pain on the spatial                2005;18(7):493-499.
+          distribution of muscle activity: a systematic review and meta-analysis. Front Hum      32.   Safoury YA, Eldesoky MT, Abutaleb EE, Atteya MR, Gabr AM. Postoperative
+          Neurosci. 2025;19:1603807.                                                                   physical therapy program for latissimus dorsi and teres major tendons transfer to
+      24. Nuccio S, Del Vecchio A, Casolo A, et al. Deficit in knee extension strength                 rotator cuff in children with obstetrical brachial plexus injury. Eur J Phys Rehabil
+          following anterior cruciate ligament reconstruction is explained by a reduced                Med. 2017;53(2):277-285.
+          neural drive to the vasti muscles. J Physiol. 2021;599(22):5103-5120.                  33.   Salazar-Méndez J, Morales-Verdugo J, Lluch-Girbés E, et al. A scoping review
+      25. Park S, Yoo W. Comparison of exercises inducing maximum voluntary                            of tendon transfer surgeries and postsurgical physical therapy interventions in
+          isometric contraction for the latissimus dorsi using surface electromyography.               individuals with massive rotator cuff tears. PM R. 2024;16(7):745-765.
+          J Electromyogr Kinesiol. 2013;23(5):1106-1110.                                         34.   Szucs KA, Borstad JD. Gender differences between muscle activation and onset
+      26. Park S, Yoo W. Selective activation of the latissimus dorsi and the inferior fibers          timing of the four subdivisions of trapezius during humerothoracic elevation.
+          of trapezius at various shoulder angles during isometric pull-down exertion.                 Hum Mov Sci. 2013;32(6):1288-1298.
+          J Electromyogr Kinesiol. 2013;23(6):1350-1355.                                         35.   Turgut E, Duzgun I, Baltaci G. Effects of scapular stabilization exercise training
+      27. Park S, Yoo W. Differential activation of parts of the latissimus dorsi with various         on scapular kinematics, disability, and pain in subacromial impingement: a
+          isometric shoulder exercises. J Electromyogr Kinesiol. 2014;24(2):253-257.                   randomized controlled trial. Arch Phys Med Rehabil. 2017;98(10):1915-1923.e3.
+      28. Park S, Yoo W, An D, Oh J, Lee J, Choi B. Comparison of isometric exercises            36.   Whittaker RL, Alenabi T, Kim SY, Dickerson CR. Regional electromyography of
+          for activating latissimus dorsi against the upper body weight. J Electromyogr                the infraspinatus and supraspinatus muscles during standing isometric external
+          Kinesiol. 2015;25(1):47-52.                                                                  rotation exercises. Sports Health. 2022;14(5):725-732.
+      29. Paton ME, Brown JM. Functional differentiation within latissimus dorsi.                37.   Youdas JW, Kleis M, Krueger ET, Thompson S, Walker WA, Hollman JH.
+          Electromyogr Clin Neurophysiol. 1995;35(5):301-309. PMID: 7498076                            Recruitment of shoulder complex and torso stabilizer muscles with rowing
+      30. Popescu I-A, Bihel T, Henderson D, Martin Becerra J, Agneskirchner J, Lafosse                exercises using a suspension strap training system. Sports Health. 2021;13(1):
+          L. Functional improvements in active elevation, external rotation, and internal              85-90.
+
+
+     For article reuse guidelines, please visit Sage’s website at http://www.sagepub.com/journals-permissions.
+
+
+
+
+10
+

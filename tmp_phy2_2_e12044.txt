@@ -1,0 +1,557 @@
+                                                                                                                Physiological Reports ISSN 2051-817X
+ORIGINAL RESEARCH
+
+Reciprocal activation of gastrocnemius and soleus motor
+units is associated with fascicle length change during knee
+flexion
+Benedikt Lauber1, Glen A. Lichtwark2 & Andrew G. Cresswell2
+1 Department of Sport and Sport Science, University of Freiburg, Freiburg, Germany
+2 School of Human Movement Studies, The University of Queensland, Brisbane, Queensland, Australia
+
+
+
+
+Keywords                                               Abstract
+MU recruitment, muscle-tendon unit length,
+triceps surae.                                         While medial gastrocnemius (MG) and soleus (SOL) are considered syner-
+                                                       gists, they are anatomically exclusive in that SOL crosses only the ankle,
+Correspondence                                         while MG crosses both the knee and ankle. Due to the force-length proper-
+Andrew G. Cresswell,                                   ties of both active and passive structures, activation of SOL and MG must be
+School of Human Movement Studies,                      constantly regulated to provide the required joint torques for any planned
+The University of Queensland,
+                                                       movement. As such, the aim of this study was to investigate the neural regu-
+Brisbane, Qld 4072, Australia.
+Tel: (+61) 7 3365 6241
+                                                       lation of MG and SOL when independently changing their length by chang-
+Fax: (+61) 7 3365 6877                                 ing only the knee joint angle, thus exclusively altering the length of MG
+E-mail: a.cresswell@uq.edu.au                          fibers. MG and SOL motor units (MU) were recorded intramuscularly along
+                                                       with ultrasound imaging of MG and SOL fascicle lengths, while moving the
+Funding Information                                    knee through 60° of rotation and maintaining a low level of voluntary plan-
+The article processing charge was funded by            tar flexor torque. The results showed a reciprocal activation of MG and SOL
+the open access publication fund of the
+                                                       as the knee was moved into flexion and extension. A clear reduction in MG
+Albert-Ludwigs-University Freiburg.
+                                                       MU firing rates occurred as the knee was flexed (MG fascicles shortening),
+                                                       with de-recruitment of most MG MU occurring at close to full knee flexion.
+Received: 8 March 2014; Revised: 13 May                A concomitant increase in SOL MU activity was observed while no change in
+2014; Accepted: 14 May 2014                            the length of its fascicles was found. The opposite effects were found when
+                                                       the knee was moved into extension. A strong correlation (ICC = 0.78) was
+doi: 10.14814/phy2.12044                               found between the fascicle length at which MG MUs were de-recruited and
+                                                       subsequently re-recruited. This was stronger than the relationship of de-
+Physiol Rep, 2 (6), 2014, 12044,
+doi: 10.14814/phy2.12044
+                                                       recruitment and re-recruitment with knee angle (ICC = 0.52), indicating that
+                                                       in this instance, muscle fascicle length rather than joint angle is more influ-
+                                                       ential in regulating MG recruitment. Such a reciprocal arrangement like the
+                                                       one presented here for SOL and MG is essential for human voluntary move-
+                                                       ments such as walking or cycling.
+
+
+                                                                                    (LG), and soleus (SOL) muscles are of special interest in
+Introduction
+                                                                                    this context because unlike SOL, which only crosses the
+During everyday movements like walking and cycling,                                 ankle joint, MG and LG cross both the knee and ankle
+lower limb muscles undergo continual changes in overall                             joints and their muscle-tendon unit lengths and conse-
+length as joints change their position. Due to the well-                            quently force-producing capacity are dictated by the posi-
+known force-length properties of both active and passive                            tion of both joints. Even though these muscles act as
+structures within a muscle, neural activation must there-                           agonists, their neural activation has been shown to change
+fore be constantly regulated to provide the required joint                          depending on joint position. For example, a study by
+torques needed for these movements and other similar                                Cresswell et al. (1995) observed a graded reduction in
+movement tasks (Kaya et al. 2003; Donelan et al. 2009).                             neural drive to MG as it was incrementally shortened by
+The medial gastrocnemius (MG), lateral gastrocnemius                                changes in knee joint angle, despite subjects’ being asked
+
+ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                          2014 | Vol. 2 | Iss. 6 | e12044
+the American Physiological Society and The Physiological Society.                                                                             Page 1
+This is an open access article under the terms of the Creative Commons Attribution License,
+which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+Gastrocnemius Recruitment and its Association with Fascicle Length                                                                   B. Lauber et al.
+
+
+to produce a maximal voluntary plantar flexor effort.                nography and image analysis now provide a method to
+Soleus electromyography activity remained the same for               directly measure changes in muscle fascicle length, which
+all knee angles and it was assumed that there was no                 are indicative of changes in muscle fiber length (Cronin
+change in its MTU and fascicle lengths.                              and Lichtwark 2013). In this study, we utilize this tech-
+   A similar reduction in MG neural drive at short mus-              nique along with intramuscular electromyography to
+cle lengths was reported for submaximal isometric plan-              determine whether MTU or fascicle length is the deter-
+tar flexions at different knee joint angles (Kennedy and             mining factor for the previously observed recruitment
+Cresswell 2001). In that study, subjects were asked to               and de-recruitment of MG MUs as the knee is moved
+perform isometric plantar flexion ramp contractions at               into flexion.
+short and long gastrocnemius MTU lengths, while single                  Therefore, the aim of this study was to identify whether
+MU’s were discriminated in MG. It was shown that                     the MG and SOL muscles would be activated in a recipro-
+when MG MTU length was short (i.e., during knee flex-                cal manner when rotating only the knee joint and while
+ion), a higher level of neural drive, as measured by MU              maintaining a constant level of voluntary plantar flexor
+recruitment threshold, was required to recruit MG MU’s.              torque. If MG activity was found to be modulated with
+Possible mechanisms underpinning the change in MG                    changing knee joint angle, a secondary aim was to deter-
+recruitment threshold were postulated, with (1) higher               mine whether such modulation is related to MTU length
+threshold or faster MU’s being selectively activated at              (i.e., joint angle) or muscle fascicle length. Given that MG
+shorter muscle lengths, while lower threshold MU’s were              has been shown to operate primarily on the ascending limb
+inhibited; or (2) there was an overall change in recruit-            of the length–tension relationship (Hoffman et al. 2012),
+ment threshold of the MG pool, with higher drive                     our a priori supposition was that de-recruitment of MG
+required to activate the same population of units. A                 MUs would occur when MG fascicles reached unfavorable
+technical limitation of the study that prevented the                 lengths for force production, that is shorter lengths during
+authors from determining which of the above mecha-                   knee flexion and re-recruit during knee flexion.
+nism was relevant, was the inability to confirm that the
+same MU were recorded at the different muscle lengths.
+                                                                     Methods
+This was due to the fact that stiff concentric needle elec-
+trodes were used to isolate unit firings, and to avoid
+                                                                     Subjects
+damaging the muscle when changing muscle length the
+needles were removed and reinserted. To overcome that                Ten healthy male subjects (27.7  5.3 years; 179.8 
+limitation it would be necessary to follow the firing of             4.9 cm, 79.3  10.5 kg, mean  standard error of the
+the same MUs while the length of MG is being continu-                mean (SEM) with no history of neurological injury or
+ously altered and plantar flexion torque is kept constant.           disease agreed to participate in this study. The procedures
+Furthermore, reports from other studies also show                    were approved by the local university ethics committee
+changes in motor unit activity in relation to changes in             and performed in accordance with the Declaration of
+fascicle length depending on the knee angle (Altenburg               Helsinki. All subjects gave written informed consent prior
+et al., 2009), ankle angle (Hwang & Cho, 2004; Pasquet               to participating.
+et al., 2005), and different levels of surface EMG activity
+when changing the ankle or knee joint angle (Arampatzis
+                                                                     Set-up
+et al. 2006).
+   Another confounding issue relates to the fact that                The experimental setup has been described previously
+while knee joint angle is a reasonable measure for MTU               (Tokuno et al. 2012). In brief, subjects were positioned
+length, it can be a poor correlate of muscle fascicle                side-lying (Fig. 1) with their right hip extended and their
+length. Recent studies have shown that passive compliant             right knee aligned with the axis of a torque motor (Bio-
+structures, such as the Achilles tendon, can act to decou-           dex System 3, Biodex Medical Systems, New York). The
+ple the relationship between joint angle (MTU length)                right shank lay on a padded support that was attached to
+and muscle fascicle length (Arampatzis et al. 2006; Maas             the lever arm of the torque motor. The right ankle was
+and Lichtwark 2009; Hoffman et al. 2012). This decou-                positioned and held between 5° and 10° of dorsiflexion
+pling is particularly heightened when increased activity in          using linked chain attached to a small plate beneath the
+the muscle increases results in even greater stiffness of            ball of the foot. Successful positioning of the subject pre-
+the active muscle fibers. Additionally, tendon length and            vented any change of ankle angle as the knee was rotated
+its associated passive stiffness can also change as the              through a specified range of motion by the torque motor.
+MTU changes length during changes in joint angle and                 Subjects remained in this position throughout the entire
+changes in muscle activation. Recent advances in ultraso-            experiment which took approximately 1.5 h.
+
+
+
+2014 | Vol. 2 | Iss. 6 | e12044                             ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 2                                                                              the American Physiological Society and The Physiological Society.
+B. Lauber et al.                                                                   Gastrocnemius Recruitment and its Association with Fascicle Length
+
+
+                                                                                       more superficially within the same muscles and five addi-
+                                                                                       tional cycles were performed. This was repeated approxi-
+                                                                                       mately three to four times until the electrodes were no
+                                                                                       longer in the muscle tissue. After these trials, the fine-wire
+                                                                                       electrodes were removed and five additional cycles were
+                                                                                       performed in an identical fashion while ultrasound
+                                                                                       measurements of MG and SOL fascicles were made at the
+                                                                                       location where the electrodes were implanted.
+
+
+                                                                                       Electromyographic recordings
+                                                                                       Fine-wire intramuscular electrodes were inserted at loca-
+                                                                                       tions according to the Seniam (Enschede, The Nether-
+                                                                                       lands) guidelines in the most bulging part the muscle belly
+                                                                                       of MG and for SOL, at 2/3 of the line between the medial
+                                                                                       condyle of the femur and the medial malleolus. Electrodes
+                                                                                       were fabricated using Teflon-coated wires made of stainless
+                                                                                       steel, 50 lm diameter (California FineWire) with a detec-
+                                                                                       tion region of 1 mm. One delivery needle (23-gauge,
+                                                                                       32 mm) containing two wires with their detection areas
+                                                                                       approximately 3–4 mm apart was inserted into each mus-
+                                                                                       cle under sterile conditions. The delivery needles were
+                                                                                       removed leaving the pairs of wires remaining in the mus-
+                                                                                       cle. The position of the electrodes was then adjusted by
+                                                                                       lightly pulling at the wires to obtain an improved signal-
+ Figure 1. Illustration of the experimental setup. Subjects were
+                                                                                       to-noise ratio during weak, brief contractions. A single Ag–
+ lying on their side with their ankle fixed at approximately 90° while
+ their knee was passively rotated over 60° into flexion and back to
+                                                                                       AgCl surface electrode (diameter 10 mm, Tycell Healthcare
+ extension. This position enabled ultrasound imaging of the medial                     Group LP, Hampshire, UK) was placed over the lateral
+ gastrocnemius and soleus muscles. Single MUs were recorded from                       condyle of the tibia and used as a reference electrode. All
+ medial gastrocnemius and soleus using fine-wire electrodes. Visual                    EMG signals were amplified 1000 times and band pass fil-
+ feedback of ankle torque was provided to the subject so that they                     tered between 50 Hz and 4 kHz (NL844 and NL105,
+ could maintain a required plantar flexion torque of approximately                     respectively, Digitimer Ltd, Hertfordshire, UK) before ana-
+ 5% of a maximal voluntary contraction.
+                                                                                       logue to digital conversion at 20 kHz (Spike2 and Power
+                                                                                       1401, Cambridge Electronic Design, Cambridge, UK).
+Protocol
+                                                                                       Ultrasound measurements
+The subject’s torso and thighs remained motionless while
+their knee was passively rotated through 60° into flexion                              Ultrasound B-mode images were recorded for MG and
+and extension by the torque motor at a constant angular                                SOL muscle fascicles while the knee was rotated by the
+speed of 4°s 1 starting from an almost fully extended knee                             torque motor. A PC-based ultrasound system (Echoblaster
+position (0°). Five complete cycles were performed with                                128, UAB ‘Telemed’, Vilnius, Lithuania) using a flat-
+each cycle having a 2-s pause at each end point. At the                                shaped ultrasound probe (96-element, linear probe,
+same time, and throughout the entire five cycles, subjects                             frequency of 7 MHz, field of view of 60 mm, capture
+were required to produce a constant plantar flexion torque                             frequency of 80 Hz) was used to image the fascicle length
+(2.5% of a maximum voluntary contraction; 4 Nm on                                    of MG and SOL. The probe was strapped to the shank
+average). Real-time plantar flexion torque output was dis-                             using elastic bandage to prevent any unwanted movement
+played on a computer screen placed in front of the subjects                            that would invalidate the measurements. MG was imaged
+to provide visual feedback in order to maintain the target                             in the mid-belly region, while the SOL was imaged distal to
+force. These trials were performed while single MU activity                            the gastrocnemius muscle–tendon junction, slightly lateral
+was simultaneously recorded using fine-wire intramuscular                              to the midline. For both muscles, the ultrasound trans-
+electromyography (EMG) from the MG and SOL muscles                                     ducer was aligned such that the plane of the image was
+(see below). After five cycles, the position of the electrodes                         perpendicular to the deep fascia so that clear continuous
+was changed by gently pulling on the wires so they moved                               muscle fascicle lines could be imaged (Hoffman et al.
+
+
+
+ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                          2014 | Vol. 2 | Iss. 6 | e12044
+the American Physiological Society and The Physiological Society.                                                                             Page 3
+Gastrocnemius Recruitment and its Association with Fascicle Length                                                                   B. Lauber et al.
+
+
+2012). A logic pulse was used to synchronize the ultra-              as the sum of all MU spikes discriminated in 1-s bins
+sound recordings with the start of the motion, the torque            across a complete flexion and extension cycle.
+measurements and the EMG recordings.
+                                                                     Muscle fascicle length measurement
+Torque and knee position measurements
+                                                                     Image processing was performed offline using custom
+Plantar flexion force was measured using a S-type load cell          written Matlab scripts (Mathworks Inc., Chatswood, MA).
+(Model STC, Scale Components, Slacks Creek, Australia)               This method included the use of an automatic tracking
+placed in series with the cable attached to the foot and             algorithm (Cronin et al. 2011) which has been shown to
+aligned parallel to the long axis of the tibia. The force sig-       have high repeatability during both active and passive con-
+nal was DC amplified and low-pass filtered at 5 Hz and               ditions (Gillett et al. 2013) and was used in the same way
+analogue-to-digitally converted at 1 kHz (Spike2 and                 as described by Tokuno et al. (2012). Muscle fascicle
+Power 1401, Cambridge Electronic Design, UK). Plantar                length was defined as the straight-line distance between the
+flexion torque was calculated from the force signal and the          deep and superficial muscle aponeurosis within the middle
+known perpendicular distance from the load cell to the               of image where the full length of the fascicle could be
+estimated center of the axis of rotation of the ankle joint.         visualized. Movement of the end points of this line were
+Angular position of the dynamometer was processed using              calculated from one frame to the next, which accounts for
+the same settings as for the force measurement and was               any change in pennation angle when estimating fascicle
+used to describe the angular position of the knee.                   length from contractile tissue displacement. To be able to
+                                                                     compare between participants with different absolute fasci-
+                                                                     cle lengths, fascicle length was normalized to the shortest
+Data analysis
+                                                                     fascicle length during the flexion–extension cycle.
+Motor unit discrimination
+                                                                     Statistical analyses
+Discrimination of single MU potentials was performed
+offline using the template-matching features of Spike2               For each subject, individual recruitment and de-recruit-
+software (Cambridge Electronic Design, UK). As MUs can               ment thresholds were calculated for the flexion and exten-
+be assumed to discharge fairly regularly, such that the              sion phases. A Student’s paired t-test was computed to
+next instant of a MU discharge can be predicted by using             compare averaged data across subjects for fascicle length
+the mean interspike interval (ISI) of previous discharges            knee angle at de-recruitment and recruitment. Because we
+(Oya et al. 2009), wrongly classified MUs were visually              could not follow all units across all five cycles, we deter-
+identified as gaps or unusually high-frequency firings in            mined thresholds for each unit for each flexion and exten-
+the instantaneous firing rate record and subsequently                sion phase and included all values into the correlation
+manually corrected finding the template that best fitted             analyses. Knee angle and fascicle length at recruitment and
+the unit or creating a new unit template. Recruitment                de-recruitment threshold were similarly determined. To
+threshold for each MU was determined by iterating a 0.5-             test whether the de-recruitment and recruitment of MG
+s window forward in 1-ms intervals until the coefficient             MUs were related to muscle fascicle length or knee joint
+of variation (CV) of the ISI separating the potentials               angle, we calculated the intraclass correlation coefficient
+within the window was <50%. At this point the time of                (ICC) of fascicle length and knee angle at de-recruitment
+the first potential in the moving window was used for                and recruitment. SOL EMG activation (measured as the
+threshold determination. De-recruitment threshold was                sum of spikes over 1-s bins) was averaged across the five
+determined in the same manner but by moving the win-                 cycles and subjects and then normalized to the bin with
+dow backwards from the last segment of the signal in                 the highest number of spikes (mean  standard error of
+1-ms steps (Moritz et al. 2005; Oya et al. 2009; Kelly               the mean (SEM)). Student’s paired t-tests were computed
+et al. 2013). The mean firing rate at recruitment and                to compare averaged data across subjects for MG EMG fir-
+de-recruitment was calculated over the same 0.5-s win-               ing frequency and number of spikes measured in SOL dur-
+dow that included the first potential defining the recruit-          ing the flexion–extension cycle. For all analysis, the level of
+ment or de-recruitment threshold. Knee angle and MG                  significance was set at P ≤ 0.05.
+fascicle length corresponding to the times of recruitment
+and de-recruitment thresholds were then calculated. Mean
+                                                                     Results
+MG firing frequency at recruitment and de-recruitment
+was calculated over the initial and final five spikes of the         A total of 88 MG MUs were successfully discriminated
+flexion and extension phases. SOL activity was measured              from all flexion–extension cycles, which produced 264
+
+
+
+2014 | Vol. 2 | Iss. 6 | e12044                             ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 4                                                                              the American Physiological Society and The Physiological Society.
+B. Lauber et al.                                                                   Gastrocnemius Recruitment and its Association with Fascicle Length
+
+
+measureable de-recruitment recruitment thresholds. While                               recording from SOL, MG, and SOL fascicle lengths and
+some single MUs could be visually identified from the                                  plantar flexor torque. The example shows the typical find-
+SOL recordings, the purpose of this recording was to                                   ing of MG units being de-recruited as the knee progresses
+evaluate general modulations in drive to the SOL moto-                                 into flexion and MG fascicle length shortens. Recruitment
+neurone pool, and as such individual MUs were not tem-                                 of the same unit occurs as the knee moves into extension
+plate matched or followed in SOL.                                                      and MG fascicles are lengthened. Analysis of MG instan-
+   Representative data from a single subject are shown in                              taneous firing rates revealed an initial increase in firing
+Fig. 2 and demonstrate the effect of passively rotating the                            rate as the knee flexed and MG began to shorten, fol-
+knee while maintaining a constant low level of ankle plan-                             lowed by a brief decrease just prior to de-recruitment.
+tar flexor torque on MG MU de-recruitment and recruit-                                 Similarly, on recruitment, MG firing rates briefly
+ment. The instantaneous firing rate of an isolated MG                                  increased to a maximum and then decreased through the
+unit is also shown, as well as an intramuscular EMG                                    remaining part of the lengthening cycle. SOL activity was
+
+
+
+
+ Figure 2. Example data taken from a single subject. From top to bottom, knee angle, medial gastrocnemius (MG) activation, MG MU firing
+ frequency for a single identified MU, soleus (SOL) activation, plantar flexion torque, MG and SOL fascicle length changes are shown. During
+ knee flexion (0–15 s), a MG MU was de-recruited while SOL EMG activity increased. Knee flexion resulted in a shortening of MG fascicles
+ (solid blue) while SOL fascicle (dotted red) remained at a relatively constant length. The opposite pattern was observed during knee extension
+ (17–32 s).
+
+
+
+
+ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                         2014 | Vol. 2 | Iss. 6 | e12044
+the American Physiological Society and The Physiological Society.                                                                            Page 5
+Gastrocnemius Recruitment and its Association with Fascicle Length                                                                         B. Lauber et al.
+
+
+reciprocal to that of MG, with increasing firing rates and/                constant submaximal plantar flexion torque across both
+or recruitment of additional units during knee passive                     movement phases, with no statistical difference
+flexion and de-recruitment and/or decreasing firing rates                  (P = 0.6) in plantar flexion torque between the flexion
+during passive knee extension. These changes occurred in                   and extension phases (3.8  0.6 Nm and 3.9  0.8 Nm,
+SOL despite relatively little change in SOL fascicle length                respectively).
+or voluntary plantar flexor torque.
+                                                                           MU recruitment and de-recruitment
+Muscle fascicle length and torque output
+                                                                           Results from the grouped data showed MG MUs being
+Grouped data revealed that MG muscle fascicle length                       de-recruited during knee flexion at a knee angle of
+decreased by 3.5  1.9 mm (P ≤ 0.05) during the                            21.1  5.4°, which was significantly different from the
+course of knee flexion. MG fascicles increased to their                    knee angle when the same unit was re-recruited
+starting length during knee extension; however, hystere-                   (35.1  4.3°, P ≤ 0.05, Fig. 4A). When de-recruitment
+sis was evident in the grouped data with slightly longer                   and recruitment were evaluated against MG fascicle length
+MG fascicle lengths occurring during flexion than exten-                   rather than knee angle, de-recruitment and recruitment
+sion for the same knee angle (Fig. 3A showing normal-                      occurred at mean lengths of 45.9  1.9 mm and
+ized data). Negligible length change was seen in SOL                       46.5  2.1 mm, respectively, which were not statistically
+fascicles with grouped data resulting in a length change                   different from each other (P > 0.3, Fig. 4B). ICC values
+of 1.0  0.2 mm over the complete cycle (Fig. 3B show-                     for recruitment versus de-recruitment threshold for fasci-
+ing normalized data). Subjects were able to maintain a                     cle or knee angle revealed a stronger relationship for fas-
+                                                                           cicle length (ICC = 0.78, Fig. 4C) than knee angle
+                                                                           (ICC = 0.52, Fig. 4D). The mean MG firing rate at de-
+         A
+                                                                           recruitment was found to be significantly higher than its
+                                                                           firing rate when re-recruited at the same fascicle length,
+                                                                           with values of 6.3  2.7 Hz and 4.4  1.8 Hz (P ≤ 0.05),
+                                                                           respectively.
+                                                                              Grouped data revealed a graded modulation of SOL
+                                                                           drive, with increasing SOL EMG activity with increasing
+                                                                           knee flexion and decreasing activity during knee exten-
+                                                                           sion. The change in SOL EMG occurred despite no
+                                                                           change in SOL fascicle length or plantar flexion torque
+                                                                           throughout the complete cycle. Mean SOL activity was
+                                                                           overall lower for knee extension than for knee flexion
+                                                                           (Fig. 5, bars furthest to the right).
+         B
+
+                                                                           Discussion
+                                                                           The aim of this study was to identify whether MG and
+                                                                           SOL muscles would be activated in a reciprocal manner
+                                                                           when rotating the knee joint and while maintaining a
+                                                                           constant level of voluntary plantar flexor torque. A reci-
+                                                                           procal relationship between MG and SOL was identified
+                                                                           as the length change of these muscles was decoupled from
+                                                                           each other. As MG fascicles shortened with knee flexion,
+                                                                           an increase in SOL activity occurred to compensate for a
+                                                                           loss of force production from a shorter MG. De-recruit-
+ Figure 3. Group mean average of the normalized fascicle length.
+                                                                           ment of the initially recruited low threshold MG moto-
+ Data for fascicle length are plotted against knee angle for medial
+                                                                           neurones seemed to be driven by a reduction in MG
+ gastrocnemius (MG, A) and soleus (SOL, B). Gray-shaded area
+ represents  standard error of the mean about the mean. During            muscle fascicle length rather than knee position. Although
+ the course of the knee flexion, MG fascicle length decreased              not revealed here, the current findings confirm the exis-
+ followed by an increase during knee extension. SOL fascicle length        tence of a neural mechanism whereby MG fascicle lengths
+ remained relatively unchanged throughout the flexion–extension            are used to provide the central nervous system with the
+ cycle.                                                                    physiological state of the muscle and as such regulate the
+
+
+
+2014 | Vol. 2 | Iss. 6 | e12044                                   ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 6                                                                                    the American Physiological Society and The Physiological Society.
+B. Lauber et al.                                                                   Gastrocnemius Recruitment and its Association with Fascicle Length
+
+
+
+                                A                             B
+
+
+
+
+                                C                                                             D
+
+
+
+
+ Figure 4. De-recruitment versus recruitment threshold for fascicle length and knee angle. De-recruitment (○) versus recruitment (■) threshold
+ was significantly different (P ≤ 0.05) for knee angle (A) but not medial gastrocnemius (MG) fascicle length (B) (P > 0.3). The intraclass
+ correlations (ICC) of the 264 recruitment versus de-recruitment thresholds were stronger for fascicle length (C, ICC = 0.78) than knee angle
+ (D, ICC = 0.52).
+
+
+
+                                                                                       knee was flexed to 90° (Kennedy and Cresswell 2001).
+                                                                                       While no mechanism was given to support that finding,
+                                                                                       the changes were credited to increased inhibition of the
+                                                                                       MG motoneurone pool driven by the diminished force-
+                                                                                       producing capability of the MG muscle at short lengths.
+                                                                                       Peripheral afferent inputs were indicated as likely contrib-
+                                                                                       utors to the effect, with reduced Ia-afferent input via
+                                                                                       increased presynaptic inhibition through increased activa-
+                                                                                       tion of group II, III, and IV afferents, as well as effects
+                                                                                       from cutaneous and joint afferents being suggested.
+                                                                                          The findings of this study are additionally supported
+                                                                                       by at least two earlier studies showing a more than 50%
+                                                                                       decrease in MG surface EMG as the knee is incrementally
+                                                                                       moved from positions of full extension to flexed positions
+                                                                                       of 60° or more (Cresswell et al. 1995; Tamaki et al. 1997).
+ Figure 5. Group mean average of the soleus (SOL) activation: SOL                      In both studies, SOL surface EMG either increased signifi-
+ activation was measured over 12° intervals by counting the total                      cantly for submaximal efforts (Tamaki et al. 1997) or
+ number of MU spikes within each bin for flexion (open bars) and                       remained the same for maximal efforts (Cresswell et al.
+ extension (filled bars). Although not significant, the number of SOL
+                                                                                       1995). Interestingly, less of an effect was observed in the
+ spike counts was greater for flexion than extension for each
+ interval. This was also the case for the mean count across each of
+                                                                                       lateral gastrocnemius muscle which like MG is biarticular
+ the phases (bars furthest to the right).                                              and contributes to both plantar flexion and knee flexion
+                                                                                       torque (Wolf et al. 1998) but is also known to have a dif-
+                                                                                       ferent morphological makeup to MG (Wolf and Kim
+balance of inhibitory and excitatory inputs to its moto-                               1997). The novel aspect of this study was that this modu-
+neurone pool.                                                                          lation can occur under dynamic conditions and discrete
+   This study builds upon the earlier finding of signifi-                              recruitment and de-recruitment thresholds can be identi-
+cantly increased levels of SOL EMG activity and plantar                                fied for different MG MUs based on fascicle length. The
+flexor torque that corresponded to the onset of firing of                              observation of a concomitant increase in SOL activation
+MG MUs during voluntary ramp contractions when the                                     via increases in firing frequency and/or recruitment of
+
+
+
+ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                         2014 | Vol. 2 | Iss. 6 | e12044
+the American Physiological Society and The Physiological Society.                                                                            Page 7
+Gastrocnemius Recruitment and its Association with Fascicle Length                                                                   B. Lauber et al.
+
+
+additional MUs to overcome the force deficit of a down-              unwanted flexion torque being generated about the knee
+ward regulated and shorter MG while maintaining a con-               while it is being rotated by the dynamometer, as it may be
+stant torque output at the ankle is also novel.                      undesirable to generate knee flexion torques at the same
+   The current experiment takes results well beyond those            time as ankle plantar flexion moments when the knee is
+of earlier studies by associating muscle fascicle length with        bent. This may be driven by the fact that the moment arm
+MG excitability rather than joint position or its associated         of MG about the knee will increase as the knee becomes
+muscle-tendon unit length. A recent study by Tokuno                  more flexed. As there is likely to be a significant relation-
+et al. (2012) identified that MG fascicle length did not             ship between MG fascicle length and MG force develop-
+have a direct or one-to-one relationship with knee joint             ment, particularly as passive tension becomes negligible, it
+angle during passive knee rotations. The MG fascicle                 may well be that force detecting inputs such as Golgi ten-
+behavior presented in that study is very similar to the one          don organs contribute to the decreased excitability of the
+shown here, with MG fascicles being at longer lengths                homonymous MG (MacDonell et al. 2010). To some
+during knee flexion compared to knee extension. The dis-             extent, this helps to explain the overall lower activation of
+sociation between knee angle (muscle-tendon unit length)             SOL during knee extension as compared to knee flexion, as
+and fascicle length is most likely due to the effect of the          greater MG force would be produced during knee extension
+relatively compliant Achilles tendon being in series with            for the same level of MG activation.
+MG, which is known to exhibit some degree of hysteresis                 The conditions under which the current experiment was
+during length cycling (Wren et al. 2003). Changes in                 conducted are somewhat unique; however, natural move-
+short-range muscle stiffness via activation of contractile           ment conditions do exist where the knee moves through
+tissue may further complicate the relationship between               similar ranges of motion, leading to the question of
+joint angle and muscle fiber length leaving any peripheral           whether the observed MG behavior exists during more
+control signal difficult for the central nervous system to           functional movement-related tasks. There is some evidence
+interpret (Loram et al. 2009; Day et al. 2013).                      to suggest that during cycling, MG is preferentially acti-
+   Why MG MUs de-recruit at specific fascicle lengths                vated at longer lengths, while SOL is preferentially
+remains a mystery. In this study, MG fascicles shortened             recruited at shorter gastrocnemius lengths as MG onset
+on average by approximately 9% over 60° of knee flexion.             does not occur before the knee moves into extension (Gre-
+A decrease of even half that amount will significantly               gor et al. 1991; Neptune et al. 1997). In addition, during
+reduce MG’s force-producing capability as a shortening of            sit-to-stand movements, MG activity is low compared to
+10% from its optimal length is known to move MG fasci-               SOL until the knee is close to full extension (Doorenbosch
+cles onto the lower part of the ascending limb of the                et al. 1994). Furthermore, during maximum voluntary
+active length tension curve (Maganaris 2003; Hoffman                 plantar flexions performed over a range of different knee
+et al. 2012). The reduced force-producing capability of              angles, Signorile et al. (2002) reported significantly higher
+MG is further exacerbated by its negligible amount of                levels of MG activation when the knee was fully extended
+passive tension at such shortened lengths (Hoffman et al.            compared to when the knee was flexed at 90°, with SOL
+2012). Considering the poor force-producing capacity of              showing the opposite behavior. Taken together, the com-
+MG at short lengths, it may well be that the central ner-            bined results indicate that the triceps surae muscle group is
+vous system is attune to muscle fascicle or fiber lengths            a complex neuromechanical system, whereby the biarticu-
+and regulates the excitability of at least the low threshold         lar MG can be activated independently to its monoarticular
+MG motoneurones accordingly. Possible mechanisms that                synergist SOL. The neural mechanism underlying the over-
+could produce such an effect on the MG motoneurone                   all control of the system remains unknown; however, it
+pool excitability would be disfacilitation from shortening           does appear that there is a strong association of fascicle
+MG muscle spindles, reduced MG fusimotor drive or                    length to the activation of MG.
+inhibition from other peripheral sources (Golgi tendon
+organs, joint receptors, etc.). As the observations in this
+                                                                     Conclusion
+study were made with low levels of plantar flexor torque,
+we can only speculate on what we would likely observe                The results of this study show that under dynamic condi-
+during higher levels of plantar flexor torque. As fascicle           tions, the drive to MG is modulated such that MU de-
+shortening would likely be shorter for higher forces with            recruitment occurs with progressive MG fascicle shorten-
+the same joint configuration, we might expect to see de-             ing and recruitment occurs with progressive lengthening.
+recruitment of MG units occurring earlier during knee                Furthermore, the results also indicate that muscle length
+flexion and re-recruited later during knee extension.                rather than joint angle accounts for the changes in MG
+   An alternative explanation for withdrawal of MG excita-           recruitment during knee flexion and extension. This could
+tion during shortening of its fascicles may be related to            have important consequences for our understanding of
+
+
+
+2014 | Vol. 2 | Iss. 6 | e12044                             ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 8                                                                              the American Physiological Society and The Physiological Society.
+B. Lauber et al.                                                                   Gastrocnemius Recruitment and its Association with Fascicle Length
+
+
+the control of multiarticular joint muscles. Whether the                                 length changes from ultrasound. Comput. Methods
+same principles of control are utilized in functional                                    Biomech. Biomed. Engin. 16:678–687.
+movements that might require plantar flexion forces while                              Gregor, R. J., P. V. Komi, R. C. Browning, and M. J€arvinen.
+the knee is bent, such as the sit-to-stand movement, or                                  1991. A comparison of the triceps surae and residual muscle
+whether similar mechanisms are utilized at other joints,                                 moments at the ankle during cycling. J. Biomech. 24:287–
+requires further attention.                                                              297.
+                                                                                       Hoffman, B. W., G. A. Lichtwark, T. Carroll, and
+                                                                                         A. G. Cresswell. 2012. A comparison of two Hill-type
+Acknowledgments                                                                          skeletal muscle models on the construction of medial
+Benedikt Lauber was supported by the German Academic                                     gastrocnemius length-tension curves in humans in vivo.
+Exchange Service. The authors thank Dr David Lloyd for                                   J. Appl. Physiol. 113:90–96.
+his help in producing the model for the experimental                                   Hwang, I. S., and C. Y. Cho. 2004. Muscle control associated
+setup in Fig. 1.                                                                         with isometric contraction in different joint positions.
+                                                                                         Electromyogr. Clin. Neurophysiol. 44:463–471.
+                                                                                       Kaya, M., T. Leonard, and W. Herzog. 2003. Coordination of
+Conflict of Interest                                                                     medial gastrocnemius and soleus forces during cat
+                                                                                         locomotion. J. Exp. Biol. 206:3645–3655.
+None declared.                                                                         Kelly, L. A., S. Racinais, and A. G. Cresswell. 2013.
+                                                                                         Discharge properties of abductor hallucis before, during,
+References
+                                                                                         and after an isometric fatigue task. J. Neurophysiol.
+Altenburg, T. M., A. de Haan, P. W. L. Verdijk, W. van                                   110:891–898.
+  Mechelen, and C. J. de Ruiter. 2009. Vastus lateralis single                         Kennedy, P. M., and A. G. Cresswell. 2001. The effect of muscle
+  motor unit EMG at the same absolute torque production at                               length on motor-unit recruitment during isometric plantar
+  different knee angles. J. Appl. Physiol. 107:80–89.                                    flexion in humans. Exp. Brain Res. 137:58–64.
+Arampatzis, A., K. Karamanidis, S. Stafilidis,                                         Loram, I. D., M. Lakie, I. Di Giulio, and C. N. Maganaris.
+  G. Morey-Klapsing, G. DeMonte, and G.-P. Br€      uggemann.                            2009. The consequences of short-range stiffness and
+  2006. Effect of different ankle- and knee-joint positions on                           fluctuating muscle activity for proprioception of postural
+  gastrocnemius medialis fascicle length and EMG activity                                joint rotations: the relevance to human standing.
+  during isometric plantar flexion. J. Biomech. 39:1891–1902.                            J. Neurophysiol. 102:460–474.
+Cresswell, A. G., W. N. L€   oscher, and A. Thorstensson. 1995.                        Maas, H., and G. A. Lichtwark. 2009. Is muscle-tendon unit
+  Influence of gastrocnemius muscle length on triceps surae                              length a valid indicator for muscle spindle output?
+  torque development and electromyographic activity in man.                              J. Physiol. 587:13–14.
+  Exp. Brain Res. 105:283–290.                                                         MacDonell, C. W., T. D. Ivanova, and S. J. Garland. 2010.
+Cronin, N. J., and G. Lichtwark. 2013. The use of ultrasound                             Changes in the estimated time course of the motoneuron
+  to study muscle-tendon function in human posture and                                   afterhyperpolarization induced by tendon vibration.
+  locomotion. Gait Posture 37:305–312.                                                   J. Neurophysiol. 104:3240–3249.
+Cronin, N. J., C. P. Carty, R. S. Barrett, and G. Lichtwark.                           Maganaris, C. N. 2003. Force-length characteristics of the in
+  2011. Automatic tracking of medial gastrocnemius fascicle                              vivo human gastrocnemius muscle. Clin. Anat. 16:
+  length during human locomotion. J. Appl. Physiol.                                      215–223.
+  111:1491–1496.                                                                       Moritz, C. T., B. K. Barry, M. A. Pascoe, and R. M. Enoka.
+Day, J. T., G. A. Lichtwark, and A. G. Cresswell. 2013. Tibialis                         2005. Discharge rate variability influences the variation in
+  anterior muscle fascicle dynamics adequately represent                                 force fluctuations across the working range of a hand
+  postural sway during standing balance. J. Appl. Physiol.                               muscle. J. Neurophysiol. 93:2449–2459.
+  115:1742–1750.                                                                       Neptune, R. R., S. A. Kautz, and M. L. Hull. 1997. The effect
+Donelan, J. M., D. A. McVea, and K. G. Pearson. 2009. Force                              of pedaling rate on coordination in cycling. J. Biomech.
+  regulation of ankle extensor muscle activity in freely walking                         30:1051–1058.
+  cats. J. Neurophysiol. 101:360–371.                                                  Oya, T., S. Riek, and A. G. Cresswell. 2009. Recruitment and
+Doorenbosch, C. A., J. Harlaar, M. E. Roebroeck, and                                     rate coding organisation for soleus MUs across entire range
+  G. J. Lankhorst. 1994. Two strategies of transferring from                             of voluntary isometric plantar flexions. J. Physiol. 587:4737–
+  sit-to-stand; the activation of monoarticular and biarticular                          4748.
+  muscles. J. Biomech. 27:1299–1307.                                                   Pasquet, B., A. Carpentier, and J. Duchateau. 2005. Change in
+Gillett, J. G., R. S. Barrett, and G. A. Lichtwark. 2013.                                muscle fascicle length influences the recruitment and
+  Reliability and accuracy of an automated tracking algorithm                            discharge rate of motor units during isometric contractions.
+  to measure controlled passive and active muscle fascicle                               J. Neurophysiol. 94:3126–3133.
+
+
+
+ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                           2014 | Vol. 2 | Iss. 6 | e12044
+the American Physiological Society and The Physiological Society.                                                                              Page 9
+Gastrocnemius Recruitment and its Association with Fascicle Length                                                                    B. Lauber et al.
+
+
+Signorile, J. F., B. Applegate, M. Duque, N. Cole, and A. Zink.       Wolf, S. L., and J. H. Kim. 1997. Morphological analysis of the
+   2002. Selective recruitment of the triceps surae muscles with       human tibialis anterior and medial gastrocnemius muscles.
+   changes in knee angle. J. Strength Cond. Res. 16:433–439.           Acta. Anat. (Basel) 158:287–295.
+Tamaki, H., K. Kitada, T. Akamine, T. Sakou, and H. Kurata.           Wolf, S. L., J. Ammerman, and B. Jann. 1998. Organization of
+   1997. Electromyogram patterns during plantarflexions at             responses in human lateral gastrocnemius muscle to
+   various angular velocities and knee angles in human triceps         specified body perturbations. J. Electromyogr. Kinesiol.
+   surae muscles. Eur. J. Appl. Physiol. Occup. Physiol. 75:1–6.       8:11–21.
+Tokuno, C. D., G. A. Lichtwark, and A. G. Cresswell. 2012.            Wren, T. A. L., D. P. Lindsey, G. S. Beaupre, and D. R. Carter.
+   Modulation of the soleus H-reflex during knee rotations is          2003. Effects of creep and cyclic loading on the mechanical
+   not consistent with muscle fascicle length changes. Eur.            properties and failure of human achilles tendons. Ann.
+   J. Appl. Physiol. 112:3259–3266.                                    Biomed. Eng. 31:710–717.
+
+
+
+
+2014 | Vol. 2 | Iss. 6 | e12044                              ª 2014 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 10                                                                              the American Physiological Society and The Physiological Society.
+

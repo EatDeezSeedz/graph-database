@@ -1,0 +1,465 @@
+Original Research
+
+Differences Between Pullover and Pulldown Exercises on Maximal Isometric
+Force and Myoelectric Activity in Recreationally-Trained Men
+LUIS FELIPE M. TEIXEIRA†1, WILLY A. GOMES‡2,3, JOSINALDO J. DA SILVA‡2, ROBERTO A.
+MAGALHAES‡4, and PAULO H. MARCHETTI‡5
+1Department       of Physical Education, Campinas State University, Campinas, BRAZIL;
+2Department of Physical Education, Nove de Julho University, SP, BRAZIL; 3Department of
+
+Physical Education, Anhanguera University, SP, BRAZIL; 4Department of Physical Education,
+Mogi Guaçu University, SP, BRAZIL; 5Department of Kinesiology, California State University-
+Northridge, Northridge, CA, USA
+†Denotes graduate student author, ‡Denotes professional author
+
+
+
+                                         ABSTRACT
+International Journal of Exercise Science 15(4): 797-807, 2022. The aim of the present study was to
+compare the myoelectric activation and peak force (PF) between pullover (PO) and pulldown (PW) exercises in
+different shoulder joint positions during maximal isometric contractions (0º, 45º, 90º, 135º, and 180°). Fifteen young,
+healthy, resistance-trained men were recruited. The participants performed three maximal voluntary isometric
+contractions for each exercise at five shoulder joint positions. The myoelectric activation (iEMG) from pectoralis
+major (PM); latissimus dorsi (LD); posterior deltoid (PD), and PF were measured. For PF, there were significant
+main effects for exercise and joint positions (p < 0.001). For iEMG PM, there was significant a main effect for joint
+positions (p < 0.001). There was a significant interaction between exercises and joint positions (p < 0.001). For iEMG
+LD, there was a significant main effect for joint positions (p < 0.001). There was no significant interaction between
+exercises and joint positions. For iEMG PD, there was a significant main effect for joint positions (p < 0.001). There
+was no significant interaction between exercises and joint positions. For RPE, there were no significant differences
+between exercises and joint positions. The study concludes that specific shoulder joint positions affect PF
+production and iEMG during both exercises. RPE was not affected.
+
+KEY WORDS: Kinesiology, strength, muscle performance
+
+INTRODUCTION
+
+Among resistance training (RT) variables, exercise choice is one of the most important factors
+to develop muscle mass, strength, or muscular endurance (15). The exercise choice is based on
+movement specificity and it takes into account factors like the number of joints, range of motion,
+prime movers, level of balance, type of routine, frequency, periodization phase, etc (10). In this
+way, different exercises can be used to move specific joints, activate specific muscle groups, and
+produce different levels of force. Pullover (PO) and Pulldown (PW) are single-joint exercises(11)
+                                                                   Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   and present a similar shoulder joint movement during dynamic contractions (extension:
+   concentric phase and flexion: eccentric phase), however, based on the mechanical characteristics
+   of each exercise, such as the level of force per joint angle, these two exercises might stimuli the
+   same muscles groups differently, including the latissimus dorsi (LD), posterior deltoid (PD),
+   pectoralis major (PM), anterior deltoid (AD), and the long head of the triceps brachii (LTB) (7).
+
+   Several studies have reported greater myoelectric activation of the PM when compared to the
+   LD for the PO exercise [with dumbbell (2, 3), straight bar (3, 12, 13), and W bar (1)] in dynamic
+   contractions. On the other hand, no study was found comparing PM and LD for PW exercise.
+   This comparison becomes important since both exercises present similar joint movements, but
+   different emphases in relation to the range of motion. It is possible to assume that the
+   myoelectric activation is angle-dependent and pennate muscles like PM and LD have an oblique
+   disposition of their fibers in relation to the tendon (7). In this way, the myoelectric activation
+   and the capacity to produce force can be affected by the disposition of the muscle fibers, as well
+   as by the joint position throughout the movement cycle (12, 13). However, to the best of the
+   authors' knowledge, there is no study comparing force production and myoelectric activation
+   between both exercises in similar mechanical conditions.
+
+   Therefore, the aim of the present study was to compare the myoelectric activation and peak
+   force between PO and PW exercises in different shoulder joint positions during maximal
+   isometric contractions. The main hypothesis considers that, due to the functional and
+   morphological characteristics of different muscle groups around the shoulder joint, the
+   interaction among these muscles will change based on the shoulder joint position and will
+   produce a different peak force and maximal myoelectric activation (7, 13). The secondary
+   hypothesis considers that the RPE will remain constant for both exercises and shoulder joint
+   positions. The rationale of this study was to verify the force capacity and interaction among
+   muscles between exercises without the influence of the direction of the external force or
+   movement velocity. The understanding of specific shoulder joint changes might help in the
+   adequate use of these exercises in rehabilitation programs and prescription of strength training.
+
+   METHODS
+
+   Participants
+   The sample size was justified by a pilot study that used peak force as a dependent variable
+   [α=0.05 and power (1 − β) of 0.80] (6). Fifteen young, healthy, resistance-trained men were
+   recruited (age: 27.3±5.7 years; total body mass: 81.1±8.3 kg; height: 175.3±6.1 cm; biacromial
+   distance: 39.2±3.2, experience with resistance training: 3.6±2 years) and a minimum of 1 year of
+   RT experience with both exercises [pullover (PO) and pulldown (PW)]. Participants had no
+   previous injuries or surgeries on upper limbs and trunk and no history of injury with residual
+   symptoms (pain, “giving-away” sensations) within the last year. The Institutional Review Board
+   (IRB) approved this study (##2.871.351), the participants were informed of the risks and benefits
+   of the study prior to any data collection, and then read and signed an institutionally approved
+
+
+International Journal of Exercise Science                                  http://www.intjexersci.com
+                                                  798
+                                                                            Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   informed consent document. This research was carried out fully in accordance to the ethical
+   standards of the International Journal of Exercise Science (14).
+
+   Protocol
+   This study used a randomized and counterbalanced design. Participants attended one
+   laboratory session and refrained from performing resistance training other than activities of
+   daily living for at least 72 hours before testing. Before data collection, participants were asked
+   to identify their preferred arm for writing, which was then considered their dominant arm. All
+   participants were right arm dominant. In addition, anthropometric data were evaluated (total
+   body mass, height, and biacromial distance).
+
+   All participants performed a specific dynamic warm-up (concentric and eccentric actions) of 15
+   repetitions at 10% of their body mass for the pulldown with a closed grip at 100% of the
+   biacromial distance. The range of motion adopted was from 180º (initial position) to 0º (final
+   position) of shoulder extension, in order to cover the entire range of movement that was used in
+   the proposed exercises. A familiarization session was performed and each participant
+   performed two voluntary isometric contractions at 50% of perceived exertion (RPE) for three
+   seconds for both exercises (PO and PW) in all joint positions analyzed in the study (0º, 45º, 90º,
+   135º, and 180º).
+
+   For PO exercise, all participants lay supine on a flat bench holding a short barbell connected to
+   the cross-over equipment; and for PW exercise, all participants remained standing with the torso
+   in the vertical position holding a short barbell connected to a cross over equipment. For both
+   exercises and each shoulder joint position, the cross-over equipment was adjusted to maintain
+   the cable perpendicular to the participant's upper limb (Figure 1).
+
+
+
+
+    Figure 1. Shoulder joint positions performed during both exercises: a) Pullover and b) Pulldown.
+
+
+
+International Journal of Exercise Science                                            http://www.intjexersci.com
+                                                        799
+                                                                  Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   For both exercises, a grip of 100% of the bi-acromial distance was adopted (17) and marked with
+   adhesive tape on the bar. The participants were instructed to maintain the pronated handgrip
+   with elbows fully extended. A rest period of 5-min between conditions and 30-min between
+   exercises (PO and PW) was used. At the end of each experimental condition, all participants
+   were asked to report the rating of perceived exertion (RPE). All experimental conditions were
+   randomized for all participants. All participants received verbal encouragement during all
+   experimental conditions. All measures were performed at the same hour of the day (between 9
+   AM and 12 PM) by the same researcher.
+
+   Shoulder Joint Position: A fleximeter (model FL6010, Sanny, SP, Brazil) was used to control the
+   shoulder joint position (0º, 45º, 90º, 135º, and 180°) in both exercises (PO and PW). The zero
+   degrees was set when the upper limb was aligned with the greater trochanter. In order to
+   determine the joint position, participants were instructed to flex their shoulders until they
+   reached the angular position referring to 45º, 90º, 135º, and 180°. The fleximeter was positioned
+   on the dominant upper limb (mid-arm) (Figure 1).
+
+   Maximal Voluntary Isometric Contraction (MVIC): The MVIC was measured by a load cell
+   acquisition system (EMG832C, EMG system, São José dos Campos, Brazil) with a sampling rate
+   of 2KHz using a commercially designed software program (EMG system, São José dos Campos,
+   Brazil). All MVIC data were synchronized with the sEMG data. In order to acquire MVIC, a load
+   cell was fixed between the bar and the cross-over equipment. During all experimental
+   conditions, the load cell was adjusted to remain perpendicular to the upper limbs of each
+   participant. The digitized force data were low-pass filtered at 10 Hz using a fourth-order
+   Butterworth filter with a zero lag. Then, the maximal value was defined as peak force (PF) for
+   all exercises and shoulder joint positions.
+
+   Surface Electromyography (sEMG): The participants’ skin was prepared before the placement of
+   the sEMG electrodes. Hair at the site of electrode placement was shaved, and the skin was
+   cleaned with alcohol. Bipolar passive disposable dual Ag/AgCl snap electrodes were used
+   which were 1 cm in diameter for each circular conductive area with 2-cm center-to-center
+   spacing. These were placed on the dominant upper limb for Pectoralis Major (PM): electrodes
+   were positioned at 50% on the line between the muscular belly and the middle fibers (sternal-
+   costal); Latissimus Dorsi (LD): the electrodes were positioned 2cm below the lower edge of the
+   scapula on the midline between the spine and the side of the trunk, obliquely towards the first
+   lumbar vertebra (L1), according to the Criswell protocol (5); and Posterior Deltoid (PD): the
+   electrodes were positioned two fingers behind the angle of the acromion, following the
+   alignment between the acromion and the little finger of the hand, according to the SENIAM
+   protocol (9). The sEMG signals were recorded by an electromyography acquisition system
+   (EMG832C, EMG system, São Jose dos Campos, Brazil) with a sampling rate of 2KHz using a
+   commercially designed software program (EMG system, Brazil). EMG amplitude was amplified
+   (bipolar differential amplifier, input impedance = 2 MΩ, common-mode rejection ratio >100 dB
+   min (60 Hz), gain x 20, noise > 5 µV) and analog-to-digitally converted (12 bit). The ground
+   electrode was placed on the bony prominence of the elbow (olecranon). All sEMG data were
+   analyzed with a software program (EMG system, São José dos Campos, Brazil). The digitized
+
+International Journal of Exercise Science                                 http://www.intjexersci.com
+                                                 800
+                                                                      Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   sEMG data were band-pass filtered at 20-400 Hz using a fourth-order Butterworth filter with a
+   zero lag. For myoelectric activation time-domain analysis, RMS (150ms moving window) was
+   calculated during the MVIC. The area under the RMS sEMG curve was calculated, defining the
+   integrated sEMG (iEMG). The reliability (ICC) of the EMG data between isometric contractions
+   for each exercise and shoulder position ranged between 0.69 and 0.81
+
+   Rating of Perceived Exertion (RPE): The session RPE was assessed with a CR-10 scale using the
+   recommendations of Sweet et al., (16). Participants were asked to use an arbitrary unit (A.U.) on
+   the scale to rate their overall effort for each RT exercise. A rating of 0 was associated with no
+   effort and a rating of 10 was associated with maximal effort and the most stressful exercise ever
+   performed. The RPE was requested after each experimental condition and all participants
+   answered the following question based on the CR-10 scale: “How was your workout?”
+
+   Statistical Analysis
+   The normality and homogeneity of variances within the data were confirmed with the Shapiro-
+   Wilk and Levene’s tests, respectively. Mean, standard deviation, and delta percentage (Δ%)
+   were calculated. Interrater reliability was assessed for each condition and exercise. Test-retest
+   reliability (ICC) was calculated and evaluated based on the following criteria: < 0.4 poor; 0.4 - <
+   0.75 satisfactory; ≥ 0.75 excellent. A two-way repeated-measures ANOVA (2x5) with exercises
+   (PO and PW) and joint positions (0º, 45º, 90º, 135º, and 180°) were used for all dependent
+   variables (iEMG, peak force, and RPE). The RPE was reported through a descriptive analysis
+   using the mean and standard deviation. Cohen’s formula for effect size (d) were qualitatively
+   interpreted using the following thresholds: <0.35 - trivial; 0.35-0.8 - small; 0.8-1.5 - moderate;
+   >1.5 - large for recreationally trained (4). An alpha of 5% was used to determine statistical
+   significance.
+
+   RESULTS
+
+   The results of the intraclass correlation coefficient (ICC) for peak force were excellent for all joint
+   positions and exercises [0°: PO (0.97) and PW: (0.95); 45°: PO (0.97) and PW: (0.98); 90°: PO (0.91)
+   and PW: (0.92); 135°: PO (0.95) and PW: (0.98); and 180°: PO (0.93) and PW: (0.94)].
+
+   For Peak Force (PF), there were significant main effects for exercise (p < 0.001) and joint positions
+   (p < 0.001). There was significant interaction between exercises and joint positions (p < 0.001).
+   There were significant differences between PO and PW exercises only for 135° and 180°, the
+   highest values were observed for PO exercise (p = 0.023, d = 1.28, Δ% = 22.8, and p = 0.001, d =
+   2.42, Δ% = 44.9, respectively) (Figure 2a). For PO exercise, there were significant differences
+   between 45° vs 0° (p < 0.001, d = 6.57, Δ% = 25.3) and 90° vs 0° (p < 0.001, d = 10.61, Δ% = 25.8)
+   and 45° vs 180° (p = 0.001, d = 1.92, Δ% = 30.7) and 90° vs 180° (p = 0.002, d = 1.21, Δ% = 31.2)
+   (Figure 2b). For the PW exercise, there were observed significant differences between 45° vs 0°
+   (p < 0.001, d = 1.65, Δ% = 25.7), 90° vs 0° (p = 0.001, d = 1.48; Δ% = 18.3), 45° vs 135° (p < 0.001, d
+   = 2.06, Δ% = 40.8), 90° vs 135° (p = 0.001, d = 2.21, Δ% = 21.9), 45° vs 180° (p < 0.001, d = 4.66, Δ%
+
+
+
+International Journal of Exercise Science                                     http://www.intjexersci.com
+                                                    801
+                                                                               Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   = 61.7), and 90° vs 180° (p < 0.001; d = 6.88, Δ% = 57.9), 0° vs 180° (p < 0.001, d = 3.15, Δ% = 94.0),
+   and 0° vs 180° (p < 0.001, d = 3.52, Δ% = 46.1) (Figure 2c).
+
+
+
+
+   Figure 2. Mean and standard deviation of the peak force: a) comparison between exercises (Pullover vs. Pulldown)
+   for each shoulder joint position; b) Pullover Exercise: comparison between shoulder joint positions (0°, 45°, 90°,
+   135°, and 180°), and c) Pulldown Exercise: comparison between shoulder joint positions (0°, 45°, 90°, 135°, and 180°).
+   Legend: @Significant difference between exercises. *Significant difference between joint positions when compared
+   to 0°; +Significant difference between joint positions when compared to 45°; $Significant difference between joint
+   positions when compared to 90°, and #Significant difference between joint positions when compared to 135°, (p <
+   0.05).
+
+
+
+
+International Journal of Exercise Science                                                http://www.intjexersci.com
+                                                           802
+                                                                      Int J Exerc Sci 15(4): 797-807, 2022
+
+
+
+
+   For iEMG PM, there was a significant main effect for joint positions (p < 0.001). There was a
+   significant interaction between exercises and joint positions (p < 0.001). For iEMG LD, there was
+   a significant main effect for joint positions (p < 0.001). There was not a significant interaction
+   between exercises and joint positions (p = 0.070). For iEMG PD, there was a significant main
+   effect for joint positions (p < 0.001). There was not a significant interaction between exercises
+   and joint positions (p = 0.192). For PO exercise, there were observed significant differences for
+   iEMG PM between 135° vs 0° (p = 0.001, d = 0.40, Δ% = 78.7), 180° vs 0° (p = 0.001, d = 1.42, Δ%
+   = 68.4), and 135° vs 45° (p = 0.006, d = 0.24, Δ% = 48.4) (Figure 3a). For iEMG LD, there were
+   significant differences between 135° vs 0° (p = 0.001, d = 3.17, Δ% = 70.1), 135° vs 45° (p = 0.031,
+   d = 1.91, Δ% = 59.4), 135° vs 90° (p = 0.009, d = 1.69, Δ% = 51.0), 180° vs 0° (p < 0.001, d = 3.59, Δ%
+   = 77.8), 180° vs 45° (p = 0.027, d = 2.28, Δ% = 69.9), and 180° vs 90°(p = 0.005, d = 2.17 Δ% = 63.6)
+   (Figure 3b). For iEMG PD, there were significant differences between 0° vs 90° (p = 0.033, d =
+   0.15, Δ% = 45.4), 0° vs 135° (p < 0.001, d = 0.34, Δ% = 77.9), 0° vs 180° (p < 0.001, d = 0.42, Δ% =
+   88.0), 45° vs 135° (p = 0.002, d = 0.26 Δ% = 74.0), and 45° vs 180° (p = 0.001, d = 0.33, Δ% = 85.9)
+   (Figure 3c).
+
+   For PW exercise, there were observed significant differences for iEMG PM between 0° vs 45° (p
+   = 0.007, d = 2.68, Δ% = 70.4), 0° vs 90° (p < 0.001, d = 5.77, Δ% = 82.3), 0° vs 135° (p < 0.001, d =
+   8.59 Δ% = 72.5), 0° vs 180° (p < 0.001, d = 3.43 Δ% = 63.1), 90° vs 45° (p = 0.003, d = 1.92, Δ% =
+   40.1), 90° vs 135° (p = 0.025, d = 2.41, Δ% = 35.5), 90° vs 180° (p = 0.001, d = 3.19, Δ% = 51.9), and
+   135° vs 180° (p = 0.020, d = 1.72, Δ% = 25.5) (Figure 3d). For iEMG LD, there were significant
+   differences between 0° vs 90° (p = 0.002, d = 1.69 Δ% = 42.3), 0° vs 135° (p < 0.001, d = 3.71, Δ% =
+   81.7), 0° vs 180° (p < 0.001, d = 4.40, Δ% = 88.0), 45° vs 135° (p < 0.001, d = 2.38, Δ% = 76.7), 90° vs
+   135° (p = 0.003, d = 2.14, Δ% = 68.3), 45° vs 180° (p = 0.001, d = 2.82, Δ% = 84.7), and 90° vs 180°
+   (p = 0.001, d = 2.87, Δ% = 79.1) (Figure 3e). For iEMG PD, there were significant differences
+   between of 0° vs 135° (p = 0.001, d = 2.94 Δ% = 83.2), 45° vs 135° (p = 0.001, d = 2.77, Δ % = 76.3),
+   90° vs 135° (p = 0.005, d = 2.45, Δ% = 67.8), 0° vs 180° (p = 0.001, d = 2.84, Δ% = 81.3), and 45° vs
+   180° (p = 0.001, d = 2.60, Δ% = 73.7) (Figure 3f).
+
+   For RPE, there were no significant differences between exercises and joint positions: PO (0°: 9.6
+   ± 0.6, 45°: 9.7 ± 0.6, 90°: 9.8 ± 0.4, 135°: 9.7 ± 0.6, and 180: 9.5 ± 0.7) and PW (0°: 9.7 ± 0.6, 45°:
+   9.6±0.5, 90°: 9.8 ± 0.4, 135°: 9.6±0.6, and 180°: 9.7 ± 0.5) (p > 0.05).
+
+
+
+
+International Journal of Exercise Science                                      http://www.intjexersci.com
+                                                    803
+                                                                               Int J Exerc Sci 15(4): 797-807, 2022
+
+
+
+
+   Figure 3. Mean and standard deviation of iEMG for both exercises (Pullover: graphs a-b-c and Pulldown: graphs
+   d-e-f) at all shoulder joint angles. Pectoralis Major (a and d); Latissimus Dorsi (b and e); and Posterior Deltoid (c
+   and f). Legend: @Significant difference between exercises. *Significant difference between joint positions when
+   compared to 0°; +Significant difference between joint positions when compared to 45°; $Significant difference
+   between joint positions when compared to 90°, and #Significant difference between joint positions when compared
+   to 135°, (p < 0.05).
+
+   DISCUSSION
+
+   The aim of the present study was to compare the myoelectric activation (PM, LD, and PD) and
+   peak force between PO and PW exercises in different shoulder joint positions (0º, 45º, 90º, 135º,
+   and 180°) during maximal isometric contractions. In order to achieve this goal, this study
+   measured peak force and myoelectric activation in specific joint positions and adjusted the
+   external force always perpendicular to the upper limb in order to understand both, the peak
+   force and myoelectric activity pattern. The main findings of this study are 1. Peak force was
+   similar between exercises, however, PW showed lower values between 135° and 180°; 2. Peak
+   force was greater between 45° and 90° for both exercises; 3. PM presented similar maximal
+   myoelectric activation between exercises, with higher values between 90° and 135°; 4. LD
+   presented similar maximal myoelectric activation between exercises, with higher values
+
+International Journal of Exercise Science                                               http://www.intjexersci.com
+                                                          804
+                                                                   Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   between 0° and 45°; 5. LD and PD presented a similar pattern for both exercises; 6. The RPE was
+   similar for both exercises and shoulder joint positions. The results of this study corroborated the
+   main hypothesis because; peak force is angle-dependent and the functional and morphological
+   characteristics of muscle groups around the shoulder joint were affected by the shoulder joint
+   position.
+
+   Based on the authors’ knowledge no study compared the peak force between PO and PW
+   exercises. Regarding peak force, both exercises presented a similar force-angle curve between 0°
+   and 90° with higher values at 45° and 90°. However, differences in peak force were observed at
+   angles 135° and 180° between exercises (PO>PD: 22.8% and 44.9%, respectively). Therefore, in
+   general, the PO exercise presented high values of peak force in the entire range of motion when
+   compared to the PD exercise. Possibly, the highest force values between 45° and 90° might be
+   attributed to the combined participation of the PM and LD, and between 135° and 180°, the
+   participation of the LD was substantially reduced. This discussion is only valid for the quasi-
+   linear relationship between muscle activity and force production in isometric conditions. In
+   addition, the lower values of force observed in the PD exercise at angles of 135° and 180° might
+   be attributed to differences in the participants' body posture during both exercises. During the
+   PO exercise, the participants remained to lie on a bench, which possibly increased trunk stability
+   throughout the entire range of motion; on the other hand, the PD exercise was performed while
+   standing, which could negatively affect trunk stability and make cable traction more difficult,
+   especially at 135° and 180° of shoulder extension.
+
+   Regarding the maximal myoelectric activation, both exercises presented a similar iEMG-angle
+   curve, however, different patterns were observed between prime movers (PM vs. LD). The PM
+   activation presented an ascendant-descendent pattern, with higher values between 90° and 135°;
+   on the other hand, the LD and PD activation presented a decrescent pattern with higher values
+   between 0° and 45°. The results of this study corroborated the main hypothesis that all muscle
+   groups around the shoulder joint were affected by the joint position. Previous studies have
+   shown that the myoelectric activation of the PM and LD varied according to the direction of the
+   external load in relation to the shoulder joint position for shoulder extension exercises (Pullover
+   and Ab Wheel Rollout) (12, 13). According to Hamil et al., (8) pennate muscles have fibers that
+   advance diagonally in relation to the tendon, thus, the maximal myoelectric activation might be
+   affected by the shoulder joint position. These differences might help in the correct choice of the
+   exercise aiming to emphasize specific ranges of motion, for example, in the pull phase of the
+   crawl style in swimming.
+
+   For RPE, similar scores were observed for both exercises and shoulder joint positions
+   corroborating the secondary hypothesis. It is well known that RPE is affected by the level of
+   neuromuscular fatigue after each RT dynamic exercise for recreationally-trained participants,
+   thus, the type of contraction (isometric) and the level of contraction (maximal) might not affect
+   the perception of effort, considering that both exercises reached similar levels of intensity.
+
+
+
+International Journal of Exercise Science                                  http://www.intjexersci.com
+                                                  805
+                                                                               Int J Exerc Sci 15(4): 797-807, 2022
+
+
+   This research may be of benefit to recreational athletes, bodybuilders, and rehabilitation
+   programs. Isometric contractions are of great importance in increasing the strength at specific
+   joint positions, which may aid in rehabilitation programs/testing or at certain phases of training
+   of recreational athletes/bodybuilders when the aim is to increase strength in joint positions with
+   lower mechanical advantage (sticking point) or even increase metabolic stress aiming at greater
+   neuromuscular fatigue. The results of this research support the notion that both exercises
+   produce similar force-angle curves. However, when the training goal is to maximally activate
+   different prime movers, the use of specific ranges of motion could be prescribed (PM: between
+   90° to 135°; and LD / PD: between 0° and 90°). Additionally, the maximal isometric contractions
+   did not affect the RPE for both exercises and joint positions.
+
+
+   We recognize that this study has some limitations. We did not measure all muscles around the
+   shoulder joint complex which could help to understand some effects on peak force. We did not
+   control for skinfold thickness of the sEMG detection area which is considered to be a low-pass
+   filter, and there may have been some inherent differences in the musculotendinous tightness
+   between participants. The position of the body might affect the peak force in both exercises (PO:
+   lying down; PW: standing); however, the position of the body used was the closest to the
+   practical application of each exerciser. Both exercises were evaluated with the load cell
+   perpendicular to the position of the upper limb, which limits the extrapolation of results to other
+   directions of the force. We also used a healthy, resistance-trained population, and our results,
+   therefore, are not directly generalizable to dynamic contractions, populations, or athletes. Our
+   results showed that specific shoulder joint positions affect maximal force production or
+   myoelectric activation during both exercises (Pullover and Pulldown). The present findings
+   suggest that the highest level of force is observed between 45° and 90° for both exercises; The
+   pectoralis major and latissimus dorsi present similar iEMG-angle curves between exercises,
+   however, specific iEMG patterns are observed between shoulder joint positions. RPE is not
+   affected by exercise or shoulder joint positions.
+
+   ACKNOWLEDGEMENTS
+
+   The authors thank the participants for their participation.
+
+   REFERENCES
+
+   1. Borges E, Mezêncio B, Pinho J, Soncin R, Barbosa J, Araujo F, Gianolla F, Amadio C, Serrão JC. Resistance training
+   acute session: Pectoralis major, latissimus dorsi and triceps brachii electromyographic activity. J Phys Educ Sport
+   18(2): 648-653, 2018.
+
+   2. Campos YAC, da Silva SF. Comparison of electromyographic activity during the bench press and barbell pullover
+   exercises. Motriz 20(2): 200-205, 2014.
+
+   3. Campos YAC, Rodrigues HL, da Silva SF, Marchetti PH. The use of barbell or dumbbell does not affect muscle
+   activation during pullover exercise. Rev Bras Med Esporte 23(5): 386-389, 2017.
+
+
+International Journal of Exercise Science                                               http://www.intjexersci.com
+                                                          806
+                                                                                 Int J Exerc Sci 15(4): 797-807, 2022
+
+   4. Cohen J. Statistical power analysis for the behavioral sciences. New Jersey: Lawrence Erlbaum Associates; 1988.
+
+   5. Criswell E. Cram’s introduction to surface electromyography. Burlington, MA: Jones and Bartlett; 2011.
+   6. Eng J. Sample size estimation: How many individuals should be studied? Radiol 227(2): 309-313, 2003.
+
+   7. Floyd RT. Manual of structural kinesiology. 21th ed. New York, NY: McGraw Hill; 2021.
+
+   8. Hamill J, Knutzen KM, Derrick TR. Biomechanical basis of human movement. 5th ed. Philadelphia, PA: Wolters
+   Kluwer; 2021.
+
+   9. Hermens HJ, Freriks B, Disselhorst-Klug C, Rau G. Development of recommendations for semg sensors and
+   sensor placement procedures. J Electromyogr Kinesiol 10(5): 361-374, 2000.
+
+   10. Marchetti PH. Strength training manual: Applied science. 2nd ed. Dubuque, IA: Kendall Hunt; 2022.
+
+   11. Marchetti PH, Calheiros R, Charro M. Biomecânica aplicada: Uma abordagem para o treinamento de força. São
+   Paulo: Phorte Editora; 2019.
+
+   12. Marchetti PH, Schoenfeld BJ, Silva JJ, Guiselini MA, Freitas FS, Pecoraro SL, Gomes WA, Lopes CR. Muscle
+   activation pattern during isometric ab wheel rollout exercise in different shoulder angle-positions. Med Express
+   2(4): 1-5, 2015.
+
+   13. Marchetti PH, Uchida MC. Effects of the pullover exercise on the pectoralis major and latissimus dorsi muscles
+   as evaluated by emg. J Appl Biomech 27(4): 380-384, 2011.
+
+   14. Navalta JW, Stone WJ, Lyons TS. Ethical issues relating to scientific discovery in exercise science. Int J Exerc Sci
+   12(1): 1-8, 2019.
+
+   15. Ratamess NA, Alvar BA, Evetoch TK, Houst TJ, Kibler WB, Kraemer WJ, Triplett NT. Progression models in
+   resistance training for healthy adults. Med Sci Sports Exerc 41(3): 687-708, 2009.
+
+   16. Sweet TW, Foster C, McGuigan MR, Brice G. Quantitation of resistance training using the session rating of
+   perceived exertion method. J Strength Cond Res 18(4): 796–802, 2004.
+
+   17. Wagner LL, Evans SA, Weir JP, Housh TJ, Johnson GO. The effect of grip width on bench press performance. J
+   Appl Biomech 8(1): 1-10, 1992.
+
+
+
+
+International Journal of Exercise Science                                                 http://www.intjexersci.com
+                                                            807
+

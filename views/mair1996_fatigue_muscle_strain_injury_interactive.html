@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mair et al. (1996) - fatigue and acute muscle strain injury</title>
+    <style>
+      :root{
+        --bg:#07101b;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#9fb3cb;
+        --red:#fb7185;
+        --amber:#f59e0b;
+        --blue:#60a5fa;
+        --green:#34d399;
+        --violet:#a78bfa;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(860px 520px at 10% 0%, rgba(239,68,68,.14), transparent 50%),
+          radial-gradient(980px 620px at 100% 0%, rgba(245,158,11,.10), transparent 48%),
+          linear-gradient(180deg,#06101b,#091421 54%,#08111b);
+      }
+      .wrap{max-width:1260px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--red);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 12px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 10px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .notes{display:grid;gap:10px}
+      .note{border:1px solid var(--border);border-radius:16px;padding:12px;background:rgba(255,255,255,.03)}
+      .note .t{font-size:12px;font-weight:750}
+      .note .b{margin-top:5px;font-size:12px;line-height:1.5;color:var(--muted)}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:920px){.meta,.grid{grid-template-columns:1fr}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">Injury</div>
+        <h1>Mair et al. (1996) fatigue and acute muscle strain injury</h1>
+        <p class="lede">This study tested whether fatigue makes muscle more vulnerable to strain injury. The main result was consistent across stretch rates: fatigued rabbit EDL muscle failed at roughly the same length as control muscle, but it absorbed less energy before failure, especially with deeper fatigue and slower stretch.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Model</div><div class="v">Rabbit EDL strain-to-failure</div></div>
+          <div class="pill"><div class="k">Fatigue levels</div><div class="v">25% and 50% force loss</div></div>
+          <div class="pill"><div class="k">Stretch rates</div><div class="v">1, 10, and 50 cm/s</div></div>
+          <div class="pill"><div class="k">Main pattern</div><div class="v">Fatigue cut energy absorption more than failure length</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Control Retention Range</h2>
+          <p class="sub">The extracted text gives the paper's overall ranges cleanly: force to failure stayed near control, while energy absorbed dropped much more. This is the clearest high-level summary of the study.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Minimum retained vs control</span>
+            <span><i class="sw" style="background:var(--green)"></i>Maximum retained vs control</span>
+          </div>
+          <svg id="rangeChart" viewBox="0 0 620 320" aria-label="Retention ranges"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Where the Energy Gap Appeared</h2>
+          <p class="sub">The paper reports that most of the difference in energy absorption showed up early in the stretch. That supports the idea that fatigue reduces protective energy handling before the final rupture zone.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--amber)"></i>Difference between control and fatigued muscle</span>
+          </div>
+          <svg id="phaseChart" viewBox="0 0 620 320" aria-label="Early versus late energy gap"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Fatigued vs Force-Matched Submaximal Muscle</h2>
+          <p class="sub">In the second experiment, a fatigued muscle and a submaximally stimulated muscle with equal contractile force failed almost identically. That argues the main effect was loss of contractile capability, not a separate hidden fatigue factor.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--red)"></i>Fatigued</span>
+            <span><i class="sw" style="background:var(--violet)"></i>Submaximally stimulated</span>
+          </div>
+          <svg id="matchChart" viewBox="0 0 620 320" aria-label="Fatigued versus submaximal match"></svg>
+        </article>
+
+        <aside class="card">
+          <h2>Study Notes</h2>
+          <p class="sub">This paper is strongest as a mechanism study for why fatigue may raise strain-injury risk.</p>
+          <div class="notes">
+            <div class="note">
+              <div class="t">Force changed modestly</div>
+              <div class="b">Force to failure in fatigued muscle stayed within 93.0% to 97.4% of control, so the paper does not support a large collapse in rupture force.</div>
+            </div>
+            <div class="note">
+              <div class="t">Energy changed much more</div>
+              <div class="b">Energy absorbed before failure dropped to 69.7% to 92.0% of control, with the bigger losses seen at 50% fatigue and slower stretch rates.</div>
+            </div>
+            <div class="note">
+              <div class="t">Failure length stayed similar</div>
+              <div class="b">The authors reported no significant difference in length change to failure, which makes the energy-handling interpretation the key takeaway.</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <p class="foot">Data source: Mair et al., <em>Am J Sports Med</em> 1996;24:137-143. This page combines exact values reported directly in the extracted text with honest range summaries where the PDF extraction did not preserve the full Table 1 layout cleanly enough to plot every subgroup mean without over-interpreting the source.</p>
+    </div>
+
+    <script>
+      function groupedBarChart(svgId, categories, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 62, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const vals = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...vals, 0);
+        const max = opts.max ?? Math.max(...vals);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        const groupW = w / categories.length;
+        const barW = Math.min(42, groupW / (series.length + 0.8));
+        let html = '';
+        for (let i = 0; i <= 5; i++) {
+          const v = yMin + i * (yMax - yMin) / 5;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb3cb">${fmt(v, opts.decimals)}</text>`;
+        }
+        if (yMin < 0 && yMax > 0) html += `<line x1="${m.l}" y1="${y(0)}" x2="${W-m.r}" y2="${y(0)}" stroke="rgba(255,255,255,.2)" />`;
+        categories.forEach((c, i) => {
+          const gx = m.l + i * groupW + groupW / 2;
+          html += `<text x="${gx}" y="${H-18}" text-anchor="middle" font-size="11" fill="#9fb3cb">${c}</text>`;
+        });
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb3cb">${opts.yLabel}</text>`;
+        series.forEach((s, si) => {
+          s.values.forEach((v, i) => {
+            const x = m.l + i * groupW + (groupW - series.length * barW) / 2 + si * barW;
+            const y0 = y(0), yv = y(v), top = Math.min(y0, yv), bh = Math.abs(y0 - yv);
+            html += `<rect x="${x}" y="${top}" width="${barW-4}" height="${Math.max(1,bh)}" rx="5" fill="${s.color}" />`;
+            html += `<text x="${x + (barW-4)/2}" y="${top-8}" text-anchor="middle" font-size="11" fill="${s.color}">${fmt(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+
+      function fmt(v, d) {
+        return Number(v).toFixed(d ?? (Math.abs(v) < 10 ? 1 : 0)).replace(/\.0$/, '');
+      }
+
+      groupedBarChart(
+        'rangeChart',
+        ['Force to failure', 'Energy absorbed'],
+        [
+          { color: '#60a5fa', values: [93.0, 69.7] },
+          { color: '#34d399', values: [97.4, 92.0] }
+        ],
+        { zero: true, decimals: 1, yLabel: 'Percent of control retained' }
+      );
+
+      groupedBarChart(
+        'phaseChart',
+        ['First 70% of stretch', 'Last 30% of stretch'],
+        [{ color: '#f59e0b', values: [42, 6] }],
+        { zero: true, decimals: 0, yLabel: 'Energy-absorption gap (%)' }
+      );
+
+      groupedBarChart(
+        'matchChart',
+        ['Force (N)', 'Length (%)', 'Energy (N-cm)'],
+        [
+          { color: '#fb7185', values: [94.0, 17.1, 111.8] },
+          { color: '#a78bfa', values: [94.5, 17.0, 112.8] }
+        ],
+        { zero: true, decimals: 1, yLabel: 'Reported mean value' }
+      );
+    </script>
+  </body>
+</html>

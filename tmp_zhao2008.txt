@@ -1,0 +1,309 @@
+                                                     Journal of Steroid Biochemistry & Molecular Biology 110 (2008) 125–129
+
+
+
+                                                                 Contents lists available at ScienceDirect
+
+
+                              Journal of Steroid Biochemistry and Molecular Biology
+                                                  journal homepage: www.elsevier.com/locate/jsbmb
+
+
+
+
+Testosterone protects against dexamethasone-induced muscle atrophy,
+protein degradation and MAFbx upregulation夽
+Weidong Zhao a , Jiangping Pan a , Zingbo Zhao a , Yong Wu a ,
+William A. Bauman a,b , Christopher P. Cardozo a,b,∗
+a
+    Department of Veterans Affairs, Room 1E-02, James J. Peters VA Medical Center, Bronx, NY 10468, USA
+b
+    Department of Medicine, Mount Sinai School of Medicine, New York, NY 10029, USA
+
+
+
+
+a r t i c l e           i n f o                           a b s t r a c t
+
+Article history:                                          Administration of glucocorticoids in pharmacological amounts results in muscle atrophy due, in part, to
+Received 19 October 2007                                  accelerated degradation of muscle proteins by the ubiquitin–proteasome pathway. The ubiquitin ligase
+Accepted 13 March 2008                                    MAFbx is upregulated during muscle loss including that caused by glucocorticoids and has been impli-
+                                                          cated in accelerated muscle protein catabolism during such loss. Testosterone has been found to reverse
+Keywords:                                                 glucocorticoid-induced muscle loss due to prolonged glucocorticoid administration. Here, we tested the
+Glucocorticods
+                                                          possibility that testosterone would block muscle loss, upregulation of MAFbx, and protein catabolism
+Muscle atrophy
+                                                          when begun at the time of glucocorticoid administration. Coadministration of testosterone to male rats
+Testosterone
+Ubiquitin ligases
+                                                          blocked dexamethasone-induced reduction in gastrocnemius muscle mass and upregulation of MAFbx
+Protein catabolism                                        mRNA levels. Administration of testosterone together with dexamethasone also prevented glucocorticoid-
+                                                          induced upregulation of MAFbx mRNA levels and protein catabolism in C2C12 myotube expressing the
+                                                          androgen receptor. Half-life of MAFbx was not altered by testosterone, dexamethasone or the combina-
+                                                          tion. Testosterone blocked dexamethasone-induced increases in activity of the human MAFbx promotor.
+                                                          The ﬁndings indicate that administration testosterone prevents glucocorticoid-induced muscle atrophy
+                                                          and suggest that this results, in part at least, from reductions in muscle protein catabolism and expression
+                                                          of MAFbx.
+                                                                                                                                              Published by Elsevier Ltd.
+
+
+
+
+1. Introduction                                                                              testosterone and nandrolone would be associated with reduced
+                                                                                             protein degradation, this possibility has not been tested. Consistent
+    Glucocorticoids reduce skeletal muscle mass through mecha-                               with this proposal, indirect methods that employ nonradioac-
+nisms that include accelerated protein degradation [1–3] which                               tive isotopes of amino acids indicate that testosterone increases
+largely reﬂects activation of the ubiquitin–proteasome system [2,4].                         net protein synthesis in elderly men or burn victims and sug-
+In this system, proteins to be destroyed are modiﬁed by the covalent                         gest that testosterone does so by reducing protein degradation
+attachment of ubiquitin by ubiquitin ligases then degraded by the                            [11,12]. The effects of testosterone on dexamethasone-induced
+proteasome [5]. The muscle-speciﬁc ubiquitin ligase muscle atro-                             expression of MAFbx also remain unknown. We hypothesized that
+phy F-box (MAFbx, also referred to atrogin-1) has been found to                              testosterone would protect against glucocorticoid-induced muscle
+be upregulated universally in muscle loss including that caused by                           atrophy when begun at the time of administration of the glucocor-
+glucocorticoids [6,7], and to increase rates of denervation atrophy                          ticoid, and that such protection would be associated with reduced
+[7].                                                                                         protein degradation and normalization of MAFbx mRNA levels.
+    Glucocorticoid-induced muscle atrophy can be reversed by                                 These hypotheses were tested in a rat model of dexamethasone-
+testosterone [8,9] or nandrolone, an anabolic steroid [8,10].                                induced muscle atrophy and in cultured muscle cell lines.
+Although it would be predicted that these beneﬁcial effects of
+
+                                                                                             2. Materials and methods
+
+  夽 The research reported here was supported by the Veterans Health Administra-              2.1. Materials
+tion, Rehabilitation Research and Development Service (B4162C, B3347K, B3242R).
+  ∗ Corresponding author. Tel.: +1 718 584 9000x1828; fax: +1 718 741 4675.                     Testosterone and dexamethasone were obtained from Spec-
+      E-mail address: Chris.Cardozo@mssm.edu (C.P. Cardozo).                                 trum Chemical (New Brunswick, NJ). Propylene glycol was from
+
+0960-0760/$ – see front matter. Published by Elsevier Ltd.
+doi:10.1016/j.jsbmb.2008.03.024
+126                                  W. Zhao et al. / Journal of Steroid Biochemistry & Molecular Biology 110 (2008) 125–129
+
+
+Sigma (St. Louis, MO). Tritiated tyrosine was from MP Biomed-                      the growth plate or well. Cells were incubated in the transfection
+icals (Solon, OH). The reporter gene pMAF3.1 expressed ﬁreﬂy                       mixture overnight. Cells were incubated in medium supplemented
+luciferase under the control of 3.1 kb of the proximal promotor                    with 2% horse serum to induce differentiation for 48 h. Medium
+of the human MAFbx gene [13]. pRL-CMV (Promega, Madison, WI)                       was then supplemented with testosterone or vehicle and cells were
+expresses renilla luciferase.                                                      incubated overnight. Luciferase activity was then determined using
+                                                                                   the Dual Luciferase Assay (Promega, Madison, WI) and a Berthold
+2.2. Animals                                                                       96-well plate luminometer. Ethanol concentrations were less than
+                                                                                   0.1%. Solutions containing testosterone were prepared freshly on
+    Animal studies were approved by the Institutional Animal Care                  the day of the experiment, as loss of activity was observed with stor-
+and Use Committee at the James J. Peters VA Medical Center and                     age of testosterone in ethanol solutions. Fireﬂy luciferase activities
+conformed to NIH and VA guidelines. Male Wistar rats weighing                      were normalized relative to renilla luciferase. Luciferase activities
+250 g (Taconic Farms) were fed food and water ad libitum and                       were then normalized relative to mean values for ethanol treated
+housed in a temperature and humidity-controlled facility with a                    cells.
+12 h day/12 h night cycle. Animals were anesthetized with ketamine
+(40 mg/kg) and diazepam (5 mg/kg) administered intraperitoneally                   2.7. Rates of protein degradation
+followed by implantation of Alzet pumps infusing vehicle (propy-
+lene glycol, dexamethasone (0.7 mg/kg/day), or dexamethasone                           In order to assess protein degradation, C2C12.AR cells were
+(0.7 mg/kg/day) plus testosterone (28 mg/kg/day)). One or seven                    seeded into 24-well plates as above, incubated overnight with RPMI
+days later, animals were euthanized by inhalation of carbon dioxide                with 10% FBS then differentiated for 72 h in RPMI containing 2%
+and gastrocnemius muscles were excised, weighed, and ﬂash frozen                   horse serum. Determination of protein degradation was then per-
+using liquid nitrogen. Muscle weights are normalized relative to                   formed by following release of tritiated tyrosine during incubation
+body weight prior to anesthesia.                                                   with or without hormones after labeling overnight as described
+                                                                                   [3], except that RPMI was used in place of DMEM. Degradation was
+2.3. Quantitative real time PCR                                                    expressed as the ratio of radiolabel in media divided by radiolabel
+                                                                                   in media plus that in cells.
+    Isolation of total RNA and quantiﬁcation of levels of MAFbx
+mRNA were performed as described [14]. Real time PCR was per-                      2.8. Statistical analysis
+formed in triplicate, and the mean for the crossing points of
+triplicates was used in subsequent calculations. Data were normal-                    Data are expressed as mean ± standard deviation. The signiﬁ-
+ized relative to expression of 18S RNA [15,16]. Levels of mRNA were                cance of differences between groups was determined by one-way
+calculated as fold-induction relative to muscle from animals that                  analysis of variance using a Newman Keuls test post hoc. Statistical
+were administered vehicle using the 2−Ct method [17].                            calculations were performed using Prism 4.0 (Graphpad, San Diego,
+                                                                                   CA).
+2.4. Cell culture
+                                                                                   3. Results
+   C2C12.AR cells were maintained at 37 ◦ C in humidiﬁed air
+containing 10% CO2 in Dulbeco’s modiﬁed Eagle’s Medium                                 Dexamethasone signiﬁcantly reduced gastrocnemius weights
+(DMEM) containing 10% fetal bovine serum (FBS) and penicillin                      (Fig. 1) with a greater effect at 7 as compared with 1 day. Testos-
+(100 U/ml)/streptomycin (100 ␮g/ml) (growth medium). These                         terone completely protected against such loss at both 1 and 7
+cells are derived from mouse C2C12 myoblasts and express full-                     days. MAFbx mRNA levels were signiﬁcantly increased by dex-
+length human androgen receptor (AR) under a retroviral transgene                   amethasone at 1 and 7 days (Fig. 2A and B). Coadministration of
+(Zhao et al., unpublished observations).                                           testosterone signiﬁcantly reduced MAFbx mRNA levels.
+                                                                                       To determine whether the effects of testosterone extended
+2.5. mRNA levels in cultured cells                                                 to muscle cell lines, C2C12.AR myotubes expressing human AR
+                                                                                   were incubated with dexamethasone alone or in combination
+   For experiments determining mRNA levels, C2C12.AR cells were                    with testosterone. Overnight incubation with dexamethasone sig-
+seeded into 6-well plates at 3 × 106 per well in DMEM sup-                         niﬁcantly increased expression of MAFbx (Fig. 3A). Effects of
+plemented with 10% charcoal-dextran-stripped (CDS)–FBS and
+incubated overnight. Cells were then incubated for 48 h in DMEM
+containing 2% horse serum to induce differentiation [18]. Hor-
+mones or ethanol was added and cells were incubated overnight.
+For determination of mRNA half-life, medium was supplemented
+with actinomycin (5 ␮g/ml) at various times prior to isolation of
+RNA. For this, cells were lysed with guanidine thiocyanate and dis-
+rupted with Qiashredder columns (Qiagen), after which total RNA
+was extracted using RNA easy columns. Levels of MAFbx mRNA
+were then quantiﬁed as described above.
+
+2.6. Reporter gene assays
+
+   For experiments with reporter genes, C2C12.AR cells were
+seeded into wells of 24-well plates (5 × 105 cells/well) then
+                                                                                   Fig. 1. Testosterone prevented dexamethasone-induced decreases in gastrocnemius
+maintained overnight in DMEM with 10% CDS–FBS. Cells were co-
+                                                                                   weight. Values are gastrocnemius weights at sacriﬁce normalized relative to body
+transfected with reporter genes and pRL-CMV using Lipofectamine-                   weight prior to drug administration. Groups contained 7–11 animals. T, testosterone;
+Plus (Invitrogen, Carlsbad, CA) and 100 ng total DNA per cm2 of                    Dex, dexamethasone. *, p < 0.05, ANOVA.
+                                            W. Zhao et al. / Journal of Steroid Biochemistry & Molecular Biology 110 (2008) 125–129                                        127
+
+
+
+
+Fig. 2. Testosterone normalizes dexamethasone-induced changes in levels of MAFbx
+mRNA. Values are for mRNA levels in gastrocnemius muscle expressed as fold-
+change relative to levels in animals administered vehicle. Groups contained 7–11
+animals. T, testosterone; Dex, dexamethasone. *, p < 0.05 versus vehicle and Dex + T.
+
+
+
+dexamethasone on MAFbx expression were signiﬁcantly reduced
+by testosterone to levels that were not signiﬁcantly different from
+those of cells exposed to ethanol alone.
+    Additional experiments determined the effect of dexametha-
+sone alone or in combination with testosterone on half-life of
+MAFbx mRNA (Fig. 3B). The half-life of mRNA was approximately 1 h
+in C2C12.AR myoblasts in the absence of steroid hormones and was
+not signiﬁcantly altered by dexamethasone or testosterone alone                           Fig. 3. Testosterone antagonized the glucocorticoid-induced increases in MAFbx
+or in combination. We have shown previously that dexametha-                               transcription in C2C12 cells. (A) C2C12.AR cells were seeded into 6-well plates and
+sone increases MAFbx transcription [13]. The ability of testosterone                      incubated overnight in growth medium. Medium was replaced with DMEM con-
+to block dexamethasone-induced increases in MAFbx transcrip-                              taining 2% horse serum followed by incubation for an additional 48 h. Hormones or
+                                                                                          vehicle (EtOH) were added to the medium and cells were incubated overnight, at
+tion was tested in C2C12.AR cells using a reporter gene under the                         which time MAFbx mRNA levels were determined by qPCR and expressed as fold-
+control of 3.1 kb of the proximal human MAFbx promotor. Dexam-                            induction versus levels in cells incubated with EtOH. Data are for three experiments,
+ethasone increased luciferase expression (Fig. 4), consistent with                        each performed in triplicate. *, p < 0.05 versus EtOH and Dex + T. Dex, dexametha-
+our prior ﬁndings [13]. Testosterone attenuated dexamethasone-                            sone; T, testosterone; NS, no signiﬁcant difference between the three means. (B)
+                                                                                          C2C12.AR myotubes were incubated overnight with Dex (100 nM), T (500 nM), the
+induced increases in reporter gene expression at all testosterone
+                                                                                          combination or vehicle (EtOH). Actinomycin was added to media and cells were
+concentrations tested. The effect of testosterone was signiﬁcantly                        harvested at indicated times thereafter for determination of MAFbx mRNA levels by
+greater at higher concentrations of testosterone.                                         qPCR. Levels of MAFbx mRNA are expressed as a percentage of those at time zero on
+    These studies were extended to examine the effects of                                 a logarithmic scale. Data are for three separate experiments. The half-life of MAFbx
+testosterone on dexamethasone-induced protein degradation in                              mRNA was not signiﬁcantly different among the four conditions.
+
+C2C12.AR myotubes. Overnight incubation of myotubes with dex-
+amethasone signiﬁcantly increased protein degradation, but the
+                                                                                          mass after beginning testosterone [8,19]. Similarly, administra-
+coadministration with testosterone completely blocked this effect
+                                                                                          tion of the anabolic steroid, nandrolone, to rats largely reversed
+of dexamethasone (Fig. 5).
+                                                                                          glucocorticoid-induced atrophy of the diaphragm and restored nor-
+                                                                                          mal contractile force generation by diaphragmatic muscle [10].
+4. Discussion                                                                             Taken together, the ﬁndings support the conclusion that androgens
+                                                                                          protect against and reverse glucocorticoid-induced atrophy.
+   Our data demonstrate that testosterone prevents the initial                               The initial period of glucocorticoid-induced muscle atrophy
+period of dexamethasone-induced muscle atrophy. The ﬁndings                               is characterized by a large increase in rates of breakdown of
+complement and extend prior studies that have assessed the effect                         muscle proteins [1–3]. Our ﬁndings indicate that testosterone pre-
+of testosterone after a period of chronic administration of glu-                          vents such accelerated protein catabolism, suggesting one general
+cocorticoids. Studies in men who were chronically administered                            mechanism for the muscle-protective effects of testosterone. By
+glucocorticoids have shown signiﬁcant increases in lean tissue                            contrast, studies of C2C12 cells that do not express an exogenous
+128                                          W. Zhao et al. / Journal of Steroid Biochemistry & Molecular Biology 110 (2008) 125–129
+
+
+                                                                                           and MAFbx expression [24]. In these studies, expression of MAFbx
+                                                                                           was found to correlate well with rates of protein degradation,
+                                                                                           whereas expression of MuRF1, another muscle-speciﬁc ubiquitin
+                                                                                           ligase upregulated in muscle atrophy [7], did not. A good correlation
+                                                                                           between changes in MAFbx expression and protection by andro-
+                                                                                           gens against denervation atrophy has also been observed [25].
+                                                                                               The presence of physiological concentrations of glucocorticoids
+                                                                                           has been shown to be necessary for muscle loss due to burns
+                                                                                           [26], starvation [27], uncontrolled diabetes [27], and sepsis [28].
+                                                                                           Additionally, cortisol levels are typically elevated in burns and
+                                                                                           sepsis [21,29]. It is tempting to extrapolate our ﬁndings regard-
+                                                                                           ing effects of testosterone to oppose dexamethasone-induced
+Fig. 4. Testosterone blocked dexamethasone-induced activation of MAFbx reporter            increases in MAFbx expression and protein degradation to these
+genes in C2C12 myoblasts. C2C12.AR myoblasts were transfected with pMAF3.1                 other conditions predisposing to muscle loss. Consistent with
+and pRL-CMV then incubated overnight with hormone or vehicle (EtOH). Data are              this generalization, administration of testosterone to burn victims
+luciferase activities normalized relative to vehicle only and are mean values for three
+                                                                                           reduced muscle protein breakdown as assessed by indirect mea-
+experiments each performed in at least triplicate. *, p < 0.05 versus EtOH; †, p < 0.05
+versus Dex (100 nM alone); §, p < 0.01 versus Dex (100 nM) + T (5 nM).                     surements using C13-labeled amino acids [12]. It must be noted that
+                                                                                           muscle loss in these conditions has additional physiological stim-
+                                                                                           uli that include elevated levels of cytokines, and that glucocorticoid
+gene for the androgen receptor found no effect of androgens on                             receptor antagonists are not sufﬁcient to reduce expression of these
+dexamethasone-induced increases in protein breakdown [3]. We                               genes in animal models of burns or sepsis [30,31]. Consequently,
+attribute this lack of testosterone effectiveness to an absence of the                     further study is needed to determine whether testosterone, or
+androgen receptor in C2C12 cells, which demonstrate no response                            other androgenic hormones, alter MAFbx expression or protein
+to testosterone after transfection of androgen responsive reporter                         catabolism in these conditions.
+genes (Zhao et al., unpublished observations). Studies using indirect
+measures of protein synthesis and degradation have also concluded                          References
+that testosterone decreases muscle protein breakdown. Testos-
+terone reduced muscle protein degradation in hypogonadal men                                [1] L. Wang, G.J. Luo, J.J. Wang, P.O. Hasselgren, Dexamethasone stimulates
+                                                                                                proteasome- and calcium-dependent proteolysis in cultured L6 myotubes,
+[20] who would be expected to have normal circulating levels of                                 Shock 10 (4) (1998) 298–306.
+glucocorticoids, and in individuals with severe burns [12] who have                         [2] D. Auclair, D.R. Garrel, A. Chaouki Zerouala, L.H. Ferland, Activation of the ubiq-
+been reported to have elevated cortisol levels [21].                                            uitin pathway in rat skeletal muscle by catabolic doses of glucocorticoids, Am.
+                                                                                                J. Physiol. 272 (3 Pt 1) (1997) C1007–C1016.
+    Testosterone blocked dexamethasone-induced increases in                                 [3] M.M. Desler, S.J. Jones, C.W. Smith, T.L. Woods, Effects of dexamethasone and
+MAFbx expression in both skeletal muscles. Data from experi-                                    anabolic agents on proliferation and protein synthesis and degradation in
+ments using C2C12.AR cells indicated that this reduction occurred                               C2C12 myogenic cells, J. Anim. Sci. 74 (6) (1996) 1265–1273.
+                                                                                            [4] R.W. Jackman, S.C. Kandarian, The molecular basis of skeletal muscle atrophy,
+through decreased transcription without changes in mRNA stabil-
+                                                                                                Am. J. Physiol. Cell Physiol. 287 (4) (2004) C834–C843.
+ity. While it remains to be established whether increased MAFbx                             [5] C.M. Pickart, Mechanisms underlying ubiquitination, Annu. Rev. Biochem. 70
+expression results in increased protein catabolism induced by dex-                              (2001) 503–533.
+                                                                                            [6] S.H. Lecker, R.T. Jagoe, A. Gilbert, M. Gomes, V. Baracos, J. Bailey, S.R. Price,
+amethasone, evidence from several sources support this possibility.
+                                                                                                W.E. Mitch, A.L. Goldberg, Multiple types of skeletal muscle atrophy involve
+MAFbx promotes degradation of MyoD [22], which is involved in                                   a common program of changes in gene expression, FASEB J. 18 (1) (2004) 39–
+differentiation of myogenic precursors, and reduces the size of car-                            51.
+diac myocytes through degradation of calcineurin [23]. Denervation                          [7] S.C. Bodine, E. Latres, S. Baumhueter, V.K. Lai, L. Nunez, B.A. Clarke, W.T.
+                                                                                                Poueymirou, F.J. Panaro, E. Na, K. Dharmarajan, Z.Q. Pan, D.M. Valenzuela, T.M.
+atrophy is slowed by knockouts of MAFbx, and overexpression of                                  DeChiara, T.N. Stitt, G.D. Yancopoulos, D.J. Glass, Identiﬁcation of ubiquitin lig-
+this gene product reduces the size of cultured muscle cell lines. Our                           ases required for skeletal muscle atrophy, Science 294 (5547) (2001) 1704–1708.
+ﬁndings indicate a good correlation between MAFbx levels and pro-                           [8] B.A. Crawford, P.Y. Liu, M.T. Kean, J.F. Bleasel, D.J. Handelsman, Randomized
+                                                                                                placebo-controlled trial of androgen effects on muscle and bone in men requir-
+tein catabolism in cultured muscle cell lines, and muscle atrophy in                            ing long-term systemic glucocorticoid treatment, J. Clin. Endocrinol. Metab. 88
+animals, which has been a consistent ﬁnding in other studies. For                               (7) (2003) 3167–3176.
+example, treatment of C2C12 cells with insulin-like growth factor-1                         [9] I.R. Reid, D.J. Wattie, M.C. Evans, J.P. Stapleton, Testosterone therapy in
+                                                                                                glucocorticoid-treated men, Arch. Intern. Med. 156 (11) (1996) 1173–1177.
+blocked dexamethasone-induced increases in protein degradation                             [10] R.H. Van Balkom, P.N. Dekhuijzen, H.T. Folgering, J.H. Veerkamp, H.T. Van
+                                                                                                Moerkerk, J.A. Fransen, C.L. Van Herwaarden, Anabolic steroids in part reverse
+                                                                                                glucocorticoid-induced alterations in rat diaphragm, J. Appl. Physiol. 84 (5)
+                                                                                                (1998) 1492–1499.
+                                                                                           [11] R.J. Urban, Y.H. Bodenburg, C. Gilkison, J. Foxworth, A.R. Coggan, R.R. Wolfe, A.
+                                                                                                Ferrando, Testosterone administration to elderly men increases skeletal muscle
+                                                                                                strength and protein synthesis, Am. J. Physiol. 269 (5 Pt 1) (1995) E820–E826.
+                                                                                           [12] A.A. Ferrando, M. Shefﬁeld-Moore, S.E. Wolf, D.N. Herndon, R.R. Wolfe, Testos-
+                                                                                                terone administration in severe burns ameliorates muscle catabolism, Crit. Care
+                                                                                                Med. 29 (10) (2001) 1936–1942.
+                                                                                           [13] W. Zhao, Y. Wu, J. Zhao, S. Guo, W.A. Bauman, C.P. Cardozo, Structure and
+                                                                                                function of the upstream promotor of the human Mafbx gene: the proximal
+                                                                                                upstream promotor modulates tissue-speciﬁcity, J. Cell Biochem. 96 (1) (2005)
+                                                                                                209–219.
+                                                                                           [14] J. Zhao, Y. Zhang, W. Zhao, Y. Wu, J. Pan, W.A. Bauman, C. Cardozo, Effects of
+                                                                                                nandrolone on denervation atrophy depend upon time after nerve transection,
+                                                                                                Muscle Nerve 37 (1) (2008) 42–49.
+                                                                                           [15] F. Haddad, R.R. Roy, H. Zhong, V.R. Edgerton, K.M. Baldwin, Atrophy responses
+Fig. 5. Testosterone prevented increased degradation of muscle proteins by dex-                 to muscle inactivity. II. Molecular markers of protein deﬁcits, J. Appl. Physiol.
+amethasone. C2C12.AR myotubes were labeled overnight with tritiated tyrosine                    95 (2) (2003) 791–802.
+followed by incubation overnight with dexamethasone (100 nM) and/or testos-                [16] J.P. Hyatt, R.R. Roy, K.M. Baldwin, V.R. Edgerton, Nerve activity-independent
+terone (50 nM). Data are mean values for two experiments each with six replicates.              regulation of skeletal muscle atrophy: role of MyoD and myogenin in satellite
+*, p < 0.001 versus EtOH, Ts, or Dex + T.                                                       cells and myonuclei, Am. J. Physiol. Cell Physiol. 285 (5) (2003) C1161–C1173.
+                                               W. Zhao et al. / Journal of Steroid Biochemistry & Molecular Biology 110 (2008) 125–129                                           129
+
+
+[17] K.J. Livak, T.D. Schmittgen, Analysis of relative gene expression data using real-           atrophy-related ubiquitin ligase atrogin-1 and cause skeletal muscle atrophy,
+     time quantitative PCR and the 2−Ct method, Methods 25 (4) (2001) 402–408.                  Cell 117 (3) (2004) 399–412.
+[18] W. Bains, P. Ponte, H. Blau, L. Kedes, Cardiac actin is the major actin gene prod-      [25] J. Zhao, Y. Zhang, W. Zhao, Y. Wu, J. Pan, W.A. Bauman, C. Cardozo, Effects of
+     uct in skeletal muscle cell differentiation in vitro, Mol. Cell Biol. 4 (8) (1984)           nandrolone on denervation atrophy depend upon time after nerve transection,
+     1449–1453.                                                                                   Muscle Nerve 30 (2007) 30.
+[19] H.F. Martens, P.K. Sheets, J.S. Tenover, C.E. Dugowson, W.J. Bremner, G. Starke-        [26] C.H. Fang, H.J. James, C. Ogle, J.E. Fischer, P.O. Hasselgren, Inﬂuence of burn
+     baum, Decreased testosterone levels in men with rheumatoid arthritis: effect                 injury on protein metabolism in different types of skeletal muscle and the role
+     of low dose prednisone therapy, J. Rheumatol. 21 (8) (1994) 1427–1431.                       of glucocorticoids, J. Am. Coll. Surg. 180 (1) (1995) 33–42.
+[20] A.A. Ferrando, M. Shefﬁeld-Moore, C.W. Yeckel, C. Gilkison, J. Jiang, A. Achacosa,      [27] W.E. Mitch, J.L. Bailey, X. Wang, C. Jurkovitz, D. Newby, S.R. Price, Evaluation
+     S.A. Lieberman, K. Tipton, R.R. Wolfe, R.J. Urban, Testosterone administration               of signals activating ubiquitin-proteasome proteolysis in a model of muscle
+     to older men improves muscle function: molecular and physiological mecha-                    wasting, Am. J. Physiol. 276 (5 Pt 1) (1999) C1132–C1138.
+     nisms, Am. J. Physiol. Endocrinol. Metab. 282 (3) (2002) E601–E607.                     [28] M. Hall-Angeras, U. Angeras, O. Zamir, P.O. Hasselgren, J.E. Fischer, Effect of the
+[21] M.K. Jeffries, M.L. Vance, Growth hormone and cortisol secretion in patients                 glucocorticoid receptor antagonist RU 38486 on muscle protein breakdown in
+     with burn injury, J. Burn Care Rehabil. 13 (4) (1992) 391–395.                               sepsis, Surgery 109 (4) (1991) 468–473.
+[22] L.A. Tintignac, J. Lagirand, S. Batonnet, V. Sirri, M.P. Leibovitch, S.A. Leibovitch,   [29] J.T. Ho, H. Al-Musalhi, M.J. Chapman, T. Quach, P.D. Thomas, C.J. Bagley, J.G.
+     Degradation of MyoD mediated by the SCF (MAFbx) ubiquitin ligase, J. Biol.                   Lewis, D.J. Torpy, Septic shock and sepsis: a comparison of total and free plasma
+     Chem. 280 (4) (2005) 2847–2856.                                                              cortisol levels, J. Clin. Endocrinol. Metab. 91 (1) (2006) 105–114.
+[23] H.H. Li, V. Kedar, C. Zhang, H. McDonough, R. Arya, D.Z. Wang, C. Patterson,            [30] C.H. Lang, D. Huber, R.A. Frost, Burn-induced increase in atrogin-1 and MuRF-1
+     Atrogin-1/muscle atrophy F-box inhibits calcineurin-dependent cardiac hyper-                 in skeletal muscle is glucocorticoid-independent but down regulated by IGF-I,
+     trophy by participating in an SCF ubiquitin ligase complex, J. Clin. Invest. 114             Am. J. Physiol. Regul. Integr. Comp. Physiol. 292 (1) (2007) R328–R336.
+     (8) (2004) 1058–1071.                                                                   [31] R.A. Frost, G.J. Nystrom, L.S. Jefferson, C.H. Lang, Hormone, cytokine, and nutri-
+[24] M. Sandri, C. Sandri, A. Gilbert, C. Skurk, E. Calabria, A. Picard, K. Walsh, S.             tional regulation of sepsis-induced increases in atrogin-1 and MuRF1 in skeletal
+     Schiafﬁno, S.H. Lecker, A.L. Goldberg, Foxo transcription factors induce the                 muscle, Am. J. Physiol. Endocrinol. Metab. 292 (2) (2007) E501–E512.
+

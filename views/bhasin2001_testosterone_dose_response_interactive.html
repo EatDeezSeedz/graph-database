@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bhasin et al. (2001) - testosterone dose response</title>
+    <style>
+      :root{
+        --bg:#08111f;
+        --panel:rgba(10,20,36,.82);
+        --panelBorder:rgba(255,255,255,.08);
+        --text:#e5eefc;
+        --muted:#9fb2ca;
+        --grid:rgba(255,255,255,.09);
+        --accent:#f59e0b;
+        --blue:#60a5fa;
+        --cyan:#22d3ee;
+        --green:#34d399;
+        --rose:#fb7185;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(900px 560px at 12% 0%, rgba(245,158,11,.15), transparent 50%),
+          radial-gradient(900px 720px at 100% 0%, rgba(34,211,238,.11), transparent 48%),
+          linear-gradient(180deg,#07101b,#0b1526 54%,#0a1321);
+      }
+      .wrap{max-width:1280px;margin:0 auto;padding:18px}
+      .hero{
+        background:linear-gradient(180deg,rgba(12,22,38,.88),rgba(8,16,30,.88));
+        border:1px solid var(--panelBorder);
+        border-radius:22px;
+        padding:18px 18px 14px;
+        box-shadow:0 24px 60px rgba(0,0,0,.24);
+      }
+      .eyebrow{
+        color:var(--accent);
+        font-weight:800;
+        letter-spacing:.08em;
+        text-transform:uppercase;
+        font-size:11px;
+      }
+      h1{
+        margin:8px 0 6px;
+        font-size:clamp(24px,3.4vw,38px);
+        line-height:1.05;
+      }
+      .lede{
+        max-width:980px;
+        color:var(--muted);
+        font-size:14px;
+        line-height:1.55;
+        margin:0;
+      }
+      .meta{
+        display:grid;
+        grid-template-columns:repeat(4,minmax(0,1fr));
+        gap:10px;
+        margin-top:16px;
+      }
+      .pill{
+        background:rgba(255,255,255,.04);
+        border:1px solid var(--panelBorder);
+        border-radius:16px;
+        padding:10px 12px;
+      }
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{
+        margin-top:16px;
+        display:grid;
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:14px;
+      }
+      .card{
+        background:var(--panel);
+        border:1px solid var(--panelBorder);
+        border-radius:20px;
+        padding:14px;
+        min-width:0;
+      }
+      .card h2{
+        margin:0;
+        font-size:15px;
+      }
+      .sub{
+        color:var(--muted);
+        font-size:12px;
+        line-height:1.45;
+        margin:6px 0 10px;
+      }
+      .legend{
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px 14px;
+        margin:0 0 8px;
+        color:var(--muted);
+        font-size:12px;
+      }
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .foot{
+        margin-top:14px;
+        color:var(--muted);
+        font-size:12px;
+        line-height:1.5;
+      }
+      @media (max-width:920px){
+        .meta,.grid{grid-template-columns:1fr}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">AAS</div>
+        <h1>Bhasin et al. (2001) testosterone dose response</h1>
+        <p class="lede">Weekly testosterone enanthate doses from 25 to 600 mg, given with GnRH agonist suppression, produced a clean dose-response across circulating testosterone, lean mass, thigh muscle size, leg performance, hemoglobin, and HDL. The strongest anabolic changes appeared at 300 and 600 mg/week.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Protocol</div><div class="v">20 weeks</div></div>
+          <div class="pill"><div class="k">Dose range</div><div class="v">25 to 600 mg/week</div></div>
+          <div class="pill"><div class="k">Population</div><div class="v">Healthy young men</div></div>
+          <div class="pill"><div class="k">Main pattern</div><div class="v">Near-linear anabolic escalation</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Serum Testosterone</h2>
+          <p class="sub">Week 16 nadir total testosterone concentration, measured one week after the previous injection.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--accent)"></i>Nadir total testosterone (ng/dL)</span>
+          </div>
+          <svg id="testosteroneChart" viewBox="0 0 620 320" aria-label="Serum testosterone dose response"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Body Composition Change</h2>
+          <p class="sub">Change from baseline at week 20. Positive lean-mass values and negative fat-mass values favor an anabolic response.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Fat-free mass by underwater weighing (kg)</span>
+            <span><i class="sw" style="background:var(--cyan)"></i>Fat-free mass by DEXA (kg)</span>
+            <span><i class="sw" style="background:var(--rose)"></i>Fat mass by underwater weighing (kg)</span>
+            <span><i class="sw" style="background:#fda4af"></i>Fat mass by DEXA (kg)</span>
+          </div>
+          <svg id="bodyChart" viewBox="0 0 620 320" aria-label="Body composition changes"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Muscle Size</h2>
+          <p class="sub">MRI-derived changes from baseline at week 20. Both thigh and quadriceps volume rose progressively with higher doses.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--green)"></i>Thigh muscle volume (cm3)</span>
+            <span><i class="sw" style="background:var(--cyan)"></i>Quadriceps volume (cm3)</span>
+          </div>
+          <svg id="muscleChart" viewBox="0 0 620 320" aria-label="Muscle volume changes"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Leg Press Strength</h2>
+          <p class="sub">Change from baseline at week 20. Strength gains were modest at lower doses and much larger at 300 and 600 mg/week.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Leg press strength change (kg)</span>
+          </div>
+          <svg id="strengthChart" viewBox="0 0 620 320" aria-label="Leg press strength changes"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Leg Power</h2>
+          <p class="sub">Change from baseline at week 20. Power followed the same dose-response direction as strength, but with a smaller absolute scale.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--accent)"></i>Leg power change (W)</span>
+          </div>
+          <svg id="powerChart" viewBox="0 0 620 320" aria-label="Leg power changes"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Blood Markers</h2>
+          <p class="sub">Hemoglobin rose with higher doses, while HDL trended downward as dose increased.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--green)"></i>Hemoglobin change (g/L)</span>
+            <span><i class="sw" style="background:var(--rose)"></i>HDL change (mg/dL)</span>
+          </div>
+          <svg id="safetyChart" viewBox="0 0 620 320" aria-label="Hemoglobin and HDL changes"></svg>
+        </article>
+      </section>
+
+      <p class="foot">Data source: Bhasin et al., <em>Am J Physiol Endocrinol Metab</em> 2001;281:E1172-E1181. Values plotted from Tables 2-5 and 7 using the paper's reported group means for 25, 50, 125, 300, and 600 mg/week testosterone enanthate.</p>
+    </div>
+
+    <script>
+      const doses = ['25','50','125','300','600'];
+      const serumT = [253,306,570,1345,2370];
+      const bodySeries = [
+        { label: 'FFM underwater', color: '#60a5fa', values: [-1.0, 0.6, 3.4, 5.2, 7.9] },
+        { label: 'FFM DEXA', color: '#22d3ee', values: [0.4, 1.1, 2.9, 5.5, 8.9] },
+        { label: 'Fat mass underwater', color: '#fb7185', values: [3.1, 3.5, 0.01, -0.5, -1.1] },
+        { label: 'Fat mass DEXA', color: '#fda4af', values: [3.6, 2.6, -0.3, -0.9, -2.0] }
+      ];
+      const muscleSeries = [
+        { label: 'Thigh volume', color: '#34d399', values: [-14, 11, 56, 84, 126] },
+        { label: 'Quadriceps volume', color: '#22d3ee', values: [-9, 4, 21, 43, 68] }
+      ];
+      const strengthSeries = [
+        { label: 'Leg press', color: '#60a5fa', values: [-1.2, 22.7, 18.4, 72.2, 76.5] }
+      ];
+      const powerSeries = [
+        { label: 'Leg power', color: '#f59e0b', values: [5.3, 15.2, 8.5, 38.6, 48.1] }
+      ];
+      const safetySeries = [
+        { label: 'Hemoglobin', color: '#34d399', values: [-5.2, -7.4, 2.5, 6.1, 14.2] },
+        { label: 'HDL', color: '#fb7185', values: [4.5, -0.7, -4.0, -5.7, -8.4] }
+      ];
+
+      function lineChart(svgId, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 54, l: 58 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const values = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...values);
+        const max = opts.max ?? Math.max(...values);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const x = i => m.l + (i * w / (doses.length - 1));
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        const ticks = opts.ticks || 5;
+
+        let html = '';
+        for (let i = 0; i <= ticks; i++) {
+          const v = yMin + (i * (yMax - yMin) / ticks);
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb2ca">${formatTick(v, opts.decimals)}</text>`;
+        }
+        if (yMin < 0 && yMax > 0) {
+          html += `<line x1="${m.l}" y1="${y(0)}" x2="${W-m.r}" y2="${y(0)}" stroke="rgba(255,255,255,.22)" />`;
+        }
+        doses.forEach((d, i) => {
+          const px = x(i);
+          html += `<line x1="${px}" y1="${m.t}" x2="${px}" y2="${H-m.b}" stroke="rgba(255,255,255,.04)" />`;
+          html += `<text x="${px}" y="${H-24}" text-anchor="middle" font-size="11" fill="#9fb2ca">${d}</text>`;
+        });
+        html += `<text x="${W/2}" y="${H-6}" text-anchor="middle" font-size="12" fill="#9fb2ca">Testosterone enanthate dose (mg/week)</text>`;
+        if (opts.yLabel) {
+          html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb2ca">${opts.yLabel}</text>`;
+        }
+
+        series.forEach(s => {
+          const pts = s.values.map((v,i) => `${x(i)},${y(v)}`).join(' ');
+          html += `<polyline fill="none" stroke="${s.color}" stroke-width="3" points="${pts}" />`;
+          s.values.forEach((v,i) => {
+            const px = x(i), py = y(v);
+            html += `<circle cx="${px}" cy="${py}" r="4.5" fill="${s.color}" />`;
+            html += `<text x="${px}" y="${py-10}" text-anchor="middle" font-size="11" fill="${s.color}">${formatPoint(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+
+      function formatTick(v, decimals) {
+        const d = decimals ?? (Math.abs(v) < 10 ? 1 : 0);
+        const out = Number(v).toFixed(d);
+        return out.replace(/\.0$/, '');
+      }
+
+      function formatPoint(v, decimals) {
+        if (Math.abs(v) === 0.01) return '0.01';
+        const d = decimals ?? (Math.abs(v) < 10 ? 1 : 0);
+        return Number(v).toFixed(d).replace(/\.0$/, '');
+      }
+
+      lineChart('testosteroneChart', [
+        { label: 'Total testosterone', color: '#f59e0b', values: serumT }
+      ], { min: 0, yLabel: 'Total testosterone (ng/dL)', decimals: 0, ticks: 5 });
+
+      lineChart('bodyChart', bodySeries, {
+        yLabel: 'Change from baseline (kg)',
+        zero: true,
+        decimals: 1,
+        ticks: 6
+      });
+
+      lineChart('muscleChart', muscleSeries, {
+        yLabel: 'Change from baseline (cm3)',
+        zero: true,
+        decimals: 0,
+        ticks: 5
+      });
+
+      lineChart('strengthChart', strengthSeries, {
+        yLabel: 'Change from baseline (kg)',
+        zero: true,
+        decimals: 1,
+        ticks: 5
+      });
+
+      lineChart('powerChart', powerSeries, {
+        yLabel: 'Change from baseline (W)',
+        zero: true,
+        decimals: 1,
+        ticks: 5
+      });
+
+      lineChart('safetyChart', safetySeries, {
+        yLabel: 'Change from baseline',
+        zero: true,
+        decimals: 1,
+        ticks: 5
+      });
+    </script>
+  </body>
+</html>

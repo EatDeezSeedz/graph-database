@@ -219,10 +219,11 @@
         return y > 0 ? y : null;
       }
 
+      const isRotatorCuff = name => /Subscapularis|Supraspinatus|Infraspinatus|Teres minor/.test(name);
       let muscles = table.map((m, i) => {
         const y = degs.map(d => momentArmFlexionPositive(m, d));
         const any = y.some(v => v !== null);
-        return any ? { ...m, color: palette[i % palette.length], visible: true, y } : null;
+        return any ? { ...m, color: palette[i % palette.length], visible: !isRotatorCuff(m.name), y } : null;
       }).filter(Boolean);
       let activeMuscle = null;
 

@@ -1,0 +1,647 @@
+                                                                                                                                                    ORIGINAL RESEARCH
+                                                                                                                                                     published: 22 July 2022
+                                                                                                                                            doi: 10.3389/fphys.2022.825880
+
+
+
+
+                                            Front vs Back and Barbell vs Machine
+                                            Overhead Press: An
+                                            Electromyographic Analysis and
+                                            Implications For Resistance Training
+                                            Giuseppe Coratella 1*, Gianpaolo Tornatore 1, Stefano Longo 1, Fabio Esposito 1,2 and
+                                            Emiliano Cè 1,2
+                                            1
+                                            Department of Biomedical Sciences for Health, Università Degli Studi di Milano, Milan, Italy, 2IRCSS Galeazzi Orthopedic Institute,
+                                            Milan, Italy
+
+
+                                            Overhead press is commonly performed to reinforce the muscles surrounding the
+                                            shoulders. However, many overhead press variations can be executed, thus varying
+                                            the stimuli to each muscle. Therefore, the current study compared the muscles excitation
+                                            during overhead press performed with the barbell passing in front or behind the head or
+                                            using a shoulder press machine. Eight competitive bodybuilders performed in random
+                         Edited by:
+                                            order front (front-BMP) or back barbell military press (back-BMP), and front (front-MSP)
+                  Michał Krzysztoﬁk,        with neutral handgrip or back machine shoulder press (back-MSP). Normalized surface
+Jerzy Kukuczka Academy of Physical
+                                            electromyographic root mean square (RMS) of anterior, medial and posterior deltoid,
+      Education in Katowice, Poland
+                                            upper trapezius, pectoralis major and triceps brachii was recorded during both the
+                      Reviewed by:
+                        Yuri Campos,        ascending and descending phases. During the ascending phase, anterior deltoid
+Universidade Federal de Lavras, Brazil      showed greater RMS in back-BMP than back-MSP [ES: 1.42, (95% conﬁdence
+                 Giuseppe Marcolin,
+            University of Padua, Italy
+                                            interval 0.32/2.51)]. Medial deltoid showed greater RMS in back-BMP than front-BMP
+                 *Correspondence:
+                                            [ES: 3.68 (2.07/5.29)], and back-MSP [ES: 7.51 (4.73/10.29)]. Posterior deltoid showed
+                  Giuseppe Coratella        greater RMS in back-BMP than front-BMP [ES: 9.00 (5.73/12.27)]. Pectoralis major
+           giuseppe.coratella@unimi.it
+                                            showed greater RMS in front-BMP than back-BMP [ES: 3.11 (1.65–4.56)] and in front-
+                                            MSP than back-MSP [ES: 20.52 (13.34/27.70)]. During the descending phase, anterior
+                    Specialty section:
+         This article was submitted to      deltoid was more excited in back-BMP compared to front-BMP [ES: 7.66 (4.83/10.49).
+                   Exercise Physiology,     Medial deltoid showed greater RMS in back-BMP than front-BMP [ES: 4.56 (2.70/6.42)].
+               a section of the journal
+                Frontiers in Physiology     Posterior deltoid showed greater RMS in back-BMP than front-BMP [ES: 8.65 (5.50/
+      Received: 30 November 2021            11.80)]. Pectoralis major showed greater RMS in front-BMP than back-BMP [ES: 4.20
+          Accepted: 24 May 2022             (2.44/5.95)]. No between-exercise difference was observed for upper trapezius.
+          Published: 22 July 2022
+                                            Performing back overhead press enhances the excitation of medial and posterior and
+                              Citation:
+                                            partly anterior deltoid, while front overhead favors pectoralis major. Overhead press
+  Coratella G, Tornatore G, Longo S,
+ Esposito F and Cè E (2022) Front vs        performed using barbell excites muscles more than using machine to stabilize the
+         Back and Barbell vs Machine        trajectory of the external load. Different variations of overhead press appear to provide
+                   Overhead Press: An
+      Electromyographic Analysis and        different stimuli to the shoulder muscles and may be used accordingly during the training
+ Implications For Resistance Training.      routine.
+            Front. Physiol. 13:825880.
+    doi: 10.3389/fphys.2022.825880          Keywords: military press, shoulder press, strength training, deltoids, pectoralis major, EMG, exercise, ﬁtness
+
+
+
+
+Frontiers in Physiology | www.frontiersin.org                                        1                                               July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                           Front vs Back Overhead Press
+
+
+
+
+INTRODUCTION                                                                    of the eccentric phase may provide useful information to the
+                                                                                trainers for appropriately selecting each exercise. Lastly, it was
+Resistance training is widely used to increase muscle strength and              suggested that bodybuilders exhibit greater control of individual
+induce structural adaptations (Coratella and Schena, 2016;                      muscles when practicing their training routines (Maeo et al., 2013),
+Schoenfeld et al., 2016). Since each exercise provides a unique                 and may suit for describing each exercise with a consistent
+mechanical stimulus to the targeted muscles and encompasses a                   technique. Therefore, the present study aimed to investigate the
+unique neural pattern, understanding how each exercise excites                  between-exercise differences in deltoids, pectoralis major, upper
+(Vigotsky et al., 2018) the muscles involved could help to choose               trapezius and triceps brachii excitation comparing front-BMP,
+the exercises within a given session depending on the aims. When                back-BMP, front-MSP and back-MSP. The exercises were
+the purpose is to stimulate the muscles surrounding the                         performed by competitive bodybuilders, and both the ascending
+shoulders, overhead press is one of the most used multi-joint                   and the descending phases were separately examined. It was
+exercises (Ichihashi et al., 2014; McKean and Burkett, 2015;                    hypothesized that back exercises would excite more the posterior
+Williams et al., 2020). Particularly, the simultaneous scapular                 deltoid, while the management of the barbell trajectory compared to
+upward rotation (Ichihashi et al., 2014), together with the                     the ﬁxed trajectory of the machine’s lever would require more
+humerus abduction and elbow extension (Paoli et al., 2010;                      muscle excitation for stabilization purposes.
+Saeterbakken and Fimland, 2013) makes the overhead press
+suitable to stimulate upper trapezius, deltoids and triceps brachii.
+   When performing overhead press with a barbell, the barbell                   MATERIALS AND METHODS
+can pass in front or behind the head, resulting in front (front-
+BMP) or back barbell military press (back-BMP). While a                         Study Design
+number of studies have examined the muscles excitation                          The present investigation was designed as a cross-over, repeated-
+during front-BMP (Kohler et al., 2010; Saeterbakken and                         measures, within-subject study. The participants were involved in
+Fimland, 2013; Williams et al., 2020), no information are                       seven different sessions. In the ﬁrst session, the participant were
+currently available on the muscles excitation during back-                      familiarized with the technique of each exercise. From session two to
+BMP, and a direct comparison is consequently not even                           ﬁve, the 1-RM was measured in front-BMP, back-BMP, front-MSP
+available. This might derive from a possible fear to perform                    or back MSP in random order. In the sixth session, the participants
+back-BMP, maybe related to the “high-ﬁve” position that                         were familiarized with the selected loads and the electrodes
+might be associated with a greater prevalence anterior                          placement. In the seventh session, the muscles’ maximum
+shoulder instability in amateurs, albeit these results are not                  excitation was ﬁrst measured. Then, after a minimum of 30 min
+conclusive and should be interpreted with caution (Kolber                       of passive recovery, the participants performed a non-exhausting set
+et al., 2013). However, it was reported that both front- and                    for each exercise in a random order, with an inter-set pause of
+back-BMP are safe exercises for participants with normal                        10 min. Each session was separated by at least 3 days, and the
+trunk stability and ideal shoulder ROM (McKean and Burkett,                     participants were instructed to avoid any further form of
+2015), and still no study has compared the muscles excitation in                resistance training for the entire duration of the investigation.
+the two so far. Moreover, overhead press can also be performed
+using a machine shoulder press (MSP). Most shoulder press have                  Participants
+a forward and a lateral grip, so front-MSP and back-MSP can be                  The present investigation was advertised by the investigators
+performed, simulating the barbell’s trajectory. However, although               during some regional and national competitions, and to be
+the machine levers mimic the barbell’s trajectory, the barbell                  included in the study, the participants had to compete in
+presents a trajectory closer to a translation and the machine                   regional competitions for a minimum of 5 years. Additionally,
+rotates around an axis in the equipment; additionally, the hands                they had to be clinically healthy, without any reported history of
+end the movement much closer in MSP than BMP, and all these                     upper-limb and lower back muscle injury and neurological or
+factors result in different movements that could affect the muscle              cardiovascular disease in the previous 12 months. To avoid
+excitation. Also in this case, no information concerning the                    possible confounding factors, the participants competed in the
+muscle excitation during front-MSP and back-MSP has been                        same weight category (Men’s Classic Bodybuilding <80 kg,
+collected to date. However, the diversiﬁcation of both                          <1.70 m), according to the International Federation of Body
+neuromuscular and mechanical stimuli over consecutive                           Building Pro-League. The use of drugs or steroids was
+mesocycles is an important factor in resistance training, so                    continuously monitored by a dedicated authority under its
+that the possible between-variation differences should be                       regulations, although we could have not checked for it.
+acknowledged to choose one or another in the training practice.                 Thereafter, a convenience sample of eight male competitive
+   When investigating the muscles excitation in resistance                      bodybuilders (age 29.8 ± 3.0 years; body mass 77.9 ± 1.0 kg;
+exercises, the examination should describe separately the                       stature 1.68 ± 0.01 m; training seniority 10.6 ± 1.8 years) were
+ascending from the descending phase. Indeed, the unique neural                  recruited for the present procedures, in line with previous studies
+activation of the concentric vs. eccentric action (Duchateau and                (Coratella et al., 2020b; Coratella et al., 2020c; Coratella et al.,
+Enoka, 2016), as well as the acute (Beato et al., 2021), short-term             2021; Coratella et al., 2022). The participants were asked to
+(Coratella and Bertinato, 2015; Coratella et al., 2016) and long-term           abstain from alcohol, caffeine, or similar beverages in the 24 h
+(Coratella et al., 2015; Coratella et al., 2019) distinct characteristics       preceding the test. After a full explanation of the aims of the study
+
+
+Frontiers in Physiology | www.frontiersin.org                               2                                      July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                                     Front vs Back Overhead Press
+
+
+
+                                                                                          Standard 20 kg, Vulcan Strength Training System, Charlotte, NC,
+                                                                                          United States). The front-BMP was performed holding the barbell
+                                                                                          a handbreadth outside the deltoids, and the participants were
+                                                                                          required to lift the barbell from the upper chest up to straight the
+                                                                                          elbow above and behind the head. Additionally, they were
+                                                                                          instructed to maintain the forearm perpendicular to the
+                                                                                          ground throughout the whole movement, and the movement
+                                                                                          was checked visually by an operator. Consequently, the barbell’s
+                                                                                          trajectory in front-BMP was not straight but resulted in a more
+                                                                                          curvilinear C-shape trajectory. The back-BMP was performed
+                                                                                          holding the bar at an inter-hand distance so that at 90° shoulder/
+                                                                                          humerus joint corresponded 90° at the elbow (Figure 1). The
+                                                                                          participants were instructed to lift the barbell starting from below
+                                                                                          the external occipital protuberance up to a full elbow extension
+                                                                                          (Paoli et al., 2010), passing behind the head and resulting in an
+                                                                                          approximately straight trajectory. During the execution of the
+                                                                                          back-BMP, the trunk was inclined at 90° to let the bar passing
+                                                                                          behind the neck, but still having a lumbar support.
+                                                                                              The front- and back-MSP were performed using a dynamic-
+                                                                                          constant external load device (Shoulder press, Technogym, Cesena,
+                                                                                          Italy). The displacement of the external resistance (i.e., barbell or
+                                                                                          machine’s lever) was roughly similar for each corresponding
+                                                                                          variation, i.e., front-BMP vs. front-MSP and back-BMP vs. back-
+                                                                                          MSP, meaning that the start and the end of the movement resulted in
+                                                                                          comparable movements, as visually checked. The height of the seat
+                                                                                          was tailored depending on the participant’s stature, so to have the
+                                                                                          start of the ascending phase above the no-load position. The front-
+                                                                                          MSP was performed holding the forward-neutral grip as designed by
+                                                                                          the manufacturer (Figure 1) and the back-MSP holding the lateral-
+                                                                                          prone grip, at the same between-hand distance of back-BMP.
+                                                                                              For each exercise, the time under tension was 2 s for the
+                                                                                          ascending and descending phase, with an isometric phase lasting
+                                                                                          approximately 0.5 s, and a visual time-feedback was provided
+                                                                                          (Coratella et al., 2020a; Coratella et al., 2020b; Coratella et al.,
+                                                                                          2020c; Coratella et al., 2021). After a warm-up consisting of 2 × 15
+                                                                                          repetitions at a self-selected load, the participants performed six
+                                                                                          repetitions at 80% 1-RM to avoid fatigue. To this purpose, at the
+                                                                                          end of the 10 min inter-set recovery each participant was asked if
+                                                                                          he would have been able to perform the subsequent set, and in
+  FIGURE 1 | The technique for each exercise, described with a frontal
+  and lateral view of the start and a frontal view of the end of each movement: (A)
+                                                                                          case of negative response more time was provided. The set was
+  front barbell military press; (B) back barbell military press; (C) front machine        repeated in case of disproportionate duration of any phase.
+  shoulder press; (D) back machine shoulder press.
+                                                                                          1-RM Protocol
+                                                                                          The 1-RM was assessed using the same exercises’ technique
+and the experimental procedures, the participants signed a                                described above. Brieﬂy, after a standardized warm-up
+written informed consent. They were also free to withdraw at                              consisting of 3 × 10 repetitions of the tested exercise using
+any time. The current design was approved by the Ethical                                  three incremental self-selected loads, the 1-RM attempts
+Committee of the Università degli Studi di Milano (CE 27/17)                              started from the 80% of the self-declared 1-RM and additional
+and performed following the Declaration of Helsinki (1975 and                             5% or less was added until failure to lift the load (Coratella and
+updates) for studies involving human subjects. The individual in                          Schena, 2016). Each attempt consisted in one repetition and was
+this manuscript has given written informed consent to publish                             separated by at least 3 min of passive recovery. Strong
+these case details.                                                                       standardized encouragements were provided to the
+                                                                                          participants to maximally perform each trial.
+Exercises Technique
+The front- and back-BMP were performed seated on a bench                                  Maximum Voluntary Isometric Excitation
+(Technogym, Cesena, Italy), with the backseat inclined at 80° to                          The maximal voluntary isometric excitation of anterior deltoid,
+stabilize the trunk. The barbell was an Olympic model (Vulcan                             medial deltoid, posterior deltoid, the clavicular head of pectoralis
+
+
+Frontiers in Physiology | www.frontiersin.org                                         3                                      July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                          Front vs Back Overhead Press
+
+
+
+major, upper trapezius and the lateral head of triceps brachii was         the dominant limb (Coratella et al., 2020a; Coratella et al., 2020c;
+measured in random order following the SENIAM (surface                     Coratella et al., 2021).
+electromyography for the non-invasive assessment of muscles)                   To check for appropriate electrodes placement previous
+procedures (Hermens et al., 2000). The electrodes (mod H124SG              procedures were followed (Coratella et al., 2020a; Coratella et al.,
+Kendall ARBO; diameter: 10 mm; inter-electrodes distance:                  2020b; Coratella et al., 2020c; Coratella et al., 2021). For example, if the
+20 mm; Kendall, Donau, Germany) placement was in line with                 electrode shifted over the innervation zone during part of the
+the SENIAM recommendations (Hermens et al., 2000). The                     movement, the EMG amplitude was underestimated. Therefore, to
+electrodes were equipped with a probe (probe mass: 8.5 g, BTS              check for any consequence due to a possible shift of the surface
+Inc., Milano, Italy) that permitted the detection and the transfer         electrode over the innervation zone, a Fast-Fourier Transform
+of the surface electromyography (sEMG) signal by wireless                  approach was used, as suggested in a previous investigation (Merlo
+modality. The sEMG signal was acquired at 1,000 Hz,                        and Campanini, 2010). Brieﬂy, the electrode placement on each
+ampliﬁed (gain: 2,000, impedance and the common rejection                  muscle was checked during the warm-up phase of each exercise,
+mode ratio of the equipment are >1,015 Ω//0.2 pF and 60/10 Hz              analysing the power spectrum proﬁle of the sEMG signal recorded at
+92 dB, respectively) and driven to a wireless electromyographic            the starting-, middle-, and end-point of each exercise in all muscles.
+system (FREEEMG 300, BTS Inc., Milano, Italy) that digitized               The correct electrode placement results in a typical belly-shaped
+(1,000 Hz) and ﬁltered (ﬁlter type: IV-order Butterworth ﬁlter,            power spectrum proﬁle of the EMG signal, while noise, motion
+band-pass 10–500 Hz) the raw sEMG signals.                                 artifacts, power lines, and electrodes placed on the innervation
+    The sEMG electrodes for the anterior deltoid were placed over          zone or myotendinous junction generate a different power
+the mid-belly of the muscle approximately 4 cm below the clavicle          spectrum proﬁle (Merlo and Campanini, 2010). If the power
+(Hermens et al., 2000). The participants were then instructed to           spectrum did not match with the typical belly-shaped power
+ﬂex the elbow to 90° so that the hand was pointed upwards and              spectrum proﬁle in any of the temporal points, the electrodes were
+asked to make a closed ﬁst with the hand of the ﬂexed arm and to           repositioned, and the procedures repeated so to have a clear EMG
+provide maximal force to produce shoulder ﬂexion against                   signal from all the muscles throughout the movement. Figure 2 shows
+manual resistance (Coratella et al., 2020b). The electrodes of             two representative cases where the electrodes were placed in the
+the medial deltoid were placed on the lateral aspect of the deltoid,       correct or non-appropriate position, and the different sEMG signal
+3 cm below the acromion process (Hermens et al., 2000). The                resulting from both. The same experienced operator placed the
+participants were then instructed to ﬂex the elbow to 90° and were         electrodes and checked the power-spectrum proﬁle. This approach
+asked to maximally abduct the ﬂexed arm against manual                     was shown to provide very high inter-session reliability in sEMG data
+resistance (Coratella et al., 2020b). For posterior deltoid, the           for these muscles (Coratella et al., 2020b; Coratella et al., 2020c).
+electrodes were placed in the area about two ﬁngerbreadths
+behind the angle of the acromion (Hermens et al., 2000). The               Data Analysis
+participants were asked to abduct the shoulder in a slight                 The sEMG signals from both the peak value recorded during the
+extension against manual resistance, with the humerus in                   maximum voluntary isometric activation and from the ascending
+slight internal rotation (Coratella et al., 2020b). The sEMG               and descending phases of each exercise were analysed in time-
+electrodes for the clavicular head of the pectoralis major were            domain, using a 25-ms mobile window for the computation of the
+placed on the midclavicular line, midway between the                       root mean square (RMS). For the maximum voluntary isometric
+acromioclavicular joint of the shoulder for the clavicular head            activation, the average of the RMS corresponding to the central
+(Hermens et al., 2000). The participants were instructed to                2 s was considered. During each exercise, the RMS was calculated
+horizontally abduct the arm with the shoulder and elbow                    and averaged over the 2 s of the ascending and descending phase.
+ﬂexed at 90 and to provide maximal force while attempting to               To identify the ascending and the descending phase, the sEMG
+horizontally adduct the arm against unmovable resistance                   was synchronized with an integrated camera (VixtaCam 30 Hz,
+(Coratella et al., 2020b; Coratella et al., 2020c). For upper              BTS Inc., Milano, Italy) that provided the duration of each phase
+trapezius, the electrodes were placed at 50% on the line from              (Coratella et al., 2020a; Coratella et al., 2020b; Coratella et al.,
+the acromion to the spine on vertebra C7 (Hermens et al., 2000).           2021). Such a duration was used to mark the start and the end of
+The participants were instructed to elevate the acromial end of the        each phase while analysing the sEMG signal. The sEMG data were
+clavicula and scapula against unmovable resistance pushing                 averaged excluding the ﬁrst and the last repetition of each set, to
+downward (Coratella et al., 2020b). For the lateral head of                possibly have more consistent technique and decreasing the
+triceps brachii, the electrodes were placed at 50% on the line             interference of fatigue. After, the sEMG RMS of each muscle
+between the posterior crista of the acromion and the olecranon at          during each exercise was normalized (nRMS) for its respective
+two ﬁnger widths lateral to the line (Hermens et al., 2000). The           maximum voluntary isometric excitation (Coratella et al., 2020a;
+participants were instructed to extend the elbow against                   Coratella et al., 2020b; Coratella et al., 2020c; Coratella et al.,
+unmovable resistance toward the elbow ﬂexion (Coratella                    2021) and inserted into the data analysis.
+et al., 2020b). Each attempt lasted 5 s, and three attempts were
+completed for each movement interspersed by 3 min of passive               Statistical Analysis
+recovery (Coratella et al., 2020b; Coratella et al., 2020c). The           The statistical analysis was performed using a statistical software
+operators provided strong standardized verbal encouragements.              (SPSS 22.0, IBM, Armonk, NY, United States). The normality of data
+In line with previous procedures, the electrodes were placed on            was checked using the Shapiro–Wilk test and all distributions were
+
+
+Frontiers in Physiology | www.frontiersin.org                          4                                          July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                                       Front vs Back Overhead Press
+
+
+
+
+  FIGURE 2 | An example from a representative participant of the sEMG signal deriving from an appropriate (A) or non-appropriate (B) electrode placement. The
+  power spectrum density is also shown for the two cases (C).
+
+
+
+
+normal (p > 0.05). Descriptive statistics (participants = 8) are                      found in back-BMP than front-MSP [ES: 2.80 (95% conﬁdence
+reported as mean (SD). The differences in the nRMS were                               interval 1.42/4.18)] and back-MSP [ES: 1.42 (0.32/2.51)]. During
+separately calculated for each exercise considering the type of                       the descending phase, anterior deltoid was more excited in back-
+external load (barbell or machine: 2 levels), the position of                         BMP compared to front-BMP [ES: 7.66 (4.83/10.49) and back-
+external load (front vs. back: 2 levels), and phase of the exercise                   MSP [ES: 3.26 (1.76/4.75)]. Additionally, greater excitation was
+(ascending or descending: 2 levels) using a three-way repeated-                       found in back-MSP than front-MSP [ES: 2.86 (1.47/4.25)]. The
+measures ANOVA. Multiple comparisons were adjusted using the                          nRMS was greater during the ascending vs. descending phase in
+Bonferroni’s correction. Signiﬁcance was set at α < 0.05. The                         all exercises (ES ranging from 4.83 to 12.38).
+magnitude of the interactions and single factors was calculated                           Load × position × phase (F1,7 = 7.716, p = 0.027, ηp2 = 0.524),
+using partial eta squared (ηp2). The pairwise differences are                         load × position (F1,7 = 12.198, p = 0.010, ηp2 = 0.635), load × phase
+reported as mean Cohen’s d effect size (ES) with 95% conﬁdence                        (F1,7 = 51.289, p < 0.001, ηp2 = 0.880), but not position × phase
+interval (95% CI), and ES was interpreted according to the Hopkins’                   interaction (F1,7 = 0.001, p = 0.985, ηp2 = 0.001) was found for the
+recommendations: 0.00–0.19: trivial; 0.20–0.59: small: 0.60–1.19:                     nRMS of medial deltoid, with main effect observed for factor load
+moderate; 1.20–1.99: large; ≥2.00: very large (Hopkins et al., 2009).                 (F1,7 = 84.543, p < 0.001, ηp2 = 0.967), position (F1,7 = 86.691, p <
+                                                                                      0.001, ηp2 = 0.969) and phase (F1,7 = 77.194, p < 0.001, ηp2 =
+                                                                                      0.959). During the ascending phase, greater nRMS was found in
+RESULTS                                                                               back-BMP than front-BMP [ES: 3.68 (2.07/5.29)] and back-MSP
+                                                                                      [ES: 7.51 (4.73/10.29)]. Moreover, front-BMP showed greater
+The 1-RM was 82 (8) kg for front-BMP, 76 (7) kg for back-BMP,                         nRMS than front-MSP [ES: 2.25 (1.00/3.50)], and back-MSP
+95 (9) kg for front-MSP and 87 (8) for back-MSP.                                      showed greater RMS than front-MSP [ES: 1.81 (0.65/2.98)].
+   Figure 3 shows the nRMS recorded in all muscles during the                         During the descending phase, greater nRMS was found in
+two phases of the four exercises. Load × position × phase                             back-BMP than front-BMP [ES: 4.56 (2.70/6.42)] and back-
+interaction (F1,7 = 9.950, p = 0.016, ηp2 = 0.587) was found for                      MSP [ES: 2.03 (0.82/3.24]. Additionally, back-MSP showed
+the nRMS of anterior deltoid. Additionally, load × position (F1,7 =                   greater nRMS than front-MSP [ES: 5.16 (3.12/7.20)], and
+12.679, p = 0.009, ηp2 = 0.644), position × phase (F1,7 = 18.561, p =                 front-BMP showed greater nRMS than front-MSP [ES: 2.78
+0.004, ηp2 = 0.726), but not load × phase interaction (F1,7 = 0.168,                  (1.40/4.15)]. The RMS was greater during the ascending vs.
+p = 0.694, ηp2 = 0.023) was observed, and main effect for factor                      descending phase for all exercises (ES ranging from 5.12 to 7.55).
+load (F1,7 = 16.189, p = 0.020, ηp2 = 0.561), position (F1,7 = 54.433,                    Load × position × phase (F1,7 = 8.100, p = 0.025, ηp2 = 0.536), load
+p < 0.001, ηp2 = 0.937), and phase (F1,7 = 98.572, p < 0.001, ηp2 =                   × position (F1,7 = 97.288, p < 0.001, ηp2 = 0.933), load × phase (F1,7 =
+0.988) was found. During the ascending phase, greater nRMS was                        5.892, p = 0.046, ηp2 = 0.457) and position × phase interaction (F1,7 =
+
+
+
+Frontiers in Physiology | www.frontiersin.org                                     5                                            July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                                          Front vs Back Overhead Press
+
+
+
+
+  FIGURE 3 | Mean (SD) for the sEMG RMS of the muscles examined during the ascending and descending phase of each exercise. Besides the front vs. back and
+  barbell vs. machine differences, sEMG RMS was greater during the ascending than descending phase in all exercises. a: p < 0.05 vs. front-BMP. b: p < 0.05 vs. back-
+  BMP. c: p < 0.05 vs. front-MSP. d: p < 0.05 vs. back-MSP.
+
+
+
+
+27.824, p = 0.001, ηp2 = 0.799) was found for the nRMS of posterior                    was observed in front-BMP than back-BMP [ES: 4.20 (2.44/
+deltoid, with main effect observed for factor load (F1,7 = 93.917, p <                 5.95)], and in front-MSP than back-MSP [ES: 7.03 (4.40/
+0.001, ηp2 = 0.975), position (F1,7 = 96.736, p < 0.001, ηp2 = 0.991)                  9.65)]. The nRMS was greater during the ascending vs.
+and phase (F1,7 = 80.794, p < 0.001, ηp2 = 0.920). During the                          descending phase for all exercises (ES ranging from 6.25 to 21.36).
+ascending phase, greater nRMS was observed in back-BMP than                                Load × position × phase interaction (F1,7 = 21.529, p = 0.002, ηp2
+front-BMP [ES: 9.00 (5.73/12.27)] and back-MSP [ES: 4.09 (2.37/                        = 0.755) was found for the nRMS of triceps brachii. Additionally,
+5.82)]. Moreover, back-MSP showed greater nRMS than front-MSP                          load × phase (F1,7 = 20.960, p = 0.003, ηp2 = 0.750), position × phase
+[ES: 4.42 (2.60/6.23)], and front-BMP showed greater nRMS than                         (F1,7 = 24.818, p = 0.002, ηp2 = 0.780), but not load × position (F1,7 =
+front-MSP [ES: 2.08 (0.87/3.30)]. During the descending phase,                         0.492, p = 0.506, ηp2 = 0.066) was observed, and main effect for factor
+greater nRMS was observed in back-BMP than front-BMP [ES:                              position (F1,7 = 116.834, p < 0.001, ηp2 = 0.943), phase (F1,7 = 98.572,
+8.65 (5.50/11.80)] and back-MSP [ES: 4.04 (2.33/5.75)]. Additionally,                  p < 0.001, ηp2 = 0.988), but not load (F1,7 = 1.671, p = 0.237, ηp2 =
+back-MSP showed greater nRMS than front-MSP [ES: 5.03 (3.03/                           0.193) was found. During the ascending phase, no between-exercise
+7.03)], and front-BMP showed greater nRMS than front-MSP [ES:                          difference was observed. During the descending phase, greater
+4.86 (2.91/6.81)]. The nRMS was greater during the ascending vs.                       nRMS was found in front-BMP than back-BMP [ES: 8.29 (5.33/
+descending phase for all exercises (ES ranging from 2.67 to 10.51).                    10.56)] and front-MSP [ES: 3.48 (1.97/4.68)]. Moreover, front-MSP
+   No load × position × phase interaction (F1,7 = 0.237, p = 0.869,                    showed greater nRMS than back-MSP [ES: 1.55 (0.49/2.47)]. The
+ηp2 = 0.111) was found for the nRMS of upper trapezius, albeit the                     nRMS was greater during the ascending vs. descending phase for all
+main effect observed for factor phase (F1,7 = 93.901, p < 0.001, ηp2                   exercises (ES ranging from 4.43 to 10.51).
+= 0.977). No between-exercise difference was observed during
+both the ascending and descending phase. The nRMS was greater
+during the ascending vs. descending phase for all exercises (ES                        DISCUSSION
+ranging from 3.60 to 4.34).
+   Load × position × phase (F1,7 = 53.082, p < 0.001, ηp2 = 0.883),                    The present study examined for the ﬁrst time the excitation of the
+load × position (F1,7 = 109.342, p < 0.001, ηp2 = 0.970), load ×                       prime movers in military and shoulder press performed in front
+phase (F1,7 = 10.540, p = 0.014, ηp2 = 0.601) and position × phase                     or behind the head. Differences in muscle excitation have been
+interaction (F1,7 = 58.940, p < 0.001, ηp2 = 0.894) was found for                      found between the overhead press variations analysed here,
+the nRMS of pectoralis maior, with main effect observed for                            except for the upper trapezius that did not show any between-
+factor load (F1,7 = 154.915, p < 0.001, ηp2 = 0.995), position (F1,7 =                 exercise dissimilarity. Comparing front vs. back, as previously
+149.476, p < 0.001, ηp2 = 0.994) and phase (F1,7 = 143.434, p <                        hypothesized, medial and posterior deltoids were more excited in
+0.001, ηp2 = 0.993). During the ascending phase, greater nRMS                          back exercises and pectoralis major in front exercises during the
+was observed in front-BMP than back-BMP [ES: 3.11                                      ascending phase. The descending phase had similar pattern, with
+(1.65–4.56)], and in front-MSP than back-MSP [ES: 20.52                                the adjunct of anterior deltoid more excited in back and triceps
+(13.34/27.70)]. During the descending phase, greater nRMS                              brachii in front exercises. Comparing barbell vs. machine
+
+
+Frontiers in Physiology | www.frontiersin.org                                      6                                             July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                           Front vs Back Overhead Press
+
+
+
+overhead press, greater muscle excitation was overall observed               more excited in back-BMP during the descending phase.
+using barbell, in line with the initial hypothesis. Moreover, the            However, while it is known that the excitation of the anterior
+ascending resulted in overall greater muscle excitation compared             deltoid increases with along the verticality of the lifting plane
+to the descending phase. The present results highlight that front            (Luczak et al., 2013), anterior deltoid is a strong abductor of the
+and back overhead press have different muscle excitation and                 humerus whatever the lifting plane (Escamilla et al., 2009), and
+using barbell overall increased muscle excitation to stabilize the           this may partially explain the lack of difference comparing front
+external load along its trajectory. In this light, the present               vs. back press during the ascending phase. Moreover, the possibly
+overhead press variations should not be intended as equivalent               more frontal lifting trajectory in front vs. back exercises that
+and could be used to stimulate the muscles surrounding the                   suggest greater anterior deltoid excitation may have been
+shoulders differently.                                                       compensated by the greater external rotation of the humerus
+                                                                             when performing back exercises. This was shown indeed to put
+Front vs. Back                                                               anterior deltoid in a more optimal lever (Escamilla et al., 2009),
+The front vs. back comparison offers interesting perspectives in             inducing an increase in its excitation (Coratella et al., 2020b).
+term of muscle excitation. However, beside the differences in                Interestingly, the descending phase resulted in greater anterior
+muscle excitation induced by the exercises, it should be reminded            deltoid excitation during back than front exercises, possibly
+that the different between-hand distance and the possible                    leading to argue that the needs for maintaining an external
+different trajectory (C-shape for the front- and straight for the            rotated trajectory may have increased its excitation when
+back-BMP) may affect the sEMG signal amplitude because of the                controlling the movement, as shown when comparing the
+muscles acting at different length (Vigotsky et al., 2018). Back-            lateral raises with external vs. internal rotated humerus
+BMP showed greater excitation of posterior deltoid compared to               (Coratella et al., 2020b).
+both front-BMP and front-MSP. The greater excitation of                          While the combined anterior ﬂexion in front exercises is
+posterior deltoid in back-BMP has similar pattern during both                somehow compensated by the external rotation of the humerus
+the ascending and descending phase compared with the                         in terms of excitation of the anterior deltoid, pectoralis major was
+remaining exercises. Posterior deltoid acts as external rotator              more excited in front-BMP and front-MSP compared to back-BMP
+of the humerus (Escamilla et al., 2009), and such an external                and back-MSP. This phenomenon was also observed when
+rotation is needed to avoid a forward unbalance of the barbell,              comparing frontal vs. lateral glenohumeral raises (Coratella et al.,
+stabilizing its trajectory behind the head. The excitation of the            2020b). Moreover, it should be noticed that front-BMP leads to a
+posterior deltoid is a combination of both the external humerus              more extended thoracic trunk compared to back-BMP (McKean and
+rotation and abduction, albeit in the latter posterior deltoid is not        Burkett, 2015), as also occurred here given the different trunk
+effective as anterior and medial deltoid (Escamilla et al., 2009).           inclination (adherent to the cushion during front-BMP vs. 90°
+However, both the high-load used here and the full range of                  during back-BMP). This possibly implies a less vertical humerus
+motion may have contributed to enhance its excitation within all-            ﬂexion, thus requiring the pectoralis major to be more excited during
+exercises (Paoli et al., 2010). Notwithstanding, the back trajectory         front-BMP, and concurrently the deltoids more excited during back-
+appears more suitable for exciting posterior deltoid because of the          BMP. Concerning the excitation of triceps brachii, the front vs. back
+need to stabilize the barbell behind the head.                               press resulted in greater excitation during the descending phase.
+    When comparing the front vs. back press, the present results             Interestingly, the front exercises lead to a more ﬂexed humerus, thus
+suggest that back-BMP is more effective than front-BMP to excite             increasing the elongation of the triceps brachii, and this was shown
+medial deltoid, possibly deriving from the more prominent                    to positively affect the triceps excitation (Alves et al., 2018), possibly
+humerus abduction compared with the combined abduction-                      explain the results. However, the triceps excitation was close to the
+ﬂexion performed in front-BMP. The same pattern of the                       maximum in all exercises. Lastly, upper trapezius showed no
+ascending phase was overall maintained during the descending                 difference when comparing front vs. back exercises. Since the
+phase. Medial deltoid is a strong abductor of the humerus,                   scapular elevation needed to allow the humerus abduction
+especially when the abduction starts beyond a minimal angle                  (Escamilla et al., 2009) could be potentially similar in all
+(Escamilla et al., 2009). In support of the present results, a lateral       variations, such a lack of difference may be expected.
+glenohumeral raise was reported to excite the medial deltoid
+more than a frontal raise performed with similar relative load               Barbell vs. Machine
+(Coratella et al., 2020b). Additionally, both the load and the full          As for the front vs. back comparison, we should remind that the
+movement used here may have led to a relative high excitation of             trajectories of the overhead press performed using the barbell or
+the medial deltoid (Paoli et al., 2010). Hence, an abduction                 the machine implies some points that should be highlighted and
+performed on the lateral plane is more effective than a                      that could have had repercussions per se on the muscle excitation.
+spurious abduction to enhance the excitation of the medial                   Indeed, since the barbell is supposed to present a trajectory closer
+deltoid.                                                                     to a translation and the machine rotates around an axis in the
+    Given the differences in posterior and medial deltoid                    equipment, differences in the trajectory are intrinsic in the
+excitation possibly due to the degree of external rotation                   movements (although not directly measured here), as for
+combined with the abduction of humerus, it may be surprising                 example concerns the back BMP vs. back MSP. Additionally,
+at a ﬁrst glance that the anterior deltoid was strongly and similarly        the hands end their movement much closer with the machine
+excited in back exercises during the ascending phase, as well as             than the barbell, so the resulting range of movements of
+
+
+Frontiers in Physiology | www.frontiersin.org                            7                                         July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                          Front vs Back Overhead Press
+
+
+
+glenohumeral and thoracic-scapula joints are possibly                       elevating the scapulae (upper trapezius) (Escamilla et al., 2009). In
+intrinsically different. Together, this may lead to the muscles             line, the excitation of pectoralis major did not change during
+involved in different muscle length, feasibly affecting per se the          overhead press performed using dumbbells vs. kettlebells (Dicus
+sEMG signal amplitude (Vigotsky et al., 2018). Moreover,                    et al., 2018), or stable vs. unstable surface (Uribe et al., 2010; Williams
+performing overhead press using barbell vs. machine may                     et al., 2020). Similarly, upper trapezius was shown to excite similarly
+imply greater need for stabilization of the vertical trajectory of          during overhead performed with stable vs. unstable load (Kohler
+the load. In the present study, the posterior deltoid was overall           et al., 2010; Williams et al., 2020), or on stable vs. unstable surface
+more excited during barbell vs. machine overhead press during               (Kohler et al., 2010). Greater excitation for the triceps brachii during
+both the ascending and descending phase. Besides the greater                the descending phase was found in front-BMP vs. front-MSP,
+stability offered by the machine press, back-BMP results in still           indicating that more control is needed when accompanying a
+higher excitation of the posterior deltoid than back-MSP, possibly          more unstable load towards the lowest position. The comparison
+also due to the straighter trajectory of the barbell compared to the        with the literature may suffer from two main concerns: ﬁrst, the head
+machine’s lever. Although no previous study has directly                    selected as representative of the triceps muscle (lateral, medial or
+compared the present overhead press variations, previous                    long), and second, the lack of distinction between the ascending and
+papers examined the muscle excitation when different level of               descending phase. Stable surface and load elicited more excitation of
+stabilization was required. For example, in line with the present           triceps brachii (Kohler et al., 2010) while a recent study did not ﬁnd
+results, posterior deltoid was more excited when shoulder press             any difference when comparing stable vs. unstable load, albeit the
+was performed standing vs. seated, irrespectively if performed              authors did not separate the ascending from the descending phase
+with barbell or dumbbells (Saeterbakken and Fimland, 2013), or              (Williams et al., 2020). To summarize, while pectoralis major and
+barbell vs. machine exercises (McCaw and Friday, 1994;                      upper trapezius do not show any difference due to their role, triceps
+Schwanbeck et al., 2009). A similar pattern was observed here               brachii might be excited slightly more in barbell vs. machine
+for medial deltoid, so that less stable trajectories require more           overhead press, but only during the descending phase of the
+excitation. In line, the same study also reported greater excitation        front press.
+of medial deltoid in standing vs. seated and dumbbells vs. barbell              Some considerations and limitations should be acknowledged. In
+shoulder press in standing position (Saeterbakken and Fimland,              ﬁrst instance, during a multi-joint exercise, the excitation of the
+2013). In contrast, medial deltoid similarly excited during barbell         prime movers stringently linked with the excitation of the synergistic
+vs. dumbbell overhead press performed in both stable and                    muscles involved in that exercise (Saeterbakken et al., 2017). Thus,
+unstable surface (Kohler et al., 2010). Such a difference could             although each exercise has a series of prime movers, several
+derive from the different load used, different study design, as well        additional muscles may be involved to manipulate the joint
+as the different experience in strength training of the participants        movements, resulting in a compound neuromuscular pattern
+involved in the studies. Interestingly, anterior deltoid was roughly        (Lauver et al., 2016). Indeed, the role of other muscles (e.g.,
+similarly excited in all exercises, except for the greater excitation       biceps brachii, middle trapezius) was not examined, and this
+observed in back-BMP vs. back-MSP during the ascending phase.               could have deepened the analysis. Moreover, a cross-talk cannot
+The literature reports no difference in anterior deltoid excitation         be excluded, although we carefully check the sEMG signal. Second,
+while performing overhead press with barbell vs. dumbbells, on              the present results are reﬂective of the load and the time under
+both stable and unstable surfaces (Kohler et al., 2010). Similarly,         tension selected here and may change should different combinations
+no difference was observed when comparing overhead press on                 be used. In this regard, further overhead variations (e.g., using
+stable vs. unstable surface (Uribe et al., 2010), or stable vs.             dumbbells or Smith machine) were not examined, and may still
+unstable load using barbell (Williams et al., 2020). In contrast,           be object of future investigations. Third, the present outcomes
+greater excitation was observed when performing overhead press              should not be extended to different populations since the
+with dumbbells vs. barbell, but not comparing seated vs. standing           strength training background may inﬂuence the neural pattern,
+position (Saeterbakken and Fimland, 2013). Interestingly, a more            and bodybuilders may exhibit unique mass to strength
+forward and stable trajectory using dumbbells led to greater                relationship or training velocity. Additionally, the present
+excitation of the anterior deltoid compared with a more                     bodybuilders were not controlled for the use of anabolic steroids,
+backward and unstable press using kettlebells (Dicus et al.,                and it is acknowledged that this may mask previous injuries (Pereira
+2018). It should be noted that, although both barbell and                   et al., 2019), eventually reﬂecting on the motor pattern. Moreover,
+machine presses were performed seated, it is possible that the              the present sample size is low, and conclusions must be drawn with
+participants experienced more degrees of freedom in the trunk,              caution. Similarly, men and women may present different responses
+thus inﬂuencing the need to rotate externally the humerus. To               due to anatomical and mobility differences, and the present results
+summarize, posterior and medial deltoid appear to act as                    should be extended to women with caution. Last, no kinematic data
+stabilizers of the load’s trajectory more than anterior deltoid,            were recorded, thus bringing more information about the trajectory
+whose role was more evident in stabilizing the back-BMP.                    of the load and the muscle excitation.
+    The excitation of pectoralis major and upper trapezius did not              Competitive bodybuilders may beneﬁt from the diversiﬁcation
+change across the overhead press performed using barbell or                 of the overhead press variations in their training routine. When
+machine. The role of both muscles in overhead press is to                   choosing an exercise, practitioners base their choice on the overall
+stabilize the initial phase of the movement (pectoralis major)              neuromuscular and mechanical stimuli that each exercise is
+(Dicus et al., 2018), and allow stable glenohumeral elevation by            supposed to provide. Although there is no established link
+
+
+Frontiers in Physiology | www.frontiersin.org                           8                                         July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                            Front vs Back Overhead Press
+
+
+
+between the sEMG amplitude and the actual stimulus received by                 BMP could be an interesting option for individuals who have little
+the muscles examined (Vigotsky et al., 2018) especially in term of             time to train, as often occurs with sedentary people. In this case, only
+hypertrophic response (Vigotsky et al., 2022), still the variations            a multi-joint exercise could satisfactorily excite the muscular
+examined here may be used to provide diversiﬁed stimuli to the                 portions of the deltoid without the need to include
+muscles surrounding the shoulders. With this in mind, the                      complementary single-joint exercises for this portion, thus saving
+literature supports that the neural adaptations that underpin the              time for that session.
+early resistance training-induced increases in strength also imply
+an augmented recruitment of the agonist muscles (Škarabot et al.,
+2020), so that the differences reported here for example between               CONCLUSION
+front and back overhead may be used to target more speciﬁcally the
+front or back shoulder muscles. Moreover, the greater external load            In conclusion, overhead press is effective to stimulate the
+used with the machine press compared to the barbell variations                 muscles surrounding the shoulders. More in detail, the back
+may constitute a greater mechanical stimulus to the shoulder                   overhead performed with barbell or machine seems to excite
+muscles, possibly enhancing the hypertrophic response. Taking                  the posterior and medial deltoid more than overhead
+it together, competitive bodybuilders could use different overhead             performed with barbell in front or the anterior handgrip of
+press variations, aware that different stimuli to the shoulder                 the shoulder press. In contrast, both front presses seem to
+muscles will be given.                                                         favour the excitation of pectoralis major and triceps brachii.
+    Another aspect that should be examined in the practice is the              No difference was observed in anterior deltoid and upper
+safety of performing the overhead press in its back variation,                 trapezius. Moreover, less stable overhead trajectories when
+especially with the barbell. A previous study reported higher                  using barbell require greater stabilization than more stable
+prevalence of positive response to tests indicating shoulders                  movements as in the cases of shoulder press, and posterior and
+instability and hyperlaxity when back-to-neck exercises are                    medial deltoid, and partly anterior deltoid and triceps brachii
+systematically included in the training routine (Kolber et al.,                concurrently act to this purpose.
+2013). However, the same study also reported a protective effect
+of the exercises stimulating the humerus external rotators, hence
+since back-BMP excites posterior deltoid more than other variations,           DATA AVAILABILITY STATEMENT
+those outcomes appear contradictory at least (Kolber et al., 2013).
+Moreover, focusing on the humerus external rotators was shown as               The datasets presented in this study can be found in online
+protective towards the insurgence of the impingement syndrome                  repositories. The names of the repository/repositories and
+(Kolber et al., 2014). Lastly, a more recent study deﬁned it as a “safe        accession number(s) can be found below: [md5:
+exercise” for people with normal trunk stability and ideal shoulder            e8b6c718179c993b0817208341e84130], Zenodo.
+ROM (McKean and Burkett, 2015), and we believe there should not
+be any reason to exclude it from the training routine. To throw fuel
+on the ﬁre, back-BMP was shown here more effective in exciting                 ETHICS STATEMENT
+posterior and medial deltoid, therefore should the external humerus
+rotators be targeted, this might be effectively included in the strength       The studies involving human participants were reviewed and
+training programmes. Indeed, many overhead sports need for a                   approved by University of Milan. The patients/participants
+reinforcement of the external rotators for performance and injury              provided their written informed consent to participate in this
+prevention purposes (Cools et al., 2015), and back overhead could be           study. Written informed consent was obtained from the
+part of the shoulder muscles strengthening routine. In this regard,            individual(s) for the publication of any potentially identiﬁable
+while acknowledging the importance of speciﬁc exercises for the                images or data included in this article.
+external rotators of the humerus such as external rotations using
+dumbbells, cables or elastic bands, back-BMP implies the activation
+and consequently reinforcement of these muscles in a different                 AUTHOR CONTRIBUTIONS
+context, i.e., a complex multi-joint exercise, where more control
+is needed. Importantly, such a consideration is still valid for                GC, GT, and EC conceived and designed the study. GT and SL
+sedentary or non-athlete populations, in which a “forward                      conducted the experiments. GT analysed the data. GC, FE, and
+posture” favours a pronounced dorsal kyphosis and internal                     EC drafted the ﬁrst version of the manuscript. GC, GT, SL, FE,
+rotation of the humerus (Heneghan et al., 2018). In such cases,                and EC. critically revised the manuscript. All authors read and
+since back overhead forces a simultaneous dorsal lordosis and                  approved the manuscript.
+external rotation of the humerus, once established the safety
+condition of the exercise (McKean and Burkett, 2015), back-BMP
+could be implemented in the training starting with light or very light         ACKNOWLEDGMENTS
+loads (e.g., a broomstick) to be familiarized with the movement, and
+progressively increase the load. In this regard, it is acknowledged that       The authors thank Giorgia Sironi M.Sc. for her precious help in
+coaches should be aware of the individual capacities and determine             reviewing the literature. The authors are also grateful to the
+accordingly both load and the movement pattern. Moreover, back-                participants that volunteered for the present investigation.
+
+
+Frontiers in Physiology | www.frontiersin.org                              9                                        July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                                                       Front vs Back Overhead Press
+
+
+
+
+REFERENCES                                                                                      Hopkins, W. G., Marshall, S. W., Batterham, A. M., and Hanin, J. (2009).
+                                                                                                   Progressive Statistics for Studies in Sports Medicine and Exercise Science.
+                                                                                                   Med. Sci. Sport. Exerc. 41, 3–12. doi:10.1249/MSS.0b013e31818cb278
+Alves, D., Matta, T., and Oliveira, L. (2018). Effect of Shoulder Position on Triceps           Ichihashi, N., Ibuki, S., Otsuka, N., Takashima, S., and Matsumura, A. (2014).
+   Brachii Heads Activity in Dumbbell Elbow Extension Exercises. J. Sports Med.                    Kinematic Characteristics of the Scapula and Clavicle during Military Press
+   Phys. Fit. 58, 1247–1252. doi:10.23736/S0022-4707.17.06849-9                                    Exercise and Shoulder Flexion. J. Shoulder Elb. Surg. 23, 649–657. doi:10.1016/j.
+Beato, M., Stiff, A., and Coratella, G. (2021). Effects of Postactivation Potentiation             jse.2013.11.014
+   after an Eccentric Overload Bout on Countermovement Jump and Lower-Limb                      Kohler, J. M., Flanagan, S. P., and Whiting, W. C. (2010). Muscle Activation
+   Muscle Strength. J. Strength Cond. Res. 35, 1825–1832. doi:10.1519/JSC.                         Patterns while Lifting Stable and Unstable Loads on Stable and Unstable
+   0000000000003005                                                                                Surfaces. J. Strength Cond. Res. 24, 313–321. doi:10.1519/JSC.
+Cools, A. M., Johansson, F. R., Borms, D., and Maenhout, A. (2015). Prevention of                  0b013e3181c8655a
+   Shoulder Injuries in Overhead Athletes: A Science-Based Approach. Braz.                      Kolber, M. J., Corrao, M., and Hanney, W. J. (2013). Characteristics of
+   J. Phys. Ther. 19, 331–339. doi:10.1590/bjpt-rbf.2014.0109                                      Anterior Shoulder Instability and Hyperlaxity in the Weight-Training
+Coratella, G., and Bertinato, L. (2015). Isoload vs Isokinetic Eccentric Exercise: a               Population. J. Strength Cond. Res. 27, 1333–1339. doi:10.1519/JSC.
+   Direct Comparison of Exercise-Induced Muscle Damage and Repeated Bout                           0b013e318269f776
+   Effect. Sport Sci. Health 11, 87–96. doi:10.1007/s11332-014-0213-x                           Kolber, M. J., Cheatham, S. W., Salamh, P. A., and Hanney, W. J. (2014).
+Coratella, G., and Schena, F. (2016). Eccentric Resistance Training Increases and                  Characteristichs of Shoulder Impingement in the Recreational Weight-
+   Retains Maximal Strength, Muscle Endurance, and Hypertrophy in Trained                          Training Population. J. Strength Cond. Res. 28, 1081–1089. doi:10.1519/jsc.
+   Men. Appl. Physiol. Nutr. Metab. 41, 1184–1189. doi:10.1139/apnm-2016-0321                      0000000000000250
+Coratella, G., Milanese, C., and Schena, F. (2015). Unilateral Eccentric Resistance             Lauver, J. D., Cayot, T. E., and Scheuermann, B. W. (2016). Inﬂuence of Bench
+   Training: a Direct Comparison between Isokinetic and Dynamic Constant                           Angle on Upper Extremity Muscular Activation during Bench Press Exercise.
+   External Resistance Modalities. Eur. J. Sport Sci. 15, 720–726. doi:10.1080/                    Eur. J. Sport Sci. 16, 309–316. doi:10.1080/17461391.2015.1022605
+   17461391.2015.1060264                                                                        Luczak, J., Bosak, A., and Riemann, B. L. (2013). Shoulder Muscle Activation of
+Coratella, G., Chemello, A., and Schena, F. (2016). Muscle Damage and Repeated                     Novice and Resistance Trained Women during Variations of Dumbbell Press
+   Bout Effect Induced by Enhanced Eccentric Squats. J. Sports Med. Phys. Fit. 56,                 Exercises. J. Sports Med. 2013, 1–6. doi:10.1155/2013/612650
+   1540–1546.                                                                                   Maeo, S., Takahashi, T., Takai, Y., and Kanehisa, H. (2013). Trainability of
+Coratella, G., Beato, M., Cè, E., Scurati, R., Milanese, C., Schena, F., et al. (2019).            Muscular Activity Level during Maximal Voluntary Co-Contraction:
+   Effects of In-Season Enhanced Negative Work-Based vs Traditional Weight                         Comparison between Bodybuilders and Nonathletes. PLoS One 8, e79486.
+   Training on Change of Direction and Hamstrings-To-Quadriceps Ratio in                           doi:10.1371/journal.pone.0079486
+   Soccer Players. Biol. Sport. 36, 241–248. doi:10.5114/biolsport.2019.87045                   McCaw, S. T., and Friday, J. J. (1994). A Comparison of Muscle Activity between a
+Coratella, G., Tornatore, G., Longo, S., Borrelli, M., Doria, C., Esposito, F., et al.             Free Weight and Machine Bench Press. J. Strength Cond. Res. 8, 259–264.
+   (2020a). The Effects of Verbal Instructions on Lower Limb Muscles ’ Excitation                  doi:10.1519/1533-4287(1994)008<0259:acomab>2.3.co;2
+   in Back-Squat. Res. Q. Exerc. Sport 93, 429–435. doi:10.1080/02701367.2020.                  McKean, M. R., and Burkett, B. J. (2015). Overhead Shoulder Press - In-Front of the
+   1840496                                                                                         Head or behind the Head? J. Sport Health Sci. 4, 250–257. doi:10.1016/j.jshs.
+Coratella, G., Tornatore, G., Longo, S., Esposito, F., and Cè, E. (2020b). An                      2013.11.007
+   Electromyographic Analysis of Lateral Raise Variations and Frontal Raise in                  Merlo, A., and Campanini, I. (2010). Technical Aspects of Surface
+   Competitive Bodybuilders. Int. J. Environ. Res. Public Health 17, 6015. doi:10.                 Electromyography for Clinicians. Torehj 3, 98–109. doi:10.2174/
+   3390/ijerph17176015                                                                             1874943701003010098
+Coratella, G., Tornatore, G., Longo, S., Esposito, F., and Cè, E. (2020c). Speciﬁc              Paoli, A., Marcolin, G., and Petrone, N. (2010). Inﬂuence of Different Ranges of
+   Prime Movers’ Excitation during Free-Weight Bench Press Variations and                          Motion on Selective Recruitment of Shoulder Muscles in the Sitting Military
+   Chest Press Machine in Competitive Bodybuilders. Eur. J. Sport Sci. 20,                         Press: An Electromyographic Study. J. Strength Cond. Res. 24, 1578–1583.
+   571–579. doi:10.1080/17461391.2019.1655101                                                      doi:10.1519/JSC.0b013e3181d756ea
+Coratella, G., Tornatore, G., Caccavale, F., Longo, S., Esposito, F., and Cè, E. (2021).        Pereira, E., Moyses, S. J., Ignácio, S. A., Mendes, D. K., da Silva, D. S., Carneiro, E.,
+   He Activation of Gluteal , Thigh , and Lower Back Muscles in Different Squat                    et al. (2019). Anabolic Steroids Among Resistance Training Practitioners. PLoS
+   Variations Performed by Competitive Bodybuilders : Implications for                             One 14, e0223384. doi:10.1371/journal.pone.0223384
+   Resistance Training. Int. J. Environ. Res. Public Health 18, 772. doi:10.3390/               Saeterbakken, A. H., and Fimland, M. S. (2013). Effects of Body Position and
+   ijerph18020772                                                                                  Loading Modality on Muscle Activity and Strength in Shoulder Presses.
+Coratella, G., Tornatore, G., Longo, S., Esposito, F., and Cè, E. (2022). An                       J. Strength Cond. Res. 27, 1824–1831. doi:10.1519/JSC.0b013e318276b873
+   Electromyographic Analysis of Romanian, step-Romanian, and Stiff-Leg                         Saeterbakken, A. H., Mo, D.-A., Scott, S., and Andersen, V. (2017). The Effects of
+   Deadlift: Implication for Resistance Training. Int. J. Environ. Res. Public                     Bench Press Variations in Competitive Athletes on Muscle Activity and
+   Health 19, 1903. doi:10.3390/ijerph19031903                                                     Performance. J. Hum. Kinet. 57, 61–71. doi:10.1515/hukin-2017-0047
+Dicus, J. R., Holmstrup, M. E., Shuler, K. T., Rice, T. T., Raybuck, S. D., and                 Schoenfeld, B. J., Ogborn, D., and Krieger, J. W. (2016). Effects of Resistance
+   Siddons, C. A. (2018). Stability of Resistance Training Implement Alters EMG                    Training Frequency on Measures of Muscle Hypertrophy: A Systematic Review
+   Activity during the Overhead Press. Int. J. Exerc. Sci. 11, 708–716.                            and Meta-Analysis. Sports Med. 46, 1689–1697. doi:10.1007/s40279-016-
+Duchateau, J., and Enoka, R. M. (2016). Neural Control of Lengthening                              0543-8
+   Contractions. J. Exp. Biol. 219, 197–204. doi:10.1242/jeb.123158                             Schwanbeck, S., Chilibeck, P. D., and Binsted, G. (2009). A Comparison of Free
+Escamilla, R. F., Yamashiro, K., Paulos, L., and Andrews, J. R. (2009). Shoulder                   Weight Squat to Smith Machine Squat Using Electromyography. J. Strength
+   Muscle Activity and Function in Common Shoulder Rehabilitation Exercises.                       Cond. Res. 23, 2588–2591. doi:10.1519/JSC.0b013e3181b1b181
+   Sports Med. 39, 663–685. doi:10.2165/00007256-200939080-00004                                Škarabot, J., Brownstein, C. G., Casolo, A., Del Vecchio, A., and Ansdell, P.
+Heneghan, N. R., Baker, G., Thomas, K., Falla, D., and Rushton, A. (2018). What Is                 (2020). The Knowns and Unknowns of Neural Adaptations to Resistance
+   the Effect of Prolonged Sitting and Physical Activity on Thoracic Spine                         Training. Eur. J. Appl. Physiol. 121, 675–685. doi:10.1007/s00421-020-
+   Mobility? an Observational Study of Young Adults in a UK University                             04567-3
+   Setting. BMJ Open 8, e019371. doi:10.1136/bmjopen-2017-019371                                Uribe, B. P., Coburn, J. W., Brown, L. E., Judelson, D. A., Khamoui, A. V., and
+Hermens, H. J., Freriks, B., Disselhorst-Klug, C., and Rau, G. (2000). Development                 Nguyen, D. (2010). Muscle Activation when Performing the Chest Press and
+   of Recommendations for SEMG Sensors and Sensor Placement Procedures.                            Shoulder Press on a Stable Bench vs. A Swiss Ball. J. Strength Cond. Res. 24,
+   J. Electromyogr. Kinesiol. 10, 361–374. Available at: http://www.ncbi.nlm.nih.                  1028–1033. doi:10.1519/JSC.0b013e3181ca4fb8
+   gov/pubmed/11018445. (Accessed November 15, 2016). doi:10.1016/s1050-                        Vigotsky, A. D., Halperin, I., Lehman, G. J., Trajano, G. S., and Vieira, T. M. (2018).
+   6411(00)00027-4                                                                                 Interpreting Signal Amplitudes in Surface Electromyography Studies in Sport
+
+
+
+
+Frontiers in Physiology | www.frontiersin.org                                              10                                                 July 2022 | Volume 13 | Article 825880
+Coratella et al.                                                                                                                                     Front vs Back Overhead Press
+
+
+
+   and Rehabilitation Sciences. Front. Physiol. 8, 985. doi:10.3389/fphys.2017.                 Publisher’s Note: All claims expressed in this article are solely those of the authors
+   00985                                                                                        and do not necessarily represent those of their afﬁliated organizations, or those of
+Vigotsky, A. D., Halperin, I., Trajano, G. S., and Vieira, T. M. (2022). Longing for a          the publisher, the editors and the reviewers. Any product that may be evaluated in
+   Longitudinal Proxy : Acutely Measured Surface EMG Amplitude Is Not a                         this article, or claim that may be made by its manufacturer, is not guaranteed or
+   Validated Predictor of Muscle Hypertrophy. Sports Med. 52, 193–199. doi:10.                  endorsed by the publisher.
+   1007/s40279-021-01619-2
+Williams, M. R., Jr, Hendricks, D. S., Dannen, M. J., Arnold, A. M., and Lawrence, M. A.        Copyright © 2022 Coratella, Tornatore, Longo, Esposito and Cè. This is an open-
+   (2020). Activity of Shoulder Stabilizers and Prime Movers during an Unstable                 access article distributed under the terms of the Creative Commons Attribution
+   Overhead Press. J. Strength Cond. Res. 34, 73–78. doi:10.1519/jsc.0000000000002660           License (CC BY). The use, distribution or reproduction in other forums is permitted,
+                                                                                                provided the original author(s) and the copyright owner(s) are credited and that the
+Conﬂict of Interest: The authors declare that the research was conducted in the                 original publication in this journal is cited, in accordance with accepted academic
+absence of any commercial or ﬁnancial relationships that could be construed as a                practice. No use, distribution or reproduction is permitted which does not comply
+potential conﬂict of interest.                                                                  with these terms.
+
+
+
+
+Frontiers in Physiology | www.frontiersin.org                                              11                                               July 2022 | Volume 13 | Article 825880
+

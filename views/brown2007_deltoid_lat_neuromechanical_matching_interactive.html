@@ -1,9 +1,9 @@
-<!doctype html>
+ï»¿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Brown 2007 deltoid and lat neuromechanical matching</title>
+    <title>Brown 2007 deltoid neuromechanical matching</title>
     <style>
       :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
       *{box-sizing:border-box} html,body{height:100%;margin:0}
@@ -16,7 +16,7 @@
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
       .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
       select,option,optgroup{background:#111827;color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(300px,31vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -39,7 +39,7 @@
     <div class="wrap">
       <div class="top">
         <div>
-          <div class="title">Brown et al. (2007) - Deltoid and lat neuromechanical matching</div>
+          <div class="title">Brown et al. (2007) - Deltoid neuromechanical matching</div>
           <div id="subtitle" class="subtitle"></div>
         </div>
         <div class="controls">
@@ -66,16 +66,12 @@
     </div>
     <script>
       const SERIES_COLORS={
-        d1:'#60a5fa', d2:'#5eead4', d3:'#22c55e', d4:'#84cc16', d5:'#f59e0b', d6:'#f97316', d7:'#ef4444',
-        l1:'#8b5cf6', l2:'#a78bfa', l3:'#c084fc', l4:'#d946ef', l5:'#ec4899', l6:'#f472b6'
+        d1:'#60a5fa', d2:'#5eead4', d3:'#22c55e', d4:'#84cc16', d5:'#f59e0b', d6:'#f97316', d7:'#ef4444'
       };
       const SEGMENTS={
         deltoid:[
           {key:'d1',name:'D1'},{key:'d2',name:'D2'},{key:'d3',name:'D3'},{key:'d4',name:'D4'},{key:'d5',name:'D5'},{key:'d6',name:'D6'},{key:'d7',name:'D7'}
         ],
-        lat:[
-          {key:'l1',name:'L1'},{key:'l2',name:'L2'},{key:'l3',name:'L3'},{key:'l4',name:'L4'},{key:'l5',name:'L5'},{key:'l6',name:'L6'}
-        ]
       };
       const DELTOID_NOTES={
         d1:'Anterior deltoid segment.',
@@ -85,20 +81,11 @@
         d5:'Posterior deltoid segment with strong extension function.',
         d6:'Posterior deltoid segment with smaller abduction and strong extension function.',
         d7:'Postero-medial deltoid segment; only deltoid adductor in Brown Table 2 and strongest deltoid extensor.'
-      };
-      const LAT_NOTES={
-        l1:'Upper lat segment; the only lat segment active during Brown’s flexion task.',
-        l2:'Upper-middle lat segment with strong extension/adduction leverage.',
-        l3:'Middle lat segment with the highest extension/adduction activation in Brown.',
-        l4:'Middle-lower lat segment with strong leverage and high activation.',
-        l5:'Lower lat segment; synergist in adduction and extension.',
-        l6:'Most caudal lat segment; still strongly adductive, weaker as an extensor.'
-      };
-      const MODES={
+      };      const MODES={
         deltoidAbduction:{
           label:'Deltoid abduction matching',
           family:'deltoid',
-          subtitle:'Using Brown’s exact reported deltoid values: Table 2 abduction/adduction moment arms and Table 3 abduction activation intensities.',
+          subtitle:'Using Brownâ€™s exact reported deltoid values: Table 2 abduction/adduction moment arms and Table 3 abduction activation intensities.',
           hint:'Left bars are exact moment arms in mm. Right bars are exact activation intensities in %MVC for the abduction task.',
           overlay:'Brown 2007 exact values: Table 2 + Table 3',
           metrics:[
@@ -110,7 +97,7 @@
         deltoidFlexion:{
           label:'Deltoid flexion matching',
           family:'deltoid',
-          subtitle:'Using Brown’s exact reported deltoid values: Table 2 flexion/extension moment arms and Table 5 flexion activation intensities.',
+          subtitle:'Using Brownâ€™s exact reported deltoid values: Table 2 flexion/extension moment arms and Table 5 flexion activation intensities.',
           hint:'Flexion leverage is shown positive and extension leverage negative so we can see which segments were mechanically favored for the flexion task.',
           overlay:'Brown 2007 exact values: Table 2 + Table 5',
           metrics:[
@@ -122,7 +109,7 @@
         deltoidExtension:{
           label:'Deltoid extension matching',
           family:'deltoid',
-          subtitle:'Using Brown’s exact reported deltoid values: Table 2 extension/flexion moment arms and Table 6 extension activation intensities.',
+          subtitle:'Using Brownâ€™s exact reported deltoid values: Table 2 extension/flexion moment arms and Table 6 extension activation intensities.',
           hint:'Extension leverage is shown positive and flexion leverage negative so the mechanically favored posterior segments stand out.',
           overlay:'Brown 2007 exact values: Table 2 + Table 6',
           metrics:[
@@ -130,39 +117,16 @@
             {name:'Extension activation',unit:'%MVC',values:{d1:0,d2:0,d3:33,d4:50,d5:63,d6:81,d7:84}}
           ],
           notes:DELTOID_NOTES
-        },
-        latActivation:{
-          label:'Lat activation measurements',
-          family:'lat',
-          subtitle:'Using Brown’s exact reported latissimus activation values from Table 4 and Table 6, plus the single antagonist value from Table 5.',
-          hint:'These are the actual reported activation intensities: adduction, extension, and the small flexion-antagonist activation in L1.',
-          overlay:'Brown 2007 exact values: Tables 4, 5, and 6',
-          metrics:[
-            {name:'Adduction activation',unit:'%MVC',values:{l1:55,l2:56,l3:79,l4:67,l5:64,l6:70}},
-            {name:'Extension activation',unit:'%MVC',values:{l1:58,l2:67,l3:71,l4:59,l5:42,l6:43}},
-            {name:'Flexion activation',unit:'%MVC',values:{l1:11,l2:0,l3:0,l4:0,l5:0,l6:0}}
-          ],
-          notes:LAT_NOTES
-        },
-        latLeverage:{
-          label:'Lat leverage summary',
-          family:'lat',
-          subtitle:'Using Brown’s exact latissimus moment arms from Table 2.',
-          hint:'Adduction and extension moment arms are both reported directly in Table 2, in millimetres.',
-          overlay:'Brown 2007 exact values: Table 2',
-          metrics:[
-            {name:'Adduction leverage',unit:'mm',values:{l1:57.3,l2:52.1,l3:45.9,l4:35.5,l5:30.8,l6:27.8}},
-            {name:'Extension leverage',unit:'mm',values:{l1:59.7,l2:54.4,l3:48.5,l4:30.6,l5:20.9,l6:15.8}}
-          ],
-          notes:LAT_NOTES
         }
       };
 
       const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
       const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
       const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
-      let mode='deltoidAbduction',visible={d1:true,d2:true,d3:true,d4:true,d5:true,d6:true,d7:true,l1:true,l2:true,l3:true,l4:true,l5:true,l6:true},drag=null,view={minX:0.4,maxX:2.6};
+      let mode='deltoidAbduction',visible={d1:true,d2:true,d3:true,d4:true,d5:true,d6:true,d7:true},drag=null,view={minX:0.4,maxX:2.6};
       Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
+      function applyMode(){ modeSel.value=mode; fit(); renderLegend(); resize(); }
       const cfg=()=>MODES[mode];
       const activeSegments=()=>SEGMENTS[cfg().family].filter(s=>visible[s.key]);
       const sameUnit=()=>cfg().metrics.every(metric=>metric.unit===cfg().metrics[0].unit);
@@ -273,7 +237,7 @@
         if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; }
       }
 
-      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
       btnFit.addEventListener('click',fit);
       btnReset.addEventListener('click',()=>{ Object.keys(visible).forEach(k=>visible[k]=true); fit(); renderLegend(); });
       btnShowAll.addEventListener('click',()=>{ SEGMENTS[cfg().family].forEach(s=>visible[s.key]=true); draw(); renderLegend(); });
@@ -283,8 +247,14 @@
       stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
       stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
       stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
-      window.addEventListener('resize',resize);
-      fit(); renderLegend(); resize();
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
     </script>
   </body>
 </html>
+
+
+
+
+
+

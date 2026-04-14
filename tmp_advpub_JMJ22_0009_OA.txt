@@ -1,0 +1,660 @@
+                                                      Juntendo Medical Journal, 2022
+
+
+     Original Articles
+    Juntendo Medical Journal
+             2022
+
+
+                       Action and Contribution of the Iliopsoas and Rectus Femoris as
+                            Hip Flexor Agonists Examined with Anatomical Analysis
+
+   Toshimasa KUMAZAKI1), Tomihisa TAKAHASHI2), Takashi NAKANO3), Tatsuo SAKAI4, 5)
+              1)Department of Health and Sports Management, Osaka University of Health and Sport Sciences, Osaka, Japan
+
+                               2)Department of Anatomy, Nihon University School of Dentistry, Tokyo, Japan
+
+                           3)Department of Anatomy, School of Medicine, Aichi Medical University, Aichi, Japan
+
+                     4)Department of Physical Therapy, Faculty of Health Science, Juntendo University, Tokyo, Japan
+
+              5)Department of Anatomy and Life Structure, Juntendo University Graduate School of Medicine, Tokyo, Japan
+
+
+
+Objectives: To evaluate the difference in action between the iliopsoas and rectus femoris muscles in hip flexion by estimating
+the relative contribution to the maximal hip flexion torque and relative rotation speed.
+Materials: We examined 22 lower limbs of 10 male and 12 female formaldehyde-fixed adult Japanese cadavers.
+Methods: Using morphometric data from cadaver dissections, we calculated the moment arm length and physiological cross-
+sectional area for each muscle. We considered moment arm length and physiological cross-sectional area as indices of the
+maximal torque and compared them among the muscles at various hip joint angles. To evaluate the relative rotation speed, we
+calculated the increase of the hip joint angle for a 1% reduction of the muscle fiber length in each muscle.
+Results: The rectus femoris contributed approximately 2/3 to the flexion torque in mild flexion up to 60° , whereas the iliopsoas
+contribution increased sharply beyond 60°    . The relative iliopsoas rotation speed was 2.5- to 3-times higher than that of the
+rectus femoris in mild flexion up to 60°under the specific condition that each muscle had the same muscle contraction speed.
+Conclusions: We found that the iliopsoas served as a rapid flexor, while the rectus femoris was a powerful flexor.
+       Key words: hip joint, iliopsoas, rectus femoris, physiological cross-sectional area, torque
+
+
+
+
+                                                                             the hip and knee joints plays an important role
+                         Introduction
+                                                                             during chair-based standing and sitting. Various
+   Among the activities of daily living, standing up,                        studies have analyzed the biomechanics of these
+as well as walking, constitute the most critical and                         extension activities using force plates1, 4), motion
+fundamental exercises1-2). In these exercises, flexion                       analysis2, 4, 5), and electromyography (EMG)1, 2, 4, 6).
+and extension of the hip and knee joints are essen-                          The walking and running exercises involve flexion
+tial and critical motor elements3). The extension of                         of the hip and knee joints. Based on their observa-
+
+
+Corresponding author: Toshimasa Kumazaki
+Department of Health and Sports Management, Osaka University of Health and Sport Sciences
+1-1, Asashirodai, Kumatori-cho, Sennan-Gun, Osaka 590-0496, Japan
+TEL: +81-72-479-3201      E-mail: tkumaza@ouhs.ac.jp
+Corresponding author: Tatsuo Sakai
+Department of Physical Therapy, Faculty of Health Science, Juntendo University
+2-1-1 Hongo, Bunkyo-ku, Tokyo 113-8421, Japan
+TEL: +81-3-5802-0421      E-mail: tatsuo@juntendo.ac.jp
+Department of Anatomy and Life Structure, Juntendo University Graduate School of Medicine
+2-1-1 Hongo, Bunkyo-ku, Tokyo 113-8421, Japan
+TEL: +81-3-5802-1022/1023
+〔Received    Feb. 25, 2022〕
+                          〔Accepted      May. 6, 2022〕
+J-STAGE Advance published date: Jun. 20, 2022
+
+Copyright © 2022 The Juntendo Medical Society. This is an open access article distributed under the terms of Creative Commons Attribution
+License (CC BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original source is properly credited.
+doi: 10.14789/jmj.JMJ22-0009-OA
+
+
+
+                                                                                                                                               1
+                          Kumazaki T, et al: Iliopsoas and rectus femoris as hip flexor agonists
+
+
+
+
+tions of larger hip flexor muscles in top sprinter               longus have much smaller PCSA values, and their
+athletes, Ema et al7). reported that hip flexion could           force vector is deviated from the sagittal plane, so
+play an important role in track and field sprinting.             they are thought to have only minor contributions
+Biomechanical analysis results of these flexion activ-           compared with the iliopsoas and rectus femoris. In
+ities have been reported in studies employing EMG                the present study, we determined the relative
+of the iliopsoas and rectus femoris8) or combining               contribution of the iliopsoas and rectus femoris to
+EMG and hip flexion torque measurement9).                        the maximal hip flexion torque based on morpho-
+   Joint movements are exerted in general by                     logical methods by estimating PCSA and moment
+multiple muscles. During knee extension, the four                arm length (MAL) values in the sagittal plane.
+muscles of the quadriceps femoris play the role of               Additionally, based on the morphometric data of
+the main agonist. During hip extension, the gluteus              the skeletal anatomical specimens, we estimated
+maximus and three muscles of the hamstrings play                 the flexion speed of individual muscles by calcu-
+the role of main agonists, and the adductor maximus              lating the degree of flexion produced by 1% of
+acts as a synergist. During hip flexion, the iliopsoas           shortening of the hip flexor muscles. The data
+and rectus femoris are the main agonists, and the                provided by the present methods were not rele-
+sartorius and adductor longus act as synergists.                 vant to estimate the actual torque and speed of the
+Dynamometers measure the total torque produced                   joint movements but revealed the maximal and
+by multiple agonists and synergists. However, it                 relative contributions of the individual muscles on
+cannot discriminate the muscle strength of indi-                 a theoretical basis.
+vidual muscles. The EMG estimates the change of
+                                                                                 Materials and Methods
+activities in individual muscles during joint move-
+ments. However, it cannot predict the relative                   Materials
+muscle strength among the agonists and syner-                       We used 22 lower limbs of 10 male and 12 female
+gists. The EMG activities of the superficially located           formaldehyde-fixed adult Japanese cadavers with
+rectus femoris have been reported in many                        no apparent degeneration in the hip and knee joints
+studies7, 10-17), and those of the deeply located ilio-          that were used in the dissection course at the
+psoas have also been reported in some studies8, 18-23).          Nihon University School of Dentistry during the
+   The morphometric parameters of the skeletal                   2014 and 2016 academic years. For morphometry
+muscles, such as the muscle fiber length (FL) and                and estimation of the PCSA of the iliopsoas and
+physiological cross-sectional area (PCSA), are well              rectus femoris, 12 specimens from 6 male and 6
+known to affect the muscle function, including the               female cadavers (age at death, 78.6 ± 10.6 years)
+contraction speed, maximum muscle strength, and                  were used, and for measurement of the MAL, 10
+the effective contractible range24, 25). Indeed, the             specimens from 4 male and 6 female cadavers (age
+agonists and synergists of the hip and knee joints               at death, 79.6 ± 6.8 years) were used. The body
+reportedly have different architectural parameters               donors gave written informed consent for the dona-
+and functional characteristics26), suggesting that               tion of their tissues for research and teaching
+the multiple flexors and extensors of the hip and                purposes. The study was carried out following all
+knee joints have varying contributions to the                    relevant guidelines and regulations and was approved
+torque and speed during joint movement. However,                 by the ethical committee of the Nihon University
+the contribution of the individual muscles was not               School of Dentistry (EP14D009, EP16D017).
+hitherto revealed by the previous studies employing
+dynamometers, EMG, and other physiological                       Procedures/protocol
+methods.                                                         Morphometry and calculation of PCSA in isolated
+   The iliopsoas (psoas major and iliacus), rectus               muscle specimens
+femoris, sartorius, and adductor longus are known                  In the 12 lower limbs, the iliopsoas and rectus
+as the hip flexor muscles. The iliopsoas and rectus              femoris were dissected out to prepare the isolated
+femoris are considered agonist muscles among the                 muscle specimens as stated previously27, 28).
+hip flexor muscles as they have greater PCSA                       In the isolated muscle specimens, the mass (M),
+values26). In comparison, the sartorius and adductor             FL, and pennation angle (θ) were measured. The
+
+
+
+2
+                                            Juntendo Medical Journal, 2022
+
+
+
+
+pennation angles were measured with a protractor              the four markers attached to the femoral head
+at the distal myotendinous junction as the angular            surface, and the offset distance in the direction of
+deviation between the muscle fibers and tendon28).            the ball center representing the radius was deter-
+The FL and pennation angles were measured and                 mined by direct measurement.
+averaged in three places (superficial, intermediate,
+and deep portions) on the iliopsoas and in three              B) Estimation of MAL under different hip joint
+places (on the left, right, and distal sides of the                angles in the sagittal plane.
+origin tendon) on the rectus femoris.                            The MAL of the muscles was calculated from
+  Based on these data, the PCSA was calculated                the three-dimensional reference values of the
+using the following formula, with the density of              reflection markers projected on the sagittal plane
+mammalian muscles represented by ρ (ρ=1.056 g/                as the distance between the center of the hip joint
+cm3)29):                                                      and the vector of the muscle force by Skycom soft-
+                                                              ware (Optitrack Japan, Tokyo, Japan). The ilio-
+  PCSA (cm2) = M (g) × cos θ/ρ (g/cm3) × FL                   psoas did not take a straight course between the
+(cm)30-32).                                                   origin and the insertion in the hip extension posi-
+                                                              tions in various degrees up to 60°     , but a curved
+Measurement of muscle MAL in skeletal specimens               course around the femoral head, so that the MAL
+   The 10 lower limbs were dissected, and the loca-           was represented by the radius of the femoral head.
+tions of the origin and insertion of the iliopsoas (the          The psoas major (PM) had two heads whose
+psoas major and iliacus) and rectus femoris were              origins were represented by the T12 vertebral
+marked on the skeleton. Then, the muscles were                body for the superficial head (PM-I) and by the L1
+removed to prepare the skeleton specimens. The                transverse process for the deep head (PM-II). The
+diameter of the femoral head was measured after               iliacus (IL) had a broad origin region on the iliac
+opening the hip joint and removing the iliofemoral            fossa, and the origins were represented by four
+and pubofemoral ligaments covering the head.                  points on the iliac crest including the anterior supe-
+Three-dimensional reference values were obtained              rior iliac spine (IL-I), the midpoint between the
+with two reflective markers for the origin and                former and the apex of the iliac crest (IL-II), the
+insertion of the muscle on the skeleton, and four             apex of the iliac crest (IL-III), and the posterior
+reflective markers on the surface of the femoral              superior iliac spine (IL-IV). The MAL was repre-
+head for the joint center of the hip joint.                   sented by the radius of the femoral head for IL-I in
+                                                              joint angles up to 10°  , IL-II up to 30° , PM-I up to
+A) Measurement of three-dimensional reference                50° , and IL-III, IL-IV, and PM-II up to 60°  , and by
+     values in the hip extension position.                    the length of the vertical line from the hip joint
+   The MAL in the hip extension position was                  center to the vector from the origins to the inser-
+calculated from the three-dimensional reference               tion (lesser trochanter of the femur) in larger joint
+values of the reflective markers attached to the              angles. We employed the mean value of the MAL
+skeleton that were measured with four infrared                of PM-I and PM-II for the PM, and of IL-I to IL-IV
+cameras and an optical motion capture system                  for the IL.
+(NaturalPoint, Inc., Corvallis, OR, USA). The origin             For the rectus femoris, the MAL was repre-
+of the psoas major was marked on the T12 for the              sented by the length of the vertical line from the
+superficial head and on the costal process of L1 for          hip joint center to the vector from the origin (infe-
+the deep head, and the insertion was marked on                rior anterior iliac spine) to the insertion (tibial
+the lesser trochanter of the femur33). The origin             tuberosity) in all of the angle regions (Figure 1).
+and insertion of the iliacus were marked on top of
+the iliac crest and the lesser trochanter, respec-            Estimation of the relative contribution to the
+tively. The origin and insertion of the rectus femoris        maximal hip flexion torque
+were marked on the ridge of the anterior inferior               To estimate the relative contribution of the indi-
+iliac spine and the tibial tuberosity, respectively.          vidual flexors to the maximal hip flexion torque, we
+The center of the hip joint was determined from               calculated an indicator of maximal hip flexion
+
+
+
+                                                                                                                  3
+                              Kumazaki T, et al: Iliopsoas and rectus femoris as hip flexor agonists
+
+
+
+
+           Figure 1 Measurement of moment arm length (MAL) of the three muscles under different hip joint angles.
+For the rectus femoris, the MAL was represented by the length of the vertical line from the hip joint center (black dot) to the
+vector from the origin (red dot) to the insertion (blue dot) in all angle regions. For the psoas major (PM), PM had two heads,
+and the origins were represented by the T12 vertebral body for the superficial head (PM-I) and by the L1 transverse process
+for the deep head (PM-II). The MAL was represented by the radius of the femoral head for PM-I up to 50°and for PM-II up
+to 60°  , and by the length of the vertical line from the hip joint center to the vector from the origins (red dot) to the insertion
+in larger joint angles. The iliacus (IL) had a broad origin region on the iliac fossa, which were represented by 4 points (green
+dot, yellow dot, red dot, and light blue dot) on the iliac crest including the anterior superior iliac spine (IL-I), the midpoint
+between the former and the apex of the iliac crest (IL-II), the apex of the iliac crest (IL-III), and the posterior superior iliac
+spine (IL-IV). The MAL was represented by the radius of the femoral head for IL-I in joint angles up to 10°          , for IL-II up to
+30° , for IL-III and IL-IV up to 60°, and by the length of the vertical line from the hip joint center to the vector from the origins
+to the insertion in larger joint angles.
+
+
+torque produced by the PM, IL, and rectus femoris
+                                                                         ΔFL = FL × 0.01, and
+as the product of the PCSA and the MAL. The
+                                                                         Δα = arctan (ΔFL × cos θ / R) (equation 1).
+indicators were calculated for individual muscles,
+and the relative contribution was calculated as the                      The equations were derived from the following
+ratios of indicators to the total hip flexion torque                   geometrical reasoning. The shortening of the
+for the three muscles at various hip joint angles                      muscle length (ΔML) and the ΔFL were correlated
+from extension to flexion (0° -90°).                                   with the following equation:
+
+                                                                         ΔML = ΔFL × cos θ
+Estimation of the relative rotation speed by contrac︲
+tion of the flexors                                                      The ΔML was thought to flex the joint by the
+   As an indicator of rotation speed by contraction                    angle change Δα with the equation:
+of the PM, IL, and rectus femoris, the change of
+                                                                         ΔML = R × tan Δα
+flexion angle (Δα) due to the 1% shortening of the
+muscle fiber (ΔFL) was calculated from the muscle                        The two equations gave an equation from which
+FL, pennation angle, and MAL (R) by the following                      equation (1) was derived:
+equations under the specific condition that each
+                                                                          tan Δα = ΔFL × cos θ / R
+muscle has the same muscle contraction speed:
+
+
+
+
+4
+                                               Juntendo Medical Journal, 2022
+
+
+
+
+Data analyses                                                      T12 and L1 and inserting onto the iliac fascia at the
+  The morphometric and calculated values including                 iliopubic ramus, contributed little to the flexion of
+PCSA were analyzed by one-way analysis of vari-                    the hip joint. The rectus femoris originated at the
+ance and multiple comparison tests (Tukey’s                        anterior inferior iliac spine and the upper part of
+honest significant difference test, Bonferroni). All               the acetabulum and inserted onto the tibial tuber-
+values are presented as mean ± standard deviation.                 osity through the patella.
+Statistical analyses were conducted using the IBM                     The PCSA of the iliopsoas (PM, IL) and the
+SPSS version 23 (IBM Corporation, Armonk, NY,                      rectus femoris was estimated from the morpho-
+USA), and the significance level for all tests was                 metric data obtained from the isolated muscle spec-
+set at P<0.05.                                                     imens (Figure 2). The muscle FL of the iliopsoas
+                                                                   (PM: 13.76 cm, IL: 11.10 cm) was longer than that
+                         Results
+                                                                   of the rectus femoris (8.04 cm) (P<0.01). The
+Anatomy of the iliopsoas and rectus femoris                        PCSA of the rectus femoris (10.88 cm2) was larger
+   The PM, with two heads arising from two                         than that of the PM (5.45 cm2) (P<0.05). The PCSA
+different origins, originated as the superficial head              of the iliopsoas was comparable with that of the
+from the intervertebral discs between T12 and L4                   rectus femoris (Table 1).
+and the adjacent rims of the vertebral bodies, and
+as the underlying head from the costal process of                  MAL under different hip joint angles in the
+L1-L5 and the twelfth rib, and converged to form                   sagittal plane
+the insertion tendon ending on the lesser trochanter                  In the hip extension position (0°
+                                                                                                      ), the MAL of
+of the femur. The IL, originating from the iliac fossa             the rectus femoris (35.0 ± 4.0 mm) was larger than
+and the anterior inferior iliac spine, terminated                  that of PM and IL (22.9 ± 1.9 mm). When the hip
+mainly via the insertion tendon and partly directly                joint was flexed, the MAL of the rectus femoris
+without the tendon on the lesser trochanter. The                   increased gradually in mild flexions to achieve a
+psoas minor, originating from the vertebral body of                maximal value at 40°(50.4 mm) and decreased
+
+
+
+
+Figure 2 Photographs of isolated muscle specimens of the iliopsoas and rectus femoris in the left-side and superficial views.
+PMi, psoas minor; PMa, psoas major; IL, iliacus; RF, rectus femoris
+
+
+
+                                                                                                                                 5
+                               Kumazaki T, et al: Iliopsoas and rectus femoris as hip flexor agonists
+
+
+
+
+                    Table 1    Parameters of the mechanical architecture of the iliopsoas and rectus femoris
+                                         Muscle mass(g)            θ(°
+                                                                     )               FL(cm)            PCSA(cm2)
+                 Psoas major                 81.4±47.4            6.3±2.1           13.76±1.19**        5.45±2.85*
+                 Iliacus                     84.1±47.1            7.9±2.6           11.10±1.74**        6.91±2.98
+                 Rectus femoris              90.4±52.8            6.5±2.0            8.04±1.23**       10.88±6.00*
+               θ, pennation angle; FL, muscle fiber length; PCSA, physiological cross-sectional area
+               **P<0.01, *P<0.05
+
+
+gradually in deep flexions up to 90°   . The MAL of                     femoris at the flexion between 60°and 70°
+                                                                                                                . Conversely,
+PM-I was slightly larger than that of PM-II                             the MAL of the IL increased gradually in deep flex-
+between 60°and 90°and exhibited a similar pattern                       ions, exceeding that of the rectus femoris at the
+of change during hip flexions. The MAL of IL-I and                      flexion between 60°and 70°(Figure 3-B).
+IL-II remained mostly constant up to 10°and 30°       ,
+and thereafter in deep flexions, increased steeply                      Relative contribution of individual hip flexors to
+up to 90° , exceeding that of the rectus femoris at                     the maximal hip flexion torque
+the flexion between 40°and 60°    . The MAL of IL-Ⅲ                        The relative contribution of the rectus femoris in
+and IL-Ⅳ remained constant up to 50°and 60°      , and                  the hip extension position at 0°(57.3%) exceeded
+increased steeply up to 90°   , exceeding that of the                   that of the iliopsoas and increased gradually in flex-
+rectus femoris at the flexion between 70°and 80°                        ions to an almost maximal value at 20°      -40°(60.4%-
+(Figure 3-A).                                                           62.3%); thereafter, it decreased drastically in deep
+   The MAL of the PM remained unchanged in                              flexions up to 90° , falling behind that of the iliopsoas
+moderate flexions up to 50°and thereafter increased                     at a flexion of approximately 60°    -70° . The relative
+steeply in deep flexions, exceeding that of the rectus                  contribution of the IL in the hip extension position
+
+
+
+
+                   Figure 3 Moment arm length (MAL) under different hip joint angles on the sagittal plane.
+A. MAL of the iliopsoas (PM-I・II, IL- I -Ⅳ) and rectus femoris estimated in different hip joint angles.
+The MAL of the rectus femoris increased gradually in mild flexions to reach a maximal value at 40°and decreased gradually
+in deep flexions up to 90°. The MAL of PM-I was slightly larger than that of PM-II between 60°and 90°and exhibited a similar
+pattern of change during hip flexions. The MAL of IL-I and IL-II almost remained constant up to 10°and 30°          , and thereafter
+in deep flexions, increased steeply up to 90°, exceeding that of the rectus femoris at the flexion between 40°and 60°     . The MAL
+of IL-Ⅲ and IL-Ⅳ remained constant up to 50°and 60°     , increased steeply up to 90°, exceeding that of the rectus femoris at the
+flexion between 70°and 80°   .
+B. MAL of the iliopsoas and rectus femoris estimated in different hip joint angles.
+The MAL of the rectus femoris was much larger than that of the iliopsoas in the hip extension position (0°            ). It increased
+gradually in mild flexion up to 40°and then decreased gradually. The MAL of the psoas major and iliacus remained unchanged
+in moderate flexions up to10°and 60°  , and thereafter increased in deep flexions up to 90°  , exceeding that of the rectus femoris
+at the flexion between 60°and 70°  .
+
+
+
+6
+                                                     Juntendo Medical Journal, 2022
+
+
+
+
+                                                                       Figure 5 The relative rotation speed is represented by the
+                                                                                  change in flexion angle due to a 1% shortening of
+Figure 4     The relative contribution of the iliopsoas and                      the muscle fiber.
+              rectus femoris to the maximal hip flexion torque.        The change of flexion angle (Δα) of the psoas major
+The relative contribution of the rectus femoris to the                 remained constant in mild hip joint flexions up to 50°and
+maximal hip flexion torque was greater than that of the                decreased steeply up to 90°   . Δα of the iliacus remained
+iliopsoas in mild flexion up to 60°, and its relative contribution     constant in hip joint flexions up to 10°and decreased
+decreased steeply in deep flexion. Moreover, the relative              gradually in flexions up to 90° . That of the rectus femoris
+contribution of the iliopsoas to the torque increased sharply          decreased slightly in mild flexions up to 40°and thereafter
+in the deepest flexions at 80°and 90°     .                            increased slightly up to 90°to be at the same level as 0°
+                                                                                                                               .
+
+
+at 0º remained unchanged in moderate flexions up
+to 40°and thereafter increased gradually in deep                                              Discussion
+flexions up to 90°   , exceeding that of the rectus                       In this study, we evaluated the different action of
+femoris at the flexion between 80°and 90°      . The                   the iliopsoas and the rectus femoris on the hip
+relative contribution of the PM decreased gradu-                       flexion by estimating their relative contribution to
+ally in flexions up to 50°and thereafter increased in                  the maximal hip flexion torque and relative rota-
+deep flexions up to 90°to become the same level as                     tion speed, and found that the iliopsoas served as a
+the rectus femoris in the hip extension position at                    rapid flexor, whereas the rectus femoris was a
+90°(Figure 4).                                                         powerful flexor.
+                                                                          The joint torque or force is produced by several
+Relative rotation speed by contraction of the                          agonist muscles and determined by various factors
+flexors                                                                including neural activities34), muscle fiber types35),
+   In the hip extension position (0°    ), the relative                and contraction speed36). For improving perfor-
+rotation speeds of the PM and IL were 2.6- and                         mance in athletic sports, it is important to under-
+2.1-times swifter than that of the rectus femoris,                     stand the contribution of individual agonist muscles
+respectively. The relative rotation speed of the PM                    in producing torque in the hip joint. However, to
+remained constant in mild hip joint flexions up to                     the best of our knowledge, this has not been inves-
+50° , and thereafter in deep flexions, decreased                       tigated properly to date. Hip joint flexion is exerted
+steeply up to 90° . The relative rotation speed of the                 mainly by the iliopsoas and rectus femoris, and
+IL remained constant in hip joint flexions up to 10º                   other accompanying muscles including the sarto-
+and decreased gradually in flexions up to 90°          .               rius and adductor longus. The importance of the
+Conversely, the relative rotation speed of the rectus                  iliopsoas and rectus femoris as hip joint flexors is
+femoris decreased slightly in mild flexions up to 40°                  indicated by their larger PCSA (9.9 + 7.7 + 13.5 =
+and became approximately 90% compared with                             31.1 cm2) than that of the sartorius and adductor
+that at 0°; thereafter, it increased slightly up to 90°                longus (1.9 + 6.5 = 8.4 cm2)26). The sartorius and
+to become the same level as that at 0°(Figure 5).                      adductor longus have much smaller PCSA values,
+                                                                       and their force vectors deviate from the sagittal
+                                                                       plane. Actually, Inai et al37). considered the iliopsoas
+
+
+                                                                                                                                 7
+                               Kumazaki T, et al: Iliopsoas and rectus femoris as hip flexor agonists
+
+
+
+
+and rectus femoris as the hip flexors in a computer                     In the present study, we calculated the ratio of the
+simulation study investigating the dynamics of hip                      PCSA among the three muscles and its coefficient
+flexors during sit-to-stand movements. A study on                       of variation (CV; standard deviation divided by the
+iliopsoas function reported that the iliopsoas was                      average) and found that the CV for the ratio of
+activated during increased hip flexion when the                         PCSA was quite small in contrast to the large CV
+subjects moved from the standing position (0°      ; a                  for the PCSA, supporting the reliability of the esti-
+fully extended position of the hip and knee joints)                     mation of the relative contribution of each muscle
+to one-leg flexion of the hip joint (90°)18). Further-                  to the maximal flexion torque (Table 2).
+more, the contribution ratio of the four hip flexors                       The MAL of the iliopsoas and rectus femoris and
+(the iliopsoas, rectus femoris, tensor fasciae latae,                   its change under different hip joint angles have
+and sartorius) to the flexion torque changes                            been calculated39) using a method based on an
+depending on the posture during the measurement                         interactive musculoskeletal modeling software and
+of activities in these muscles9). However, the contri-                  the lower limb model of Delp et al40). Their results
+bution ratios of the muscles to the flexion torque                      based on model simulation were in good agreement
+were not clarified in these studies. The relative                       with the results found for the skeletal specimens in
+contribution of the individual flexors to the joint                     the present study. The small and stable value for
+torque could not be experimentally obtained either                      the iliopsoas in mild flexions up to 60°could be
+by measurement of joint torque or by EMG of the                         explained by the bend of the insertion tendon on
+relevant muscles. The relative contribution of the                      the femoral head, and the steep increase in deep
+individual flexors to the maximal joint torque could                    flexions could be the result of its distance from the
+be estimated on a theoretical basis by calculating                      head. The MAL of the rectus femoris was maximal
+the indicator of maximal joint torque as the product                    at a hip flexion of 40°, where the two vectors from
+of the PCSA and the MAL for the individual                              the origin (anterior inferior iliac spine) to the
+muscles. It is well known that the joint torque                         center of the hip joint and the insertion (upper
+exerted by a muscle is the product of muscle                            edge of the patella) crossed vertically.
+tension and the MAL and that the PCSA is an                                The present study revealed the main agonists of
+index of the maximal exertion tension of the                            hip joint flexion as two functionally important
+muscle38). To date, the PCSA and MAL have been                          parameters for the first time: the relative contribu-
+measured separately in different studies. In this                       tion to the maximal flexion torque and the relative
+study, we measured both of them with cadaveric                          rotation speed by muscle contraction. From these
+dissection for the first time, thus providing novel                     parameters, different functional properties of the
+findings. The PCSA was calculated from morpho-                          iliopsoas and rectus femoris became apparent.
+metric parameters, such as the muscle volume, FL,                          We also showed that the rectus femoris was a
+and pennation angle, which could be accurately                          more powerful flexor than the iliopsoas in mild hip
+measured in the isolated muscle specimens26, 30-32).                    flexions up to 60°and a less powerful flexor in deep
+   The PCSA of a given muscle varied between the                        hip flexions, which is in agreement with the larger
+present and previous studies, especially because of                     activities of the iliopsoas in deep hip flexions18).
+the large individual variation in the muscle mass.                      Regarding the relative contribution of the iliopsoas
+
+
+              Table 2   The PCSA of the psoas major, iliopsoas, and rectus femoris, and its ratio to the total amount
+                                                   PCSA                                             Ratio of PCSA
+                         Average ± standard deviations(cm ) 2
+                                                                      CV          Average ± standard deviations(%)            CV
+    Psoas major                        5.45±2.85                      0.52                    23.58±4.45                     0.19
+    Iliacus                            6.91±2.98                      0.43                    30.74±5.88                     0.19
+    Rectus femoris                    10.88±6.00                      0.55                    45.68±8.10                     0.18
+PCSA, physiological cross-sectional area; CV, standard deviation divided by average.
+
+The PCSA exhibited a significant individual variation, which is represented by the large value of the CV. However, the ratio of the PCSA
+was almost stable among individuals, which is indicated by the small value of the CV.
+
+
+
+8
+                                             Juntendo Medical Journal, 2022
+
+
+
+
+and rectus femoris to the maximal flexion torque,              functional characteristics of the iliopsoas and rectus
+the rectus femoris plays a more important role in              femoris based on the morphometric data from skel-
+the shallow flexion of the hip joint during walking            etal anatomical specimens and applied the results
+among the activities of daily living.                          to the simple movement of hip flexion on a theoret-
+   Conversely, it was also shown that the relative             ical basis to provide a better understanding of the
+rotation speed by muscle contraction for the PM                functional contribution of muscles experimentally
+and IL was 3.6 and 1.9 times larger than that of the           to the actual movements of the hip joint. The
+rectus femoris in mild hip flexions up to 50°  , respec-       results of the present study would provide useful
+tively. Regarding estimation of the rotation speed             information for the functional training of athletes
+by contraction of the flexors, it was clarified that           and rehabilitation programs in the clinic. Future
+the relative rotation speed of flexion differs between         developments of this research technique would
+the iliopsoas and rectus femoris muscles under the             clarify the functional contribution of the individual
+specific condition that each muscle has the same               muscles in complex joint movements.
+muscle contraction speed. It would be reasonable
+                                                                                    Acknowledgments
+to argue that the iliopsoas is particularly important
+for sprinters, contributing significantly to leg swing           The authors would like to thank Research Prof.
+speed. In addition, weak hip flection muscles pose a           Emiko Senba (Department of Physical Therapy,
+risk for falling, and the main cause of injury in              Osaka Yukioka College of Health Science, Osaka,
+people with weak hip flexion muscles is stumbling              Japan) for cooperating in the anatomical research
+or falling while climbing stairs. Strengthening the            and Shimpei Sato (Acuity Inc., Tokyo, Japan) for
+iliopsoas makes it possible to lift the leg instantly,         their technical assistance in the measurement of
+thereby preventing falls when climbing stairs or               three-dimensional reference values of a singular
+stepping over obstacles.                                       point and calculation of the muscle moment arm
+   This study has some limitations. We did not                 length.
+measure the sarcomere length in each muscle;
+                                                                                         Funding
+therefore, the FL for calculating the PCSA was not
+normalized by the ratio of the optimal and measured              The authors received no financial support for the
+sarcomere length. Further refinements of the                   research.
+PCSA by normalizing the FL would be beneficial
+                                                                                   Author contributions
+for achieving a more precise estimation of the rela-
+tive contribution to the maximal torque and the                   All authors have made substantial contributions
+relative rotation speed. In addition, muscle fibers            to the manuscript. The details are as follows:
+include slow-twitch fibers (Type I), which have a                 TK: Conceptualization, Methodology, Formal
+slow contraction rate and are less likely to fatigue,          analysis, Investigation, Data curation, Visualization,
+and fast-twitch fibers (Type II), which have a high            Project administration, Writing - original draft,
+contraction rate and are prone to fatigue. In human            Writing - review & editing
+muscle, slow- and fast-twitch fibers are present in               TT: Resources, Writing - review & editing,
+different ratios. Lieber24) indicated that the differ-         Supervision
+ences in muscle fiber types have little effect on                 TN: Resources, Writing - review & editing,
+exercise performance, although there are differ-               Supervision
+ences in the maximum contraction rates of Type I                  TS: Conceptualization, Methodology, Data cura-
+and Type II fibers. In the present study, the effect           tion, Visualization, Writing - review & editing,
+of different muscle fiber types on relative rotation           Supervision
+speed was not considered. Further improvements                    All authors approved the final version of the
+that also consider the histological factors of the             manuscript to be submitted.
+muscle fibers would be beneficial for achieving a
+                                                                              Conflicts of interest statement
+more precise estimation of the relative contribution
+of each fiber type to the relative rotation speed.               The authors declare that there are no conflicts of
+   In conclusion, the present study clarified the              interest.
+
+
+
+                                                                                                                   9
+                             Kumazaki T, et al: Iliopsoas and rectus femoris as hip flexor agonists
+
+
+
+
+                                                                         graphic study. Clin Orthop Relat Res, 1993; 290: 236-243.
+                       References                                    17) Sayer TA, Hinman RS, Paterson KL, et al: Running-
+                                                                         related muscle activation patterns and tibial accelera-
+  1) Burnett DR, Campbell-Kyureghyan NH, Cerrito PB,
+                                                                         tion across puberty. J Electromyogr Kinesiol, 2020; 50:
+     Quesada PM: Symmetry of ground reaction forces and
+                                                                         102381.
+     muscle activity in asymptomatic subjects during
+                                                                     18) Andersson E, Oddsson L, Grundström H, Thorstensson
+     walking, sit-to-stand, and stand-to-sit tasks. J Electro-
+                                                                         A: The role of the psoas and iliacus muscles for
+     myogr Kinesiol, 2011; 21: 610-615.
+                                                                         stability and movement of the lumbar spine, pelvis and
+  2) Dehail P, Bestaven E, Muller F, et al: Kinematic and
+                                                                         hip. Scand J Med Sci Sports, 1995; 5: 10-16.
+     electromyographic analysis of rising from a chair
+                                                                     19) Dörge HC, Andersen TB, Sørensen H, et al: EMG
+     during a “Sit-to-Walk” task in elderly subjects: role of
+                                                                         activity of the iliopsoas muscle and leg kinetics during
+     strength. Clin Biomech, 2007; 22: 1096-1103.
+                                                                         the soccer place kick. Scand J Med Sci Sports, 1999; 9:
+  3) Neptune RR, Sasaki K, Kautz SA: The effect of walking
+                                                                         195-200.
+     speed on muscle function and mechanical energetics.
+                                                                     20) Juker D, McGill S, Kropf P, Steffen T: Quantitative
+     Gait Posture, 2008; 28: 135-143.
+                                                                         intramuscular myoelectric activity of lumbar portions
+  4) Gross MM, Stevenson PJ, Charette SL, Pyka G, Marcus
+                                                                         of psoas and the abdominal wall during a wide variety
+     R: Effect of muscle strength and movement speed on
+                                                                         of tasks. Med Sci Sports Exerc, 1998; 30: 301-310.
+     the biomechanics of rising from a chair in healthy
+                                                                     21) Keagy RD, Brumlik J, Bergan JL: Direct electromyog-
+     elderly and young women. Gait Posture, 1998; 8:
+                                                                         raphy of the psoas major muscle in man. J Bone Joint
+     175-185.
+                                                                         Surg Am, 1966; 48: 1377-1382.
+  5) Walaszek MC, Ransom AL, Capehart S, Pohl MB,
+                                                                     22) Nachemson A: Electromyographic studies on the verte-
+     Shapiro R, Bollinger LM: External loading alters trunk
+                                                                         bral portion of the psoas muscle; with special reference
+     kinematics and lower extremity muscle activity in a
+                                                                         to its stabilizing function of the lumbar spine. Acta
+     distribution-specific manner during sitting and rising
+                                                                         Orthop Scand, 1966; 37: 177-190.
+     from a chair. J Electromyogr Kinesiol, 2017; 34: 102-108.
+                                                                     23) Park RJ, Tsao H, Claus A, Cresswell AG, Hodges PW:
+  6) Roldán-Jiménez C, Bennett P, Cuesta-Vargas AI:
+                                                                         Recruitment of discrete regions of the psoas major and
+     Muscular activity and fatigue in lower-limb and trunk
+                                                                         quadratus lumborum muscles is changed in specific
+     muscles during different sit-to-stand tests. PLoS One,
+                                                                         sitting postures in individuals with recurrent low back
+     2015; 10: e0141675.
+                                                                         pain. J Orthop Sports Phys Ther, 2013; 43: 833-840.
+  7) Ema R, Sakaguchi M, Kawakami Y: Thigh and psoas
+                                                                     24) Lieber RL: Skeletal Muscle Structure, Function, and
+     major muscularity and its relation to running mechanics
+                                                                         Plasticity: The physiological basis of rehabilitation. 3rd
+     in sprinters. Med Sci Sports Exerc, 2018; 50: 2085-2091.
+                                                                         ed. Netherlands: Wolters Kluwer, 2010.
+  8) Hu H, Meijer OG, van Dieën JH, et al: Is the psoas a hip
+                                                                     25) Neumann DA: Kinesiology of the musculoskeletal
+     flexor in the active straight leg raise? Eur Spine J,
+                                                                         system. 3rd ed. Netherlands: Elsevier, 2016.
+     2011; 20: 759-765.
+                                                                     26) Ward SR, Eng CM, Smallwood LH, Lieber RL: Are
+  9) Jiroumaru T, Kurihara T, Isaka T: Measurement of
+                                                                         current measurements of lower extremity muscle
+     muscle length-related electromyography activity of
+                                                                         architecture accurate? Clin Orthop Relat Res, 2009;
+     the hip flexor muscles to determine individual muscle
+                                                                         467: 1074-1082.
+     contributions to the hip flexion torque. Springerplus,
+                                                                     27) Kumazaki T, Ehara Y, Sakai T: Anatomy and physi-
+     2014; 3: 624.
+                                                                         ology of hamstring injury. Int J Sports Med, 2012; 33:
+ 10) Akima H, Saito A: Activation of quadriceps femoris
+                                                                         950-954.
+     including vastus intermedius during fatiguing dynamic
+                                                                     28) Kumazaki T, Sakai T: High risk of muscle strain in the
+     knee extensions. Eur J Appl Physiol, 2013; 113: 2829-
+                                                                         rectus femoris muscle: anatomical and physiological
+     2840.
+                                                                         analysis. Juntendo Medical Journal, 2016; 62: 392-398.
+ 11) Akima H, Tomita A, Ando R: Effect of knee joint angle
+                                                                     29) Ward SR, Lieber RL: Density and hydration of fresh
+     on the neuromuscular activation of the quadriceps
+                                                                         and fixed human skeletal muscle. J Biomech, 2005; 38:
+     femoris during repetitive fatiguing contractions. J
+                                                                         2317-2320
+     Electromyogr Kinesiol, 2019; 49: 102356.
+                                                                     30) Powell PL, Roy RR, Kanim P, Bello MA, Edgerton VR:
+ 12) Ema R, Sakaguchi M, Akagi R, Kawakami Y: Unique
+                                                                         Predictability of skeletal muscle tension from architec-
+     activation of the quadriceps femoris during single-
+                                                                         tural determinations in guinea pig hindlimbs. J Appl
+     and multi-joint exercises. Eur J Appl Physiol, 2016;
+                                                                         Physiol Respir Environ Exerc Physiol, 1984; 57: 1715-
+     116: 1031-1041.
+                                                                         1721.
+ 13) Hug F, Vogel C, Tucker K, et al: Individuals have
+                                                                     31) Sacks RD, Roy RR: Architecture of the hind limb
+     unique muscle activation signatures as revealed
+                                                                         muscles of cats: functional significance. J Morphol, 1982;
+     during gait and pedaling. J Appl Physiol, 2019; 127:
+                                                                         173: 185-195.
+     1165-1174.
+                                                                     32) Wickiewicz TL, Roy RR, Powell PL, Edgerton VR:
+ 14) Maffiuletti NA, Lepers R: Quadriceps femoris torque
+                                                                         Muscle architecture of the human lower limb. Clin
+     and EMG activity in seated versus supine position.
+                                                                         Orthop Relat Res, 1983; 179: 275-283.
+     Med Sci Sports Exerc, 2003; 35: 1511-1516.
+                                                                     33) Bogduk N, Pearcy M, Hadfield G: Anatomy and biome-
+ 15) Pincivero DM, Salfetnikov Y, Campy RM, Coelho AJ:
+                                                                         chanics of psoas major. Clin Biomech, 1992; 7: 109-119.
+     Angle- and gender-specific quadriceps femoris muscle
+                                                                     34) Del Vecchio A, Negro F, Falla D, Bazzucchi I, Farina
+     recruitment and knee extensor torque. J Biomech,
+                                                                         D, Felici F: Higher muscle fibre conduction velocity
+     2004; 37: 1689-1697.
+                                                                         and early rate of torque development in chronically
+ 16) Salzman A, Torburn L, Perry J: Contribution of rectus
+                                                                         strength trained individuals. J Appl Physiol (1985),
+     femoris and vasti to knee extension. An electromyo-
+                                                                         2018. [Online ahead of print] https://doi.org/10.1152/
+
+
+
+10
+                                                Juntendo Medical Journal, 2022
+
+
+
+
+    japplphysiol.00025.2018.                                            study. Biomed Eng Online, 2018; 17: 177.
+35) Tillin NA, Pain MTG, Folland JP: Contraction speed              38) Oatis CA: Kinesiology: The Mechanics and Pathome-
+    and type influences rapid utilisation of available muscle           chanics of Human Movement. 3rd ed. Netherlands:
+    force: neural and contractile mechanisms. J Exp Biol,               Elsevier, 2016: 1355-1356.
+    2018; 221: jeb193367.                                           39) Lambrecht JM, Audu ML, Triolo RJ, Kirsch RF.
+36) Miller MS, Bedrin NG, Ades PA, Palmer BM, Toth MJ:                  Musculoskeletal model of trunk and hips for develop-
+    Molecular determinants of force production in human                 ment of seated-posture-control neuroprosthesis. J
+    skeletal muscle fibers: effects of myosin isoform                   Rehabil Res Dev, 2009; 46: 515-528.
+    expression and cross-sectional area. Am J Physiol Cell          40) Delp SL, Loan JP, Hoy MG, Zajac FE, Topp EL, Rosen
+    Physiol, 2015; 308: C473-C484.                                      JM: An interactive graphics-based model of the lower
+37) Inai T, Takabayashi T, Edama M, Kubo M: Effect of                   extremity to study orthopaedic surgical procedures.
+    hip joint angle at seat-off on hip joint contact force              IEEE Trans Biomed Eng, 1990; 37: 757-767.
+    during sit-to-stand movement: a computer simulation
+
+
+
+
+                                                                                                                         11
+

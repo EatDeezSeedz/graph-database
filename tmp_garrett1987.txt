@@ -1,0 +1,383 @@
+Biomechanical comparison of stimulated and
+nonstimulated skeletal muscle pulled to
+*
+failure
+      WILLIAM E. GARRETT, JR, MD, PhD, MARC R. SAFRAN, ANTHONY V. SEABER,&dagger;
+                               RICHARD R. GLISSON, AND BETH M. RIBBECK, MS
+
+
+                            From the Duke University Medical Center, Orthopaedic Research Laboratories,
+                                                                                 Durham, North Carolina
+
+
+ABSTRACT                                                                          Orthopaedic surgery and sports medicine have experienced
+                                                                                  a rapid growth in the understanding of the causes and
+
+We compared the biomechanical properties of passive                               pathophysiology of injury and repair of ligament, cartilage,
+and stimulated muscle rapidly lengthened to failure in                            and bone. However, little is known about the pathophysiol-
+an experimental animal model. The mechanical param-                               ogy or mechanics of musculotendinous injuries. This is
+eters compared were force to tear, change in length to                            startling in light of the fact that nearly one-half of all injuries
+tear, site of failure, and energy absorbed by the muscle-                         in certain sports are musculotendinous in origin.’ The ma-
+tendon unit before failure. Paired comparisons were                               jority of musculotendinous injuries are acute muscle strains
+made between 1) muscles stimulated at 64 Hz (tetanic                              or pulls. Strains are defined as partial or complete tears of
+
+stimulation) and passive (no stimulation) muscles, 2)                             the muscle-tendon unit.13 Muscle strains and tears are
+muscles stimulated at 16 Hz (wave-summated stimu-                                 thought to be due to excess tension on contracted mus-
+lation) and passive muscles, and 3) muscles stimulated                            cles. 12, 27, 59, 64 It is believed that muscle tears result from
+at 64 Hz and at 16 Hz.                                                            violent contraction during an excessively forceful
+   Both tetanically stimulated and wave-summation con-                            stretch, 3,12, 24, 25, 27,50,59,64 often associated with failure of syn-
+tracted muscles required a greater force to tear (at 64                           ergistic action 21 or in conjunction with antagonistic muscle
+Hz, 12.86 N more, P < 0.0004; and at 16 Hz, 17.79 N                               action.46 Eccentric muscle contraction, i.e., muscle activation
+more, P < 0.003) than their nonstimulated controls,                               while the muscle is being lengthened, is known to be asso-
+while there was no statistical difference in failure force                        ciated with muscle injuries.3-5,19, 21-23,46
+between muscles stimulated at 16 Hz and 64 Hz. The                                    Previous studies from this laboratory have evaluated ex-
+energy absorbed was statistically greater for the stim-                           perimental muscle injuries created by stretching of noncon-
+ulated muscles than for the passive muscles in Groups                             tracting muscle.47,48 These data consistently demonstrated
+1 and 2 (at 64 Hz, 100% more, P < 0.0003; and 16 Hz,                              that muscle ruptures occurred at the muscle-tendon junction
+88% more, P < 0.0002). In Group 3, the tetanically                                regardless of rate of strain, differences in muscle architec-
+contracted muscle-tendon units absorbed 18% more                                  ture, or direction of strain.48 Partial ruptures also occur at
+energy than the wave-summated stimulated muscles                                  this location. 47 Preliminary experiments have shown little
+(P < 0.01). All muscles tore at the distal musculotendi-                          change in the nature of these injuries when they occur in
+nous junction, and there was no difference in the length                          actively contracted muscle.26 The purpose of this study was
+increase at tear between muscles in each group. These                             to determine more quantitatively the nature of muscle injury
+findings may lead to enhanced understanding of the                                in activated muscle.
+mechanism and physiology of muscle strain injuries.                                  This experimental study compares biomechanical data
+                                                                                  from strain injury of eccentrically contracted and passive
+                                                                                  muscle. Specifically, we studied the force to failure, change
+   *Presented at the interim meeting of the AOSSM, San Francisco, January         in length to failure, site of failure, and the relative energy
+1987                                                                              absorbed by the muscle-tendon unit prior to rupture. Our
+  t Address correspondence and reprint requests to Mr Anthony V Seaber,
+Department of Surgery, P O box 3093, Duke University Medical Center,
+                                                                                  aim was to simulate the common clinical situation where
+Durham, NC 27710                                                                  contracted muscle is rapidly lengthened to failure.
+                                                                            448
+                                                                                                                             449
+
+
+MATERIALS AND METHODS                                             deformation curve to the failure point represents the relative
+                                                                  energy absorbed by the musculotendinous unit prior to fail-
+Twenty-four adult (2.3 to 2.7 kg) New Zealand White rabbits       ing. The area under the curve was measured using an Amer-
+were separated into three groups of eight rabbits (N 48).
+                                                        =
+                                                                  ican Innovision Videometric 100 computer (American In-
+After intramuscular administration of an anesthetic mixture       novation, Inc., San Diego, CA). One unit of area was arbi-
+of Ketamine, 100 mg/kg (Bristol Laboratories, Syracuse,           trarily defined as 4 mm’.
+NY), Xylazine, 12.5 mg/kg (Miles Laboratories, Shawnee,
+KS), and Acepromazine, 3 mg/kg (Aveco Company, Ft.                RESULTS
+                                                                                                                  ’
+
+
+
+
+Dodge, IA), the hindlimbs were shaved. An incision was
+made on the ventral surface of each hindlimb from 3 to 4
+cm proximal to the knee extending to the distal three-fourths
+                                                                  Force
+of the foot. The extensor digitorum longus (EDL) muscle
+                                                                  Figure 1 shows the average force to failure for all groups. In
+was isolated, maintaining the neurovascular supply and
+                                                                  Group 1, the average force needed to tear the tetanically
+tendon insertions intact. To determine the in situ muscle         stimulated muscles was 93.45 N ± 12.74 N, while the non-
+length, precision dial calipers (accurate to 0.05 mm) were        stimulated muscles averaged 80.59 N ± 7.84 N to tear. The
+used to measure the distance from the origin of the EDL to
+                                                                  tetanically stimulated muscles required an average of 12.86
+the second cruciate ligament with the knee and ankle at 90°.      N more force to tear than their contralateral controls. This
+The anesthetized rabbit was then placed in a frame attached       difference was significant at the P < 0.0004 level. In Group
+to the crosshead of an Instron Universal Testing Instrument
+                                                                  2, the average force needed to tear wave-summated muscles
+(Instron Corporation, Canton, MA), and one hindlimb was           was 105.06 N ± 19.60 N, while the nonstimulated counter-
+immobilized with a K-wire through the femur. The distal
+                                                                  parts averaged 87.27 N ± 13.62 N to tear. The average
+tendinous insertion was freed and clamped to the Instron          difference between the wave-summated stimulated and the
+load cell, a 50 gram preload was placed on the muscle, and        nonstimulated counterparts was 17.79 N. This difference
+the muscle length was again measured. The muscle was              was significant at the P <     0.003 level. In Group 3, the
+stretched at a rate of 100 cm/min until a macroscopic tear
+                                                                  average force needed to tear tetanically contracted muscles
+occurred, and the force and length required to tear the           was 101.90 N ± 13.39 N while their contralateral wave-
+muscle were simultaneously recorded on the Instron chart          summated counterparts averaged 97.31 N ± 8.23 N to fail.
+recorder. This speed was the maximum strain rate of the           This average difference in force was 4.58 N, which was not
+testing instrument. The contralateral muscle was then tested      statistically significant.
+in an identical manner. All muscles were kept moist and at
+physiologic temperatures using warm normal saline irriga-         Length
+tion. Additional anesthesia was given as needed.
+   In Group 1, the EDL was tetanically stimulated at 64 Hz        Figure 2 shows the average percent increase in length to
+while stretched to failure, and the contralateral EDL served      tear EDL muscles for all groups. In Group 1, the average
+as a passively stretched control (no stimulation). In Group       increase in length to tear a tetanically stimulated muscle
+2, the EDL of one leg was pulled while stimulated at 16 Hz        was 28.3%   ± 3.6%, while the nonstimulated control under-
+to the maximal wave-summated tension, and the contralat-          went a 26.2% ± 2.0% increase in length. The tetanically
+eral control muscle was pulled without stimulus. In Group         stimulated muscles required a 2.1 % greater increase in
+3, the tetanically stimulated EDL muscle of one leg was           length to rupture than their contralateral controls. In Group
+pulled to failure and compared to wave-summated con-              2 an average of 26.6% ± 4.6% increase in length from rest
+tracted muscle of the contralateral hindlimb. All muscle          was needed to tear the wave-summation stimulated muscle,
+contraction was elicited by stimulation of the motor nerve        while the counterparts averaged 24.6% ± 2.3% increase in
+to the EDL using a Grass S44 stimulator (Grass Instru-            length. Thus, the wave-summated muscles averaged a 2.0%
+ments, Quincy, MA) at a voltage of 10 times threshold, a          greater increase in length before failing. In Group 3 an
+duration of 0.5 msec, and pulses of 0.5 msec. The use of 10       average increase in length from rest to failure of 28.0% ±
+times threshold voltages assured consistent maximal neu-          4.4% was needed to tear the tetanically stimulated muscle,
+romuscular activation. Threshold was defined as the mini-         while its wave-summated counterparts averaged a 28.2% ±
+mum voltage necessary to produce a measurable muscle              3.3% increase in length. Thus, the wave-summated muscles
+tension response.                                                 averaged a 0.2% greater increase in length to tear than the
+   Statistical analyses of the maximal force to failure, the      tetanically contracted muscles. In all cases, the difference in
+increase in length from rest, and the energy absorbed by the      length to failure was not statistically significant.
+musculotendinous unit before failing were evaluated by a
+paired Student’s t-test to eliminate interindividual variation.   Absorbed energy
+The percentage increase in length to failure was calculated
+from the sum of the elongation to failure recorded by the         Figure 3 depicts the average energy absorbed by the mus-
+chart recorder plus the measured length of the muscle with        culotendinous units prior to failure as expressed by the area
+the preload in the Instron, divided by the rest length with       beneath the length-tension deformation curve. In Group 1,
+the knee and ankle at 90°. The area under the length-tension      the average area under the curve was 516 ± 109 units for
+450
+
+
+
+
+Figure 1. Average force to failure for Groups 1 through 3. All values ± SD. 0 Hz, no stimulation; 16 Hz, wave-summated
+stimulation; 64 Hz, tetanic stimulation.
+
+
+
+
+Figure 2. Average percent increase in length before failure for Groups 1 through 3. All values ± SD. 0 Hz, no stimulation; 16
+Hz, wave-summated stimulation; 64 Hz, tetanic stimulation.
+tetanically stimulated muscle, while 258 ± 36 units was the      units under the length-tension curve, while the contralateral
+average area  under the curve for nonstimulated controls.        controls averaged 232 ± 47 units. Thus, the wave-summated
+Thus 100% more energy was necessary to tear the tetanically      muscles absorbed an average of 88% more energy than their
+contracted muscles than the noncontracted controls. This         nonstimulated counterparts. This difference was significant
+difference was significant at a P < 0.0003 level. In Group 2,    at P < 0.0002. In Group 3, the tetanically stimulated muscles
+the wave-summated muscles averaged an area of 437 ± 111l         averaged 534 ± 79 units, while the wave-summated counter-
+                                                                                                                                      451
+
+
+
+
+Figure 3. Average relative energy absorbed by the musculotendinous unit prior to failure for Groups 1 through 3. All values ±
+SD. 0 Hz, no stimulation; 16 Hz, wave-summated stimulation; 64 Hz, tetanic stimulation.
+
+parts had an average area of 454 ± 67 units. The tetanically         ments of hamstring velocity in a front snap kick (simulating
+stimulated muscles absorbed an average of 18% more energy            the motion of the leading leg in a hurdler) approximate a
+than their wave-summated counterparts. This difference               maximal velocity of 70 cm/sec, or 400% of fiber length/sec.6o
+was significant at the P < 0.01 level.                               The strain rate used in this study was the maximum velocity
+                                                                     available with our instrumentation and is within an order
+Site of failure                                                      of magnitude of these maximum velocity estimates (approx-
+
+For all 48 muscles, the distal musculotendinous junction
+                                                                     imately 68% resting fiber length/sec).
+                                                                         Tension within the musculotendinous unit is related to a
+(MTJ) was the site of failure. The distal tendon consistently        number of factors with two components playing major roles:
+retained a 0.1 mm to 1.0 mm remnant of muscle fibers
+                                                                     the intrinsic, or active, component, and the extrinsic, or
+regardless of the testing condition.
+                                                                     passive component. 17, 60 The intrinsic component of force is
+                                                                     proportional to the overlap of thick and thin filaments and
+DISCUSSION                                                           is a property of the active contractile machinery.’o These
+                                                                     contractile forces are a major component of tension in
+The EDL muscle consists of predominantly fast twitch
+                                                                     muscle-tendon units at lengths allowing thick and thin
+(Type II) fibers and crosses several joints. In humans, fast         filament overlap,51 and, indeed, eccentric contraction (ten-
+twitch fiber predominant muscles that span more than one
+                                                                     sion generated when a muscle is stretched) produces more
+joint, such as the hamstrings, rectus femoris, and triceps           force than concentric contraction (tension generated when
+surae, are the most commonly strained muscles in ath-
+                                                                     a muscle is shortened).4,5,lo,32,35,38 The extrinsic component
+letes.12,20,27, 28, 39 For this reason we chose the EDL as a model
+                                                                     of force is the passive force produced when a musculotendi-
+system for the study of muscle strain injury. There is general
+                                                                     nous unit is stretched over one or more joints. This passive
+agreement that muscle strains result from excessive tension
+on the muscle-tendon unit. The effect of rate of strain on           component of force is due in large part to the connective
+musculotendinous injuries has not been investigated. Ex-             tissue and is the predominant component of force in muscle
+amination of the wide variety of mechanisms resulting in             at rest (unstimulated) or in muscle stretched beyond the
+muscle strains in humans indicates that there is most prob-          point where overlap occurs between thick and thin fila-
+ably a range of strain rates which result in injury. The             ments.’,&dquo;, 16,51,52,55,63 There are data which indicate that some
+influences of muscle strength, type, and architecture as well        of the passive tension in muscle is due to the contractile
+as physiologic condition of the muscle involved in terms of          elements,42,53 but as the length approaches the point of
+warmup and fatigue all play roles in determining the suscep-         muscle rupture the tension is thought to be due to the
+tibility of muscle to strain injury. From kinesiologic studies       connective tissue within muscle.
+one can determine an upper limit of strain rate. Measure-                Our results show that contracted EDL muscles (tetanic
+452
+
+
+and wave-summated) require a statistically greater force to        of energy due to the active contraction of the muscle. It is
+tear than their nonstimulated counterparts. There was no           significant that muscle activation causes little change in
+significant difference in force to failure between the wave-       length to failure, a relatively small but significant change in
+summated and tetanically contracted muscles. Activated             tension at failure, but a large change in energy absorption
+muscles are able to store significant amounts of elastic           prior to failure. Any protective effect of muscle activation
+energy when stretched, whereas relaxed muscles cannot.17           in the prevention of injury might therefore be due to the
+This stored energy may contribute to the increased force to        ability of the activated muscle to absorb more energy before
+failure in stimulated versus nonstimulated muscle. It has          injury. The difference in energy absorption in maximally
+been noted that the greater the force of contraction, the          stimulated muscle compared to submaximally stimulated
+more elastic elements that can be stretched, and thus the          muscle is also significant. Even comparing stimulated mus-
+more elastic energy can be stored.17 The other likely contri-      cles, the amount of stimulation can influence the energy
+bution to the greater force to failure comes from the forces       absorbed to failure.
+generated during eccentric contraction of the muscles. Since          These findings should be considered in light of current
+muscle contraction opposes the applied stretch, the stimu-         ideas regarding the prevention of muscle injuries. There
+lated musculotendinous unit is able to attain a greater force      have been many implications that strength can protect from
+to failure.                                                        muscle injury.13-15,18,31,36,40 It may well be that a stronger
+   At longer muscle tendon length, the muscle is able to           muscle can protect from injury by absorbing more energy.
+generate less active tension due to progressively less overlap     Strength imbalance has frequently been cited as a predictor
+of thick and thin filaments.3° Extreme stretches would ap-         of muscle injury.13-15,18,31,36,40 Many muscle injuries occur
+pear to leave no overlap between thick and thin filament           during eccentric contraction, for example hamstring injury.
+and therefore allow no active tension production. However,         The hamstring acts to decelerate the tibia during knee
+the muscle fibers do not stretch uniformly and portions of         extension.37,41,56 The quadriceps provides the force for knee
+the fibers near the muscle-tendon junction do not stretch as       extension. The hamstring therefore must absorb the energy
+much and are still able to generate active tension.33 It is        developed by the quadriceps. A relatively stronger quadri-
+interesting to note that the muscle fibers tear through the        ceps or a relatively weaker hamstring group might leave the
+region near the muscle-tendon junction where the fibers            hamstrings less able to absorb energy prior to failure. Fatigue
+have a different physiologic behavior.61,62                        has also been cited as a causative factor in muscle injury.31,64
+  The energy absorbed by the muscle-tendon unit prior to           Fatigue can lead to a decrement in active muscle force and
+failure is defined as the area under the length-tension curve      less absorption of energy prior to failure.
+(Fig. 4). It can be considered that the difference in the             It is clear that muscle contracting eccentrically can pro-
+energy between the active and passive curves is the amount         duce more tension than muscle contracting concentri-
+
+
+
+
+Figure 4. Differences in relative energy absorbed to failure in stimulated versus passive muscle shown schematically as the area
+under each length-tension deformation curve.
+                                                                                                                                                              453
+
+
+cally.4,5,10,32,35,38 Cavagna17 and others have suggested that                       distal MTJ. These findings improve our understanding of
+the source of the extra force can be a form of stored elastic                        muscle strains and tears, which may in turn advance the
+energy. This force may be generated by elastic elements of                           prevention, diagnosis, treatment, and rehabilitation of these
+the myosin cross bridges between the thick and thin fila-                            common athletic injuries.
+ments. Stored elastic energy may be very useful in muscle
+function by allowing an increase in muscle force after appli-
+                                                                                     REFERENCES
+cation of a stretch or preload.64 The extra force of eccentric
+contraction may also be very important in the prevention of
+                                                                                      1 Anzel SH, Covey KW, Weiner AD, et al Disruption of muscles and tendons.
+muscle injury by increasing the amount of energy absorption                              Surg 45 406-414, 1959
+                                                                                      2. Arciero RA, Shishido NS, Parr J Acute anterolateral compartment syn-
+prior to failure.                                                                        drome secondary to rupture of the peroneus longus muscle Am J Sports
+   In this study, as well as in previous studies from this                              Med 12 366-367, 1984
+laboratory, passively pulled muscle consistently failed at the                        3 Amer O, Lindholm A What is tennis leg? Acta Chir Scand 116 73-77,
+muscle-tendon junction .21, &dquo; Failure at the MTJ occurs even                       1958
+                                                                                      4 Asmussen E Positive and negative muscular work Acta Physiol Scand
+in muscles of varying fiber architecture, varying rates of                              28 364-382,1953
+strain, and varying direction of strain. The results reported                         5 Asmussen E Observations on expenmental muscular soreness Acta
+                                                                                        Rheum Scand 2 109-116, 1956
+here show that the MTJ remains the site of disruption when                            6 Aso K, Tonsu T Muscle belly tear of the triceps Am J Sports Med 12:
+maximal or submaximal muscle stimulation is present. This                                 485-487, 1984
+is relevant to the practice of orthopaedics and sports medi-                          7 Baker BE Current concepts In the diagnosis and treatment of musculoten-
+                                                                                         dinous injuries Med Sci Sports Exer 16. 323-327, 1984
+cine, as clinical muscle strains have been reported to occur                          8 Banus MG, Zetlin AM The relation of isometric tension to length In skeletal
+at the MTJ in the case of the peroneus longus, biceps brachii,                           muscle J Cell Comp Physiol 12 403-420, 1938
+                                                                                      9 Bass AL Injuries of the leg in football and ballet Proc R Soc Med 60 527-
+triceps brachii, rotator cuff, pectoralis major, gastrocnemius,                           532, 1967
+hamstrings, quadriceps femoris, adductor longus, iliopsoas,                          10 Blix M Die lange und die spannung des musckels. Skand Ach Physiol 5:
+and flexor pollicus longus muscles.l-3, 6, 7, 9, 12, 24, 25, 27, 43-46, 49, 54, 59        149-206, 1895
+                                                                                     11   Borg TK, Caulfield JB Morphology of connective tissue in skeletal muscle.
+Research on the ultrastructure of muscle at the site of failure                         Tissue Cell 12 197-207, 1980
+is needed to understand why rupture consistently occurs at                           12 Brewer BJ Mechanism of injury to the musculotendinous unit Instruct Lec
+the muscle-tendon junction. What is known from studies on                               Am Acad Orth Surg 17 354-358, 1960
+                                                                                     13 Burkett LN Causative factors in hamstnng strains Med Sci Sports 2. 39-
+normal MTJ is that it is a region where growth and length                                 42, 1970
+adaptation occurs,61,62 elaborate junctional amplifications                          14 Burkett LN. Cause and prevention of hamstring pulls Athl J 51 34, 1971
+                                                                                     15 Burkett LN Investigation into hamstnng strains. The case of the hybrid
+exist,34,57,58 and extensibility of terminal sarcomeres are                             muscle Am J Sports Med 3 228-231, 1975
+decreased relative to sarcomeres throughout the rest of the                          16 Casella C Tensile force in total stnated muscle, isolated fiber sarcolemma.
+muscle. 29,33                                                                           Acta Physiol Scand 21 380-401, 1950
+                                                                                     17 Cavagna GA Storage and utilization of elastic energy in skeletal muscle
+  In summary, maximal, submaximal, or no electrical stim-                               Exerc Sports Sci Rev 5 89-129, 1977
+ulation of rabbit EDL muscles were compared as the muscle                            18 Chnstensen CS, Wiseman DC Strength, the common variable in hamstnng
+was stretched to failure. There was no significant difference                           strain Athl Train 7 36-40, 1971
+                                                                                     19 Davies CTM, White MJ Muscle weakness following eccentnc work in
+in the amount of lengthening at which failure occurred. A                               man Pflugers Archiv 392 168-171, 1981
+
+greater peak force was required to tear stimulated muscles                           20 Doman P: A report on 140 hamstnng injuries Aust J Sports Med 4 30-
+than passively stretched muscle, but the difference was on                                36, 1971
+                                                                                     21  Francis KT Delayed muscle soreness A review J Ortho Sports Phys Ther
+the order of only 14% to 17%. There was a much larger                                    5 10-13,1983
+amount of energy absorbed prior to failure of stimulated                             22 Fnden J, Sjostrom M, Ekblom B Myofibrillar damage following intense
+                                                                                         eccentnc exercise in man Int J Sports Med 4 170-176, 1983
+muscle when compared to nonstimulated muscle. More en-                               23. Fromison Al Tennis leg JAMA 209 415-416, 1969
+ergy was also absorbed by maximally stimulated muscle than                           24. Fuller PJ Musculotendinous leg injuries Aust Fam Phys 13. 495-498,
+                                                                                         1984
+by submaximally stimulated muscle. These findings help to                            25 Garrett WE Jr Strains and sprains in athletes Postgrad Med 73 200-
+provide a scientific basis for our current concepts regarding                             209, 1983
+the nature and prevention of muscle strain injuries.                                 26 Garrett WE Jr, Almekinders LC, Seaber AV Biomechanics of muscle tears
+                                                                                        in stretching injuries Trans Orthop Res Soc 9 384, 1984
+                                                                                     27 Garrett WE Jr, Califf JC, Bassett FH III Histochemical correlates of
+                                                                                        hamstring injuries Am J Sports Med 12 98-103, 1984
+CONCLUSIONS                                                                          28 Glick JM Muscle strains Prevention and treatment Phys Sports Med 8:
+                                                                                          73-77, 1980
+                                                                                     29 Gordon AM, Huxley AF, Julian FJ Tension development in highly stretched
+This paper presents data relating to the pathophysiology                                muscle fibers J Physiol (Lond) 184. 152-169, 1966
+and biomechanics of muscle tears, and thus is of interest to                         30 Gordon AM, Huxley AF, Julian FJ The vanation in isometric tension with
+                                                                                        sarcomere length in vertebrate muscle fibers J Physiol (Lond) 184: 170-
+those involved in orthopaedic surgery and sports medicine.
+                                                                                          192, 1966
+We have shown a statistically greater force and energy                               31   Heiser TM, Weber J, Sullivan G, et al. Prophylaxis and management of
+absorbed to failure of contracted muscles when compared to                                hamstring muscle injuries in intercollegiate football Am J Sports Med 12
+                                                                                          368-370,1984
+passively pulled muscles. The data also show greater energy                          32 Hill AV The series elastic component of muscle Proc R Soc B 137: 273-
+absorption by tetanically contracted muscles when com-                                    280,1950
+pared to wave-summated muscle. There was no difference                               33 Huxley AF, Peachy LD The maximum length for contraction In vertebrate
+                                                                                        stnated muscle J Physiol (Lond) 156 150-165, 1961
+in length increase before tearing between contracted and                             34 Ishikawa H, Sawada H, Yamada E Surface and internal morphology of
+passively pulled muscles. All of the muscles failed at the                              skeletal muscle Handbook of Physiology, Section 10, 1983, pp 1-21
+454
+
+35 Katz B The relation between force and speed in muscular contraction. J          62 Williams PE, Goldspink G. The effect of immobilization on the longitudinal
+   Physiol 96 45-64, 1939                                                             growth of striated muscle fibers J Anat 116 45-55, 1973
+36 Klaffs CE, Arnheim DD Modern principles of athletic training St Louis, CV       63 Winegrad S, Rubinson TF Force generation among cells in the relaxing
+   Mosby Co, 1963                                                                     heart Eur J Cardiol 7 63-70, 1978
+37 Klein KK, Allman FL The knee in sports Austin, Pemberton Press, 1969            64 Zarins B, Ciullo JV: Acute muscle and tendon injuries in athletes. Clin
+38 Komi PV, Buskirk ER Effect of eccentric and concentnc muscle condition-            Sports Med 2 167-182, 1983
+   ing on tension and electric activity of human muscle Ergonomics 15 417-
+     434, 1972
+39   Krejci V, Koch P Muscle and Tendon Injuries in Athletes. Chicago, Year        DISCUSSION
+     Book Medical Publishers, 1970
+40 Liemohn W Factors related to hamstnng strains. J Sports Med 18. 71-
+     76, 1978
+                                                                                   John P. Fulkerson, MD, Farmington, Connecticut: I want
+41   MacConaill MA, Basmajian JV: Muscle movements Baltimore, Williams &           to congratulate the authors on a good scientifically based
+     Wilkins, 1969                                                                 analysis of muscle failure. It appears that a contracted
+42   Magid A, Law DJ Myfibrils bear most of the resting tension in frog skeletal
+     muscle Science 230: 1280-1282, 1985                                           muscle will be less prone to tear than one that is resting or
+43   McClure JG Gastrocnemius musculotendinous rupture A condition con-            weakly contracting, given a specific amount of force applied.
+     fused with thrombophlebitis South Med J 77 1143-1145, 1984
+44   McMaster PE Tendon and muscle ruptures-clinical and experimental              Training a muscle such that it will be able to sustain a
+     studies on the causes and location of subcutaneous ruptures J Bone Joint      meaningful contraction for a longer period of time should
+     Surg 15 705-722, 1933                                                         therefore help to reduce or prevent muscle tearing. Impli-
+45   McNamee J Overuse injury of the legs Med J Aust 1 426-430, 1978
+46   Miller WA Rupture of the musculotendinous juncture of the medial head         cations for the unconditioned weekend athlete are clear.
+     of the gastrocnemius muscle Am J Sports Med 5 191-193, 1977                   While warmup and stretching are certainly important, I
+47   Nikolaou P, Macdonald BL, Gilsson RR, et al Biomechanical and histolog-       believe this study points out the importance of developing
+     ical evaluation of muscle after controlled strain injury Am J Sports Med
+     15 9-14, 1987                                                                 strength and endurance in muscles which will be loaded
+48   Nikolaou, PK, Ribbeck BM, Glisson RR, et al The effect of muscle              substantially. The authors have used contralateral limb con-
+     architecture on the biomechanical failure properties of skeletal muscle
+     under passive extension Am J Sports Med, in press, 1987
+                                                                                   trols and quantitative stress applications to the muscles
+49   Oakes BW Hamstring muscle injuries Aust Fam Pnys 13 587-591, 1984             being tested.
+50   O’Donoghue DM Treatment of Injuries to Athletes Third edition Philadel-          In short, the study is well designed. It is important to
+     phia, WB Saunders, 1976                                                       remember that these animals were, of necessity, anesthe-
+51   Ralston HJ, Inman VT, Strait LA, et al. Mechanics of human isolated
+     voluntary muscle Am J Physiol 151 612-621, 1947                               tized. I do not, however, believe that this affects the validity
+52   Ramsey RW, Street SF: The isometric length-tension diagram of isolated        of the results in view of the careful, quantitative approach.
+     skeletal muscle fibers of the frog J Cell Comp Physiol 15: 11-34, 1940
+53   Rapoport SI Mechanical properties of the sarcolemma and myoplasm in              In closing, I wonder if the authors could comment briefly
+     frog muscle as a function of sarcomere length J Gen Physiol 59 559-           on the relevance of a wave-summated muscle contraction
+     585, 1972                                                                     and a tetanic muscle contraction in simulating a forceful
+54. Renstrom P, Peterson L Groin injuries in athletes Br J Sports Med 14
+     30-36, 1980                                                                   muscle contraction in athletics. I congratulate the authors
+55 Sichel FJM The elasticity of isolated resting skeletal muscle fibers J Cell     on increasing our awareness of the importance of muscle
+     Comp Physiol 5 21-42, 1934                                                    contraction in preventing injury.
+56 Slocum DB, James SL Biomechanics of running. JAMA 205 721-728,
+    1968
+57 Trotter JA, Samora A, Baca J Three-dimensional structure of the munne
+    muscle-tendon junction Anat Rec 213 16-25, 1985
+                                                                                   Authors’ Reply: The relevance of wave-summated muscle
+58. Tidball JG, Daniel TL Myotendinous junctions of tonic muscle cells. Struc-     is a problem. We chose wave-summated stimulation in this
+    ture and loading Cell Tiss Res 245. 315-322, 1986
+59 Waugh RL, Hathcock TA, Elliott JL Ruptures of muscles and tendons
+                                                                                   study because we needed a submaximal contraction. We
+    With particular reference to rupture of biceps brachii with report of 50       thought we might simulate the difference in a stronger and
+     cases   Surgery 25 370-392, 1949                                              weaker muscle by more or less nerve stimulation, with more
+60. Wickiewicz TL, Roy RR, Powell PL, et al- Muscle architecture of the human      stimulation giving greater force. In addition, since fatigue is
+    lower limb Clin Orthop 179: 275-283, 1983
+61. Williams PE, Goldspmk G Longitudinal growth of striated muscle fibers. J       associated with diminished muscle force, we felt submaximal
+    Cell Science 9: 751-767, 1971                                                  stimulation might be a crude model of muscle fatigue.
+

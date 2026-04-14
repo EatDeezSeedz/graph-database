@@ -135,6 +135,20 @@
         "folder":  "Fatigue and Performance"
     },
     {
+        "id":  "munozgarces2025_latissimus_dorsi_activation_interactive",
+        "title":  "Latissimus dorsi regional activation",
+        "file":  "views/munozgarces2025_latissimus_dorsi_activation_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Shoulder EMG"
+    },
+    {
+        "id":  "brown2007_pectoralis_activation_imal_interactive",
+        "title":  "Pectoralis major activation and IMALs",
+        "file":  "views/brown2007_pectoralis_activation_imal_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Shoulder EMG"
+    },
+    {
         "id":  "ribeiro2023_cho_rt_interactive",
         "title":  "Carbohydrate intake and RT",
         "file":  "views/ribeiro2023_cho_rt_interactive.html",
@@ -240,6 +254,27 @@
         "folder":  "Neuromechanical Matching/Indirect evidence/Human"
     },
     {
+        "id":  "latissimus_dorsi_nmm_indirect_interactive",
+        "title":  "Latissimus dorsi",
+        "file":  "views/latissimus_dorsi_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
+    },
+    {
+        "id":  "pectoralis_major_nmm_indirect_interactive",
+        "title":  "Pectoralis major",
+        "file":  "views/pectoralis_major_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
+    },
+    {
+        "id":  "calves_nmm_indirect_interactive",
+        "title":  "Calves",
+        "file":  "views/calves_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
+    },
+    {
         "id":  "stoutenberg2005_quadriceps_foot_position_interactive",
         "title":  "Foot position quadriceps EMG",
         "file":  "views/stoutenberg2005_quadriceps_foot_position_interactive.html",
@@ -304,7 +339,7 @@
     },
     {
         "id":  "brown2007_deltoid_lat_neuromechanical_matching_interactive",
-        "title":  "Deltoid and lat neuromechanical matching",
+        "title":  "Deltoid neuromechanical matching",
         "file":  "views/brown2007_deltoid_lat_neuromechanical_matching_interactive.html",
         "kind":  "interactive",
         "folder":  "Neuromechanical Matching/Direct evidence/Human"
@@ -329,5 +364,118 @@
         "file":  "views/digitizer.html",
         "kind":  "interactive",
         "folder":  "Tools"
+    },
+    {
+        "id":  "gluteus_maximus_nmm_indirect_interactive",
+        "title":  "Gluteus maximus",
+        "file":  "views/gluteus_maximus_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
+    },
+    {
+        "id":  "hamstrings_nmm_indirect_interactive",
+        "title":  "Hamstrings",
+        "file":  "views/hamstrings_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
+    },
+    {
+        "id":  "hip_flexors_nmm_indirect_interactive",
+        "title":  "Hip flexors",
+        "file":  "views/hip_flexors_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
+    },
+    {
+        "id":  "aas_interactive",
+        "title":  "AAS",
+        "file":  "views/aas_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "bhasin2001_testosterone_dose_response_interactive",
+        "title":  "Dose-response clamp",
+        "file":  "views/bhasin2001_testosterone_dose_response_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "sinhahikim2002_muscle_fiber_hypertrophy_interactive",
+        "title":  "Muscle fiber hypertrophy",
+        "file":  "views/sinhahikim2002_muscle_fiber_hypertrophy_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "bhasin1996_supraphysiologic_testosterone_interactive",
+        "title":  "600 mg plus exercise",
+        "file":  "views/bhasin1996_supraphysiologic_testosterone_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "taylor1999_nandrolone_immobilized_muscle_interactive",
+        "title":  "Nandrolone during immobilization",
+        "file":  "views/taylor1999_nandrolone_immobilized_muscle_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "zhao2008_testosterone_dexamethasone_atrophy_interactive",
+        "title":  "Testosterone blocks glucocorticoid atrophy",
+        "file":  "views/zhao2008_testosterone_dexamethasone_atrophy_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "piovesan2012_nandrolone_muscle_repair_interactive",
+        "title":  "Nandrolone and muscle repair",
+        "file":  "views/piovesan2012_nandrolone_muscle_repair_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "kanayama2015_tendon_rupture_risk_interactive",
+        "title":  "Tendon rupture risk",
+        "file":  "views/kanayama2015_tendon_rupture_risk_interactive.html",
+        "kind":  "interactive",
+        "folder":  "AAS"
+    },
+    {
+        "id":  "injury_interactive",
+        "title":  "Injury",
+        "file":  "views/injury_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Injury"
+    },
+    {
+        "id":  "garrett1987_stimulated_muscle_failure_interactive",
+        "title":  "Stimulated vs passive muscle failure",
+        "file":  "views/garrett1987_stimulated_muscle_failure_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Injury"
+    },
+    {
+        "id":  "scott2016_muscle_temperature_tear_risk_interactive",
+        "title":  "Muscle temperature tear risk",
+        "file":  "views/scott2016_muscle_temperature_tear_risk_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Injury"
+    },
+    {
+        "id":  "mair1996_fatigue_muscle_strain_injury_interactive",
+        "title":  "Fatigue and strain injury",
+        "file":  "views/mair1996_fatigue_muscle_strain_injury_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Injury"
+    },
+    {
+        "id":  "deltoid_nmm_indirect_interactive",
+        "title":  "Deltoid",
+        "file":  "views/deltoid_nmm_indirect_interactive.html",
+        "kind":  "interactive",
+        "folder":  "Neuromechanical Matching/Indirect evidence/Human"
     }
 ]
+

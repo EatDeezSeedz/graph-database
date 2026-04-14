@@ -1,0 +1,550 @@
+NON-UNIFORM SURFACE ELECTROMYOGRAPHIC RESPONSES TO
+CHANGE IN JOINT ANGLE WITHIN RECTUS FEMORIS MUSCLE
+KOHEI WATANABE, PhD,1 MOTOKI KOUZAKI, PhD,2 and TOSHIO MORITANI, PhD3
+1
+  School of International Liberal Studies, Chukyo University, Nagoya, Yagotohonmachi, Showa-ku, Nagoya 466-8666, Japan
+2
+  Laboratory of Neurophysiology, Graduate School of Human and Environmental Studies, Kyoto University, Kyoto, Japan
+3
+  Laboratory of Applied Physiology, Graduate School of Human and Environmental Studies, Kyoto University, Kyoto, Japan
+Accepted 28 February 2014
+
+ABSTRACT: Introduction: Our recent studies have demon-                            cal and/or physiological functional roles. In fact,
+strated region-specific neural activation within the rectus femo-
+ris (RF) muscle. However, these studies involved a fixed joint
+                                                                                  recent studies, including ours,5–8 partly support
+angle or posture. In this study we investigated the effect of hip                 these assumptions.
+and knee joint angles on neural activation within RF using multi-                     Akima et al. reported significantly higher meta-
+channel surface electromyography (SEMG). Methods: Eleven
+healthy men performed isometric maximal voluntary contraction
+                                                                                  bolic responses in distal regions of the RF muscle
+(MVC) during knee extension and hip flexion at different hip or                   compared with the proximal region during isoki-
+joint angles. During the contractions, SEMG of the RF was                         netic knee extension exercise, based on muscle
+recorded using 46 electrode pairs covering most of the superfi-
+cial area of the muscle. Results: During knee extension MVC,
+                                                                                  functional magnetic resonance imaging (mfMRI).5
+an increase in the hip joint angle was associated with a signifi-                 Our previous studies using surface electromyogra-
+cant increase in SEMG amplitude in the proximal region and a                      phy (SEMG) with multiple 2-dimensional electro-
+decrease in the distal region (P < 0.05). Higher SEMG amplitude
+during hip flexion MVC compared with knee extension MVC was
+                                                                                  des (multichannel SEMG) revealed that proximal
+observed in proximal regions with the flexed knee and hip joint                   and distal regions of the muscle had a higher
+angles. This task-dependent spatial distribution of SEMG ampli-                   SEMG amplitude during hip flexion and knee
+tude was seen at the extended hip, but not at the extended
+knee. Conclusions: SEMG amplitudes within the RF muscle are
+                                                                                  extension, respectively,7 and greater myoelectric
+not modified uniformly with changes in joint position.                            manifestation of fatigue in the proximal compared
+                                          Muscle Nerve 50: 794–802, 2014          with other regions of the RF muscle.8 Moreover,
+                                                                                  Hagio et al. reported that the proximal region of
+                                                                                  the RF muscle is the dominant contributor to hip
+Neuroanatomical studies have revealed that the                                    flexion moment using selective intramuscular elec-
+proximal region and other regions of the human                                    trical stimulation.6 These observations suggest that
+rectus femoris (RF) muscle are innervated                                         the proximal and other regions of the RF muscle
+separately by different motor nerve branches,1,2                                  are activated independently and have different
+meaning that each region may be regulated inde-                                   functional roles. However, those results were
+pendently by the central nervous system (CNS).                                    observed with fixed postures, such as 90 hip and
+Furthermore, the proximal tendon of this muscle                                   knee joint angles.
+actually has 2 components, and they respectively                                      Joint position has a significant effect on neuro-
+form different muscle–tendon units.3,4 Muscle                                     muscular activation. This is due to changes in mus-
+fibers of the proximal third of the muscle–tendon                                 cle fiber length, moment arm length for a given
+unit arise from tendon tissue that is attached at                                 torque, and neural regulation, such as afferent
+the anterior inferior iliac spine and run distally                                input from peripheral receptors to motoneurons.
+and directly to the patellar tendon. The remaining                                Because of the anatomical properties of human RF
+muscle fibers of the distal two-thirds of the mus-                                muscle,3,4 a change in the joint angle may induce
+cle–tendon unit arise from the deep intramuscular                                 non-uniform changes in the length of muscle
+tendon, which is attached at the superior acetabu-                                fibers and moment arm for a given joint torque
+lar ridge, and run into the patellar tendon.3,4                                   within the muscle. Consequently, neural activation
+From these innervation patterns and the muscle                                    may also be regulated in different ways by the
+architecture, the proximal and other regions of                                   CNS. Also, this muscle potentially shows region-
+the human RF muscle may have independent acti-                                    specific neural regulation due to its characteristic
+vation properties and region-specific biomechani-                                 innervation pattern.1,2 In this study, we investi-
+                                                                                  gated the effects of hip and knee joint angles on
+Abbreviations: CNS, central nervous system; IZ, innervation zone;                 SEMG amplitude over a large area of the RF
+mfMRI; muscle functional magnetic resonance imaging; MVC, maximum                 muscle.
+voluntary    contraction; RF,    rectus    femoris;  SEMG,      surface
+electromyography
+Key words: bi-articular muscles; joint angle; M-wave; multichannel sur-           METHODS
+face electromyography; neuromuscular compartment; quadriceps femoris              Subjects.  Eleven healthy men (age 22.6 6 2.5
+Correspondence to: K. Watanabe; e-mail: wkohei@lets.chukyo-u.ac.jp
+                                                                                  years, height 170.9 6 6.6 cm, body mass 66.7 6 9.1
+C 2014 Wiley Periodicals, Inc.
+V
+Published online 3 March 2014 in Wiley Online Library (wileyonlinelibrary.com).
+                                                                                  kg) volunteered for this study. All subjects pro-
+DOI 10.1002/mus.24232                                                             vided informed consent after receiving a detailed
+794     Non-Uniform EMG Distribution                                                                  MUSCLE & NERVE     November 2014
+                                                                  shank (Fig. 1A). The force transducer to measure
+                                                                  hip flexion joint torque was positioned 3–4 cm
+                                                                  proximal to the upper border of the patella (Fig.
+                                                                  1B). Hip flexion joint torque was calculated as the
+                                                                  product of the hip flexion force at the force trans-
+                                                                  ducer and distance between the estimated hip
+                                                                  joint center, that is, greater trochanter, and the
+                                                                  point where they were connected to the force
+                                                                  transducer as the moment arm length.
+                                                                      Subjects performed 2 submaximal contractions
+                                                                  for familiarization and 1 MVC trial for data collec-
+                                                                  tion with the individual joint combinations. Each
+FIGURE 1. Experimental setting and definitions of hip and knee    MVC involved a gradual increase in knee extension
+joint angles. Five combinations of hip and knee joint angles      or hip flexion force exerted from the baseline to
+were studied. (A) Torque transducer for measurement of knee       maximal exertion in 2–3 s, and it was sustained for
+extension joint torque. (B) Force transducer for measurement of
+                                                                  a maximum of 2 s. The timing of the task was
+hip flexion joint torque.
+                                                                  based on a verbal count given at 1-s intervals, with
+                                                                  verbal encouragement from the investigators when
+explanation of the purposes, potential benefits,
+                                                                  the force began to plateau. Contractions during
+and risks associated with participation. All of the
+                                                                  knee extension were performed first, followed by
+men were healthy, with no history of musculoskel-
+                                                                  those during hip flexion. The order of the 5 joint
+etal or neurological disorders. All procedures were
+                                                                  combinations was randomized. Rest periods
+in accordance with the Declaration of Helsinki and
+                                                                  between trials at different positions were >2 min.
+approved by the Committee for Human Experi-
+mentation at the Graduate School of Human and                     Multichannel SEMG Recording. Multichannel SEMG
+Environmental Studies, Kyoto University.                          signals were recorded from the RF with a matrix of
+                                                                  48 surface electrodes made up of 2 columns and
+Experimental Design. Each subject performed max-                  24 rows (1 3 5 mm size, 10-mm interelectrode dis-
+imal voluntary contractions (MVCs) of knee exten-                 tance) (ELSH004; OT Bioelectronica, Torino,
+sion and hip flexion, respectively, at various knee               Italy) (Fig. 2). The arrangement was similar to that
+and hip joint angles. One knee or hip joint angle                 in our previous study.8 Because region-specific neu-
+was set at 90 , 130 , or 170 (180 is fully                    romuscular activation was demonstrated mainly
+extended), and the respective knee or hip joint                   along a longitudinal line of the RF in our previous
+angle was fixed at 90 . Thus, 5 different combina-
+tions were used in this study: both hip and knee
+joint angle of 90 (H90–K90); hip joint angle of
+90 and knee joint angle of 130 (H90–K130); hip
+joint angle of 90 and knee joint angle of 170
+(H90–K170); hip joint angle of 130 and knee
+joint angle of 90 (H130–K90); and hip joint angle
+of 170 and knee joint angle of 90 (H170–K90)
+(Fig. 1). The knee and hip joint angles were
+defined as the angle between the 2 lines assumed
+as thigh and shank segments and trunk and thigh
+segments in the sagittal plane, respectively. Trunk,
+thigh, and shank segments were determined using
+anatomical markers: the acromion; greater tro-
+chanter; lateral femoral epicondyle; and lateral
+malleolus. Joint angles were measured by a goni-
+ometer with the 5 different joint angle
+combinations.
+    MVCs were performed on a dynamometer with
+a mounted torque transducer for knee extension
+and force transducer for hip flexion (VINE;
+Japan). The torque transducer to measure knee                     FIGURE 2. Electrode locations used for the rectus femoris
+extension joint torque was mounted at the edge of                 muscle and definitions of channel numbers. (A) Anterior supe-
+the lever arm attached to the distal part of the                  rior iliac spine. (B) Superior edge of the patella.
+
+Non-Uniform EMG Distribution                                                       MUSCLE & NERVE        November 2014     795
+studies,7,8 electrodes were arranged longitudinally      (HF/KE) was calculated. In each CH and joint
+along the muscle. Conductive gels were inserted          position, the RMS value during hip flexion was
+into the cavities of the grid electrodes to ensure       divided by the value during knee extension to cal-
+proper skin contact. Prior to attaching the elec-        culate HF/KE value. For example, HF/KE at H90–
+trode grid, the skin was shaved, abraded, and            K90 in CH1 is the RMS value in CH1 during hip
+cleaned with alcohol. To determine electrode posi-       flexion at H90–K90 divided by the RMS value in
+tions, the edge of the superficial region of the RF      CH1 during knee extension at K90–H90.
+was identified using ultrasonography (FAZONE
+                                                         Maximal M-Wave Measurement. Electrically elicited
+CB; FujiFilm, Tokyo, Japan). The ultrasonographic
+                                                         contraction was applied for estimating the influ-
+procedure used to determine electrode positions
+                                                         ence of anatomical or geometrical factors on EMG
+was similar to that in our previous studies.7,8 Marks
+                                                         amplitude with changes in joint angle. Maximal M-
+were made on the skin above the border between
+                                                         waves were recorded at H90–K90, H90–K170, and
+the RF and neighboring muscles, namely the vastus
+                                                         H170–K90 in 8 of the 11 subjects. The femoral
+lateralis, vastus medialis, sartorius, and tensor fas-
+                                                         nerve was stimulated at the femoral triangle using
+ciae latae, using a felt-tip pen. Consequently,
+                                                         a stimulator (MEB-9400; Nihon-Kohden, Tokyo,
+superficial regions of the RF were outlined by mak-
+                                                         Japan) with a 500-ls pulse width. Anode and cath-
+ing marks on the skin, and electrodes were
+                                                         ode electrodes were placed along the estimated
+attached within the marks. The columns of electro-
+                                                         femoral nerve at the femoral triangle, and stimula-
+des were placed on the longitudinal axis of the
+                                                         tion was applied. The stimulus amplitude was
+muscle along a line between the anterior superior
+                                                         increased by 5 mA every 7–8 pulses up to 50 mA.
+iliac spine and superior edge of the patella. The
+                                                         During stimulation, EMG amplitudes in all chan-
+line between the anterior superior iliac spine and
+                                                         nels were observed carefully by an experimenter.
+superior edge of the patella was defined as the lon-
+                                                         For all subjects, maximal M-wave amplitudes in all
+gitudinal line of the RF based on anatomical data
+                                                         channels were achieved at stimulation intensities
+from the human RF.1,2 The center of the proximal
+                                                         <50 mA. Five M-waves at the intensity after reach-
+second electrode array was positioned at the proxi-
+                                                         ing maximal M-wave amplitudes were averaged and
+mal one-third of the longitudinal line of the RF
+                                                         used as the representative maximal M-wave at a
+(Fig. 2). A reference electrode was placed at the
+                                                         given joint position for individual CHs.
+iliac crest. In our previous study, we confirmed
+that multichannel SEMG of the RF, which was              Statistics. All data are expressed as the mean and
+recorded with the same procedure, demonstrated           standard error. Non-parametric tests were used in
+a region-specific pattern similar to the intramuscu-     this study because the sample size was small
+lar EMG of multiple regions of the muscle.7              (n 5 11 for MVC tests and 8 for maximal M-wave
+    Monopolar EMG signals were amplified by a            tests), and the distribution of data was partly non-
+factor of 1000, sampled at 2048 HZ with an 8th-          Gaussian. RMS during knee extension, RMS during
+order Bessel bandpass filter at 10–750 HZ (anti-ali-     hip flexion, and HF/KE in each CH with each
+asing filter), and converted to digital form by a 12-    joint combination were compared with those at
+bit analog-to-digital converter (EMG-USB; OT Bioe-       H90–K90 using the Wilcoxon rank sum test. Maxi-
+lectronica) with the signal of the force transducers.    mal M-wave amplitudes at H170–K90 and H90–
+Monopolar SEMG signals were off-line bandpass fil-       K170 were compared with that at K90–H90 by the
+tered (10–500 HZ) and transferred to analysis soft-      Wilcoxon rank sum test for each CH. The level of
+ware (MATLAB, version 7; The MathWorks GK,               statistical significance was set at 0.05 and modified
+Tokyo, Japan). Bipolar SEMG signals were calcu-          by Bonferroni correction, that is, a 5 0.05 / num-
+lated from the electrode pairs between the neigh-        ber of pairs. Statistical analyses were performed
+boring electrodes along the rows.8 The root mean         using SPSS, version 15.0 (SPSS, Inc., Tokyo,
+square (RMS) was calculated from the SEMG sig-           Japan).
+nal sampled over 1 s during the sustained phase of
+                                                         RESULTS
+MVC. RMS values at the same longitudinal level
+                                                         MVC Torque. MVC torque during knee extension
+were averaged for each task and used for analysis.
+                                                         at H90–K170 was significantly lower than that at
+Consequently, 18 RMS values along the longitudi-
+                                                         H90–K90 (P < 0.05) (Table 1). During hip flexion,
+nal line of the muscle were used for analysis under
+                                                         MVC torque at H130–K90 was significantly higher
+each condition. RMS values from the most proxi-
+                                                         than that at H90–K90 (P < 0.05) (Table 1).
+mal and distal sites were defined as the 1st and
+18th channels (CH1 and 18) (Fig. 2), respectively.       RMS during Knee Extension at Different Hip or Knee
+To quantify the region-specific functional role                      During knee extension, RMS in CH3
+                                                         Joint Angles.
+within the muscle,7 the ratio of the RMS value dur-      at H170–K90 was significantly higher than that at
+ing hip flexion to that during knee extension            H90–K90 (P < 0.05) (Fig. 3A and Table 2). On the
+796   Non-Uniform EMG Distribution                                           MUSCLE & NERVE     November 2014
+                      Table 1. Joint torque during maximal voluntary contractions at various hip and knee joint angles.
+                                                                             Joint angle ( )
+Hip                               90                      90                     90                       130                     170
+Knee                              170                    130                     90                        90                      90
+                                                                          MVC torque (Nm)*
+Knee extension              136.9 6 13.3*            153.1 6 18.2           158.6 6 12.5              159.7 6 11.7            147.5 6 12.2
+Hip flexion                 128.9 6 22.0             128.8 6 19.4           164.8 6 12.7              180.6 6 13.8†           182.6 6 13.2
+
+*Values expressed as mean 6 standard error.
+†
+P < 0.05 vs. H902K90.
+
+
+
+other hand, RMS in CH17 and 18 at H170–K90                               angles in CH1–9 and CH11–16 during knee exten-
+was significantly lower than at H90–K90 (P < 0.05)                       sion (Fig. 3A and Table 2).
+(Fig. 3A and Table 2). In CH1, 2, and 4–16, there
+were no significant differences in RMS among con-                        RMS during Hip Flexion at Different Hip or Knee Joint
+ditions with different hip joint angles (Fig. 3A and                     Angles. During hip flexion, RMS in CH13 at
+Table 2).                                                                H130–K90 was significantly lower than that at
+    In CH17 and 18, RMS at H90–K130 and H90–                             H90–K90 (P < 0.05) (Fig. 3B). For all CHs except
+K170 was significantly lower than at H90–K90 dur-                        CH13, there were no significant differences in
+ing knee extension (P < 0.05) (Fig. 3A and Table                         RMS among conditions with different hip joint
+2). RMS in CH10 at H90–K170 was significantly                            angles (Fig. 3B and Table 3).
+lower than that for H90–K90 (P < 0.05) (Fig. 3A                             In CH2, 7, 9, 11, 12, and 18, RMS at H90–K130
+and Table 2). There were no significant differen-                        was significantly lower than at H90–K90 (P < 0.05)
+ces among conditions with different knee joint                           (Fig. 3B and Table 3). RMS at H90–K170 in CHs,
+
+
+
+
+FIGURE 3. Mean root mean square of multichannel surface electromyography of rectus femoris muscle for all subjects at various joint
+combinations during knee extension (A) and hip flexion (B). Root mean square values are shown in gray scale. Black corresponds to
+higher value and white to lower value. Upward and downward arrows indicate significantly higher and lower values than those at H90–
+K90 for each electrode.
+
+Non-Uniform EMG Distribution                                                                    MUSCLE & NERVE        November 2014     797
+       Table 2. Root mean square of multichannel surface electromyography of rectus femoris muscle for all subjects at various joint
+                                                 combinations during knee extension.
+                                                                       Joint angle ( )
+Hip                       90                       90                      90                         130                       170
+Knee                     170                      130                      90                          90                        90
+                                                                  Root mean square (mV)
+
+CH1               0.101 6 0.020             0.101 6 0.022              0.093 6 0.015             0.090 6 0.010             0.104 6 0.012
+CH2               0.099 6 0.014             0.100 6 0.015              0.093 6 0.011             0.099 6 0.010             0.114 6 0.011
+CH3               0.126 6 0.028             0.107 6 0.0121             0.101 6 0.009             0.107 6 0.007             0.124 6 0.010*
+CH4               0.124 6 0.015             0.135 6 0.019              0.150 6 0.022             0.155 6 0.019             0.159 6 0.020
+CH5               0.141 6 0.019             0.149 6 0.021              0.154 6 0.021             0.160 6 0.020             0.154 6 0.017
+CH6               0.155 6 0.021             0.151 6 0.019              0.161 6 0.020             0.161 6 0.018             0.153 6 0.016
+CH7               0.120 6 0.016             0.113 6 0.015              0.127 6 0.014             0.124 6 0.013             0.123 6 0.015
+CH8               0.109 6 0.009             0.106 6 0.010              0.120 6 0.010             0.124 6 0.010             0.116 6 0.009
+CH9               0.099 6 0.007             0.103 6 0.009              0.121 6 0.012             0.118 6 0.010             0.118 6 0.011
+CH10              0.107 6 0.010*            0.115 6 0.013              0.136 60.012              0.134 6 0.013             0.136 6 0.011
+CH11              0.104 6 0.008             0.108 6 0.011              0.126 6 0.013             0.124 6 0.011             0.121 6 0.010
+CH12              0.106 6 0.011             0.106 6 0.010              0.121 6 0.011             0.118 6 0.009             0.114 6 0.008
+CH13              0.101 6 0.010             0.101 6 0.012              0.110 6 0.011             0.108 6 0.008             0.109 6 0.009
+CH14              0.099 6 0.010             0.094 6 0.009              0.109 6 0.011             0.110 6 0.012             0.104 6 0.007
+CH15              0.121 6 0.014             0.117 6 0.016              0.117 6 0.013             0.119 6 0.012             0.115 6 0.011
+CH16              0.149 6 0.019             0.159 6 0.024              0.187 6 0.025             0.178 6 0.021             0.170 6 0.019
+CH17              0.141 6 0.018*            0.165 6 0.025*             0.207 6 0.025             0.192 6 0.020             0.181 6 0.020*
+CH18              0.111 6 0.013*            0.139 6 0.021*             0.195 6 0.023             0.177 6 0.018             0.167 6 0.019*
+
+Data expressed as mean 6 standard error.
+*P < 0.05 vs. H902K90.
+
+
+except for CH16, was significantly lower than at                        than that in CH18 (P < 0.05) (Fig. 4). HF/KE at
+H90–K90 during hip flexion (P < 0.05) (Fig. 3B                          H130–K90 in CH1–3, 6, 7, and 9 was significantly
+and Table 3).                                                           higher than that in CH18 (P < 0.05) (Fig. 4). At
+                                                                        H170–K90, HF/KE in CH1–4, 7, and 9 was signifi-
+HF/KE at Different Hip or Knee Joint Angle. In CH1–                     cantly higher than that in CH18 (P < 0.05) (Fig.
+7, HF/KE at H90–K90 was significantly higher                            4). There were significant differences in HF/KE at
+
+Table 3. Root mean square of multichannel surface electromyography of rectus femoris muscle for all subjects at various joint combina-
+                                                      tions during hip flexion.
+                                                                       Joint angle ( )
+Hip                       90                      90                        90                        130                        170
+Knee                     170                      130                       90                         90                         90
+                                                                  Root mean square (mV)*
+
+CH1               0.067 6 0.008†             0.086 6 0.012             0.103 6 0.013             0.108 6 0.012             0.109 6 0.012
+CH2               0.077 6 0.012†             0.096 6 0.013†            0.122 6 0.014             0.123 6 0.015             0.131 6 0.016
+CH3               0.081 6 0.010†             0.102 6 0.014             0.128 6 0.014             0.138 6 0.017             0.145 6 0.018
+CH4               0.069 6 0.010†             0.093 6 0.013             0.113 6 0.013             0.122 6 0.017             0.120 6 0.015
+CH5               0.070 6 0.012†             0.100 6 0.015             0.118 6 0.015             0.117 6 0.013             0.115 6 0.012
+CH6               0.072 6 0.015†             0.106 6 0.018             0.124 6 0.017             0.114 6 0.014             0.111 6 0.012
+CH7               0.053 6 0.009†             0.079 6 0.013†            0.106 6 0.015             0.095 6 0.012             0.104 6 0.012
+CH8               0.049 6 0.010†             0.071 6 0.012             0.091 6 0.011             0.082 6 0.009             0.093 6 0.024
+CH9               0.041 6 0.007†             0.066 6 0.011†            0.093 6 0.009             0.085 6 0.009             0.082 6 0.008
+CH10              0.046 6 0.011†             0.068 6 0.013             0.090 6 0.011             0.096 6 0.011             0.086 6 0.010
+CH11              0.037 6 0.008†             0.058 6 0.013†            0.082 6 0.013             0.077 6 0.011             0.074 6 0.012
+CH12              0.038 6 0.006†             0.060 6 0.012†            0.079 6 0.013             0.072 6 0.010             0.071 6 0.010
+CH13              0.037 6 0.007†             0.051 6 0.010             0.066 6 0.008             0.055 6 0.007†            0.054 6 0.006
+CH14              0.033 6 0.006†             0.048 6 0.009             0.060 6 0.005             0.053 6 0.005             0.053 6 0.005
+CH15              0.037 6 0.007†             0.051 6 0.009             0.063 6 0.008             0.056 6 0.006             0.061 6 0.006
+CH16              0.046 6 0.014              0.064 6 0.013             0.084 6 0.012             0.079 6 0.012             0.073 6 0.010
+CH17              0.050 6 0.014†             0.069 6 0.014             0.093 6 0.013             0.084 6 0.012             0.078 6 0.012
+CH18              0.041 6 0.011†             0.061 6 0.013†            0.086 6 0.013             0.076 6 0.011             0.069 6 0.012
+
+*Data expressed as mean 6 standard error.
+†
+P < 0.05 vs. H902K90.
+
+798     Non-Uniform EMG Distribution                                                              MUSCLE & NERVE         November 2014
+                                                                 extension MVC were opposite when comparing
+                                                                 proximal and distal regions; (2) with an increase
+                                                                 in the knee joint angle, RMS decreased during
+                                                                 knee extension MVC in only the distal electrodes;
+                                                                 (3) the decrease in RMS during hip flexion MVC
+                                                                 with knee joint extension was found in the whole
+                                                                 muscle; and (4) although a higher HF/KE in the
+                                                                 proximal region was obtained compared with the
+                                                                 distal region at the extended hip, this was not seen
+                                                                 at the extended knee. These results mostly support
+                                                                 our hypotheses and indicate that the effects of
+                                                                 knee and hip joint angles on neural activation are
+                                                                 not uniform within the RF muscle.
+                                                                     It was suggested that the changes in muscle
+                                                                 length and/or location of the innervation zone
+                                                                 (IZ) under the skin during dynamic movement
+                                                                 and alteration of the joint angle have an effect on
+                                                                 SEMG variables.9 These anatomical and geometri-
+                                                                 cal effects should be considered when RMS values
+                                                                 detected at different joint angles are compared. A
+                                                                 shift in IZ can be used for evaluating deformation
+                                                                 of the muscle with a change in the joint angle and
+                                                                 contraction under electrodes. Farina et al. reported
+                                                                 that a >15-mm IZ shift with changes in joint angle
+                                                                 and contraction induced a different SEMG
+                                                                 response in their simulation study.10 They also
+FIGURE 4. Mean HF/KE values of rectus femoris muscle for all
+                                                                 demonstrated in an experimental study that the IZ
+subjects at various joint combinations as shown in gray scale.
+Black corresponds to higher value and white to lower value.      shift with a change in the knee joint angle from
+Downward arrows indicate significantly lower values than those   75 to 165 during MVC was 5 mm in RF
+at H90–K90 for each electrode.                                   muscles.10 Therefore, IZ shift with a change in
+                                                                 joint angle during MVC may not have a critical
+H130–K90 and H170–K90 when compared with
+that at H90–K90 in CH13 (P < 0.05) (Fig. 4). For
+all CHs, except CH13, there were no significant                      Table 4. Maximal M-wave amplitude values at various joint
+differences in HF/KE among conditions with dif-                                          combinations.
+ferent hip joint angles (Fig. 4).                                                                  Joint angle ( )
+    HF/KE in CH2 and 3 at H90–K130 and H90–                      Hip                90                90                  170
+K170 was significantly lower than at H90–K90                     Knee              170                90                   90
+(P < 0.05) (Fig. 4). In CH1, 6, 7, 9, 11–13, and 15,                                          M-max amplitude (mV)
+HF/KE at H90–K170 was significantly lower than                   CH1         0.451 6 0.099         0.497 6 0.140      0.418 6 0.119
+at H90–K90 (P < 0.05) (Fig. 4).                                  CH2         0.428 6 0.108         0.554 6 0.214      0.451 6 0.151
+                                                                 CH3         0.471 6 0.117         0.518 6 0.191      0.472 6 0.174
+Maximal M-Wave at Different Hip and Knee Joint                   CH4         0.507 6 0.119         0.446 6 0.092      0.515 6 0.140
+                                                                 CH5         0.449 6 0.089         0.527 6 0.127      0.541 6 0.195
+Angles. There were no significant differences in
+                                                                 CH6         0.433 6 0.052         0.468 6 0.089      0.515 6 0.153
+the maximal M-wave amplitude at H170–K90 in                      CH7         0.481 6 0.063         0.575 6 0.103      0.518 6 0.091
+any of the CHs and in H90–K170 in CH1–15 when                    CH8         0.442 6 0.096         0.448 6 0.086      0.471 6 0.119
+compared with H90–K90 (Table 4). The M-wave                      CH9         0.333 6 0.025         0.473 6 0.172      0.433 6 0.105
+amplitude at H90–K170 was significantly higher                   CH10        0.362 6 0.034         0.566 6 0.102      0.592 6 0.077
+                                                                 CH11        0.410 6 0.053         0.509 6 0.117      0.556 6 0.121
+than that at H90–K90 in CH16–18 (P < 0.05)
+                                                                 CH12        0.372 6 0.050         0.469 6 0.112      0.460 6 0.092
+(Table 4).                                                       CH13        0.366 6 0.047         0.358 6 0.066      0.373 6 0.056
+                                                                 CH14        0.379 6 0.048         0.292 6 0.035      0.359 6 0.036
+DISCUSSION                                                       CH15        0.417 6 0.044         0.410 6 0.073      0.452 6 0.054
+   In this study we have investigated the effects of             CH16        0.500 6 0.055†        0.351 6 0.052      0.375 6 0.030
+                                                                 CH17        0.522 6 0.032†        0.383 6 0.049      0.401 6 0.029
+hip and knee joint angles on neural activation in
+                                                                 CH18        0.513 6 0.051†        0.364 6 0.046      0.411 6 0.027
+the human RF muscle by using multichannel
+SEMG. The main findings are: (1) the effects of                  *Data expressed as mean 6 standard error.
+the angle of the hip joint on RMS during knee                    †
+                                                                 P < 0.05 vs. H902K90.
+
+Non-Uniform EMG Distribution                                                         MUSCLE & NERVE            November 2014    799
+effect on the SEMG response in RF. On the other         may include not only physiological responses but
+hand, electrodes were not strictly in parallel with     also anatomical and geometrical factors.
+muscle fibers in this study. Because IZs are scat-          During knee extension, RMS at H170–K90 was
+tered from proximal to distal sites in the RF,11 dif-   significantly higher than that at H90–K90 in CH3
+ferent electrodes could be positioned in proximity      (P < 0.05), and a similar trend was seen in CH2
+to different IZs along the muscle. Positioning dif-     (P 5 0.098) (Fig. 3A and Table 2). On the other
+ferent electrode arrays parallel to proximal and        hand, in CH17 and 18, RMS at H170–K90 was sig-
+distal RF muscle fibers may be appropriate for          nificantly lower than that at H90–K90 (P < 0.05)
+resolving this issue. This will be the subject of       (Fig. 3A and Table 2). Also, a decrease in RMS was
+another study. Moreover, if a non-uniform IZ shift      seen at H90–K130 and H90–K170 only in CH17
+occurs within the RF, region-specific SEMG              and 18 (distal regions) during knee extension
+responses would be induced by geometrical or ana-       (P < 0.05) (Fig. 3A and Table 2). These results
+tomical factors. We have not evaluated IZ shift or      indicate that changes in joint angles induce
+muscle deformation with changes in joint angle          region-specific neural responses within the RF mus-
+and/or contraction and region-specific changes in       cle. Changes in joint angle lead to alterations in
+them within the RF. This is a major methodologi-        anatomical properties, which are related closely to
+cal limitation of our study, and thus our results       force production by muscle–tendon units. Because
+should be interpreted with caution.                     the anterior inferior iliac spine is located more
+    Maximal M-waves were recorded at 3 different        anterior to the superior acetabular ridge on the
+joint positions for estimating the effects of anatom-   pelvic bone,3,4 positions relative to hip and knee
+ical or geometrical changes with alterations in joint   joint centers and the attachment of distal tendon
+angle on RMS. We should note that it is difficult       tissue on the patella vary between 2 proximal ten-
+to accurately separate physiological and non-           don attachments. Based on these anatomical prop-
+physiological effects of changes in joint angle on      erties, we infer that extension of the hip joint
+SEMG responses based on maximal M-wave results.         angle, that is, from a sitting to lying position, indu-
+Although there were no significant differences in       ces greater elongation of the muscle–tendon unit
+maximal M-wave amplitude between H90–K90 and            attached to the anterior inferior iliac spine than
+H170–K90 in all CHs, a significantly higher maxi-       that attached to the superior acetabular ridge.
+mal M-wave amplitude at H90–K170 was seen in            Assuming that the proximal one-third and distal
+distal regions (CH16–18) when compared with             two-thirds of muscle fibers arise from tendon tis-
+H90–K90 (P < 0.05) (Table 4). When extending            sues attached to the anterior inferior iliac spine
+the knee joint, the most distal RF fascicles are        and superior acetabular ridge, respectively,3,4 prox-
+expected to move proximally, and some distal elec-      imal and other muscle fibers are activated at differ-
+trodes may be located on or near muscle–tendon          ent relative lengths and phase of the force–length
+connective tissue. Consequently, the changes in         relationship, which decides the mechanical advan-
+SEMG observed in the very distal electrodes may         tages of muscle fibers.12 We can also estimate from
+be unrelated directly to physiological events during    the anatomical properties that extension of the
+voluntary contraction of the extended knee. This        hip joint angle leads to a longer moment arm for
+issue may be complicated further by anthropomet-        hip flexion joint torque in proximal compared
+ric differences among subjects. The same sizes of       with other regions. A longer moment arm also
+electrode arrays were applied in all subjects in this   leads to a mechanical advantage for generating
+study, whereas the lengths of the RF muscle were        joint torque. Proximal regions may activate with a
+not the same among subjects. We thus thought            higher mechanical advantage during hip flexion
+that a significant decrease in RMS in distal regions    effort compared with other regions with an
+with an extended knee during knee extension             extended hip, such as in a lying position. We
+MVC (Fig. 3A and Table 2) may be induced by             thus suggest that region-specific SEMG ampli-
+complicated effectors, including physiological and      tude responses between proximal and distal
+non-physiological factors, and interindividual dif-     regions to changes in the joint angle (Figs. 3 and
+ferences in anthropometric parameters. On the           4 and Tables 2 and 3) can be explained partly by
+other hand, from the results of maximal M-wave          the above-mentioned anatomical mechanisms,
+tests, we estimated that non-physiological effects      such as different mechanical advantages, which
+on SEMG could not be marked with changes in             are induced by changes in joint angle between
+hip joint angle. However, it is difficult to assess     proximal and other regions. Further work is
+accurately the effect of anatomical and geometrical     needed to quantify the contributions of individ-
+changes with alterations in joint angle on EMG          ual anatomical factors to force generation and/
+amplitude using electrically induced contractions.      or neural regulation for individual regions within
+Changes in RMS with alterations in joint position       this muscle.
+800   Non-Uniform EMG Distribution                                           MUSCLE & NERVE      November 2014
+    In addition to alterations in the muscle–tendon     the knee joint angle. However, changes in HF/KE
+unit and moment arm lengths, other mechanical           with an increase in knee joint angle were not
+conditions could also contribute to the region-         observed in distal channels. Region-specific SEMG
+specific SEMG amplitude response. Two different         amplitude responses to an increase in knee joint
+proximal tendons are oriented in different direc-       angle were observed during knee extension effort
+tions.13 Also, the force–length relationship may        (Fig. 3A and Table 2), but not during hip flexion
+vary between muscle–tendon units of proximal and        effort (Fig. 3B and Table 3). This task-dependent
+distal regions. The forming of different muscle–        difference in SEMG amplitude responses to
+tendon units within a muscle would lead to differ-      changes in knee joint angle would lead to region-
+ent conditions regarding mechanical properties for      specific change in HF/KE (Fig. 4). These findings
+the production of a given joint torque. It has been     are important for understanding the functional
+suggested that afferent input from peripheral           role of each region of the RF during practical
+receptors within the muscle, tendon, joint, or liga-    human movements. During multiple joint move-
+ment to motoneurons also contributes to joint           ments, neuromuscular regulation of this muscle
+angle– or muscle length–dependent neuromuscu-           would be more complex. For example, during gait,
+lar activation.14,15 During MVC, afferent input         the contribution of proximal regions to hip flexion
+from the muscle spindle, which is 1 of the periph-      or knee extension joint torque may be regulated
+eral receptors within the muscle, markedly contrib-     independently by the CNS, depending on the acti-
+utes to the excitation of motoneurons.16 Also,          vation of antagonistic muscles, foot sole sensory
+muscle spindle sensitivity is regulated by muscle       system, and/or combinations of joint angles.
+length and/or joint angle.17 One study reported             The effect of cross-talk is a major issue in
+that muscle spindles are not distributed uniformly      SEMG.19,20 Although we carefully determined elec-
+within a muscle, and their distribution depends on      trode positions for the RF muscle under the guid-
+histological or physiological profiles of muscle        ance of ultrasonography, the effect of cross-talk
+fibers.18 We demonstrated non-uniform myoelec-          was not quantified. In our previous study, a similar
+tric manifestations of fatigue and suggested possi-     trend was seen in the spatial difference in normal-
+ble region-specific histological or physiological       ized RMS within the RF muscle between SEMG
+characteristics within the RF muscle.8 Given that       and intramuscular EMG with wire electrodes.7
+muscle spindles are not distributed uniformly           Thus, we assumed that cross-talk from other
+between proximal and distal regions of the RF,          muscles that might be included in SEMG signals
+neural responses to changes in joint angle during       detected from each region of RF muscle would not
+contraction should be different between proximal        have a critical effect on our main results.
+and distal regions. However, to our knowledge, the          In conclusion, we have investigated the effects
+distribution of muscle spindles within human RF         of hip and knee joint angles on SEMG amplitude
+muscle has not been reported. Future studies are        within the RF muscle using multichannel SEMG.
+needed to investigate the relationship between          The SEMG amplitude responses with changes in
+region-specific neural activation and distributions     hip and knee joint angles were not uniform among
+of peripheral receptors within a muscle.                regions within the RF muscle. Also, the task-
+    We suggested the possibility of a region-specific   dependent spatial distribution of SEMG amplitude
+biomechanical functional role within human RF           was influenced by knee joint angle, but not by hip
+muscle based on results of our previous work7; that     joint angle. These results suggest that SEMG
+is, selective higher SEMG amplitude in proximal         responses to changes in joint position are not uni-
+regions during hip flexion and in distal regions        form among regions within the RF muscle.
+during knee extension. In the present study, at
+H90–K90, which we employed in our previous              REFERENCES
+
+work,7 relatively higher HF/KE values were seen in       1. Yang D, Morris SF. Neurovascular anatomy of the rectus femoris mus-
+                                                            cle related to functioning muscle transfer. Plast Reconstr Surg 1999;
+proximal regions compared with middle and distal            104:102–106.
+                                                         2. Sung DH, Jung JY, Kim HD, Ha BJ, Ko YJ. Motor branch of the rec-
+regions (Fig. 4). This corresponds to the results of        tus femoris: anatomic location for selective motor branch block in
+our previous work.7 HF/KE values were not                   stiff-legged gait. Arch Phys Med Rehabil 2003;84:1028–1031.
+                                                         3. Hasselman CT, Best TM, Hughes CT, Martinez S, Garrett WE Jr. An
+changed by extension of the hip joint angle in any          explanation for various rectus femoris strain injuries using previously
+of the CHs except for 1 channel (CH13); however,            undescribed muscle architecture. Am J Sports Med 1995;23:493–499.
+                                                         4. Gyftopoulos S, Rosenberg ZS, Schweitzer ME, Bordalo-Rodrigues M.
+they were changed significantly by extension of the         Normal anatomy and strains of the deep musculotendinous junction
+knee joint angle in multiple CHs, except for the 3          of the proximal rectus femoris: MRI features. AJR Am J Roentgenol
+                                                            2008;190:W182–186.
+most distal channels (CH16–18) (Fig. 4). These           5. Akima H, Takahashi H, Kuno S, Katsuta S. Coactivation pattern in
+results suggest that the region-specific biomechani-        human quadriceps during isokinetic knee-extension by muscle func-
+                                                            tional MRI. Eur J Appl Physiol 2004;91:7–14.
+cal functional role within the RF muscle is not          6. Hagio S, Nagata K, Kouzaki M. Region specificity of rectus femoris
+altered by the hip joint angle, but it is altered by        muscle for force vectors in vivo. J Biomech 2012;45:179–182.
+
+Non-Uniform EMG Distribution                                                 MUSCLE & NERVE             November 2014         801
+ 7. Watanabe K, Kouzaki M, Moritani T. Task-dependent spatial distribu-   14. Dyhre-Poulsen P, Krogsgaard MR. Muscular reflexes elicited by elec-
+    tion of neural activation pattern in human rectus femoris muscle. J       trical stimulation of the anterior cruciate ligament in humans. J Appl
+    Electromyogr Kinesiol 2012;22:251–258.                                    Physiol 2000;89:2191–2195.
+ 8. Watanabe K, Kouzaki M, Moritani T. Region-specific myoelectric        15. Solomonow M, Krogsgaard M. Sensorimotor control of knee stability.
+    manifestations of fatigue in human rectus femoris muscle. Muscle          A review. Scand J Med Sci Sports 2001;11:64–80.
+    Nerve 2013;48:226–234.                                                16. Kouzaki M, Shinohara M, Fukunaga T. Decrease in maximal volun-
+ 9. Farina D, Merletti R, Enoka RM. The extraction of neural strategies       tary contraction by tonic vibration applied to a single synergist mus-
+    from the surface EMG. J Appl Physiol 2004;96:1486–1495.                   cle in humans. J Appl Physiol 2000;89:1420–1424.
+10. Farina D, Merletti R, Nazzaro M, Caruso I. Effect of joint angle on   17. Cordo PJ, Flores-Vieira C, Verschueren SM, Inglis JT, Gurfinkel V.
+    EMG variables in leg and thigh muscles. IEEE Eng Med Biol Mag             Position sensitivity of human muscle spindles: single afferent and
+    2001;20:62–71.                                                            population representations. J Neurophysiol 2002;87:1186–1195.
+11. Saitou K, Masuda T, Michikami D, Kojima R, Okada M. Innervation       18. Kokkorogiannis T. Somatic and intramuscular distribution of muscle
+    zones of the upper and lower limb muscles estimated by using multi-       spindles and their relation to muscular angiotypes. J Theor Biol
+    channel surface EMG. J Hum Ergol (Tokyo) 2000;29:35–52.                   2004;229:263–280.
+12. Herzog W, Hasler E, Abrahamse SK. A comparison of knee extensor       19. Barr KM, Miller AL, Chapin KB. Surface electromyography does not
+    strength curves obtained theoretically and experimentally. Med Sci        accurately reflect rectus femoris activity during gait: impact of speed
+    Sports Exerc 1991;23:108–114.                                             and crouch on vasti-to-rectus crosstalk. Gait Posture 2010;32:363–368.
+13. Bordalo-Rodrigues M, Rosenberg ZS. MR imaging of the proximal         20. Byrne CA, Lyons GM, Donnelly AE, O’Keeffe DT, Hermens H, Nene
+    rectus femoris musculotendinous unit. Magn Reson Imaging Clin N           A. Rectus femoris surface myoelectric signal cross-talk during static
+    Am 2005;13:717–725.                                                       contractions. J Electromyogr Kinesiol 2005;15:564–575.
+
+
+
+
+802    Non-Uniform EMG Distribution                                                                    MUSCLE & NERVE             November 2014
+

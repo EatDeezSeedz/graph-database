@@ -1,0 +1,352 @@
+                                                                                                                Physiological Reports ISSN 2051-817X
+ORIGINAL RESEARCH
+
+Voluntary activation and twitch potentiation of the elbow
+flexors across supinated, neutral, and pronated forearm
+orientations
+Sienna Kohn, Rowan R. Smart & Jennifer M. Jakobi*
+School of Health and Exercise Sciences, Healthy Exercise and Aging Lab Group, University of British Columbia Okanagan, Kelowna, British
+Columbia, Canada
+
+
+
+
+Keywords                                               Abstract
+Biceps brachii, contractile properties, force,
+strength.                                              Elbow flexion force depends on forearm orientation with supinated and neu-
+                                                       tral being stronger than pronated. The purpose of this study was to assess the
+Correspondence                                         influence of forearm orientation on voluntary activation (VA), postactivation
+Jennifer M. Jakobi, School of Health and               potentiation (PAP), and twitch properties. Eleven males (23  3 years) per-
+Exercise Sciences, Faculty of Health and               formed isometric elbow flexion maximal voluntary contractions (MVC) in
+Social Development, The University of British
+                                                       supinated, neutral, and pronated forearm orientations with supramaximal
+Columbia, ART 168, 1147 Research Road,
+Kelowna, BC V1V 1V7, Canada.
+                                                       stimulation to the biceps brachii muscle belly before, during, and after the
+Tel: 250 807 9884                                      MVC. MVC and VA were higher in supinated (213.6  49.6 N; 93.0  5.2%)
+Fax: 250 807 8085                                      and neutral (243.6  48.0 N; 96.1  3.2%) compared with pronated
+E-mail: jennifer.jakobi@ubc.ca                         (113.6  21.3 N; 70.9  20.4%) (P < 0.05), while PAP did not differ across
+                                                       the three orientations (71.6  42.2%) (P > 0.05). In the rested state, pronated
+Funding Information                                    peak tension (PT) was less compared with supinated (42%). In the potenti-
+Jennifer M. Jakobi received funding from the
+                                                       ated state, pronated PT was less than supinated (50%) and neutral (53%)
+Natural Sciences and Engineering Research
+Council of Canada (NSERC).
+                                                       (P < 0.05). Reduced strength in the pronated orientation is partially attributed
+                                                       to reduced drive; however, reductions in peak tension indicate that there also
+Received: 17 September 2017; Revised: 29               is a mechanical disadvantage when the forearm is placed into a pronated ori-
+November 2017; Accepted: 4 December                    entation, and this does not alter PAP.
+2017
+
+doi: 10.14814/phy2.13560
+
+Physiol Rep, 6 (1), 2018, e13560,
+https://doi.org/10.14814/phy2.13560
+
+
+
+
+                                                                                    2002; de Tombe et al. 2006; Miyamoto et al. 2010).
+Introduction
+                                                                                    Increased force capacity in the potentiated state also con-
+A maximal voluntary contraction (MVC) can act as a                                  tributes to faster twitch contractile times and rates, albeit
+conditioning stimulus to produce an acute enhancement                               somewhat controversial faster relaxation times in whole
+of force, known as postactivation potentiation (PAP)                                human muscle (Hamada et al. 2000; Baudry and Ducha-
+(Vandervoort et al. 1983). The extent of PAP is depen-                              teau 2007; Baudry et al. 2008).
+dent on the amount of muscle activation, where higher                                  To ensure that the conditioning MVC is maximal in
+levels of activation increase force output and culminate in                         order to achieve high levels of PAP, the twitch interpola-
+greater PAP following the MVC through Ca2+-induced                                  tion technique can be applied to quantify the degree of
+phosphorylation of the myosin regulatory light chains                               voluntary activation (VA) (Allen et al. 1995; Jakobi and
+(Sweeny et al. 1993; Rassier and MacIntosh 2000; Sale                               Rice 2002). Greater MVC force output results in a smaller
+
+ª 2018 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                          2018 | Vol. 6 | Iss. 1 | e13560
+The Physiological Society and the American Physiological Society                                                                              Page 1
+This is an open access article under the terms of the Creative Commons Attribution License,
+which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+Position-Dependent Force Production                                                                                               S. Kohn et al.
+
+
+interpolated twitch and higher VA (Arampatzis et al.            feedback. Force signals were amplified (1009) (Coul-
+2007; Kooistra et al. 2007; Taylor 2009; Huang et al.           bourn Electronics, Allentown, PA), sampled at 2381 Hz
+2010). What remains unknown is whether position-                and converted from analog to digital using a Power 1401
+dependent force production of the elbow flexors, whereby        (Cambridge Electronic Design [CED], Cambridge, Eng-
+the pronated orientation is ~40% weaker than supinated          land), and stored for offline analysis using Spike 2 version
+and neutral (Brown et al. 2010), is due to reductions in        7 (CED, Cambridge, England). Two 4 cm 9 4 cm
+VA of the biceps brachii in pronated, and whether PAP           carbon–carbon stimulation electrodes coated in electrode
+occurs in the pronated orientation when MVC is consid-          gel were placed proximally and distally on the biceps bra-
+erably reduced. Therefore, the purpose of this study was        chii (BB) muscle belly to evoke supramaximal twitches.
+to quantify VA, PAP, and twitch contractile properties
+across supinated, neutral, and pronated forearm orienta-
+                                                                Protocol
+tions. It was hypothesized that the pronated orientation
+would have reduced VA, PAP, and twitch properties com-          Supramaximal stimulation intensity was established for
+pared to supinated and neutral.                                 the supinated, neutral, and pronated orientations in a
+                                                                randomized order. Stimulation (100 lsec pulse width,
+                                                                DS7AH, Digitimer Ltd., Welwyn Garden City, UK) to
+Materials and Methods
+                                                                the BB was progressively increased until a plateau in
+                                                                twitch force amplitude occurred and then increased a
+Participants
+                                                                further 10% to achieve supramaximal intensity. In ran-
+Eleven right-hand dominant males (23  3 years,                 domized order, participants performed two to three
+175.6  8.2 cm, 72.9  7.5 kg) volunteered to participate       5-sec MVCs in each orientation with twitches applied at
+in this study. Ethics approval was gained from the              rest, during the MVC, and post-MVC at 1-sec intervals
+University of British Columbia Okanagan Behavioural             to measure VA and induce PAP. A rest period of
+Research Ethics Board, and informed written consent was         2–3 min between each contraction was given and
+obtained from each participant prior to commencing the          3–5 min rest between orientations. The highest MVC
+study. Exclusion criteria included: (1) active tendinopa-       value of the 2–3 trials was used for subsequent force
+thy, (2) injury/orthopedic surgery to right arm or shoul-       and twitch analysis.
+der in the prior 6 months, (3) systemic diseases affecting
+collagenous tissue, (4) participation in high levels of
+                                                                Data analysis
+upper body strength training, (5) history of training in
+fine motor tasks (e.g., musician), and/or (6) nerve dam-
+                                                                Force
+age to the right arm.
+                                                                VA during the MVCs was calculated using the twitch
+                                                                interpolation technique with the following formula: VA
+Experimental setup
+                                                                (%) = (1      [interpolated twitch/resting twitch]) 9 100
+Participants were seated upright in a custom dynamome-          (Allen et al. 1995; Jakobi and Rice 2002; Simpson et al.
+ter chair with knees and hips positioned and maintained         2016). Postactivation potentiation was calculated as the
+at 90°, the dominant (right) elbow was flexed to 110°           percentage increase in peak twitch torque from the resting
+(full extension being 180°) and placed into a supportive        (using the twitch directly prior to MVC) to potentiated
+mold that cupped the elbow into a constant position. The        twitch.
+shoulder was abducted 10° and flexed forward at 15° for
+each orientation. The forearm apparatus through consis-
+                                                                Twitch properties
+tent positioning of the elbow with the hand gripping the
+manipulandum was maintained constant across supinated,          Twitch properties of peak tension, time to peak tension
+neutral, and pronated orientations. The force transducer        (TPT), half relaxation time (HRT), peak rise, and peak
+was located immediately below the hand (MLP-150 linear          fall were measured. Peak tension was calculated as the
+force transducer, 68 kg, 266 V sensitivity, Transducer          highest tension (peak) of the twitch from the baseline.
+Techniques, Temecula, CA). As previously described              TPT was calculated as time (msec) from the onset of the
+(Harwood et al. 2010), the forearm was placed into a            evoked force to the peak tension of the twitch and HRT
+supinated, neutral, or pronated orientation by rotating         as the time for the twitch to relax half of maximal ampli-
+the manipulandum in the direction of the desired orien-         tude (msec). Peak rise (N/msec) and peak fall (N/msec)
+tation. Force was displayed in real time on a 52-cm mon-        were measured as the first derivative of the force signal
+itor located 1 m in front of the participant for visual         and reported for the rate of rise and fall of the twitch.
+
+
+
+2018 | Vol. 6 | Iss. 1 | e13560                        ª 2018 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 2                                                                          The Physiological Society and the American Physiological Society
+S. Kohn et al.                                                                                                        Position-Dependent Force Production
+
+
+                                                                                       orientations, respectively. These data indicate that there
+Statistical analysis
+                                                                                       was sufficient time to allow dissipation of potentiation
+Using Statistical Package for Social Sciences (SPSS) ver-                              between contractions.
+sion 24 (IBM, Armonk, NY), a one-way ANOVA was                                            There was a time by orientation interaction observed
+used to compare VA, PAP, and MVC across supinated,                                     for twitch contractile properties of peak tension
+neutral, and pronated forearm orientations. To assess                                  (F = 6.98, P < 0.01), TPT (F = 8.078, P < 0.01), peak
+contractile properties, a 2 (time: resting twitch, potenti-                            rate of rise (F = 3.54, P < 0.05), and peak rate of fall
+ated twitch) 9 3 (orientation: supinated, neutral, and                                 (F = 3.48, P < 0.05) (Table 1). HRT had no time by ori-
+pronated) repeated measures ANOVA was applied. Signif-                                 entation interaction (F = 0.78, P > 0.05) or main effects
+icant interactions were assessed with a Tukey’s post hoc                               of time (F = 0.89, P > 0.05) or orientation (F = 2.74,
+test, and the alpha level was set at P < 0.05. Values are                              P > 0.05). Resting twitch peak tension was less in pro-
+reported as mean  SD.                                                                 nated compared with supinated (P < 0.05), and potenti-
+                                                                                       ated twitch peak tension was less in pronated compared
+                                                                                       with supinated and neutral (P < 0.05). Time to peak ten-
+Results
+                                                                                       sion decreased from the resting to potentiated twitch in
+In the pronated orientation, MVC (113.6  21.3 N) and                                  pronated (P < 0.05). TPT of the resting twitch was less in
+VA (70.9  20.4%) were less compared with supinated                                    supinated compared to pronated (P < 0.05). Peak rise
+(213.6  49.6 N;        93.0  5.2%)       and      neutral                            and fall of the potentiated twitch were slower in pronated
+(243.6  48.0 N; 96.1  3.2%) (P < 0.05), which did not                                compared to neutral (P < 0.05). Peak fall was faster in
+differ from each other (P > 0.05). Twitch potentiation                                 the potentiated twitch compared to the resting twitch for
+occurred in all orientations, but did not differ across                                supinated and neutral (P < 0.05), and peak fall was
+supinated (70.7  33.8%), neutral (86.1  40.4%), and                                  slower in pronated compared with supinated and neutral
+pronated (58.1  52.3%) (P > 0.05) orientations. To                                    for the potentiated twitch (P < 0.05) (Table 1).
+ensure that differences did not arise from the contractions
+inducing potentiation in the resting twitches, they were
+                                                                                       Discussion
+compared within an orientation across the three contrac-
+tions. The amplitude of the resting twitch peak tensions                               In this study, MVC, VA, PAP, and twitch contractile
+were highly correlated within supinated (R2 = 0.90), neu-                              properties of the BB were measured in the supinated,
+tral (R2 = 0.92), and pronated (R2 = 0.90) orientations.                               neutral, and pronated forearm orientations for isometric
+To further explore this, the percent difference was calcu-                             elbow flexion. In support of the hypothesis, MVC and
+lated as [% diff = ([first resting twitch    second resting                            VA were less in the pronated orientation compared with
+twitch]/second resting twitch) 9 100] between resting                                  supinated and neutral, which did not differ. However, the
+twitches prior to the first MVC, second MVC, and third                                 nonsignificant difference in PAP across the three orienta-
+MVC. The resting twitches were similar between the first                               tions was not expected. Peak tension was less in pronated
+and second (1%, 0.05%, 0.4%), first to third ( 3.4%,                                   compared with supinated at rest and less than both supi-
+1.8%, 3.0%), and second to third ( 4.1%, 1.9%, 2.7%)                                   nated and neutral in the potentiated state. Overall, poten-
+twitches in the supinated, neutral, and pronated                                       tiated twitches were higher and had a faster peak rise and
+
+
+
+  Table 1. Twitch contractile properties of resting and potentiated twitches across the three forearm orientations.
+
+                                            Supinated                                         Neutral                                Pronated
+
+  Twitch properties               Resting              Potentiated               Resting                Potentiated        Resting              Potentiated
+
+  Peak tension (N)              22.1  7.7             34.9  8.11             18.2  5.7               32.6  8.11      14.9  6.43        20.9  6.2132
+  TPT (msec)                    41.3  6.6             42.8  7.7              46.2  13.6              42.1  11.8      59.4  12.83       40.5  11.71
+  HRT (msec)                    42.2  23.0            37.3  21.6             50.9  13.4              43.1  17.6      55.4  12.0        58.3  14.6
+  Peak rise (N/msec)             1.3  0.6              2.0  0.91              1.7  1.1                2.7  1.21       1.0  0.5          1.5  0.712
+  Peak fall (N/msec)             0.8  0.3              1.4  0.41              0.9  0.6                1.5  0.91       0.5  0.2          0.6  0.332
+
+  TPT, time to peak tension; HRT, half relaxation time; N, Newton; significant at alpha 0.05.
+  1
+    Differs from resting twitch.
+  2
+    Differs from neutral orientation in same condition.
+  3
+    Differs from supinated orientation in same condition.
+
+
+
+
+ª 2018 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                               2018 | Vol. 6 | Iss. 1 | e13560
+The Physiological Society and the American Physiological Society                                                                                   Page 3
+Position-Dependent Force Production                                                                                                 S. Kohn et al.
+
+
+peak fall compared with the resting twitch. Force produc-         induce PAP, albeit VA is substantially lower. As force was
+tion in the pronated orientation is reduced and this likely       less in the involuntary contraction, as highlighted in the
+arises from reductions in descending drive as suggested           ~70% reduction in peak tension in pronated relative to
+by the decline in VA. As well, reduced force in pronated          neutral and supinated orientations, there are factors
+likely occurs from a mechanical disadvantage that is              beyond descending drive inhibiting force production in
+induced through rotation of the forearm; evident in the           the pronated orientation.
+decrease in peak tension, in the pronated position.                  Muscle length has been shown to influence VA, with
+   We have previously reported that MVC is lower in pro-          VA being greater at short compared with long muscle
+nated compared with supinated and neutral orientations            lengths (Suter and Herzog 1997; Kluka et al. 2015). As
+(Brown et al. 2010), and this study suggests that this            elbow flexion angle increases, the length of the BB
+reduction in maximal strength occurs through a decrease           increases (Ismail and Ranatunga 1978; Doheny et al.
+in descending drive to the BB in the pronated orientation.        2008). Due to the insertion of the distal BB tendon, as
+This is marked by the reduced VA in pronated orienta-             the forearm is rotated into the pronated orientation and
+tion and supported by previous observations of lower              the radius is rotated medially (Koch and Tillman 1995),
+motor evoked potentials in pronated compared with supi-           there is likely a lengthening of the muscle as the tendon
+nated and neutral orientations (Mogk et al. 2014; Forman          articulates over the radial head. Thus, rotation of the
+et al. 2016; Nuzzo et al. 2016). Voluntary activation cal-        forearm into pronation might impart lengthening that
+culated using the twitch interpolation technique does not         may coincide with moving along the force–length curve
+offer insight into where descending drive to the motoneu-         and culminate in reduced force production in the pro-
+rons fails or the input–output relationship of the                nated orientation. The length of the BB was not recorded
+motoneuron pool (Herbert and Gandevia 1999; Kooistra              during contraction due to the limitations of gaining ultra-
+et al. 2007; Taylor 2009); however, it does offer evidence        sound images with stimulation pads placed over the BB,
+that drive to the BB is reduced in the pronated orienta-          thus we can only speculate on differences in muscle
+tion. This decrease in drive might arise from central             length between orientations. Torque production is depen-
+sources (Mogk et al. 2014; Forman et al. 2016; Nuzzo              dent on the muscle’s moment arm and prior studies have
+et al. 2016), but peripheral sources, such as inhibition          shown increases in BB moment arm up to elbow flexion
+from the brachioradialis (Barry et al. 2008) leading to           angles of 100° (Murray et al. 1995), and with increasing
+increased motor unit recruitment thresholds in the short          force (Akagi et al. 2012). However, the lever arm, due to
+head of the BB for the pronated forearm orientation               the fixed position of the forearm and elbow joint,
+(Harwood et al. 2010), should not be ignored. The poten-          remained identical across orientations. Previously
+tial contribution of peripheral sources to reduced force of       reported moment arms of the BB were also found to be
+the pronated orientation is supported by lower peak ten-          similar across supinated, neutral, and pronated forearm
+sion of the resting and potentiated twitches in the electri-      orientations at 110° of flexion (Murray et al. 1995).
+cally evoked contractions.                                        Although it is unlikely that moment arm is a key contrib-
+   The similar level of PAP in pronated relative to neutral       utor to reduced force in the pronation position, future
+and supinated orientations was not expected, as we                studies should quantify the combined influence of BB
+hypothesized that the reduced MVC would result in lower           muscle length and tendon moment arm across forearm
+levels of PAP in pronated. Despite the lower peak tension         orientations.
+of the twitches in the pronated orientation, the relative            In conclusion, greater elbow flexor strength in supi-
+increase in peak tension from resting to potentiated was          nated and neutral orientations compared with pronated
+similar to that of supinated and neutral. The lack of sig-        likely arises from both reductions in descending drive and
+nificant differences in PAP across orientations might arise       mechanics of force production. This might be consequen-
+from the high level of variability within each orientation        tial to position-dependent alterations in muscle and ten-
+as seen by the SD of supinated (33.8%), neutral (40.4%),          don. To tease out these mechanical and neural effects,
+and pronated (52.3%) orientations. Although the variabil-         and ascertain the location of altered drive, transcranial
+ity was high, it aligns with the large range of PAP reports       magnetic stimulation and transmastoid stimulation
+in the literature (Baudry and Duchateau 2007; Hamada              should be used for identification of cortical and spinal
+et al. 2000; : Vandervoort et al. 1983). Despite the lower        excitability in combination with ultrasonography to mea-
+VA and MVC in the pronated orientation, this did not              sure muscle and tendon mechanics.
+affect the ability of the twitches to potentiate. This sug-
+gests that the mechanisms that induce PAP through phos-
+                                                                  Conflict of Interest
+phorylation of the regulatory light chains are unaffected
+by forearm orientation and that MVC is sufficient to              The authors declare no conflict of interest.
+
+
+
+2018 | Vol. 6 | Iss. 1 | e13560                          ª 2018 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 4                                                                            The Physiological Society and the American Physiological Society
+S. Kohn et al.                                                                                                    Position-Dependent Force Production
+
+
+                                                                                       Herbert, R. D., and S. C. Gandevia. 1999. Twitch interpolation
+References
+                                                                                         in human muscles: mechanisms and implications for
+Akagi, R., S. Iwanuma, H. Kanehisa, T. Yanai, and Y.                                     measurement of voluntary activation. J. Appl. Physiol.
+  Kawakami. 2012. In vivo measurements of moment arm                                     82:2271–2283.
+  lengths of three elbow flexors at rest and during isometric                          Huang, Y., M. Hsu, C. Lin, S. Wei, and Y. Chang. 2010. The
+  contractions. J. Appl. Biomech. 28:63–69. https://doi.org/10.                          non-linear relationship between muscle voluntary activation
+  1123/jab.28.1.63.                                                                      level and voluntary force measured by the interpolated
+Allen, G. M., S. C. Gandevia, and D. K. McKenzie. 1995.                                  twitch technique. Sensors 10:796–807. https://doi.org/10.
+  Reliability of measurements of muscle strength and                                     3390/s100100796.
+  voluntary activation using twitch interpolation. Muscle                              Ismail, H. M., and K. W. Ranatunga. 1978. Isometric tension
+  Nerve 18:567–681. https://doi.org/10.1002/mus.880180605.                               development in a human skeletal muscle in relation to its
+Arampatzis, A., L. Mademli, G. De Monte, and M. Walsh.                                   working range of movement: the length-tension relation of
+  2007. Changes in fascicle length from rest to maximal                                  biceps brachii muscle. Exp. Neurol. 62:595–604.
+  voluntary contraction affect the assessment of voluntary                             Jakobi, J. M., and C. L. Rice. 2002. Voluntary activation varies
+  activation. J. Biomech. 40:3193–3200. https://doi.org/10.                              with age and muscle group. J. Appl. Physiol. 93:457–462.
+  1016/j.jbiomech.2007.04.011.                                                           https://doi.org/10.1152/japplphysiol.00012.2002.
+Barry, B. K., Z. A. Riley, M. A. Pascoe, and R. M. Enoka.                              Kluka, V., V. Martin, S. G. Vincencio, A. Jegu, C. Cardenoux,
+  2008. A spinal pathway between synergists can modulate                                 C. Morio, et al. 2015. Effect of muscle length on voluntary
+  activity in human elbow flexor muscles. Exp. Brain Res.                                activation level in children and adults. Med. Sci. Sports
+  190:347–359. https://doi.org/10.1007/s00221-008-1479-5.                                Exerc. 47:718–724. https://doi.org/10.1249/MSS.
+Baudry, S., and J. Duchateau. 2007. Postactivation potentiation                          0000000000000463.
+  in a human muscle: effect on the load-velocity relation of                           Koch, S., and B. Tillman. 1995. The distal tendon of the biceps
+  tetanic and voluntary shortening contractions. J. Appl.                                brachii: structure and correlations. Ann. Anat. 177:467–474.
+  Physiol. 103:1318–1325. https://doi.org/10.1152/japplphysiol.                          https://doi.org/10.1016/S0940-9602(11)80155-X.
+  00403.2007.                                                                          Kooistra, R. D., C. J. de Ruiter, and A. de Haan. 2007.
+Baudry, S., M. Klass, and J. Duchateau. 2008. Postactivation                             Conventionally assessed voluntary activation does not
+  potentiation of short tetanic contractions is differently                              represent relative voluntary torque production. Eur. J. Appl.
+  influenced by stimulation frequency in young and elderly                               Physiol. 100:309–320. https://doi.org/10.1007/s00721-007-
+  adults. Eur. J. Appl. Physiol. 103:449–459. https://doi.org/10.                        0425-8.
+  1007/s00421-008-0739-1.                                                              Miyamoto, N., N. Mitsukawa, N. Sugisaki, T. Fukunaga, and
+Brown, R. E., D. E. Edwards, and J. M. Jakobi. 2010. Sex                                 Y. Kawakami. 2010. Joint angle dependence of intermuscle
+  differences in force steadiness in three positions of the                              difference in postactivation potentiation. Muscle Nerve
+  forearm. Eur. J. Appl. Physiol. 110:1251–1257. https://doi.                            41:519–523https://doi.org/10.1002/mus.21529
+  org/10.1007/s00421-010-1600-x.                                                       Mogk, J. P. M., L. M. Rogers, W. M. Murray, E. J. Perreault,
+Doheny, E. P., M. M. Lowery, D. P. FitzPatrick, and M. J.                                and J. W. Stinear. 2014. Corticomotor excitability of arm
+  O’Malley. 2008. Effect of elbow joint angle on force-EMG                               muscles modulates according to static position and
+  relationships in human elbow flexor and extensor muscles.                              orientation of the upper limb. Clin. Neurophysiol.
+  J. Electromyogr. Kinesiol. 18:760–770. https://doi.org/10.                             125:2046–2054. https://doi.org/10.1016/j.clinph.2014.02.007.
+  1016/j.jelekin.2007.03.006.                                                          Murray, W. M., S. L. Delp, and T. S. Buchanan. 1995.
+Forman, D. A., M. Richards, G. N. Forman, M. W. R. Holmes,                               Variation of muscle moment arms with elbow and forearm
+  and K. E. Power. 2016. Changes in corticospinal and spinal                             position. J. Biomech. 28:513–525. https://doi.org/10.1016/
+  excitability to the biceps brachii with a neutral vs. pronated                         0021-9290(94)00114-J.
+  handgrip position differ between arm cycling and tonic                               Nuzzo, J. L., G. S. Trajano, B. K. Barry, S. C. Gandevia, and J.
+  elbow flexion. Front. Human Neurosci. 10:1–12. https://doi.                            L. Taylor. 2016. Arm posture-dependent changes in
+  org/10.3389/fnhum.2016.00543.                                                          corticospinal excitability are largely spinal in origin. J.
+Hamada, T., D. G. Sale, J. D. MacDougall, and M. A.                                      Neurophysiol. 115:2076–2082. https://doi.org/10.1152/jn.
+  Tarnopolsky. 2000. Postactivation potentiation, fiber type,                            00885.2015.
+  and twitch contraction time in human knee extensor                                   Rassier, D. E., and B. R. MacIntosh. 2000. Coexistence of
+  muscles. J. Appl. Physiol. 88:2131–2137.                                               potentiation and fatigue in skeletal muscle. Braz. J. Med.
+Harwood, B., D. L. Edwards, and J. M. Jakobi. 2010. Age                                  Biol. Res. 33:409–508. https://doi.org/10.1590/S0100-
+  independent and position-dependent alterations in motor                                879X2000000500003
+  unit activity of the biceps brachii. Eur. J. Appl. Physiol.                          Sale, D. G. 2002. Post-activation potentiation: role in human
+  110:27–38. https://doi.org/10.1007/s00421-010-1438-2.                                  performance. Exerc. Sport Sci. Rev. 30:138–143.
+
+
+
+
+ª 2018 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of                           2018 | Vol. 6 | Iss. 1 | e13560
+The Physiological Society and the American Physiological Society                                                                               Page 5
+Position-Dependent Force Production                                                                                                    S. Kohn et al.
+
+
+Simpson, C. L., S. Arefin, R. R. Smart, B. Hardwood, and J.          Taylor, J. L. 2009. Counterpoint: the interpolated twitch does
+  M. Jakobi. 2016. Duration of fascicle shortening is affected         not provide a valid measure of the voluntary activation of a
+  by muscle architecture and sex. Eur. J. Appl. Physiol. 116           muscle. J. Appl. Physiol. 107:354–355. https://doi.org/10.
+  (11–12):2237–2245. https://doi.org/10.1007/s00421-016-               1152/japplphysiol.91220.2008a.
+  3476-x.                                                            de Tombe, P. P., A. Belus, N. Piroddi, B. Scellini, J. S. Walker,
+Suter, E., and W. Herzog. 1997. Extent of muscle                       A. F. Martin, et al. 2006. Myofilament calcium sensitivity
+  inhibition as a function of knee angle. J. Electromyogr.             does not affect cross-bridge activation-relaxation kinetics.
+  Kinesiol. 7:123–130. https://doi.org/10.1016/S1050-6411(96)          Am. J. Regul. Integr. Comp. Physiol. 209:R1126–R1136.
+  00028-4.                                                             https://doi.org/10.1152/ajpregu.00630.
+Sweeny, H. L., B. F. Bowman, and J. T. Stull. 1993.                  Vandervoort, A. A., J. Quinilan, and A. J. McComas. 1983.
+  Myosin light chain phosphorylation in vertebrae striated             Twitch potentiation after voluntary contraction. Exp.
+  muscle: regulation and function. Am. J. Physiol. 264:                Neurol. 81:141–152. https://doi.org/10.1016/0014-4886(83)
+  C1085–C1095.                                                         90163-2.
+
+
+
+
+2018 | Vol. 6 | Iss. 1 | e13560                             ª 2018 The Authors. Physiological Reports published by Wiley Periodicals, Inc. on behalf of
+Page 6                                                                               The Physiological Society and the American Physiological Society
+

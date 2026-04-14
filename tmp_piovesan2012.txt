@@ -1,0 +1,610 @@
+                                                                                                                      Genetics & Molecular Biology 87
+
+
+
+Eﬀect of Nandrolone Decanoate on Skeletal Muscle
+Repair
+
+
+
+Authors                          R. F. Piovesan1, K. P. S. Fernandes1, A. N. Alves1, V. P. Teixeira1, J. A. Silva Junior1, M. D. Martins2,
+                                 S. K. Bussadori1, R. Albertini1, R. A. Mesquita-Ferrari1
+                                 1
+Aﬃliations                           Mestrado em Ciências da Reabilitação, Universidade Nove de Julho, São Paulo, Brazil
+                                 2
+                                     Patologia Bucal Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil
+
+
+
+
+                                                                                                                                                                 This document was downloaded for personal use only. Unauthorized distribution is strictly prohibited.
+Key words                        Abstract                                                          real-time PCR as well as morphological analy-
+●
+▶ muscle injury
+                                 ▼                                                                 sis using the hematoxylin-eosin assay. There
+●
+▶ cryoinjury
+                                 This study analyzed the eﬀect of nandrolone                       was a significant increase in MyoD mRNA after
+●
+▶ nandrolone decanoate
+                                 decanoate (ND) on muscle repair and the                           7 days and in myogenin mRNA after 21 days in
+●
+▶ MyoD
+
+●
+▶ myogenin                       expression of myogenic regulatory factors fol-                    the cryoinjured ND group in comparison to other
+                                 lowing cryoinjury in rat skeletal muscle. Adult                   groups in the same period. The morphological
+                                 male Wistar rats were randomly divided into 4                     analysis revealed no edema or myonecrosis after
+                                 groups: control group, sham group, cryoinjured                    7 days as well as no edema or inflammatory infil-
+                                 group treated with ND and non-injured group                       trate after 14 days in the cryoinjured ND group.
+                                 treated with ND. Treatment consisted of sub-                      In conclusion the anabolic steroid nandrolone
+                                 cutaneous injections of ND (5 mg/kg) twice a                      decanoate can modulate the muscle repair proc-
+                                 week. After sacrifice, the tibialis anterior muscle               ess in rats following cryoinjury by influencing
+                                 was removed for the isolation of total RNA and                    the expression of regulatory myogenic factors
+                                 analysis of myogenic regulatory factors using                     and phases of muscle repair.
+
+
+
+                                 Introduction                                                      satellite cell activation and proliferation, whereas
+                                 ▼                                                                 myogenin reflects terminal muscle cell diﬀeren-
+                                 Skeletal muscle has a considerable ability to                     tiation [25, 28, 33, 37, 38]. Alterations in the
+                                 adapt to physiological conditions, such as post-                  expression of both MRFs and other cell cycle-
+accepted after revision          natal growth, exercise training and stretching as                 regulating proteins can alter the ability of skele-
+April 02, 2012
+                                 well as repair following injury due to a direct                   tal muscle to regenerate following injury [28].
+                                 trauma (e. g., lacerations and bruises) or indirect               Moreover, the deletion or inhibition of MyoD
+Bibliography
+                                 causes, such as ischemia and neurological dys-                    expression results in the downregulation of
+DOI http://dx.doi.org/
+10.1055/s-0032-1311652           function [5, 10, 31]. The enhancement of muscle                   M-cadherin, which is a critical protein involved
+Published online:                regeneration and prevention of fibrosis are the                   in cell adhesion and myoblast fusion in skeletal
+July 12, 2012                    main objectives in improving muscle healing fol-                  muscle, and myogenin knockout results in severe
+Int J Sports Med 2013; 34:       lowing injury [11, 19].                                           skeletal muscle deficiency due to the inability of
+87–92 © Georg Thieme             After an injury, the muscle begins a repair proc-                 skeletal myoblasts to fuse and form mature
+Verlag KG Stuttgart · New York
+                                 ess similar to myogenesis; however, the cells                     myofibers [28].
+ISSN 0172-4622
+                                 involved are satellite cells rather than myogenic                 Anabolic androgenic steroids are commonly used
+                                 progenitor cells [10, 31]. Following activation,                  to aﬀect muscle mass and markers of muscle
+Correspondence
+Dr. Raquel Agnelli Mesquita-     satellite cells undergo a series of stages involving              growth. Nandrolone decanoate (ND) is a deriva-
+Ferrari                          proliferation, diﬀerentiation and myoblast fusion                 tive of testosterone, an anabolic steroid present
+Mestrado em Ciências da          in the myofibers to repair muscle damage or con-                  in small amounts in the human body, and is usu-
+Reabilitação                     stitute a new muscle fiber [9, 15, 18, 21, 22, 24, 27,            ally marketed as Deca-Durabolin. Nandrolone
+Universidade Nove de Julho       28]. Therefore, satellite cells are quiescent myob-               binds to the androgen receptor to a greater extent
+Av. Francisco Matarazzo
+                                 lasts that are critical to muscle regeneration.                   than testosterone, but has a lesser overall eﬀect
+612, 05001-100, São Paulo
+Brazil
+                                 During each stage of the repair process, these                    on muscle hypertrophy and there is the possibil-
+Tel.: +55/11/3665 9325           cells express distinct myogenic regulatory factors                ity that the increase in the expression of andro-
+Fax: +55/11/3665 9325            (MRFs), such as MyoD, myf-5, myogenin and                         gen receptors is important to the adaptation and
+raquel.mesquita@gmail.com        MRF4. Myf5, MyoD and MRF4 are associated with                     constitution of muscle fibers, possibly through
+
+
+
+                                                               Piovesan RF et al. Nandrolone decanoate and myogenic factors … Int J Sports Med 2013; 34: 87–92
+88 Genetics & Molecular Biology
+
+
+   the protein regulation of the cell cycle and activity of satellite               and the right side served as the control. The wounds were closed
+   cells [28]. The eﬀect of exogenous testosterone on muscle regen-                 with polyamide sutures and the animals were kept for several
+   eration has been investigated through diﬀerent types of muscle                   hours on a warm plate (37 °C) until they had recovered from the
+   injury.                                                                          eﬀects of the anesthetic in order to prevent hypothermia.
+   An analysis of the eﬀects of ND on the extensor digitorum longus
+   (EDL) and soleus muscles following myotoxic injury revealed an                   ND treatment
+   increase in mass of the soleus muscle as well as a decrease in the               The animals received either Deca-Durabolin® (nandrolone
+   relative amount of fast myosin heavy chain protein in regenerat-                 decanoate; Organon do Brasil, São Paulo, Brazil) or the vehicle
+   ing EDL muscle. Furthermore, following a contusion injury in the                 only (peanut oil plus benzyl alcohol (1:1.5). Doses of 5 mg/kg of
+   gastrocnemius muscles, ND was found to induce an increase in                     the body mass (supraphysiological dose) were injected subcuta-
+   strength in treated animals after 14 days [26]. Another study                    neously in the back of the rats twice a week. This dosage is simi-
+   analyzed the tibialis anterior muscle following injury induced by                lar to that frequently used by athletes [27]. Treatment began 1 h
+   a myotoxin (bupivacaine) and found that ND caused an increase                    after the cryoinjury procedure.
+   in the incidence of small-diameter and large-diameter fibers                     After the experimental period of each group, the animal was
+   after 14 and 28 days, respectively [8]. However, a number of                     sacrificed with an overdose of anesthetics (ketamine and xyla-
+
+
+
+
+                                                                                                                                                           This document was downloaded for personal use only. Unauthorized distribution is strictly prohibited.
+   questions remain regarding the role of testosterone in muscle                    zine (1:2)). The left and right TA muscles were removed, weighed,
+   regeneration, which depends on the type of injury inflicted, the                 and immediately frozen in liquid nitrogen-cooled isopentane
+   outcome variables used to assess regeneration and the type of                    and stored in liquid nitrogen.
+   muscle examined [26, 36].
+   The aim of the present study was to evaluate the eﬀects of the                   Total RNA isolation
+   anabolic steroid nandrolone decanoate on the skeletal muscle                     Frozen TA muscle tissue was homogenized and total RNA was
+   repair process and on the expression of the myogenic regulatory                  isolated using cold Trizol Reagent (Invitrogen, Carlsbad, CA,
+   factors MyoD and myogenin following cryoinjury.                                  USA), following the manufacturer’s instructions. Total RNA was
+                                                                                    quantified by spectrophotometry and RNA samples were treated
+                                                                                    with DNAse (Invitrogen Carlsbad, USA) to avoid contamination
+   Methods                                                                          with genomic DNA. All solutions were prepared with 0.01 % die-
+   ▼                                                                                thyl pyrocarbonate-treated water (DEPC, Sigma, USA), while
+   The experimental protocols used in this study were in compli-                    glassware and plasticware were treated against RNase using
+   ance with the principles of laboratory animal care formulated by                 standard procedures.
+   the Brazilian College of Animal Experimentation (COBEA) and
+   with the ethical standards of the journal [17] and received                      cDNA synthesis and real-time PCR
+   approval from the Ethics Committee of the Universidade Nove                      One microgram of total RNA was used for cDNA synthesis and
+   de Julho (São Paulo, SP, Brazil) under protocol number: 12/2009.                 real-time polymerase chain reaction (PCR) analysis of gene
+   Adult male Wistar rats (n = 100) weighing 230 ± 25.45 g at the                   expression. Contaminated DNA was removed using DNase I (Inv-
+   beginning of the procedure were maintained under controlled                      itrogen, Brazil) at a concentration of 1 unit/μg RNA in the pres-
+   room temperature (22 °C) and relative humidity (40 %), with a                    ence of 20 mM Tris-HCl, pH 8.4, containing 2 mM MgCl2, for
+   12-h night/day cycle. All animals had free access to a solid ration              15 min at 37 °C, followed by incubation at 95 °C for 5 min for
+   and water before and during the experimental period.                             enzyme inactivation. Reverse transcription (RT) was carried out
+   The animals were randomly divided into 4 groups: control with-                   in a 200-μl reaction in the presence of 50 mM Tris-HCl, pH 8.3,
+   out injury (n = 10); sham group – only surgical incision and                     3 mM MgCl2, 10 mM dithiothreitol, 0.5 mM dNTPs and 50 ng of
+   exposure of the tibialis anterior (TA) muscle (n = 10); cryoinjured              random primers with 200 units of Moloney murine leukemia
+   group treated with nandrolone decanoate or vehicle (peanut oil                   virus-reverse transcriptase (Invitrogen, Brazil). The reaction
+   plus benzyl alcohol) (n = 40); and non-injured group treated                     conditions were 20 °C for 10 min, 42 °C for 45 min and 95 °C for
+   with nandrolone decanoate or vehicle (peanut oil plus benzyl                     5 min.
+   alcohol) (n = 40). The control group was sacrificed on Day 1 after               Real-time PCR was carried out using the SYBRGreen kit (Applied
+   beginning the experiment. The cryoinjured groups with and                        Biosystems, USA) in a 7000 Sequence Detection System (ABI Prism,
+   without treatment were analyzed on Days 1, 7, 14 and 21 follow-                  Applied Biosystems, Foster City, CA). The thermal cycling condi-
+   ing the injury procedure. Short-term muscle remodeling was                       tions were 50ºC for 2 min, 95ºC for 10 min, followed by 40 cycles at
+   evaluated on Days 1 and 7, whereas long-term muscle remode-                      95 °C for 15 s and 60 °C for 1 min. The experiments were performed
+   ling was evaluated on Days 14 and 21.                                            in triplicate for each datum point. MyoD and myogenin mRNA
+   The surgical procedures were performed based on those                            abundance was quantified as a relative value compared with an
+   described by Miyabara et al. [29] with the administration of                     internal reference (GAPDH), the abundance of which was believed
+   1 ml/kg of 1 % ketamine HCL (Dopalen, Vetbrands, Sao Paulo, Bra-                 not to change between the varying experimental conditions. The
+   zil) and 2 % xylazine (Anasedan, Vetbrands, Sao Paulo, Brazil).                  primers used for real-time PCR were as follows: GAPDH (Gen-
+   The TA muscle was surgically exposed and submitted to the cry-                   BankTM accession number NM 017008) sense 5′- TGCACCAC-
+   oinjury procedure, which consisted of the application of a round                 CAACTGCTTAGC -3′ and anti-sense GCCCCACGGCCATCA -3′;
+   metal probe (3 mm in diameter) that had been cooled in liquid                    MyoD [13] sense 5′ GGA GAC ATC CTC AAG CGA TGC and anti-
+   nitrogen to the surface of the exposed TA and maintaining it in                  sense AGC ACC TGG TAA ATC GGA TTG (product: 80 pb); Myo-
+   this position for 10 s. After the frozen muscle had thawed, the                  genin - sense 5′ACT ACC CAC CGT CCA TTC AC- 3′ and anti-sense
+   procedure was repeated on the same area for additional 10 s.                     3- TCG GGG CAC TCA CTG TCT CT -5 (product: 233 pb) (Genbank
+   The cryoinjured area was macroscopically identified as a firm,                   accession number M24393) [7, 16]. One microliter of RT reaction
+   white, disk-shaped region. Only the left TA muscle was injured                   was used for real-time PCR.
+
+
+   Piovesan RF et al. Nandrolone decanoate and myogenic factors … Int J Sports Med 2013; 34: 87–92
+                                                                                                             Genetics & Molecular Biology 89
+
+
+Quantitative values for MyoD, myogenin and GAPDH mRNA tran-              Quantitative morphological analysis
+scription were obtained from the threshold cycle number at               The qualitative morphological analysis revealed that the mus-
+which the increase in the signal associated with an exponential          cles in the control group exhibited a normal histological appear-
+growth of PCR products begins to be detected. Melting curves             ance, with the presence of fibers with peripheral nuclei and no
+were generated at the end of every run to ensure product uni-            signs of injury or inflammation (●  ▶ Fig. 3a). These results were
+
+formity. The relative target gene expression level was normalized        similar to those observed in the vehicle control group and ND
+on the basis of GAPDH expression as an endogenous RNA control.           control in all experimental periods.
+∆Ct values of the samples were determined by subtracting the             The sham group exhibited mild, predominantly mononuclear
+average Ct value of MyoD and myogenin mRNA from the average              inflammatory infiltration, few degenerated muscle cells (myonecro-
+Ct value of the internal control GAPDH. As it is uncommon to use         sis) and edema foci located on the surface of the surgically exposed
+∆Ct as a relative data due to this logarithmic characteristic, the       muscle.
+2-∆Ct parameter was used to express the relative expression data.        After one day, the cryoinjured group, cryoinjured group treated
+                                                                         with vehicle and cryoinjured group treated with ND exhibited
+Morphological analysis                                                   similar results, with marked edema between muscle fibers and
+The muscle samples (control and nandrolone decanoate/vehicle             mild infiltration of neutrophils and macrophages scattered
+
+
+
+
+                                                                                                                                                         This document was downloaded for personal use only. Unauthorized distribution is strictly prohibited.
+treated) were also used for morphological analysis. For this proce-      between the fibers, which were largely necrotic (myonecrosis)
+dure, TA muscles were immediately frozen in molten isopentane            (●
+                                                                          ▶ Fig. 3b).
+
+and stored in liquid nitrogen. Frozen specimens were cut into            After 7 days, the cryoinjured group and cryoinjured group
+10-μm cross sections with a cryostat (Leica CM3050, Nussloch,            treated with vehicle exhibited a reduction of inflammation,
+Germany). Tissue specimens were stained with hematoxylin-eosin           scarce myonecrosis and the emergence of a large number of
+for routine histological examination performed under conventional        new, immature muscle fibers (●   ▶ Fig. 3c). In the same period, the
+
+light microscopy (Zeiss Axioplan 2) by 2 calibrated examiners.           cryoinjured group treated with ND exhibited muscle fibers with
+The qualitative analysis of histological sections stained with HE        a greater degree of maturation as well as reduced edema and
+included a description of the stages of tissue repair, involving the     myonecrosis (●  ▶ Fig. 3d).
+
+presence and type of inflammatory infiltrate, edema, necrosis            After 14 days, the cryoinjured group, cryoinjured group treated
+and immature fibers. The semi-quantitative analysis involved             with vehicle and cryoinjured group treated with ND exhibited
+the rating of the inflammatory infiltrate, edema, necrosis and           similar morphological repair, with a reduction in edema and
+immature fibers as follows: absent (Grade 0), mild (Grade 1),            inflammatory infiltrate as well as the replacement of the entire
+moderate (Grade 2) and severe (Grade 3), considering mild to             injured area by muscle cells with a separated central nucleus,
+mean up to 25 %, moderate 25–50 % and severe more than 50 % of           denoting tissue renewal (●  ▶ Fig. 3e).
+
+the respective analyzed items in the fields examined [35].               At 21 days, the cryoinjured group, cryoinjured group treated
+                                                                         with vehicle and cryoinjured group treated with ND exhibited
+Statistical analysis                                                     muscle tissue with normal morphology, revealing complete
+MyoD and myogenin RNAm data are presented as mean ± stand-               repair with no inflammatory signs and rare cells with a central
+ard deviation (SD) values. Comparisons between groups were               nucleus (●▶ Fig. 3f).
+
+made using one-way analysis of variance (ANOVA). Tukey’s test
+was used to determine significant diﬀerences between experi-             Semi-quantitative morphological analysis
+mental groups. A p-value < 0.05 was considered statistically sig-        As expected, the semi-quantitative morphological analysis
+nificant. Data analysis was performed with the aid of the                revealed that the muscles in the control group exhibited a nor-
+GraphPad Prism 4.0 statistical software (GraphPad Software,              mal histological appearance, with the absence of inflammatory
+San Diego, CA, USA).                                                     aspects, edema, myonecrosis and new, immature muscle fibers
+                                                                         associated with repair after injury (● ▶ Fig. 4). The sham group
+
+                                                                         exhibited edema, myonecrosis and Grade 1 inflammatory infil-
+Results                                                                  tration, with no new, immature fibers (● ▶ Fig. 4a).
+
+▼                                                                        On Day 1, all cryoinjured groups exhibited edema, myonecrosis
+Expression of myogenic regulatory factors                                and moderate to intense inflammatory infiltration (●    ▶ Fig. 4a).
+
+One day following cryoinjury, no diﬀerences in MyoD mRNA                 After 7 days, no edema or myonecrosis was detected in the cry-
+were found between experimental groups. However, after 7                 oinjured group treated with ND, while the other cryoinjured
+days, there was a significant increase in MyoD mRNA in cryoin-           groups exhibited slight edema and myonecrosis. Inflammatory
+juried group treated with ND in comparison to the control, cry-          infiltrate was lesser in the group treated with ND (mild) in com-
+oinjury without ND and ND without injury groups in the same              parison to other groups (moderate). An intense degree of new,
+period (●▶ Fig. 1). At 14 and 21 days, no significant diﬀerences         immature fibers was identified in all groups in this period
+were found between groups and MyoD mRNA values were simi-                (●▶ Fig. 4b).
+
+lar to those on the Day 1 evaluation.                                    On Day 14, no edema or inflammatory infiltrate was found in the
+One day following cryoinjury, no significant diﬀerences in myo-          group treated with ND, unlike what occurred in the other groups
+genin mRNA were found between experimental groups. Likewise,             in the same period. No myonecrosis was observed in any group,
+no significant diﬀerences were found between groups on Days 7            whereas new, immature fibers were found in all groups. These
+and 14 and values were similar to those on the Day 1 evaluation.         fibers were present to a mild degree in the group treated with
+However, after 21 days, there was a significant increase in myo-         ND and a moderate degree in the cryoinjured group treated with
+genin mRNA expression in the cryoinjury group treated with ND in         vehicle (●▶ Fig. 4c).
+
+comparison to the control, cryoinjury without ND and ND without
+injury groups in the same period (●
+                                  ▶ Fig. 2).
+
+
+
+                                                       Piovesan RF et al. Nandrolone decanoate and myogenic factors … Int J Sports Med 2013; 34: 87–92
+90 Genetics & Molecular Biology
+
+
+                                                                                                        present study suggest that ND contributes favorably to the mus-
+                              1.0
+                                                                                                        cle repair process, as evidenced by the significant increase in the
+                              0.9                               *                                       expression of MyoD 7 days following injury in comparison to the
+                                                                                                        groups without the use of ND. MyoD is expressed in the early
+                              0.8
+                                                                                                        stages of the muscle repair process and is involved in the activa-
+                              0.7                                                                       tion of satellite cells [23, 28, 34, 37, 38].
+                              0.6                                                                       The findings of the present study corroborate those reported by
+            Arbitrary units
+
+
+
+
+                                                                                                        Souza et al. [32] who found that the use of this same anabolic
+                              0.5
+                                                                                                        steroid accelerated muscle regeneration and increased mRNA
+                              0.4                                                                       expression of MyoD in mice between 7–14 days, using an injury
+                                                                                                        model of myonecrosis caused by snake venom (Bothrops jarara-
+                              0.3
+                                                                                                        cussu). These results suggest that ND accelerates muscle regen-
+                              0.2                                                                       eration and indicate the involvement of MyoD in the muscle
+                                                                                                        repair process. However, Jin et al. [20] reported that immunohis-
+                              0.1
+                                                                                                        tochemistry analysis revealed that MyoD appeared after 18 h
+
+
+
+
+                                                                                                                                                                               This document was downloaded for personal use only. Unauthorized distribution is strictly prohibited.
+                                0                                                                       and reached its peak after 48 h following myonecrosis induced
+                                    1 day             7 days          14 days             21 days
+                                                      Experimental groups
+                                                                                                        by the administration of anesthesia (bupivacaine hydrochloride)
+                                            Control   Vehicle       Cryolesion +Vehicle                 in dystrophic rats, whereas myogenin remained unchanged in
+                                            Sham      ND            Cryolesion +ND                      the first 24 h and reached its peak expression after 72 h, confirm-
+                                                                                                        ing the expression of MyoD in the early stages and myogenin in
+    Fig. 1 MyoD mRNA analysis comparing control condition and injured                                   the later stages of the muscle repair process.
+    (cryoinjury) and non-injured groups with and without ND/vehicle; *sig-                              Moreover, 21 days following injury, treatment with nandrolone
+    nificant diﬀerence (p ≤ 0.05, ANOVA/Tukey).                                                         induced an increase of myogenin mRNA, which is directly related
+                                                                                                        to the myogenic diﬀerentiation of muscle cells [1, 28]. This find-
+                                                                                                        ing also could be related to the anabolic eﬀect of ND, since stud-
+                              2.5                                                                       ies have demonstrated that MyoD and myogenin mRNA levels
+                                                                                                        reflect myoblast proliferation and diﬀerentiation, respectively,
+                                                                                                        which contribute to hypertrophic muscle growth. Allouh and
+                                                                                                    *
+                              2.0                                                                       Rosser [2] found that nandrolone administration induced an
+                                                                                                        increase in the number of satellite cells per millimeter of fiber in
+                                                                                                        the pectoralis muscle and was associated with muscle fiber
+       Arbitrary units
+
+
+
+
+                              1.5                                                                       hypertrophy. Almeida et al. [3] analyzed the quantitative expres-
+                                                                                                        sion of myogenic regulatory factors MyoD and myogenin with
+                                                                                                        regard to hypertrophic and hyperplastic muscle growth mecha-
+                              1.0                                                                       nisms in pacu skeletal muscle and found that these transcription
+                                                                                                        factors contribute to hypertrophic muscle growth. In contrast,
+                                                                                                        Gentile et al. [14] found that treatment with testosterone or
+                              0.5
+                                                                                                        5a-dihydrotestosterone (DHT) induced no significant changes in
+                                                                                                        the RNA expression of MyoD, myogenin, monocyte nuclear fac-
+                                                                                                        tor or myostatin genes in aged castrated rats, but observed an
+                               0
+                                    1 day             7 days          14 days             21 days       increased expression of IGF1Ea and its splice variant MGF. How-
+                                                       Experimental groups                              ever, the anabolic eﬀect was evaluated in the soleus muscle
+                                            Control   Vehicle       Cryolesion +Vehicle                 without injury.
+                                            Sham      ND            Cryolesion +ND                      White et al. [36] also used ND during muscle repair, analyzing
+                                                                                                        the expression of IGF-1, a transforming growth factor that acts
+     Fig. 2 Myogenin mRNA analysis comparing control condition and                                      by stimulating and regulating the growth of new immature fib-
+     injured (cryoinjury) and non-injured groups with and without ND/vehicle;
+                                                                                                        ers; the authors’ findings revealed an increase in the mRNA
+     *significant diﬀerence (p ≤ 0.05, ANOVA/Tukey).
+                                                                                                        expression of IGF-1 after 5 days of treatment with the steroid,
+                                                                                                        demonstrating the stimulation of the repair process.
+   On Day 21, no edema, myonecrosis or inflammatory reaction                                            The results of the quantitative morphological analysis revealed
+   was found in any of the groups, whereas a mild degree of new,                                        edema, inflammatory infiltrate and myonecrosis one day follow-
+   immature fibers was found in all groups (●
+                                            ▶ Fig. 4d).                                                 ing injury, which was expected. No edema or myonecrosis was
+                                                                                                        detected after 7 days and no edema or inflammatory infiltration
+                                                                                                        was detected after 14 days in the group treated with ND. The
+   Discussion                                                                                           same did not occur in the other groups. Moreover, the group
+   ▼                                                                                                    treated with the steroid exhibited an earlier emergence of and
+   Diﬀerent therapeutic modalities are employed to provide a mus-                                       increase in new muscle fibers. Thus, the use of the anabolic ster-
+   cle repair process of better quality and shorter duration [6, 12].                                   oid nandrolone seems to have beneficial eﬀects on the resolu-
+   The use of ND by athletes and non-athletes alike has increased                                       tion of the inflammatory process and the repair of muscle tissue.
+   due to its association with improved performance through an                                          These data are consistent with the expression of myogenic regu-
+   increase in muscle size and strength [14, 28]. The results of the                                    latory factors. Furthermore, the results are in agreement with
+
+
+
+   Piovesan RF et al. Nandrolone decanoate and myogenic factors … Int J Sports Med 2013; 34: 87–92
+                                                                                                                                                                                                                                                                  Genetics & Molecular Biology 91
+
+
+a                                                                                                                                                        b                                                                                           Fig. 3 Photomicrographs of histological sections
+                                                                                                                                                                                                                                                     of muscles stained with hematoxylin & eosin;
+                                                                                                                                                                                                                                                     a Control muscle showing normal morphology
+                                                                                                                                                                                                                                                     (original magnification, 100 × ); b Injured area
+                                                                                                                                                                                                                                                     after 1 day (original magnification, 400 × ); note
+                                                                                                                                                                                                                                                     presence of myonecrosis (*) and inflammatory
+                                                                                                                                                                                                                                                     infiltrate; c Injured area after 7 days showing lesser
+                                                                                                                                                                                                                                                     degrees of myonecrosis, inflammatory infiltra-
+                                                                                                                                                                                                                                                     tion and edema; note early myogenesis (arrows)
+     50μm                                                                                                                                                      50μm
+                                                                                                                                                                                                                                                     (original magnification, 200 × ); d Injured muscle
+c                                                                                                                                                        d                                                                                           treated with ND after 7 days; myogenesis show-
+                                                                                                                                                                                                                                                     ing myotubules (arrows) with greater degree of
+                                                                                                                                                                                                                                                     maturity in comparison to other groups (original
+                                                                                                                                                                                                                                                     magnification, 400 × ); e At 14 days, immature
+                                                                                                                                                                                                                                                     regenerated muscle cells (arrow) (original mag-
+                                                                                                                                                                                                                                                     nification, 400 × ); f At 21 days, larger, mature
+                                                                                                                                                                                                                                                     muscle cells with polygonal appearance (original
+
+
+
+
+                                                                                                                                                                                                                                                                                                              This document was downloaded for personal use only. Unauthorized distribution is strictly prohibited.
+                                                                                                                                                                                                                                                     magnification, 400 × ).
+
+     50μm                                                                                                                                                      50μm
+
+e                                                                                                                                                        f
+
+
+
+
+    50μm                                                                                                                                                       50μm
+
+
+
+    a 4.0                                                                                                                                             c 4.0                                                                                          Fig. 4 Semi-quantitative morphological analysis
+            3.5                                                                                                                                                3.5                                                                                   of tissue components (edema, myonecrosis,
+            3.0                                                                                                                                                3.0                                                                                   inflammatory infiltrate and new muscle fibers) in
+            2.5                                                                                                                                                2.5                                                                                   diﬀerent experimental groups; Grade 0: absent;
+            2.0                          *                                                                                                                     2.0                                                                                   Grade 1: mild; Grade 2: Moderate; Grade 3:
+    Score
+
+
+
+
+                                                                                                                                                      Score
+
+
+
+
+            1.5                                                                                                                                                1.5                                                                                   intense.[35] a after 1 day; b after 7 days; c after
+            1.0                       **                                                                                                                       1.0                                                        *                          14 days; d after 21 days; * significant diﬀerence
+            0.5                                                                                                                                                0.5                                                                                   (p ≤ 0.05, ANOVA/Tukey).
+             0                                                                                                                                                  0                                   *
+                                                                                                                                                                                                                              Cryolesion + Vehicle
+                                                                                                                                                                                                        Cryolesion + ND
+                                                                                                                                                                                      Cryolesion
+                                                                                                                                                                      Control
+                                                                                              Cryolesion + Vehicle
+                                                                  Cryolesion + ND
+                                                     Cryolesion
+                  Control
+
+
+                                      Sham
+
+
+
+
+        –0.5                                                                                                                                                  –0.5
+
+
+
+
+    b 4.0                                                                                                                                             d 4.0
+            3.5                                                                                                                                                3.5
+            3.0                                                                                                                                                3.0
+            2.5                                                                                                                                                2.5
+            2.0                                                                                                                                                2.0
+                                                                                                                                                      Score
+    Score
+
+
+
+
+            1.5                                                                                                                                                1.5
+            1.0                                                                     *                                                                          1.0
+            0.5                                                                                                                                                0.5
+              0                                                                                                                                                  0
+                                                                                                                     Cryolesion + Vehicle
+                                                                            Cryolesion + ND
+                                             Cryolesion
+
+
+
+
+                                                                                                                                                                                                                              Cryolesion + Vehicle
+                                                                                                                                                                                                        Cryolesion + ND
+                                                                                                                                                                                       Cryolesion
+                                                                                                                                                                       Control
+                            Control
+
+
+
+
+        –0.5                                                                                                                                                  –0.5
+
+
+
+
+                                             Edema                Myonecrosis                                                               Inflammatory infiltrate              New fibers and immature
+
+
+
+
+those described by Miyabara et al. [30] and Baptista et al. [4],                                                                                                                                                      cryoinjury by influencing the expression of regulatory myogenic
+who found complete muscle regeneration 3 weeks after the                                                                                                                                                              factors and inducing a significant increase in MyoD mRNA after
+cryoinjury to the tibialis anterior muscle.                                                                                                                                                                           7 days as well as an increase in myogenin mRNA after 21 days,
+Based on these findings, we conclude that the anabolic steroid                                                                                                                                                        with a decrease in edema, myonecrosis and inflammatory infil-
+ND can modulate the muscle repair process in rats following                                                                                                                                                           trate during the muscle repair process.
+
+
+
+                                                                                                                                                                       Piovesan RF et al. Nandrolone decanoate and myogenic factors … Int J Sports Med 2013; 34: 87–92
+92 Genetics & Molecular Biology
+
+
+   Acknowledgements                                                                 18 Hawke TJ, Garry DJ. Myogenic satellite cells: physiology to molecular
+                                                                                       biology. J Appl Physiol 2001; 91: 534–551
+   ▼                                                                                19 Huard J, Li Y, Fu FH. Muscle injuries and repair: Current trends in
+   The authors would like to thank UNINOVE for financial support.                      research. J Bone Joint Surg Am 2002; 84: 822–832
+                                                                                    20 Jin Y, Murakami M, Saito Y, Goto Y, Koishi K, Nonaka Y. Expression of
+   Conflict of Interest: The authors declare that there were no                        MyoD and myogenin in dystrophic mice, mdx and dy, during regenera-
+                                                                                       tion. Acta Neuropathol 2000; 99: 619–627
+   conflicting financial interests.                                                 21 Kook SH, Hyun JL, Wan TC, Hwang IH, Lee SA, Kim BS, Lee JC. Cyclic
+                                                                                       mechanical stretch stimulates the proliferation of C2C12 myoblasts
+                                                                                       and inhibits their diﬀerentiation via prolonged activation of p38
+   References
+                                                                                       MAPK. Mol Cells 2008; 25: 479–486
+    1 Adams GR, Haddad F, Baldwin KM. Time course of changes in mark-
+                                                                                    22 Koskinen SO, Wang W, Ahtikoski AM, Kjær M, Han XY, Komulainen J,
+      ers of myogenesis in overloaded rat skeletal muscles. J Appl Physiol
+                                                                                       Kovanen V, Takala TE. Turnover of basement membrane type IV col-
+      1999; 87: 1705–1712
+                                                                                       lagen in exercise-induced skeletal muscle injury. Am J Physiol 2001;
+    2 Allouh MZ, Rosser BW. Nandrolone decanoate increases satellite cell
+                                                                                       280: R1292–R1300
+      numbers in the chicken pectoralis muscle. Histol Histopathol 2010;
+                                                                                    23 Krauss RS, Cole F, Gaio U, Takaesu G, Zang W, Kang JS. Close encounters:
+      25: 133–140
+                                                                                       regulation of vertebrate skeletal myogenesis by cell-cell contact. J Cell
+    3 Almeida FL, Pessotti NS, Pinhal D, Padovani CR, Leitão NJ, Carvalho RF,
+                                                                                       Sci 2005; 118: 2355–2362
+      Martins C, Portella MC, Dal Pai-Silva M. Quantitative expression of
+                                                                                    24 Langen RC, Van Der Velden JL, Schols AM, Kelders MC, Wouters EF,
+      myogenic regulatory factors MyoD and myogenin in pacu (Piaractus
+                                                                                       Janssen-Heininger YM. Tumor necrosis factor-alpha inhibits myogenic
+
+
+
+
+                                                                                                                                                                   This document was downloaded for personal use only. Unauthorized distribution is strictly prohibited.
+      mesopotamicus) skeletal muscle during growth. Micron 2010; 41:
+                                                                                       diﬀerentiation through MyoD protein destabilization. FASEB J 2004;
+      997–1004
+                                                                                       18: 227–237
+    4 Baptista J, Martins M, Pavesi V, Bussadori S, Fernandes KPS, Mesquita-
+                                                                                    25 Lindström M, Pedrosa-Domellöf F, Thornell LE. Satellite cell heterogene-
+      Ferrari RA. Influence of laser photobiomodulation on collagen IV
+                                                                                       ity with respect to expression of MyoD, myogenin, Dlk1 and c-Met in
+      during skeletal muscle tissue remodeling following injury in rats.
+                                                                                       human skeletal muscle: application to a cohort of power lifters and
+      Photomed Laser Surg 2010; 29: 11–17
+                                                                                       sedentary men. Histochem Cell Biol 2010; 134: 371–385
+    5 Bischoﬀ R, Heintz C. Enhancement of skeletal muscle regeneration. Dev
+                                                                                    26 Lynch GS, Schertzer JD, Ryall JG. Anabolic agents for improving muscle
+      Dyn 1994; 201: 41–54
+                                                                                       regeneration and function after injury. Clin Exp Pharmacol Physiol
+    6 Cabane C, Englaro W, Yeon K, Ragno M, Dérijard B. Regulation of C2C12
+                                                                                       2008; 35: 852–858
+      myogenic terminal diﬀerentation by mkk3/p38 alpha pathway. Am J
+                                                                                    27 Marqueti RC, Prestes J, Paschoal M, Ramos OHP, Perez SEA, Carvalho HF,
+      Physiol 2003; 284: C658–C666
+                                                                                       Selistre-de-Araújo HS. Matrix metallopeptidase 2 activity in tendon
+    7 Caiozzo VJ, Wu YZ, Baker MJ, Crumley R. Eﬀects of denervation on cell
+                                                                                       regions: eﬀect of mechanical loading exercise associated to anabolic-
+      cycle control in laryngeal muscle. Arch Otolaryngol Head Neck Surg
+                                                                                       androgenic steroids. Eur J Appl Physiol 2008; 104: 1087–1093
+      2004; 130: 1056–1068
+                                                                                    28 McClung JM, Mehl KA, Thompson RW, Lowe LL, Carson JA. Nandrolone
+    8 Carson JA, White JP, Baltgalvis KA, Washington TA, Jepson MJ, Thomp-
+                                                                                       decanoate modulates cell cycle regulation in functionally overloaded
+      son RW. Nandrolone decanoate administration and skeletal muscle
+                                                                                       rat soleus muscle. Am J Physiol 2005; 288: R1543–R1552
+      regeneration. FASEB J 2007; 21: 1420–1430
+                                                                                    29 Miyabara EH, Aoki MS, Moriscot AS. Cyclosporin A preferentially atten-
+    9 Chan YS, Li Y, Foster W, Horaguchi T, Somogyi G, Fu FH, Huard J. Anti-
+                                                                                       uates skeletal slow-twitch muscle regeneration. Braz J Med Biol Res
+      fibrotic eﬀects of suramin in injured skeletal muscle after laceration.
+                                                                                       2005; 38: 559–563
+      J Appl Physiol 2003; 95: 771–780
+                                                                                    30 Miyabara EH, Aoki MS, Soares AG, Moriscot AS. Expression of tropism-
+   10 Chargé SB, Rudnicki MA. Cellular and molecular regulation of muscle
+                                                                                       related genes in regenerating skeletal muscle of rats treated with
+      regeneration. Physiol Rev 2004; 84: 209–238
+                                                                                       cyclosporin-A. Cell Tissue Res 2005; 319: 479–489
+   11 Dogra C, Hall SL, Wedhas N, Linkhart TA, Kumar A. Fibroblast growth
+                                                                                    31 Shi X, Garry DJ. Muscle stem cells in development, regeneration, and
+      factor inducible-14 (Fn14) is required for the expression of myogenic
+                                                                                       disease. Genes Dev 2006; 20: 1692–1708
+      regulatory factors and diﬀerentiation of myoblasts into myotubes: Evi-
+                                                                                    32 Souza RWA, Gonçalves W, Cavalcante WLG, Pai-Silva MD, Gallacci M.
+      dence for TWEAK-independent functions of Fn14 during myogenesis.
+                                                                                       Nandrolona stimulates Myod expression during muscle regeneration
+      J Biol Chem 2007; 282: 15000–15010
+                                                                                       in the condition of myonecrosis induced by bothrops jararacussu
+   12 Dominov JA, Dunn JJ, Miller JB. Bcl-2 expression identifies an early stage
+                                                                                       venon poisoning. J Toxicol Environ Health 2010; 73: 934–943
+      of myogenesis and promotes clonal expansion of muscle cells. J Cell
+                                                                                    33 Tajbakhsh S. Skeletal muscle stem cells in developmental versus regen-
+      Biol 1998; 142: 537–544
+                                                                                       erative myogenesis. J Intern Med 2009; 266: 372–389
+   13 Durigan JL, Peviani SM, Russo TL, Delfino GB, Ribeiro JU, Cominetti MR,
+                                                                                    34 Tannu NS, Rao VK, Chaudhary RM, Giorgianni F, Saeed AE, Gao Y,
+      Selistre-de-Araujo HS, Salvini TF. Eﬀects of alternagin-c from bothrops
+                                                                                       Raghow R. Comparative proteomes of the proliferating c2c12 myob-
+      alternatus on gene expression and activity of metalloproteinases in
+                                                                                       lasts and fully diﬀerentiated myotubes reveal the complexity of the
+      regenerating skeletal muscle. Toxicon 2008; 52: 687–694
+                                                                                       skeletal muscle diﬀerentiation program. Mol Cell Proteomics 2004;
+   14 Gentile MA, Nantermet PV, Vogel RL, Phillips R, Holder D, Hodor P,
+                                                                                       3: 1065–1082
+      Cheng C, Dai H, Freedman LP, Ray WJ. Androgen-mediated improve-
+                                                                                    35 Walker RA. Quantification of immunohistochemistry – issue concern-
+      ment of body composition and muscle function involves a novel early
+                                                                                       ing methods, utility and semiquantitative assessment I. Histopathol-
+      transcriptional program including IGF1, mechano growth factor, and
+                                                                                       ogy 2006; 49: 406–410
+      induction of {beta}-catenin. J Mol Endocrinol 2010; 44: 55–73
+                                                                                    36 White JP, Baltgalvis KA, Sato S, Wilson LB, Carson JA. Eﬀect of nan-
+   15 Gomez M. The physiology and biochemistry of soft tissue healing.
+                                                                                       drolone decanoate administration on recovery from bupivacaine-
+      In: Griﬃn L (ed.). Rehabilitation of the Injured Knee. St. Louis, MO:
+                                                                                       induced muscle injury. J Appl Physiol 2009; 107: 1420–1430
+      Mosby Company, 1995; 34–44
+                                                                                    37 Zammit PS, Golding JP, Nagata Y, Hudon V, Partridge TA, Beauchamp
+   16 Haddad F, Roy RR, Zhong H, Edgerton VR, Baldwin KM. Atrophy
+                                                                                       JR. Muscle satellite cells adopt divergent fates: a mechanism for self-
+      responses to muscle inactivity. II. Molecular markers of protein defi-
+                                                                                       renewal? J Cell Biol 2004; 166: 347–357
+      cits. J Appl Physiol 2003; 95: 791–802
+                                                                                    38 Zammit PS. All muscle satellite cells are equal, but are some more
+   17 Harriss DJ, Atkinson G. Update – ethical standards in sport and exercise
+                                                                                       equal than others? J Cell Sci 2008; 121: 2975–2982
+      science research. Int J Sports Med 2011; 32: 819–821
+
+
+
+
+   Piovesan RF et al. Nandrolone decanoate and myogenic factors … Int J Sports Med 2013; 34: 87–92
+Copyright of International Journal of Sports Medicine is the property of Georg Thieme Verlag Stuttgart and its
+content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's
+express written permission. However, users may print, download, or email articles for individual use.
+

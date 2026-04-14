@@ -1,0 +1,210 @@
+                                                                                                                     J. Phys. Ther. Sci.
+                                                                                                                     26: 187–190, 2014
+
+Hip Muscle Activity during Isometric Contraction
+of Hip Abduction
+
+Hiroyuki Fujisawa, RPT, PhD1)*, Hiroto Suzuki, RPT, MS1), Emi Yamaguchi, RPT1),
+Hiromi Yoshiki, RPT1), Yui Wada, RPT1), Aya Watanabe, RPT1)
+1) Department of Rehabilitation, Faculty of Medical Science and Welfare, Tohoku Bunka Gakuen Uni-
+
+  versity: 6-45-1 Kunimi, Aoba-ku, Sendai 981-8551, Japan
+
+
+
+       Abstract. [Purpose] This study aimed to determine the effect of varying hip flexion angle on hip muscle activity
+       during isometric contraction in abduction. [Subjects] Twenty-seven healthy men (mean age=21.5 years, SD=1.2)
+       participated in this study. [Methods] Surface electromyography (EMG) was recorded of the upper portion of the
+       gluteus maximus (UGM), lower portion of the gluteus maximus (LGM), tensor fasciae latae (TFL), and gluteus me-
+       dius (GMed) during isometric contraction under two measurement conditions: hip flexion angle (0, 20, 40, 60, and
+       80 degrees) and abduction of the hip joint at 20, 40, 60, and 80% maximum strength. Integrated EMG (IEMG) were
+       calculated and normalized to the value of maximum voluntary contraction (MVC). [Results] Results indicated that
+       the IEMG of both the UGM and LGM increased significantly with increases in hip flexion angle, whereas the IEMG
+       of the TFL decreased significantly. The maximum activities of the UGM and the LGM were 85.7 ± 80.8%MVC
+       and 38.2 ± 32.9%MVC at 80 degrees of hip flexion, respectively, and that of the TFL was 71.0 ± 39.0%MVC at 40
+       degrees of hip flexion. [Conclusion] The IEMG of the GMed did not change with increases in hip flexion angle. Hip
+       flexion angle affected the activity of the GM and TFL during isometric contraction in abduction.
+       Key words: Hip abductor, Electromyography, Muscle activity
+                                                      (This article was submitted Jul. 5, 2013, and was accepted Aug. 25, 2013)
+
+                       INTRODUCTION                                      reported results agreeing with those of Basmajian and De-
+                                                                         Luca4), they did not describe the details of electromyogra-
+   The activity of the gluteus maximus (GM) in standing                  phy data.
+movements is very important. In particular, it seems that                    Several studies7–9) have reported that the GM is func-
+the activity of the GM increases during one foot standing                tionally divided into upper (UGM) and lower segments
+with the trunk tilted anteriorly because the GM acts in both             (LGM). Both the UGM and sartorius muscles might assist
+abduction and extension of the hip joint. However, most                  hip abduction against strong muscle resistance8). However,
+studies that use the moment arm vector concept have re-                  little attention has been given to GM activity during abduc-
+ported that the abductor function of the GM is weak1, 2). A              tion in flexion of the hip joint. We postulated that the human
+straight-line model study of the GM with the hip in the ana-             GM would play the same important abductor function in
+tomical zero position found that the GM was unimportant                  flexion of the hip joint as it does in tetrapods. We, therefore,
+for abduction of the hip joint. We question this finding based           hypothesized that GM activity is directly proportional to
+solely on anatomical neutral position, because the hip joint,            the resistance provided against adduction in flexion of the
+which is a ball and socket joint, can adopt various positions.           hip joint.
+Although GM is known as an extensor of the hip joint in                      Hislop and Montgomery10) reported an increase in the
+humans, it acts as an abductor in tetrapods3); therefore GM              activity of the tensor fasciae latae (TFL) during abduction
+has the possibility of acting as a hip abductor in flexion of            in flexion of the hip joint; however, other studies report
+the hip joint. Basmajian and DeLuca4) reported that the GM               that the activity of the TFL decreases in the same condi-
+was active during extension of the thigh at the hip joint,               tion11, 12). We postulated that TFL activity would decrease
+lateral rotation, abduction against heavy resistance with the            with increasing hip joint flexion, because the TFL force
+thigh flexed to 90°, and adduction against resistance that               vector passes through the forward hip joint in hip flexion;
+holds the thigh abducted. Although some studies5, 6) have                therefore, the TFL would act as an abductor, or as a flexor.
+                                                                         Moreover, because the gluteus medius (GMed), together
+                                                                         with the gluteus minimus, both abduct and stabilize the hip
+*Corresponding author. Hiroyuki Fujisawa (E-mail: fuji-                  joint13, 14), the effect of hip flexion angle on GMed activity is
+sawa@rehab.tbgu.ac.jp)                                                   not known well. The purpose of this study was to determine
+©2014 The Society of Physical Therapy Science. Published by IPEC Inc.    the effect of hip flexion angle on the activities of the GM,
+This is an open-access article distributed under the terms of the Cre-   TFL, and GMed during isometric contraction in abduction.
+ative Commons Attribution Non-Commercial No Derivatives (by-nc-
+nd) License <http://creativecommons.org/licenses/by-nc-nd/3.0/>.
+188 J. Phys. Ther. Sci. Vol. 26, No. 2, 2014
+
+              SUBJECTS AND METHODS                               trial were normalized to the IEMG of MVC. We used the
+                                                                 normalized IEMG (%MVC) to express the muscle activity.
+   Twenty-seven healthy males (age 21.5 ± 1.2 years; height          A two-factor, 5×4, within-subjects analysis of variance
+172.8 ± 5.0 cm; body mass 64.6 ± 2.3 kg (mean ± SD)) with        (ANOVA) was used to analyze differences in activities of
+no history of hip joint problems participated in this study.     the hip muscles. Independent variables were the factors of
+All subjects provided their written informed consent prior       hip flexion angle and %MAS, and the dependent variable
+to participation, and approval was granted by the Tohoku         was hip muscle activity. Significant individual differences
+Bunka Gakuen University’s Human Subjects Ethics Com-             were evaluated using the Scheffe test. Differences were as-
+mittee.                                                          sessed with two-sided tests, with an alpha level of 0.05.
+   We measured the maximum abduction strength (MAS)
+of the right hip joint and surface electromyography (EMG).                                RESULTS
+EMG data were collected from four segments of three mus-
+cles: the right UGM, LGM, GMed, and TFL. Measurement                MAS were 130.5±16.9 Nm at 0 degrees flexion of the
+conditions were hip flexion angles of 0, 20, 40, 60, and 80      hip joint. For the UGM, the ANOVA showed significant
+degree, and strength of right hip abduction of 20, 40, 60,       main effects of both hip flexion angle (p<0.001) and %MAS
+and 80%MAS.                                                      (p<0.001). The IEMG increased with each increment of hip
+   With subjects lying prone on a table, the gluteus region      flexion angle and %MAS. There was a significant interac-
+was cleaned using fine sand paper and alcohol before dis-        tion effect between hip flexion angle and %MAS (p<0.001).
+posable electrodes were placed on the skin superficial to        Also, the change in the IEMG between the hip flexion an-
+the belly of the muscles. UGM electrodes were placed two         gles increased with each increment of %MAS (Table 1).
+finger’s width above the line just under the spina iliaca pos-      For the LGM, there were significant main effects of
+terior superior and the trochanter major; LGM electrodes         both hip flexion angle (p<0.001) and hip abduction strength
+were set below the same line; TFL electrodes were placed         (p<0.001). The IEMG increased with each increment of hip
+between the spina iliaca anterior superior and the trochan-      flexion angle and %MAS. Although there was a significant
+ter major; and GMed electrodes were set between the UGM          interaction effect between the two conditions (p<0.001), the
+and TFL. The distance between electrodes was 2.5 cm. Af-         simple main effect was not significant for hip flexion angles
+ter we had confirmed the belly of the muscles via an ul-         at 20% MAS (Table 1).
+trasound scan (Viewbox, TANITA, Tokyo, Japan), proper               The results for the GMed differed from those of the UGM
+electrode placement was determined. EMG were amplified           and LGM. Although there were significant main effects of
+by bipolar leads (MT-11, GEHC-J, Tokyo, Japan). EMG              both hip flexion angle (p<0.05) and %MAS (p<0.001), there
+were measured during maximum voluntary isometric con-            was no significant interaction effect between hip flexion
+traction (MVC) in the two positions as described by Hislop       angle and %MAS. The Scheffe tests also showed no signifi-
+and Montgomery (2007): the TFL and GMed were mea-                cant the differences among the hip flexion angles (Table 1).
+sured during side-lying abduction at 0 degrees flexion of           Finally, for the TFL, there were significant main ef-
+the hip joint, and the UGM and LGM were measured during          fects of both hip flexion angle (p<0.001) and hip abduction
+prone-lying extension with knee flexion. Subjects were in-       strength (p<0.001). The IEMG, however, decreased as hip
+structed to maintain their maximum voluntary contraction         flexion angle increased. TFL activity increased though with
+for 3 seconds and EMG measurements were taken once.              each increment of MAS, just as for the other muscles, but
+   After taking EMG measurements of MVC, subjects                there was no significant interaction effect between hip flex-
+lay supine on the table with a slippery sheet spread under       ion angle and %MAS (Table 1).
+around the lower extremity, and the pelvis fixed to the bed
+with a belt. We measured MAS at 0 degrees flexion of the                                DISCUSSION
+hip joint with a strain gauge sensor (µ-TAS MT1, ANIMA,
+Tokyo, Japan), which was placed between the resistance              This study confirmed our hypothesis that GM activity
+belt and the epicondylus lateralis. The knee joints were         is directly proportional to resistance against adduction in
+maintained in the neutral position, and the ankle joint was      flexion of the hip joint. The GM in the anatomical neutral
+fixed in the neutral position with a plastic shoehorn brace.     position of the hip has an action line that is nearly perpen-
+   The table was manipulated to achieve the different hip        dicular to the femoral shaft, whereas its action line becomes
+angles for each measurement. Subjects were instructed            parallel to the femoral shaft in flexion of the hip joint. More
+to control abduction strength to the indicated value for 3       specifically, mean UGM activity reaches 80% MVC, be-
+seconds, and EMG measurements were taken as described            cause the UGM shifts to a position nearly parallel to the
+above. Biofeedback of abduction strength was given to sub-       femoral shaft. In contrast, the moment arm of the GM in
+jects via a display. The analog EMG signal passed through        hip extension decreases as the hip flexion angle increases15).
+a 16 bit A/D board (PowerLab, ADInstruments, Nagoya,             Therefore, an abductor function in flexion of the hip joint
+Japan), and all signals were sampled at 1 kHz.                   might be an important function of the GM.
+   EMG data were filtered with a 10 Hz high-pass, FIR               Human walking is characterized by erect bipedalism,
+digital filter. After the signal was full-wave rectified, the    and it is thought that the UGM evolved alongside erect bi-
+integrated EMG (IEMG) was calculated using the steady            pedalism, because daily activities performed while stand-
+data of 2 seconds within the 3 seconds of data. Data of each     ing require the muscle forces of abduction and extension of
+                                                                 the hip joint. During walking, GM activity increases syn-
+                                                                                                                                189
+
+          Table 1. Hip muscles activities during isometric contraction of abducation with increases in hip flexion angle
+
+                              0 degrees         20 degrees         40 degrees         60 degrees          80 degrees
+           Gluteus Maximus (upper)
+             20%MAS            4.6±  3.2          7.1±  6.5          7.7±  7.8           8.4±  9.0   †     9.7±  8.4       ‡
+             40%MAS            7.9±  7.7         11.1±14.1    †     15.4±18.7     †     19.5±20.8    ‡    25.5±24.4        ‡
+             60%AS            12.9±13.2          20.1±22.3    †     28.2±29.3     †     37.1±35.9    ‡    48.8±41.3        ‡
+             80%MAS           29.5±20.9          33.9±25.1          51.9±53.5     †     59.8±54.3    ‡    85.7±80.8        ‡
+           Gluteus Maximus (lower)
+             20%MAS            3.9±  1.7          5.4±  4.2          6.1±  7.6           5.1±  4.2         5.0±  2.1
+             40%MAS            5.3±  2.3          5.4±  2.6          8.3±10.1            9.0±11.0         11.5±15.0
+             60%MAS            8.3±  4.2          9.8±  7.4         12.7±11.0           17.2±23.0         20.8±21.3        †
+             80%MAS           20.2±15.2          19.4±11.8          25.5±21.3           30.8±27.6         38.2±32.9        †
+           Gluteus Medius
+             20%MAS            5.2±  3.9          6.2±  4.3          7.0±  5.3           8.0±  6.1         9.1±  7.3
+             40%MAS           13.1±  9.0         12.6±  8.0         14.5±  9.9          18.3±13.8         21.9±18.7
+             60%MAS           32.2±18.0          29.1±19.1          32.6±20.9           35.4±24.2         40.3±33.0
+             80%MAS           58.6±29.7          52.6±31.3          53.8±43.2           54.9±43.0         66.1±53.0
+           Tensor fasciae latae
+             20%MAS           14.1±  7.9         13.3±  7.8         11.1±  5.7           9.7±  6.8   †     6.9±  4.5       ‡
+             40%MAS           28.0±12.3          23.2±  9.4   †     22.4±11.1     †     20.2±10.5    †    15.1±  9.9       ‡
+             60%MAS           49.4±17.5          41.2±16.8    †     44.5±31.5           34.9±17.8    ‡    27.1±15.0        ‡
+             80%MAS           69.8±29.4          71.0±39.0          55.3±32.7           49.3±27.5    ‡    45.1±23.9        ‡
+           Significant difference from 0 degrees at each %MAS. †: p<0.05. ‡: p<0.01.
+           MAS=maximum abduction strength, Unit:%MVC (maximum voluntary isometric contraction)
+
+
+
+chronously with the GMed from the terminal swing to mid-             from the spina iliaca anterior superior to the fascia lata and
+stance7, 9). The UGM acts as an abductor and hip abductor            inserts upon the tractus iliotibialis. The TFL shifts to a po-
+muscle activity increases rapidly in the loading response            sition nearly perpendicular to the femoral shaft with each
+(20%MVC); an external force acts on flexion and adduction            increment of hip flexion. Thus the TFL is a hip flexor rather
+of the hip joint when it is flexed at approximately 30 degrees       than an abductor when the hip is flexed, which explains why
+in the loading response phase16).                                    TFL activity decreased with increasing hip flexion.
+    GMed activity showed no significant differences with                 The results of this study suggest two important points for
+change of hip flexion angle in this study. The GMed is a             physical therapy. First, it is possible that the UGM plays an
+fan-shaped muscle composed of three distinct parts13, 14).           important role in posture maintenance in flexion of the hip
+In this study, electrodes were placed over the middle part,          joint, for instance, in walking with anterior tilt of trunk in a
+which runs forward to the femoral neck in the anatomical             passage where the ceiling is low, or when ascending stairs.
+neutral position and attaches to the ridge on the great tro-         The strength training of the UGM, therefore, is important
+chanter, which is located near the center of the hip joint in        for improvement of the function. Second, there is suitable
+the sagittal plane. Although the moment arm vector of ab-            posture for each muscle in the strength training of the hip
+duction for the GMed anterior segment decreases in flex-             abductors. For strengthening the TFL, abduction movement
+ion of the hip joint17), it is not obvious for the middle and        in hip extension is desirable. In contrast, abduction move-
+posterior segments. Moreover, the GMed, together with the            ment in hip flexion is desirable for strengthening the UGM.
+gluteus minimus, are known stabilizers of the hip joint. For             Limitations on this study were cross-talk from nearby
+example, a single-leg bridge exercise in the supine position         muscles and changes in electrode location with hip joint
+activated the GMed to 72.5% MVC18). Therefore, there is a            flexion. Cross-talk was cannot be entirely excluded from
+possibility that the GMed middle segment acts through a              surface electromyography data. In addition, we should pay
+wide range of hip joint motion.                                      attention to the spatial relation between the innervation
+    TFL activity decreased with increasing hip flexion in            zone and the electrodes because it affects EMG amplitude.
+contrast to the UGM and LGM. This result was same as that                In conclusion, UGM and LGM activities increased sig-
+reported by Matsuki et al.12), who reported that TFL activity        nificantly as a function of incremental increases in hip flex-
+measured by EMG with fine-wire electrodes decreased in               ion angle. In comparison, TFL activity decreased signifi-
+flexion of the hip joint. Although the TFL is separated into         cantly with incremental increases in hip flexion angle. On
+two parts, anteromedial and posterolateral19), it is difficult       the other hand, GMed activity did not change as a function
+to measure each part using EMG. For this reason, we placed           of hip flexion angle.
+the electrodes on the center of the belly. The TFL attaches
+190 J. Phys. Ther. Sci. Vol. 26, No. 2, 2014
+
+                               REFERENCES                                                [CrossRef]
+                                                                                     10) Hislop HJ, Montgomery J: Daniels and Worthingham’s manual muscle
+1)   Inman VT: Functional aspects of the abduction muscles of the hip. J Bone            testing. Techniques and manual examination, 8th ed. St Louis: Saunders
+     Joint Surg Am, 1947, 29: 607–619.                                                   Elsevier, 2007, pp 198–204.
+2)   Merchant AC: Hip abductor muscle force. An experimental study of the            11) Yamamoto H, Ichihashi N, Yoshida M: The muscular activities of Mus-
+     influence of hip position with particular reference to rotation. J Bone Joint       culus tensor fasciae latae—changes with hip positions and movement of
+     Surg Am, 1965, 47: 462–476. [Medline]                                               therapeutic exercise. Rigaku Ryōhōgaku, 1997, 24: 270–273 (in Japanese).
+3)   Payne RC, Hutchinson JR, Robilliard JJ, et al.: Functional specialisation       12) Matsuki N, Onishi H, Yagi R, et al.: The relationship between EMG ac-
+     of pelvic limb anatomy in horses (Equus caballus). J Anat, 2005, 206: 557–          tivity of abductor muscles and hip position during hip abduction. Rigaku
+     574. [Medline] [CrossRef]                                                           Ryōhōgaku, 2004, 31: 9–14 (in Japanese).
+4)   Basmajian JV, De Luca CJ: Muscles alive. Their functions revealed by            13) Gottschalk F, Kourosh S, Leveau B: The functional anatomy of tensor fa-
+     electromyography, 5th ed. Baltimore: Williams & Wilkins,1985, pp 367–               siae latae and gluteus medius and minimus. J Anat, 1989, 166: 179–189.
+     388.                                                                                [Medline]
+5)   Wheatley MD, Jahnke WD: Electromyographic study of the superficial              14) Al-Hayani A: The functional anatomy of hip abductors. Folia Morphol
+     thigh and hip muscles in normal individual. Arch Phys Med, 1951, 32:                (Warsz), 2009, 68: 98–103. [Medline]
+     508–515. [Medline]                                                              15) Pohtilla JF: Kinesiology of hip extension at selected angles of pelvifemoral
+6)   Furlani J, Berzin F, Vitti M: Electromyographic study of the gluteus maxi-          extension. Arch Phys Med Rehabil, 1969, 50: 241–250. [Medline]
+     mus muscle. Electro, Yogr Clin Neurophysiol, 1974, 14: 379–388.                 16) Perry J: Gait analysis. Normal and pathological function. Torofare:
+7)   Lyons K, Perry J, Gronley JK, et al.: Timing and relative intensity of hip          SLACK, 1992, pp 111–129.
+     extensor and abductor muscle action during level and stair ambulation.          17) Dostal WF, Soderberg GL, Andrews JG: Actions of hip muscles. Phys
+     Phys Ther, 1983, 63: 1597–1605. [Medline]                                           Ther, 1986, 66: 351–361. [Medline]
+8)   Levangie PK, Norkin CC: Joint structure & function. A comprehensive             18) Philippon MJ, Decker MJ, Giphart JE, et al.: Rehabilitation exercise pro-
+     analysis, 4th ed. Philadelphia: F. A. Davis Company, 2005.                          gression for the gluteus medius muscle with consideration for iliopsoas
+9)   Lieberman DE, Raichlen DA, Pontzer H, et al.: The human gluteus maxi-               tendinitis. Am J Sports Med, 2011, 39: 1777–1785. [Medline] [CrossRef]
+     mus and its role in running. J Exp Biol, 2006, 209: 2143–2155. [Medline]        19) Paré EB, Stern JT, Schwartz JM: Functional differentiation within the ten-
+                                                                                         sor fasciae latae. J Bone Joint Surg Am, 1981, 63: 1457–1471. [Medline]
+

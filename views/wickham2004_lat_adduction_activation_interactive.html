@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wickham et al. (2004) - Latissimus dorsi adduction activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(280px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(42dvh,calc(100dvh - 230px));min-height:300px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:320px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh)}.stage{order:1;min-height:clamp(260px,46dvh,390px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Wickham et al. (2004) - Latissimus dorsi adduction activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle segments</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SEGMENTS=[
+        {key:'l1',name:'L1',color:'#60a5fa',role:'Synergist',burst:50.9,note:'Uppermost lat segment. Wickham classified it as a synergist, not a prime mover, during adduction.'},
+        {key:'l2',name:'L2',color:'#22c55e',role:'Prime mover',burst:79.9,note:'Prime mover segment with a strong two non-continuous burst pattern.'},
+        {key:'l3',name:'L3',color:'#f59e0b',role:'Prime mover',burst:90.1,note:'Prime mover segment with one of the strongest triphasic-type patterns.'},
+        {key:'l5',name:'L5',color:'#a78bfa',role:'Prime mover',burst:92.0,note:'Prime mover segment in the lower latissimus.'},
+        {key:'l6',name:'L6',color:'#f87171',role:'Prime mover',burst:97.5,note:'Lowermost recorded lat segment; highest two non-continuous burst percentage.'}
+      ];
+      const MODES={
+        burst:{
+          label:'Triphasic-like burst prevalence',
+          subtitle:'Figure 4 exact percentages for the predominant two non-continuous burst pattern in latissimus dorsi segments during rapid frontal-plane shoulder adduction.',
+          hint:'In this paper, the strongest lat adduction prime movers were the segments that most often showed the classic two non-continuous triphasic-like burst pattern. L1 was more mixed and acted as a synergist instead.',
+          overlay:'Bars = two non-continuous burst (%) from Fig. 4',
+          yLabel:'Two non-continuous burst prevalence (%)'
+        },
+        role:{
+          label:'Functional role summary',
+          subtitle:'Table 2 functional-role summary for the latissimus during the adduction task.',
+          hint:'Wickham classified L2, L3, L5, and L6 as prime movers, with L1 acting as a synergist. L4 was not recorded in this experiment.',
+          overlay:'Bars = role score for the adduction task',
+          yLabel:'Role score'
+        }
+      };
+      const ROLE_SCORE={synergist:1, 'Prime mover':2};
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode='burst',visible={l1:true,l2:true,l3:true,l5:true,l6:true};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=MODES[mode].subtitle; hint.textContent=MODES[mode].hint; overlay.textContent=MODES[mode].overlay; fit(); renderLegend(); resize(); }
+      function activeSegments(){ return SEGMENTS.filter(s=>visible[s.key]); }
+      function maxY(){ return mode==='burst' ? 105 : 2.6; }
+      function fit(){ draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:84,y:20,w:Math.max(140,w-116),h:Math.max(140,h-92)};
+        const active=activeSegments(), yMax=maxY();
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        const step=mode==='burst'?20:1;
+        for(let y=0;y<=yMax+0.001;y+=step){ const py=plot.y+plot.h-(y/yMax)*plot.h; ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(mode==='burst'?`${y}%`:`${y}`,plot.x-10,py); }
+        const width=Math.min(44,(plot.w/Math.max(1,active.length))*0.58), bars=[];
+        active.forEach((seg,i)=>{
+          const value=mode==='burst'?seg.burst:ROLE_SCORE[seg.role];
+          const cx=plot.x + ((i+0.5)/active.length)*plot.w, x=cx-width/2, y=plot.y+plot.h-(value/yMax)*plot.h, hBar=plot.y+plot.h-y;
+          ctx.fillStyle=seg.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,width,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,width,hBar);
+          ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(seg.name,cx,plot.y+plot.h+8);
+          bars.push({bar:{x,y,w:width,h:hBar},seg,value});
+        });
+        if(mode==='role'){
+          ctx.fillStyle='rgba(156,163,175,.86)';
+          ctx.textAlign='left';
+          ctx.fillText('1 = synergist',plot.x+8,plot.y+8);
+          ctx.fillText('2 = prime mover',plot.x+8,plot.y+24);
+        }
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore();
+        stage._bars=bars; status.textContent=`${active.length} segments shown`;
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        SEGMENTS.forEach(seg=>{
+          const row=document.createElement('div'); row.className='check'+(visible[seg.key]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[seg.key]?'checked':''} /><span class="swatch" style="background:${seg.color}"></span><label>${seg.name} - ${seg.role}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[seg.key]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[seg.key]=box.checked; draw(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._bars||[]).find(b=>x>=b.bar.x&&x<=b.bar.x+b.bar.w&&y>=b.bar.y&&y<=b.bar.y+b.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=mode==='burst'
+          ? `<div><strong>${hit.seg.name}</strong></div><div class="muted">${hit.seg.role}</div><div>Two non-continuous burst: <strong>${hit.seg.burst.toFixed(1)}%</strong></div><div>${hit.seg.note}</div>`
+          : `<div><strong>${hit.seg.name}</strong></div><div class="muted">Functional role</div><div><strong>${hit.seg.role}</strong></div><div>${hit.seg.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

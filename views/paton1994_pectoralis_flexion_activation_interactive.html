@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paton and Brown (1994) - Pectoralis major sagittal activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:240px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(280px,31vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(44dvh,calc(100dvh - 220px));min-height:300px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:340px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh)}.stage{order:1;min-height:clamp(260px,48dvh,400px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Paton and Brown (1994) - Pectoralis major sagittal activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle segments</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SEGMENTS=[
+        {key:'c1',name:'Channel 1 (clavicular head)',short:'C1',color:'#60a5fa',note:'Most superior clavicular segment. This was the clearest flexion-biased segment in the sagittal task.'},
+        {key:'c2',name:'Channel 2 (upper sternal)',short:'C2',color:'#22c55e',note:'Upper sternal segment just below the clavicular head.'},
+        {key:'c3',name:'Channel 3 (mid sternal)',short:'C3',color:'#f59e0b',note:'Middle pectoralis segment.'},
+        {key:'c4',name:'Channel 4 (lower sternal)',short:'C4',color:'#f472b6',note:'Lower sternal segment.'},
+        {key:'c5',name:'Channel 5 (low sternal)',short:'C5',color:'#a78bfa',note:'Inferior segment with strong contribution in both forward flexion and extension from 60 degrees of forward flexion.'},
+        {key:'c6',name:'Channel 6 (inferior / abdominal)',short:'C6',color:'#f87171',note:'Lowermost segment. Paton showed this was strongly extension-biased, not flexion-biased, in the sagittal task.'}
+      ];
+      const METRICS={
+        flexion:{
+          label:'Forward flexion activation',
+          subtitle:'Exact Paton and Brown 1994 Table 3 normalized IEMG values during forward flexion from 60 degrees of forward flexion.',
+          hint:'This is the direct multichannel EMG evidence for sagittal-plane flexion. The clavicular head had the largest superior-segment contribution, while the lowermost segments remained highly active overall.',
+          overlay:'Bars = normalized IEMG (%) from Table 3 forward flexion task',
+          yLabel:'Normalized IEMG (%)',
+          series:[
+            {name:'70% MVC forward flexion',unit:'% total EMG',values:{c1:19.71,c2:9.81,c3:6.76,c4:5.56,c5:19.89,c6:21.26}}
+          ]
+        },
+        bias:{
+          label:'Flexion vs extension bias',
+          subtitle:'Computed from exact Paton and Brown 1994 Table 3 values: forward flexion minus extension from the same 60-degree shoulder position.',
+          hint:'This is the cleanest NMM-style comparison. Channel 1, the clavicular head, had by far the strongest positive flexion bias at 70% MVC, while the lowest segment was strongly extension-biased.',
+          overlay:'Bars = forward flexion nIEMG minus extension nIEMG',
+          yLabel:'Flexion bias (percentage points)',
+          series:[
+            {name:'70% MVC flexion - extension',unit:'pp',values:{c1:15.70,c2:6.35,c3:2.58,c4:-1.83,c5:-3.00,c6:-18.89}}
+          ]
+        }
+      };
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode='bias',visible={c1:true,c2:true,c3:true,c4:true,c5:true,c6:true};
+      Object.entries(METRICS).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function activeSegments(){ return SEGMENTS.filter(s=>visible[s.key]); }
+      function currentSeries(){ return METRICS[mode].series; }
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=METRICS[mode].subtitle; hint.textContent=METRICS[mode].hint; overlay.textContent=METRICS[mode].overlay; renderLegend(); resize(); }
+      function fit(){ draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:84,y:20,w:Math.max(140,w-116),h:Math.max(140,h-92)};
+        const active=activeSegments(), series=currentSeries();
+        const values=series.flatMap(metric=>active.map(seg=>metric.values[seg.key]));
+        const minY=Math.min(0,...values), maxY=Math.max(...values,10);
+        const span=Math.max(1,maxY-minY);
+        const topY=maxY+span*0.08, bottomY=minY-span*0.08;
+        const sy=(y)=> plot.y + ((topY-y)/(topY-bottomY))*plot.h;
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        const zeroY=sy(0);
+        const startTick=Math.floor(bottomY/5)*5, endTick=Math.ceil(topY/5)*5;
+        for(let y=startTick;y<=endTick+0.001;y+=5){
+          const py=sy(y);
+          ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke();
+          ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(`${y.toFixed(0)}`,plot.x-10,py);
+        }
+        const groupWidth=plot.w/Math.max(1,series.length);
+        const gap=6;
+        const width=Math.min(30,(groupWidth-gap*(active.length-1))/Math.max(1,active.length)*0.95);
+        const bars=[];
+        series.forEach((metric,metricIndex)=>{
+          const center=plot.x + groupWidth*(metricIndex+0.5);
+          const totalW=active.length*width + Math.max(0,active.length-1)*gap;
+          active.forEach((seg,segIndex)=>{
+            const value=metric.values[seg.key];
+            const x=center-totalW/2 + segIndex*(width+gap);
+            const y=value>=0?sy(value):zeroY;
+            const hBar=Math.abs(sy(value)-zeroY);
+            ctx.fillStyle=seg.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,width,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,width,hBar);
+            bars.push({bar:{x,y,w:width,h:hBar},seg,metric,value});
+          });
+          ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(metric.name,center,plot.y+plot.h+8);
+        });
+        ctx.strokeStyle='rgba(255,255,255,.25)';
+        ctx.beginPath(); ctx.moveTo(plot.x,zeroY); ctx.lineTo(plot.x+plot.w,zeroY); ctx.stroke();
+        ctx.strokeStyle='rgba(255,255,255,.18)';
+        ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(METRICS[mode].yLabel,0,0); ctx.restore();
+        stage._bars=bars; status.textContent=`${active.length} segments shown`;
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        SEGMENTS.forEach(seg=>{
+          const row=document.createElement('div'); row.className='check'+(visible[seg.key]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[seg.key]?'checked':''} /><span class="swatch" style="background:${seg.color}"></span><label>${seg.name}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[seg.key]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[seg.key]=box.checked; draw(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._bars||[]).find(b=>x>=b.bar.x&&x<=b.bar.x+b.bar.w&&y>=b.bar.y&&y<=b.bar.y+b.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.seg.name}</strong></div><div class="muted">${hit.metric.name}</div><div><strong>${hit.value.toFixed(2)}</strong> ${hit.metric.unit}</div><div>${hit.seg.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize);
+      window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); });
+      if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

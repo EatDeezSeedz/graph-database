@@ -16,7 +16,7 @@
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
       .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
       select,option,optgroup{background:#111827;color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(320px,32vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -144,6 +144,8 @@
       let mode='exact',visible={},drag=null,view={minX:0,maxX:10,minY:0,maxY:120};
       Object.keys(COLORS).forEach(k=>visible[k]=true);
       Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
+      function applyMode(){ modeSel.value=mode; fit(); renderLegend(); resize(); }
       const cfg=()=>MODES[mode];
       function activeItems(){ if(cfg().type==='bar') return cfg().items.filter(i=>visible[i.key]); if(cfg().type==='grouped') return Object.keys(cfg().groups[0].values).filter(k=>visible[k]); return cfg().points.filter(p=>visible[p.key]); }
       function bounds(){ if(cfg().type==='bar'){ return {minX:0.4,maxX:Math.max(1.6,cfg().items.length+0.6),minY:0,maxY:Math.max(120,...cfg().items.map(i=>i.value))*1.08}; } if(cfg().type==='grouped'){ return {minX:0.4,maxX:cfg().groups.length+0.6,minY:-1.4,maxY:1.4}; } const pts=activeItems(); if(!pts.length) return {minX:0,maxX:100,minY:0,maxY:100}; return {minX:0,maxX:100,minY:0,maxY:100}; }
@@ -170,7 +172,7 @@
       function renderLegend(){ subtitle.textContent=cfg().subtitle; hint.textContent=cfg().hint; overlay.textContent=cfg().overlay; legend.innerHTML=''; legendItems().forEach(entry=>{ const row=document.createElement('div'); row.className='check'+(visible[entry.key]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[entry.key]?'checked':''} /><span class="swatch" style="background:${COLORS[entry.key]}"></span><div><label>${entry.label}</label><div style="font-size:11px;color:var(--muted);margin-top:4px;line-height:1.35">${entry.note}</div></div>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{ visible[entry.key]=e.target.checked; draw(); renderLegend(); }); row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[entry.key]=box.checked; draw(); renderLegend(); }}); legend.appendChild(row); }); }
       function updateTooltip(ev){ const rect=stage.getBoundingClientRect(),x=ev.clientX-rect.left,y=ev.clientY-rect.top; const hit=(stage._markers||[]).find(m=>m.shape==='point'?Math.hypot(m.x-x,m.y-y)<=m.r:(x>=m.x&&x<=m.x+m.w&&y>=m.top&&y<=m.top+m.h)); if(!hit){ tooltip.style.display='none'; return; } let html=''; if(cfg().type==='bar'){ const item=hit.item; html=`<div><strong>${item.label}</strong></div><div class="muted">Exact reported effect</div><div>F statistic: <strong>${item.value.toFixed(2)}</strong></div><div>${item.note}</div>`; } else if(cfg().type==='grouped'){ const label={neutral:'Neutral posture',flexion:'Flexion posture',rotationLeft:'Rotation posture - left side',rotationRight:'Rotation posture - right side'}[hit.key]; const note=cfg().notes[hit.key]; html=`<div><strong>${label}</strong></div><div class="muted">${hit.group}</div><div>Directional score: <strong>${hit.value.toFixed(1)}</strong></div><div>${note}</div>`; } else { const item=hit.item; html=`<div><strong>${item.label}</strong></div><div class="muted">Interpretive neuromechanical summary</div><div>Mechanical advantage: <strong>${item.x}</strong></div><div>Recruitment strength: <strong>${item.y}</strong></div><div>${item.note}</div>`; } tooltip.innerHTML=html; tooltip.style.display='block'; const tipW=tooltip.offsetWidth||240, tipH=tooltip.offsetHeight||100; const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)); const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14)); tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`; }
       function clampView(){ const b=bounds(), spanX=view.maxX-view.minX; if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; } if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; } if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; } }
-      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
       btnFit.addEventListener('click',fit);
       btnReset.addEventListener('click',()=>{ Object.keys(visible).forEach(k=>visible[k]=true); fit(); renderLegend(); });
       btnShowAll.addEventListener('click',()=>{ legendItems().forEach(i=>visible[i.key]=true); draw(); renderLegend(); });
@@ -180,8 +182,14 @@
       stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
       stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
       stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
-      window.addEventListener('resize',resize);
-      fit(); renderLegend(); resize();
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
     </script>
   </body>
 </html>
+
+
+
+
+
+

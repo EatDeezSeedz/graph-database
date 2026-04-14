@@ -13,7 +13,7 @@
       .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
       .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)} select,option,optgroup{background:var(--panel);color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(240px,30vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -152,7 +152,7 @@
       document.getElementById('reset').addEventListener('click',()=>{activeSeries=null;syncActiveRows();resetView()});
       document.getElementById('all').addEventListener('click',()=>{for(const s of series)s.visible=true;for(const cb of checksEl.querySelectorAll('input'))cb.checked=true;syncActiveRows();draw()});
       document.getElementById('none').addEventListener('click',()=>{for(const s of series)s.visible=false;activeSeries=null;for(const cb of checksEl.querySelectorAll('input'))cb.checked=false;syncActiveRows();draw()});
-      window.addEventListener('resize',resize);
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
       stage.addEventListener('pointerdown',e=>{if(e.button!==0)return;dragging=true;dragAxis=null;stage.classList.add('is-dragging');lastX=e.clientX;lastY=e.clientY;stage.setPointerCapture(e.pointerId)});
       stage.addEventListener('pointermove',e=>{
         const r=stage.getBoundingClientRect(),padL=82,padT=20,padR=20,padB=60,w=Math.max(10,r.width-padL-padR),h=Math.max(10,r.height-padT-padB),x=e.clientX-r.left,y=e.clientY-r.top;
@@ -169,3 +169,4 @@
     </script>
   </body>
 </html>
+

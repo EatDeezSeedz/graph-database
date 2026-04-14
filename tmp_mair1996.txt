@@ -1,0 +1,406 @@
+The Role of Fatigue in Susceptibility to
+Acute Muscle Strain Injury
+                                                  Scott D. Mair, MD, Anthony V. Seaber, Richard R. Glisson, and
+                                                                               William E. Garrett, Jr.,* MD, PhD
+
+
+            From the Orthopaedic Research Laboratories, Department of Surgery, Duke University
+                                                        Medical Center, Durham, North Carolina
+
+
+ABSTRACT                                                                            able to examine the factors that predispose athletes to
+                                                                                    stretch-induced muscle injuries.
+We investigated the role of fatigue in muscle strain                                    Muscle-strain injury is known to occur near the muscu-
+injuries using the extensor digitorum longus muscles of                             lotendinous junction. 13,15,16,21,23,25,28 This injury is asso-
+48 rabbits. The muscles of the rabbits were fatigued by                             ciated with eccentric muscle contraction, that is, muscle
+25% or 50% then stretched to failure and compared                                   that is activated while being lengthened. 10, 13, 18,31 Sports
+with the contralateral controls. Three rates of stretch                             medicine personnel widely agree that fatigue may be a
+were used. The force to muscle failure was reduced in
+                                                                                    predisposing factor in the occurrence of muscle strain
+the fatigued leg in all groups (range, 93% to 97.4%                                 injury. A 10-year study of hamstring muscle injuries in
+compared with the controls). The change in muscle                                   intercollegiate football players reported &dquo;an obvious asso-
+length in the fatigue groups was not different from the                             ciation&dquo; between these injuries and muscle fatigue.19 In
+controls. The amount of energy absorbed in the fa-                                  another study, Dornan 1° found that muscle strains usu-
+tigued muscle was 69.7% to 92% that of the energy                                   ally occurred quite early or in the latter stages of practices
+absorbed in the control muscle. The lowest energy                                   or matches. He hypothesized that the reasons were inad-
+
+absorption occurred in muscles that were more fa-                                   equate warmup and fatigue. However, there are few quan-
+tigued. In eight additional rabbits, fatigued extensor                              titative data documenting the role of fatigue in suscepti-
+digitorum longus muscles were compared with sub-                                    bility to stretch-induced muscle injury. Garrett et al. 16
+maximally stimulated muscles with the equivalent con-                               compared muscle stretched to failure when the muscle
+tractile properties, and no difference was seen. Mus-                               was 1) not activated, 2) activated submaximally, and 3)
+cles subjected to strains are frequently injured under                              activated maximally. The Garrett et al. study concluded
+high-intensity eccentric loading conditions. Under                                  that activating the muscle significantly influenced the
+these conditions, muscles absorb energy and provide                                 amount of energy absorbed by the muscle before failure.
+control and regulation of limb movement. Our data                                   Fatigue, like submaximal contraction, lowers the ability of
+showed that muscles are injured at the same length,                                 muscle to generate contractile force, and we therefore
+regardless of the effects of fatigue. However, fatigued                             hypothesized that it would also reduce the energy ab-
+muscles are able to absorb less energy before reach-                                sorbed before muscle failure.
+ing the degree of stretch that causes injuries.                                         The purpose of this study was to establish a model to
+                                                                                    examine the effect of fatigue on acute muscle strain inju-
+                                                                                    ries. We also examined the interrelation of fatigue and the
+The clinical significance of stretch-induced muscle inju-                           rate at which the muscle was stretched. In addition, we
+ries, often referred to as muscle strains, is evident to                            attempted to elucidate the mechanisms by which fatigue
+clinicians treating sports-related or occupational injuries.                        influences the properties of muscle failure. Our goal was
+These injuries are among the most common disabling                                  to examine the role of fatigue in muscle strains to provide
+problems seen in sports. 1,2,7,10,11,17,26 Despite the preva-                       a rational scientific basis for prevention and treatment.
+lence of muscle strains, few basic science data are avail-
+                                                                                    MATERIALS AND METHODS
+  *Address correspondence and repnnt requests to William E Garrett, Jr ,            Effect of Fatigue on the Properties of Muscle Failure
+MD, PhD, Box 3435, Department of Surgery, Duke Urnversity Medical Center,
+Durham, NC 27710.
+   No author or related institution has received any financial benefit from         This study was divided into two parts. In the first part, the
+research in this study.                                                             extensor digitorum longus (EDL) muscles of 48 New Zea-
+
+
+                                                                              137
+138
+
+
+land White rabbits were used. The EDL muscle, which            conditioning regimen, which had been developed in the
+consists of predominantly fast-twitch fibers, crosses two      study by Taylor et al.,28 provided a significant deforma-
+joints. These characteristics are also found in muscles that   tion in the elastic region of the load-deformation relation-
+athletes commonly strain and seek assistance for clinical-     ship without creating an injury. The EDL muscle was
+ly.6,14 After intramuscular injection of a forelimb muscle     contracted by stimulation with a Grass S44 stimulator
+with an anesthetic mixture of ketamine (100 mg/kg), xy-        (Grass Instruments, Quincy, Massachusetts) via the iso-
+lazine (12.5 mg/kg), and acepromazine (3 mg/kg), the hind-     lated common peroneal nerve. The threshold at which the
+limbs were shaved. An incision was made on the anterior        muscle became activated was determined, then the volt-
+surface of each hindlimb 3 cm proximal to the knee, ex-        age was increased until no further increase could be pro-
+tending to the distal foot. The common peroneal nerve was      duced in twitch tension. Subsequent tetanic contractions
+dissected free in the lateral thigh. The EDL muscle was        were produced using 50 Hz at 5 times threshold voltage.
+isolated while maintaining the neurovascular supply and        The peak isometric tetanic force and muscle length at
+tendinous insertions intact. The in situ muscle length was     which it was generated were determined by plotting step-
+measured with precision-dial calipers. The knee and ankle      wise active and passive length-tension curves. For subse-
+were each placed at 90° of flexion, and the length was         quent muscle contraction, the stimulator electrode was
+measured from the origin to the distal end of the muscle       moved distally on the nerve to avoid local nerve damage
+belly. The anesthetized rabbit was then placed in a frame      from repeated stimulation.
+that was rigidly mounted onto the specimen table of a            The EDL muscle of one limb was fatigued by setting the
+Model 1321 Instron Servohydraulics Materials Testing           muscle to the length at which peak isometric tetanic force
+System (Instron Corp., Canton, Massachusetts). A               was generated and by initiating cycles of 5 seconds of
+Kirschner wire was placed transversely through the fem-        tetanic stimulation with alternating 1-second rest periods
+oral condyles and fixed to the frame to immobilize the         until the contractile force of the muscle had been reduced
+hindlimb. The distal tendon of the EDL muscle was ex-          from peak isometric tetanic force by a predetermined
+posed and transected at its point of insertion to the bone.    amount (25% or 50%). For this study, the level of fatigue
+The tendon was then clamped to the load cell of the In-        was regarded as the decrement in output force of the EDL
+stron machine (Fig. 1). The length of the muscle of the        muscle (25% or 50%) that resulted from repeated muscle
+immobilized limb was set to precisely that of the in situ      contraction. The muscle was immediately stretched to fail-
+muscle length. The muscle was kept moist and at a phys-        ure while being stimulated, after the 25% or 50% decre-
+
+iologic temperature (37°C) using warm saline irrigation        ment had been reached. The contralateral control EDL
+and mild heat lamps. Additional anesthesia was adminis-        muscle was fatigued in the same manner and allowed to
+tered to the animals as needed.                                rest until the peak isometric tetanic force had been re-
+                                                               stored. The muscle was then activated and immediately
+Experimental Model                                             pulled to failure. In reviewing the fatigue curves, appre-
+                                                               ciable fatigue did not occur until the muscle had been
+To increase reproducibility, each EDL muscle was precon-       stimulated for more than 10 seconds. Because the time to
+ditioned by cyclically stretching the muscle 10 times to       stimulate and pull to failure the control muscles was less
+10% more than its resting length at 2 cm/min. This pre-        than 1 to 3 seconds (depending on strain rate), the control
+                                                               muscles were not subjected to a significant amount of
+                                                               fatigue during testing.
+                                                                  Each rabbit was assigned to one of three strain rate
+                                                               groups (1, 10, or 50 cm/sec). Thus, there were two levels of
+                                                               fatigue and three strain rates, resulting in six groups of
+                                                               muscles with eight in each group. The rates of stretch
+                                                               were chosen to approximate those encountered in ath-
+                                                               letes. In the study by Wickiewicz et aI., 29 the velocity of a
+                                                               hamstring muscle in a front-snap kick was established to
+                                                               approach 70 cm/sec or 400% of fiber length per second. The
+                                                               rate of stretch used in this study was approximately 40%
+                                                               to 2000% of fiber length per second for the EDL muscle.
+
+
+
+                                                               Data Collection
+
+                                                               The load-deformation curve of each muscle was captured
+                                                               on a Nicolet Model 3091 oscilloscope (Nicolet Instrument
+
+                                                               Corp., Madison, Wisconsin) and stored on an IBM Per-
+Figure 1. Immobilized rabbit hindlimb with the distal tendon   sonal System/2 Model 80 computer (IBM, Armonk, New
+of the EDL muscle clamped to the Instron load cell. The        York). The Nicolet Waveform BASIC Software Package
+common peroneal nerve is intact and dissected free to allow    was used to calculate the following parameters: 1) the
+
+placement of the nerve stimulator.                             force to muscle-tendon unit failure, 2) the percentage of
+                                                                                                                              139
+
+
+change in muscle length to failure, and 3) the energy             fore, any difference in failure properties would have to be
+absorbed before failure.                                          attributed to another factor.
+  A sample recording is shown in Figure 2. The stretch is            One EDL muscle was surgically exposed, fatigued, and
+initiated (A) and the muscle fails (B). Force to failure is       stretched to failure at 1 cm/sec exactly as in the first part
+defined as the peak force achieved by the muscle (force at        of the study. The contralateral control EDL muscle was
+B). The increase of muscle length is calculated by deter-         stimulated at a low frequency, and the frequency was
+mining the time from initiation of stretch (A) to muscle          gradually increased until the force generated was equal to
+failure (B) multiplied by the rate of stretch. This calcula-      that on the side of the fatigued limb. The muscle was then
+tion was converted to the percentage of increase in the           stretched at a rate of 1 cm/sec until fatigue resulted (Fig.
+muscle length by dividing by the initial muscle length and        3). The same parameters as in the first part of the study
+multiplying by 100. Finally, the energy absorbed before           were measured, and comparisons were made between fa-
+muscle failure was calculated as the integral of the length-      tigued and submaximally stimulated muscles using the
+tension curve from stretch initiation to muscle rupture           Student’s paired t-test.
+(area under the curve from A to B [Fig.2]).
+                                                                  RESULTS
+Statistical Analyses
+
+Statistical analyses compared the fatigued EDL muscles            Force
+with the contralateral control muscles for the force to           The average force to failure for all groups, which was
+failure, the percentage of muscle length increase, and the        measured in newtons, is shown in Table 1. These data are
+energy absorbed by the musculotendinous unit. The eval-           only meaningful when the value for a fatigued muscle is
+uations were made with a paired Student’s t-test to elim-
+                                                                  compared with its individual control because this removes
+inate interindividual variation. Comparisons of the rela-         the potential for variation among separate rabbits. The
+tive differences among the three muscular strain rates            raw data from Table 1 were used to calculate a value for
+were made using a one-way analysis of variance.
+                                                                  percentage of control for each rabbit, which was then
+                                                                  averaged among each group (Fig. 4). A reduction in force
+Comparison of Fatigued and Submaximally Stimulated                to failure in all muscle groups was the trend. However,
+Muscle                                                            this decreased force to failure was only significant (P <
+                                                                  0.01) for two of the six muscle groups: 50% fatigue at 1 and
+In the second part of the study, the submaximal stimula-          10 cm/sec. Additionally, the rate at which the muscle was
+tion of muscles was compared with the fatigue of muscles          stretched did not have any significant effect on influencing
+in eight rabbits. The comparison was done to determine
+                                                                  force to failure.
+whether fatigue caused the findings of the first part be-
+cause of a diminution of contractile strength or whether
+other factors, such as metabolic changes induced by fa-           Change of Muscle Length
+tigue, might contribute to the parameters altered by fa-          The average percentage of increase in muscle length nec-
+tigue. The fatigued and submaximally stimulated muscles           essary to result in EDL muscle failure is shown in Table 1
+that were compared had equal contractile strength; there-         for all groups. Again, these data were used to produce the
+
+
+
+
+                                                                  Figure 3. Stretch of the fatigued muscle is initiated (Point A)
+Figure 2. A sample load-deformation curve produced by             when a 50% decrement from the peak isometnc tetanic force
+stretch of the activated EDL muscle pulled to failure. Force to   is reached. In the second graph, the isometric force of the
+failure is defined as the value of force at Point B. The change   EDL muscle is gradually increased by increasing the fre-
+in the length of the muscle is equal to the elapsed time from     quency of the nerve stimulator, then stretch is initiated. Force
+A to B multiplied by the rate of stretch. The energy absorbed     produced by the activated EDL muscle is equivalent in the
+is proportional to the area under the curve from A to B.          two graphs at the point of stretch initiation (Point A).
+140
+
+
+                                                         TABLE 1
+                                  Biomechanical Raw Data: Values to Point of Muscle Rupture
+
+
+
+
+Figure 4. When the fatigued muscle was compared with its
+corresponding control, the decreased force to failure was        Figure 6. Fatigue significantly reduces energy absorbed in
+only significant (P < 0.01) for two muscle groups: 50%           all groups (P < 0.0001). The reduction is more pronounced
+fatigue at 1 and 10 cm/sec. The other groups do not show a       ( P < 0.0001) for the 50% fatigue level at all rates of stretch.
+statistically significance difference.
+
+                                                                 50% fatigue was produced, compared with the control
+percentage of control values for each subject (Fig. 5). The
+                                                                 limb. This loss of the ability to absorb energy was more
+change of muscle length did not differ from the controls in
+any fatigue group; the rate of stretch also made no differ-      pronounced with greater muscle fatigue (50% as compared
+ence.
+                                                                 with 25%).
+                                                                    In comparing separate strain rates, the effect of fatigue
+                                                                 was greater at slower rates of stretch; that is, when mus-
+Energy Absorbed                                                  cle was pulled more slowly, the reduction in energy ab-
+Table 1 outlines the average energy absorbed by the EDL          sorption caused by fatigue was more pronounced. When
+musculotendinous units before failure, as calculated by          the muscle was pulled faster, fatigue made less of a dif-
+the area under the length-tension deformation curve. Fig-        ference. Within the 50% fatigue groups (1 versus 10 cm/
+ure 6 depicts these data on energy absorbed as percent-          sec), this difference was significant (P < 0.001), as it was
+ages of the controls. Energy absorption was significantly        for 1 versus 50 cm/sec (P < 0.002). When 10 cm/sec was
+reduced in the fatigued limb (P < 0.0001), whether 25% or        compared with 50 cm/sec, the difference was not statisti-
+                                                                 cally significant. Overall, it appears that fatigue has a
+                                                                 significantly greater effect on the energy absorbed when
+                                                                 the muscle is pulled at a lower rate of stretch.
+                                                                   We also analyzed the load-deformation curves of fa-
+                                                                 tigued and control muscles to pinpoint more precisely
+                                                                 where on the curve fatigue produced its effects on the
+                                                                 energy absorbed. We found the difference in the ability to
+                                                                 absorb energy in the early part of muscle stretching. Fig-
+                                                                 ure 7 shows representative curves for control and fatigued
+
+                                                                 muscles. Fatigued muscle absorbed 42% more energy dur-
+                                                                 ing the first 70% of the stretch and only 6% more during
+                                                                 the last 30% of the stretch.
+                                                                   In the second part of the experiment, eight rabbits were
+                                                                 used to compare fatigued muscle with muscle that was
+Figure 5. No significant differences in muscle length change     submaximally stimulated. The tension produced by the
+to failure were found when fatigued muscle was compared          activated muscle was equal in each limb. The failure prop-
+with the contralateral control muscle.                           erties for the two groups were force (newtons), length of
+                                                                                                                              141
+
+
+                                                                  under eccentric conditions to decelerate knee extension
+                                                                  and hip flexion.4,12 Similarly, the gastrocnemius muscle
+                                                                  limits ankle dorsiflexion during running and other ath-
+                                                                  letic activities. In both of these situations, it is likely that
+                                                                  the muscles function to absorb the energy of the joint
+                                                                  motion. It is unlikely that the muscles function eccentri-
+                                                                  cally until a given length is reached or until a given force
+                                                                  is attained. Instead, the muscles function eccentrically
+                                                                  until the energy in the moving limb is absorbed and con-
+                                                                  centric function can begin. It is therefore reasonable to
+                                                                  expect that if fatigue decreases the ability of muscles to
+                                                                  absorb energy, fatigue might be an important factor in the
+                                                                  cause and prevention of muscle injury.
+
+                                                                     In this study, it appears that muscles under nonfa-
+                                                                  tigued, fatigued, and submaximally stimulated conditions
+                                                                  all tear at similar lengths when failure is defined as a
+                                                                  disruption of the muscle. Therefore, a strategy to prevent
+                                                                  muscle-strain injury might involve mechanisms to avoid
+                                                                  injurious stretching rather than mechanisms that might
+                                                                  allow more stretching without injury. Muscles that cross
+Figure 7. When fatigued muscle was compared with the
+                                                                  two joints, such as the rectus femoris, gastrocnemius, and
+nonfatigued control muscle, the majority of the decrement in
+energy absorbed was in the early part after stretch initiation.   hamstring muscles, are the most susceptible to stretch-
+In the first 70% of the stretch there was a 42% difference        induced injuries. 3,6,10,18,24 These muscles function eccen-
+between the fatigued and control muscles. In the last 30% of      trically to limit joint motion. They can be stretched by both
+the stretch, the difference was only 6%. Energy absorbed is       joints to the point that passive tension in the muscle can
+                                                                  limit joint motion.’ Under dynamic conditions, muscles
+proportional to the area under the curve.
+                                                                  resist stretching while they are elongated. Energy absorp-
+                                                                  tion can be considered as the area under the load. If the
+muscle increase (percentages), and the energy absorbed            muscle force is higher when the muscle is stretched, more
+(newton-centimeters). For the fatigued muscles, the re-           energy is absorbed that can withstand a higher load with
+sults of the failure properties were as follows: force, 94.0 ±    less stretch (deformation) than when muscle produces
+4.2; length of muscle increase, 17.1 ± 2.3; energy ab-            lower forces under stretch (Fig. 8). Thus, a muscle with
+sorbed, 111.8 ± 7.3. For the submaximally stimulated              greater capability of energy absorption is better able to
+muscles, the results were force, 94.5± 5.0; length of mus-        avoid the amount of stretch that produces injury.
+cle increase, 17.0 ± 2.1; energy absorbed, 112.8 ± 6.5.
+                                                                     Interestingly, the energy absorption differences be-
+None of these values were significantly different.                tween nonfatigued and fatigued muscles are not uniform;
+                                                                  rather, nonfatigued muscles absorb much more energy in
+DISCUSSION                                                        the early phases of stretching, and the differences in en-
+                                                                  ergy absorption are much less at the higher degrees of
+Contractile function is important in injury prevention.           stretching (Fig. 7). It has been reported that histologic and
+Garrett et al.16 demonstrated that muscle can absorb en-          biomechanical damage begins to occur in muscle at
+ergy whether stretched passively (while muscle is not             shorter lengths than those necessary for complete disrup-
+activated) or actively (while muscle is contracted by elec-       tion. 21 Our data show that the capability of a fatigued
+trical stimulation of its motor nerve). Garrett and associ-       muscle to absorb energy is reduced most notably in the
+ates have also demonstrated that muscle can absorb twice          early stages of muscle stretching. A nonfatigued muscle
+as much energy when activated and stretched to failure            might therefore be capable of absorbing a required
+than when passively stretched. The submaximally stimu-            amount of energy while avoiding the change in muscle
+lated muscle absorbed less energy than the maximally              length necessary to produce an injury. When faced with
+stimulated muscle, which suggested that fatigue might be          the requirement of absorbing this same amount of energy,
+an important causal factor in muscle injury.                      a fatigued muscle would require a greater change in
+   Our study shows that fatigued muscles absorbed less            length, whereby injury could result.
+energy than nonfatigued muscles in all cases tested. On
+the other hand, fatigued muscles failed at lengths not            Mechanism of Fatigue Effect
+different from nonfatigued muscles. Therefore, if fatigue is
+a factor in the production of clinical muscle injury, it is       Multiple factors are associated with fatigue in muscle,
+probably because of the reduced ability of the fatigued           including the central nervous system, peripheral nervous
+muscle to absorb energy. Most muscle strain injuries occur        system, and local factors.27,30 Energy supply (adenosine
+in muscles subjected to eccentric loading during exer-            triphosphate, creatine phosphate, oxygen, glycogen, and
+cise.10, 13.18, 20, 31 For example, hamstring muscle strains      free fatty acids) and metabolic shifts (calcium, hydrogen
+occur in sprinters when the hamstring muscles function            ions, lactate, electrolytes, and water shifts) appear to play
+142
+
+
+                                                                  musculoskeletal system. 5,8,9,12,22 When muscles are
+                                                                  stretched, the movement is activated eccentrically. The
+                                                                  muscle fibers resist lengthening and stretch occurs in the
+                                                                  connective tissue components of the muscle, such as the
+                                                                  tendon and the epimysium. The stretched connective tis-
+                                                                  sue can rebound like a spring and return energy to the
+                                                                  musculoskeletal system. For example, during gait the
+                                                                  quadriceps muscle functions eccentrically during the late-
+                                                                  stance phase. The extensor mechanism, including the
+                                                                  quadriceps muscle and patellar tendon, are stretched elas-
+                                                                  tically. The stretched tendon can rebound as knee exten-
+                                                                  sion begins and can restore some of the stored energy for
+                                                                  the work of knee extension.5This concept is not new;
+                                                                  Marey and Demery22 noted in 1885 that when two jumps
+                                                                  were made in succession, the second was higher because of
+
+                                                                  the mechanical energy stored and returned from the first
+                                                                  jump.
+                                                                     One can see how this function is important in normal
+                                                                  muscle function and particularly in athletic function. One
+Figure 8. Point B is 70% of the length required to completely     must then consider that fatigue may also be important in
+rupture the fatigued muscle-tendon unit. It is at approximately   the task of energy storage and elastic return of energy by
+this point where irreversible muscle strain injury begins to      muscle. Because efficient muscle function requires the
+occur.25 To absorb the equivalent amount of energy, the           muscle to stretch less and transfer stretch to the tendon, it
+control muscle requires stretch to only Point A, less than half   is possible that fatigue can interfere with the storage and
+the stretch required for complete rupture. In the figure, areas   retrieval of elastic energy by muscle.
+under the curve are equivalent. Thus, presented with an
+equal amount of energy to be absorbed, the fatigued muscle        CONCLUSIONS
+will become injured but control muscle will not.
+                                                                  In this study, we have created a model for an acute and
+                                                                  reversible state of muscle fatigue, followed by eccentri-
+a role within the muscle. Different types of intensity,           cally activating skeletal muscle in rabbits. The data sug-
+duration, environment, and purpose of work result in dif-         gest that muscle fatigue significantly diminishes the abil-
+ferential influences of these and other factors. Because the      ity of muscle to absorb energy. The decrease in the
+exact mechanisms of fatigue are multiple, an effort was           capability of the muscle to absorb energy is closely related
+made in our study to better understand whether contrac-           to a reduction in muscle contractile strength.
+tile properties of muscle were predominantly important or           The importance of muscles as energy absorbers is rec-
+whether local muscle factors, induced by altered energy           ognized increasingly. This study shows that fatigue de-
+supplies and metabolic changes, might be important as             creases the ability of muscle to absorb energy before fail-
+
+well. A comparison of fatigued and submaximally stimu-            ure, especially in the early part of muscle stretching when
+lated muscle, in which force generation was equivalent in         injury can be avoided. Therefore, fatigue is an important
+the two groups, was undertaken. The submaximally stim-            factor in the pathogenesis of acute muscle strains. Our
+ulated muscle does not undergo the severe local changes           data suggest that proper conditioning to avoid fatigue and
+within the muscle that a fatigued muscle undergoes. The           exercise modification when fatigue occurs will help pre-
+data show no difference in any of the parameters tested.          vent these muscle strains. We hope that this study will
+The common variable in fatigued and submaximally stim-            help to provide a rational basis for the prevention of acute
+ulated muscle was an equal ability to generate muscular           muscle strain injuries.                                                  ,
+
+
+
+force (Fig. 3). Although the underlying mechanism of en-
+ergy and metabolic factors might be different despite             REFERENCES
+equal contractile properties, no difference was found in
+                                                                   1Agre JC Hamstring injuries&mdash;proposed aetiological factors, prevention,
+peak force, length, and energy absorbed before muscle               and treatment Sports Med
+                                                                                           . 21-33,   2 1985
+failure. This suggests that regardless of the mechanism,          2 Apple DF Jr, O’Toole J, Annis C Professional basketball injuries Physi-
+the contractile apparatus and its capabilities play a sig-          cian Sportsmed 10(11) 81-86, 1982
+                                                                  3 Bach BR Jr, Warren RF, Wickiewicz TL Triceps rupture A case report
+nificant role in the properties of muscle failure.                  and literature review Am J Sports Med 15 285-289, 1987
+                                                                  4 Basmajian JV Muscles Alive Baltimore, Williams & Wilkins, 1978, pp
+                                                                    235-280
+Muscles and Elastic Energy Function                               5 Belli A, Avela J, Komi PV. Mechanical energy assessment with different
+                                                                    methods during running Int J Sports Med 14 252-256, 1993
+The importance of eccentric muscle action in deceleration         6 Brewer BJ Mechanism of injury to the musculotendinous unit Instr
+and energy absorption is well recognized. Eccentrically             Course Lect 17 354-358, 1960
+                                                                  7 Canale ST, Cantler ED, Sisk TD, et al A chromcle of injunes of an
+activated muscles also have an important function as elas-          American intercollegiate football team Am J Sports Med 9. 384-389,
+tic structures that can store and return energy to the              1981
+                                                                                                                                                           143
+
+ 8  Cavagna GA Storage and utilization of elastic energy in skeletal muscle       20 Jobe FW, Moynes DR, Tibone JE, et al An EMG analysis of the shoulder
+    Exerc Sports Sci Rev 5: 89-129, 1977                                             in pitching. A second report. Am J Sports Med 12 218-220, 1984
+ 9. Cavagna GA, Heglund NC, Taylor CR: Mechanical work in terrestrial             21 LeCroy CM, Glisson RR, Seaber AV, et al Strain rate dependence of
+    locomotion: Two basic mechanisms for minimizing energy expenditure               biomechanical failure properties in stimulated and nonstimulated skeletal
+    Am J Physiol 233. R243-261, 1977                                                 muscle Trans Orthop Res Soc 15:    150, 1990
+10. Dornan P: A report on 140 hamstring injuries. Austral J Sports Med 4:         22 Marey M, Demery MG Locomotion humane Mecanisme du saut
+     30-36, 1971                                                                     Comptes Rendres les domadaines des seances de l’Academie des Sci-
+                                                                                     ences 101 489-494, 1885
+11. Ekstrand J, Gillquist J; The frequency of muscle tightness and injuries in
+                                                                                  23 McMaster PE: Tendon and muscle ruptures. J Bone Joint Surg 15: 705-
+    soccer players Am J Sports Med 10   . 75-78, 1982
+                                                                                      722, 1933
+12 Elftman H Biomechanics of muscle with particular application to studies of     24 Miller WA: Rupture of the musculotendinous juncture of the medial head
+    gait J Bone Joint Surg 48A: 363-377, 1966                                         of the gastrocnemius muscle Am J Sports Med 5: 191-193, 1977
+13. Garrett WE Jr: Muscle strain injuries. Clinical and basic aspects. Med Sci    25 Nikolaou PK, MacDonald BL, Glisson RR, et al Biomechanical and his-
+    Sports Exerc 22. 436-443, 1990                                                    tological evaluation of muscle after controlled strain injury. Am J Sports
+14. Garrett WE Jr, Califf JC, Bassett FH III: Histochemical correlates of             Med 15. 9-14, 1987
+    hamstring injuries Am J Sports Med 12: 98-103, 1984                           26 Pritchett JW High cost of high school football injuries Am J Sports Med
+15 Garrett WE Jr, Nikolaou PK, Ribbeck BM, et al The effect of muscle                 8 197-199, 1980
+    architecture on the biomechanical failure properties of skeletal muscle       27 Roberts D, Smith DJ. Biochemical aspects of peripheral muscle fatigue. A
+    under passive extension Am J Sports Med 16     : 7-12, 1988                       review. Sports Med 7 125-138, 1989
+
+16 Garrett WE Jr, Safran MR, Seaber AV, et al Biomechanical comparison of         28 Taylor DC, Dalton JD Jr, Seaber AV, et al: Viscoelastic properties of
+    stimulated and nonstimulated skeletal muscle pulled to failure Am J               muscle-tendon units. The biomechanical effects of stretching Am J Sports
+                                                                                      Med 18. 300-309, 1990
+    Sports Med 15: 448-454, 1987                                                  29. Wickiewicz TL, Roy RR, Powell PL, et al: Muscle architecture of the
+17. Garrick JG, Requa RK: Epidemiology of women’s gymnastics injuries. Am
+                                                                                      human lower limb. Clin Orthop 179
+                                                                                                                      . 275-283, 1983
+    J Sports Med 8 : 261-264, 1980                                                30. Wong R, Davies N, Marshall D, et al Metabolism of normal skeletal
+18 Glick JM Muscle strains Prevention and treatment. Physician Sportsmed              muscle during dynamic exercise to clinical fatigue. In vivo assessment by
+     8(11) 73-77, 1980                                                                nuclear magnetic resonance spectroscopy Can J Cardiol 6. 391-395,
+19   Heiser TM, Weber J, Sullivan G, et al: Prophylaxis and management of             1990
+     hamstring muscle injuries in intercollegiate football players. Am J Sports   31 Zarins B, Ciullo JV Acute muscle and tendon injuries in athletes. Clin
+     Med 12 368-370, 1984                                                             Sports Med 2:  167-182, 1983
+

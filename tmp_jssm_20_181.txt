@@ -1,0 +1,433 @@
+©Journal of Sports Science and Medicine (2021) 20, 181-187
+http://www.jssm.org DOI: https://doi.org/10.52082/jssm.2021.181
+
+
+` Research article
+
+
+Comparison of Muscle Activity in Three Single-Joint, Hip Extension Exercises in
+Resistance-Trained Women
+
+Vidar Andersen 1, Helene Pedersen 1, Marius Steiro Fimland 2,3, Matthew Shaw1, Tom Erik Jorung
+Solstad1, Nicolay Stien1, Kristoffer Toldnes Cumming4 and Atle Hole Saeterbakken1
+1
+  Faculty of Education, Arts and Sports, Western Norway University of Applied Sciences, Norway; 2 Department of
+Neuromedicine and Movement Science, Faculty of Medicine and Health Sciences, Norwegian University of Science and
+Technology, Trondheim, Norway; 3 Unicare Helsefort Rehabilitation Centre, Rissa, Norway ; 4 Østfold University Col-
+lege, Faculty of Health and Welfare, Norway
+
+                                                                        degree Roman chair back extension and the horizontal Ro-
+Abstract                                                                man chair back extension. The hip extension torque-pattern
+The aim of the study was to compare neuromuscular activation in         varied between the three exercises. The Good morning
+the gluteus maximus, the biceps femoris and the erector spinae          elicits the greatest torque in the lower part of the motion
+from the Romanian deadlift, the 45-degree Roman chair back ex-          while the horizontal Roman chair exercise produces a peak
+tension and the seated machine back extension. Fifteen re-              in the upper part. In contrast, the 45-degree Roman chair
+sistance-trained females performed three repetitions with 6-RM          back extension produces maximum torque in the middle of
+loading in all exercises in a randomized and counterbalanced or-        the motion. Importantly, in this exercise there is less
+der. The activation in the whole movement as well as its lower          change in the moment arm, creating a considerable amount
+and upper parts were analyzed. The results showed that the Ro-          of torque in both ends of the range of motion (338 Nm),
+manian deadlift and the Roman chair back extension activated the
+gluteus maximus more than the seated machine back extension
+                                                                        resulting in less variation in torque. These differences in
+(94-140%, p ˂ 0.01). For the biceps femoris the Roman chair elic-       torque production would most likely affect muscle activa-
+ited higher activation compared to both the Romanian deadlift           tion differently for both the whole movement, and the dif-
+and the seated machine back extension (71-174%). Further, the           ferent parts of the movement. Alternatively, the seated
+Romanian deadlift activated the biceps femoris more compared            back/hip extension machine transfers the load from the ap-
+to the seated machine back extension (61%, p ˂ 0.01). The anal-         paratus to the back through an upper back pad placed on
+yses of the different parts of the movement showed that the Ro-         the shoulder blades throughout the movement, keeping the
+man chair produced higher levels of activation in the upper part        moment arm and torque similar in all phases of the motion.
+for both the gluteus maximus and the biceps femoris, compared
+                                                                        However, performing the hip extension in a seated position
+to the other exercises. There were no differences in activation of
+the erector spinae between the three exercises (p = 1.00). In con-
+                                                                        with flexed knees and hip could be sub-optimal for activa-
+clusion, both the Roman deadlift and the Roman chair back ex-           tion of the different hip extensors (Kwon and Lee, 2013;
+tension would be preferable to the seated machine back extension        Worrell et al., 2001).
+in regards to gluteus maximus activation. The Roman chair was                   Most studies examining the neuromuscular activa-
+superior in activating the biceps femoris compared to the two           tion of the hip and back extensors have compared single-
+other exercises. All three exercises are appropriate selections for     joint hip extensor exercises to either multi-joint exercises
+activating the lower back muscles. For overall lower limb activa-       or knee flexor exercises (Delgado et al., 2019; Ebben,
+tion, the Roman chair was the best exercise.                            2009; Lee et al., 2018; McAllister et al., 2014; McCurdy et
+Key words: Gluteus maximus, biceps femoris, erector spinae,
+                                                                        al., 2018), but two of them also compared different single-
+muscle activation.                                                      joint, hip extensor exercises (Ebben, 2009; McAllister et
+                                                                        al., 2014). McAllister et al. (2014) reported similar activa-
+                                                                        tion of the erector spinae, the biceps femoris and the glu-
+Introduction                                                            teus medius in trained men performing 1 repetition at 85%
+                                                                        of 1-RM in the Romanian deadlift and the Good morning
+Strong hip and back extensors are considered important for              exercise. Ebben et al. (2009) reported similar findings
+sport-specific activity, daily tasks, and injury prevention             when they compared hamstring activation among athletes
+(Contreras et al., 2016; Lariviere et al., 2010; Neto et al.,           performing two repetitions, at 6-RM loading, in the Stiff-
+2020). Although several single-joint exercises are used to              leg deadlift and the Good morning exercise. Common for
+train the hip- and back extensors, little is known about the            both studies is the comparison of relatively similar biome-
+differences in how they activate the muscles. Single-joint              chanical exercises, which could explain the lack of differ-
+hip extension exercise can be performed in several ways to              ences. To the authors’ best knowledge, no previous study
+target both the hip and the back extensors, typically using             has compared neuromuscular activation in single-joint, hip
+free weights (e.g. Romanian deadlift, Good mornings), ma-               extension exercises with different biomechanical proper-
+chines (e.g. seated back extension), or a Roman chair. Alt-             ties (e.g. differences in moment arms).
+hough the movement is similar, these exercises are biome-                       The aim of the present study was to compare muscle
+chanically different (Contreras et al., 2013). Contreras et             activation in the gluteus maximus, biceps femoris and erec-
+al. (2013) compared the Good morning exercise, the 45-                  tor spinae from the Romanian deadlift, the 45-degree
+
+Received: 10 December 2020 / Accepted: 25 January 2021 / Published (online): 05 March 2021
+182                                                                                  Muscle activation in three hip extension exercise
+
+
+
+
+Roman chair back extension and the seated machine back           self-reported 6-RM was used to determine loads during the
+extension. We hypothesized that the Roman chair exercise         warm-up. Following set three of the warm up, participants
+would have the highest gluteus and biceps femoris activa-        performed six repetitions with 6-RM load. If a true 6-RM
+tion, especially in the upper part of the movement. Further-     was not determined in the first set, subsequent sets were
+more, we hypothesized that the Romanian deadlift would           performed with 3-5 minutes rest between. The load was ad-
+activate the same muscles more than the seated machine           justed by 2.5-5.0 kg between the attempts. For each exer-
+back extension.                                                  cise the 6-RM was obtained in 1-3 attempts.
+
+Methods                                                          Experimental session
+                                                                 The experimental session used the same warm-up as the 6-
+Participants                                                     RM determination session, but with updated 6RM results.
+Seventeen resistance trained females were recruited for the      Following warm-up, three repetitions using the 6-RM
+study, of which two dropped out during the familiarization       loads were performed in each exercise. When changing ex-
+period, leaving 15 complete cases (age 22 ± 1 years, body        ercise, participants performed a light adjustment set (3-5
+mass 69 ± 13 kg, stature 1.67 ± 0.07 m, resistance training      repetitions at 40-50% of the 6-RM load). To avoid fatigue,
+experience 4 ± 2 years). The participants had to be over the     a rest interval of four minutes was given between each at-
+age of 18, perform resistance training of the lower body on      tempt. The participants were instructed to perform all rep-
+a weekly basis in the last year, be familiar with all three      etitions continuously and in a self-selected but controlled
+exercises and not have any injury or illness that prevented      tempo. The difference in the hip angle range of motion,
+them from executing the exercises. The participants agreed       from upper to lower position, in all exercises were approx-
+to refrain from alcohol and resistance training of the lower-    imately 90 degrees. The angle in the two positions were
+limbs 72 hours prior to the testing. They were informed          controlled during the warm-up using a goniometer. A test
+orally and in writing about the procedures and had to pro-       leader gave oral feedback to the participants when they had
+vide a written consent before being enrolled in the study.       reached the lower and upper positions in each exercise.
+The study was conducted in accordance to the University                  The Romanian deadlift (Figure 1A) was performed
+College`s ethical guidelines and all appropriate consent         on a platform using an Olympic barbell (Eleiko, Halmstad,
+pursuant to the law was obtained before the start of the         Sweden). The feet were shoulder width apart and the grip
+study.                                                           was slightly outside the legs. The participants started in an
+                                                                 upright position and lowered themselves until the upper
+Experimental design                                              body was parallel to the floor (with a hip angle of approxi-
+A within-subjects, crossover design was used to compare          mately 90 degrees) before returning to the starting position.
+the neuromuscular activation in the gluteus maximus, bi-         The knees were slightly bent throughout the movement.
+ceps femoris and the erector spinae between the Romanian         The back had to be straight with a natural sway.
+deadlift, Roman chair back extension and the seated ma-
+chine back extension. All electromyography (EMG) data
+were collected in one experimental session, to ensure iden-
+tical electrode positioning throughout all conditions. The
+order of the exercises was randomized and counterbal-
+anced. Before the experimental session, the participants
+performed a familiarization session and participated in a
+test session to determine 6RM in each exercise. In the ex-
+perimental session, the participants performed three repe-
+titions using the 6-RM load. Three to seven days separated
+each session.
+
+Procedures
+Familiarization
+The first familiarization session was used to standardize the
+technique for each individual. Different measures (e.g. feet
+width, settings of the apparatus) were noted and kept iden-
+tical at subsequent sessions. Three to seven days after the
+                                                                  ,
+
+
+                                                                 Figure 1. Upper and lower position of the Romanian deadlift
+first familiarization the participants came back to the lab to   (A and B), Roman chair back extension (C and D) and Seated
+determine the 6-RM in each exercise. The order of the ex-        machine back extension (E and F). Model: Helene Pedersen.
+ercises was randomized and counterbalanced, and kept
+identical throughout all three sessions for each individual.             The Roman chair back extension (Figure 1B) was
+        The testing session included a general (five minutes     performed in a 45-degree Roman chair (Lower back bench
+of rowing) and specific warm-up. In the specific warm-up,        PG05, Technogym, Cesena, Italy). External load was
+participants performed six repetitions at 50% of 6-RM in         added via a weighted vest and plates held at the chest. The
+the first set, six repetitions at 65% of 6-RM in the second      participants started in an upright position before lowering
+set and three repetitions at 80% of 6-RM in the final set.       themselves down until the hip angle was approximately 90
+Two minutes rest intervals were used between each set and        degrees before returning to the starting position. The back
+Andersen et al.                                                                                                            183
+
+
+
+
+had to be straight with a natural sway throughout the whole       Technology AS). The encoder was also used to measure
+movement.                                                         the lifting time in the three exercises.
+        The seated machine back extension (Figure 1C) was                  To normalize the EMG data, the participants per-
+performed in a Selection Line 700 Lower Back (Tech-               formed two maximal voluntary contractions (MVC). For
+nogym, Cesena, Italy). The participants started in an up-         the gluteus maximus, the participants lay in the prone po-
+right and extended position before lowering the upper body        sition with a 90 degree angle in the knee joint. The domi-
+until the hip angle had been reduced by approximately 90          nant leg performed resisted hip extensor MVCs manually.
+degrees before returning to the starting position. The upper      For the biceps femoris, the participants, still lying in the
+back pad was adjusted to align the scapulas. The arms had         prone position, performed knee flexor MVCs with a knee
+to be held alongside the body and the back had to be              angle of approximately 45 degrees. For the erector spinae,
+straight, with a natural sway throughout the whole move-          resisted back extensor MVCs in the Biering–Sorenson po-
+ment. The use of the front or rear feet-support was optional,     sition was performed (Zebis et al., 2013). The participants
+but the participants were encouraged to have approxi-             were instructed to obtain maximal force as quickly as pos-
+mately a 90 degree angle in the knee joint.                       sible and maintain it for 5-7 seconds (McBride et al., 2006).
+                                                                  The highest average EMG amplitude over a 3-second win-
+Electromyography                                                  dow was used to normalize dynamic EMG data.
+Before the experimental session, the skin on the side of the
+body of the dominant leg was prepared (shaved, abraded            Statistical Analyses
+and washed with alcohol) in accordance with the guidelines        Statistical analyses were performed with SPSS version 26
+of SENIAM (Hermens et al., 2000). Self-adhesive, gel-             (SPSS, Inc., Chicago, IL, USA). Differences in neuromus-
+coated electrodes (Dri-Stick Silver circular sEMG Elec-           cular activation and lifting time were assessed using one-
+trodes AE-131; Neuro-Dyne Medical Corp., Cambridge,               way repeated measures ANOVA with Bonferroni post hoc
+MA, USA) were placed in the presumed direction of the             tests. The different exercises (Romanian deadlift, Roman
+underlying muscle fibers of the gluteus maximus, the bi-          chair back extension and the seated machine back exten-
+ceps femoris and the erector spinae. The electrodes had an        sion) were set as independent variables. All results are pre-
+11 mm contact diameter and a two cm center-to-center dis-         sented as mean and 95% confidence interval (95%CI) and
+tance. To locate the positioning of the electrodes, the rec-      Cohen`s d effect size (ES). An ES of 0.2 was considered
+ommendations from seniam.org were used. For the gluteus           small, 0.5 medium and 0.8 large (Cohen, 1988). Statistical
+maximus, the electrodes were placed half-way between the          difference was accepted at p ≤ 0.05.
+sacral vertebrae. For the biceps femoris, the electrodes
+were placed half-way between the ischial tuberosity and           Results
+the lateral epicondyle of the tibia. Finally, the electrodes on
+the erector spinae were located at L1, 3 centimeters lateral      The gluteus maximus
+to the spinous process and the greater trochanter.                When analyzing the whole movement, the gluteus maxi-
+        The raw EMG signal was sampled at 1000 Hz. A              mus was significantly more activated in the Romanian
+fourth-order Butterworth filter was used to amplify and fil-      deadlift (94%, p ˂ 0.01, ES = 1.85, table 1) and Roman
+ter the signal (8-600 Hz), using a preamplifier located close     chair back extension (140%, p ˂ 0.01, ES = 2.15) when
+to the sampling point (rejection ratio of 106dB). The EMG         compared to the seated machine back extension. There
+signals were the root mean square (RMS) converted using           were no differences between the Romanian deadlift and
+a hardware circuit network (frequency response 450 kHz,           Roman chair back extension (p = 0.151, ES = 0.62). The
+averaging constant 12 ms, total error ± 0.5%). The stored         same pattern was found in the lower part with the Roma-
+data was analyzed using a commercial software (Mus-               nian deadlift and Roman chair back extension being 100%
+cleLab 6000 system; Ergotest Technology AS, Langesund,            (p ˂ 0.01, ES = 1.91, Figure 2) and 110% (p ˂ 0.01, ES =
+Norway). The RMS of the mean EMG amplitude obtained               1.61) more activated than seated machine back extension,
+from all three repetitions was used to calculate the activa-      with no differences between the two exercises (p = 1.000,
+tion for the whole movement. In addition, repetition num-         ES = 0.17). In the upper part of the movement, the Roman
+ber two and three were divided into upper and lower part,         chair back extension led to a higher activation than both the
+where each part consisted of half the ascending and half of       Romanian deadlift (74%, p = 0.01, ES = 1.13) and the
+the descending movement. The upper part was defined as            seated machine back extension (207%, p ˂ 0.01, ES =
+the ascending movement from the mid-point of the lift until       2.18). Further, in the same phase the Romanian deadlift ac-
+the top position and down to the mid-point again. The             tivated the gluteus maximus 77% more than the seated ma-
+lower part consisted of the descending movement from the          chine back extension (p = 0.04, ES = 0.91).
+mid-point of the lift down to the lower position and back to
+the mid-point of the lift. The EMG for each part was de-          The biceps femoris
+fined as the mean of the corresponding movements. The             For the whole movement, the Roman chair back extension
+parts were divided based on vertical displacement meas-           led to a higher activation of the biceps femoris compared
+ured by a linear encoder (sampling frequency of 200 Hz,           to both the Romanian deadlift (71%, p ˂ 0.01, ES = 1.04)
+Ergotest Technology AS) which was synchronized with the           and the seated machine back extension (174%, p ˂ 0.01,
+EMG recording system MuscleLab 6000 system; Ergotest              ES = 1.70). Furthermore, the Romanian deadlift activated
+184                                                                                 Muscle activation in three hip extension exercise
+
+
+
+
+the biceps femoris more in comparison to the seated ma-         0.01, ES = 2.18). The Romanian deadlift activated the bi-
+chine back extension (61%, p ˂ 0.01, ES = 1.03). In the         ceps femoris 44% more than the seated machine back ex-
+lower part of the movement, there was no difference be-         tension (p ˂ 0.01, ES = 0.86).
+tween the Roman chair back extension and the Romanian
+deadlift (p = 0.079, ES = 0.57). However, both exercises        The erector spinae
+demonstrated greater levels of activation compared to the       There were no differences in activation of the erector spi-
+seated machine back extension (Romanian deadlift; 73%,          nae between any of the exercises for the whole movement
+p ˂ 0.01, ES = 1.10, Roman chair back extension; 121%, p        (p = 1.000, ES = 0.03 – 0.15), the upper part (p = 1.000, ES
+˂ 0.01, ES = 1.58). In the upper part of the movement, the      = 0.01 – 0.20) or the lower part (p = 0.063 – 1.000, ES =
+Roman chair back extension led to a higher activation com-      0.02 – 0.70).
+pared to both the Romanian deadlift (124%, p ˂ 0.01, ES =               There were no significant differences in lifting time
+1.68) and the seated machine back extension (222%, p ˂          between any of the exercises (p = 0.242 – 1.000).
+
+
+
+
+Figure 2. Normalized electromyographic (EMG) activation of the gluteus maximus, biceps femoris and erector spinae in the
+lower and upper part of the movement during Romanian deadlift, Roman chair back extension and Seated machine back
+extension. Values are means with 95% CI. * Significant difference (p ˂ 0.01), # significant difference (p ˂ 0.05).
+
+Discussion                                                      statistical significance, there was a 23% difference in glu-
+                                                                teus activation for the whole movement, between the two
+The main findings of the present study were that the Roman      exercises. The difference had a moderate effect size (0.62).
+chair back extension activated the gluteus maximus and bi-      Further, both the Roman chair back extension and the Ro-
+ceps femoris more than the two other exercises. Further-        manian deadlift activated the gluteus more than the seated
+more, the Romanian deadlift activated the same muscles          machine back extension did, which resulted from differ-
+more than the Seated machine back extension. There were         ences in both the lower and upper part of the movement. A
+no differences between the three exercises ability to acti-     possible explanation could be the nature of the machine ex-
+vate the erector spinae.                                        ercise. When seated in a machine, the hips are predomi-
+        As expected, the Roman chair back extension pro-        nantly flexed throughout the movement. This has been
+duced the highest levels of gluteus activation. However,        demonstrated to reduce activation of gluteus muscles com-
+compared to the Romanian deadlift, the difference only be-      pared to when the hip is extended (Worrell et al., 2001).
+came statistically significant in the upper part of the move-   This observation could be related to different motor unit
+ment. This is likely caused by biomechanical differences        activation at different muscle length (Garland et al., 1994;
+between the two exercises. The Romanian deadlift has a          Heckathorne and Childress, 1981), where the activation of
+gradual decrease in the external torque from the lowest po-     the gluteus may be more optimal at shorter (i.e extended
+sition, due to the reduction of the moment arm, with the        hip) compared to longer muscle length (i.e. flexed hip).
+torque close to zero in the top position. The Roman chair                As mentioned, the Roman chair back extension, has
+has a more consistent torque throughout the movement,           a consistent external torque throughout the whole move-
+with peak torque approximately in the middle of the             ment. This is most likely also the explanation for the Ro-
+movement (Contreras et al., 2013). Although not reaching        man chair back extension showing the highest activation
+Andersen et al.                                                                                                                          185
+
+
+
+
+levels for the biceps femoris, which was in line with our         to perform with proper technique than the Romanian
+hypothesis. The explanation is strengthened by the part-          deadlift. Machine back extension was clearly inferior to the
+specific analyses, showing a clearer difference in the upper,     other two exercises.
+compared to the lower part. As expected, the Seated ma-                  However, if resistance training is performed to op-
+chine back extension had the lowest biceps femoris activa-        timize specific parts of the movement, both the Roman
+tion of the three exercises. The biceps femoris is a bi-artic-    chair exercise and the Romanian deadlift could have some
+ular muscle with the ability to both flex the knee and extend     advantages (Contreras et al., 2013). The Romanian deadlift
+the hip. When sitting in the back extension machine, the          maximizes its torque in a flexed hip position. As the hip is
+knees are flexed and some of the contraction of the biceps        extended, the torque continuously decreases, allowing for
+femoris is performed passively, likely reducing biceps            increased velocity. These biomechanics would simulate
+femoris activation during the hip extension (Kwon and             running, and especially the top speed phase, where the hip
+Lee, 2013). For the erector spinae, there were quite similar      torque is greatest in the late swing phase where the hip is
+activations in erector spinae for the three exercises. This       flexed (Contreras et al., 2013). Therefore, we recommend
+suggests that the lower back is exposed to a high torque in       athletes and recreational trained to consider the purpose of
+all three exercises which requires a high activation of the       the exercises before choosing which one to include in their
+erector spinae.                                                   weekly resistance-training program.
+        Although this is the first study to compare muscle
+activation between these three exercises, some methodo-           Acknowledgements
+                                                                  The authors would like to thank the volunteers who participated in the
+logical limitations should be acknowledged. EMG is only           study. We would also thank Jørund Løken and Nikolai Bråta Strømstad
+an estimate of the neuromuscular activation and there will        for contributing in the collection of the data. This study was conducted
+always be a risk of crosstalk from the neighboring muscles        without and funding from companies, manufactures or outside organi-
+(Farina et al., 2004). Further, when measuring EMG during         zations. The experiments comply with the current laws of the country
+                                                                  in which they were performed. The authors have no conflict of interest
+dynamic contractions there will always be a risk of elec-         to declare. The datasets generated during and/or analyzed during the
+trode shift relative to the origin of muscle action potentials    current study are not publicly available, but are available from the cor-
+and changes in conductivity of the tissues separating mus-        responding author who was an organizer of the study.
+cle fibers and electrodes (Farina, 2006). However, these
+limitations should be reduced as all data were collected in       References
+one session without removing the electrodes. The different        Cohen, J. (1988) Statistical power analysis for the behavioral sciences.
+exercises were not performed to fatigue which could re-                    2nd edition. Hillsdale, N.J.: L. Erlbaum Associates.
+duce the ecological validity towards training. However,           Contreras, B., B. Cronin, J., J. Schoenfeld, B., J. Nates, R. and Tiryaki
+                                                                           Sonmez, G. (2013) Are All Hip Extension Exercises Created
+performing the testing with sub-maximal intensity reduces                  Equal? Strength & Conditioning Journal 35, 17-22.
+the possibility of fatigue which also could affect the results.            https://doi.org/10.1519/SSC.0b013e318289fffd
+Also, as the relative intensity in the three exercises were       Contreras, B., Vigotsky, A.D., Schoenfeld, B.J., Beardsley, C., McMas-
+identical (3 reps at 6-RM), the differences between the ex-                ter, D.T., Reyneke, J. and Cronin, J. (2016) Effects of a six-week
+                                                                           hip thrust versus front squat resistance training program on per-
+ercises shouldn`t be affected much by sub-maximal load-                    formance in adolescent males: A randomized-controlled trial.
+ing. The subjects in this study were all trained females and               Journal of Strength and Conditioning Research 4, 999-1008.
+the findings can therefore not necessarily be generalized to               https://doi.org/10.1519/JSC.0000000000001510
+other populations.                                                Delgado, J., Drinkwater, E.J., Banyard, H.G., Haff, G.G. and Nosaka, K.
+                                                                           (2019) Comparison Between Back Squat, Romanian Deadlift,
+                                                                           and Barbell Hip Thrust for Leg and Hip Muscle Activities Dur-
+Conclusion                                                                 ing Hip Extension. Journal of Strength and Conditioning Re-
+                                                                           search 33, 2595-2601.
+                                                                           https://doi.org/10.1519/JSC.0000000000003290
+In conclusion, the Roman chair back extension activates           Ebben, W.P. (2009) Hamstring activation during lower body resistance
+the gluteus maximus and the biceps femoris more than Ro-                   training exercises. International Journal of Sports Physiology
+manian deadlift and machine back extension. Further, the                   and Performance 4, 84-96. https://doi.org/10.1123/ijspp.4.1.84
+Romanian deadlift activated the same muscles more than            Farina, D. (2006) Interpretation of the surface electromyogram in
+                                                                           dynamic contractions. Exercise and Sport Science Reviews 34,
+the seated machine back extension. There were no differ-                   121-127. https://doi.org/10.1249/00003677-200607000-00006
+ences concerning the activation of erector spinae between         Farina, D., Merletti, R. and Enoka, R.M. (2004) The extraction of neural
+the three exercises.                                                       strategies from the surface EMG. Journal of Applied Physiology
+        The result of the present paper suggests that both the             96, 1486-1495. https://doi.org/10.1152/japplphysiol.01070.2003
+                                                                  Garland, S.J., Gerilovsky, L. and Enoka, R.M. (1994) Association
+Romanian deadlift and the 45-degree Roman chair back ex-                   between muscle architecture and quadriceps femoris H-reflex.
+tension are good single joint exercises for targeting the hip              Muscle & Nerve 17, 581-592.
+and back extensors. For athletes and recreationally active                 https://doi.org/10.1002/mus.880170604
+people aiming to optimize the neuromuscular activation of         Heckathorne, C.W. and Childress, D.S. (1981) Relationships of the
+                                                                           surface electromyogram to the force, length, velocity, and
+the glutes and hamstring, we would particularly recom-                     contraction rate of the cineplastic human biceps. American
+mend the Roman chair exercise. This exercise was in gen-                   Journal of Physical Medicine & Rehabilitation 60, 1-19.
+eral more effective in activating these muscles, likely due       Hermens, H.J., Freriks, B., Disselhorst-Klug, C. and Rau, G. (2000)
+to the biomechanical properties of the exercise creating a                 Development of recommendations for SEMG sensors and sensor
+                                                                           placement procedures. Journal of Electromyography and
+consistently large torque throughout the whole range of                    Kinesiology 10, 361-374. https://doi.org/10.1016/S1050-
+motion, and particularly in the upper part. It is also easier              6411(00)00027-4
+186                                                                                               Muscle activation in three hip extension exercise
+
+
+
+Kwon, Y.J. and Lee, H.O. (2013) How different knee flexion angles            AUTHOR BIOGRAPHY
+         influence the hip extensor in the prone position. Journal of         Vidar ANDERSEN
+         Physical Therapy Science 25, 1295-1297.                              Employment
+         https://doi.org/10.1589/jpts.25.1295
+Lariviere, C., RA, D.A.S., Arsenault, A.B., Nadeau, S., Plamondon, A.
+                                                                              Assoc. Prof., Department of Sport, Food and Natural Sciences,
+         and Vadeboncoeur, R. (2010) Specificity of a back muscle             Western Norway Univ. of Applied Sciences, Sogndal, Norway
+         exercise machine in healthy and low back pain subjects.              Degree
+         Medicine & Science in Sports & Exercise 42, 592-599.                 PhD
+         https://doi.org/10.1249/MSS.0b013e3181b96029                         Research interests
+Lee, S., Schultz, J., Timgren, J., Staelgraeve, K., Miller, M. and Liu, Y.    Exercise physiology and sports; strength training; personal
+         (2018) An electromyographic and kinetic comparison of                training.
+         conventional and Romanian deadlifts. Journal of Exercise             E-mail: vidar.andersen@hvl.no
+         Science and Fitness 16, 87-93.
+         https://doi.org/10.1016/j.jesf.2018.08.001                           Helene PEDERSEN
+McAllister, M.J., Hammond, K.G., Schilling, B.K., Ferreria, L.C., Reed,       Employment
+         J.P. and Weiss, L.W. (2014) Muscle activation during various         Ass. Prof., Department of Sport, Food and Natural Sciences,
+         hamstring exercises. Journal of Strength and Conditioning            Western Norway Univ. of Applied Sciences, Sogndal, Norway
+         Research 28, 1573-1580.                                              Degree
+         https://doi.org/10.1519/JSC.0000000000000302                         MSc
+McBride, J.M., Cormie, P. and Deane, R. (2006) Isometric squat force          Research interests
+         output and muscle activity in stable and unstable conditions.
+                                                                              Exercise physiology and sports; strength training; group train-
+         Journal of Strength and Conditioning Research 20, 915-918.
+         https://doi.org/10.1519/00124278-200611000-00031                     ing; personal training
+McCurdy, K., Walker, J. and Yuen, D. (2018) Gluteus Maximus and               E-mail: helene.pedersen@hvl.no
+         Hamstring Activation During Selected Weight-Bearing                  Marius Steiro FIMLAND
+         Resistance Exercises. Journal of Strength and Conditioning           Employment
+         Research 32, 594-601.                                                Prof., Department of Neuromedicine and Movement Science,
+         https://doi.org/10.1519/JSC.0000000000001893                         Faculty of Medicine and Health Sciences, Norwegian Univer-
+Neto, W.K., Soares, E.G., Vieira, T.L., Aguiar, R., Chola, T.A., Sampaio,     sity of Science and Technology, Trondheim, Norway
+         V.L. and Gama, E.F. (2020) Gluteus Maximus Activation during
+         Common Strength and Hypertrophy Exercises: A Systematic
+                                                                              Degree
+         Review. Journal of Sports Science and Medicine 19, 195-203.          PhD
+         https://pubmed.ncbi.nlm.nih.gov/32132843                             Research interests
+Worrell, T.W., Karst, G., Adamczyk, D., Moore, R., Stanley, C., Steimel,      Exercise physiology and sports; strength training; physical ac-
+         B. and Steimel, S. (2001) Influence of joint position on             tivity and public health
+         electromyographic and torque generation during maximal               E-mail: marius.fimland@ntnu.no
+         voluntary isometric contractions of the hamstrings and gluteus       Matthew SHAW
+         maximus muscles. Journal of Orthopaedic and Sports Physical
+                                                                              Employment
+         Therapy 31, 730-740.
+         https://doi.org/10.2519/jospt.2001.31.12.730
+                                                                              Assoc. Prof., Department of Sport, Food and Natural Sciences,
+Zebis, M.K., Skotte, J., Andersen, C.H., Mortensen, P., Petersen, H.H.,       Western Norway University of Applied Sciences, Sogndal,
+         Viskaer, T.C., Jensen, T.L., Bencke, J. and Andersen, L.L.           Norway
+         (2013) Kettlebell swing targets semitendinosus and supine leg        Degree
+         curl targets biceps femoris: an EMG study with rehabilitation        MSc
+         implications. British Journal of Sports Medicine 47, 1192-1198.      Research interests
+         https://doi.org/10.1136/bjsports-2011-090281                         Exercise physiology and sports; strength training; technology
+                                                                              in sports
+                                                                              E-mail: matthew.shaw@hvl.no
+ Key points                                                                   Tom Erik Jorung SOLSTAD
+                                                                              Employment
+   In general, the Roman chair back extension lead to                        Ass. Prof., Department of Sport, Food and Natural Sciences,
+    superior muscle activation compared to the Roma-                          Western Norway University of Applied Sciences, Sogndal,
+    nian deadlift and the seated machine back exten-                          Norway
+                                                                              Degree
+    sion                                                                      MSc
+   The seated machine back extension showed the                              Research interests
+    lowest gluteus and hamstring activation                                   Exercise physiology and sports; strength training; technology
+   All three exercises are appropriate selections for                        in sports
+    activating the lower back muscles                                         E-mail: tom.erik.jorung.solstad@hvl.no
+   The differences in muscle activation are most likely                      Nicolay STIEN
+                                                                              Employment
+    caused by biomechanical differences.                                      Ass.t Prof., Department of Sport, Food and Natural Sciences,
+                                                                              Western Norway University of Applied Sciences, Sogndal,
+                                                                              Norway
+                                                                              Degree
+                                                                              MSc
+                                                                              Research interests
+                                                                              Exercise physiology and sports; strength training
+                                                                              E-mail: nicolay.stien@hvl.no
+Andersen et al.                                                  187
+
+
+
+
+ Kristoffer Toldnes CUMMING
+ Employment
+ Assoc. Prof., Østfold University College, Faculty of Health
+ and Welfare, Norway
+ Degree
+ PhD
+ Research interests
+ Exercise physiology and sports; strength training.
+ E-mail: kristoffer.t.cumming@hiof.no
+ Atle Hole SAETERBAKKEN
+ Employment
+ Assoc. Prof., Department of Sport, Food and Natural Sciences,
+ Western Norway University of Applied Sciences, Sogndal,
+ Norway
+ Degree
+ PhD
+ Research interests
+ Exercise physiology and sports; strength training
+ E-mail: atle.saeterbakken@hvl.no
+
+ Vidar Andersen
+Faculty of Education, Arts and Sports, Western Norway
+University of Applied Sciences, Norway
+

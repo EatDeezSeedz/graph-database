@@ -1,0 +1,975 @@
+                                HHS Public Access
+                                Author manuscript
+                                Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+Author Manuscript
+
+
+
+
+                    Published in final edited form as:
+                     Am J Sports Med. 2015 November ; 43(11): 2638–2644. doi:10.1177/0363546515602010.
+
+
+
+                    Ruptured Tendons in Anabolic-Androgenic Steroid Users: A
+                    Cross-Sectional Cohort Study
+                    Gen Kanayama, M.D., Ph.D.*, James DeLuca, B.A.†, William P. Meehan III, M.D.‡, James I.
+                    Hudson, M.D., Sc.D.*, Stephanie Isaacs, B.S.†, Aaron Baggish, M.D.†, Rory Weiner, M.D.†,
+                    Lyle Micheli, M.D.‡, and Harrison G. Pope Jr., M.D.*
+                    *Biological Psychiatry Laboratory, McLean Hospital, Belmont, Massachusetts, and the
+Author Manuscript
+
+
+
+
+                    Department of Psychiatry, Harvard Medical School, Boston, MA, USA
+                    †Division of Cardiology, Massachusetts General Hospital, Boston, MA and Department of
+
+                    Medicine, Harvard Medical School, Boston, MA, USA
+                    ‡Division of Sports Medicine, Boston Children’s Hospital Hospital, Boston, MA and Harvard
+
+                    Medical School, Boston, MA, USA
+
+                    Abstract
+                         Background—Accumulating case reports have described tendon rupture in men using anabolic-
+                         androgenic steroids (AAS). However no controlled study, to our knowledge, has assessed history
+                         of tendon rupture in a large cohort of AAS users and comparison nonusers.
+
+                         Hypothesis—We hypothesized that men reporting long-term AAS abuse would report an
+Author Manuscript
+
+
+
+
+                         elevated lifetime incidence of tendon rupture as compared to non-AAS-using bodybuilders.
+
+                         Study Design—Cross-sectional cohort study.
+
+                         Methods—We obtained medical histories from 142 experienced male bodybuilders age 35–55,
+                         recruited in the course of two studies. Of these men, 88 reported at least two years of cumulative
+                         lifetime AAS use and 54 reported no history of AAS use. In men reporting a history of tendon
+                         rupture, we recorded circumstances of the injury, prodromal symptoms, concomitant drug or
+                         alcohol use, and details of current and lifetime AAS use if applicable. We also obtained surgical
+                         records for most participants.
+
+                         Results—Nineteen (22%) of the AAS users, but only 3 (6%) of the nonusers reported at least one
+                         lifetime tendon rupture. The hazard ratio (95% confidence interval) for a first ruptured tendon in
+Author Manuscript
+
+
+
+
+                         AAS users versus nonusers was 9.0 (2.5, 32.3); P <.001. Several men reported two or more
+                         independent lifetime tendon ruptures. Interestingly, upper body tendon ruptures occurred
+                         exclusively in the AAS group (15 [17%] of the AAS users versus 0 non-users; risk difference 0.17
+                         (0.09, 0.25); P < 0.001 [hazard ratio not estimable]), whereas we found no significant difference
+                         between users and nonusers in risk for lower body ruptures (6 [7%] AAS users, 3 [6%] nonusers;
+                         hazard ratio 3.1 (0.7, 13.8), P = 0.13). Of 31 individual tendon ruptures that we assessed, only 6
+                         (19%) occurred while weightlifting, with the majority occurring during other sports activities.
+
+
+
+                    Address correspondence to Harrison G. Pope Jr., M.D., McLean Hospital, Belmont, Massachusetts, 02478 USA.
+                    hpope@mclean.harvard.edu.
+                    Kanayama et al.                                                                                                  Page 2
+
+
+                            Eight (26%) ruptures followed prodromal symptoms of nonspecific pain in the region. Virtually all
+Author Manuscript
+
+
+
+
+                            ruptures were treated surgically with complete or near-complete ultimate restoration of function.
+
+                            Conclusions—AAS abusers, as compared to otherwise similar bodybuilders, showed a
+                            markedly increased risk of tendon ruptures, particularly upper body tendon rupture.
+
+                            Clinical relevance—Tendon rupture represents a major adverse consequence of AAS abuse and
+                            a substantial public health problem.
+
+                       Keywords
+                            Anabolic-androgenic steroids; testosterone; weightlifting; tendon; orthopedics; bodybuilding;
+                            tendon rupture; men
+
+                                      Abuse of anabolic-androgenic steroids (AAS), among both competitive athletes and
+                                      recreational bodybuilders, has grown into a major substance-abuse problem in the United
+Author Manuscript
+
+
+
+
+                                      States and most other Western countries.45 Prior to about 1980, AAS use was largely
+                                      confined to elite athletes, but over the last three decades the use of these drugs has become
+                                      widespread in the general population.18 One recent paper has calculated that between 2.9
+                                      and 4.0 million American men have used AAS at some time in their lives, and that perhaps 1
+                                      million of these men have developed AAS dependence, with chronic AAS use often
+                                      persisting despite adverse medical and psychiatric effects.44
+
+                                      Among the various adverse effects of long-term AAS use is an apparently elevated risk of
+                                      tendon rupture, as suggested by accumulating case reports over the last 30 years. In the
+                                      world literature to date, we have found such 15 reports describing tendon rupture in
+                                      acknowledged AAS users,1, 2, 7–9, 11, 12, 15, 24, 27, 28, 33, 49, 51, 54 and three additional reports
+                                      describing individuals where AAS use was not acknowledged, but appears likely.3, 4, 48 As
+Author Manuscript
+
+
+
+
+                                      shown in Table 1 of the Supplemental Appendix (see below), all patients were male, ranging
+                                      in age from their 20s to their 40s, and typically reporting long-term use of AAS for
+                                      bodybuilding or other athletic activities. Although some men ruptured a tendon while
+                                      weightlifting, many of the cases occurred as a result of a fall, sports injury, or from simply
+                                      lifting an object. Many of the men ruptured two or more tendons, with some cases of
+                                      bilateral simultaneous ruptures and other cases where different tendons were ruptured at
+                                      different times over the course of months or years of AAS use. Collectively, these
+                                      observations would seem to suggest that AAS use increases the risk for tendon rupture, and
+                                      this impression has been widely shared in various reviews examining the adverse effects of
+                                      AAS use.26, 29, 40, 45
+
+                                      However, we are not aware of any quantitative studies showing that tendon rupture is indeed
+Author Manuscript
+
+
+
+
+                                      more common in AAS users than in otherwise similar men with a comparable history of
+                                      regular weightlifting. Also of note, we have been unable to find any reports of tendon
+                                      rupture in AAS users prior to 1980. Thus one might argue that the association of AAS use
+                                      and tendon rupture is coincidental, and that with the massively increased numbers of AAS
+                                      users after 1980, one might see an overlap of AAS use and tendon rupture simply by chance.
+                                      Perhaps in favor of this possibility, it should be noted that some of the putative cases of
+                                      AAS-associated tendon rupture occurred in men who had also been treated with
+                                      corticosteroids,49, 51 and these drugs, rather than AAS, may have been responsible for
+
+                                         Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                              Page 3
+
+
+                                      tendon pathology.25 Arguing against this possibility, however, is the observation that many
+Author Manuscript
+
+
+
+
+                                      of the reported AAS-associated cases involved rupture of the triceps brachii and biceps
+                                      brachii tendons. These are relatively rare injuries, and thus the accumulation of AAS-
+                                      associated cases is hard to ascribe to coincidence.
+
+                                      To provide more quantitative data on the association of AAS use with tendon rupture, we
+                                      assessed the risk of tendon rupture in 88 male long-term AAS users and 54 comparison men
+                                      reporting a similar degree of weightlifting experience but no history of AAS use, all
+                                      recruited in the course of two ongoing studies.
+
+
+                       METHODS
+                       Design of the parent studies
+                                      Participants for the present study were drawn from two current studies whose primary aims
+Author Manuscript
+
+
+
+
+                                      were to evaluate cardiac and other medical pathology in AAS users. In both studies, we
+                                      recruited men age 35–55 who were experienced bodybuilders and who reported either a) at
+                                      least two years of cumulative lifetime AAS use or b) no lifetime AAS use. Although neither
+                                      of the two studies was focused exclusively on orthopedic injuries, we obtained a medical
+                                      history with attention to musculoskeletal injuries in all participants, since such injuries are
+                                      common among weightlifters. Our studies were focused on men because AAS use is rare in
+                                      women,19 and long-term AAS use is extremely rare in women,44 despite some
+                                      misconceptions to the contrary.17, 45 We chose a two-year threshold for cumulative lifetime
+                                      AAS use, based on findings of prior studies,20, 42 in order to secure men with substantial
+                                      AAS exposure and consequently greater risk for potential long-term AAS effects.
+
+                                      We recruited study participants by advertising in gymnasiums in the Boston, Massachusetts
+Author Manuscript
+
+
+
+
+                                      area, using recruitment techniques that we have described in detail previously.20, 42 Briefly,
+                                      our advertisement requested men who “could bench-press 275 pounds for at least one
+                                      repetition, currently or in the past, for a psychiatric and medical evaluation.” As we have
+                                      explained in our previous studies,20, 42 the 275-pound threshold was simply a method to
+                                      secure an unselected group of experienced weightlifters. Notably, we screened advertisement
+                                      respondents by telephone and invited them for participation in the studies without asking
+                                      about their history of AAS use or revealing our specific interest in AAS. By this method, we
+                                      sought to minimize selection bias that might arise if participants were informed in advance
+                                      about the exposure variable of interest.
+
+                                      Individuals qualifying on telephone screen for the studies were then scheduled for a
+                                      screening interview where we administered 1) demographic questions; 2) questions about
+                                      lifetime weightlifting and exercise history, including information about interruptions of
+Author Manuscript
+
+
+
+
+                                      regular exercise attribu to injury; 3) determination of height, weight, and body fat – the latter
+                                      based on six skin caliper measurements, using the equations of Jackson and Pollock;16 4)
+                                      medical history, including overall health, prior hospitalizations, and current prescription
+                                      medications; 5) psychiatric and substance abuse history, using the Structured Clinical
+                                      Interview for DSM-IV (SCID);10 and 6) history of use of AAS and other performance-
+                                      enhancing drugs, if any. In men acknowledging use of AAS, we elicited detailed information
+                                      about the particular drugs used, together with an estimate of the individual’s total lifetime
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                              Page 4
+
+
+                                      dose of AAS in milligrams, calculated as milligrams of testosterone equivalent as described
+                                      previously,20, 42 and the total cumulative duration of time that the individual was actually
+Author Manuscript
+
+
+
+
+                                      using steroids during the course of his life. We also collected urine and hair samples from all
+                                      participants. We tested urine samples for AAS, the performance-enhancing drug clenbuterol,
+                                      and for opiates, amphetamines, cannabis, cocaine, and phencyclidine (Anti-Doping
+                                      Research, Los Angeles, California), using methods previously described.5, 6 We tested hair
+                                      samples for opiates, cannabis, phencyclidine, amphetamines, and cocaine from the last 90
+                                      days (Psychemedics, Culver City, California). We excluded participants who displayed urine
+                                      or hair results inconsistent with their self-reports of AAS or other substance use. We also
+                                      calculated participants’ fat-free mass index (FFMI), a measure of muscularity that we have
+                                      previously presented,23 based on our measurements of height, weight, and body fat. We
+                                      excluded participants who denied having used AAS, but who showed an FFMI greater than
+                                      25.5 kg/m2 while showing body fat of less than 10% – because we have previously shown
+Author Manuscript
+
+
+
+
+                                      that an FFMI beyond this threshold in a lean individual likely reflects surreptitious AAS
+                                      use.23
+
+                                      Following the screening evaluation, participants were referred for a medical evaluation with
+                                      a particular focus on cardiovascular function. In the course of these latter evaluations,
+                                      participants received a second review of medical history from a study physician. We have
+                                      reported preliminary findings from the first study;46, 55 findings from the second study are
+                                      still being analyzed.
+
+                                      The above procedures in both studies were approved by the institutional review boards of
+                                      our institutions, and all participants provided written informed consent before study
+                                      procedures were undertaken.
+Author Manuscript
+
+
+
+
+                       Participants and methods for the present study
+                                      We evaluated a total of 88 long-term AAS users and 54 non-AAS-using weightlifters in the
+                                      course of the two parent studies between February, 2011 and November, 2014. The larger
+                                      size of the AAS group was by design, since we wanted greater statistical power to examine
+                                      subgroups within the AAS users. Over this interval, we noted a remarkable number of
+                                      participants who reported a history of one or more tendon ruptures. Accordingly, we
+                                      reviewed each participant’s medical history, using both the medical history information
+                                      obtained at screen and information from the second medical history obtained at the
+                                      subsequent evaluation in each study. Among the 142 men, we found 23 who had reported at
+                                      least one definite or possible tendon rupture. We recorded each participant’s age and type of
+                                      activity at the time of the injury, together with his total cumulative lifetime use of AAS (if
+                                      any) as of that date. If applicable, we also recorded whether participants were currently
+Author Manuscript
+
+
+
+
+                                      using AAS at the moment of injury, and the drugs and doses that they were taking. We also
+                                      recorded any other drugs, including prescription medications, over-the-counter medications,
+                                      illicit drugs, and alcohol that the participant reported taking at the time. Finally, we recorded
+                                      whether participants had experienced any prodromal symptoms, such as pain in the region of
+                                      the tendon rupture, prior to the injury itself. We also successfully recontacted 22 of the 23
+                                      identified participants to request that they sign a release granting us permission to obtain
+                                      copies of the surgical notes or other medical records describing the tendon repair.
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                               Page 5
+
+
+                       Statistical analysis
+Author Manuscript
+
+
+
+
+                                      For comparisons between AAS users and non-users on demographic variables, we used
+                                      linear regression for continuous variables, and Fisher’s exact test for categorical variables.
+                                      To examine the association between AAS use and tendon rupture, we used a “cross-sectional
+                                      cohort design.” In a previous methodological paper, we are formally presented the properties
+                                      of this design, including the conditions required for its validity.13 Briefly, the cross-sectional
+                                      cohort design samples a source population cross-sectionally, and then measures the
+                                      association between exposures (in this case AAS use) and outcomes (in this case tendon
+                                      rupture) assessed retrospectively.
+
+                                      As the primary measure of risk for tendon rupture, we estimated the hazard ratio for first
+                                      tendon rupture, adjusted for self-defined race (modeled as White versus Non-White) in AAS
+                                      users compared with non-users by a Cox proportional hazards model, with AAS as a time-
+Author Manuscript
+
+
+
+
+                                      varying exposure (i.e., unexposed until onset of AAS use, and exposed after onset of AAS
+                                      use). Thus, the hazard ratio represents an estimate of the probability that a first tendon
+                                      rupture will occur at any given age among individuals who have been exposed to AAS,
+                                      divided by the probability that a first tendon rupture will occur at that same age among
+                                      individuals who have not been exposed to AAS. We adjusted for race on the basis of
+                                      evidence for racial differences in vulnerability to tendon rupture.41 As a secondary measure
+                                      of risk for tendon rupture, we estimated the mean total number of tendon ruptures in AAS
+                                      users vs. nonusers, using linear regression, adjusted for race.
+
+                                      Alpha was set at 0.05, two-tailed. The analyses were performed using Stata 12.0 software
+                                      (Stata Corp., College Station, TX).
+
+
+                       RESULTS
+Author Manuscript
+
+
+
+
+                                      The 88 long-term AAS users and 54 non-using weightlifters were closely matched in age
+                                      (mean [SD] age 42.9 [5.2] years vs 43.2 [6.1] years; P = 0.73), as would be expected since
+                                      they were chosen to be age 35–55, as described above. All of the men lifted weights for the
+                                      purpose of bodybuilding, although only a minority of them had participated in actual
+                                      bodybuilding competitions. None of the men had competed in powerlifting or in Olympic
+                                      weightlifting. The two groups of men were similar in their reported lifetime years of
+                                      weightlifting (mean [SD] for AAS users: 20.8 [6.6] years; non-users: 20.0 [9.5] years; P =
+                                      0.61), but they differed somewhat in racial distribution (AAS users: 82 White, 6 African-
+                                      American; non-users: 41 White, 12 African-American, one Asian; P = 0.005 for White
+                                      versus Nonwhite). Of the 23 men with definite or possible tendon rupture, one was excluded
+                                      after further review because his surgical records showed an intact biceps tendon; his injury
+Author Manuscript
+
+
+
+
+                                      was a torn glenoid labrum. (Specifically, the surgical note stated, “the biceps tendon
+                                      appeared completely within normal limits. The attachment of the biceps itself was carefully
+                                      probed and noted to be normal; however at the 1:00 position, just anterior to the biceps
+                                      insertion, there was detachment which appeared to be traumatic in nature of the labrum…
+                                      This was repaired….”) Of the remaining 22 men with definite tendon ruptures (Table 1), 19
+                                      were AAS users, representing 22% of the total AAS-using group of 88, and only 3 were
+                                      non-using weightlifters, representing 6% of the 54 men in that group. None of the AAS
+                                      users had ruptured a tendon prior to first using AAS.
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                            Page 6
+
+
+                                      The time-to-event distributions (survival curves) for first tendon rupture in the AAS users
+Author Manuscript
+
+
+
+
+                                      and non-users are presented in Figure 1. The hazard ratio (95% confidence interval) in the
+                                      AAS users versus the non-users was 9.0 (2.5, 32.3); P <.001. The percentage of men with
+                                      lower body tendon ruptures was 7% (6 cases) in the AAS group versus 6% (3 cases) in the
+                                      non-user group, with a non-significant hazard ratio for first lower body tendon rupture of 3.1
+                                      (0.7, 13.8); P = 0.13. By contrast, upper body tendon ruptures were reported by 17% of the
+                                      AAS users (15 individuals) versus 0% of the non-users. Since there were zero cases among
+                                      the non-users, we could not estimate the hazard ratio for this comparison. Therefore, we
+                                      instead estimated the risk difference, using an approach suggested by Spiegelman and
+                                      Herzmark that employed a generalized linear regression model using the binomial
+                                      distribution and the identity link function.50 This approach yielded a risk difference of 0.17
+                                      (0.09, 0.25), P < 0.001.
+
+                                      As shown in Table 1, several men had ruptured two tendons and one had ruptured four
+Author Manuscript
+
+
+
+
+                                      tendons over the course of a lifetime. In all cases, these ruptures occurred on separate
+                                      occasions, rather than simultaneously. The total number of tendon ruptures was 27 (19 upper
+                                      body and 8 lower body) in the AAS group and 5 (all lower body) in the non-user group. The
+                                      estimated adjusted mean difference between groups in number of lifetime tendon ruptures
+                                      per person was 0.27 (0.06, .48), P = 0.011; for upper body ruptures alone, the difference was
+                                      0.21 (0.07, 0.35), P = 0.004; and for lower body ruptures alone it was 0.06 (−0.07, 0.18), P =
+                                      0.38.
+
+                                      Among the 32 separate tendon ruptures that occurred in the two groups collectively, only 6
+                                      occurred while weightlifting (representing 19% of the 31 cases for which history was
+                                      obtained). Interestingly, several of these men recalled that they were lifting a light weight,
+                                      just after a workout with much heavier weights, at the moment that the rupture occurred. A
+Author Manuscript
+
+
+
+
+                                      majority of the ruptures occurred during sports activities, with the remainder of cases
+                                      attributed to falls or to moving or carrying heavy objects. Of the 14 biceps ruptures; 8
+                                      occurred at the distal end of the biceps (at the elbow), and 6 involved the long head of the
+                                      biceps (at the shoulder). Of the 2 triceps ruptures, both occurred distally. Of the 31 ruptures
+                                      for which history was obtained, 8 (26%) were preceded by pain in the vicinity of the site of
+                                      the rupture, whereas the remainder occurred without warning. At the time of the rupture, two
+                                      of the men were intoxicated with alcohol and two were using oxycodone (illicit in one case
+                                      and medically prescribed in the other). One man had recently received corticosteroid
+                                      injections for back pain, raising the possibility that in his case, corticosteroid exposure – a
+                                      known risk factor for tendon rupture22, 25, 53 – had contributed to his vulnerability to tendon
+                                      rupture.
+Author Manuscript
+
+
+
+
+                                      Almost all of the AAS users were taking a course of AAS at the time of the injury, usually at
+                                      markedly supraphysiologic doses. As shown in Table 1, the users reported typical weekly
+                                      doses between 210 mg and 2500 mg of total AAS per week – representing 3.5–40 times the
+                                      normal male endogenous production of about 60 milligrams of testosterone per week. At the
+                                      time of their tendon ruptures, many users had accumulated well over a decade of cumulative
+                                      lifetime steroid use (i.e., total weeks during which they were actually using AAS), for a total
+                                      lifetime dose of hundreds of thousands of milligrams.
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                              Page 7
+
+
+                                      Virtually all cases of tendon rupture were treated surgically, and all subjects reported
+Author Manuscript
+
+
+
+
+                                      complete or nearly complete return of function after completing rehabilitation from the
+                                      surgical repair.
+
+
+                       DISCUSSION
+                                      Over the last two decades, various case reports and small case series have described tendon
+                                      rupture in men using anabolic-androgenic steroids (AAS) – suggesting that use of these
+                                      drugs may render individuals particularly prone to this type of injury. However no study, to
+                                      our knowledge, has systematically assessed history of tendon rupture in a large sample of
+                                      AAS users and comparison weightlifters without AAS exposure. In the present study, we
+                                      used a cross-sectional cohort study design to examine the risk of tendon rupture in 88
+                                      weightlifters who used AAS versus 54 who did not. The risk for first tendon rupture, as
+                                      assessed by the hazard ratio, was 9.0 times greater in the AAS users compared with the non-
+Author Manuscript
+
+
+
+
+                                      users. In addition, the mean total number of lifetime tendon ruptures was markedly higher
+                                      among the AAS users. Interestingly, the elevation in risk for lower-extremity tendon ruptures
+                                      was much less than that for upper-extremity ruptures.
+
+                                      These findings have several implications for public health and injury prevention. First, they
+                                      suggest that the risk for tendon rupture, particularly upper body tendon rupture, is much
+                                      greater among AAS users than among otherwise similar men with comparable years of
+                                      exposure to weightlifting. Thus our findings strongly support the impression that AAS use is
+                                      indeed a risk factor for tendon rupture. By identifying those at risk for AAS use and offering
+                                      counselling regarding the risk of tendon rupture as well as other adverse effects of AAS use,
+                                      clinicians might reduce the use of AAS and subsequent tendon rupture among high risk
+                                      populations.29, 45
+Author Manuscript
+
+
+
+
+                                      The causes of AAS-associated tendon rupture are still incompletely understood. Two
+                                      alternative (and not mutually exclusive) hypotheses should be considered. One possibility is
+                                      that AAS use has little or no deleterious effect on tendons themselves, but merely causes
+                                      massive hypertrophy of muscles without causing any corresponding strengthening of the
+                                      associated tendons. Thus, the muscle may simply become too strong for its tendon,
+                                      increasing the possibility of rupture in response to a sudden stress. Alternatively, it is
+                                      possible that high doses of AAS, perhaps in conjunction with intense muscular exercise,
+                                      may damage the structure of the tendons themselves, making them more vulnerable to
+                                      rupture even in the absence of excessive stress. Evidence favoring the latter hypothesis
+                                      comes from various animal studies, which have typically found that AAS exposure, usually
+                                      in conjunction with exercise, led to collagen dysplasia, causing tendons to become stiffer
+                                      and less flexible, with an increased crimp angle and earlier liability to
+Author Manuscript
+
+
+
+
+                                      failure.14, 21, 30–32, 34–39, 52 However, one human study using electron microscopy found no
+                                      evidence of collagen fibril ultrastructural abnormalities in the ruptured tendons of two AAS
+                                      users as compared to two non-AAS-using controls.9 Another recent study found no
+                                      significant difference in maximal strain and toe limit strain in the patellar tendons of 8 long-
+                                      term AAS users as compared to 8 experienced weightlifters reporting no AAS use, also
+                                      arguing against the hypothesis of changes in collagen crimp pattern associated with AAS
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                             Page 8
+
+
+                                      use.47 Thus the evidence for a direct toxic effect of AAS on human tendons remains
+Author Manuscript
+
+
+
+
+                                      somewhat inconclusive.
+
+                                      Although our study provides no direct evidence on the above issues, it is notable that we
+                                      found a markedly increased risk of upper body tendon ruptures in AAS users versus non-
+                                      using weightlifters, whereas the risk of lower body tendon ruptures was only modestly and
+                                      non-significantly increased among AAS users. If indeed AAS use causes damage to human
+                                      tendon architecture, one might predict that our AAS users, with histories of very extensive
+                                      exposure to very high doses of AAS, would show a uniformly elevated prevalence of all
+                                      types of tendon rupture throughout the body, rather than primarily an elevated risk of upper-
+                                      body tendon ruptures. Therefore, our findings might be taken to weigh to at least some
+                                      degree against a hypothesis of direct tendon damage, and might weigh more in favor of the
+                                      simple theory that hypertrophied muscles can more easily break their tendons. In favor of the
+                                      latter possibility, it is notable that AAS users are particularly prone to increase upper body
+Author Manuscript
+
+
+
+
+                                      musculature, leading to massively hypertrophied pectoralis, biceps brachii, and triceps
+                                      brachii muscles, while often showing less of an effect on lower body musculature.43 Thus, it
+                                      is conceivable that muscle hypertrophy alone might account for our findings without
+                                      postulating an additional mechanism of AAS-induced tendon damage.
+
+                                      Our findings are subject to several methodological limitations. First, because we deliberately
+                                      selected men age 35–55 reporting at least two years of cumulative AAS exposure for our
+                                      parent studies, our sample of men is not representative of the entire population of American
+                                      AAS users. In particular, younger users, and those reporting briefer exposure to AAS, might
+                                      well be less likely to have experienced a tendon rupture.
+
+                                      Second, we cannot exclude the possibility of unmeasured confounding variables, in that
+Author Manuscript
+
+
+
+
+                                      some other aspect of AAS users’ lifestyle, such as concomitant use of other non-AAS drugs,
+                                      might have contributed increased vulnerability to tendon rupture.
+
+                                      Third, our parent studies were not initially designed to elicit a detailed and exhaustive
+                                      orthopedic history from study participants. Thus, it is possible that a study participant might
+                                      have experienced a tendon rupture, but simply failed to mention this on his medical history,
+                                      because he was not explicitly and systematically queried about orthopedic injuries. If such
+                                      an omission occurred, however, it would have caused an underestimate of the risk of tendon
+                                      rupture in this population, yielding overly conservative findings.
+
+                                      Fourth, our data were collected retrospectively, with some participants describing injuries
+                                      that had occurred years earlier. Although we obtained surgical records to validate these
+                                      injuries in most cases, our findings regarding details such as the circumstances of injury,
+Author Manuscript
+
+
+
+
+                                      concomitant drug use, and AAS use at the time of injury were limited by the accuracy of
+                                      participants’ retrospective reporting.
+
+                                      Fifth, there are two forms of selection bias that may have influenced our estimates of the
+                                      hazard ratios for tendon rupture. One is that our selection of available AAS users and non-
+                                      users might not have reflected the characteristics of long-term AAS users or of non-using
+                                      weightlifters in the general population with respect to risk for tendon rupture. However, this
+                                      form of selection bias seems unlikely to have greatly influenced the findings, since
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                                            Page 9
+
+
+                                      participants were recruited without being informed of the specific exposure and outcome
+Author Manuscript
+
+
+
+
+                                      variables of interest (AAS use and tendon rupture), and it seems unlikely that participants
+                                      would have chosen to enroll or not enroll in the study on the basis of these variables in any
+                                      event. The other potential source of selection bias is the possibility of non-differential
+                                      exiting from the underlying cohort (i.e., the theoretical cohort of individuals entering the
+                                      source population during the period of time under retrospective observation), as explained in
+                                      detail in our prior methodological publication presenting the cross-sectional cohort design.13
+                                      However, this phenomenon seems unlikely in the present study, because even if the
+                                      experience of a prior tendon rupture would influence a potential participant’s availability to
+                                      enroll in our study, there is little reason to believe that such an experience would have a
+                                      differential influence in AAS users as compared to nonusers.
+
+                                      While acknowledging these limitations, our findings provide persuasive evidence that the
+                                      risk of tendon rupture is strikingly higher among AAS users than among equally
+Author Manuscript
+
+
+
+
+                                      experienced weightlifters who have not used these drugs. Perhaps most notably, AAS users
+                                      frequently reported a history of upper-body tendon rupture, but we found no cases of upper-
+                                      body tendon rupture among 54 otherwise similar non-using weightlifters. These findings
+                                      would suggest that if a muscular man presents with a ruptured tendon, perhaps especially an
+                                      upper body tendon, the clinician should strongly suspect AAS use as a contributing factor.
+                                      Given the high prevalence of AAS use and dependence in the United States and other
+                                      Western countries, it appears that AAS-associated tendon rupture represents a significant
+                                      public health problem, creating substantial costs in medical care, lost productivity, and
+                                      reduced quality of life.
+
+
+                       Supplementary Material
+Author Manuscript
+
+
+
+
+                                      Refer to Web version on PubMed Central for supplementary material.
+
+
+                       Acknowledgments
+                                      This research was supported in part by grant R01 DA029141 from the United States National Institutes on Drug
+                                      Abuse (Drs. Kanayama, Weiner, Baggish, and Pope, Mr. DeLuca, and Ms. Isaacs).
+
+
+                       References
+                                      1. Äärimaa V, Rantanen J, Heikkilä J, Helttula I, Orava S. Rupture of the pectoralis major muscle. Am
+                                         J Sports Med. 2004; 32(5):1256–1262. [PubMed: 15262651]
+                                      2. Bach BR Jr, Warren RF, Wickiewicz TL. Triceps rupture. A case report and literature review. Am J
+                                         Sports Med. May-Jun;1987 15(3):285–289. [PubMed: 3618881]
+                                      3. Battista V, Combs J, Warme WJ. Asynchronous bilateral achilles tendon ruptures and androstenediol
+                                         use. Am J Sports Med. 2003; 31(6):1007–1009. [PubMed: 14623672]
+Author Manuscript
+
+
+
+
+                                      4. Budoff JE, Gordon L. Surgical repair of a traumatic latissimus dorsi avulsion: a case report. Am J
+                                         Orthop (Belle Mead NJ). 2000; 29(8):638–639. [PubMed: 10955471]
+                                      5. Catlin DH, Kammerer RC, Hatton CK, Sekera MH, Merdink JL. Analytical chemistry at the Games
+                                         of the XXIIIrd Olympiad in Los Angeles, 1984. Clin Chem. 1987; 33(2 Pt 1):319–327. [PubMed:
+                                         2879653]
+                                      6. Catlin DH, Murray TH. Performance-enhancing drugs, fair competition, and Olympic sport. JAMA.
+                                         1996; 276(3):231–237. [PubMed: 8667569]
+
+
+
+
+                                         Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                                  Page 10
+
+
+                                      7. Cope MR, Ali A, Bayliss NC. Biceps rupture in body builders: three case reports of rupture of the
+                                         long head of the biceps at the tendon-labrum junction. J Shoulder Elbow Surg. 2004; 13(5):580–
+Author Manuscript
+
+
+
+
+                                         582. [PubMed: 15383821]
+                                      8. David HG, Green JT, Grant AJ, Wilson CA. Simultaneous bilateral quadriceps rupture: a
+                                         complication of anabolic steroid abuse. J Bone Joint Surg Br. 1995; 77(1):159–160. [PubMed:
+                                         7822381]
+                                      9. Evans NA, Bowrey DJ, Newman GR. Ultrastructural analysis of ruptured tendon from anabolic
+                                         steroid users. Injury. 1998; 29(10):769–773. [PubMed: 10341901]
+                                      10. First, M.; Spitzer, R.; Gibbon, M.; Williams, J. Structured Clinical Interview for DSM-IV Axis I
+                                           Disorders -- Patient Edition. New York: Biometrics Research Department, New York State
+                                           Psychiatric Institute; 2001.
+                                      11. Herrick RT, Herrick S. Ruptured triceps in a powerlifter presenting as cubital tunnel syndrome. A
+                                           case report. Am J Sports Med. 1987; 15(5):514–516. [PubMed: 3674278]
+                                      12. Hill JA, Suker JR, Sachs K, Brigham C. The athletic polydrug abuse phenomenon. A case report.
+                                           Am J Sports Med. 1983; 11(4):269–271. [PubMed: 6614301]
+                                      13. Hudson JI, Pope HG Jr, Glynn RJ. The cross-sectional cohort study: an underutilized design.
+Author Manuscript
+
+
+
+
+                                           Epidemiology. 2005; 16(3):355–359. [PubMed: 15824552]
+                                      14. Inhofe PD, Grana WA, Egle D, Min KW, Tomasek J. The effects of anabolic steroids on rat tendon.
+                                           An ultrastructural, biomechanical, and biochemical analysis. Am J Sports Med. 1995; 23(2):227–
+                                           232. [PubMed: 7778710]
+                                      15. Isenberg J, Prokop A, Skouras E. Successive ruptures of patellar and Achilles tendons. Anabolic
+                                           steroids in competitive sports. Unfallchirurg. 2008; 111(1):46–49. [PubMed: 17701152]
+                                      16. Jackson AS, Pollock ML. Generalized equations for predicting body density of men. 1978. Br J
+                                           Nutr. 2004; 91(1):161–168. [PubMed: 14748950]
+                                      17. Kanayama G, Boynes M, Hudson JI, Field AE, Pope HG Jr. Anabolic steroid abuse among teenage
+                                           girls: An illusory problem? Drug Alcohol Depend. 2007; 88(2–3):156–162. [PubMed: 17127018]
+                                      18. Kanayama G, Hudson JI, Pope HG Jr. Long-term psychiatric and medical consequences of
+                                           anabolic-androgenic steroid abuse: a looming public health concern? Drug Alcohol Depend. 2008;
+                                           98(1–2):1–12. [PubMed: 18599224]
+                                      19. Kanayama G, Pope HG. Misconceptions about anabolic-androgenic steroid abuse. Psychiatric
+Author Manuscript
+
+
+
+
+                                           Annals. 2012; 42(10):371–375.
+                                      20. Kanayama G, Pope HG, Cohane G, Hudson JI. Risk factors for anabolic-androgenic steroid use
+                                           among weightlifters: a case-control study. Drug Alcohol Depend. 2003; 71(1):77–86. [PubMed:
+                                           12821208]
+                                      21. Karpakka JA, Pesola MK, Takala TE. The effects of anabolic steroids on collagen synthesis in rat
+                                           skeletal muscle and tendon. A preliminary report. Am J Sports Med. 1992; 20(3):262–266.
+                                           [PubMed: 1636855]
+                                      22. Kennedy JC, Willis RB. The effects of local steroid injections on tendons: a biomechanical and
+                                           microscopic correlative study. Am J Sports Med. 1976; 4(1):11–21. [PubMed: 937623]
+                                      23. Kouri EM, Pope HG Jr, Katz DL, Oliva P. Fat-free mass index in users and nonusers of anabolic-
+                                           androgenic steroids. Clin J Sport Med. 1995; 5(4):223–228. [PubMed: 7496846]
+                                      24. Kramhoft M, Solgaard S. Spontaneous rupture of the extensor pollicis longus tendon after anabolic
+                                           steroids. J Hand Surg Br. 1986; 11(1):87. [PubMed: 3958557]
+                                      25. Lambert MI, St Clair Gibson A, Noakes TD. Rupture of the triceps tendon associated with steroid
+                                           injections. Am J Sports Med. 1995; 23(6):778.
+Author Manuscript
+
+
+
+
+                                      26. Laseter JT, Russell JA. Anabolic steroid-induced tendon pathology: a review of the literature. Med
+                                           Sci Sports Exerc. 1991; 23(1):1–3. [PubMed: 1997802]
+                                      27. Lewis AC, Purushotham B, Power DM. Bilateral simultaneous quadriceps tendon rupture in a
+                                           bodybuilder. Orthopedics. 2005; 28(7):701–702. [PubMed: 16119286]
+                                      28. Liow RY, Tavares S. Bilateral rupture of the quadriceps tendon associated with anabolic steroids.
+                                           Br J Sports Med. 1995; 29(2):77–79. [PubMed: 7551764]
+                                      29. Maravelias C, Dona A, Stefanidou M, Spiliopoulou C. Adverse effects of anabolic steroids in
+                                           athletes. A constant threat. Toxicol Lett. 2005; 158(3):167–175. [PubMed: 16005168]
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                                  Page 11
+
+
+                                      30. Marqueti RC, Parizotto NA, Chriguer RS, Perez SE, Selistre-de-Araujo HS. Androgenic-anabolic
+                                          steroids associated with mechanical loading inhibit matrix metallopeptidase activity and affect the
+Author Manuscript
+
+
+
+
+                                          remodeling of the achilles tendon in rats. Am J Sports Med. 2006; 34(8):1274–1280. [PubMed:
+                                          16636352]
+                                      31. Marqueti RC, Paulino MG, Fernandes MN, de Oliveira EM, Selistre-de-Araujo HS. Tendon
+                                          structural adaptations to load exercise are inhibited by anabolic androgenic steroids. Scand J Med
+                                          Sci Sports. 2014; 24(1):e39–51. [PubMed: 24224869]
+                                      32. Marqueti RC, Prestes J, Wang CC, et al. Biomechanical responses of different rat tendons to
+                                          nandrolone decanoate and load exercise. Scand J Med Sci Sports. 2011; 21(6):e91–99. [PubMed:
+                                          20673248]
+                                      33. März J, Novotný P. Pectoralis maior tendon rupture and anabolic steroids in anamnesis--a case
+                                          review. Rozhl Chir. 2008; 87(7):380–383. [PubMed: 18810933]
+                                      34. Michna H. Appearance and ultrastructure of intranuclear crystalloids in tendon fibroblasts induced
+                                          by an anabolic steroid hormone in the mouse. Acta Anat (Basel). 1988; 133(3):247–250. [PubMed:
+                                          2852424]
+                                      35. Michna H. Collagen fibril dynamics in the anulus fibrosus induced by an anabolic steroid hormone.
+Author Manuscript
+
+
+
+
+                                          Acta Anat (Basel). 1989; 135(1):12–16. [PubMed: 2750456]
+                                      36. Michna H. Intra- and extracellular lysosomes in tendon tissue of the mouse after treatment with an
+                                          anabolic steroid hormone. Ultrastructural and cytochemical study. Acta Anat (Basel). 1989;
+                                          134(1):57–61. [PubMed: 2718716]
+                                      37. Michna H. Organisation of collagen fibrils in tendon: changes induced by an anabolic steroid. I.
+                                          Functional and ultrastructural studies. Virchows Arch B Cell Pathol Incl Mol Pathol. 1986; 52(1):
+                                          75–86. [PubMed: 2881396]
+                                      38. Michna H. Tendon injuries induced by exercise and anabolic steroids in experimental mice. Int
+                                          Orthop. 1987; 11(2):157–162. [PubMed: 3610410]
+                                      39. Miles JW, Grana WA, Egle D, Min KW, Chitwood J. The effect of anabolic steroids on the
+                                          biomechanical and histological properties of rat tendon. J Bone Joint Surg Am. 1992; 74(3):411–
+                                          422. [PubMed: 1548269]
+                                      40. Mottram DR, George AJ. Anabolic steroids. Baillieres Best Pract Res Clin Endocrinol Metab.
+                                          2000; 14(1):55–69. [PubMed: 10932810]
+Author Manuscript
+
+
+
+
+                                      41. Owens B, Mountcastle S, White D. Racial differences in tendon rupture incidence. Int J Sports
+                                          Med. 2007; 28(7):617–620. [PubMed: 17357966]
+                                      42. Pope H, Kanayama G, Hudson J. Risk factors for illicit anabolic-androgenic steroid use in male
+                                          weightlifters: A cross-sectional cohort study. Biological Psychiatry. 2012; 71:254–261. [PubMed:
+                                          21839424]
+                                      43. Pope HG, Kanayama G. Can you tell if your patient is using anabolic steroids? Current Psychiatry
+                                          in Primary Care. 2005; 1:28–34.
+                                      44. Pope HG, Kanayama G, Athey A, Ryan E, Hudson JI, Baggish A. The lifetime prevalence of
+                                          anabolic-androgenic steroid use and dependence in Americans: current best estimates. American
+                                          Journal on Addictions. 2014; 23:371–377. [PubMed: 24112239]
+                                      45. Pope HG, Wood R, Rogol A, Nyberg F, Bowers L, Bhasin S. Adverse health consequences of
+                                          performance-enhancing drugs: an Endocrine Society scientific statement. Endocr Rev. 2014;
+                                          35:341–375. [PubMed: 24423981]
+                                      46. Pursani, A.; Wai, B.; Hoffman, U., et al. Anabolic-androgenic steroid use is associated with
+                                          premature coronary artery disease. Poster 2066. Circulation; American Heart Association Annual
+Author Manuscript
+
+
+
+
+                                          Meeting; Dallas, Texas. November 18, 2013; Supplement S; Meeting abstract 16958
+                                      47. Seynnes OR, Kamandulis S, Kairaitis R, et al. Effect of androgenic-anabolic steroids and heavy
+                                          strength training on patellar tendon morphological and mechanical properties. J Appl Physiol
+                                          (1985). 2013; 115(1):84–89. [PubMed: 23620489]
+                                      48. Sherman OH, Snyder SJ, Fox JM. Triceps tendon avulsion in a professional body builder. A case
+                                          report. Am J Sports Med. 1984; 12(4):328–329. [PubMed: 6476192]
+                                      49. Sollender JL, Rayan GM, Barden GA. Triceps tendon rupture in weight lifters. J Shoulder Elbow
+                                          Surg. 1998; 7(2):151–153. [PubMed: 9593095]
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                                   Page 12
+
+
+                                      50. Spiegelman D, Hertzmark E. Easy SAS calculations for risk or prevalence ratios and differences.
+                                          Am J Epidemiol. Aug 1; 2005 162(3):199–200. [PubMed: 15987728]
+Author Manuscript
+
+
+
+
+                                      51. Stannard JP, Bucknell AL. Rupture of the triceps tendon associated with steroid injections. Am J
+                                          Sports Med. 1993; 21(3):482–485. [PubMed: 8346768]
+                                      52. Tsitsilonis S, Panayiotis CE, Athanasios MS, et al. Anabolic androgenic steroids reverse the
+                                          beneficial effect of exercise on tendon biomechanics: an experimental study. Foot Ankle Surg.
+                                          2014; 20(2):94–99. [PubMed: 24796826]
+                                      53. Unverferth LJ, Olix ML. The effect of local steroid injections on tendon. J Sports Med. 1973; 1(4):
+                                          31–37.
+                                      54. Visuri T, Lindholm H. Bilateral distal biceps tendon avulsions with use of anabolic steroids. Med
+                                          Sci Sports Exerc. 1994; 26(8):941–944. [PubMed: 7968426]
+                                      55. Weiner, R.; Isaacs, S.; Hutter, AM., et al. Anabolic steroid use is associated with systolic and
+                                          diastolic left ventricular dysfunction. Poster 5027. Circulation; American Heart Association
+                                          Annual Meeting; Dallas, Texas. November 20, 2013; Supplement S; Meeting abstract 18278
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                         Page 13
+Author Manuscript
+
+
+
+
+                                      What is known about the subject
+                                      A growing literature, consisting primarily of case reports, has suggested an association
+                                      between AAS use and tendon rupture, but quantitative data on this phenomenon in human
+                                      AAS users are as yet lacking.
+
+                                      What this study adds to existing knowledge
+                                      We present the first quantitative study, to our knowledge, examining the frequency and
+                                      characteristics of tendon rupture in a large cohort of AAS users as compared to a group
+                                      of age-matched experienced male bodybuilders who reported no AAS use.
+Author Manuscript
+Author Manuscript
+Author Manuscript
+
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                    Kanayama et al.                                                                                     Page 14
+Author Manuscript
+Author Manuscript
+
+
+
+
+                                      Figure 1.
+                                      Time to event distributions (survival curves) for first tendon rupture in AAS users and
+                                      nonusers. The two survival curves indicate the percentage of men in the AAS and non-AAS
+                                      groups, respectively (shown on the Y axis), who had reached a given age (shown on the X
+                                      axis) without having yet experienced a tendon rupture.
+Author Manuscript
+Author Manuscript
+
+
+
+
+                                        Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                                                                        Author Manuscript                                 Author Manuscript                                  Author Manuscript                               Author Manuscript
+
+
+                                                                                                                                                                           Table 1
+
+                                                                              Features of tendon rupture in AAS users and comparison weightlifters
+
+                                                                                             AAS users
+                                                                                                                                                                                                                Age     Lifetime                Lifetime
+                                                                                                                                                                                                                                     Average
+                                                                                                                                                                                                                                                                          Kanayama et al.
+
+
+
+
+                                                                                                         Age at time                       Age at                             Drugs other than   Prodromal        at      yrs of                AAS dose     On AAS
+                                                                                                                                                    Activity at time of                                                               weekly
+                                                                               Participant     Race          of        Tendon ruptureda   time of                              AAS at time of    syx prior to   first   AAS use                 at time of   at time of
+                                                                                                                                                         rupture                                                                      dose of
+                                                                                                         evaluation                       rupture                                 rupture         rupture?      AAS     at time of              rupture,     rupture?
+                                                                                                                                                                                                                                     AAS, mg
+                                                                                                                                                                                                                 use     rupture                    mg
+                                                                                   1            W            35           Pectoralis        29           Wrestling                   Alcohol         Yes         20        9.0        1600       750000         Yes
+                                                                                   2            W            35             Biceps          34            Bowling                 Ibuprofen          Yes         20       11.9         800       496000         Yes
+                                                                                   3            W            35           Pectoralis        28           Unknown                  Unknown         Unknown        19        3.8         800       160000      Unknown
+                                                                                   4            W            36           Quadriceps        25         Weightlifting                   No            No          17        3.8        1000       200000         Yes
+                                                                                                                            Biceps          29         Weightlifting                   No            Yes                   4.6        1000       240000         Yes
+                                                                                   5            W            37             Biceps          35      Moving heavy object                No            No          18       10.4        1000       540000         Yes
+                                                                                   6           AA            41             Biceps          35            Football                    None           No          19        9.6         800       400000         Yes
+                                                                                   7            W            41             Biceps          36      Moving heavy object           Ibuprofen          No          23        7.2        1000       375000         No
+                                                                                                                            Triceps         36              Fall                  Ibuprofen          No                    7.2        1000       375000         No
+                                                                                   8            W            42           R Patellar        33              Fall                      None           No          18        9.8         800       408000         Yes
+                                                                                                                           L Patellar       34      Martial arts fighting             None           No                   10.5         800       436000         Yes
+                                                                                   9            W            43             Biceps          41      Moving heavy object          Oxycodone           Yes         30       10.0         900       468000         Yes
+                                                                                   10           W            43            R Biceps         38            Football                    None           No          17       15.8         600       490000         Yes
+                                                                                                                           L Biceps         43       Batting in softball              None           No                   19.2         600       600000         Yes
+                                                                                   11          AA            44            Achilles         33           Basketball                   None           No          26        3.0         900       138000         Yes
+                                                                                   12           W            46             Biceps          40      Moving heavy object               None           No          21        9.5        2000       988000         Yes
+                                                                                                                          Pectoralis        44         Weightlifting                  None           No                   11.5        2000      1200000         No
+
+
+
+
+Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                                                                                   13           W            46             Biceps          46      Martial arts sparring       Escitalopram         No          21       15.4        1500      1200000         No
+                                                                                   14           W            47             Biceps          44      Moving heavy object               None           Yes         42        0.1         400        1600          Yes
+                                                                                   15           W            48             Triceps         47         Weightlifting           Corticosteroids       No          28        9.2        1000       480000         Yes
+                                                                                   16           W            49             Patellar        40         Jumping rope              Oxycodone           No          21        6.0         600       187200         Yes
+                                                                                   17           W            49           Quadriceps        41              Fall                      None           No          35        4.8        2500       625000         Yes
+                                                                                   18           W            51             Biceps          45         Weightlifting           Methylphenidate       no          42        0.9         210       10000          No
+                                                                                   19           W            51            L Biceps         41           Volleyball                  Alcohol         Yes         21       10.0         600       312000         Yes
+                                                                                                                           R Biceps         48         Weightlifting                 Alcohol         No                   12.7         600       396000         Yes
+                                                                                                                                                                                                                                                                          Page 15
+                                                                        Author Manuscript                                    Author Manuscript                                         Author Manuscript                                      Author Manuscript
+
+
+                                                                                                AAS users
+                                                                                                                                                                                                                              Age     Lifetime                Lifetime
+                                                                                                                                                                                                                                                   Average
+                                                                                                            Age at time                           Age at                                    Drugs other than   Prodromal        at      yrs of                AAS dose     On AAS
+                                                                                                                                                                Activity at time of                                                                 weekly
+                                                                                  Participant     Race          of        Tendon ruptureda       time of                                     AAS at time of    syx prior to   first   AAS use                 at time of   at time of
+                                                                                                                                                                     rupture                                                                        dose of
+                                                                                                            evaluation                           rupture                                        rupture         rupture?      AAS     at time of              rupture,     rupture?
+                                                                                                                                                                                                                                                   AAS, mg
+                                                                                                                                                                                                                               use     rupture                    mg
+                                                                                                                             R Achilles             48            Carrying girl on              Alcohol            No                   13.1         600       410000         Yes
+                                                                                                                                                                                                                                                                                        Kanayama et al.
+
+
+
+
+                                                                                                                                                                     shoulders
+                                                                                                                             L Achilles             51           Jumping off stair               None              no                   14.4         600       450000         Yes
+
+                                                                                           AAS non-users
+
+                                                                                      20          AA            49            Achilles              42               Basketball                  None              No           .         .           .           .            .
+                                                                                                  AA                           Patellar             39               Basketball                  None              No           .         .           .           .            .
+                                                                                      21           W            50           Hamstring              47                Hockey                     None              No           .         .           .           .            .
+                                                                                      22          AA            50             Patellar             19                Jumping                    None              Yes          .         .           .           .            .
+                                                                                                  AA                           Patellar             32                Jumping                    None              Yes          .         .           .           .            .
+
+                                                                              a
+                                                                               In all cases, “pectoralis” = pectoralis major, “biceps” = biceps brachii, and “triceps” = triceps brachii.
+
+
+
+
+Am J Sports Med. Author manuscript; available in PMC 2017 January 03.
+                                                                                                                                                                                                                                                                                        Page 16
+

@@ -1,0 +1,612 @@
+                                          The New England
+                            Journal o f Medicine
+                                     © C o py r ig h t , 1 9 9 6 , by t h e Ma s s a c h u s e t t s Me d i c a l S o c i e t y
+
+       VOLUME 335                                                     JULY 4, 1996                                                                 NUMBER 1
+
+
+
+
+          THE EFFECTS OF SUPRAPHYSIOLOGIC DOSES OF TESTOSTERONE
+               ON MUSCLE SIZE AND STRENGTH IN NORMAL MEN
+
+      SHALENDER BHASIN, M.D., THOMAS W. STORER, PH.D., NANCY BERMAN, PH.D., CARLOS CALLEGARI, M.D.,
+BRENDA CLEVENGER, B.A., JEFFREY PHILLIPS, M.D., THOMAS J. BUNNELL, B.A., RAY TRICKER, PH.D., AIDA SHIRAZI, R.PH.,
+                                       AND RICHARD CASABURI, PH.D., M.D.
+
+
+
+
+                                                                                       A
+ABSTRACT                                                                                            NABOLIC–ANDROGENIC steroids are
+ Background Athletes often take androgenic ster-                                                    widely abused by athletes and recreation-
+oids in an attempt to increase their strength. The ef-                                              al bodybuilders because of the perception
+ficacy of these substances for this purpose is unsub-                                               that these substances increase muscle mass
+stantiated, however.                                                                   and strength,1-9 but this premise is unsubstantiated.
+  Methods We randomly assigned 43 normal men                                           Testosterone replacement increases nitrogen reten-
+to one of four groups: placebo with no exercise, tes-                                  tion and fat-free mass in castrated animals and hypo-
+tosterone with no exercise, placebo plus exercise,                                     gonadal men,10-15 but whether supraphysiologic dos-
+and testosterone plus exercise. The men received in-                                   es of testosterone or other anabolic–androgenic
+jections of 600 mg of testosterone enanthate or pla-
+cebo weekly for 10 weeks. The men in the exercise
+                                                                                       steroids augment muscle mass and strength in nor-
+groups performed standardized weight-lifting exer-                                     mal men is unknown.1-9 Studies of the effects of such
+cises three times weekly. Before and after the treat-                                  steroids on muscle strength have been inconclu-
+ment period, fat-free mass was determined by un-                                       sive,16-33 and several reviews have emphasized the
+derwater weighing, muscle size was measured by                                         shortcomings of the studies.1-5,8-10 Some of the stud-
+magnetic resonance imaging, and the strength of                                        ies were not randomized; most did not control for
+the arms and legs was assessed by bench-press and                                      intake of energy and protein; the exercise stimulus
+squatting exercises, respectively.                                                     was often not standardized; and some studies in-
+  Results Among the men in the no-exercise                                             cluded competitive athletes whose motivation to win
+groups, those given testosterone had greater in-                                       may have kept them from complying with a stand-
+creases than those given placebo in muscle size in
+                                                                                       ardized regimen of diet and exercise.
+their arms (mean [SE] change in triceps area,
+424104 vs. 81109 mm2; P0.05) and legs                                                 We sought to determine whether supraphysiolog-
+(change in quadriceps area, 607123 vs. 131111                                       ic doses of testosterone, administered alone or in
+mm2; P0.05) and greater increases in strength in                                      conjunction with a standardized program of strength-
+the bench-press (94 vs. 11 kg, P0.05) and                                          training exercise, increase fat-free mass and muscle
+squatting exercises (164 vs. 31 kg, P0.05). The                                     size and strength in normal men. To overcome the
+men assigned to testosterone and exercise had                                          pitfalls of previous studies, the intake of energy and
+greater increases in fat-free mass (6.10.6 kg) and                                    protein and the exercise stimulus were standardized.
+muscle size (triceps area, 501104 mm2; quadriceps                                     Because some previous studies had demonstrated
+area, 117491 mm2) than those assigned to either                                       significant increases in muscle strength and hyper-
+no-exercise group, and greater increases in muscle
+strength (bench-press strength, 222 kg; squatting-
+exercise capacity, 384 kg) than either no-exercise                                       From the Department of Medicine, Charles R. Drew University of Med-
+                                                                                       icine and Science, Los Angeles (S.B., C.C., B.C.); the Exercise Science
+group. Neither mood nor behavior was altered in                                        Laboratory, El Camino College, Torrance, Calif. (T.W.S., T.J.B.); the De-
+any group.                                                                             partment of Medicine, Harbor–UCLA Medical Center, Torrance, Calif.
+  Conclusions Supraphysiologic doses of testoster-                                     (N.B., J.P., R.C.); and the Department of Public Health, Oregon State
+                                                                                       University, Corvallis (R.T., A.S.). Address reprint requests to Dr. Bhasin at
+one, especially when combined with strength train-                                     the Division of Endocrinology, Metabolism and Molecular Medicine,
+ing, increase fat-free mass and muscle size and                                        Charles R. Drew University of Medicine and Science, 1621 E. 120th St.,
+strength in normal men. (N Engl J Med 1996;335:1-7.)                                   MP #2, Los Angeles, CA 90059.
+©1996, Massachusetts Medical Society.
+
+
+
+
+                                                                                                                                Vo l u m e 3 3 5   Nu m b e r 1      1
+
+                            The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                             Downloaded from nejm.org on April 10, 2026.
+                                              The New England Journal o f Me d i c i n e
+
+
+
+trophy in experienced athletes but not in sedentary                                       proximately 7 percent for the bench-press exercise and 12 percent
+subjects, we studied men who had weight-lifting ex-                                       for the squatting exercise after four to five weeks of training,35 the
+                                                                                          weights were increased correspondingly during the final five
+perience.                                                                                 weeks of training in relation to the initial intensity. The number
+                                                                                          of sets was also increased from four to five, but the number of
+                            METHODS                                                       repetitions per set remained constant. The men were advised not
+                                                                                          to undertake any resistance exercise or moderate-to-heavy endur-
+Study Design
+                                                                                          ance exercise in addition to the prescribed regimen.
+   This study was approved by the institutional review boards of
+the Harbor–UCLA Research and Education Institute and the                                  Evaluation and Outcome Measures
+Charles R. Drew University of Medicine and Science. All the
+study subjects gave informed written consent. The subjects were                              The primary end points were fat-free mass, muscle size as meas-
+normal men weighing 90 to 115 percent of their ideal body                                 ured by magnetic resonance imaging (MRI), and muscle strength
+weights; they were 19 to 40 years of age and had experience with                          as based on the one-repetition maximal weight lifted during the
+weight lifting. They were recruited through advertisements in lo-                         bench-press and squatting exercises before and after the 10-week
+cal newspapers and community colleges. None had participated                              treatment period. Serum concentrations of total and free testos-
+in competitive sports in the preceding 12 months. Men who had                             terone, luteinizing hormone, follicle-stimulating hormone, and
+ever taken anabolic agents or recreational drugs or had had a psy-                        sex hormone–binding globulin were measured on days 14 and 28
+chiatric or behavioral disorder were excluded from the study.                             of the control period and days 2, 3, 7, 14, 28, 42, 56, and 70
+   Of 50 men who were recruited, 7 dropped out during the con-                            of the treatment period. Blood counts, blood chemistry (includ-
+trol period because of problems with scheduling or compliance.                            ing serum aminotransferases), serum concentrations of prostate-
+The remaining 43 men were randomly assigned to one of four                                specific antigen, and plasma concentrations of total cholesterol,
+groups: placebo with no exercise, testosterone with no exercise,                          low-density lipoprotein (LDL) cholesterol, high-density lipopro-
+placebo plus exercise, and testosterone plus exercise. The study                          tein (HDL) cholesterol, and triglycerides were measured at the
+was divided into a 4-week control period, a 10-week treatment                             start of the control period and on day 4; on days 28, 56, and 70
+period, and a 16-week recovery period. During the four-week                               of the treatment period; and four months after the discontinua-
+control period, the men were asked not to lift any weights or en-                         tion of treatment. Periodic evaluations to identify adverse effects
+gage in strenuous aerobic exercise.                                                       were performed by examiners unaware of the study-group assign-
+   Of the 43 men, 3 dropped out during the treatment phase:                               ments on days 1 and 28 of the control period; days 28, 56, and
+1 because of problems with compliance, 1 because illicit-drug use                         70 of the treatment period; and four months after the discontin-
+was detected by routine drug screening, and 1 because of an au-                           uation of treatment. Mood and behavior were evaluated during
+tomobile accident. Forty men completed the study: 10 in the pla-                          the first week of the control period and after 6 and 10 weeks of
+cebo, no-exercise group; 10 in the testosterone, no-exercise group;                       treatment. Sexual function and semen characteristics were not as-
+9 in the placebo-plus-exercise group; and 11 in the testosterone-                         sessed.
+plus-exercise group.
+                                                                                          Assessment of Muscle Size
+Standardization of Protein and Energy Intake
+                                                                                            Muscle size was measured by MRI of the arms and legs at the
+   Two weeks before day 1, the men were instructed to begin fol-                          humeral or femoral mid-diaphyseal level, the junction of the up-
+lowing a standardized daily diet containing 36 kcal per kilogram                          per third and middle third of the bone, and the junction of the
+of body weight, 1.5 g of protein per kilogram, and 100 percent                            middle third and lower third. The cross-sectional areas of the
+of the recommended daily allowance of vitamins, minerals, and                             arms and legs, the subcutaneous tissue, the muscle compartment,
+trace elements. Compliance with the diet was verified every four                          and the quadriceps and triceps muscles were computed, and the
+weeks by three-day records of food consumption. The dietary in-                           areas at the three levels were averaged.
+take was adjusted every two weeks on the basis of changes in body
+weight.                                                                                   Analysis of Body Composition
+
+Treatment                                                                                   Fat-free mass was estimated on the basis of measurements of
+                                                                                          body density obtained by underwater weighing. During weigh-
+   The men received either 600 mg of testosterone enanthate in                            ing, the men were asked to exhale to the residual volume, as
+sesame oil or placebo intramuscularly each week for 10 weeks in                           measured by helium dilution.
+the Clinical Research Center. This dose is six times higher than
+the dose usually given as replacement therapy in men with hypo-                           Measures of Muscle Strength
+gonadism and is therefore supraphysiologic. Doses as high as 300
+mg per week have been given to normal men for 16 to 24 weeks                                  The effort-dependent performance of muscle was assessed on
+without major toxic effects.34                                                            the basis of the maximal weight lifted for one repetition during
+                                                                                          the bench-press and squatting exercises.36 Each man completed
+Training Stimulus                                                                         increasingly more difficult lifts with the same weights and bars
+                                                                                          that he used during training; in each exercise, the maximal weight
+   The men in the exercise groups received controlled, supervised                         lifted (the one-repetition maximum) was recorded as a measure
+strength training three days per week during the treatment peri-                          of muscle strength.
+od. All the men trained at equivalent intensities in relation to
+their strength scores before the training. The training consisted                         Hormone Measurements
+of a cycle of weight lifting at heavy intensity (90 percent of the
+maximal weight the man lifted for one repetition before the start                           Serum concentrations of luteinizing hormone and follicle-stim-
+of training), light intensity (70 percent of the pretraining one-                         ulating hormone were measured by immunofluorometric assays,36
+repetition maximal weight), and medium intensity (80 percent of                           each with a sensitivity of 0.05 IU per liter. Serum testosterone was
+this maximal weight) on three nonconsecutive days each week.35                            measured by immunoassay,37 and free testosterone was measured
+Regardless of the actual weights lifted, the training was held con-                       by equilibrium dialysis.37 Serum concentrations of sex hormone–
+stant at four sets with six repetitions per set (a set is the number                      binding globulin and prostate-specific antigen were measured
+of complete repetitions of an exercise followed by rest). Because                         by immunoassays using reagents purchased from Delphia–Wallac
+previous research had demonstrated increases in strength of ap-                           (Turku, Finland) and Hybritech (San Diego, Calif.), respectively.
+
+
+2     Ju l y 4 , 1 9 9 6
+
+                               The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                                Downloaded from nejm.org on April 10, 2026.
+                    S U P R A P H YS I O LO G I C D O S E S O F T E STO ST E RO N E A N D M U S C L E S I Z E A N D ST R E N GT H
+
+
+
+
+                                                                                              the four groups. Two-tailed, paired t-tests were used to test for
+                 TABLE 1. BASE-LINE CHARACTERISTICS                                           changes in each outcome variable in each group. If there was a
+                      OF THE STUDY SUBJECTS.*                                                 change, an analysis of variance was used to test for differences be-
+                                                                                              tween groups in the amount of change, and then Scheffé’s test
+                                                                                              was used to assess pairwise differences. This test adjusts for mul-
+                                                                        BODY-MASS             tiple comparisons, but it does not yield exact P values for pairwise
+GROUP                 AGE           WEIGHT               HEIGHT           INDEX†              comparisons between groups.
+                       yr              kg                   cm
+                                                                                                                                   RESULTS
+No exercise
+  Placebo            275         79.513.6           177.57.7          25.12.9
+                                                                                                 The four groups were similar with respect to age
+  Testosterone       266         82.26.0            177.17.2          26.43.1             and weight, height, and body-mass index before
+Exercise                                                                                      treatment (Table 1). Acne developed in three men
+  Placebo            266         85.59.7            181.05.8          26.23.2
+  Testosterone       307         76.010.0           175.66.4          24.62.9             receiving testosterone and one receiving placebo,
+                                                                                              and two men receiving testosterone reported breast
+  *Plus–minus values are means SD.                                                           tenderness, but no other side effects were noted.
+  †Calculated as the weight in kilograms divided by the square of the                         The serum liver-enzyme concentrations, hemoglo-
+height in meters.
+                                                                                              bin concentrations, hematocrits, and red-cell counts
+                                                                                              did not change in any study group (Table 2). Serum
+                                                                                              creatinine concentrations did not change, except
+Assessment of Mood and Behavior
+                                                                                              in the testosterone-plus-exercise group, in which
+   A standardized Multidimensional Anger Inventory38 that in-                                 the mean (SE) serum creatinine concentration in-
+cludes 38 questions to measure the frequency, duration, magni-
+tude, and mode of expression of anger, arousal of anger, hostile                              creased from 1.0 mg per deciliter (88 mmol per liter)
+outlook, and anger-eliciting situations and a Mood Inventory                                  to 1.1 mg per deciliter (97 mmol per liter) (P0.02).
+that includes questions pertaining to general mood, emotional                                 Plasma concentrations of total and LDL cholesterol
+stability, and angry behavior were administered before, during                                and triglycerides did not change in any study group;
+(week 6), and after the treatment (unpublished data). For each
+man a live-in partner, spouse, or parent answered the same ques-
+                                                                                              plasma HDL cholesterol decreased significantly in
+tions about the man’s mood and behavior.                                                      the placebo-plus-exercise group. There was no change
+                                                                                              in the serum concentration of prostate-specific anti-
+Statistical Analysis                                                                          gen in any group.
+   The Shapiro and Wilk test was used to test whether the out-
+come variables had a normal distribution. Changes were comput-                                Endocrine Responses
+ed for each subject as the difference between the values for each                                The base-line serum concentrations of total and
+variable at the beginning and end of the treatment period (from
+day 0 to day 70). These values were averaged among the subjects                               free testosterone in the four groups were similar.
+in each group to obtain the group means. Analysis of variance was                             The serum concentrations of total and free testoster-
+used to determine whether there were base-line differences among                              one increased significantly in the two testosterone
+
+
+
+
+                                             TABLE 2. HEMOGLOBIN AND PLASMA LIPID CONCENTRATIONS
+                                                 BEFORE AND AFTER THE 10 WEEKS OF TREATMENT.*
+
+
+
+                            VARIABLE                                               NO EXERCISE                                      EXERCISE
+                                                                          PLACEBO          TESTOSTERONE                    PLACEBO       TESTOSTERONE
+
+
+                            Hemoglobin (g/dl)
+                              Base line                                  14.90.2            15.10.2                    14.50.3          15.30.4
+                              10 wk                                      15.00.3            15.50.2                    14.30.4          15.70.2
+                            HDL cholesterol (mg/dl)
+                              Base line                                     392               373                         423              402
+                              10 wk                                         363               343                         373†             363
+                            LDL cholesterol (mg/dl)
+                              Base line                                   11310              1337                       1176             12812
+                              10 wk                                       11611              1339                       1157             12110
+                            Triglycerides (mg/dl)
+                              Base line                                   15536              14725                      10514            14615
+                              10 wk                                       13927              11113                      10421            12515
+
+                               *Plasma lipid concentrations were measured in 9 men assigned to placebo with no exercise, 8 men
+                            assigned to testosterone with no exercise, 8 men assigned to placebo plus exercise, and 10 men as-
+                            signed to testosterone plus exercise. HDL denotes high-density lipoprotein, and LDL low-density
+                            lipoprotein. To convert values for hemoglobin to millimoles per liter, multiply by 0.62; to convert
+                            values for cholesterol to millimoles per liter, multiply by 0.02586; and to convert values for triglyc-
+                            erides to millimoles per liter, multiply by 0.0113. Plus–minus values are means SE.
+                              †P0.04 for the comparison with the base-line value.
+
+
+
+                                                                                                                                       Vo l u m e 3 3 5   Nu m b e r 1      3
+
+                                   The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                                    Downloaded from nejm.org on April 10, 2026.
+                                                 The New England Journal of Me d i c i n e
+
+
+
+
+                           TABLE 3. SERUM CONCENTRATIONS OF ENDOCRINE HORMONES IN THE STUDY SUBJECTS
+                                          BEFORE AND AFTER THE 10 WEEKS OF TREATMENT.*
+
+
+
+                           HORMONE                                               NO EXERCISE                                      EXERCISE
+                                                                        PLACEBO         TESTOSTERONE                 PLACEBO          TESTOSTERONE
+
+
+                           Total testosterone (ng/dl)
+                             Base line                                 51658             50263                    55745              43138
+                             10 wk                                     45335            2828417†‡                 667117            3244305†‡
+                           Free testosterone (pg/ml)
+                             Base line                                   747              797                       837                906
+                             10 wk                                       7413            49762†‡                    819               57253†‡
+                           Luteinizing hormone
+                                (mIU/ml)
+                             Base line                                  3.30.4            3.80.6                   4.00.7              3.30.5
+                             10 wk                                      4.30.9            0.40.2†‡                 4.41.1              0.40.2†‡
+                           Follicle-stimulating hormone
+                                (mIU/ml)
+                             Base line                                  3.10.3            3.10.4                   3.20.6             3.00.6
+                             10 wk                                      2.70.3            0.30.2†‡                 4.41.1            0.100.03†‡
+                           Sex hormone–binding
+                                globulin (ng/dl)
+                             Base line                                 22433             25634                    35341               27143
+                             10 wk                                     24453             17624‡§                  32031               20134‡¶
+
+                             *Values at 10 weeks were obtained 1 week after the final injection. To convert values for total tes-
+                           tosterone to nanomoles per liter, multiply by 0.0347; to convert values for free testosterone to pico-
+                           moles per liter, multiply by 3.47; to convert values for sex hormone–binding globulin to nanomoles
+                           per liter, multiply by 0.12. Plus–minus values are means SE.
+                             †P0.001 for the comparison with the corresponding base-line value.
+                             ‡P0.05 for the comparison of the difference between this value and the base-line value with the
+                           corresponding difference in either placebo group.
+                             §P0.008 for the comparison with the corresponding base-line value.
+                             ¶P0.05 for the comparison with the corresponding base-line value.
+
+
+
+
+groups, but not in the placebo groups (Table 3).                                             groups, whether the men had exercise or not (Table
+The base-line serum concentrations of luteinizing                                            4 and Fig. 1). The men in the testosterone groups
+hormone, follicle-stimulating hormone, and sex hor-                                          had significant increases in the cross-sectional areas
+mone–binding globulin were similar in the four                                               of the triceps and the quadriceps (Table 4); the
+groups, and the concentrations decreased significant-                                        group assigned to testosterone without exercise had
+ly in the two testosterone groups.                                                           a significantly greater increase in the cross-section-
+                                                                                             al area of the quadriceps than the placebo-alone
+Body Weight and Composition                                                                  group, and the testosterone-plus-exercise group
+   Body weight did not change significantly in the                                           had greater increases in quadriceps and triceps area
+men in either placebo group (Table 4). The men                                               than either the testosterone-alone or the placebo-
+given testosterone without exercise had a significant                                        plus-exercise group (P0.05).
+mean increase in total body weight, and those in the
+testosterone-plus-exercise group had an average in-                                          Muscle Strength
+crease of 6.1 kg in body weight — a greater increase                                            Muscle strength in the bench-press and the squat-
+than in the other three groups.                                                              ting exercises did not change significantly over the
+   Fat-free mass did not change significantly in the                                         10-week period in the group assigned to placebo
+group assigned to placebo but no exercise (Table 4                                           with no exercise. The men in the testosterone-alone
+and Fig. 1). The men treated with testosterone but                                           and placebo-plus-exercise groups had significant in-
+no exercise had an increase of 3.2 kg in fat-free mass,                                      creases in the one-repetition maximal weights lifted
+and those in the placebo-plus-exercise group had an                                          in the squatting exercises, averaging 19 percent and
+increase of 1.9 kg. The increase in the testosterone-                                        21 percent, respectively (Table 4 and Fig. 1). Simi-
+plus-exercise group was substantially greater (averag-                                       larly, mean bench-press strength increased in these
+ing 6.1 kg). The percentage of body fat did not                                              two groups by 10 percent and 11 percent, respec-
+change significantly in any group (data not shown).                                          tively. In the testosterone-plus-exercise group, the
+                                                                                             increase in muscle strength in the squatting exercise
+Muscle Size                                                                                  (38 percent) was greater than that in any other
+ The mean cross-sectional areas of the arm and leg                                           group, as was the increase in bench-press strength
+muscles did not change significantly in the placebo                                          (22 percent).
+
+
+4    Ju l y 4 , 1 9 9 6
+
+                                  The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                                   Downloaded from nejm.org on April 10, 2026.
+              S U P R A P H YS I O LO G I C D O S E S O F T E STO ST E RO N E A N D M U S C L E S I Z E A N D ST R E N GT H
+
+
+
+
+                          TABLE 4. BODY WEIGHT, FAT-FREE MASS, AND MUSCLE SIZE AND STRENGTH
+                                     BEFORE AND AFTER THE 10 WEEKS OF TREATMENT.*
+
+
+
+                    VARIABLE                                             NO EXERCISE                                      EXERCISE
+                                                               PLACEBO          TESTOSTERONE                  PLACEBO            TESTOSTERONE
+
+
+                    Body weight (kg)
+                      Base line                               79.54.3            82.21.9                   85.53.3              76.03.0
+                      10 wk                                   80.84.4            85.71.5                   86.42.9              82.02.8†
+                      P value                                    —                   0.004                      —                   0.001
+                    Fat-free mass (kg)
+                      Base line                               65.12.5            69.91.3                   72.12.3              65.31.8
+                      10 wk                                   65.92.7            73.12.2                   74.12.2              71.41.8‡
+                      P value                                    —                    —                        0.017                0.001
+                    Triceps area (mm2)
+                      Base line                              3621213            3579260                  4,052262              3483217
+                      10 wk                                  3539226            4003229§                 4,109230              3984239§
+                      P value                                   —                   0.003                      —                    0.001
+                    Quadriceps area (mm2)
+                      Base line                              8796561            9067398                  9,920569              8550353
+                      10 wk                                  8665481            9674472§                10,454474§             9724348¶
+                      P value                                   —                  0.001                      —                    0.001
+                    Bench-press exercise (kg lifted)
+                      Base line                                 885                968                      10912                 976
+                      10 wk                                     885               1058§                     11911§               1196‡
+                      P value                                    —                    —                         0.005                0.001
+                    Squatting exercise (kg lifted)
+                      Base line                               1026                1038                      12613                1025
+                      10 wk                                   1056                1165                      15113§               1405¶
+                      P value                                   —                    0.004                    0.001                 0.001
+
+                     *P values are shown for the comparison of the 10-week values with the base-line values when
+                    P0.05. Plus–minus values are means SE.
+                      †P0.05 for the comparison of the change from base line with that in either placebo group.
+                      ‡P0.05 for the comparison of the change from base line with that in either no-exercise group.
+                      §P0.05 for the comparison of the change from base line with that in the group assigned to pla-
+                    cebo with no exercise.
+                      ¶P0.05 for the comparison of the change from base line with that in the other three groups.
+
+
+
+
+Mood and Behavior                                                                     10 weeks; this increase entirely accounted for the
+                                                                                      changes in body weight.
+  No differences were found between the exercise
+                                                                                         The exercise was standardized in all the men, and
+groups and the no-exercise groups or between the
+                                                                                      therefore the effects of testosterone on muscle size
+placebo groups and the testosterone groups in any
+                                                                                      and strength cannot be attributed to more intense
+of the five subcategories of anger assessed by the
+                                                                                      training in the groups receiving the treatment. Care-
+Multidimensional Anger Inventory. No significant
+                                                                                      ful selection of experienced weight lifters, the exclu-
+changes in mood or behavior were reported by the
+                                                                                      sion of competitive athletes, and close follow-up en-
+men on the Mood Inventory or by their live-in part-
+                                                                                      sured a high degree of compliance with the regimens
+ners, spouses, or parents on the Observer Mood In-
+                                                                                      of exercise, treatment, and diet, which was verified by
+ventory.
+                                                                                      three-day food records (data not shown) and the val-
+                    DISCUSSION                                                        ues obtained for serum testosterone, luteinizing hor-
+                                                                                      mone, and follicle-stimulating hormone. Except for
+   Our results show that supraphysiologic doses of                                    one man who missed one injection, all the men re-
+testosterone, especially when combined with strength                                  ceived all their scheduled injections. It has been ar-
+training, increase fat-free mass, muscle size, and                                    gued that studies in which large doses of androgens
+strength in normal men when potentially confound-                                     are used cannot be truly blinded because of the oc-
+ing variables, such as nutritional intake and exer-                                   currence of acne or other side effects. In this study,
+cise stimulus, are standardized. The combination of                                   neither the investigators nor the personnel perform-
+strength training and testosterone produced greater                                   ing the measurements knew the study-group assign-
+increases in muscle size and strength than were                                       ments. Three men receiving testosterone and one
+achieved with either intervention alone. The com-                                     man receiving placebo had acneiform eruptions; these
+bined regimen of testosterone and exercise led to an                                  men may have assumed themselves to be receiving
+increase of 6.1 kg in fat-free mass over the course of                                testosterone. Thus, it cannot be stated with certainty
+
+
+                                                                                                                               Vo l u m e 3 3 5   Nu m b e r 1      5
+
+                           The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                            Downloaded from nejm.org on April 10, 2026.
+                                                                                                          The New England Journal of Me d i c i n e
+
+
+
+                                                                                                                                *
+                                                                                                                              P0.001
+                                                                                                                                                      tosterone treatment was consistent with the results
+              Strength (kg) Strength (kg) Area (mm2) Area (mm2) Mass (kg)
+                                                                Fat-free
+                                                                              6                                                                       of studies of the contraceptive efficacy of that hor-
+                                                                              4                                 P  0.02                              mone.34
+                                                                              2                                                                          The method used in this study to evaluate muscle
+                                                                              0                                                                       performance on the basis of the one-repetition max-
+                                                                                                                                †
+                                                                                                                                                      imal weight lifted is dependent on effort. Although
+                                                                                              †
+                                                       Triceps
+
+
+
+
+                                                                                          P  0.003
+                                                                                                                              P0.001                 the men receiving testosterone did have increases in
+                                                                            600
+                                                                            400                                                                       muscle size, some of the gains in strength may have
+                                                                            200                                                                       resulted from the behavioral effects of testosterone.
+                                                                              0                                                                          The dose dependency of the action of testoster-
+                                                                                                                                                      one on fat-free mass and protein synthesis has not
+                            Bench-Press Quadriceps
+
+
+
+
+                                                                                                                          ‡
+Mean Change
+
+
+
+
+                                                                            1200              †                   †     P0.001                       been well studied. Forbes39 proposed a single dose–
+                                                                             800           P0.001              P0.001                               response curve extending from the hypogonadal to
+                                                                             400                                                                      the supraphysiologic range. Others have suggested
+                                                                               0                                                                      that there may be two dose–response curves: one in
+                                                                                                                           *                          the hypogonadal range, with maximal responses cor-
+                                                                                                                   †     P0.001                      responding to the serum testosterone concentra-
+                                                                             20                †               P  0.005                              tions at the lower end of the range in normal men,
+                                                                             10                                                                       and the second in the supraphysiologic range, pre-
+                                                                              0                                                                       sumably representing a separate mechanism of ac-
+                                                                                                                          ‡                           tion — that is, a pathway of independent androgen
+                                                                                                                        P0.001                       receptors.1,40
+               Squatting
+
+
+
+
+                                                                             40                                   †
+                                                                             30           P  0.004
+                                                                                                                P0.001                                  Supraphysiologic doses of testosterone, with or
+                                                                             20                                                                       without exercise, did not increase the occurrence of
+                                                                             10                                                                       angry behavior by these carefully selected men in the
+                                                                              0
+                                                                                   Placebo Testos-              Placebo Testos-                       controlled setting of this experiment. Our results,
+                                                                                           terone                       terone                        however, do not preclude the possibility that still
+                                                                                    No Exercise                       Exercise                        higher doses of multiple steroids may provoke angry
+                                                                                                                                                      behavior in men with preexisting psychiatric or be-
+Figure 1. Changes from Base Line in Mean (SE) Fat-free Mass,                                                                                         havioral problems.
+Triceps and Quadriceps Cross-Sectional Areas, and Muscle                                                                                                 Our results in no way justify the use of anabolic–
+Strength in the Bench-Press and Squatting Exercises over the
+10 Weeks of Treatment.                                                                                                                                androgenic steroids in sports, because, with extend-
+The P values shown are for the comparison between the                                                                                                 ed use, such drugs have potentially serious adverse
+change indicated and a change of zero. The asterisks indicate                                                                                         effects on the cardiovascular system, prostate, lipid
+P0.05 for the comparison between the change indicated and                                                                                            metabolism, and insulin sensitivity. Moreover, the
+that in either no-exercise group; the daggers, P0.05 for the                                                                                         use of any performance-enhancing agent in sports
+comparison between the change indicated and that in the
+group assigned to placebo with no exercise; and the double
+                                                                                                                                                      raises serious ethical issues. Our findings do, however,
+daggers, P0.05 for the comparison between the change indi-                                                                                           raise the possibility that the short-term administra-
+cated and the changes in all three other groups.                                                                                                      tion of androgens may have beneficial effects in im-
+                                                                                                                                                      mobilized patients, during space travel, and in patients
+                                                                                                                                                      with cancer-related cachexia, disease caused by the
+                                                                                                                                                      human immunodeficiency virus, or other chronic
+that the men were completely unaware of the nature                                                                                                    wasting disorders.
+of their treatments.
+   The doses of androgenic steroids used in previ-                                                                                                      Supported by a grant (1 RO1 DK 45211) from the National Institutes
+ous studies were low,1-5,11,12 mostly because of con-                                                                                                 of Health, by a General Clinical Research Center grant (MO-00543), and
+                                                                                                                                                      by grants (P20RR11145-01, a Clinical Research Infrastructure Initiative;
+cern about potential toxic effects. In contrast, to our                                                                                               and G12RR03026) from the Research Centers for Minority Institutions.
+knowledge the dose of testosterone enanthate ad-
+ministered in this study (600 mg per week) is the                                                                                                        We are indebted to Dr. Indrani Sinha-Hikim for the serum hor-
+highest administered in any study of athletic per-                                                                                                    mone assays, to Dr. Paul Fu for the plasma lipid measurements, to
+formance. Undoubtedly, some athletes and body-                                                                                                        the staff of the General Clinical Research Center for conducting the
+                                                                                                                                                      studies, and to BioTechnology General Corporation, Iselin, New Jer-
+builders take even higher doses than those we gave.                                                                                                   sey, for providing testosterone enanthate.
+Furthermore, athletes often “stack” androgenic and
+anabolic steroids, taking multiple forms simulta-
+neously. We do not know whether still higher doses
+of testosterone or the simultaneous administration
+of several steroids would have more pronounced ef-
+fects. The absence of systemic toxicity during tes-
+
+
+6                                               Ju l y 4 , 1 9 9 6
+
+                                                                                           The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                                                                                            Downloaded from nejm.org on April 10, 2026.
+                    S U P R A P H YS I O LO G I C D O S E S O F T E STO ST E RO N E A N D M U S C L E S I Z E A N D ST R E N GT H
+
+
+
+
+                          REFERENCES                                                         muscular work and creatine metabolism in normal young men. J Clin En-
+                                                                                             docrinol 1942;2:649-54.
+1. Wilson JD. Androgen abuse by athletes. Endocr Rev 1988;9:181-99.                          31. Loughton SJ, Ruhling RO. Human strength and endurance responses
+2. Strauss RH, Yesalis CE. Anabolic steroids in the athlete. Annu Rev Med                    to anabolic steroid and training. J Sports Med Phys Fitness 1977;17:285-
+1991;42:449-57.                                                                              96.
+3. Haupt HA, Rovere GD. Anabolic steroids: a review of the literature. Am                    32. Crist DM, Stackpole PJ, Peake GT. Effects of androgenic-anabolic ster-
+J Sports Med 1984;12:469-84.                                                                 oids on neuromuscular power and body composition. J Appl Physiol 1983;
+4. Cowart V. Steroids in sports: after four decades, time to return these                    54:366-70.
+genies to bottle? JAMA 1987;257:421-3.                                                       33. O’Shea JP, Winkler W. Biochemical and physical effects of an anabolic
+5. Elashoff JD, Jacknow AD, Shain SG, Braunstein GD. Effects of anabol-                      steroid in competitive swimmers and weightlifters. Nutr Rep Int 1970;2:
+ic-androgenic steroids on muscular strength. Ann Intern Med 1991;115:                        351-62.
+387-93.                                                                                      34. Matsumoto AM. Is high dosage testosterone an effective male contra-
+6. Wade N. Anabolic steroids: doctors denounce them, but athletes aren’t                     ceptive agent? Fertil Steril 1988;50:324-8.
+listening. Science 1972;176:1399-403.                                                        35. Practical testing and progress evaluation. In: Stone MH, O’Bryant HS.
+7. Buckley WE, Yesalis CE III, Friedl KE, Anderson WA, Streit AL, Wright                     Weight training: a scientific approach. Edina, Minn.: Burgess International
+JE. Estimated prevalence of anabolic steroid use among male high school                      Group, 1987.
+seniors. JAMA 1988;260:3441-5.                                                               36. Tom L, Bhasin S, Salameh W, et al. Male contraception: induction of
+8. Casaburi R, Storer T, Bhasin S. Androgen effects on body composition                      azoospermia in normal men with combined gonadotropin-releasing hor-
+and muscle performance. In: Bhasin S, Gabelnick HL, Spieler JM, Swerdloff                    mone antagonist and testosterone enanthate. J Clin Endocrinol Metab
+RS, Wang C, eds. Pharmacology, biology, and clinical applications of andro-                  1992;75:476-83.
+gens: current status and future prospects. New York: Wiley-Liss, 1996:283-8.                 37. Bhasin S, Swerdloff RS, Steiner BS, et al. A biodegradable testosterone
+9. American College of Sports Medicine. Position stand on the use of an-                     microcapsule formulation provides uniform eugonadal levels of testoster-
+abolic-androgenic steroids in sports. Med Sci Sports Exerc 1987;19:534-9.                    one for 10-11 weeks in hypogonadal men. J Clin Endocrinol Metab 1992;
+10. Mooradian AD, Morley JE, Korenman SG. Biological actions of an-                          74:75-83.
+drogens. Endocr Rev 1987;8:1-28.                                                             38. Siegel JM. The Multidimensional Anger Inventory. J Pers Soc Psychol
+11. Kochakian CD. Comparison of protein anabolic property of various                         1986;51:191-200.
+androgens in the castrated rat. Am J Physiol 1950;160:53-67.                                 39. Forbes GB. The effect of anabolic steroids on lean body mass: the dose
+12. Kenyon AT, Knowlton K, Sandiford I, Koch FC, Lotwin G. A com-                            response curve. Metabolism 1985;34:571-3.
+parative study of the metabolic effects of testosterone propionate in normal                 40. Byerley LO, Lee WP, Buena F, et al. Effect of modulating serum tes-
+men and women and in eunuchoidism. Endocrinology 1940;26:26-45.                              tosterone in the normal male range on protein dynamics, carbohydrate and
+13. Bhasin S, Casaburi R, Berman N, et al. Replacement doses of testos-                      lipid metabolism. Endocr J 1993;1:253-9.
+terone increase lean body mass, muscle size and strength in hypogonadal
+men. Presented at the American Society of Andrology Meeting, Spring-
+field, Ill., April 4–6, 1994. abstract.
+14. Katznelson L, Finkelstein J, Baressi C, Klibanski A. Increase in trabec-
+ular bone density and altered body composition in androgen replaced hy-
+pogonadal men. In: Program and abstracts of the 76th Annual Meeting of
+the Endocrine Society, Anaheim, Calif., June 15–18, 1994. Bethesda, Md.:
+Endocrine Society Press, 1994:581. abstract.
+15. Griggs RC, Kingston W, Jozefowicz RF, Herr BE, Forbes G, Halliday
+D. Effect of testosterone on muscle mass and muscle protein synthesis.
+J Appl Physiol 1989;66:498-503.
+16. Ward P. The effect of an anabolic steroid on strength and lean body
+mass. Med Sci Sports 1973;5:277-82.
+17. Johnson LC, Fisher G, Silvester LJ, Hofheins CC. Anabolic steroid: ef-
+fects on strength, body weight, oxygen uptake, and spermatogenesis upon
+mature males. Med Sci Sports 1972;4:43-5.
+18. Ariel G. The effect of anabolic steroid upon skeletal muscle contractile
+force. J Sports Med Phys Fitness 1973;13:187-90.
+19. Hervey GR, Knibbs AV, Burkinshaw L, et al. Effects of methandienone
+on the performance and body composition of men undergoing athletic
+training. Clin Sci 1981;60:457-61.
+20. Stamford BA, Moffatt R. Anabolic steroid: effectiveness as an ergogen-
+ic aid to experienced weight trainers. J Sports Med Phys Fitness 1974;14:
+191-7.
+21. Win-May M, Mya-Tu M. The effect of anabolic steroids on physical
+fitness. J Sports Med Phys Fitness 1975;15:266-71.
+22. Tahmindjis AJ. The use of anabolic steroids by athletes to increase
+body weight and strength. Med J Aust 1976;1:991-3.
+23. Freed DLJ, Banks AJ, Longson D, Burley DM. Anabolic steroids
+in athletics: crossover double-blind trial on weightlifters. BMJ 1975;
+2:471-3.
+24. Johnson LC, O’Shea JP. Anabolic steroid: effects on strength develop-
+ment. Science 1969;164:957-9.
+25. Bowers RW, Reardon JP. Effects of methandostenolone (Dianabol) on
+strength development and aerobic capacity. Med Sci Sports 1972;4:54. ab-
+stract.
+26. Golding LA, Freydinger JE, Fishel SS. Weight, size, and strength —
+unchanged with steroids. Physician Sports Med 1974;2(6):39-43.
+27. Stromme SB, Meen HD, Aakvaag A. Effects of an androgenic-anabolic
+steroid on strength development and plasma testosterone levels in normal
+males. Med Sci Sports 1974;6:203-8.
+28. Fahey TD, Brown CH. The effects of an anabolic steroid on the
+strength, body composition, and endurance of college males when accom-
+panied by a weight training program. Med Sci Sports 1973;5:272-6.
+29. Casner SW Jr, Early RG, Carlson BR. Anabolic steroid effects on body
+composition in normal young men. J Sports Med Phys Fitness 1971;11:98-
+103.
+30. Samuels LT, Henschel AF, Keys A. Influence of methyl testosterone on
+
+
+
+
+                                                                                                                                      Vo l u m e 3 3 5   Nu m b e r 1      7
+
+                                  The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                                                   Downloaded from nejm.org on April 10, 2026.
+

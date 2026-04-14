@@ -1,0 +1,597 @@
+           An Electromyographic   Analysis of Functional
+         Differentiation in Human Pectoralis Major Muscle
+                                            M. E. Paton and J. M. M. Brown
+   Electromyography     Laboratory,    Department of Biomedical Science, University of Wollongong,           Wollongong 2500,
+                                                         Australia
+
+
+
+
+                      Summary: The aim of this investigation was to determine whether functional
+                      differentiation was present within the radiate muscle, pectoralis major, by
+                      determining whether motor units within individual muscular segments were
+                      independently controlled by the central nervous system (CNS) during a series of
+                      isometric muscle actions. Six miniature surface electrode pairs were placed along
+                      the origin of the pectoralis major of eight male subjects. Electromyographic
+                      (EMG) potentials were then recorded during isometric shoulder actions in various
+                      planes and at two levels of contraction intensity. The EMG waveforms were
+                      integrated (IEMG) and then normalized. The normalized IEMG waveforms
+                      (nIEMG) were then statistically compared to determine whether motor units
+                      within the detection area of each electrode pair had varied their contribution to
+                      the total activity of the muscle from one isometric action to another. An alteration
+                      in the contribution of each electrode site (muscular segment) to the total activity
+                      of the pectoralis major was taken to be indicative of functional differentiation.
+                      The results of this study indicated that the muscular segments of pectoralis major
+                      were controlled independently        during performance of the isometric tasks.
+                      Isometric shoulder adduction saw moderate to high levels of activation expand
+                      from the inferior segments of the muscle to all segments, excluding the clavicular
+                      head, as the position of the upper limb changed from 90” to 0” of abduction.
+                      The most inferior muscular segments of pectoralis major were utilized preferentially
+                      when the subjects performed shoulder extension motions from a flexed shoulder
+                      position. Conversely, shoulder flexion motions utilized the superior segments of
+                      the muscle. Finally, horizontal flexion of the shoulder joint elicited activity from
+                      the middle segments of the muscle regardless of the degree of shoulder flexion.
+                      The results of this study support the notion that the CNS ‘fine tunes’ the
+                      activation patterns of muscular segments within pectoralis major to maximize the
+                      muscle’s potential to contribute efficiently to isometric actions of the shoulder.
+
+                      Key Words: Motor control-Electromyography-Isometric                 muscle   action-
+                      Pectoralis   major.
+
+
+                      J. Electromyogr.       Kinesiol.,   Vol. 4, 161-169, September
+
+
+
+                                                                                         INTRODUCTION
+
+                                                                           Functional differentiation within skeletal muscles
+                                                                        refers to the ability of the central nervous system
+                                                                        (CNS) to control independently       the intensity of
+   Received August 12, 1993.
+   Revised March 1, 1994.                                               motor unit activation within individual segments of
+   Accepted March 1, 1994.                                              singIe muscles. In particuIar, muscles with broad
+   Address correspondence and reprint requests to J. M. M.              origins have been represented by multiple lines of
+Brown, Electromyography Laboratory, Department of Biomed-
+ical Science, University of Wollongong, Northfields Ave.,               action to account for potential differences in the
+Wollongong 2500, Australia.                                             function of different muscular segments20. Indeed,
+
+                                                                  161
+162                                             M. E. PATON         AND J. M. M. BROWN
+
+
+experimental support for the concept of functional                       activated over those segments     with fewer direct
+differentiation has come from a number of electro-                       lines of action.
+myographic investigations in humans utilizing a
+variety of muscles including the gluteus medius20,                                           METHODS
+biceps brachii2p21, soleus4, tensor fascia latae16 and
+latissimus dorsi (Paton and Brown, 1993 in press).                                            Procedures
+The concept of functional differentiation          within                   Eight male subjects with weight training experi-
+skeletal muscle has also been supported by investi-                      ence (mean age 20.8 yr) volunteered to participate
+gations utilizing animal models. In particular, Hoffer                   in this investigation. The subjects were seated at
+et a1.i2-14 have identified, in cat sartorius muscle,                    an adjustable bench under a cage from which was
+three sub-populations      of motor units which are                      suspended an instrumented grip. The bench and
+activated independently during the gait cycle. They                      instrumented    grip were adjusted to permit the
+state that it is possible that specific functional roles                 subjects to perform a series of isometric actions
+are assigned to separate populations of motor units                      involving the shoulder joint at both 20% and 70%
+within single muscles as a means of increasing the                       maximal voluntary contraction (MVC) levels of
+functional capabilities of the muscle.                                   contraction intensity. The isometric actions of the
+   From these studies, it is clear that individual                       shoulder investigated were: (a) adduction in the
+muscular segments of single muscles can act with a                       frontal plane, from O”, 60” and 90“ of abduction;
+degree of independence subject to the functional                         (b) horizontal flexion in the transverse plane, from
+demands of the motion. However, what has not                             90” and 30” of forward flexion; and (c) extension
+been clearly established is the extent to which                          and flexion in the sagittal plane, from 60” of forward
+individual muscles can be subdivided into func-                          flexion.
+tionally different segments. With the exception of                          Prior to commencing analysis in each shoulder
+a recent study utilizing latissimus dorsi (Paton and                     position, the subjects performed three isometric
+Brown, 1993 in press), many previous investigations                      MVCs after a short familiarization period. They
+have been limited to a few electrode sites or                            were then instructed to perform a series of 15
+simple functional analyses based on anatomical                           70% and 15 20% MVCs which were held for
+observations, with the result that few segments have                     approximately 2 s each. The subjects controlled the
+been identified. To investigate this problem further,                    intensity of the contraction by viewing a visual
+we again used the multielectrode           configuration                 display which represented the target force (70% or
+developed for our previous study on functional                           20% MVC) and the force recorded through the
+differentiation within latissimus dorsi (Paton and                       instrumented grip. To minimize fatigue, the intertrial
+Brown, 1993 in press). This configuration utilizes                       interval was at least 1 min in duration.
+miniature (1 mm diameter active plates) bipolar
+surface electrodes, which enables the surface of any                                      Force Recordings
+broad muscle to be subdivided into six segments.
+                                                                            The force of muscular contraction was recorded
+We chose, for analysis, the radiate muscle pectoralis
+                                                                         through an instrumented grip which was suspended
+major which has previously been shown to be
+                                                                         from the cage. The instrumented grip comprised a
+activated     during shoulder     adduction,     flexion,
+                                                                         handle to which was attached a 500 lb load cell.
+internal rotation motions against resistance17 as
+                                                                         The load cell itself was secured to the cage by an
+well as during shoulder extension from a flexed
+                                                                         adjustable length of chain. The instrumented grip
+positionlg. Electromyographic       (EMG) potentials
+                                                                         was connected to a DC amplifier, the output of
+recorded from the electrodes overlying each of
+                                                                         which was stored on a microcomputer.         Visual
+six segments of pectoralis major were statistically                      feedback on the intensity of contraction was pro-
+analysed to establish how each segment was utilized                      vided by an oscilloscope which was connected to a
+during a series of isometric shoulder actions at two                     DC amplifier.
+levels of contraction intensity. We hypothesized
+that pectoralis major would show evidence of
+                                                                                    Electromyographic Recordings
+functional differentiation     and that the muscle’s
+segments with the most direct lines of action                              Six bipolar miniature electrode pairs were placed
+for any particular motion would be preferentially                        on pectoralis major along a curved line drawn
+
+Journal   of Electromyography   & Kinesiology Vol. 4, No. 3, 1994
+                                            FUNCTIONAL               DIFFERENTIATION                                                                        163
+
+
+lateral to its origin on the sternum. The line lay at                                         Data Collection and Analysis
+a position corresponding to 15% of the distance
+between the muscle’s origin and insertion. This                             Muscle contraction force and the raw EMG
+distance was determined with the humerus in the                          waveforms were stored on an IBM compatible
+anatomical position. The first electrode pair lay                        microcomputer     after A-D conversion at 1 kHz.
+over the clavicular head, the sixth over the muscle                      Waveform analysis was carried out utilizing the
+fibres arising from the aponeurosis of the external                      Waveform Analysis Software Packages.
+oblique. The remaining four were spaced equidistant                         The raw electromyograms, representative of the
+between these two electrodes (Figure 1). The earth                       intensity of segmental activation within each 2 s
+electrode was placed over the acromion process.                          trial, were analysed between the 2 x 10e2 and the
+   To minimize crosstalk microelectrodes        were                     4 x lo-’ ms (Figure 2). The EMG waveforms were
+designed and built specifically for this study. The                      full-wave rectified and integrated using ten 20 ms
+electrode housings were adhesive rubber feet. Into                       bins. The total integrated area under the curve
+the base of the housing were drilled wells for                           between these two time limits was used as the
+the miniature 1 mm diameter active plates. The                           measure of activity at each electrode site.
+interelectrode    distance was 7 mm. The surface                            The total integrated activity of the muscle
+electrodes were secured to the skin of the subject                       (totIEMG) was determined by summing the IEMG
+using double sided tape after the skin had been                          values of all six sites recorded. The normalized
+washed with alcohol and lightly abraded with a fine                      IEMG (nIEMG) of each site was determined using
+grade sandpaper. Electrode gel was injected into                         the equation:
+the wells using a syringe coupled to a 1 mm cannula.
+   The six electrode pairs were connected to EMG                                1      CHANNEL       1 (CLAVlCULAR      HEAD)
+preamplifiers and amplifiers. The raw EMG signals
+were amplified and filtered (10 Hz high pass, 50 Hz
+notch filter, 1 kHz low pass) before storage on a
+microcomputer.                                                                  I           CHANNEL 2 (UPPER         STERNAL    HEAD)       A       ’       ,
+
+
+
+
+                                                                             I              CHANNEL ,3 (MDDLE        STERNAL,HEAD)              I       J
+
+
+
+
+                                                                                            CHANNEL 5 (LOWER STERNAL HEAD)
+
+
+
+
+                                                                            I                                I                          1   ’               1
+
+                                                                            G                 100         200           300          400                500
+
+FIG. 1. Electrode sites on pectoralis major. Electrode 1 lay
+over the fibres arising from the clavicle, electrodes 2-4 lay over
+the fibres arising from the sternum and electrodes 5 and 6 lay
+over the fibres arising from the aponeurosis of the external             FIG. 2. Raw EMG waveforms recorded from each of the six
+oblique.                                                                 electrodes placed over pectoralis major.
+
+
+                                                                                    blind      of Efectromyogrophy    & Kinesio1og.v Vol. 4, No. 3. 1994
+164                                                  M. E. PATON                AND J. M. M. BROWN
+
+
+                                                                                                   nZEMG(%)          = (ZEMG of site/totZEMG) * 100
+                                                                         2                     An analysis of variance (ANOVA) (P < 0.05)
+                                                                         3
+                                                                                            was used to establish if the nIEMG of each segment
+                                                                         4
+                                                                         5                  altered from one exercise to the next. The nIEMGs
+                                  ADDUCTIONFROM                                             for each segment were then ranked, taking into
+                                                                         6
+                                                                                            account the results of the ANOVAs. A rank of 1
+                                                                                            indicated that the segment in question gave its
+                                                                                            highest contribution to the entire activity of the
+                                                                                            muscle during this exercise. A rank of 2 indicates
+                                                                                            that it gave its second highest contribution to the
+                                                                                            entire activity and so on. In addition, correlation
+                                                                                            coefficients were calculated between each channel
+                                                                                            and every other channel to determine if any
+                                                                                            significant (P < 0.05) crosstalk had taken place.
+
+
+                                                                                                                             RESULTS
+                       0                                       ,
+                                                                                                                     Shoulder Adduction
+                                                                        3
+                                                                        4
+                                                                        5
+                                                                                               When the subjects performed adduction at 70%
+                                  ADDUCTIONFROM                         6                   MVC, (Figure 3; Table 1) the emphasis shifted from
+                                  DEGREES OFABDUCTION
+                                                                                            the lower segments, at 90” of abduction, to the
+FIG. 3. Diagrammatic representation of the activity patterns                                greater part of the muscle as the arm was brought
+recorded over pectoralis major as subjects performed adduction                              progressively closer to the body. When the pro-
+motions at 70% MVC. Dark shading represents a rank (P < 0.05)
+of 1, lighter shading represents a rank of 2 and no shading
+                                                                                            cedure was repeated with a contraction strength of
+represents a rank of 3 or more.                                                             20% MVC, the pattern of segmental activation was
+                                                                                            broadly similar to that seen at 70% MVC in that a
+                                                                                            shoulder position approximating the trunk utilized
+                                                                                            most muscle segments (Figure 4; Table 1).
+
+
+
+                     TABLE 1.      Normalized      EMG activity recorded at each of the six electrode sites during adduction motions
+                                                         performed    at 70% and 20% MVC intensities
+
+
+                    Motion                           Channel                       Normalized   IEMG for each site on pectoralis    major
+
+
+                                                                     70% MVC     (SD)       Rank   PcO.05        20% WC      (so)           Rank P<O.O5
+
+
+                    Adduction   from   10” of            1             9.60   (2.86)               3              7.70  (3.62)
+                    abduction                            2             9.83   (2.26)               2              6.36   (2.63)
+                                                         3            10.32   (4.79)                              6.64   13.661
+                                                         4            13.45   (4.64)                              9.34   (4.01)
+                                                         5            27.91 (12.95)                              21.75 (14.60)
+                                                         6            29.01   (8.59)                             41.43 112.88)
+                    Adduction   from 60” of              1             8.46  (2.14)                               6.93   (3.70)
+                    abduction                            2             8.34   (2.37)                              5.25   12.51)
+                                                         3             9.91  (4.62)                               4.79   (3.001
+                                                         4            13.24   (4.64)                              7.01   (3.86)
+                                                         5            20.71 (13.49)                              27.19 (21.611
+                                                         6            30.07   w4)                                39.56 117.34)
+                    Adduction   from SO” of              1             8.46  (4.361                                7.76  (4.56)
+                    abduction                            2             8.16  (2.46)                                5.79   13.09)
+                                                         3             0.77  (4.931                3               4.93  (2.441
+                                                         4            10.88  (3.78)                2               7.07   (3.29)
+                                                         5            22.06 115.27)                               20.00 (13.74)
+                                                         6            29.77  (8.76)                2              44.64 113.67)
+
+                     Also shown   am the statistically   tested (P<O.O5) rankings for each of the normalized   EMG activities
+
+
+
+
+Journal   of Electromyography     & Kinesiology    Vol.4, No. 3, 1994
+                                         FUNCTIONAL          DIFFERENTIATION                                                         165
+
+
+
+                                                                                                                                 2
+                                                      2                                    -1
+                                                                               ‘\                                                3
+                                                      3                                                                          4
+                                                      4                                                                          5
+                                                      5                    I                                                     6
+                         ADDUCTION FROM
+                         DEGREES OF ABDUCTION
+                                                      6
+                                                                                     HORIZONTAL FLEXION FROM
+                                                                                     30 DEGREES OF FORWARD FLEXION
+
+
+
+
+                                                                                           -~                                    1
+                                                                                                                                 2
+                                                                                                                                 3
+                                                                                                                                 4
+                         ADDUCITONFROM   60
+                         DEGREES OF ABDUCTION                                                                                    5
+                                                                                          -w
+                                                                                                                                ~6
+
+                                                                                      HORIZONTAL FLEXION FROM
+                                                                                      90 DEGREES OF FORWARD FLEXION
+
+                                                                 FIG. 5.  Diagrammatic representation of the activity patterns
+                                                      2          recorded over pectoralis major as subjects performed horizontal
+                                                     3           flexion motions at 70% WC. Dark shading represents a rank
+                                                     4           (P < 0.05) of 1, lighter shading represents a rank of 2 and no
+                                                     5           shading represents a rank of 3 or more.
+          e              ADDUCTION FROM              6
+                         DEGRERS OF ABDUCTION
+
+                                                                 inferior segments 5 and 6 gave their greatest
+FIG. 4.   Diagrammatic representation of the activity patterns
+recorded over pectoralis major as subjects performed adduction   contribution when extension was attempted from
+motions at 20% WC. Dark shading represents a rank (P < 0.05)     this position. When the procedure was repeated
+of 1, lighter shading represents a rank of 2 and no shading      using a contraction intensity of 20% MVC (Figure 8;
+represents a rank of 3 or more.
+                                                                 Table 3), the pattern of segmental activation
+                                                                 remained unchanged during extension although, in
+                    Horizontal Flexion                           contrast, a more diffise pattern of activation was
+                                                                 noted when forward flexion was performed at the
+    When horizontal flexion was performed at 70%                 lower contraction intensity.
+ MVC, altering the degree of forward flexion of the
+ shoulder did not alter the pattern of segmental                                        Electrode Crosstalk
+ activation (Figure 5; Table 2). In both positions,
+ emphasis was placed on the superior to middle                      To establish the degree of crosstalk in our
+ fibres of the muscle. However when the procedure                electromyographic technique, coefficients of corre-
+ was repeated at 20% MVC, the pattern altered                    lation were calculated between the raw EMG
+.siightly from one position to the next (Figure 6;               waveforms from each of the six electrode sites in
+ Table 2). When the motion was attempted at 30                   three randomly chosen trials. These calculations
+ of forward flexion the inferior segments of the                 indicated that the EMG waveforms from adjacent
+ muscle played a greater role than when the motion               electrode sites were often negatively correlated (e.g.
+ was attempted at 90” of forward flexion.                        sites 1 and 2, 2 and 3, 3 and 4, and 5 and 6). In
+                                                                 contrast, electrode sites lying some distance apart
+              Forward Flexion and Extension                      (e.g. sites 1 and 3, 1 and 6, and 3 and 6) often
+                                                                 showed a significant (P < 0.05) positive correlation.
+   When forward flexion and extension were both
+attempted from 60” of forward shoulder flexion,                                             DISCUSSION
+the pattern of segmental activation was markedly
+different (Figure 7; Table 3). Forward flexion pro-                 The aim of this study was to determine whether
+duced a high contribution from the superior seg-                 the activation patterns of individual muscular seg-
+ments (i.e. the clavicular head). Alternatively, the             ments of pectoralis major were independently con-
+
+                                                                           Journal of Electromyography   & Kinesiology Vol. 4. No. 3. 1994
+166                                                          M. E. PATON AND J. M. M. BROWN
+
+                         TABLE 2.      Normalized       EMG activity recorded at each of the six electrode sites during                        horizontal       flexion
+                                                          motions performed   at 70% and 20% MVC intensities
+
+
+                        Motion                           Channel                             Normalized   IEMG for each site on pectoralis     major
+
+
+                                                                             70% MVC     (sol         Rank RO.05            20% MVC     (SD)           Rank RO.05
+
+
+                        Horizontal flexion from                1              14.70  (5.28)                 2                13.07  (4.81)                  3
+                        30” of forward flexion                 2              10.79  (2.47)                 1                 8.44  (2.85)
+                                                               3              12.82   (4.08)                                  9.01   (4.03)                 1
+                                                               4              14.03  (5.89)                 1                11.86  (6.21)                  1
+                                                               5              17.32 (11.59)                 2                21.63 (15.36)                  2
+                                                               6              25.17   (6.20)                3                32.34 (10.351                  2
+                        Horizontal flexion from                1              15.52  (6.71)                 2                15.86  (7.67)                  2
+                        SO” of forward flexion                 2              10.21  (2.35)                 1                 8.43  (2.72)                  1
+                                                               3              12.82  (4.85)                 1                 6.35   (2.81)                 1
+                                                               4              14.08  (5.53)                 1                10.39   (4.78)                 2
+                                                               5              17.70 112.22)                 2                22.03 (16.07)                  2
+                                                               6              24.48  (5.62)                 3                29.71   (7.28)                 3
+
+
+                        Also shown   are the statistically     tested   (PC 0.05) rankings     for each of the normalized   EMG activities.
+
+
+
+
+                                                                                                                i                   I                                                   423561
+
+
+
+
+                            +
+          i
+                                                                                                                                  FORWARD       FLELXION FROM             60 DEGRFJJU
+                                                                                                                                   OF FORWARD          FLEXION
+                        HORIZONTAL FLEXION FROM
+                        30 DEGRl3E.S OF PORWARD FIKUON
+
+
+
+
+          i..
+                                                                                                                            “1
+
+
+                                                                                                                            J
+                                                                                                                              I
+                                                                                                                                                   +4
+                                                                                                                                  EXTENSIONFROM60DEGREES
+                                                                                                                                  OF FORWARD   FLEXION
+                                                                                                                                                                                    -
+                                                                                                                                                                                        1
+                                                                                                                                                                                        2
+                                                                                                                                                                                        3
+                                                                                                                                                                                        4
+                                                                                                                                                                                        5
+                                                                                                                                                                                        6
+                                                                                                                                                                                         -
+
+                        HORIZONTAL FLEXION FROM
+                        90 DEGREES OF FORWARD FLRXION
+                                                                                                       FIG. 7. Diagrammatic representation of the activity patterns
+FIG. 6. Diagrammatic representation of the activity patterns                                           recorded over pectoralis major as subjects performed forward
+recorded over pectoralis major as subjects performed horizontal                                        flexion and extension motions at 70% WC. Dark shading
+flexion motions at 20% MVC. Dark shading represents a rank                                             represents a rank (P < 0.05) of 1, lighter shading represents a
+(P < 0.05) of 1, lighter shading represents a rank of 2 and no                                         rank of 2 and no shading represents a rank of 3 or more.
+shading represents a rank of 3 or more.
+
+                                                                                                       summated action potentials of motor units within
+trolled by the CNS during the performance            of                                                the detection area of the recording electrodes, it is
+various isometric actions involving the shoulder                                                       clear from our results that motor unit populations
+joint.                                                                                                 within different segments of the pectoralis major
+   Our results indicated that the activation patterns                                                  are     independently      controlled      (functionally
+of the individual muscular segments of pectoralis                                                      differentiated) by the CNS. In addition, our results
+major were dependent upon the nature of the                                                            indicate that there are probably at least six functional
+isometric task performed and the level of contraction                                                  segments within pectoralis major although this
+intensity. In addition, it was noted that a subjective                                                 assessment is limited by the number of electrode
+assessment of a segment’s ‘line of action’ was a                                                       sites utilized.
+reliable indicator of the potential level of activity                                                     An explanation      for functional differentiation
+within that segment in most isometric actions                                                          within skeletal muscles can be found in the work
+analysed.                                                                                              of English et a1.8,9J8J-5. Of particular interest was
+   Since surface EMG waveforms represent the                                                           their finding that motor units within both human
+
+Journal       of Electromyography    & Kinesiology      Vol.    4, No. 3, 1994
+                                                   FUNCTIONAL             DIFFERENTIATION                                                                        167
+
+  TABLE 3.         Normalized       EMG activity recorded at each of the six electrode sites during forward flexion and
+                                   extension motions performed at 70% and 20% MVC intensities
+
+Motion                        Channel                                  Normalized     IEMG for each site on pectoralis             major
+                                                                                                                                  __-    -     .__.       ____
+                                                     70% MVC (SD)              Rank PcO.05                 20% MVC         (SD)              Rank RO.05
+
+Forward flexion                    1                  19.71 (10.97)                    1                    18.92 (10.04)                             1
+from 60” of                        2                   9.81   (5.21)                   2                     8.55 (4.29)                              1
+forward flexion                    3                   6.76   (5.19)                   4                     6.39 (5.43)                              2
+                                   4                   5.56 (3.50)                     4                     5.53 (4.26)                              4
+                                   5                  19.89 (16.79)                    2                    22.47 18.33)                              1
+                                   6                  21.26   (9.82)                   4                    29.17 10.80)                              3
+Extension from                     1                  4.01   (3.80)                    5                     5.06     (4.71)                          5
+60” of forward                     2                  3.46   (1.86)                    4                     4.18     (2.62)                          4
+flexion                            3                  4.18   (2.01)                    5                     3.61     (1.88)                          4
+                                   4                  7.39   (2.87)                    3                     4.88     (2.85)                          4
+                                   5                 22.89 (17.73)                     1                    24.37   (’17.45)                          1
+                                   6                 40.15   (9.02)                    1                    45.11   (’12.12)                          1
+
+Also shown       are the statistically    tested   (FKO.05) rankings     for each of the normalized         EMG activities.
+
+
+
+
+                                                                                    unit’s muscle fibres are also noted in the arrangement
+                                                                                    of the motoneurons within the grey matter of the
+                                                                                    spinal cord. As reported by Weeks and English25,
+                                                                                    the motor nuclei of skeletal muscles have a somato-
+                          /
+                                                                                    topical arrangement based on the muscle’s neuromo-
+                                                                                    tor compartments. Obviously, variations in motor
+         i
+                                                                                    drive to individual neuromotor compartments pro-
+                        FORWARD  FXEXION FROM        60 DEGREES
+                        OF FORWARD  FLEXION
+                                                                                    vides a physiological basis for our findings of
+                                                                                    differences in segmental activation patterns.
+                                                                  1                    The degree of functional differentiation within
+         0                                                        2                 any skeletal muscle may also be related to the
+             1     lEms,oNmy~                                                       magnitude of sensory feedback to the CNS from
+                                                                                    receptors such as the muscle spindle and the effect
+                                                                                    that this sensory feedback has on the ability of
+                                                                                    reflexes to be partitioned. The relationship between
+                        OF FORWARD       FLEXION                                    high muscle spindle densities and the capacity for
+                                                                                    fine control over the development of muscle tension
+flG. 6. Diagrammatic representation      of the activity patterns
+recorded over pectoralis major as subjects performed forward                        has often been demonstrated3.15.2J. From these
+flexion and extension motions at 20% MVC. Dark shading                              findings it may be possible to predict that the
+represents a rank (P < 0.05) of 1, lighter shading represents a
+                                                                                    extent to which skeletal muscles can be functionally
+rank of 2 and no shading represents a rank of 3 or more.
+                                                                                    differentiated is dependent upon the density of its
+                                                                                    muscle spindles, since it appears that the ability to
+and animal skeletal muscle are compartmentalized                                    adjust finely the level of tension generated may
+based upon the primary branches of the muscle’s                                     also be related to the ability to control the direction
+motor nerve. Thus, skeletal muscle is composed of                                   in which that tension is produced.
+distinct sub-populations of motor units which are                                      From a functional standpoint, there is a belief
+contained within well defined neuromotor compart-                                   that the development of skilled movements are
+ments. Such compartments have been shown to be                                      characterized by the inhibition of the inefficient
+arranged in parallel with the direction of the                                      mass responses which are natural to the child’.
+muscle’s fibres and possibly to represent a major                                   As the motor programme is refined during the
+organizational principle in the design of skeletal                                  acquisition of a skill, unnecessary recruitment of
+muscles. Such anatomical arrangements of a motor                                    inappropriate muscles is suppressed until only the
+
+                                                                                           Journal   of Elecrromyography    & Kinesiology Vol.        4. No.   3, 1994
+168                                             M. E. PATON AND J. M. M. BROWN
+
+
+most effective muscles are activated. With reference                motoneurons.     As shown by Henneman et al.ll,
+to the present study, it may be feasible to extrapolate             motoneurons are recruited in order according to
+this concept to the control of the individual segments              their size, with the small type I motoneurons being
+of single skeletal muscles. Possibly the CNS progress-              the first to be activated in any muscle contraction.
+ively inhibits segments of individual skeletal muscles              Given the results of this study, it would seem
+until the desired motion can be accomplished with                   obvious that Hennemans’ size principle would be
+a minimum of motor unit activity. This may partially                most appropriately applied to each functional seg-
+explain why the six segments of pectoralis major                    ment of a muscle rather than to the entire muscle
+show such disparate activation patterns.                            itself. Each segment could therefore be regarded
+   On a cautionary note, it could be argued that by                 as a relatively independent population of motor
+altering the position of the shoulder, each segment’s               units which are recruited in order from smallest
+length-tension relationship would be affected and                   to largest during an increasing contraction. It is
+so possibly influence the EMG waveforms derived                     interesting to speculate that researchers such as
+from that segment. However, as each contraction                     Desmedt and Godaux’; Ter Haar Romeny et al.*l,**
+was performed at either 20% or 70% of the MVC                       and Thomas et a1.23, who observed deordering of
+derived from each position of the shoulder, each                    motor unit recruitment in multifunctional muscles,
+segment was activated to the same relative level of                 may have been recording motor units located in
+contraction intensity in each shoulder action. The                  different functional segments of the muscle.
+fact that the magnitude of the force output of each                    The results of our study may also be related to
+segment might have changed due to changes in                        the question of the validity of needle and fine wire
+muscle length is therefore irrelevant.                              electrodes in studies investigating gross muscle
+   In addition, factors such as electrode crosstalk                 function. If incorrectly placed the electrodes could
+and muscle fatigue may also influence the patterns                  record from a dormant segment of the muscle while
+of segmental activation within a skeletal muscle.                   other segments of the muscle are active, this would
+To determine whether our procedures had induced                     promote inaccurate assessments of the true function
+muscle fatigue, we followed the procedures sug-                     of the muscle. The placement of surface electrodes
+gested by Christensen and Frederiksen,            19866.            should also be carefully considered for the same
+Utilizing a two-tailed t-test, the mean frequency of                reason.
+the EMG waveforms derived from the subjects’                           Therefore, in summary, the results of this study
+first and last trial, in 24 randomly selected channels,             support the notion that the CNS ‘fine tunes’ the
+were compared. The results of this analysis indicated               activation patterns of muscular segments within
+that no significant levels of muscle fatigue resulted               pectoralis major to maximize the muscle’s potential
+from the procedures employed.                                       to contribute efficiently to motions of the shoulder.
+   We also attempted to minimize the degree of
+electrode crosstalk inherent in the surface electromy-
+                                                                                       CONCLUSION
+ography procedure. A recent study has shown that
+the selectivity of surface electrodes may be enhanced                  As a result of this study it can now be concluded
+by minimizing the interelectrode distancelO. It was                 that functional differentiation does take place in
+for this reason that we developed microelectrodes                   pectoralis major as a consequence of the functional
+for this study. The small surface area and housing                  demands placed on the muscle. It can also be
+of these electrodes allowed the interelectrode dis-                 concluded that there were at least as many functional
+tance to be minimized to only 7 mm. In addition,                    segments in this muscle as there were EMG
+since the work of Fuglevand et al. (1992)‘O has                     waveform detection sites. We believe that segments
+shown that the greatest proportion (90%) of energy                  of pectoralis major can act with some degree of
+within surface electromyograms        is derived from               independence    to maximize the efficiency of the
+motor units lying within 10-12 mm of the electrode,                 muscle.
+our placement of the six surface electrode pairs at
+distances not less than 30 mm from one another
+                                                                      Acknowledgements: The authors wish to thank the
+would have further diminished the effects of elec-
+                                                                    subjects for their participation   in this project, Mrs
+trode crosstalk on our results.                                     Deborah Ryan for assistance in the laboratory and Mrs
+   The results of this investigation may have impli-                Desley Brown and Mr Timothy Brown for assistance in
+cations with respect to the recruitment order of                    the preparation of the manuscript.
+
+Journal   of Electromyography   & Kinesiology Vol. 4, No. 3, 1994
+                                           FUNCTIONAL               ~~FFE~ENT~AT~ON
+
+
+                      REFERENCES                                       13. Hoffer JA, Loeb GE, Sugano N, Marks WB, O’Donavan
+                                                                           MJ. Pratt CA: Cat hindlimb motoneurons during locomotion
+                                                                           II. Normal activity patterns. I Neurophysiol 57:530-553,
+1. Basmajian JV: Motor learning and control: a working                     1987(b).
+   hypothesis. Arch Phys Med & Rehabil58:38-41,         1977.          14. Hoffer JA, Loeb GE, Sugano N, Marks WB, O’Donavan
+2. Brown JMM, Solomon C, Paton ME: Further evidence of                     MJ, Pratt CA: Cat hindlimb motoneurons during locomotion
+   functional differentiation within biceps brachii. EIectromyogr          III. Functional segregation in sartorius. I Neurophysiol
+   Clin Neuroohvsiol 33:301-309. 1993.                                     57:554-573, 1987(c).
+3. Buxton DF, Peck D: Density’ of muscle spindle profiles in           15. Matthews PBC: Mammalian         muscle receptors and their
+   the intrinsic forelimb muscles of the dog. J Morphol                     central actions. Williams and Wilkins, Baltimore, 1972.
+   203:34>359,   1990.                                                  16. Pare EB, Stem JR, Schwartz JM: Functional differentiation
+4. Campbell KM,Biggs NL,Blanton PL, Lehr RP. Electromyo-                    within the tensor fasciae latae. J Bone & Joint Surg
+   graphic investigation of the relative activity among four                63a(9):1457-1471, 1981.
+   components of the triceps surae. Am J Phys Med 52:30-41,             17. Scheving LE. Pauly JE:     An electromyographic study of
+   1971.                                                                   some muscles acting on the upper extremity of man. Anat
+5. Carlyon R: W.A.S.P. Reference Manual, Department of                     Ret 135:239-246, 1959.
+   Anatomy, University of Queensland, 1987.                            18. Segal RL, Wolf SL, DeCamp MJ, Chopp MT, English
+6. Christensen H, Fuglsang-Frederiksen   A: Power spectrum                 AW: Anatomical partitioning of three multiarticular human
+   and turns analysis of EMG at different voluntary efforts                muscles. Actu Anat Base1 142(3):261-266, 1991.
+   in normal subjects.     Electroenceph  Clin Neurophysiol            19. Shevlin GM, Lehmann JF, Lucci JA: Electromyographic
+   64:528-535, 1986.                                                       study of the function of some muscles crossing the glenohu-
+7. Desmedt JE, Godaux     E: Spinal motoneurone recruitment                meral joint. Arch Phys Med & Rehabil50:264-270.           1969.
+   in man: rank deordering with direction but not with speed           20. Soderberg GL, Dostal WF: Electromyographic              study of
+   of voluntary movement. Science 214:93%936, 1981.                        three parts of the gluteus medius muscle during functional
+8. English AW, Weeks 01: Compartmentalization       of single              activities. Phys Therapy 58(6):691-696, 1978.
+   muscle units in cat lateral gastrocnemius. Exp Bruin Res            21. Ter Haar Romeny BM, Denier van der Gon JJ, Gielen
+   56(2):361-368, 1984.                                                    CCAM: Changes in recruitment order of motor units in the
+9. English AW, Weeks 01: Electromyographic cross-talk within               human biceps muscle. Exp Neural 78:36@368, 1982.
+   a compartmentalized muscle of the cat. J Physiol (Land)             22. Ter Haar Romeny BM, Denier van der Gon JJ, Gielen
+   416:327-336,   1989.                                                    CCAM: Relation between location of a motor unit in the
+10. Fuglevand AJ, Winter DA, Patla AE, Stashuk D: Detection                human biceps brachii and its critical firing levels for different
+    of motor unit action potentials with surface electrodes:               tasks. Exp Neural 85:631-650, 1984.
+    influence of electrode size and spacing. Biol Cybern               23. Thomas CT, Ross BH, Stein RB: Motor unit recruitment
+    67:143-153, 1992.                                                      in human first dorsal interosseous muscle for static contrac-
+11. Henneman E, Somjen G, Carpenter DO: Excitability                       tions in three different        directions.    / Neurophysiol
+    and inhibitability of motoneurons of different sizes. J                55(5):1017-1029, 1986.
+   Neurophysiol 28:599+20,    1965.                                    24. van Gorp PE, Kennedy WR: Localisation of muscle spindles
+12. Hoffer JA, Loeb GE, Marks WB, O’Donavan         MJ, Pratt              in the human extensor indicis muscle for biopsy purposes.
+   CA, Sugano N: Cat hindlimb motoneurons during locomotion                Anat Ret 179447-452,     1974.
+   I. Destination, axonal conduction velocity and recruitment          25. Weeks 01, English AW: Cat triceps surae motor nuclei are
+   threshold. J Neurophysiol 57:510-529, 1987(a).                          organized topologically. Exp Neural 96(1):16%177, 1987.
+
+
+
+
+                                                                               Journal   ofEkctromyography   & Kinesiology   Vol. 4, No. 3. 1994
+

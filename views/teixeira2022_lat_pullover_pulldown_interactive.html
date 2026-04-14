@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Teixeira et al. (2022) - Latissimus dorsi in pullover vs pulldown</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(250px,28vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(42dvh,calc(100dvh - 230px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:320px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(15rem,22dvh)}.stage{order:1;min-height:clamp(260px,46dvh,390px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Teixeira et al. (2022) - Latissimus dorsi in pullover vs pulldown</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle lines</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SERIES=[
+        {
+          name:'Pullover (LD)',
+          color:'#60a5fa',
+          points:[
+            {x:0,y:420,note:'Figure 3b reconstruction at 0°. Lowest of the mid-range positions.'},
+            {x:45,y:320,note:'Figure 3b reconstruction at 45°.'},
+            {x:90,y:245,note:'Figure 3b reconstruction at 90°.'},
+            {x:135,y:120,note:'Figure 3b reconstruction at 135°. Significantly lower than 0°, 45°, and 90° in the paper.'},
+            {x:180,y:95,note:'Figure 3b reconstruction at 180°. Also significantly lower than 0°, 45°, and 90° in the paper.'}
+          ]
+        },
+        {
+          name:'Pulldown (LD)',
+          color:'#22c55e',
+          points:[
+            {x:0,y:380,note:'Figure 3e reconstruction at 0°.'},
+            {x:45,y:300,note:'Figure 3e reconstruction at 45°.'},
+            {x:90,y:220,note:'Figure 3e reconstruction at 90°.'},
+            {x:135,y:95,note:'Figure 3e reconstruction at 135°. Significantly lower than 0°, 45°, and 90° in the paper.'},
+            {x:180,y:75,note:'Figure 3e reconstruction at 180°. Significantly lower than 0°, 45°, and 90° in the paper.'}
+          ]
+        }
+      ];
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const btnFit=document.getElementById('btnFit');
+      let visible={};
+      SERIES.forEach(s=>visible[s.name]=true);
+      let view={minX:-10,maxX:190,minY:0,maxY:500},drag=null;
+      subtitle.textContent='Figure 3 latissimus dorsi iEMG comparison across shoulder positions for pullover and pulldown.';
+      hint.textContent='This one is a figure-based reconstruction because the paper reports the latissimus results as Figure 3b and 3e, not as a numeric table. The shape and significance notes follow the published figure and text.';
+      overlay.textContent='Lines = reconstructed LD iEMG from Figure 3';
+      function activeSeries(){ return SERIES.filter(s=>visible[s.name]); }
+      function bounds(){ const pts=activeSeries().flatMap(s=>s.points); const xs=pts.map(p=>p.x), ys=pts.map(p=>p.y); return {minX:Math.min(...xs)-10,maxX:Math.max(...xs)+10,minY:0,maxY:Math.max(...ys)+70}; }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function sx(x,plot){ return plot.x + ((x-view.minX)/(view.maxX-view.minX))*plot.w; }
+      function sy(y,plot){ return plot.y + plot.h - ((y-view.minY)/(view.maxY-view.minY))*plot.h; }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:78,y:20,w:Math.max(140,w-108),h:Math.max(140,h-92)};
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        for(let y=0;y<=view.maxY+0.001;y+=100){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(`${y}`,plot.x-10,py); }
+        for(const x of [0,45,90,135,180]){ const px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText(`${x}°`,px,plot.y+plot.h+8); }
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText('Integrated EMG (μV)',0,0); ctx.restore();
+        ctx.textAlign='center'; ctx.textBaseline='top'; ctx.fillText('Shoulder joint position',plot.x+plot.w/2,plot.y+plot.h+34);
+        const markers=[];
+        activeSeries().forEach(s=>{
+          ctx.strokeStyle=s.color; ctx.lineWidth=3.5; ctx.beginPath();
+          s.points.forEach((p,i)=>{ const x=sx(p.x,plot), y=sy(p.y,plot); if(i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); });
+          ctx.stroke();
+          s.points.forEach(p=>{ const x=sx(p.x,plot), y=sy(p.y,plot); ctx.fillStyle=s.color; ctx.beginPath(); ctx.arc(x,y,5,0,Math.PI*2); ctx.fill(); markers.push({x,y,r:10,series:s.name,data:p,color:s.color}); });
+        });
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=`${activeSeries().length} lines shown`;
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        SERIES.forEach(s=>{
+          const row=document.createElement('div'); row.className='check'+(visible[s.name]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[s.name]?'checked':''} /><span class="swatch" style="background:${s.color}"></span><label>${s.name}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[s.name]=e.target.checked; fit(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[s.name]=box.checked; fit(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>Math.hypot(m.x-x,m.y-y)<=m.r);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.data.x}° shoulder position</div><div>Estimated iEMG: <strong>${hit.data.y}</strong> μV</div><div>${hit.data.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      renderLegend(); fit(); resize();
+    </script>
+  </body>
+</html>

@@ -16,7 +16,7 @@
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
       .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
       select,option,optgroup{background:#111827;color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(260px,28vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -163,6 +163,8 @@
       let mode='means',visible={ti:true,neu:true,to:true},drag=null,hover=null,view={minX:0,maxX:4,minY:0,maxY:1};
 
       Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
+      function applyMode(){ modeSel.value=mode; fit(); renderLegend(); resize(); }
 
       function currentConfig(){ return MODES[mode]; }
       function currentSeries(){ return currentConfig().series.filter(s=>visible[s.key]); }
@@ -338,7 +340,7 @@
         if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; }
       }
 
-      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
       btnFit.addEventListener('click',fit);
       btnReset.addEventListener('click',()=>{ visible={ti:true,neu:true,to:true}; fit(); renderLegend(); });
       btnShowAll.addEventListener('click',()=>{ visible={ti:true,neu:true,to:true}; fit(); renderLegend(); });
@@ -373,7 +375,7 @@
       });
       stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
       stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
-      window.addEventListener('resize',resize);
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
 
       fit();
       renderLegend();
@@ -381,3 +383,9 @@
     </script>
   </body>
 </html>
+
+
+
+
+
+

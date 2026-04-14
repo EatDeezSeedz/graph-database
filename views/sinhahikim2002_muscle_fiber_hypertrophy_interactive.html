@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sinha-Hikim et al. (2002) - muscle fiber hypertrophy</title>
+    <style>
+      :root{
+        --bg:#07101c;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#a0b4cd;
+        --amber:#f59e0b;
+        --blue:#60a5fa;
+        --cyan:#22d3ee;
+        --green:#34d399;
+        --rose:#fb7185;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(820px 520px at 10% 0%, rgba(245,158,11,.16), transparent 52%),
+          radial-gradient(920px 620px at 100% 0%, rgba(34,211,238,.12), transparent 50%),
+          linear-gradient(180deg,#060f1a,#0a1321 54%,#09111d);
+      }
+      .wrap{max-width:1280px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--amber);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 10px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 8px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:920px){.meta,.grid{grid-template-columns:1fr}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">AAS</div>
+        <h1>Sinha-Hikim et al. (2002) muscle fiber hypertrophy</h1>
+        <p class="lede">This mechanistic follow-up to the testosterone dose-response work shows where the size gains came from: higher testosterone exposure increased quadriceps and vastus lateralis volume, enlarged both type I and type II fibers, and increased myonuclear number, especially at 300 and 600 mg/week.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Protocol</div><div class="v">20 weeks</div></div>
+          <div class="pill"><div class="k">Dose range</div><div class="v">25 to 600 mg/week</div></div>
+          <div class="pill"><div class="k">Biopsy site</div><div class="v">Vastus lateralis</div></div>
+          <div class="pill"><div class="k">Main takeaway</div><div class="v">Muscle-size gain reflected fiber hypertrophy</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Serum Testosterone</h2>
+          <p class="sub">Week 16 nadir total testosterone concentration, measured one week after the prior injection.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--amber)"></i>Nadir total testosterone (ng/dL)</span>
+          </div>
+          <svg id="testosteroneChart" viewBox="0 0 620 320" aria-label="Serum testosterone"></svg>
+        </article>
+
+        <article class="card">
+          <h2>MRI Muscle Volume</h2>
+          <p class="sub">Quadriceps and vastus lateralis volume changes from baseline at week 20 both rose dose-dependently.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Quadriceps volume change (mL)</span>
+            <span><i class="sw" style="background:var(--cyan)"></i>Vastus lateralis volume change (mL)</span>
+          </div>
+          <svg id="volumeChart" viewBox="0 0 620 320" aria-label="MRI muscle volume changes"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Fiber Cross-Sectional Area</h2>
+          <p class="sub">Type I and type II fiber area both increased with higher doses, with the largest mean gains at 600 mg/week.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--green)"></i>Type I fiber CSA change (um2)</span>
+            <span><i class="sw" style="background:var(--rose)"></i>Type II fiber CSA change (um2)</span>
+          </div>
+          <svg id="fiberChart" viewBox="0 0 620 320" aria-label="Fiber CSA changes"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Myonuclear Accretion</h2>
+          <p class="sub">Myonuclear number per fiber rose most clearly at the higher doses, matching the hypertrophy pattern.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--green)"></i>Type I myonuclei per fiber</span>
+            <span><i class="sw" style="background:var(--rose)"></i>Type II myonuclei per fiber</span>
+          </div>
+          <svg id="myonucleiChart" viewBox="0 0 620 320" aria-label="Myonuclear changes"></svg>
+        </article>
+      </section>
+
+      <p class="foot">Data source: Sinha-Hikim et al., <em>Am J Physiol Endocrinol Metab</em> 2002;283:E154-E164. Plotted from Tables 2-3 plus the exact myonuclear values stated in the Results section for the 300 and 600 mg groups. Lower-dose myonuclear entries are shown as no reported material rise because the paper did not report significant within-group increases there.</p>
+    </div>
+
+    <script>
+      const doses = ['25','50','125','300','600'];
+      const serumT = [234,289,695,1344,2435];
+      const volumeSeries = [
+        { label: 'Quadriceps', color: '#60a5fa', values: [-10,10,24,49,75] },
+        { label: 'Vastus lateralis', color: '#22d3ee', values: [-4,7,15,32,48] }
+      ];
+      const fiberSeries = [
+        { label: 'Type I', color: '#34d399', values: [328,634,189,1025,1637] },
+        { label: 'Type II', color: '#fb7185', values: [16,853,304,720,1466] }
+      ];
+      const myonucleiSeries = [
+        { label: 'Type I', color: '#34d399', values: [0,0,0,0.7,0.8] },
+        { label: 'Type II', color: '#fb7185', values: [0,0,0,0.4,1.3] }
+      ];
+
+      function lineChart(svgId, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 54, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const values = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...values);
+        const max = opts.max ?? Math.max(...values);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const x = i => m.l + (i * w / (doses.length - 1));
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        const ticks = opts.ticks || 5;
+        let html = '';
+        for (let i = 0; i <= ticks; i++) {
+          const v = yMin + i * (yMax - yMin) / ticks;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#a0b4cd">${formatTick(v, opts.decimals)}</text>`;
+        }
+        if (yMin < 0 && yMax > 0) html += `<line x1="${m.l}" y1="${y(0)}" x2="${W-m.r}" y2="${y(0)}" stroke="rgba(255,255,255,.2)" />`;
+        doses.forEach((d,i) => {
+          const px = x(i);
+          html += `<line x1="${px}" y1="${m.t}" x2="${px}" y2="${H-m.b}" stroke="rgba(255,255,255,.04)" />`;
+          html += `<text x="${px}" y="${H-24}" text-anchor="middle" font-size="11" fill="#a0b4cd">${d}</text>`;
+        });
+        html += `<text x="${W/2}" y="${H-6}" text-anchor="middle" font-size="12" fill="#a0b4cd">Testosterone enanthate dose (mg/week)</text>`;
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#a0b4cd">${opts.yLabel}</text>`;
+        series.forEach(s => {
+          const pts = s.values.map((v,i) => `${x(i)},${y(v)}`).join(' ');
+          html += `<polyline fill="none" stroke="${s.color}" stroke-width="3" points="${pts}" />`;
+          s.values.forEach((v,i) => {
+            const px = x(i), py = y(v);
+            html += `<circle cx="${px}" cy="${py}" r="4.5" fill="${s.color}" />`;
+            html += `<text x="${px}" y="${py-10}" text-anchor="middle" font-size="11" fill="${s.color}">${formatPoint(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+
+      function formatTick(v, decimals) {
+        const d = decimals ?? (Math.abs(v) < 10 ? 1 : 0);
+        return Number(v).toFixed(d).replace(/\.0$/, '');
+      }
+      function formatPoint(v, decimals) {
+        const d = decimals ?? (Math.abs(v) < 10 ? 1 : 0);
+        return Number(v).toFixed(d).replace(/\.0$/, '');
+      }
+
+      lineChart('testosteroneChart', [
+        { label: 'Total testosterone', color: '#f59e0b', values: serumT }
+      ], { min: 0, yLabel: 'Total testosterone (ng/dL)', decimals: 0, ticks: 5 });
+
+      lineChart('volumeChart', volumeSeries, {
+        yLabel: 'Change from baseline (mL)',
+        zero: true,
+        decimals: 0,
+        ticks: 5
+      });
+
+      lineChart('fiberChart', fiberSeries, {
+        yLabel: 'Change from baseline (um2)',
+        zero: true,
+        decimals: 0,
+        ticks: 5
+      });
+
+      lineChart('myonucleiChart', myonucleiSeries, {
+        yLabel: 'Change from baseline (per fiber)',
+        zero: true,
+        decimals: 1,
+        ticks: 5
+      });
+    </script>
+  </body>
+</html>

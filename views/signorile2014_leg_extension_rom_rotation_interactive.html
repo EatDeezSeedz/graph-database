@@ -16,7 +16,7 @@
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
       .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
       select,option,optgroup{background:#111827;color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(260px,28vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -209,6 +209,8 @@
       const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
       let mode='vlRom',visible={ti:true,neu:true,to:true,init:true,mid:true,final:true,rf:true,rfline:true},drag=null,view={minX:0,maxX:4,minY:0,maxY:1};
       Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
+      function applyMode(){ modeSel.value=mode; fit(); renderLegend(); resize(); }
       const cfg=()=>MODES[mode];
       const currentSeries=()=>cfg().series.filter(s=>visible[s.key]);
       function bounds(){
@@ -269,7 +271,7 @@
         tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
       }
       function clampView(){ const b=bounds(), spanX=view.maxX-view.minX; if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; } if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; } if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; } }
-      modeSel.addEventListener('change',e=>{ mode=e.target.value; fit(); renderLegend(); resize(); });
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
       btnFit.addEventListener('click',fit);
       btnReset.addEventListener('click',()=>{ visible={ti:true,neu:true,to:true,init:true,mid:true,final:true,rf:true,rfline:true}; fit(); renderLegend(); });
       btnShowAll.addEventListener('click',()=>{ for(const c of Object.values(MODES)) for(const s of c.series) visible[s.key]=true; fit(); renderLegend(); });
@@ -279,8 +281,14 @@
       stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
       stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
       stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
-      window.addEventListener('resize',resize);
-      fit(); renderLegend(); resize();
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
     </script>
   </body>
 </html>
+
+
+
+
+
+

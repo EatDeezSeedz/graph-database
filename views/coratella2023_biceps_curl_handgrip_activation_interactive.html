@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coratella 2023 biceps curl handgrip activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)} select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(260px,28vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer;transition:background 120ms ease,border-color 120ms ease,box-shadow 120ms ease}
+      .check:hover{background:rgba(255,255,255,.05)}.check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09);box-shadow:0 0 0 1px rgba(255,255,255,.05) inset}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)} .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(44dvh,calc(100dvh - 230px));min-height:290px;touch-action:none;cursor:grab}
+      .stage.is-dragging{cursor:grabbing} canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px);max-width:min(340px,44vw)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:280px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh);padding-bottom:8px}.check{margin:6px 4px;padding:7px 8px}.stage{order:1;min-height:clamp(260px,46dvh,380px);flex:0 0 auto}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Coratella et al. (2023) - Biceps curl handgrip synergy</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <button id="btnReset" class="btn">Reset</button>
+          <button id="btnShowAll" class="btn">Show all</button>
+          <button id="btnHideAll" class="btn">Hide all</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle muscles</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const COLORS={bic:'#60a5fa',brd:'#22c55e',ad:'#f59e0b'};
+      const MODES={
+        ascending:{
+          label:'Ascending phase',
+          subtitle:'Figure-based reconstruction of normalized RMS during the ascending phase of the biceps curl with different handgrips.',
+          hint:'This is the main indirect-evidence view. Supination increased biceps brachii and brachioradialis excitation, while pronated and neutral grips increased anterior-deltoid contribution for shoulder stabilization.',
+          overlay:'Figure reconstruction from Sports 2023, 11, 64',
+          yLabel:'Normalized RMS (%)',
+          labels:['Supinated','Pronated','Neutral'],
+          series:[
+            {name:'Biceps brachii',color:COLORS.bic,notes:'Supinated > neutral > pronated during the ascending phase.',points:[{x:1,y:70},{x:2,y:54},{x:3,y:61}]},
+            {name:'Brachioradialis',color:COLORS.brd,notes:'Supinated was slightly higher than pronated and neutral.',points:[{x:1,y:70},{x:2,y:66},{x:3,y:64}]},
+            {name:'Anterior deltoid',color:COLORS.ad,notes:'Pronated and neutral grips needed more anterior-deltoid stabilization than supination.',points:[{x:1,y:16},{x:2,y:23},{x:3,y:25}]}
+          ]
+        },
+        descending:{
+          label:'Descending phase',
+          subtitle:'Figure-based reconstruction of normalized RMS during the descending phase. Grip effects were much smaller here.',
+          hint:'The paper reported no meaningful biceps-brachioradialis grip differences in the descending phase. The clearest grip effect was the higher anterior-deltoid activity in pronation compared with supination.',
+          overlay:'Figure reconstruction from Sports 2023, 11, 64',
+          yLabel:'Normalized RMS (%)',
+          labels:['Supinated','Pronated','Neutral'],
+          series:[
+            {name:'Biceps brachii',color:COLORS.bic,notes:'No significant handgrip differences during the descending phase.',points:[{x:1,y:21},{x:2,y:19},{x:3,y:23}]},
+            {name:'Brachioradialis',color:COLORS.brd,notes:'No significant handgrip differences during the descending phase.',points:[{x:1,y:41},{x:2,y:34},{x:3,y:34}]},
+            {name:'Anterior deltoid',color:COLORS.ad,notes:'Pronated showed higher anterior-deltoid activation than supinated in the descending phase.',points:[{x:1,y:7},{x:2,y:12},{x:3,y:9}]}
+          ]
+        }
+      };
+
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
+      let mode='ascending',visible={},drag=null,view={minX:0,maxX:0,minY:0,maxY:0};
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);}); modeSel.value=mode;
+      function applyMode(){ modeSel.value=mode; fit(); renderLegend(); resize(); }
+      function initVisible(){ MODES[mode].series.forEach(series=>{ if(!(series.name in visible)) visible[series.name]=true; }); }
+      function currentSeries(){ return MODES[mode].series.filter(series=>visible[series.name]); }
+      function bounds(){ const vals=currentSeries().flatMap(series=>series.points.map(point=>point.y)); return {minX:0.4,maxX:3.6,minY:0,maxY:Math.max(...vals,30)*1.18}; }
+      function fit(){ view={...bounds()}; draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function sx(x,plot){ return plot.x+((x-view.minX)/(view.maxX-view.minX))*plot.w; }
+      function sy(y,plot){ return plot.y+plot.h-((y-view.minY)/(view.maxY-view.minY))*plot.h; }
+      function niceTicks(min,max,target=5){ const span=max-min||1, rough=span/target, pow=Math.pow(10,Math.floor(Math.log10(Math.abs(rough)||1))), norm=rough/pow, step=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow, out=[]; for(let y=Math.floor(min/step)*step;y<=max+step*0.5;y+=step) out.push(Number(y.toFixed(4))); return out; }
+      function drawAxes(plot){
+        ctx.strokeStyle='rgba(255,255,255,0.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,0.82)'; ctx.font='12px system-ui'; ctx.textAlign='left';
+        for(const y of niceTicks(view.minY,view.maxY,5)){ const py=sy(y,plot); ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.fillText(y.toFixed(0),16,py+4); }
+        ctx.textAlign='center';
+        MODES[mode].labels.forEach((label,idx)=>{ const x=idx+1, px=sx(x,plot); ctx.beginPath(); ctx.moveTo(px,plot.y); ctx.lineTo(px,plot.y+plot.h); ctx.stroke(); ctx.fillText(label,px,plot.y+plot.h+28); });
+        ctx.fillText('Handgrip',plot.x+plot.w/2,plot.y+plot.h+54);
+        ctx.save(); ctx.translate(20,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.fillText(MODES[mode].yLabel,0,0); ctx.restore();
+      }
+      function draw(){
+        initVisible();
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; ctx.clearRect(0,0,w,h);
+        const plot={x:82,y:20,w:Math.max(120,w-112),h:Math.max(110,h-106)}; drawAxes(plot);
+        const markers=[]; const series=currentSeries(), gap=8, barW=22;
+        MODES[mode].labels.forEach((label,idx)=>{
+          const cx=sx(idx+1,plot), totalW=(barW*series.length)+gap*Math.max(0,series.length-1);
+          series.forEach((s,seriesIdx)=>{
+            const point=s.points.find(p=>p.x===idx+1); if(!point) return;
+            const x=cx-totalW/2+seriesIdx*(barW+gap), y=sy(point.y,plot), hBar=plot.y+plot.h-y;
+            ctx.fillStyle=s.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,barW,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.22)'; ctx.lineWidth=1.2; ctx.strokeRect(x,y,barW,hBar);
+            markers.push({bar:{x,y,w:barW,h:hBar},series:s,point,grip:label});
+          });
+        });
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        stage._markers=markers; stage._plot=plot; status.textContent=`${series.length} muscles visible`;
+      }
+      function renderLegend(){
+        legend.innerHTML=''; const cfg=MODES[mode]; subtitle.textContent=cfg.subtitle; hint.textContent=cfg.hint; overlay.textContent=cfg.overlay;
+        cfg.series.forEach(series=>{ const row=document.createElement('div'); row.className='check'+(visible[series.name]?' active':''); row.innerHTML=`<input type="checkbox" ${visible[series.name]?'checked':''} /><span class="swatch" style="background:${series.color}"></span><label>${series.name}</label>`; const box=row.querySelector('input'); box.addEventListener('change',e=>{ visible[series.name]=e.target.checked; fit(); renderLegend(); }); row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[series.name]=box.checked; fit(); renderLegend(); }}); legend.appendChild(row); });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(), x=ev.clientX-rect.left, y=ev.clientY-rect.top;
+        const hit=(stage._markers||[]).find(m=>x>=m.bar.x&&x<=m.bar.x+m.bar.w&&y>=m.bar.y&&y<=m.bar.y+m.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.series.name}</strong></div><div class="muted">${MODES[mode].label} - ${hit.grip}</div><div>Normalized RMS: <strong>${hit.point.y.toFixed(0)}%</strong></div><div>${hit.series.notes}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||240, tipH=tooltip.offsetHeight||90, left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14)), top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      function clampView(){ const b=bounds(), spanX=view.maxX-view.minX; if(spanX>(b.maxX-b.minX)){ view.minX=b.minX; view.maxX=b.maxX; return; } if(view.minX<b.minX){ view.maxX+=b.minX-view.minX; view.minX=b.minX; } if(view.maxX>b.maxX){ view.minX-=view.maxX-b.maxX; view.maxX=b.maxX; } }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      btnReset.addEventListener('click',()=>{ visible={}; fit(); renderLegend(); });
+      btnShowAll.addEventListener('click',()=>{ MODES[mode].series.forEach(s=>visible[s.name]=true); fit(); renderLegend(); });
+      btnHideAll.addEventListener('click',()=>{ MODES[mode].series.forEach(s=>visible[s.name]=false); fit(); renderLegend(); });
+      stage.addEventListener('wheel',e=>{ e.preventDefault(); const plot=stage._plot||{x:82,w:Math.max(120,stage.clientWidth-112)}; const xRatio=Math.min(1,Math.max(0,(e.offsetX-plot.x)/Math.max(1,plot.w))); const factor=e.deltaY>0?1.12:0.88; const span=view.maxX-view.minX; const b=bounds(); const newSpan=Math.max(1.4,Math.min(b.maxX-b.minX,span*factor)); const focus=view.minX+span*xRatio; view.minX=focus-newSpan*xRatio; view.maxX=view.minX+newSpan; clampView(); draw(); },{passive:false});
+      stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,minX:view.minX,maxX:view.maxX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
+      stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const plot=stage._plot||{w:stage.clientWidth}; const span=drag.maxX-drag.minX, pxPerUnit=(plot.w||stage.clientWidth)/Math.max(0.001,span), dx=(e.clientX-drag.x)/pxPerUnit; view.minX=drag.minX-dx; view.maxX=drag.maxX-dx; clampView(); draw(); updateTooltip(e); });
+      stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>
+
+
+

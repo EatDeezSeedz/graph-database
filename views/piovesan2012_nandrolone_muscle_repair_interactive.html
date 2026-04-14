@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Piovesan et al. (2012) - nandrolone and muscle repair</title>
+    <style>
+      :root{
+        --bg:#07101b;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#9fb3cb;
+        --amber:#f59e0b;
+        --green:#34d399;
+        --blue:#60a5fa;
+        --rose:#fb7185;
+        --slate:#64748b;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(860px 540px at 10% 0%, rgba(245,158,11,.15), transparent 52%),
+          radial-gradient(980px 620px at 100% 0%, rgba(52,211,153,.10), transparent 50%),
+          linear-gradient(180deg,#06101a,#091320 54%,#08111b);
+      }
+      .wrap{max-width:1260px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--amber);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:1.2fr .95fr;gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 12px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 10px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      .timeline{
+        display:grid;
+        grid-template-columns:1.8fr repeat(4,minmax(84px,1fr));
+        gap:8px;
+      }
+      .cell{
+        border:1px solid var(--border);
+        border-radius:16px;
+        padding:12px 10px;
+        min-height:72px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        background:rgba(255,255,255,.03);
+      }
+      .head{font-size:12px;font-weight:750;background:rgba(255,255,255,.05)}
+      .rowhead{justify-content:flex-start;text-align:left;font-size:13px;font-weight:650}
+      .state{font-size:12px;line-height:1.35;font-weight:700}
+      .peak{background:rgba(52,211,153,.16); color:#bbf7d0}
+      .repair{background:rgba(96,165,250,.16); color:#bfdbfe}
+      .injury{background:rgba(251,113,133,.16); color:#fecdd3}
+      .same{background:rgba(100,116,139,.18); color:#cbd5e1}
+      .notes{display:grid;gap:10px}
+      .note{border:1px solid var(--border);border-radius:16px;padding:12px;background:rgba(255,255,255,.03)}
+      .note .t{font-size:12px;font-weight:750}
+      .note .b{margin-top:5px;font-size:12px;line-height:1.5;color:var(--muted)}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:980px){
+        .meta,.grid{grid-template-columns:1fr}
+        .timeline{grid-template-columns:1.45fr repeat(4,minmax(70px,1fr))}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">AAS</div>
+        <h1>Piovesan et al. (2012) nandrolone and muscle repair</h1>
+        <p class="lede">This paper follows cryoinjured rat tibialis anterior muscle across the repair timeline. Rather than a pure hypertrophy study, it suggests nandrolone decanoate shifted regeneration forward by increasing MyoD and myogenin expression at key stages and by reducing edema, myonecrosis, and inflammatory delay.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Model</div><div class="v">Rat TA cryoinjury</div></div>
+          <div class="pill"><div class="k">Drug</div><div class="v">Nandrolone decanoate</div></div>
+          <div class="pill"><div class="k">Dose</div><div class="v">5 mg/kg twice weekly</div></div>
+          <div class="pill"><div class="k">Main takeaway</div><div class="v">Nandrolone accelerated repair signaling</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Repair Timeline Summary</h2>
+          <p class="sub">This page is a reported-timecourse summary. The extracted text clearly states which timepoints changed significantly, but it does not expose clean numeric values for the plotted PCR curves.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:#fb7185"></i>Injury / degeneration dominant</span>
+            <span><i class="sw" style="background:#34d399"></i>Significant ND-associated molecular rise</span>
+            <span><i class="sw" style="background:#60a5fa"></i>Repair advantage / cleaner histology</span>
+            <span><i class="sw" style="background:#64748b"></i>No standout ND-specific shift reported</span>
+          </div>
+          <div class="timeline">
+            <div class="cell head"></div>
+            <div class="cell head">Day 1</div>
+            <div class="cell head">Day 7</div>
+            <div class="cell head">Day 14</div>
+            <div class="cell head">Day 21</div>
+
+            <div class="cell rowhead">MyoD mRNA in cryoinjured ND muscle</div>
+            <div class="cell same"><div class="state">No standout difference</div></div>
+            <div class="cell peak"><div class="state">Significant rise<br>vs other groups</div></div>
+            <div class="cell same"><div class="state">Back toward baseline pattern</div></div>
+            <div class="cell same"><div class="state">No standout difference</div></div>
+
+            <div class="cell rowhead">Myogenin mRNA in cryoinjured ND muscle</div>
+            <div class="cell same"><div class="state">No standout difference</div></div>
+            <div class="cell same"><div class="state">No standout difference</div></div>
+            <div class="cell same"><div class="state">No standout difference</div></div>
+            <div class="cell peak"><div class="state">Significant rise<br>vs other groups</div></div>
+
+            <div class="cell rowhead">Histology: edema / myonecrosis</div>
+            <div class="cell injury"><div class="state">Marked edema and myonecrosis</div></div>
+            <div class="cell repair"><div class="state">No edema or myonecrosis in ND cryoinjury group</div></div>
+            <div class="cell repair"><div class="state">No edema; no inflammatory infiltrate in ND group</div></div>
+            <div class="cell repair"><div class="state">Complete repair pattern</div></div>
+
+            <div class="cell rowhead">Histology: immature / regenerating fibers</div>
+            <div class="cell same"><div class="state">Damage phase</div></div>
+            <div class="cell repair"><div class="state">Regenerating fibers present, cleaner environment</div></div>
+            <div class="cell repair"><div class="state">Mild immature-fiber burden in ND group</div></div>
+            <div class="cell same"><div class="state">Rare central nuclei remain</div></div>
+          </div>
+        </article>
+
+        <aside class="card">
+          <h2>Study Notes</h2>
+          <p class="sub">This is useful in the AAS folder as a repair/regeneration paper rather than a mass-only paper.</p>
+          <div class="notes">
+            <div class="note">
+              <div class="t">Early-phase signal</div>
+              <div class="b">MyoD was significantly higher in the cryoinjured nandrolone group at day 7, which fits an accelerated activation and proliferation phase during repair.</div>
+            </div>
+            <div class="note">
+              <div class="t">Late-phase signal</div>
+              <div class="b">Myogenin was significantly higher at day 21 in the cryoinjured nandrolone group, supporting later differentiation and maturation of regenerating fibers.</div>
+            </div>
+            <div class="note">
+              <div class="t">Morphology</div>
+              <div class="b">The authors report cleaner histology with nandrolone: no edema or myonecrosis at day 7, and no edema or inflammatory infiltrate at day 14 in the cryoinjured treated group.</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <p class="foot">Data source: Piovesan et al., <em>Int J Sports Med</em> 2013;34:87-92. This page intentionally summarizes reported significant timepoints and repair-stage observations because the extracted text does not provide clean numeric values for the PCR curve heights.</p>
+    </div>
+  </body>
+</html>

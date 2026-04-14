@@ -1,0 +1,692 @@
+Am J Physiol Endocrinol Metab
+281: E1172–E1181, 2001.
+
+
+
+Testosterone dose-response relationships
+in healthy young men
+
+            SHALENDER BHASIN,1 LINDA WOODHOUSE,1 RICHARD CASABURI,3 ATAM B. SINGH,1
+            DIMPLE BHASIN,3 NANCY BERMAN,3 XIANGHONG CHEN,4 KEVIN E. YARASHESKI,4
+            LYNNE MAGLIANO,2 CONNIE DZEKOV,1 JEANNE DZEKOV,1 RACHELLE BROSS,3
+            JEFFREY PHILLIPS,3 INDRANI SINHA-HIKIM,1 RUOQUING SHEN,1
+            AND THOMAS W. STORER2
+            1
+              Division of Endocrinology, Metabolism, and Molecular Medicine, Charles R. Drew University
+            of Medicine and Science, Los Angeles 90059; 2Laboratory for Exercise Sciences, El Camino
+            College, and 3Harbor-University of California Los Angeles Medical Center,
+            Torrance, California 90502; and 4Biomedical Mass Spectrometric Research Resource, Department
+            of Internal Medicine, Washington University, School of Medicine, St. Louis, Missouri 63110
+            Received 13 March 2001; accepted in final form 27 July 2001
+
+
+   Bhasin, Shalender, Linda Woodhouse, Richard                           dose. We conclude that changes in circulating testosterone
+Casaburi, Atam B. Singh, Dimple Bhasin, Nancy Ber-                       concentrations, induced by GnRH agonist and testosterone
+man, Xianghong Chen, Kevin E. Yarasheski, Lynne                          administration, are associated with testosterone dose- and
+Magliano, Connie Dzekov, Jeanne Dzekov, Rachelle                         concentration-dependent changes in fat-free mass, muscle
+Bross, Jeffrey Phillips, Indrani Sinha-Hikim, Ruoqu-                     size, strength and power, fat mass, hemoglobin, HDL choles-
+ing Shen, and Thomas W. Storer. Testosterone dose-re-                    terol, and IGF-I levels, in conformity with a single linear
+sponse relationships in healthy young men. Am J Physiol                  dose-response relationship. However, different androgen-de-
+Endocrinol Metab 281: E1172–E1181, 2001.—Testosterone                    pendent processes have different testosterone dose-response
+increases muscle mass and strength and regulates other                   relationships.
+physiological processes, but we do not know whether testos-
+                                                                         sexual function; testosterone effects on muscle; cognitive
+terone effects are dose dependent and whether dose require-
+                                                                         function; plasma lipids; prostate-specific antigen; testoster-
+ments for maintaining various androgen-dependent pro-
+                                                                         one effects on insulin-like growth factor I; testosterone and
+cesses are similar. To determine the effects of graded doses of
+                                                                         hemoglobin
+testosterone on body composition, muscle size, strength,
+power, sexual and cognitive functions, prostate-specific anti-
+gen (PSA), plasma lipids, hemoglobin, and insulin-like
+growth factor I (IGF-I) levels, 61 eugonadal men, 18–35 yr,              TESTOSTERONE regulates many physiological processes,
+were randomized to one of five groups to receive monthly                 including muscle protein metabolism, some aspects of
+injections of a long-acting gonadotropin-releasing hormone               sexual and cognitive functions, secondary sex charac-
+(GnRH) agonist, to suppress endogenous testosterone secre-               teristics, erythropoiesis, plasma lipids, and bone me-
+tion, and weekly injections of 25, 50, 125, 300, or 600 mg of            tabolism (7, 50). However, testosterone dose depen-
+testosterone enanthate for 20 wk. Energy and protein in-                 dency of various androgen-dependent processes is not
+takes were standardized. The administration of the GnRH                  well understood (6). Administration of replacement
+agonist plus graded doses of testosterone resulted in mean               doses of testosterone to hypogonadal men (10, 12, 30,
+nadir testosterone concentrations of 253, 306, 542, 1,345, and
+                                                                         45, 49) and of supraphysiological doses to eugonadal
+2,370 ng/dl at the 25-, 50-, 125-, 300-, and 600-mg doses,
+respectively. Fat-free mass increased dose dependently in                men (9, 22–23, 26) increases fat-free mass, muscle size,
+men receiving 125, 300, or 600 mg of testosterone weekly                 and strength. Conversely, suppression of endogenous
+(change ⫹3.4, 5.2, and 7.9 kg, respectively). The changes in             testosterone concentrations is associated with loss of
+fat-free mass were highly dependent on testosterone dose                 fat-free mass and a decrease in fractional muscle pro-
+(P ⫽ 0.0001) and correlated with log testosterone concentra-             tein synthesis (33). However, not known are whether
+tions (r ⫽ 0.73, P ⫽ 0.0001). Changes in leg press strength,             testosterone effects on the muscle are dose dependent,
+leg power, thigh and quadriceps muscle volumes, hemoglo-                 or the nature of the testosterone dose-response rela-
+bin, and IGF-I were positively correlated with testosterone              tionships (6). Androgen receptors in most tissues are
+concentrations, whereas changes in fat mass and plasma                   either saturated or downregulated at physiological tes-
+high-density lipoprotein (HDL) cholesterol were negatively
+                                                                         tosterone concentrations (2, 18, 39, 50); this leads to
+correlated. Sexual function, visual-spatial cognition and
+mood, and PSA levels did not change significantly at any
+                                                                         speculation that there might be two separate dose-
+                                                                         response curves: one in hypogonadal range, with
+
+  Address for reprint requests and other correspondence: S. Bhasin,
+Professor of Medicine, UCLA School of Medicine, and Chief, Division        The costs of publication of this article were defrayed in part by the
+of Endocrinology, Metabolism, and Molecular Medicine, Charles R.         payment of page charges. The article must therefore be hereby
+Drew Univ. of Medicine and Science, 1731 E. 120th St., Los Angeles,      marked ‘‘advertisement’’ in accordance with 18 U.S.C. Section 1734
+CA 90059 (E-mail: SBHASIN@UCLA.EDU).                                     solely to indicate this fact.
+
+E1172                            0193-1849/01 $5.00 Copyright © 2001 the American Physiological Society                 http://www.ajpendo.org
+
+
+
+           Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                        TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS                                                 E1173
+
+maximal response at low normal testosterone concen-                     preceding year, and they were not planning to participate in
+trations, and a second in supraphysiological range,                     competitive events in the following year.
+representing a separate mechanism of action (1). How-                      Randomization. Sixty-one eligible men were randomly as-
+                                                                        signed to one of five groups. All received monthly injections of
+ever, testosterone dose-response relationships for a
+                                                                        a long-acting GnRH agonist to suppress endogenous testos-
+range of androgen-dependent functions in humans                         terone production. In addition, group 1 received 25 mg of
+have not been studied.                                                  testosterone enanthate intramuscularly weekly; group 2, 50
+   Animal studies suggest that different androgen-de-                   mg testosterone enanthate; group 3, 125 mg testosterone
+pendent processes have different androgen dose-re-                      enanthate; group 4, 300 mg testosterone enanthate; and
+sponse relationships (6, 8, 21). Sexual function in male                group 5, 600 mg testosterone enanthate. Twelve men were
+mammals is maintained at serum testosterone concen-                     assigned to group 1, 12 to group 2, 12 to group 3, 12 to group
+trations that are at the lower end of the male range (3,                4, and 13 to group 5. Testosterone and GnRH agonist injec-
+6, 8, 13, 21, 31). However, it is not known whether the                 tions were administered by the General Clinical Research
+                                                                        Center staff to assure compliance.
+low normal testosterone levels that normalize sexual                       Nutritional intake. Energy and protein intakes were stan-
+function are sufficient to maintain muscle mass and                     dardized at 36 kcal 䡠 kg⫺1 䡠 day⫺1 and 1.2 g 䡠 kg⫺1 䡠 day⫺1, re-
+strength, or whether the higher testosterone concen-                    spectively. The standardized diet was initiated 2 wk before
+trations required to maintain muscle mass and                           treatment was started; dietary instructions were reinforced
+strength might adversely affect plasma lipids, hemo-                    every 4 wk. The nutritional intake was verified by analysis of
+globin levels, and the prostate. This information is                    3-day food records and 24-h food recalls every 4 wk by use of
+important for optimizing testosterone replacement reg-                  the Minnesota Nutritional Software.
+imens for treatment of hypogonadal men. Also, for the                      Exercise stimulus. The participants were asked not to
+proposed use of testosterone in sarcopenia associated                   undertake strength training or moderate-to-heavy endur-
+                                                                        ance exercise during the study. These instructions were re-
+with aging (46, 47) and chronic illness (11, 27), it is                 inforced every 4 wk.
+important to know whether significant gains in muscle                      Outcome measures. Body composition and muscle perfor-
+mass and strength can be achieved at testosterone                       mance were assessed at baseline and during week 20. Fat-
+doses that do not adversely affect plasma high-density                  free mass and fat mass were measured by underwater weigh-
+lipoprotein (HDL) and prostate-specific antigen (PSA)                   ing and dual-energy X-ray absorptiometry (DEXA, Hologic
+levels.                                                                 4500, Waltham, MA). Total thigh muscle and quadriceps
+   Therefore, the primary objective of this study was to                muscle volumes were measured by MRI scanning.
+determine the dose dependency of testosterone’s effects                    For estimation of total body water, the men ingested 10 g
+                                                                        of 2H2O (10, 11), and plasma samples were drawn at ⫺15, 0,
+on fat-free mass and muscle performance. We hypoth-
+                                                                        120, 180, and 240 min. We measured 2H abundance in
+esized that changes in circulating testosterone concen-                 plasma by nuclear magnetic resonance spectroscopy (10, 11),
+trations would be associated with dose-dependent                        with a correction factor of 0.985 for exchangeable hydrogen.
+changes in fat-free mass, muscle strength, and power                    We measured bilateral leg press strength by use of the
+in conformity with a single linear dose-response rela-                  one-repetition maximum (1-RM) method (11). A seated leg
+tionship, and that the dose requirements for maintain-                  press exercise with pneumatic resistance (Keiser Sport,
+ing other androgen-dependent processes would be dif-                    Fresno, CA) was used for this purpose. Subjects performed
+ferent. We treated young men with a long-acting                         5–10 min of leg cycling and stretching warm-up and received
+gonadotropin-releasing hormone (GnRH) agonist to                        instruction and practice in lifting mechanics before perform-
+                                                                        ing progressive warm-up lifts leading to the 1-RM. Seat
+suppress endogenous testosterone secretion, and con-                    position and the ensuing knee and hip angles, as well as foot
+comitantly also with one of five testosterone-dose reg-                 placement, were measured and recorded for use in subse-
+imens to create different levels of serum testosterone                  quent testing. To ensure reliability in this highly effort-
+concentrations extending from subphysiological to the                   dependent test, the 1-RM score was reassessed within 7 days,
+supraphysiological range. The lowest testosterone                       but not sooner than 2 days, after the first evaluation. If
+dose, 25 mg weekly, was selected because this dose had                  duplicate scores were within 5%, the higher of the two values
+been shown to maintain sexual function in GnRH an-                      was accepted as the strength score. If the two tests differed
+tagonist-treated men (37). The selection of the 600-mg                  by ⬎5%, additional studies were conducted, ⱖ2 days apart
+                                                                        but within 7 days, until the two highest scores were within
+weekly dose was based on the consideration that this
+                                                                        5%. No subject required ⬎2 days of strength assessment.
+was the highest dose that had been safely administered                     We also measured leg power, because power in the lower
+to men in controlled studies (9).                                       extremity is strongly related to performance of functional
+                                                                        activities in the elderly (4). The sarcopenia that accompanies
+METHODS                                                                 aging is due in large part to a loss of the fast-twitch type II
+                                                                        fibers and the coincident decrease in explosive force. Muscu-
+   This was a double-blind, randomized study consisting of a            lar power is important in performing such daily activities as
+4-wk control period, a 20-wk treatment period, and a 16-wk              rising from a chair, climbing stairs, and walking with speed
+recovery period. Each participant provided informed consent,            (4). Leg power was measured with a previously validated (4,
+approved by the institutional review boards of Drew Univer-             5) Nottingham leg extensor power rig. Subjects performed
+sity and Harbor-UCLA Research and Education Institute.                  10–15 trials of right leg and hip extension, attempting to
+   Participants. The participants were healthy men, 18–35 yr            generate as much force as possible by accelerating the leg
+of age, with prior weight-lifting experience and normal tes-            rig’s weighted flywheel from rest. The power score (in watts)
+tosterone levels. These men had not used any anabolic agents            was taken as the highest value observed during these trials
+and had not participated in competitive sports events in the            with evidence of a plateau. As with the strength tests, power
+                                  AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+          Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E1174                                    TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS
+
+measurements were preceded by a 5- to 10-min warm-up,                    RESULTS
+stretching, and practice. The power tests were repeated
+within 7 days, but not sooner than 2 days, after the first tests            Participant characteristics. Of 61 men enrolled, 54
+to reduce the effect of familiarization. To minimize test-retest         completed the study: 12 in group 1, 8 in group 2, 11 in
+variability, the angle of knee flexion and the seat position             group 3, 10 in group 4, and 13 in group 5. One man
+were recorded and maintained constant across tests.                      discontinued treatment because of acne; other subjects
+    Sexual function was assessed by daily logs of sexual activ-          were unable to meet the demands of the protocol. The
+ity and desire that were maintained for 7 consecutive days at            five groups did not significantly differ with respect to
+baseline and during treatment by use of a published instru-              their baseline characteristics (Table 1).
+ment (13). Spatial cognition was assessed by a computerized                 Compliance. All evaluable subjects received 100% of
+checkerboard test (38) and mood by Hamilton’s depression
+                                                                         their GnRH agonist injections, and only one man in the
+(20) and Young’s mania scales (24).
+    Adverse experiences, blood counts and chemistries, PSA,              125-mg group missed one testosterone injection.
+plasma lipids, total and free testosterone, luteinizing hor-                Nutritional intake. Daily energy intake and propor-
+mone (LH), sex steroid-binding globulin (SHBG), and insulin-             tion of calories derived from protein, carbohydrate, and
+like growth factor I (IGF-I) levels were measured periodically           fat were not significantly different among the five
+during control and treatment periods. Serum total testoster-             groups at baseline. There was no significant change in
+one was measured by an immunoassay (8–11); free testos-                  daily caloric, protein, carbohydrate, or fat intake in any
+terone by equilibrium dialysis (43); LH, SHBG, and PSA by                group during treatment (data not shown).
+immunoradiometric assays (9–11); and IGF-I by acid-ethanol                  Hormone levels. Serum total and free testosterone
+extraction and immunoassay (28). The sensitivities and in-               levels (Table 2), measured during week 16, 1 wk after
+tra- and interassay coefficients of variation for hormone as-
+says were as follows: total testosterone (0.6 ng/dl), 8.2 and
+                                                                         the previous injection, were linearly dependent on the
+13.2%; free testosterone (0.22 pg/ml), 4.2 and 12.3%; LH (0.05           testosterone dose (P ⫽ 0.0001). Serum total and free
+U/l), 10.7 and 13.0%; SHBG (6.25 nmol/l), 4 and 6%; PSA                  testosterone concentrations decreased from baseline in
+(0.01 ng/ml), 5.0 and 6.4%; and IGF-I (80 ng/ml), 4 and 6%,              men receiving the 25- and 50-mg doses and increased
+respectively. These assays have been validated previously                at 300- and 600-mg doses. Serum LH levels were sup-
+(8–11).                                                                  pressed in all groups. Serum SHBG levels decreased
+    Statistical analyses. All variables were examined for their          dose dependently at the 300- and 600-mg doses but did
+distribution characteristics. Variables not meeting the as-              not change in other groups. Serum IGF-I concentrations
+sumption of a normal distribution were log-transformed and               increased dose dependently at the 300- and 600-mg doses
+retested. An ANOVA was used to compare change from                       (correlation between log testosterone level and change in
+baseline in outcome measures among the five groups. All
+                                                                         IGF-I ⫽ 0.55, P ⫽ 0.0001). IGFBP-3 levels did not change
+outcome measures were analyzed using a paired t-test to
+detect a nonzero change from baseline within each group.                 significantly in any group.
+P ⬍ 0.05 was considered statistically significant.                          Body composition. Fat-free mass, measured by un-
+    To describe the relationship between testosterone con-               derwater weighing, did not change significantly in men
+centrations (T) and change in fat-free mass (Y) during                   receiving the 25- or 50-mg testosterone dose, but it
+testosterone administration, we tested three models: a                   increased dose dependently at higher doses (Table 3).
+linear model (Y ⫽ a ⫹ bT); a logarithmic model, Y ⫽ a ⫹                  The changes in fat-free mass were highly dependent on
+b 䡠 X, where X ⫽ log (T), and a and b represent the intercept            testosterone dose (P ⫽ 0.0001) and correlated with log
+and slope, respectively; and a growth model, Y ⫽ a/(1 ⫹                  total testosterone concentrations during treatment
+b 䡠 e⫺k 䡠 X). The logarithmic model provided the best fit for            (r ⫽ 0.73, P ⫽ 0.0001, see Fig. 2).
+the data and was used to model the effects of testosterone
+                                                                            Changes in fat-free mass, measured by DEXA scan,
+concentrations on the change in other outcome variables.
+The correlations between testosterone concentrations and                 were qualitatively similar to those obtained from under-
+change in outcome variables are derived from this model.                 water weighing (Table 3, Fig. 1). The measurements of
+We also modeled the linear dependence of the change in                   fat-free mass by DEXA were highly correlated with val-
+outcome variables on testosterone dose by use of linear                  ues obtained from underwater weighing (r ⫽ 0.94, P ⬍
+regression.                                                              0.0001).
+
+
+Table 1. Baseline characteristics of the participants
+ GnRH Agonist                         ⫹                    ⫹                    ⫹                   ⫹                   ⫹
+ Testosterone Enanthate             25 mg                50 mg                125 mg              300 mg              600 mg       P Value
+
+Age, yr                           28 ⫾ 5                29 ⫾ 5               28 ⫾ 3               24 ⫾ 5              25 ⫾ 4       0.0583
+Height, cm                       175 ⫾ 5               177 ⫾ 9              178 ⫾ 7              177 ⫾ 7             175 ⫾ 8       0.7230
+Weight, kg                       68.0 ⫾ 8.4            77.0 ⫾ 8.1           78.9 ⫾ 10.6          78.4 ⫾ 10.1         74.8 ⫾ 12.5   0.1014
+Body mass index, kg/m2            23 ⫾ 3                25 ⫾ 3               25 ⫾ 3               25 ⫾ 3              25 ⫾ 3       0.3680
+Serum testosterone
+  levels, nmol/l                 593 ⫾ 161             566 ⫾ 220            553 ⫾ 182           654 ⫾ 157            632 ⫾ 228     0.7093
+Fat-free mass, kg                59.1 ⫾ 6.7            65.1 ⫾ 5.1           66.0 ⫾ 7.2          67.3 ⫾ 8.9           64.2 ⫾ 8.0    0.1506
+Leg press strength, kg          355.5 ⫾ 103.8         407.8 ⫾ 62.2         419.2 ⫾ 86.2        439.8 ⫾ 81.4         431.6 ⫾ 99.3   0.2149
+Hemoglobin, g/l                   144 ⫾ 12              151 ⫾ 11             142 ⫾ 9             144 ⫾ 8              141 ⫾ 8      0.1428
+No. in group                         12                   12                   12                  12                   13
+  Values are means ⫾ SD. GnRH, gonadotropin-releasing hormone.
+
+                                   AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+           Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                               TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS                                                   E1175
+
+Table 2. Serum total and free testosterone, LH, FSH,                         by underwater weighing and log testosterone concen-
+SHBG, and IGF-I levels                                                       trations (r ⫽ ⫺0.60, P ⫽ 0.0001, Fig. 2).
+                                                                               Muscle size. The thigh muscle volume and quadri-
+Testosterone                                     Change from    P vs. Zero
+    Dose           Baseline        Week 16        Baseline       Change
+                                                                             ceps muscle volume did not significantly change in men
+                                                                             receiving the 25- or 50-mg doses but increased dose
+         Testosterone (ng/dl) (overall ANOVA P ⫽ 0.0001)                     dependently at higher doses of testosterone (Table 4,
+   25 mg           593 ⫾ 48        253 ⫾ 66      ⫺340 ⫾ 85        0.0029     Fig. 1). The changes in thigh muscle and quadriceps
+   50 mg           566 ⫾ 78        306 ⫾ 58      ⫺260 ⫾ 64        0.0037     muscle volumes correlated with log testosterone levels
+  125 mg           553 ⫾ 53        570 ⫾ 75         57 ⫾ 75       0.7425
+  300 mg           653 ⫾ 50      1,345 ⫾ 139       691 ⫾ 143      0.0005
+                                                                             during treatment (r ⫽ 0.66, P ⫽ 0.0001, and r ⫽ 0.55,
+  600 mg           632 ⫾ 63      2,370 ⫾ 150     1,737 ⫾ 156      0.0001     P ⫽ 0.0001, respectively, Fig. 2).
+                                                                               Muscle performance. The leg press strength did not
+      Free testosterone (pg/ml) (overall ANOVA P ⫽ 0.0001)
+                                                                             change significantly in the 25- and 125-mg-dose groups
+   25 mg            62 ⫾ 6          29 ⫾ 5        ⫺33 ⫾ 8         0.0014     but increased significantly in those receiving the 50-,
+   50 mg            57 ⫾ 6          32 ⫾ 3        ⫺25 ⫾ 5         0.0009
+  125 mg            49 ⫾ 5          52 ⫾ 8          3⫾7           0.8601     300-, and 600-mg doses (Table 5). The changes in leg
+  300 mg            71 ⫾ 7         138 ⫾ 21        67 ⫾ 18        0.0012     press strength correlated with log testosterone levels
+  600 mg            64 ⫾ 5         275 ⫾ 30       211 ⫾ 31        0.0001     during treatment (r ⫽ 0.48, P ⫽ 0.0005, Fig. 2) and
+                  LH (U/l) (overall ANOVA P ⫽ 0.8054)                        changes in muscle volume (r ⫽ 0.54, P ⫽ 0.003) and
+                                                                             fat-free mass (r ⫽ 0.74, P ⬍ 0.0001).
+   25 mg            3.5 ⫾ 0.4      0.3 ⫾ 0.1      ⫺3.2 ⫾ 0.4      0.0001
+   50 mg            3.8 ⫾ 0.3      0.6 ⫾ 0.3      ⫺3.0 ⫾ 0.4      0.0008
+  125 mg            3.4 ⫾ 0.3      0.5 ⫾ 0.1      ⫺2.8 ⫾ 0.4      0.0001
+  300 mg            3.7 ⫾ 0.5      0.6 ⫾ 0.1      ⫺3.5 ⫾ 0.5      0.0002
+  600 mg            3.3 ⫾ 0.3      0.6 ⫾ 0.4      ⫺2.9 ⫾ 0.4      0.0001
+                                                                             Table 3. Body composition analysis
+               SHBG (nmol/l) (overall ANOVA P ⫽ 0.0001)                      Testosterone                                  Change from   P vs. Zero
+                                                                                 Dose           Baseline      Week 20       Baseline      Change
+   25 mg          29.1 ⫾ 2.9      28.5 ⫾ 3.6      ⫺0.6 ⫾ 2.9      0.8497
+   50 mg          24.4 ⫾ 3.4      21.1 ⫾ 3.2      ⫺3.3 ⫾ 1.1      0.0202                    Fat-free mass (kg) by underwater weighing
+  125 mg          33.1 ⫾ 4.2      28.9 ⫾ 3.8      ⫺4.2 ⫾ 2.6      0.1410                            (overall ANOVA P ⫽ 0.0001)
+  300 mg          31.4 ⫾ 3.8      22.4 ⫾ 3.9      ⫺9.1 ⫾ 3.7      0.0348
+                                                                                25 mg          61.1 ⫾ 2.7    58.1 ⫾ 1.7     ⫺1.0 ⫾ 0.5    0.0695
+  600 mg          40.1 ⫾ 4.9      20.6 ⫾ 3.2     ⫺19.5 ⫾ 2.8      0.0001
+                                                                                50 mg          66.1 ⫾ 2.5    65.7 ⫾ 2.0     ⫹0.6 ⫾ 0.4    0.1324
+               IGF-I (ng/ml) (overall ANOVA P ⫽ 0.0001)                        125 mg          66.0 ⫾ 2.1    67.9 ⫾ 2.7     ⫹3.4 ⫾ 0.8    0.0024
+                                                                               300 mg          66.9 ⫾ 2.4    72.4 ⫾ 2.8     ⫹5.2 ⫾ 0.8    0.0001
+   25 mg           268 ⫾ 26        261 ⫾ 35        ⫺7 ⫾ 19        0.7462       600 mg          64.2 ⫾ 2.2    72.1 ⫾ 2.4     ⫹7.9 ⫾ 0.6    0.0001
+   50 mg           246 ⫾ 14        225 ⫾ 12       ⫺20 ⫾ 10        0.0797
+  125 mg           299 ⫾ 24        282 ⫾ 31       ⫺18 ⫾ 17        0.3284                      Fat mass (kg) by underwater weighing
+  300 mg           314 ⫾ 24        388 ⫾ 30        74 ⫾ 28        0.0272                           (overall ANOVA P ⫽ 0.0001)
+  600 mg           227 ⫾ 20        304 ⫾ 21        77 ⫾ 13        0.0001
+                                                                                25 mg           8.3 ⫾ 1.4    11.3 ⫾ 1.6     ⫹3.1 ⫾ 0.7    0.0014
+  Values on each day represent the mean (⫾SE) of all available                  50 mg          10.9 ⫾ 1.4    14.3 ⫾ 1.7     ⫹3.5 ⫾ 1.0    0.0096
+values on that day. However, the change represents the difference              125 mg          12.2 ⫾ 2.0    10.9 ⫾ 2.1    ⫹0.01 ⫾ 0.5    0.9820
+between paired values only. Treatment values represent the day 113             300 mg          11.4 ⫾ 1.6    10.9 ⫾ 1.7     ⫺0.5 ⫾ 0.6    0.4134
+(week 16) values, obtained 1 wk after the previous testosterone                600 mg           9.4 ⫾ 1.9     8.8 ⫾ 1.9     ⫺1.1 ⫾ 0.7    0.1132
+injection. We used week 16 rather than week 20 values because week              Fat-free mass (kg) by DEXA scan (overall ANOVA P ⫽ 0.0001)
+20 values were not always drawn exactly 1 wk after the previous
+injection. LH and FSH, luteinizing and follicle-stimulating hor-                25 mg          53.6 ⫾ 1.8    53.4 ⫾ 2.0     ⫹0.4 ⫾ 0.3    0.2198
+mones, respectively; SHBG, sex hormone-binding globulin; IGF-I,                 50 mg          58.6 ⫾ 2.3    59.2 ⫾ 2.5     ⫹1.1 ⫾ 0.9    0.2313
+insulin-like growth factor I. To convert total testosterone levels to          125 mg          60.1 ⫾ 2.1    63.1 ⫾ 2.3     ⫹2.9 ⫾ 0.8    0.0054
+nmol/l, multiply by 0.03467. To convert free testosterone levels to            300 mg          59.0 ⫾ 2.7    64.3 ⫾ 2.2     ⫹5.5 ⫾ 0.7    0.0001
+pg/ml, multiply by 3.467.                                                      600 mg          57.4 ⫾ 1.9    66.3 ⫾ 2.4     ⫹8.9 ⫾ 0.8    0.0001
+                                                                                  Fat mass (kg) by DEXA scan (overall ANOVA P ⫽ 0.0004)
+                                                                                25 mg          10.0 ⫾ 1.8    13.7 ⫾ 1.4     ⫹3.6 ⫾ 1.5    0.0326
+   To determine whether the apparent changes in fat-                            50 mg          15.4 ⫾ 1.2    17.9 ⫾ 1.2     ⫹2.6 ⫾ 1.0    0.0324
+free mass by DEXA scan and underwater weighing                                 125 mg          15.2 ⫾ 2.0    15.2 ⫾ 1.9     ⫺0.3 ⫾ 0.8    0.6882
+represented water retention, we measured total body                            300 mg          16.3 ⫾ 1.2   15.41 ⫾ 1.5     ⫺0.9 ⫾ 0.6    0.1834
+water and compared the ratios of total body water to                           600 mg          14.2 ⫾ 1.9    12.0 ⫾ 1.5     ⫺2.0 ⫾ 0.7    0.0141
+fat-free mass before and after treatment in each group.                                Ratio of total body water to fat-free mass (percent)
+The ratios of total body water to fat-free mass by                                    (overall ANOVA for change from baseline, P ⫽ 0.270)
+underwater weighing did not significantly change with                           25 mg          62.7 ⫾ 2.7    63.7 ⫾ 2.1     ⫹1.1 ⫾ 2.4
+treatment in any treatment group (Table 3), indicating                          50 mg          62.0 ⫾ 1.9    63.8 ⫾ 2.4     ⫹2.0 ⫾ 2.0
+that the apparent increase in fat-free mass measured                           125 mg          67.0 ⫾ 1.7    63.5 ⫾ 3.0     ⫺3.8 ⫾ 1.6
+by underwater weighing did not represent water reten-                          300 mg          61.6 ⫾ 2.7    64.6 ⫾ 3.1     ⫹2.1 ⫾ 2.5
+                                                                               600 mg          65.3 ⫾ 2.4    67.4 ⫾ 2.8     ⫹2.5 ⫾ 1.7
+tion in excess of that associated with protein accretion.
+   Fat mass, measured by underwater weighing, in-                              Values on each day represent the mean (⫾SE) of all available
+creased significantly in men receiving the 25- and                           values on that day. However, the change represents the difference
+                                                                             between paired values only. Ratios of total body water assessed by
+50-mg doses but did not change in men receiving the                          deuterium water dilution to fat-free mass measured by underwater
+higher doses of testosterone (Table 3, Fig. 1). There                        weighing were calculated for each subject and averaged across sub-
+was an inverse correlation between change in fat mass                        jects within each group. DEXA, dual-energy X-ray absorptiometry.
+
+                                       AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+               Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E1176                                      TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS
+
+
+
+
+Fig. 1. Change in fat-free mass (A), fat
+mass (B), leg press strength (C), thigh
+muscle volume (D), quadriceps muscle
+volume (E), sexual function (F), insu-
+lin-like growth factor I (G), and pros-
+tate-specific antigen (H). Data are
+means ⫾ SE. *Significant differences
+from all other groups (P ⬍ 0.05); ❖ sig-
+nificant difference from 25-, 50-, and
+125-mg doses (P ⬍ 0.05); ⫹significant
+difference from 25- and 50-mg doses
+(P ⬍ 0.05); and ✞ significant difference
+from 25-mg dose (P ⬍ 0.05).
+
+
+
+
+   Leg power, measured by the Nottingham leg rig, did                    spatial cognition (Table 6) and mood, as assessed by
+not change significantly in men receiving the 25-, 50-, and              Hamilton’s depression and Young’s manic scales (data
+125-mg doses of testosterone weekly, but it increased                    not shown), did not change significantly in any group.
+significantly in those receiving the 300- and 600-mg                        Adverse experiences and safety measures. Hemoglo-
+doses. The increase in leg power correlated with log                     bin levels decreased significantly in men receiving the
+testosterone concentrations (r ⫽ 0.39, P ⫽ 0.0105, Fig. 2)               50-mg dose but increased at the 600-mg dose; the
+and changes in fat-free mass (r ⫽ 0.30, P ⫽ 0.0392) and                  changes in hemoglobin were positively correlated with
+muscle strength (r ⫽ 0.42, P ⫽ 0.0020).                                  testosterone concentrations (r ⫽ 0.66, P ⫽ 0.0001) (Table
+   Behavioral measures. The scores for sexual activity                   7). Changes in plasma HDL cholesterol, in contrast, were
+and sexual desire measured by daily logs did not                         negatively dependent on testosterone dose (P ⫽ 0.0049)
+change significantly at any dose. Similarly, visual-                     and correlated with testosterone concentrations (r ⫽
+                                    AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+           Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                       TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS                                                       E1177
+
+
+
+
+                                                                                                      Fig. 2. Relationship between serum
+                                                                                                      testosterone concentrations (T) during
+                                                                                                      treatment (week 16) and change in fat-
+                                                                                                      free mass (A), fat mass (B), leg press
+                                                                                                      strength (C), thigh muscle volume (D),
+                                                                                                      quadriceps muscle volume (E), sexual
+                                                                                                      function (F), insulin-like growth factor
+                                                                                                      I (G), and prostate-specific antigen (H).
+                                                                                                      The correlation coefficient, r, was cal-
+                                                                                                      culated using the logarithmic model,
+                                                                                                      Y ⫽ a ⫹ b 䡠 X, where X ⫽ log (T), and a
+                                                                                                      and b represent the intercept and
+                                                                                                      slope.
+
+
+
+
+⫺0.40, P ⫽ 0.0054). Total cholesterol, plasma low-                     DISCUSSION
+density lipoprotein cholesterol, and triglyceride levels
+                                                                          GnRH agonist administration suppressed endoge-
+did not change significantly at any dose. Serum PSA,                   nous LH and testosterone secretion; therefore, circu-
+creatinine, bilirubin, alanine aminotransferase, and                   lating testosterone concentrations during treatment
+alkaline phosphatase did not change significantly in                   were proportional to the administered dose of testos-
+any group, but aspartate aminotransferase decreased                    terone enanthate. This strategy of combined adminis-
+significantly in the 25-mg group. Two men in the 25-mg                 tration of GnRH agonist and graded doses of testoster-
+group, five in the 50-mg group, three in the 125-mg                    one enanthate was effective in establishing different
+group, seven in the 300-mg group, and two in the                       levels of serum testosterone concentrations among the
+600-mg group developed acne. One man receiving the                     five treatment groups. The different levels of circulat-
+50-mg dose reported decreased ability to achieve erec-                 ing testosterone concentrations created by this regi-
+tions.                                                                 men were associated with dose- and concentration-
+                                 AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+         Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E1178                                         TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS
+
+
+Table 4. Thigh and quadriceps muscle volume                                   Table 6. Change in scores for sexual activity, sexual
+measured by MRI                                                               desire, and spatial cognition
+Testosterone                                    Change from      P vs. zero   Testosterone                                 Change from     P vs. zero
+    Dose            Baseline      Week 20        Baseline         change          Dose         Baseline      Treatment      Baseline        change
+
+        Thigh muscle volume (overall ANOVA P ⫽ 0.0001)                                Sexual activity scores (overall ANOVA P ⫽ 0.7842)
+   25 mg           753 ⫾ 46       739 ⫾ 44       ⫺14 ⫾ 10         0.1958         25 mg        10.7 ⫾ 1.7      8.2 ⫾ 2.9     ⫺2.5 ⫾ 3.2      0.4729
+   50 mg           833 ⫾ 53       844 ⫾ 58        11 ⫾ 8          0.2332         50 mg        14.1 ⫾ 2.1     13.7 ⫾ 1.8     ⫺0.4 ⫾ 2.8      0.9017
+  125 mg           890 ⫾ 49       966 ⫾ 60        56 ⫾ 10         0.0004        125 mg         9.8 ⫾ 2.7     12.0 ⫾ 2.9      2.2 ⫾ 3.1      0.5151
+  300 mg           849 ⫾ 39       933 ⫾ 39        84 ⫾ 12         0.0001        300 mg        11.6 ⫾ 1.6     12.0 ⫾ 1.9      0.7 ⫾ 0.9      0.4761
+  600 mg           802 ⫾ 45       928 ⫾ 48       126 ⫾ 12         0.0001        600 mg        16.1 ⫾ 3.7     15.6 ⫾ 0.5      0.7 ⫾ 2.2      0.7891
+      Quadriceps muscle volume (overall ANOVA P ⫽ 0.0001)                         Intensity of sexual desire scores (overall ANOVA P ⫽ 0.477)
+   25 mg           436 ⫾ 30       427 ⫾ 27        ⫺9 ⫾ 9          0.3524         25 mg         1.9 ⫾ 0.1      1.3 ⫾ 0.4     ⫺0.6 ⫾ 0.4      0.2253
+   50 mg           489 ⫾ 34       493 ⫾ 36         4⫾7            0.5889         50 mg         2.3 ⫾ 0.1      2.2 ⫾ 0.3     ⫺0.0 ⫾ 0.3      0.9615
+  125 mg           508 ⫾ 29       546 ⫾ 36        21 ⫾ 5          0.0027        125 mg         2.1 ⫾ 0.1      2.0 ⫾ 0.3     ⫺0.1 ⫾ 0.4      0.9078
+  300 mg           497 ⫾ 25       540 ⫾ 22        43 ⫾ 9          0.0008        300 mg         2.2 ⫾ 0.2      2.4 ⫾ 0.2      0.1 ⫾ 0.1      0.3559
+  600 mg           472 ⫾ 27       540 ⫾ 31        68 ⫾ 8          0.0001        600 mg         2.7 ⫾ 0.2      2.2 ⫾ 0.1      0.2 ⫾ 0.2      0.4075
+  Values (in cm3) on each day represent the mean (⫾SE) of all                                       Spatial cognition scores
+available values on that day. However, the change represents the               1. No. of trial levels on the checkerboard test that the participant
+difference between paired values only.                                                         reached before the test was terminated
+                                                                                                     (overall ANOVA P ⫽ 0.235)
+dependent changes in fat-free mass, fat mass, thigh                              25 mg         6.8 ⫾ 0.3      6.4 ⫾ 0.3     ⫺0.4 ⫾ 0.3      0.284
+and quadriceps muscle volume, muscle strength, leg                               50 mg         6.7 ⫾ 0.3      6.7 ⫾ 0.3      0.3 ⫾ 0.3      0.284
+                                                                                125 mg         6.6 ⫾ 0.3      6.6 ⫾ 0.2      0.0 ⫾ 0.4      1.0
+power, hemoglobin, circulating IGF-I, and plasma                                300 mg         7.3 ⫾ 0.2      6.7 ⫾ 0.2     ⫺0.6 ⫾ 0.3      0.103
+HDL cholesterol. Serum PSA levels, sexual desire and                            600 mg         6.6 ⫾ 0.2      6.9 ⫾ 0.2      0.3 ⫾ 0.3      0.278
+activity, and spatial cognition did not change signifi-
+                                                                                 2. No. of checkerboard squares correctly marked in all trials
+cantly at any dose. The changes in fat-free mass, mus-                                            (overall ANOVA P ⫽ 0.6309)
+cle volume, leg press strength and power, hemoglobin,
+                                                                                 25 mg        28.6 ⫾ 2.2     30.4 ⫾ 2.1        1.8 ⫾ 2.1    0.4272
+and IGF-I were positively correlated, whereas changes                            50 mg        30.0 ⫾ 2.3     34.7 ⫾ 4.9        2.7 ⫾ 3.5    0.5236
+in plasma HDL cholesterol and fat mass were nega-                               125 mg        27.3 ⫾ 3.0     28.1 ⫾ 2.2        0.9 ⫾ 3.8    0.7292
+tively correlated with testosterone dose and total and                          300 mg        32.6 ⫾ 2.1     33.3 ⫾ 1.8        0.7 ⫾ 3.1    0.8241
+free testosterone concentrations during treatment.                              600 mg        26.7 ⫾ 2.7     32.5 ⫾ 2.1        5.8 ⫾ 2.2    0.0265
+   The compliance with the treatment regimen was                                Values are means ⫾ SE.
+high. The participants received 100% of their sched-
+uled GnRH agonist, and 99% of testosterone injections.
+                                                                                 Serum testosterone levels were measured 7 days
+Serum LH levels were suppressed in all men, demon-
+                                                                              after previous injection; they reflect the lowest testos-
+strating the effectiveness of GnRH agonist treatment.
+                                                                              terone levels after an injection. Testosterone concen-
+The treatment regimen was well tolerated. There were
+                                                                              trations were higher at other time points. Weekly in-
+no significant changes in PSA or liver enzymes at any
+                                                                              jections of testosterone enanthate are associated with
+dose. However, long-term effects of androgen adminis-
+                                                                              fluctuations in testosterone levels (44). Although nadir
+tration on the prostate, cardiovascular risk, and behav-
+                                                                              testosterone concentrations were highly correlated
+ior are unknown.
+                                                                              with testosterone enanthate dose, it is possible that
+                                                                              sustained testosterone delivery by a patch or gel might
+Table 5. Change in measures of muscle performance                             reveal different dose-response relationships, particu-
+                                                                              larly with respect to hemoglobin and HDL cholesterol
+Testosterone                                     Change from    P vs. Zero
+    Dose           Baseline       Treatment       Baseline       Change       (19).
+                                                                                 There were no significant changes in overall sexual
+        Leg press strength (kg) (overall ANOVA P ⫽ 0.0003)                    activity or sexual desire in any group, including those
+   25 mg         355.5 ⫹ 31.3    354.2 ⫾ 27.9    ⫺1.2 ⫾ 7.4       0.8701      receiving the 25-mg dose. Testosterone replacement of
+   50 mg         407.8 ⫹ 22.0    430.5 ⫾ 22.3   ⫹22.7 ⫾ 7.6       0.0204      hypogonadal men improves frequency of sexual acts
+  125 mg         419.2 ⫾ 24.4    444.6 ⫾ 32.2   ⫹18.4 ⫾ 10.0      0.4195
+  300 mg         439.8 ⫾ 25.7    525.5 ⫾ 24.9   ⫹72.2 ⫾ 12.4      0.0004      and fantasies, sexual desire, and response to visual
+  600 mg         431.6 ⫹ 27.6    508.1 ⫾ 28.1   ⫹76.5 ⫾ 12.2      0.0001      erotic stimuli (3, 13, 15, 17, 31, 41). Our data demon-
+                                                                              strate that serum testosterone concentrations at the
+               Leg power (W) (overall ANOVA P ⫽ 0.0419)
+                                                                              lower end of male range can maintain some aspects of
+   25 mg         183.6 ⫾ 10.6    188.9 ⫾ 12.9      5.3 ⫾ 8.4      0.5429      sexual function (3, 13). Testosterone has been shown to
+   50 mg         234.4 ⫾ 14.2    249.6 ⫾ 17.8     15.2 ⫾ 15.0     0.3468
+  125 mg         253.8 ⫾ 20.6    265.6 ⫾ 25.2      8.5 ⫾ 15.3     0.5935      regulate nitric oxide synthase activity in the cavern-
+  300 mg         233.8 ⫾ 20.2    272.4 ⫾ 27.8     38.6 ⫾ 9.4      0.0033      osal smooth muscle (32), and it is possible that opti-
+  600 mg         212.4 ⫾ 11.0    256.2 ⫾ 13.8     48.1 ⫾ 11.8     0.0015      mum penile rigidity might require higher testosterone
+  Values on each day represent the mean (⫾SE) of all available                levels than those produced by the 25-mg dose.
+values on that day. However, the change represents the difference                This study demonstrates that an increase in circu-
+between paired values only.                                                   lating testosterone concentrations results in dose-de-
+                                       AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+               Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                            TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS                                               E1179
+
+Table 7. Changes in hemoglobin, plasma HDL                                 regulates erythropoiesis through its effects on erythro-
+cholesterol, and PSA                                                       poietin and stem cell proliferation (14, 35, 40). Al-
+                                                                           though modest increments in hemoglobin might be
+Testosterone                                  Change from     P vs. Zero
+    Dose           Baseline      Week 20       Baseline        Change
+                                                                           beneficial in androgen-deficient men with chronic ill-
+                                                                           ness who are anemic, marked increases in hemoglobin
+           Hemoglobin (g/l), (overall ANOVA P ⫽ 0.0001)                    levels could increase the risk of cerebrovascular events
+   25 mg          143.5 ⫾ 3.5   139.0 ⫾ 2.5    ⫺5.2 ⫾ 3.5      0.1759      (25) and hypertension (42).
+   50 mg          150.8 ⫾ 3.3   146.6 ⫾ 2.0    ⫺7.4 ⫾ 2.3      0.0153         Although men, on average, perform better on tests of
+  125 mg          141.9 ⫾ 2.6   146.1 ⫾ 3.1     2.5 ⫾ 2.4      0.3061
+  300 mg          143.5 ⫾ 2.2   149.6 ⫾ 3.1     6.1 ⫾ 2.9      0.0639
+                                                                           spatial cognition than women, testosterone replace-
+  600 mg          141.5 ⫾ 2.3   155.7 ⫾ 2.2    14.2 ⫾ 2.0      0.0001      ment has not been consistently shown to improve spa-
+                                                                           tial cognition in hypogonadal men (1, 29, 48). We did
+               PSA (ng/ml), (overall ANOVA P ⫽ 0.5290)
+                                                                           not find changes in spatial cognition at any dose. The
+   25 mg            1.0 ⫾ 0.2     1.0 ⫾ 0.2    ⫺0.1 ⫾ 0.2      0.6870      effect size of gender differences in spatial cognition is
+   50 mg            0.8 ⫾ 0.1     1.1 ⫾ 0.2     0.3 ⫾ 0.1      0.0186
+  125 mg            0.7 ⫾ 0.1     0.8 ⫾ 0.1     0.1 ⫾ 0.1      0.1721      small; it is possible that our study did not have suffi-
+  300 mg            0.7 ⫾ 0.1     0.9 ⫾ 0.3     0.2 ⫾ 0.2      0.4525      cient power to detect small differences. We cannot
+  600 mg            0.5 ⫾ 0.1     0.7 ⫾ 0.1     0.1 ⫾ 0.0      0.0010      exclude the possibility that gender differences in spa-
+  Plasma HDL cholesterol (mg/dl) (overall ANOVA P ⫽ 0.0049)                tial cognition might be due to organizational effects of
+                                                                           testosterone and might not respond to changes in tes-
+   25 mg             46 ⫾ 3        51 ⫾ 4      ⫹4.5 ⫾ 2.6      0.1202
+   50 mg             48 ⫾ 3        47 ⫾ 5      ⫺0.7 ⫾ 4.0      0.8653      tosterone levels in adult men.
+  125 mg             48 ⫾ 2        43 ⫾ 3      ⫺4.0 ⫾ 1.7      0.0476         Although mean change in fat-free mass and muscle
+  300 mg             47 ⫾ 3        41 ⫾ 2      ⫺5.7 ⫾ 2.8      0.0690      size correlated with testosterone dose and concentra-
+  600 mg             43 ⫾ 2        34 ⫾ 2      ⫺8.4 ⫾ 1.8      0.0005      tion, there was considerable heterogeneity in response
+  Values on each day represent the mean (⫾SE) of all available             to testosterone administration within each group.
+values on that day. However, the change from baseline represents           These individual differences in response to androgen
+the difference between paired values only. PSA, prostate-specific          administration might reflect differences in activity
+antigen; HDL, high-density lipoprotein.
+                                                                           level, testosterone metabolism, nutrition, or polymor-
+                                                                           phisms in androgen receptor, myostatin, 5-␣-reduc-
+pendent increases in fat-free mass, muscle size,                           tase, or other muscle growth regulators.
+strength, and power. The relationships between circu-                         Our data demonstrate that different androgen-
+lating testosterone concentrations and changes in fat-                     dependent processes have different testosterone
+free mass and muscle size conform to a single log-linear                   dose-response relationships. Some aspects of sexual
+dose-response curve. Our data do not support the no-                       function and spatial cognition, and PSA levels, were
+tion of two separate dose-response curves reflecting                       maintained by relatively low doses of testosterone in
+two independent mechanisms of testosterone action on                       GnRH agonist-treated men and did not increase fur-
+the muscle. Forbes et al. (22) predicted 25 years ago                      ther with administration of higher doses of testos-
+that the muscle mass accretion during androgen ad-                         terone. In contrast, graded doses of testosterone
+ministration is related to the cumulative androgen                         were associated with dose and testosterone concen-
+dose, the product of daily dose and treatment duration.                    tration-dependent changes in fat-free mass, fat
+Our data are consistent with Forbes’s hypothesis of a                      mass, muscle volume, leg press strength and power,
+linear relationship between testosterone dose and lean                     hemoglobin, IGF-I, and plasma HDL cholesterol. The
+mass accretion; however, we do not know whether                            precise mechanisms for the tissue- and function-
+increasing the treatment duration would lead to fur-                       specific differences in testosterone dose dependence
+ther gains in muscle mass.                                                 are not well understood (36). Although only a single
+   In addition, we do not know whether responsiveness                      androgen receptor protein is expressed in all andro-
+to testosterone is attenuated in older men. Testoster-                     gen-responsive tissues, tissue specificity of androgen
+one dose-response relationships might be modulated                         action might be mediated through combinatorial re-
+by other muscle growth regulators, such as nutritional                     cruitment of tissue-specific coactivators and core-
+status, exercise and activity level, glucocorticoids, thy-                 pressors (36).
+roid hormones, and endogenous growth hormone secre-                           Testosterone doses associated with significant gains
+tory status.                                                               in fat-free mass, muscle size, and strength were asso-
+   Serum PSA levels decrease after androgen with-
+                                                                           ciated with significant reductions in plasma HDL con-
+drawal, and testosterone replacement of hypogonadal
+                                                                           centrations. Further studies are needed to determine
+men increases PSA levels into the normal range (16,
+                                                                           whether clinically significant anabolic effects of testos-
+34). We did not find significant changes in PSA at any
+                                                                           terone can be achieved without adversely affecting
+dose, indicating that the lowest dose of testosterone
+                                                                           cardiovascular risk. Selective androgen receptor mod-
+maintained PSA levels. We did not measure prostate
+                                                                           ulators that preferentially augment muscle mass and
+volume in this study; therefore, we do not know
+                                                                           strength, but only minimally affect prostate and car-
+whether prostate volume exhibits the same relation-
+                                                                           diovascular risk factors, are desirable (36).
+ship with testosterone dose as PSA levels.
+   Hemoglobin levels changed significantly in relation                       This study was supported primarily by National Institutes of
+to testosterone dose and concentration. Testosterone                       Health (NIH) Grant 1RO1-AG-14369; additional support was pro-
+
+                                    AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+            Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+E1180                                      TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS
+
+vided by Grants 1RO1-DK-49296, 1RO1-DK-59297–01, Federal                    18. Dahlberg E, Snochowski M, and Gustafsson J-A. Regula-
+Drug Administration Grant ODP 1397, a General Clinical Research                 tion of androgen and glucocorticoid receptors in rat and mouse
+Center Grant MO-00425, NIH-National Center for Research Re-                     skeletal muscle cytosol. Endocrinology 108: 1431–1440, 1981.
+sources-00954, RCMI Grants P20-RR-11145–01 (RCMI Clinical Re-               19. Dobs AS, Meikle AW, Arver S, Sanders SW, Caramelli KE,
+search Initiative) and G12-RR-03026. BioTechnology General (Iselin,             and Mazer NA. Pharmacokinetics, efficacy, and safety of a
+NJ) provided testosterone enanthate, and R. P. Debio (Martigny,                 permeation-enhanced testosterone transdermal system com-
+Switzerland) provided the GnRH agonist (Decapeptyl).                            pared with bi-weekly injections of testosterone enanthate for the
+                                                                                treatment of hypogonadal men. J Clin Endocrinol Metab 84:
+REFERENCES                                                                      3469–3478, 1999.
+ 1. Alexander GM, Swerdloff RS, Wang C, Davidson T, Mc-                     20. Faries D, Herrera J, Rayamajhi J, DeBrota D, Demitrack
+    Donald V, Steiner B, and Hines M. Androgen-behavior corre-                  M, and Potter WZ. The responsiveness of the Hamilton Depres-
+    lations in hypogonadal men and eugonadal men. II. Cognitive                 sion Rating Scale. J Psychiatr Res 34: 3–10, 2000.
+    abilities. Horm Behav 33: 85–94, 1998.                                  21. Fielder TJ, Peacock NR, McGivern RF, Swerdloff RS, and
+ 2. Antonio J, Wilson JD, and George FW. Effects of castration                  Bhasin S. Testosterone dose-dependency of sexual and nonsex-
+    and androgen treatment on androgen-receptor levels in rat skel-             ual behaviors in the gonadotropin-releasing hormone antago-
+    etal muscles. J Appl Physiol 87: 2016–2019, 1999.                           nist-treated male rat. J Androl 10: 167–173, 1989.
+ 3. Bagatell CJ, Heiman JR, Rivier JE, and Bremner WJ.                      22. Forbes GB. The effect of anabolic steroids on lean body mass:
+    Effects of endogenous testosterone and estradiol on sexual be-              the dose response curve. Metabolism 34: 571–573, 1985.
+    havior in normal young men. J Clin Endocrinol Metab 78: 711–            23. Forbes GB, Porta CR, Herr BE, and Griggs RC. Sequence of
+    716, 1994.                                                                  changes in body composition induced by testosterone and rever-
+ 4. Bassey EJ, Fiatarone MA, O’Neill EF, Kelly M, Evans WJ,                     sal of changes after drug is stopped. JAMA 267: 397–399, 1992.
+    and Lipsitz LA. Leg extensor power and functional perfor-               24. Fristad MA, Weller RA, and Weller EB. The Mania Rating
+    mance in very old men and women. Clin Sci (Colch) 82: 321–327,              Scale (MRS): further reliability and validity studies with chil-
+    1992.                                                                       dren. Ann Clin Psychiatry 7: 127–132, 1995.
+ 5. Bassey EJ and Short AH. A new method for measuring power                25. Gillum RF and Sempos CT. Hemoglobin, hematocrit, and
+    output in a single leg extension: feasibility, reliability and valid-       stroke incidence and mortality in women and men. Stroke 27:
+    ity. Eur J Appl Physiol 60: 385–390, 1990.                                  1910–1914, 1996.
+ 6. Bhasin S. The dose-dependent effects of testosterone on sexual          26. Griggs RC, Kingston W, Jozefowicz RF, Herr BE, Forbes
+    function and on muscle mass and function. Mayo Clin Proc 75,                G, and Halliday D. Effect of testosterone on muscle mass and
+    Suppl: S70–S75, 2000.                                                       muscle protein synthesis. J Appl Physiol 66: 498–503, 1989.
+ 7. Bhasin S and Bremner WJ. Clinical review 85: emerging                   27. Grinspoon S, Corcoran C, Askari H, Schoenfeld D, Wolf L,
+    issues in androgen replacement therapy. J Clin Endocrinol                   Burrows B, Walsh M, Hayden D, Parlman K, Anderson E,
+    Metab 82: 3–8, 1997.                                                        Basgoz N, and Klibanski A. Effects of androgen administra-
+ 8. Bhasin S, Fielder TJ, Peacock N, Sod-Moriah UA, and                         tion in men with the AIDS wasting syndrome: a randomized,
+    Swerdloff RS. Dissociating antifertility effects of GnRH-antag-             double-blind, placebo-controlled trial. Ann Intern Med 129: 18–
+    onist from its adverse effects on mating behavior in male rats.             26, 1998.
+    Am J Physiol Endocrinol Metab 254: E84–E91, 1988.                       28. Hornum M, Cooper DM, Brasel JA, Bueno A, and Sietsema
+ 9. Bhasin S, Storer TW, Berman N, Callegari C, Clevenger B,                    KE. Exercise-induced changes in circulating growth factors with
+    Phillips J, Bunnell TJ, Tricker R, Shirazi A, and Casaburi                  cyclic variation in plasma estradiol in women. J Appl Physiol 82:
+    R. The effects of supraphysiologic doses of testosterone on mus-            1946–1951, 1997.
+    cle size and strength in normal men. N Engl J Med 335: 1–6,             29. Janowsky JS, Oviatt SK, and Orwoll ES. Testosterone influ-
+    1996.                                                                       ences spatial cognition in older men. Behav Neurosci 108: 325–
+10. Bhasin S, Storer TW, Berman N, Yarasheski KE, Cleve-                        332, 1994.
+    neger B, and Casaburi RA. A replacement dose of testosterone            30. Katznelson L, Finkelstein JS, Schoenfeld DA, Rosenthal
+    increases fat-free mass and muscle size in hypogonadal men.                 DI, Anderson EJ, amd Klibanski A. Increase in bone density
+    J Clin Endocrinol Metab 82: 407–413, 1997.                                  and lean body mass during testosterone administration in men
+11. Bhasin S, Storer TW, Javanbakht M, Berman N, Yara-                          with acquired hypogonadism. J Clin Endocrinol Metab 81: 4358–
+    sheski KE, Phillips J, Dike M, Sinha-Hikim I, Shen R,                       4365, 1996.
+    Hays RD, and Beall G. Testosterone replacement and resis-               31. Kwan M, Greenleaf WJ, Mann J, Crapo L, and Davidson
+    tance exercise in HIV-infected men with weight loss and low                 JM. The nature of androgen action on male sexuality: a com-
+    testosterone levels. JAMA 283: 763–770, 2000.                               bined laboratory- self-report study on hypogonadal men. J Clin
+12. Brodsky IG, Balagopal P, and Nair KS. Effects of testoster-                 Endocrinol Metab 57: 557–562, 1983.
+    one replacement on muscle mass and muscle protein synthesis in          32. Lugg JA, Rajfer J, and Gonzalez-Cadavid NF. Dihydrotes-
+    hypogonadal men—a clinical research center study. J Clin En-                tosterone is the active androgen in the maintenance of nitric
+    docrinol Metab 81: 3469–3475, 1996.                                         oxide-mediated penile erection in the rat. Endocrinology 136:
+13. Buena F, Swerdloff RS, Steiner BS, Lutchmansingh P,                         1495–1501, 1995.
+    Peterson MA, Pandian MR, Galmarini M, and Bhasin S.                     33. Mauras N, Hayes V, Welch S, Veldhuis J, and Urban R.
+    Sexual function does not change when serum testosterone levels              Testosterone deficiency in young men: marked alterations in
+    are pharmacologically varied within the normal male range.                  whole body protein kinetics, strength, and adiposity. J Clin
+    Fertil Steril 59: 1118–1123, 1993.                                          Endocrinol Metab 83: 1886–1892, 1998.
+14. Byron JW. Effect of steroids on the cycling of haemopoietic stem        34. Meikle AW, Arver S, Dobs AS, Adolfsson J, Sanders SW,
+    cells. Nature 228: 1204–1206, 1970.                                         Middleton RG, Stephenson RA, Hoover DR, Rajaram L,
+15. Carani C, Granata AR, Bancroft J, and Marrama P. The                        and Mazer NA. Prostate size in hypogonadal men treated with
+    effects of testosterone replacement on nocturnal penile tumes-              a nonscrotal permeation-enhanced testosterone transdermal
+    cence and rigidity and erectile response to visual erotic stimuli in        system. Urology 49: 191–196, 1997.
+    hypogonadal men. Psychoneuroendocrinology 20: 743–753, 1995.            35. Naets JP and Wittek M. Mechanism of action of androgens on
+16. Cooper CS, Perry PJ, Sparks AE, MacIndoe JH, Yates WR,                      erythropoiesis. Am J Physiol 210: 315–320, 1966.
+    and Williams RD. Effect of exogenous testosterone on prostate           36. Negro-Vilar A. Selective androgen receptor modulators
+    volume, serum and semen prostate specific antigen levels in                 (SARMs): a novel approach to androgen therapy for the new
+    healthy young men. J Urol 159: 441–443, 1998.                               millennium. J Clin Endocrinol Metab 84: 3459–34362, 1999.
+17. Cunningham GR, Hirshkowitz M, Korenman SG, and Ka-                      37. Pavlou SN, Brewer K, Farley MG, Lindner J, Bastias MC,
+    racan I. Testosterone replacement therapy and sleep-related                 Rogers BJ, Swift LL, Rivier JE, Vale WW, and Conn PM.
+    erections in hypogonadal men. J Clin Endocrinol Metab 70:                   Combined administration of a gonadotropin-releasing hormone
+    792–797, 1990.                                                              antagonist and testosterone in men induces reversible azoosper-
+
+                                     AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+            Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+                                         TESTOSTERONE DOSE-RESPONSE RELATIONSHIPS                                                    E1181
+
+    mia without loss of libido. J Clin Endocrinol Metab 73: 1360–        45. Snyder PJ, Peachey H, Berlin JA, Hannoush P, Haddad G,
+    1369, 1991.                                                              Dlewati A, Santanna J, Loh L, Lenrow DA, Holmes JH,
+38. Pope HG and Jacobs A. Evidence for sex-specific residual                 Kapoor SC, Atkinson JE, and Strom BLE. Effects of testos-
+    effect of cannabis on visuo-spatial memory. Psychother Psycho-           terone replacement in hypogonadal men. J Clin Endocrinol
+    som 66: 179–184, 1997.                                                   Metab 85: 2670–2677, 2000.
+39. Rance NE and Max SR. Modulation of the cytosolic androgen            46. Snyder PJ, Peachey H, Hannoush P, Berlin JA, Loh L,
+    receptor in striated muscle by sex-steroids. Endocrinology 115:          Lenrow DA, Holmes JH, Dlewati A, Santanna J, Rosen CJ,
+    862–866, 1984.                                                           and Strom BL. Effect of testosterone treatment on body com-
+40. Rencricca NJ, Solomon J, Fimian WJ Jr, Howard D, Riz-                    position and muscle strength in men over 65 years of age. J Clin
+    zoli V, and Stohlman F Jr. The effect of testosterone on                 Endocrinol Metab 84: 2647–2653, 1999.
+    erythropoiesis. Scand J Haematol 6: 431–436, 1969.                   47. Tenover JS. Androgen replacement therapy to reverse and/or
+41. Salmimies P, Kockott G, Pirke KM, Vogt HJ, and Schill
+                                                                             prevent age-associated sarcopenia in men. Bailliere’s Clin Endo-
+    WB. Effects of testosterone replacement on sexual behavior in
+                                                                             crinol Metab 12: 419–425, 1998.
+    hypogonadal men. Arch Sex Behav 11: 345–353, 1982.
+                                                                         48. Van Goozen SH, Cohen-Kettenis PT, Gooren LJ, Frijda
+42. Siebers RW, Carter JM, and Maling TJ. Increase in haema-
+    tocrit in borderline hypertensive men. Clin Exp Pharmacol                NH, and Van de Poll NE. Activating effects of androgens on
+    Physiol 21: 401–403, 1994.                                               cognitive performance: causal evidence in a group of female-to-
+43. Sinha-Hikim I, Arver S, Beall G, Shen R, Guerrero M,                     male transsexuals. Neuropsychologia 32: 1153–1157, 1994.
+    Sattler F, Shikuma C, Nelson JC, Landgren BM, Mazer                  49. Wang C, Swedloff RS, Iranmanesh A, Dobs A, Snyder PJ,
+    NA, and Bhasin S. The use of a sensitive, equilibrium dialysis           Cunningham G, Matsumoto AM, Weber T, and Berman N.
+    method for the measurement of free testosterone levels in                Transdermal testosterone gel improves sexual function, mood,
+    healthy, cycling women, and in HIV-infected women. J Clin                muscle strength, and body composition parameters in hypogo-
+    Endocrinol Metab 83: 1312–1318, 1998.                                    nadal men. Testosterone Gel Study Group. J Clin Endocrinol
+44. Snyder PJ and Lawrence DA. Treatment of male hypogonad-                  Metab 85: 2839–2853, 2000.
+    ism with testosterone enanthate. J Clin Endocrinol Metab 51:         50. Wilson JD. Androgen abuse by athletes. Endocr Rev 9: 181–
+    1335–1339, 1980.                                                         199, 1988.
+
+
+
+
+                                   AJP-Endocrinol Metab • VOL 281 • DECEMBER 2001 • www.ajpendo.org
+
+
+
+           Downloaded from journals.physiology.org/journal/ajpendo (2600:4040:28DA:7700:B14C:40BC:7636:2835) on April 10, 2026.
+

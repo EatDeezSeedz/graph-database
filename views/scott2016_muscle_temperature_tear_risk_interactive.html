@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scott et al. (2016) - muscle temperature and tear risk</title>
+    <style>
+      :root{
+        --bg:#07101b;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#9fb3cb;
+        --red:#fb7185;
+        --amber:#f59e0b;
+        --blue:#60a5fa;
+        --green:#34d399;
+        --slate:#64748b;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(860px 520px at 10% 0%, rgba(239,68,68,.14), transparent 50%),
+          radial-gradient(980px 620px at 100% 0%, rgba(245,158,11,.10), transparent 48%),
+          linear-gradient(180deg,#06101b,#091421 54%,#08111b);
+      }
+      .wrap{max-width:1260px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--red);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:1.15fr .95fr;gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 12px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 10px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .matrix{
+        display:grid;
+        grid-template-columns:1.7fr repeat(6,minmax(60px,1fr));
+        gap:8px;
+      }
+      .cell{
+        border:1px solid var(--border);
+        border-radius:16px;
+        padding:12px 10px;
+        min-height:66px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        background:rgba(255,255,255,.03);
+      }
+      .head{font-size:12px;font-weight:750;background:rgba(255,255,255,.05)}
+      .rowhead{justify-content:flex-start;text-align:left;font-size:13px;font-weight:650}
+      .risk{background:rgba(251,113,133,.16); color:#fecdd3}
+      .safe{background:rgba(52,211,153,.16); color:#bbf7d0}
+      .mid{background:rgba(96,165,250,.16); color:#bfdbfe}
+      .notes{display:grid;gap:10px}
+      .note{border:1px solid var(--border);border-radius:16px;padding:12px;background:rgba(255,255,255,.03)}
+      .note .t{font-size:12px;font-weight:750}
+      .note .b{margin-top:5px;font-size:12px;line-height:1.5;color:var(--muted)}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:980px){
+        .meta,.grid{grid-template-columns:1fr}
+        .matrix{grid-template-columns:1.4fr repeat(6,minmax(52px,1fr))}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">Injury</div>
+        <h1>Scott et al. (2016) muscle temperature and tear risk</h1>
+        <p class="lede">This study tested whether colder muscle tears more easily. The key result was a clear threshold effect: below about 32°C, less impact energy was required to induce non-recoverable muscle deformation than at core-temperature conditions around 37°C.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Model</div><div class="v">Rat gastrocnemius and soleus</div></div>
+          <div class="pill"><div class="k">Temperature range</div><div class="v">17°C to 42°C</div></div>
+          <div class="pill"><div class="k">Main threshold</div><div class="v">Below 32°C = higher tear risk</div></div>
+          <div class="pill"><div class="k">Main pattern</div><div class="v">Cold muscle became stiffer at higher impacts</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Failure Energy Summary</h2>
+          <p class="sub">The paper reports a significant reduction in energy needed to cause failure at 17°C to 32°C versus 37°C, but the extracted text does not provide exact numeric energy values for every temperature, so this panel is an evidence-summary threshold map.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:#fb7185"></i>Higher tear risk / less energy needed</span>
+            <span><i class="sw" style="background:#34d399"></i>More protected / more energy needed</span>
+            <span><i class="sw" style="background:#60a5fa"></i>No reported separation from 37°C reference</span>
+          </div>
+          <div class="matrix">
+            <div class="cell head"></div>
+            <div class="cell head">17°C</div>
+            <div class="cell head">22°C</div>
+            <div class="cell head">27°C</div>
+            <div class="cell head">32°C</div>
+            <div class="cell head">37°C</div>
+            <div class="cell head">42°C</div>
+
+            <div class="cell rowhead">Energy required to induce non-recoverable deformation</div>
+            <div class="cell risk">Lower than 37°C</div>
+            <div class="cell risk">Lower than 37°C</div>
+            <div class="cell risk">Lower than 37°C</div>
+            <div class="cell risk">Lower than 37°C</div>
+            <div class="cell safe">Reference peak protection</div>
+            <div class="cell mid">Not reported as different from 37°C</div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>Elastic Rebound Duration</h2>
+          <p class="sub">The paper gives exact rebound-duration numbers for pooled cold versus warm tissue. At higher impact heights, cold tissue showed a shorter rebound duration, consistent with a stiffer response.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Cold (17°C to 32°C)</span>
+            <span><i class="sw" style="background:var(--amber)"></i>Warm (37°C to 42°C)</span>
+          </div>
+          <svg id="reboundChart" viewBox="0 0 620 320" aria-label="Rebound duration"></svg>
+        </article>
+
+        <aside class="card">
+          <h2>Study Notes</h2>
+          <p class="sub">The paper is most useful as a practical temperature threshold study.</p>
+          <div class="notes">
+            <div class="note">
+              <div class="t">Key takeaway</div>
+              <div class="b">Below roughly 32°C, muscle required less impact energy to fail than at core-temperature conditions. That supports warming peripheral muscle closer to 37°C before high-velocity activity.</div>
+            </div>
+            <div class="note">
+              <div class="t">Elastic behavior</div>
+              <div class="b">At low-impact loading there was no clear difference in elasticity between cold and warm muscle, but at higher energies the colder tissue responded more stiffly.</div>
+            </div>
+            <div class="note">
+              <div class="t">Practical implication</div>
+              <div class="b">The study argues that warm-up should not only stretch muscle groups, but also raise peripheral muscle temperature toward core levels, especially in cold environments.</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <p class="foot">Data source: Scott et al., <em>Bone Joint Res</em> 2016;5:61-65. The rebound-duration panel uses the exact published means, while the failure-energy panel is an explicit threshold summary because the extracted text reports significance across temperatures without listing exact energy values.</p>
+    </div>
+
+    <script>
+      function groupedBarChart(svgId, categories, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 62, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const vals = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...vals, 0);
+        const max = opts.max ?? Math.max(...vals);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        const groupW = w / categories.length;
+        const barW = Math.min(42, groupW / (series.length + 0.8));
+        let html = '';
+        for (let i = 0; i <= 5; i++) {
+          const v = yMin + i * (yMax - yMin) / 5;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb3cb">${fmt(v, opts.decimals)}</text>`;
+        }
+        categories.forEach((c, i) => {
+          const gx = m.l + i * groupW + groupW / 2;
+          html += `<text x="${gx}" y="${H-18}" text-anchor="middle" font-size="11" fill="#9fb3cb">${c}</text>`;
+        });
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb3cb">${opts.yLabel}</text>`;
+        series.forEach((s, si) => {
+          s.values.forEach((v, i) => {
+            const x = m.l + i * groupW + (groupW - series.length * barW) / 2 + si * barW;
+            const y0 = y(0), yv = y(v), top = Math.min(y0, yv), bh = Math.abs(y0 - yv);
+            html += `<rect x="${x}" y="${top}" width="${barW-4}" height="${Math.max(1,bh)}" rx="5" fill="${s.color}" />`;
+            html += `<text x="${x + (barW-4)/2}" y="${top-8}" text-anchor="middle" font-size="11" fill="${s.color}">${fmt(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+      function fmt(v, d) { return Number(v).toFixed(d ?? (Math.abs(v) < 10 ? 1 : 0)).replace(/\.0$/, ''); }
+
+      groupedBarChart(
+        'reboundChart',
+        ['20 mm', '30 mm', '40 mm'],
+        [
+          { color: '#60a5fa', values: [4.79, 4.17, 3.57] },
+          { color: '#f59e0b', values: [5.71, 5.55, 5.71] }
+        ],
+        { zero: true, decimals: 2, yLabel: 'Rebound duration (ms)' }
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,332 @@
+52.200BJR0010.1302/2046-3758.52.2000484
+research-article2016
+
+
+
+
+                                                                                                                                                     Freely available online open   Access
+
+
+
+
+                                                                                Research
+                                           BJR
+                                                                               Increased risk of muscle tears below
+                                                                               physiological temperature ranges
+
+                                          E. E. F. Scott,     Objectives
+                                          D. F. Hamilton,     Temperature is known to influence muscle physiology, with the velocity of shortening, relax-
+                                          R. J. Wallace,      ation and propagation all increasing with temperature. Scant data are available, however,
+                                          A. Y. Muir,         regarding thermal influences on energy required to induce muscle damage.
+                                          A. H. R. W. Simpson
+                                                              Methods
+                                                                               Gastrocnemius and soleus muscles were harvested from 36 male rat limbs and exposed to
+                                          University of                        increasing impact energy in a mechanical test rig. Muscle temperature was varied in 5°C
+                                          Edinburgh, Edinburgh,                increments, from 17°C to 42°C (to encompass the in vivo range). The energy causing non-
+                                          United Kingdom                       recoverable deformation was recorded for each temperature. A measure of tissue elasticity
+                                                                               was determined via accelerometer data, smoothed by low-pass fifth order Butterworth filter
+                                                                               (10 kHz). Data were analysed using one-way analysis of variance (ANOVA) and significance
+                                                                               was accepted at p = 0.05.
+
+                                                                               Results
+                                                                               The energy required to induce muscle failure was significantly lower at muscle temperatures
+                                                                               of 17°C to 32°C compared with muscle at core temperature, i.e., 37°C (p < 0.01). During low-
+                                                                               energy impacts there were no differences in muscle elasticity between cold and warm muscles
+                                                                               (p = 0.18). Differences in elasticity were, however, seen at higher impact energies (p < 0.02).
+
+                                                                               Conclusion
+                                          E. E. F. Scott, MBChB, BSc,
+                                                                               Our findings are of particular clinical relevance, as when muscle temperature drops below
+                                          MRCS, Surgical Trainee, University   32°C, less energy is required to cause muscle tears. Muscle temperatures of 32°C are reported
+                                          Hospital of North Durham, North      in ambient conditions, suggesting that it would be beneficial, particularly in colder environ-
+                                          Rd, Durham DH1 5TW, UK.
+                                          D. F. Hamilton, PhD, Research
+                                                                               ments, to ensure that peripheral muscle temperature is raised close to core levels prior to
+                                          Fellow, Department of Trauma         high-velocity exercise. Thus, this work stresses the importance of not only ensuring that the
+                                          and Orthopaedics, University of      muscle groups are well stretched, but also that all muscle groups are warmed to core tem-
+                                          Edinburgh, Edinburgh
+                                          EH16 4SB, UK.
+                                                                               perature in pre-exercise routines.
+                                          R. J. Wallace, PhD, Research
+                                          Fellow, Department of Trauma
+                                                                               Cite this article: Bone Joint Res 2016;5:61–65.
+                                          and Orthopaedics, University
+                                          of Edinburgh, Edinburgh EH16         Keywords: muscle; temperature; failure; injury
+                                          4SB, UK.
+                                          A. Y. Muir, MPhil, Co-director
+                                          (retired), Edinburgh Orthopaedic
+                                          Engineering Collaboration,
+                                          University of Edinburgh,             Article focus                                        When muscle temperature drops below
+                                          Edinburgh EH16 4SB, UK.               Temperature is known to influence mus-            core body temperature (37°C), less energy
+                                          A. H. R. W. Simpson, MBChB,           cle contractile properties, however, there        is required to cause a muscle tear.
+                                          BSc, MRCS, Professor of Trauma
+                                          and Orthopaedics, Orthopaedic           are limited data as to whether tempera-         There is a similar elastic response between
+                                          Surgeon, Department of Trauma           ture influences the energy required to            cold and warm tissue when the energy
+                                          and Orthopaedics, University
+                                                                                  induce muscle damage.                             input to the muscle is low, however, as
+                                          of Edinburgh, Edinburgh EH16
+                                          4SB, UK.                              The aim of this study was to investigate          the energy input increases, colder tissue
+                                                                                  the effect of temperature on the energy           displays a stiffer response and is more
+                                          Correspondence should be sent to
+                                          Professor A. H. R. W. Simpson;          required to achieve a permanent defor-            prone to damage.
+                                          e-mail: hamish.simpson@ed.ac.uk         mation of muscle tissue.                        Muscle temperatures of 32°C are reported
+                                          doi:10.1302/2046-3758.52.2000484                                                          in ambient conditions, suggesting that it
+                                                                               Key messages                                         may be prudent to ensure that peripheral
+                                          Bone Joint Res 2016;5:61–65.
+                                          Received: 26 June 2015;               The energy required to induce muscle fail-        muscle temperature is raised close to
+                                          Accepted: 22 January 2016               ure is influenced by muscle temperature.          core levels prior to high velocity exercise.
+
+                                          vol. 5, No. 2, february 2016                                                                                                                 61
+62                                E. E. F. Scott, D. F. Hamilton, R. J. Wallace, A. Y. Muir, A. H. R. W. Simpson
+
+
+Strengths and limitations
+ The experimental design allowed for an instantane-
+   ously applied high rate of strain along the lines of
+   muscle force, hence mimicking the situation where
+   muscle tears occur.
+ The primary limitation is that we assessed strain of                                       Muscle               Bone       Clamp
+   passive muscle using forced stretching of harvested
+   tissue. The benefit of this approach is that it allows
+   tight control of the test environment. However, it is
+   possible that the (untested) active component of
+                                                                                                                          Scale
+   force generation may also influence the failure energy.
+                                                                                                                             Laser
+
+
+Introduction                                                                                 Weight
+
+Skeletal muscle is regularly exposed to potentially injuri-
+ous forces. In sports, it is often suggested that up to 50%                                                    Fig. 1
+
+of all injuries are related to muscle,1,2 mostly due to                                     Diagram showing the experiemental setup.
+
+mechanical trauma,3 presenting a clinical challenge to
+primary care and sports medicine. Muscle strain typically                    The aim of this study was to investigate the effect of
+occurs through excessive tensile loads resulting in an                    temperature on the energy required to achieve a perma-
+‘overstretching’ of the muscle.3 With public health initia-               nent deformation of the muscle tissue, i.e., a tear. The
+tives to increase the activity level of the population (par-              secondary aim was to evaluate the influence of tempera-
+ticularly the most sedentary), there is a danger that rates               ture on muscle elastic properties.
+of disabling muscle tears may increase drastically.
+    ‘Warm-ups’ are recommended prior to exercise as they                   Materials and Methods
+are considered to reduce the risk of injury and increase per-             In total, 18 pairs of hind limbs were obtained from the
+formance.4,5 However, the nature of the warm-up varies                    cadavers of ex-breeder Sprague-Dawley rats with a mean
+widely and often concentrates on stretching rather than                   weight of 421 (sd 40) grams. Within ten minutes of death
+increasing the temperature of the muscle. The warming                     the limbs were skinned, and gastrocnemius and soleus
+component of the warm-up is recommended to be one                         exposed. The remaining musculature of the thigh and
+that produces a mild sweat without fatiguing the individ-                 lower limb were removed, and tibia and fibula cut. Each
+ual.6 Current warm-ups are not aimed specifically at                      gastrocnemius/soleus muscle group was heated to one
+increasing the temperature of peripheral muscles. Yet, the                of six specific temperatures (ranging from 17°C to 42°C,
+muscle temperature can vary widely and is dependent on                    in 5°C increments) in a saline bath. The length of the
+its location, the activity level and the ambient environmen-              muscle was measured before clamping the femoral con-
+tal conditions. As a result, large temperature gradients can              dyles and foot of the rat. A thermocouple (RS IEC
+exist with muscles. Although core body temperature is kept                Electrocomponents plc, Oxford, United Kingdom) was
+relatively constant, this is often at the expense of the periph-          embedded in the muscle to maintain constant measure-
+eral ­tissues.7 In moderate environmental conditions, the                 ment of temperature.
+deep musculature maintains core body temperature, how-                       The muscle attachments (femur and foot) were
+ever, superficial muscles, such as the hamstrings and rota-               clamped, taking care to ensure that the muscle was not
+tor cuff muscles, can have temperatures in the low 30s, and               trapped. The clamps and muscle were surrounded by a
+remarkably, even in the mid 20s, in cold environments.8                   plastic insulating envelope which prevented drying. Two
+    The effect of muscle temperature on muscle tears is                   20W halogen lamps focused on the envelope were used
+poorly studied, and only scant experimental data are                      to keep the temperature constant. Resting lengths of the
+available regarding thermal influences on the energy                      muscles were measured under test conditions (preload of
+required to induce muscle strain. Noonan et al8 investi-                  clamp = 186.5 g) using a cross generating red laser
+gated the influence of temperature on muscles when                        (λ = 635 nm, Global MaxiBrite Miniature Series, Class 2
+they were stretched gradually at either 25°C or 40°C and                  (Global Laser Ltd, Gwent, United Kingdom)) mounted on
+found that the mean stiffness was higher in cold muscles,                 the frame. A rule attached to the lower clamp enabled
+implying that warming may be protective of injury. As                     measurements to be taken within 1 mm (Fig. 1).
+indicated above, peripheral muscle temperatures are                          A known mass (97.1 g) was dropped from 20 mm, caus-
+often below core temperature, yet the effect of different                 ing an impact load on the muscle. The drop height was
+temperatures across this in vivo range on the risk of injury              increased in steps of 10 mm until failure was observed. An
+when muscles are subjected to explosive, potentially                      accelerometer (PCB 353B18 (PCB Piezotronics Inc., Depew,
+tearing forces, is unknown.                                               New York) was attached to the lower clamp, and digitally
+
+                                                                                                                                     BONE & JOINT RESEARCH
+                                        Increased risk of muscle tears below physiological temperature ranges                            63
+
+
+Table I. Test group baseline characteristics (mean, (standard deviation)).
+
+Temperature (°)                          17                    22                27                32               37             42
+
+n                                        6                     6                  6                6                 6              6
+rat weight (g)                      440.7 (54.5)           395.3 (9.3)       430.3 (16.3)     426.7 (15.4)      452.3 (47.4)   382.3 (48.6)
+muscle length (mm)                   47.5 (1.0)            46.7 (0.5)         47.2 (0.8)       46.2 (0.8)        46.7 (0.5)     46.5 (0.5)
+
+
+
+
+recorded on a picoscope (Pico Technology, Cambridgeshire,                       As energy to failure highlighted an apparent dichot-
+United Kingdom) data acquisition system. In total, six limbs                 omy above and below 32°C, 17°C to 32°C were grouped
+(three rats) were used for each of the six temperatures. The                 as ‘cold’ and 37°C to 42°C grouped as ‘warm’ for further
+initial length and length after one minute were recorded, so                 analysis. Elasticity was defined as a function of the accel-
+that the muscle had adequate time to recover after impact                    eration and rebound time (Fig. 3). When investigating a
+loading. A 1 mm difference in muscle length indicated that                   20 mm drop height, there was no difference in muscle
+the muscle had lengthened and sustained a non-recovera-                      elasticity between cold and warm temperatures
+ble deformation such as a muscle tear. The drop height at                    (p = 0.18). Differences in elasticity were, however, seen at
+which this occurred determined the failure energy.                           drop heights of 30 mm (p = 0.02) and at 40 mm (p = 0.01)
+    The output from the accelerometer was fed into a cus-                    (Table II).
+tom MatLab (Mathworks, Natick, Massachusetts) script
+where the data were smoothed by passing through a low-                       Discussion
+pass fifth order Butterworth filter (10 kHz). The maximum                    Previous studies have examined the effect of temperature
+and minimum values were identified and the difference in                     on the active component of the muscle.8-11 In these, tem-
+time between these two extremes was extracted. This                          perature was found to influence muscle function. specifi-
+time value was representative of the time it took for the                    cally to affect maximal force and endurance time9,10 as
+muscle to undergo maximum acceleration and rebound                           well as the velocity of shortening8 and the amplitude of
+which we have defined as elasticity, and can be taken as a                   muscle action potentials.11 The current study has focused
+representative measure of the stiffness of the muscle t­ issue               on the passive properties of the muscle.
+before failure.                                                                 The aim of this study was to determine the effect of
+    Histological specimens were obtained from limbs                          temperature on the energy required to achieve a perma-
+immediately following test to failure. These samples were                    nent deformation of muscle tissue such as a tear. We
+fixed in formalin and embedded in paraffin. Serial sec-                      found that when muscle temperature drops below core
+tions were cut and stained with haematoxylin and eosin                       body temperature (37°C), less energy was required to
+(H&E). These sections confirmed that there was disrup-                       cause a muscle tear. Importantly, there was no differ-
+tion of the connective tissue component of the muscle.                       ence in the energy required to cause non-recoverable
+    Specific IRB approval was not required for this article                  muscle tissue deformation between the temperature
+as cadaveric animal tissue was used; this was done under                     ranges of 17°C and 32°C, suggesting that even modest
+the appropriate United Kingdom licence at an approved                        reductions in peripheral muscle temperature may be
+laboratory, and according to local animal welfare policy.                    associated with tears.
+Statistical analysis. Data are reported with means and                          Previously, it has been suggested that an increased
+standard deviations (sd) as a measure of dispersion.                         temperature may reduce the elastic modulus.12 Our
+Differences in failure energy were evaluated by one-                         results concur with this as we found that when the energy
+way analysis of variance (ANOVA) with post hoc pairwise                      input to the muscle was ‘low’ there was a similar elastic
+comparison (Tukey HSD test). Data were assessed in                           response between cold and warm tissue. However, as this
+SPSS version 19 (IBM, Armonk, New York) and MatLab                           energy input increased, colder tissue displayed a signifi-
+(Mathworks, Natick, Massachusetts).                                          cantly stiffer response and was more prone to damage.
+                                                                             We defined cold muscle as that below 32°C. This is of par-
+Results                                                                      ticular clinical relevance, as this muscle temperature is
+The number of test limbs, animal mass, and pre-test mus-                     reported in ambient conditions.8 These findings perhaps
+cle length were similar between temperature groups                           highlight the importance of a graded warm-up regimen
+(p = 0.2, Table I).                                                          (incorporating low energy exercise) aimed at raising
+   Energy at muscle failure differed with temperature                        peripheral muscle temperatures to over 32°C prior to
+(Fig. 2). The energy at failure was significantly lower at                   structured exercise, particularly in cold environmental
+32°C and below (Fig. 2, one way ANOVA, p < 0.01). Post                       temperatures. However, in an experimental model,
+hoc Tukey pairwise comparisons highlighted that tem-                         Saffran et al4 found that preconditioning of the muscle
+peratures of 37°C and 42°C differed from the other tem-                      only produced an increase in temperature of 1°C. This
+peratures, but not from each other.                                          modest effect on the muscle temperature may in part
+
+vol. 5, No. 2, february 2016
+   64                                          E. E. F. Scott, D. F. Hamilton, R. J. Wallace, A. Y. Muir, A. H. R. W. Simpson
+
+
+                0.080                              P < 0.01                            warm-ups.15,16 Thus, although current warm-ups may
+                                                                                       have a beneficial effect on improving performance,14
+                0.070
+                                                                                       there is no evidence that the warm-ups as they are cur-
+                0.060                                                                  rently performed reduce the risk of injury.
+                0.050
+                                                                                            These findings, along with our results, suggest that in
+  Energy (J)
+
+
+
+
+                                                                                       colder climates muscle activity alone may not be suffi-
+                0.040                                                                  cient to maintain the muscle temperature at a level that
+                0.030                                                                  minimises the risk of injury, i.e., over 32°C. Thus in cold,
+                                                                                       wet or windy conditions which will reduce the muscle
+                0.020                                                                  temperature, clothing specifically designed to maintain
+                0.010                                                                  the temperature of peripheral muscles closer to core tem-
+                                                                                       perature may be of great benefit in reducing the number
+                0.000
+                        17       22        27       32        37            42         of muscle tears.
+                                      Muscle temperature (°C)                               The experimental design allowed an instantaneously
+                                          Fig. 2                                       applied high rate of strain along the lines of muscle force
+          Graphs showing energy to cause permanent post-loading deformation.           which mimics the situation where muscle tears occur. The
+                                                                                       primary limitation of this work, however, is that we
+                                                                                       assessed strain of passive muscle using forced stretching
+               100      17°C                                                           of harvested tissue. The benefit of this approach was that
+                        42°C     ∆time @17°C
+               80                                                                      it allowed tight control of the test environment, however,
+                                   ∆time @42°C                                         it is possible that the additional active component of force
+               60                                                                      generation may influence the failure energy. While we
+               40
+                                                                                       acknowledge that our experimental design does not
+                                                                                       directly replicate the clinical situation, we believe the find-
+Voltage (mV)
+
+
+
+
+               20                                                                      ings are clinically relevant as the connective tissue compo-
+                                                                                       nent is likely to behave in a similar manner both ex vivo
+                 0
+                                                                                       and in vivo.
+               –20                                                                          Muscle strains result in significant morbidity. The
+                                                                                       healthcare burden and economic impact of these inju-
+               –40                                                                     ries may increase in tandem with public health initia-
+               –60
+                                                                                       tives to increase activity and sports participation. As
+                                                                                       such, it is important that preventative strategies are
+               –80                                                                     employed to mitigate the risk of injury. Our findings
+                  –5         0           5        10              15             20
+                                         Time (mths)                                   indicate that when peripheral muscle temperature
+                                          Fig. 3                                       drops, less energy is required to cause muscle tears.
+Graph showing the effect of muscle temperature on duration of elongation.              Some could be prevented, particularly in colder envi-
+Example accelerometer graphs from dynamic testing of muscle tissue at cold             ronments, by ensuring that peripheral muscle tempera-
+(17°C) and warm (42°C) temperatures. Acceleration is derived from the volt-
+                                                                                       ture is raised close to core levels prior to high velocity
+age output. The time taken from maximum to minimum acceleration values
+was used as an indication of muscle stiffness.                                         exercise.
+
+
+Table II. Muscle rebound duration by drop height (mean, standard                        References
+deviation).                                                                              1. Järvinen TAH, Järvinen TLN, Kääriäinen M, Kalimo H, Järvinen M. Biology of
+                                                                                            muscle trauma. Am J Sports Med 2005;33:745-766.
+                                         Rebound                                         2. Garrett WE Jr. Muscle strain injuries. Am J Sports Med 1996;24(6 Suppl):S2-S8.
+Height                  Group            duration (ms)            p-value                3. Järvinen TA, Järvinen TL, Kääriäinen M, et al. Muscle injuries: optimising
+                                                                                            recovery. Best Pract Res Clin Rheumatol 2007;21:317-331.
+20 mm                   cold             4.79 (1.19)              0.18                   4. Safran MR, Garrett WE Jr, Seaber AV, Glisson RR, Ribbeck BM. The role of
+                        warm             5.71 (1.86)
+                                                                                            warmup in muscular injury prevention. Am J Sports Med 1988;16:123-129.
+30 mm                   cold             4.17 (1.54)              0.02
+                                                                                         5. Faulkner SH, Ferguson RA, Gerrett N, et al. Reducing muscle temperature
+                        warm             5.55 (1.29)
+                                                                                            drop after warm-up improves sprint cycling performance. Med Sci Sports Exerc
+40 mm                   cold             3.57 (0.78)              0.01
+                                                                                            2013;45:359-365.
+                        warm             5.71 (2.26)
+                                                                                         6. Woods K, Bishop P, Jones E. Warm-up and stretching in the prevention of muscular
+                                                                                            injury. Sports Med 2007;37:1089-1099.
+                                                                                         7. Holewijn M, Heus R. Effects of temperature on electromyogram and muscle
+explain the lack of clarity in the current evidence base                                    function. Eur J Appl Physiol Occup Physiol 1992;65:541-545.
+                                                                                         8. Noonan TJ, Best TM, Seaber AV, Garrett WE Jr. Thermal effects on skeletal
+regarding the effectiveness of pre-exercise warm-up.13,14
+                                                                                            muscle tensile behavior. Am J Sports Med 1993;21:517-522.
+Indeed, no ‘reduction in risk’ of injury was reported from                               9. Bennett AF. Thermal dependence of muscle function. Am J Physiol 1984;247
+trials examining pre-exercise and post half-time                                            (2 Pt 2):R217-R229.
+
+
+                                                                                                                                                 BONE & JOINT RESEARCH
+                                             Increased risk of muscle tears below physiological temperature ranges                                                                  65
+
+
+10. Brooks GAK, Hittelman KJ, Faulkner JA, Beyer RE. Temperature, skeletal
+                                                                                            Funding Statement:
+    muscle mitochondrial functions, and oxygen debt. Am J Physiol 1971;220:1053-1059.        None declared.
+11. Ricker K, Hertel G, Stodieck G. Increased voltage of the muscle action potential of
+    normal subjects after local cooling. J Neurol 1977;216:33-38.                           Author Contribution:
+                                                                                             E. E. F. Scott, Experimental design, data collection, data analysis, writing the paper.
+12. James RS. A review of the thermal sensitivity of the mechanics of vertebrate             D. F. Hamilton, Data analysis, writing the paper.
+    skeletal muscle. J Comp Physiol B 2013;183:723-733.                                      R. J. Wallace, Data analysis, writing the paper.
+                                                                                             A. Y. Muir, Experimental design, writing the paper.
+13. Bishop D. Warm up I: potential mechanisms and the effects of passive warm up on
+                                                                                             A. H. R. W. Simpson, Experimental design, writing the paper.
+    exercise performance. Sports Med 2003;33:439-454.
+14. Fradkin AJ, Zazryn TR, Smoliga JM. Effects of warming-up on physical                    ICMJE conflict of interest:
+                                                                                             Dr Hamilton reports funding received from Stryker and ARUK, none of which is
+    performance: a systematic review with meta-analysis. J Strength Cond Res                   related to this article.
+    2010;24:140-148.                                                                         Professor Simpson reports funding received from Stryker, RCSEd, OTCF, ARUK,
+15. Pope RP, Herbert RD, Kirwan JD, Graham BJ. A randomized trial of preexercise               ORUK, and EPSRC, none of which is related to this article.
+
+    stretching for prevention of lower-limb injury. Med Sci Sports Exerc 2000;32:271-277.   © 2016 Sims et al. This is an open-access article distributed under the terms of the
+16. Bixler B, Jones RL. High-school football injuries: effects of a post-halftime warm-     Creative Commons Attributions licence (CC-BY-NC), which permits unrestricted use,
+                                                                                            distribution, and reproduction in any medium, but not for commercial gain, provided
+    up and stretching routine. Fam Pract Res J 1992;12:131-139.                             the original author and source are credited.
+
+
+
+
+vol. 5, No. 2, february 2016
+

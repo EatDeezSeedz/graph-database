@@ -195,6 +195,7 @@
       // Must be defined before any curve computation.
       const flipNonPec = true;
 
+      const isRotatorCuff = name => /Subscapularis|Supraspinatus|Infraspinatus|Teres minor/.test(name);
       const muscles = [
         { name: "Subscapularis (sup)", maxMm: -9.5,  maxDeg: 94, minMm: 7.2,   minDeg: 2.5,  measuredMin: 2.5 },
         { name: "Subscapularis (mid)", maxMm: -12.7, maxDeg: 94, minMm: 1.3,   minDeg: 2.5,  measuredMin: 2.5 },
@@ -207,7 +208,7 @@
         { name: "Latissimus dorsi (sup)", maxMm: -29.9, maxDeg: 71, minMm: -4.4,  minDeg: 10,  measuredMin: 10 },
         { name: "Latissimus dorsi (mid)", maxMm: -38.6, maxDeg: 64, minMm: -16.9, minDeg: 10,  measuredMin: 10 },
         { name: "Latissimus dorsi (inf)", maxMm: -38.1, maxDeg: 71, minMm: -3.3,  minDeg: 10,  measuredMin: 10 },
-      ].map((m, i) => ({ ...m, color: palette[i % palette.length], visible: true, measuredMax: 120 }));
+      ].map((m, i) => ({ ...m, color: palette[i % palette.length], visible: !isRotatorCuff(m.name), measuredMax: 120 }));
 
       function coeffsFrom3(anchors) {
         const [x1, y1] = anchors[0];

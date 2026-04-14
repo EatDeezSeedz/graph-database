@@ -1,4 +1,4 @@
-ï»¿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@
       .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
       .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
-      select,option,optgroup{background:#111827;color:var(--text)} .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      select,option,optgroup{background:#111827;color:var(--text)} .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(250px,29vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -60,8 +60,8 @@
     <script>
       const COLORS={mj:'#60a5fa',sj:'#22c55e'};
       const MODES={
-        thickness:{label:'Muscle thickness (mm)',subtitle:'Table 2 pre and post elbow flexor muscle thickness after 10 weeks of training.',hint:'Both groups increased muscle thickness similarly: MJ +6.10%, SJ +5.83%.',overlay:'Hover = mean Â± SD muscle thickness',yLabel:'Muscle thickness (mm)',categories:['Pre','Post'],series:[{name:'Multi-joint (lat pulldown)',color:COLORS.mj,values:[31.80,33.74],errors:[3.76,3.40],note:'n = 14'},{name:'Single-joint (biceps curl)',color:COLORS.sj,values:[28.79,30.47],errors:[2.76,4.67],note:'n = 15'}]},
-        torque:{label:'Peak torque (Nm)',subtitle:'Table 2 concentric elbow-flexor peak torque before and after training.',hint:'Strength gains were also similar: MJ +10.40%, SJ +11.87%.',overlay:'Hover = mean Â± SD peak torque',yLabel:'Peak torque (Nm)',categories:['Pre','Post'],series:[{name:'Multi-joint (lat pulldown)',color:COLORS.mj,values:[49.26,54.38],errors:[9.49,10.08],note:'n = 14'},{name:'Single-joint (biceps curl)',color:COLORS.sj,values:[49.69,55.59],errors:[10.50,10.61],note:'n = 15'}]},
+        thickness:{label:'Muscle thickness (mm)',subtitle:'Table 2 pre and post elbow flexor muscle thickness after 10 weeks of training.',hint:'Both groups increased muscle thickness similarly: MJ +6.10%, SJ +5.83%.',overlay:'Hover = mean ± SD muscle thickness',yLabel:'Muscle thickness (mm)',categories:['Pre','Post'],series:[{name:'Multi-joint (lat pulldown)',color:COLORS.mj,values:[31.80,33.74],errors:[3.76,3.40],note:'n = 14'},{name:'Single-joint (biceps curl)',color:COLORS.sj,values:[28.79,30.47],errors:[2.76,4.67],note:'n = 15'}]},
+        torque:{label:'Peak torque (Nm)',subtitle:'Table 2 concentric elbow-flexor peak torque before and after training.',hint:'Strength gains were also similar: MJ +10.40%, SJ +11.87%.',overlay:'Hover = mean ± SD peak torque',yLabel:'Peak torque (Nm)',categories:['Pre','Post'],series:[{name:'Multi-joint (lat pulldown)',color:COLORS.mj,values:[49.26,54.38],errors:[9.49,10.08],note:'n = 14'},{name:'Single-joint (biceps curl)',color:COLORS.sj,values:[49.69,55.59],errors:[10.50,10.61],note:'n = 15'}]},
         relative:{label:'Relative change (%)',subtitle:'Reported percentage changes over the 10-week intervention.',hint:'This is the clean summary view: both exercise selections produced nearly identical hypertrophy and strength gains.',overlay:'Hover = reported percent change',yLabel:'Change (%)',categories:['Muscle thickness','Peak torque'],series:[{name:'Multi-joint (lat pulldown)',color:COLORS.mj,values:[6.10,10.40],errors:[0,0],note:'Reported delta %'},{name:'Single-joint (biceps curl)',color:COLORS.sj,values:[5.83,11.87],errors:[0,0],note:'Reported delta %'}]}
       };
 
@@ -85,6 +85,7 @@
       let layout=null;
 
       Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
 
       function initVisible(){ for(const s of MODES[mode].series){ if(!(s.name in visible)) visible[s.name]=true; } }
       function activeSeriesList(){ return MODES[mode].series.filter(s=>visible[s.name]); }
@@ -161,7 +162,7 @@
 
       function pointerPos(ev){ const r=stage.getBoundingClientRect(); return {x:ev.clientX-r.left,y:ev.clientY-r.top}; }
       function hitBar(p){ if(!layout) return null; return layout.bars.findLast(b=>p.x>=b.x&&p.x<=b.x+b.w&&p.y>=b.y&&p.y<=b.y+b.h); }
-      function updateTooltip(ev){ const p=pointerPos(ev); const hit=hitBar(p); hover=hit; if(!hit){ tooltip.style.display='none'; return; } tooltip.style.display='block'; tooltip.style.left=`${Math.min(stage.clientWidth-180,p.x+14)}px`; tooltip.style.top=`${Math.max(8,p.y-10)}px`; tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.category}</div><div>${MODES[mode].yLabel}: <strong>${hit.value.toFixed(2)}</strong>${mode==='relative'?'%':''}</div>${hit.error?`<div>SD: Â±${hit.error.toFixed(2)}</div>`:''}<div>${hit.note}</div>`; }
+      function updateTooltip(ev){ const p=pointerPos(ev); const hit=hitBar(p); hover=hit; if(!hit){ tooltip.style.display='none'; return; } tooltip.style.display='block'; tooltip.style.left=`${Math.min(stage.clientWidth-180,p.x+14)}px`; tooltip.style.top=`${Math.max(8,p.y-10)}px`; tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.category}</div><div>${MODES[mode].yLabel}: <strong>${hit.value.toFixed(2)}</strong>${mode==='relative'?'%':''}</div>${hit.error?`<div>SD: ±${hit.error.toFixed(2)}</div>`:''}<div>${hit.note}</div>`; }
 
       modeSel.addEventListener('change',e=>{ mode=e.target.value; activeSeries=null; fit(); renderLegend(); resize(); });
       btnFit.addEventListener('click',fit);
@@ -173,8 +174,12 @@
       stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const cats=MODES[mode].categories.length; const span=Math.max(1,cats/zoomX); const pxPerCat=(layout?.plot.w||stage.clientWidth)/span; panX=drag.panX-(e.clientX-drag.x)/Math.max(1,pxPerCat); draw(); updateTooltip(e); });
       stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
       stage.addEventListener('pointerleave',()=>{ tooltip.style.display='none'; });
-      window.addEventListener('resize',resize);
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
       renderLegend(); resize();
     </script>
   </body>
 </html>
+
+
+
+

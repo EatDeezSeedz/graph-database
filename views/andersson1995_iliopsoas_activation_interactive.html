@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Andersson et al. (1995) - Psoas and iliacus activation</title>
+    <style>
+      :root{--bg:#0b0f17;--panel:rgba(17,24,39,.55);--panel2:rgba(15,23,42,.66);--text:#e5e7eb;--muted:#9ca3af;--border:rgba(255,255,255,.08);--btn:rgba(255,255,255,.08);--btnHover:rgba(255,255,255,.12)}
+      *{box-sizing:border-box} html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 900px at 20% 10%,rgba(96,165,250,.14),transparent 45%),radial-gradient(900px 700px at 80% 15%,rgba(34,197,94,.10),transparent 45%),var(--bg);color:var(--text);overflow:hidden}
+      .wrap{min-height:100dvh;height:100%;display:grid;grid-template-rows:auto 1fr}
+      .top{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;border-bottom:1px solid var(--border);background:var(--panel);backdrop-filter:blur(12px);align-items:center}
+      .title{font-weight:750;font-size:13px}
+      .subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
+      .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+      .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}
+      .btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
+      select,option,optgroup{background:#111827;color:var(--text)}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:260px;line-height:1.25;text-align:right}
+      .main{display:grid;grid-template-columns:minmax(260px,30vw) 1fr;min-height:0}
+      .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
+      .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
+      .check{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--border);border-radius:14px;margin:8px 4px;background:rgba(0,0,0,.14);cursor:pointer}
+      .check.active{border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.09)}
+      .swatch{width:12px;height:12px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+      .check label{font-size:12px;font-weight:650}
+      .hint{margin:8px 4px 0;font-size:12px;color:var(--muted);line-height:1.45}
+      .stage{position:relative;overflow:hidden;min-width:0;height:min(46dvh,calc(100dvh - 220px));min-height:300px}
+      canvas{width:100%;height:100%;display:block}
+      .overlay{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:14px;padding:8px 10px;color:var(--muted);font-size:12px;backdrop-filter:blur(8px)}
+      .tooltip{position:absolute;pointer-events:none;background:rgba(0,0,0,.82);border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text);font-size:12px;display:none;z-index:20;backdrop-filter:blur(8px);max-width:340px}
+      .tooltip .muted{color:var(--muted);font-weight:650}
+      @media (max-width:860px){html,body{height:auto;overflow:auto}body{overflow:auto}.wrap{height:auto;min-height:100vh;grid-template-rows:auto auto}.top{grid-template-columns:1fr}.controls{justify-content:flex-start;gap:6px}.btn,select{padding:6px 9px;font-size:11px}.status{width:100%;white-space:normal;text-align:left;max-width:none}.subtitle,.overlay{display:none}.main{display:flex;flex-direction:column}.left{border-right:none;border-bottom:1px solid var(--border);order:2;max-height:min(16rem,24dvh)}.stage{order:1;min-height:clamp(260px,48dvh,400px)}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div>
+          <div class="title">Andersson et al. (1995) - Psoas and iliacus activation</div>
+          <div id="subtitle" class="subtitle"></div>
+        </div>
+        <div class="controls">
+          <select id="mode"></select>
+          <button id="btnFit" class="btn">Fit</button>
+          <div id="status" class="status"></div>
+        </div>
+      </div>
+      <div class="main">
+        <aside class="left">
+          <div class="sectionTitle">Toggle series</div>
+          <div id="legend"></div>
+          <div id="hint" class="hint"></div>
+        </aside>
+        <div id="stage" class="stage">
+          <canvas id="canvas"></canvas>
+          <div id="overlay" class="overlay"></div>
+          <div id="tooltip" class="tooltip"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const SERIES_META={
+        psoas:{label:'Psoas',color:'#60a5fa',note:'Selective or dominant in upright sitting with a straight back and in some spine-stabilization situations.'},
+        iliacus:{label:'Iliacus',color:'#22c55e',note:'Selective or dominant in some pelvis-stabilization tasks, especially contralateral hip extension in standing.'}
+      };
+      const MODES={
+        stabilization:{
+          label:'Stabilization tasks',
+          subtitle:'Exact task-level relative EMG values from Andersson et al. 1995 showing selective recruitment patterns in posture and unilateral standing.',
+          hint:'This is the clearest indirect NMM view from the paper: iliacus dominates contralateral hip extension in standing, while psoas shows selective involvement in straight-backed sitting and contralateral loading/stabilization tasks.',
+          overlay:'Bars = relative EMG (% of each muscle’s study maximum)',
+          yLabel:'Relative EMG amplitude (%)',
+          categories:['Sitting straight back','Contralateral load 34 kg','Contralateral hip ext max'],
+          data:{psoas:[9,11,4],iliacus:[4,0,26]}
+        },
+        supine:{
+          label:'Supine flexion tasks',
+          subtitle:'Exact static supine exercise values reported by Andersson et al. 1995.',
+          hint:'In supported hip-flexion exercises from supine, psoas and iliacus are coactivated, but psoas rises highest in the bent-leg supported trunk-lift condition.',
+          overlay:'Bars = relative EMG (% of each muscle’s study maximum)',
+          yLabel:'Relative EMG amplitude (%)',
+          categories:['Trunk lift 60 deg straight','Trunk lift 60 deg bent','Bilateral leg lift 60 deg','Ipsilateral leg lift 60 deg'],
+          data:{psoas:[52,88,59,58],iliacus:[42,60,55,59]}
+        }
+      };
+      const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
+      const stage=document.getElementById('stage'),legend=document.getElementById('legend'),hint=document.getElementById('hint'),overlay=document.getElementById('overlay'),subtitle=document.getElementById('subtitle'),tooltip=document.getElementById('tooltip'),status=document.getElementById('status');
+      const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit');
+      let mode='stabilization',visible={psoas:true,iliacus:true};
+      let bars=[];
+      Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      function activeKeys(){ return Object.keys(visible).filter(k=>visible[k]); }
+      function applyMode(){ modeSel.value=mode; subtitle.textContent=MODES[mode].subtitle; hint.textContent=MODES[mode].hint; overlay.textContent=MODES[mode].overlay; renderLegend(); resize(); }
+      function fit(){ draw(); }
+      function resize(){ const dpr=window.devicePixelRatio||1, rect=stage.getBoundingClientRect(); canvas.width=Math.round(rect.width*dpr); canvas.height=Math.round(rect.height*dpr); ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+      function draw(){
+        const rect=stage.getBoundingClientRect(),w=rect.width,h=rect.height; if(!w||!h) return;
+        ctx.clearRect(0,0,w,h);
+        const plot={x:84,y:24,w:Math.max(140,w-116),h:Math.max(140,h-96)};
+        const cfg=MODES[mode], keys=activeKeys(), maxY=100;
+        bars=[];
+        ctx.strokeStyle='rgba(255,255,255,.08)'; ctx.lineWidth=1; ctx.fillStyle='rgba(229,231,235,.84)'; ctx.font='12px system-ui';
+        for(let y=0;y<=maxY+0.001;y+=20){ const py=plot.y+plot.h-(y/maxY)*plot.h; ctx.beginPath(); ctx.moveTo(plot.x,py); ctx.lineTo(plot.x+plot.w,py); ctx.stroke(); ctx.textAlign='right'; ctx.textBaseline='middle'; ctx.fillText(`${Math.round(y)}`,plot.x-10,py); }
+        const groupWidth=plot.w/cfg.categories.length;
+        const barWidth=Math.min(28,groupWidth*0.26);
+        cfg.categories.forEach((cat,i)=>{
+          const center=plot.x+((i+0.5)/cfg.categories.length)*plot.w;
+          keys.forEach((k,j)=>{
+            const v=cfg.data[k][i];
+            const x=center + (j===0?-barWidth-4:4), y=plot.y+plot.h-(v/maxY)*plot.h, hBar=plot.y+plot.h-y;
+            const meta=SERIES_META[k];
+            ctx.fillStyle=meta.color; ctx.globalAlpha=.92; ctx.fillRect(x,y,barWidth,hBar); ctx.globalAlpha=1; ctx.strokeStyle='rgba(255,255,255,.15)'; ctx.strokeRect(x,y,barWidth,hBar);
+            bars.push({bar:{x,y,w:barWidth,h:hBar},label:`${cat} - ${meta.label}`,value:v,note:meta.note});
+          });
+          ctx.fillStyle='rgba(229,231,235,.78)'; ctx.textAlign='center'; ctx.textBaseline='top';
+          wrapText(cfg.categories[i],center,plot.y+plot.h+8,groupWidth-12,14);
+        });
+        ctx.strokeStyle='rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(plot.x,plot.y); ctx.lineTo(plot.x,plot.y+plot.h); ctx.lineTo(plot.x+plot.w,plot.y+plot.h); ctx.stroke();
+        ctx.save(); ctx.translate(22,plot.y+plot.h/2); ctx.rotate(-Math.PI/2); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillStyle='rgba(229,231,235,.78)'; ctx.fillText(cfg.yLabel,0,0); ctx.restore();
+        status.textContent=`${keys.length} series shown`;
+      }
+      function wrapText(text,x,y,maxWidth,lineHeight){
+        const words=text.split(' '); let line=''; let lines=[];
+        words.forEach(word=>{ const test=line?`${line} ${word}`:word; if(ctx.measureText(test).width>maxWidth && line){ lines.push(line); line=word; } else { line=test; } });
+        if(line) lines.push(line);
+        lines.forEach((ln,idx)=>ctx.fillText(ln,x,y+idx*lineHeight));
+      }
+      function renderLegend(){
+        legend.innerHTML='';
+        Object.entries(SERIES_META).forEach(([k,meta])=>{
+          const row=document.createElement('div'); row.className='check'+(visible[k]?' active':'');
+          row.innerHTML=`<input type="checkbox" ${visible[k]?'checked':''} /><span class="swatch" style="background:${meta.color}"></span><label>${meta.label}</label>`;
+          const box=row.querySelector('input');
+          box.addEventListener('change',e=>{ visible[k]=e.target.checked; draw(); renderLegend(); });
+          row.addEventListener('click',e=>{ if(e.target!==box){ box.checked=!box.checked; visible[k]=box.checked; draw(); renderLegend(); } });
+          legend.appendChild(row);
+        });
+      }
+      function updateTooltip(ev){
+        const rect=stage.getBoundingClientRect(),x=ev.clientX-rect.left,y=ev.clientY-rect.top;
+        const hit=bars.find(b=>x>=b.bar.x&&x<=b.bar.x+b.bar.w&&y>=b.bar.y&&y<=b.bar.y+b.bar.h);
+        if(!hit){ tooltip.style.display='none'; return; }
+        tooltip.innerHTML=`<div><strong>${hit.label}</strong></div><div class="muted">${hit.value.toFixed(0)}% relative EMG</div><div>${hit.note}</div>`;
+        tooltip.style.display='block';
+        const tipW=tooltip.offsetWidth||220, tipH=tooltip.offsetHeight||90;
+        const left=Math.min(stage.clientWidth-tipW-8,Math.max(8,x+14));
+        const top=Math.max(8,(y-tipH-10)>=8?(y-tipH-10):Math.min(stage.clientHeight-tipH-8,y+14));
+        tooltip.style.left=`${left}px`; tooltip.style.top=`${top}px`;
+      }
+      modeSel.addEventListener('change',e=>{ mode=e.target.value; applyMode(); });
+      btnFit.addEventListener('click',fit);
+      stage.addEventListener('pointermove',updateTooltip);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none');
+      window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
+      applyMode();
+    </script>
+  </body>
+</html>

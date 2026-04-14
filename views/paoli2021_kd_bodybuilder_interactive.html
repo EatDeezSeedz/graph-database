@@ -1,4 +1,4 @@
-ï»¿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -14,7 +14,7 @@
       .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
       select,option,optgroup{background:var(--panel);color:var(--text)}
-      .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(250px,30vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -80,7 +80,7 @@
           label:"Body composition (absolute)",
           subtitle:"Exact pre/post means reported after 8 weeks for body weight, fat mass, and fat-free mass.",
           hint:"This is the raw body-composition view from the paper: fat mass dropped more on the ketogenic diet, while lean mass clearly rose only in the western-diet group.",
-          overlay:"Hover bars = exact reported mean Â± SD",
+          overlay:"Hover bars = exact reported mean ± SD",
           yLabel:"Mass (kg)",
           categories:["Body weight","Fat mass","Fat-free mass"],
           series:[
@@ -95,7 +95,7 @@
           label:"Strength and metabolism (absolute)",
           subtitle:"Table 3 pre/post means for bench press 1RM, squat 1RM, resting energy expenditure, and respiratory exchange ratio.",
           hint:"Strength increased in both groups. REE rose clearly only in the western-diet group, while RER dropped only in the ketogenic group.",
-          overlay:"Hover bars = exact Table 3 mean Â± SD",
+          overlay:"Hover bars = exact Table 3 mean ± SD",
           yLabel:"Reported units",
           categories:["Bench press 1RM","Squat 1RM","REE","RER"],
           series:[
@@ -110,7 +110,7 @@
           label:"Blood markers (absolute)",
           subtitle:"Selected exact pre/post blood markers with clean numeric reporting in the Results and Table 4.",
           hint:"This view keeps the exact markers that were straightforwardly reported: glucose, insulin, triglycerides, HDL, ALT, testosterone, and IGF-1.",
-          overlay:"Hover bars = exact reported mean Â± SD",
+          overlay:"Hover bars = exact reported mean ± SD",
           yLabel:"Reported units",
           categories:["Glucose","Insulin","Triglycerides","HDL","ALT","Testosterone","IGF-1"],
           series:[
@@ -185,7 +185,7 @@
           if(isVisible){for(const pt of pts){ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=item.color;ctx.beginPath();ctx.arc(pt.x,pt.y,isActive?5:4,0,Math.PI*2);ctx.fill();ctx.restore();hits.push({x:pt.x-10,y:pt.y-10,w:20,h:20,series:item,category:pt.category,value:pt.value})}}
         }
         ctx.fillStyle="rgba(156,163,175,.95)";ctx.save();ctx.translate(18,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.textAlign="center";ctx.fillText(mode().yLabel,0,0);ctx.restore();
-        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} lines shown â€¢ ${Math.round(zoomX*100)}% zoom`;
+        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} lines shown • ${Math.round(zoomX*100)}% zoom`;
       }
       function drawBars(){
         const categories=mode().categories,visibleSeries=series.filter(s=>s.visible),baseW=Math.max(620,stage.clientWidth||620),groupGap=36,barW=28,barGap=8,left=92,top=28,right=28,bottom=116;
@@ -217,7 +217,7 @@
           ctx.fillStyle="rgba(156,163,175,.95)";ctx.font="12px Segoe UI, system-ui";ctx.textAlign="center";ctx.fillText(categories[i],groupCenter,H-bottom+48);x+=groupW+groupGap;
         }
         ctx.fillStyle="rgba(156,163,175,.95)";ctx.save();ctx.translate(18,top+plotH/2);ctx.rotate(-Math.PI/2);ctx.textAlign="center";ctx.fillText(mode().yLabel,0,0);ctx.restore();
-        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} series shown â€¢ ${Math.round(zoomX*100)}% zoom`;
+        subtitleEl.textContent=mode().subtitle;hintEl.textContent=mode().hint;overlayEl.textContent=mode().overlay;statusEl.textContent=`${visibleSeries.length} series shown • ${Math.round(zoomX*100)}% zoom`;
       }
       function draw(){ drawBars(); }
       function applyMode(){activeSeries=null;rebuildSeries();rebuildChecks();syncActiveRows();resetViewport()}
@@ -232,7 +232,7 @@
         const r=stage.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,contentX=x+stage.scrollLeft;
         const hit=hits.find(h=>contentX>=h.x&&contentX<=h.x+h.w&&y>=h.y&&y<=h.y+h.h);
         if(!hit){hideTip();return}
-        const valueText=modeKey==="relative"?`${hit.value.toFixed(2)}%`:(hit.error>0?`${hit.value.toFixed(2)} Â± ${hit.error.toFixed(2)}`:`${hit.value.toFixed(2)}`);
+        const valueText=modeKey==="relative"?`${hit.value.toFixed(2)}%`:(hit.error>0?`${hit.value.toFixed(2)} ± ${hit.error.toFixed(2)}`:`${hit.value.toFixed(2)}`);
         showTip(`<div><strong>${hit.category}</strong></div><div class="muted">${hit.series.name}: ${valueText}</div><div class="muted">${hit.series.note}</div>`,x,y)
       });
       stage.addEventListener("pointerup",()=>{dragging=false;stage.classList.remove("is-dragging")});
@@ -244,4 +244,5 @@
     </script>
   </body>
 </html>
+
 

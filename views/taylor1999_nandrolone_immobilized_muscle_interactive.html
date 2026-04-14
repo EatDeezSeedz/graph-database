@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Taylor et al. (1999) - nandrolone and immobilized muscle</title>
+    <style>
+      :root{
+        --bg:#07101b;
+        --panel:rgba(10,20,36,.84);
+        --border:rgba(255,255,255,.08);
+        --text:#e6eefc;
+        --muted:#9fb3cb;
+        --amber:#f59e0b;
+        --blue:#60a5fa;
+        --cyan:#22d3ee;
+        --green:#34d399;
+        --rose:#fb7185;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;min-height:100%}
+      body{
+        font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(860px 540px at 10% 0%, rgba(245,158,11,.15), transparent 52%),
+          radial-gradient(980px 620px at 100% 0%, rgba(34,211,238,.12), transparent 50%),
+          linear-gradient(180deg,#06101a,#091320 54%,#08111b);
+      }
+      .wrap{max-width:1280px;margin:0 auto;padding:18px}
+      .hero,.card{background:var(--panel);border:1px solid var(--border);border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.22)}
+      .hero{padding:18px}
+      .eyebrow{color:var(--amber);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+      h1{margin:8px 0 6px;font-size:clamp(24px,3.2vw,38px);line-height:1.06}
+      .lede{margin:0;max-width:980px;color:var(--muted);font-size:14px;line-height:1.55}
+      .meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+      .pill{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:16px;padding:10px 12px}
+      .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+      .pill .v{margin-top:3px;font-size:14px;font-weight:700}
+      .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+      .card{padding:14px;min-width:0}
+      .card h2{margin:0;font-size:15px}
+      .sub{margin:6px 0 10px;color:var(--muted);font-size:12px;line-height:1.45}
+      .legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:0 0 8px;color:var(--muted);font-size:12px}
+      .legend span{display:inline-flex;align-items:center;gap:7px}
+      .sw{width:11px;height:11px;border-radius:999px;display:inline-block}
+      svg{width:100%;height:auto;display:block}
+      .foot{margin-top:14px;color:var(--muted);font-size:12px;line-height:1.5}
+      @media (max-width:920px){.meta,.grid{grid-template-columns:1fr}}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <div class="eyebrow">AAS</div>
+        <h1>Taylor et al. (1999) nandrolone in immobilized muscle</h1>
+        <p class="lede">This rabbit study tested whether nandrolone decanoate could blunt disuse loss during casting. Even in sedentary animals, treated rabbits gained more body weight and showed greater muscle wet weight, dry weight, and contractile force in both casted and noncasted hindlimbs.</p>
+        <div class="meta">
+          <div class="pill"><div class="k">Model</div><div class="v">Sedentary rabbits</div></div>
+          <div class="pill"><div class="k">Drug</div><div class="v">Nandrolone decanoate</div></div>
+          <div class="pill"><div class="k">Dose</div><div class="v">15 mg/kg weekly</div></div>
+          <div class="pill"><div class="k">Main takeaway</div><div class="v">Anabolism persisted during immobilization</div></div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Body Weight Gain</h2>
+          <p class="sub">Treated rabbits gained more total body weight than controls at 2, 4, and 8 weeks.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--amber)"></i>Control</span>
+            <span><i class="sw" style="background:var(--green)"></i>Nandrolone</span>
+          </div>
+          <svg id="bodyChart" viewBox="0 0 620 320" aria-label="Body weight gain"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Extensor Digitorum Longus Force</h2>
+          <p class="sub">Max contractile force was higher in the treated group, with the clearest separation by week 8 in both casted and noncasted limbs.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Casted control</span>
+            <span><i class="sw" style="background:var(--cyan)"></i>Noncasted control</span>
+            <span><i class="sw" style="background:var(--green)"></i>Casted nandrolone</span>
+            <span><i class="sw" style="background:var(--rose)"></i>Noncasted nandrolone</span>
+          </div>
+          <svg id="edlForceChart" viewBox="0 0 620 320" aria-label="EDL force"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Tibialis Anterior Force</h2>
+          <p class="sub">The tibialis anterior showed the same direction: treated rabbits produced more force in both immobilized and free limbs, especially by week 8.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>Casted control</span>
+            <span><i class="sw" style="background:var(--cyan)"></i>Noncasted control</span>
+            <span><i class="sw" style="background:var(--green)"></i>Casted nandrolone</span>
+            <span><i class="sw" style="background:var(--rose)"></i>Noncasted nandrolone</span>
+          </div>
+          <svg id="taForceChart" viewBox="0 0 620 320" aria-label="TA force"></svg>
+        </article>
+
+        <article class="card">
+          <h2>Muscle Dry Weight</h2>
+          <p class="sub">Dry weights were consistently higher in treated rabbits, supporting true tissue gain rather than just fluid retention.</p>
+          <div class="legend">
+            <span><i class="sw" style="background:var(--blue)"></i>EDL casted</span>
+            <span><i class="sw" style="background:var(--cyan)"></i>EDL noncasted</span>
+            <span><i class="sw" style="background:var(--green)"></i>TA casted</span>
+            <span><i class="sw" style="background:var(--rose)"></i>TA noncasted</span>
+          </div>
+          <svg id="dryChart" viewBox="0 0 620 320" aria-label="Dry weight"></svg>
+        </article>
+      </section>
+
+      <p class="foot">Data source: Taylor et al., <em>Am J Sports Med</em> 1999;27:718-723. Plotted from Tables 1-3 using the exact mean values for control and nandrolone-treated rabbits at 2, 4, and 8 weeks.</p>
+    </div>
+
+    <script>
+      const weeks = ['2 wk','4 wk','8 wk'];
+      const bodyControl = [0.0129,0.2494,0.3569];
+      const bodyTreat = [0.1663,0.3711,0.4852];
+
+      const edlForce = [
+        { label:'Casted control', color:'#60a5fa', values:[32.775,29.549,32.659] },
+        { label:'Noncasted control', color:'#22d3ee', values:[35.343,36.072,41.835] },
+        { label:'Casted nandrolone', color:'#34d399', values:[32.071,37.595,42.240] },
+        { label:'Noncasted nandrolone', color:'#fb7185', values:[35.777,37.565,48.682] }
+      ];
+      const taForce = [
+        { label:'Casted control', color:'#60a5fa', values:[20.942,21.185,21.544] },
+        { label:'Noncasted control', color:'#22d3ee', values:[20.309,22.397,24.164] },
+        { label:'Casted nandrolone', color:'#34d399', values:[20.511,26.477,28.205] },
+        { label:'Noncasted nandrolone', color:'#fb7185', values:[22.607,25.462,33.808] }
+      ];
+      const dryWeight = [
+        { label:'EDL casted', color:'#60a5fa', values:[0.9292,0.9685,1.0261] },
+        { label:'EDL noncasted', color:'#22d3ee', values:[1.0414,1.1660,1.1814] },
+        { label:'TA casted', color:'#34d399', values:[0.9627,1.0791,1.1149] },
+        { label:'TA noncasted', color:'#fb7185', values:[1.0759,1.1757,1.1888] }
+      ];
+      const dryWeightTreat = [
+        { label:'EDL casted treated', color:'#60a5fa', values:[0.9714,1.1407,1.2514] },
+        { label:'EDL noncasted treated', color:'#22d3ee', values:[1.1112,1.2784,1.3406] },
+        { label:'TA casted treated', color:'#34d399', values:[1.0853,1.2631,1.4418] },
+        { label:'TA noncasted treated', color:'#fb7185', values:[1.1873,1.4623,1.6524] }
+      ];
+
+      function lineChart(svgId, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 54, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const values = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...values);
+        const max = opts.max ?? Math.max(...values);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const x = i => m.l + (i * w / (weeks.length - 1));
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        let html = '';
+        for (let i = 0; i <= 5; i++) {
+          const v = yMin + i * (yMax - yMin) / 5;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb3cb">${fmt(v, opts.decimals)}</text>`;
+        }
+        if (yMin < 0 && yMax > 0) html += `<line x1="${m.l}" y1="${y(0)}" x2="${W-m.r}" y2="${y(0)}" stroke="rgba(255,255,255,.2)" />`;
+        weeks.forEach((wk,i) => {
+          const px = x(i);
+          html += `<line x1="${px}" y1="${m.t}" x2="${px}" y2="${H-m.b}" stroke="rgba(255,255,255,.04)" />`;
+          html += `<text x="${px}" y="${H-18}" text-anchor="middle" font-size="11" fill="#9fb3cb">${wk}</text>`;
+        });
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb3cb">${opts.yLabel}</text>`;
+        series.forEach(s => {
+          const pts = s.values.map((v,i)=>`${x(i)},${y(v)}`).join(' ');
+          html += `<polyline fill="none" stroke="${s.color}" stroke-width="3" points="${pts}" />`;
+          s.values.forEach((v,i)=>{
+            const px=x(i), py=y(v);
+            html += `<circle cx="${px}" cy="${py}" r="4.5" fill="${s.color}" />`;
+            html += `<text x="${px}" y="${py-10}" text-anchor="middle" font-size="11" fill="${s.color}">${fmt(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+
+      function groupedBar(svgId, series, opts = {}) {
+        const svg = document.getElementById(svgId);
+        const W = 620, H = 320, m = { t: 18, r: 18, b: 54, l: 60 };
+        const w = W - m.l - m.r, h = H - m.t - m.b;
+        const values = series.flatMap(s => s.values);
+        const min = opts.min ?? Math.min(...values);
+        const max = opts.max ?? Math.max(...values);
+        const pad = (max - min) * 0.08 || 1;
+        const yMin = opts.zero ? Math.min(0, min) - pad : min - pad;
+        const yMax = opts.zero ? Math.max(0, max) + pad : max + pad;
+        const groupW = w / weeks.length;
+        const barW = Math.min(30, groupW / (series.length + 0.8));
+        const y = v => m.t + (yMax - v) * h / (yMax - yMin);
+        let html = '';
+        for (let i = 0; i <= 5; i++) {
+          const v = yMin + i * (yMax - yMin) / 5;
+          const py = y(v);
+          html += `<line x1="${m.l}" y1="${py}" x2="${W-m.r}" y2="${py}" stroke="rgba(255,255,255,.09)" />`;
+          html += `<text x="${m.l-10}" y="${py+4}" text-anchor="end" font-size="11" fill="#9fb3cb">${fmt(v, opts.decimals)}</text>`;
+        }
+        weeks.forEach((wk,i)=>{
+          const gx = m.l + i*groupW + groupW/2;
+          html += `<text x="${gx}" y="${H-18}" text-anchor="middle" font-size="11" fill="#9fb3cb">${wk}</text>`;
+        });
+        if (opts.yLabel) html += `<text x="16" y="${H/2}" transform="rotate(-90 16 ${H/2})" text-anchor="middle" font-size="12" fill="#9fb3cb">${opts.yLabel}</text>`;
+        series.forEach((s,si)=>{
+          s.values.forEach((v,i)=>{
+            const x = m.l + i*groupW + (groupW - series.length*barW)/2 + si*barW;
+            const y0 = y(0), yv = y(v), top = Math.min(y0,yv), bh = Math.abs(y0-yv);
+            html += `<rect x="${x}" y="${top}" width="${barW-3}" height="${Math.max(1,bh)}" rx="4" fill="${s.color}" />`;
+            html += `<text x="${x+(barW-3)/2}" y="${top-8}" text-anchor="middle" font-size="10" fill="${s.color}">${fmt(v, opts.decimals)}</text>`;
+          });
+        });
+        svg.innerHTML = html;
+      }
+
+      function fmt(v, d){ return Number(v).toFixed(d ?? (Math.abs(v)<10?1:0)).replace(/\.0$/,''); }
+
+      groupedBar('bodyChart', [
+        { color:'#f59e0b', values: bodyControl },
+        { color:'#34d399', values: bodyTreat }
+      ], { zero:true, decimals:2, yLabel:'Weight change (kg)' });
+
+      lineChart('edlForceChart', edlForce, { zero:false, decimals:1, yLabel:'Force (N)' });
+      lineChart('taForceChart', taForce, { zero:false, decimals:1, yLabel:'Force (N)' });
+
+      lineChart('dryChart', [
+        { label:'EDL casted control', color:'#60a5fa', values:[0.9292,0.9685,1.0261] },
+        { label:'EDL casted treated', color:'#1d4ed8', values:[0.9714,1.1407,1.2514] },
+        { label:'TA casted control', color:'#34d399', values:[0.9627,1.0791,1.1149] },
+        { label:'TA casted treated', color:'#166534', values:[1.0853,1.2631,1.4418] },
+        { label:'EDL noncasted control', color:'#22d3ee', values:[1.0414,1.1660,1.1814] },
+        { label:'EDL noncasted treated', color:'#0f766e', values:[1.1112,1.2784,1.3406] },
+        { label:'TA noncasted control', color:'#fb7185', values:[1.0759,1.1757,1.1888] },
+        { label:'TA noncasted treated', color:'#9f1239', values:[1.1873,1.4623,1.6524] }
+      ], { zero:false, decimals:2, yLabel:'Dry weight (g)' });
+    </script>
+  </body>
+</html>

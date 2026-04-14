@@ -1,0 +1,917 @@
+              sports
+Article
+Biceps Brachii and Brachioradialis Excitation in Biceps Curl
+Exercise: Different Handgrips, Different Synergy
+Giuseppe Coratella 1, * , Gianpaolo Tornatore 1 , Stefano Longo 1 , Nicholas Toninelli 1 , Riccardo Padovan 1 ,
+Fabio Esposito 1,2 and Emiliano Cè 1,2
+
+                                          1   Department of Biomedical Sciences for Health, Università Degli Studi di Milano, 20133 Milan, Italy
+                                          2   IRCCS Galeazzi Orthopedic Institute, 20161 Milan, Italy
+                                          *   Correspondence: giuseppe.coratella@unimi.it; Tel.: +39-0280214653
+
+
+                                          Abstract: The current study analyzed the excitation of biceps brachii, brachioradialis, and anterior
+                                          deltoid during bilateral biceps curl performed with different handgrips. Ten competitive bodybuilders
+                                          performed bilateral biceps curl in non-exhaustive 6-rep sets using 8-RM with the forearm in supinated,
+                                          pronated, and neutral positions. The ascending and descending phase of each variation was separately
+                                          analyzed using the normalized root mean square collected using surface electromyography. During
+                                          the ascending phase, (i) biceps brachii excitation was greater with the supinated compared to the
+                                          pronated [+19(7)%, ES: 2.60] and neutral handgrip [+12(9)%, ES: 1.24], (ii) the brachioradialis showed
+                                          greater excitation with the supinated compared to the pronated [+5(4)%, ES: 1.01] and neutral
+                                          handgrip [+6(5)%, ES: 1.10], (iii) the anterior deltoid excitation was greater with the pronated and
+                                          neutral handgrip compared to the supinated condition [+6(3)% and +9(2)%, ES: 2.07 and 3.18,
+                                          respectively]. During the descending phase, the anterior deltoid showed greater excitation in the
+                                          pronated compared to the supinated handgrip [+5(4)%, ES: 1.02]. Changing the handgrips when
+                                          performing biceps curl induces specific variations in biceps brachii and brachioradialis excitation
+                                          and requires different anterior deltoid interventions for stabilizing the humeral head. Practitioners
+                                          should consider including different handgrips in the biceps curl routine to vary the neural and
+                                          mechanical stimuli.
+Citation: Coratella, G.; Tornatore, G.;
+Longo, S.; Toninelli, N.; Padovan, R.;    Keywords: elbow flexors; surface EMG; resistance training; weight training; bodybuilder; strength;
+Esposito, F.; Cè, E. Biceps Brachii and   root mean square
+Brachioradialis Excitation in Biceps
+Curl Exercise: Different Handgrips,
+Different Synergy. Sports 2023, 11, 64.
+https://doi.org/10.3390/
+                                          1. Introduction
+sports11030064
+                                                Resistance training is performed to increase strength in consideration of the positive
+Academic Editor: Gregory                  modifications at the neural [1,2] and structural level [3]. All resistance exercises involve
+C. Bogdanis
+                                          muscles primarily carrying out the movement (prime movers) and muscles stabilizing the
+Received: 16 February 2023                joint/s around which the movement is realized [4–10]. Among the resistance exercises
+Revised: 3 March 2023                     targeting the upper limb muscles, the biceps curl is common in practice. The biceps curl
+Accepted: 8 March 2023                    is characterized by an elbow flexion accompanied by a dynamic or mainly isometric arm
+Published: 9 March 2023                   flexion, as well as wrist supination/pronation [5,11]; therefore, the main targeted muscles
+                                          are the elbow flexors (i.e., biceps brachii, brachioradialis, and brachialis), the arm flexors
+                                          (e.g., anterior deltoids), and wrist rotators (e.g., biceps brachii, pronator teres). Additionally,
+                                          biceps curl can be performed with different forms of external resistance like dumbbells,
+Copyright: © 2023 by the authors.
+                                          barbells, or iso-load or cable devices [4]. Therefore, the possible combinations of biceps curl
+Licensee MDPI, Basel, Switzerland.
+                                          variations make this exercise suitable for most resistance training programs since changing
+This article is an open access article
+                                          one or more factors may provide unique stimuli to the upper limb muscles.
+distributed under the terms and
+                                                Although not extensive, previous studies have examined the excitation of the main
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+                                          biceps curl prime movers, comparing different variations. For example, when the arm was
+creativecommons.org/licenses/by/
+                                          flexed isometrically at different angles, greater excitation in biceps brachii was observed
+4.0/).                                    at longer muscle length [8,12]. As concerns the wrist position, while brachialis has no
+
+
+
+
+Sports 2023, 11, 64. https://doi.org/10.3390/sports11030064                                                     https://www.mdpi.com/journal/sports
+Sports 2023, 11, 64                                                                                             2 of 11
+
+
+
+
+                      influence, biceps brachii is a supinator while brachioradialis keeps the forearm in an
+                      intermediate position, i.e., between supination and pronation (so-called neutral position).
+                      Consequently, also the wrist position (dynamic or isometric) is expected to influence the
+                      excitation of the prime movers. The literature in this regard is scanty and the results are
+                      controversial. In one previous study, the biceps brachii and brachioradialis were analyzed
+                      in the dumbbell curl, straight barbell curl, and EZ-barbell curl (a multi-angle barbell) [10].
+                      The dumbbell curl was performed starting with the hands in a “semi-pronated” position
+                      and then ending the ascending phase in supination. The dumbbell curl demonstrated lower
+                      activation of both muscles than the EZ-barbell variant in the full exercise [10]. However, the
+                      use of different tools during the execution of the exercises and the handgrip changes during
+                      the execution of the dumbbell biceps curl introduced two variables hindering the effect of
+                      the grip per se on the excitability of biceps brachii and brachioradialis. Comparing straight
+                      vs. EZ barbell, the straight induced slightly greater excitation of the biceps brachii, while no
+                      information was reported about the brachioradialis [13]. Conversely, no difference in biceps
+                      brachii and brachioradial excitation was found while performing dumbbell biceps curl
+                      with a supinated and neutral handgrip at different inter-hand distances [14]. Importantly,
+                      the pronated forearm handgrip, which is often regarded as the less effective among the
+                      biceps curl exercise handgrips, has not received attention so far.
+                            Traditional resistance training includes the performance of both the ascending and the
+                      descending phase, often coincident with the concentric and eccentric action of the prime
+                      movers. Examining the ascending and descending phase individually, the importance
+                      of independently investigating the two phases comes from the distinct acute neuromus-
+                      cular characteristics [15–17], the recovery time course when focusing on the descending
+                      phase [18–20], and the long-term neuromuscular and structural changes [21,22]. For exam-
+                      ple, the abovementioned study split the analysis into ascending and descending phases
+                      and reported definite distinctions between the exercises [10,13]. In addition, bodybuilders
+                      show the ability to perform a given exercise with a consistent technique, increasing the
+                      trustfulness of the outcomes [23].
+                            Considering these previous considerations, the aim of the present study was to analyze
+                      the level of excitation of the biceps brachii and brachioradialis during the ascending and
+                      descending phase of the biceps curl exercise performed with three different handgrips
+                      (supinated, pronated, and neutral) at constant hands distance, in a group of competitive
+                      bodybuilders. It was hypothesized that the different handgrips would result in different
+                      muscle synergies.
+
+                      2. Materials and Methods
+                      2.1. Study Design
+                           The present investigation was designed as a cross-over, repeated-measures, within-
+                      subject study and was conducted in line with previous studies from our laboratory [13,24–28].
+                      The participants were involved in five different sessions (Figure 1). The sessions were
+                      dedicated to the familiarization with the exercise variations (session 1), the determination
+                      of the 8-RM for the biceps curl performed using the supinated, pronated, and neutral
+                      handgrip (sessions 2–3), and the placement of the electrodes (session 4). In the fifth session,
+                      the muscles’ maximum excitation was first measured, and after a 30-min passive recovery,
+                      the participants performed a non-exhaustive set for each exercise in a random order,
+                      with 10 min of inter-set rest. Each session was separated by at least three days, and the
+                      participants were instructed to avoid any further form of resistance training for the entire
+                      duration of the investigation.
+Sports 2023, 11, x FOR PEER REVIEW                                                                                                                3 of 12
+ Sports 2023, 11, 64                                                                                                                                3 of 11
+
+
+
+
+                                          Session 1                 Session 2 and 3              Session 4               Session 5
+                                     Exercises technique         8-RM determination            EMG placement           Data collection
+
+
+
+
+                                 Figure      Schematicrepresentation
+                                  Figure1.1.Schematic   representationofofthe
+                                                                           thestudy
+                                                                               studydesign.
+                                                                                     design.
+
+                                  2.2.Participants
+                                 2.2.  Participants
+                                        We recruited 10 male competitive bodybuilders (age 29.8 ± 3.0 years; body mass
+                                       We recruited 10 male competitive bodybuilders (age 29.8 ± 3.0 years; body mass 77.9
+                                  77.9 ± 1.0 kg; stature 1.68 ± 0.01 m; training seniority 10.6 ± 1.8 years) for the present
+                                 ± 1.0 kg; stature 1.68 ± 0.01 m; training seniority 10.6 ± 1.8 years) for the present procedures,
+                                  procedures, in line with previous studies [13,24,25,27,28]. They had to be clinically healthy,
+                                 in line with previous studies [13,24,25,27,28]. They had to be clinically healthy, without
+                                  without any reported history of upper-limb and lower-back muscle injury and neurological
+                                 any reported history of upper-limb and lower-back muscle injury and neurological or
+                                  or cardiovascular disease in the previous 12 months. To limit possible confounding factors,
+                                 cardiovascular disease in the previous 12 months. To limit possible confounding factors,
+                                  the participants competed in the same weight category (Men’s Classic Bodybuilding <80 kg,
+                                 the participants competed in the same weight category (Men’s Classic Bodybuilding <80
+                                  <1.70 m), according to the International Federation of Body Building Pro-League. The
+                                 kg, <1.70 m), according to the International Federation of Body Building Pro-League. The
+                                  participants were required to abstain from alcohol, caffeine, or similar beverages in the 24 h
+                                 participants were required to abstain from alcohol, caffeine, or similar beverages in the 24
+                                  preceding the test. After a full explanation of the aims of the study and the experimental
+                                 h preceding the test. After a full explanation of the aims of the study and the experimental
+                                  procedures, the participants signed a written informed consent. They were also free to
+                                 procedures, the participants signed a written informed consent. They were also free to
+                                  withdraw at any time. The Ethical Committee of the Università degli Studi di Milano
+                                 withdraw
+                                  (CE 27/17)  at any time. The
+                                                 approved   the Ethical Committee
+                                                                procedures           of the
+                                                                              that were     Università
+                                                                                         performed      degli Studi
+                                                                                                      following  thedi Milano (CEof
+                                                                                                                     Declaration
+                                 27/17)  approved      the procedures    that   were performed     following   the Declaration
+                                  Helsinki (1964 and updates) for studies involving human subjects. The individual in this       of
+                                 Helsinki   (1964  and  updates)  for studies  involving  human   subjects.  The
+                                  manuscript has given written informed consent to publish these case details.   individual in this
+                                 manuscript has given written informed consent to publish these case details.
+                                  2.3. Exercises Technique
+                                 2.3. Exercises  Technique
+                                        The biceps   curl variations were performed using a Cable Tower (Technogym, Cesena,
+                                        Thewith
+                                   Italy),     biceps
+                                                    one endcurl ofvariations
+                                                                    the pulleywere         performed
+                                                                                   connected     to a barusing
+                                                                                                           (42.5 acmCable
+                                                                                                                       length,  Tower     (Technogym,
+                                                                                                                                   Technogym,      Cesena,
+                                 Cesena,    Italy),
+                                   Italy) for         with one end
+                                               the supinated        and of    the pulley
+                                                                          pronated           connected
+                                                                                        handgrip,   and to  a bar
+                                                                                                         with       (42.5(Technogym,
+                                                                                                                a ope       cm length, Technogym,
+                                                                                                                                           Cesena, Italy)
+                                 Cesena,     Italy) for
+                                   for the neutral          the supinated
+                                                         handgrip.               and pronated
+                                                                        The inter-hand              handgrip,
+                                                                                              distance           and withduring
+                                                                                                         was measured           a ropethe (Technogym,
+                                                                                                                                             first set and
+                                 Cesena,    Italy)similarly
+                                   maintained        for the neutral       handgrip.
+                                                                   throughout             The inter-hand
+                                                                                    the exercises           distance
+                                                                                                     to limit  the effectwasofmeasured
+                                                                                                                                  the hand’s  during
+                                                                                                                                                stance theon
+                                 first  set and    maintained       similarly     throughout     the  exercises  to  limit
+                                   the muscles’ excitability. Each exercise was performed in a standing position. The arms   the   effect of  the hand’s
+                                 stance    on the muscles’
+                                   were maintained                 excitability.
+                                                             parallel  to the trunk, Eachwithexercise  was performed
+                                                                                                 no flexion   of the humerus.in a standing
+                                                                                                                                      The curlposition.
+                                                                                                                                                 exercises
+                                   were
+                                 The      characterized
+                                        arms   were maintained  by three   different
+                                                                        parallel         handgrips:
+                                                                                     to the            withnothe
+                                                                                             trunk, with          forearm
+                                                                                                               flexion   of the(i) in a supineThe
+                                                                                                                                    humerus.      position,
+                                                                                                                                                      curl
+                                   (ii) in a prone
+                                 exercises             position, andby
+                                              were characterized            (iii) in adifferent
+                                                                               three    neutral position
+                                                                                                   handgrips:(Figure
+                                                                                                                 with 2).
+                                                                                                                        theWhatever
+                                                                                                                              forearm (i)the in ahandgrip
+                                                                                                                                                  supine
+                                   variation,
+                                 position,    (ii)and
+                                                    in afollowing     recent updates
+                                                           prone position,        and (iii)on inthe appropriate
+                                                                                                 a neutral   positiondescription
+                                                                                                                         (Figure 2).  of resistance
+                                                                                                                                         Whatever exer-the
+                                 handgrip variation, and following recent updates on the appropriate description ofto
+                                   cise  technique       [29],   the load    was    fixed   as 8-RM,   six repetitions      were    performed—not
+                                   failure—toexercise
+                                 resistance        avoid fatigue,      with[29],
+                                                               technique        a fullthe
+                                                                                        range
+                                                                                            loadof was
+                                                                                                   movement,
+                                                                                                        fixed asa timing
+                                                                                                                     8-RM, of   six1-2-1-2  s for the
+                                                                                                                                     repetitions    werefirst
+                                   isometric, the ascending,
+                                 performed—not            to failure—tothe second       isometric
+                                                                              avoid fatigue,        anda the
+                                                                                                 with     fulldescending        phase respectively
+                                                                                                               range of movement,           a timing of  (so
+                                   that alls dynamic
+                                 1-2-1-2      for the first phases    were performed),
+                                                                 isometric,    the ascending,   andthe
+                                                                                                     using   an external
+                                                                                                        second    isometric   focus.
+                                                                                                                                 and The     participants
+                                                                                                                                       the descending
+                                   were respectively
+                                 phase    instructed to(so      avoid
+                                                                   that sagittal
+                                                                         all dynamic oscillations
+                                                                                           phases of   the performed),
+                                                                                                    were    trunk, any movement
+                                                                                                                              and using an  of the   lower
+                                                                                                                                                 external
+                                 focus. The participants were instructed to avoid sagittal oscillations of the trunk, three
+                                   limbs,   and    exaggerated       elevation     of  the  scapulae,  and   the technique       was   checked    by  any
+                                   operators. Visual
+                                 movement         of the feedback       was provided
+                                                              lower limbs,                   to help the elevation
+                                                                                  and exaggerated         participants  of follow    the timingand
+                                                                                                                            the scapulae,         for each
+                                                                                                                                                       the
+                                   phase [25,26,30].
+                                 technique      was checked In caseby of athree
+                                                                            lack operators.
+                                                                                   of consistency    in the
+                                                                                                 Visual      technique,
+                                                                                                          feedback     wasasprovided
+                                                                                                                                 described, to thelp
+                                                                                                                                                   partici-
+                                                                                                                                                       the
+                                   pants were follow
+                                 participants      required   thetotiming
+                                                                    repeatfor theeach
+                                                                                   set. phase [25,26,30]. In case of a lack of consistency in
+                                 the technique, as described, the participants were required to repeat the set.
+Sports 2023,
+Sports 2023, 11,
+             11, 64
+                 x FOR PEER REVIEW                                                                                                               4 4of
+                                                                                                                                                     of 12
+                                                                                                                                                        11
+
+
+
+
+                           Supination                              Pronation                                  Neutral
+
+
+
+
+                                 Figure 2. Initial and final position and handgrip variation during the three biceps curl variation:
+                                 Figure 2. Initial and final position and handgrip variation during the three biceps curl variation:
+                                 supinated (panels
+                                 supinated  (panelsononthe
+                                                         theleft), pronated
+                                                              left),        (middle
+                                                                     pronated       panels),
+                                                                              (middle        and and
+                                                                                       panels),  neutral handgrip
+                                                                                                     neutral      (panels
+                                                                                                             handgrip     on theon
+                                                                                                                       (panels  right).
+                                                                                                                                   the
+                                 right).
+                                 2.4. 8-RM Procedure
+                                       As previously
+                                 2.4. 8-RM  Procedure reported, the 8-RM was assessed using the same exercise technique
+                                 described above [24]. Briefly, after a standardized warm-up consisting of 3 × 15 repetitions
+                                       As previously
+                                 of biceps curl exercisereported,
+                                                          using threethe incremental
+                                                                          8-RM was assessed       using
+                                                                                       self-selected     the the
+                                                                                                      loads,  same  exercise
+                                                                                                                 8-RM           technique
+                                                                                                                        was determined
+                                 described  above   [24]. Briefly, after  a standardized    warm-up     consisting  of 3
+                                 incrementing the load until the eighth repetition corresponded to failure, defined as the× 15 repetitions
+                                 of  biceps curl
+                                 incapacity         exercise
+                                              to perform   theusing     threephase
+                                                                ascending      incremental
+                                                                                     [31]. Each self-selected
+                                                                                                   attempt was  loads,   the 8-RM
+                                                                                                                  separated            was
+                                                                                                                                by at least
+                                 determined     incrementing    the   load   until the  eighth   repetition  corresponded
+                                 3 min of passive recovery. Operators strongly encouraged the participants to maximally         to failure,
+                                 defined
+                                 performas   the trial.
+                                           each   incapacity to perform the ascending phase [31]. Each attempt was separated
+                                 by at least 3 min of passive recovery. Operators strongly encouraged the participants to
+                                 maximally
+                                 2.5. Maximum perform   eachIsometric
+                                                  Voluntary   trial.     Excitation
+                                        The area of the appropriate electrode placements was first checked by means of a
+                                 2.5.
+                                 13 ×Maximum        Voluntaryhigh-density
+                                        5 semi-disposable         Isometric Excitation
+                                                                                     electrodes matrix for sEMG detection (GR08MM1305
+                                  model,Theinter-electrode
+                                             area of the appropriate
+                                                                  distance electrode
+                                                                                of 8 mm,placements
+                                                                                              OtBiolettronica,was first  checked
+                                                                                                                      Turin,         byas
+                                                                                                                               Italy),   means    of aout
+                                                                                                                                            carried     13
+                                 ×in5similar
+                                       semi-disposable         high-density
+                                                previous studies         [13,26]. electrodes
+                                                                                      The sEMG   matrix
+                                                                                                      signalforwas
+                                                                                                                 sEMG     detection
+                                                                                                                      acquired     by a(GR08MM1305
+                                                                                                                                          multichannel
+                                 model,
+                                  amplifierinter-electrode
+                                              (EMG-USB model,    distance     of 8 mm, OtBiolettronica,
+                                                                           OtBioelettronica,        Turin, Italy;Turin,
+                                                                                                                     input Italy),
+                                                                                                                            impedanceas carried
+                                                                                                                                            of >90 out
+                                                                                                                                                     MΩ;in
+                                 similar
+                                  CMRR ofprevious
+                                              >96 dB; EMG studies    [13,26]. of
+                                                                 bandwidth        The     sEMG
+                                                                                      15–350;   gain   × 1000).
+                                                                                                    signal    wasFromacquired     by a multichannel
+                                                                                                                          the analysis    of the surface
+                                  electromyography
+                                 amplifier    (EMG-USB     (sEMG)
+                                                                model,signal,    the innervation
+                                                                           OtBioelettronica,           zoneItaly;
+                                                                                                   Turin,     was identified,     and the muscle
+                                                                                                                     input impedance                 area
+                                                                                                                                            of >90 MΩ;
+                                  involved
+                                 CMRR         in the
+                                           of >96  dB;innervation
+                                                         EMG bandwidth   zone shift      duringain
+                                                                                  of 15–350;       the×exercises
+                                                                                                          1000). From wasthe
+                                                                                                                           avoided.
+                                                                                                                              analysisThereafter,     the
+                                                                                                                                          of the surface
+                                  rounded electrodes(sEMG)
+                                 electromyography            replacedsignal,
+                                                                          the high-density       electrode
+                                                                                   the innervation        zonematrix.
+                                                                                                                  was identified, and the muscle
+                                        The maximal
+                                 area involved       in thevoluntary
+                                                              innervation  isometric
+                                                                               zone shift excitation
+                                                                                              during of  thebiceps    brachii,
+                                                                                                              exercises   was brachioradialis,
+                                                                                                                                avoided. Thereafter, and
+                                  anterior  deltoid    was    measured       in random      order
+                                 the rounded electrodes replaced the high-density electrode matrix.  following     SENIAM      procedures     [32]  using
+                                  electrodes   (mod H124SG
+                                        The maximal                Kendall
+                                                            voluntary          ARBO; excitation
+                                                                           isometric      diameter: 10  ofmm;
+                                                                                                            bicepsinter-electrodes    distance: 20 mm;
+                                                                                                                      brachii, brachioradialis,      and
+                                  Kendall,   Donau,      Germany)       equipped        with   a probe
+                                 anterior deltoid was measured in random order following SENIAM procedures (probe   mass:   8.5  g,  BTS   Inc.,
+                                                                                                                                              [32]Milano,
+                                                                                                                                                   using
+                                  Italy) that permitted
+                                 electrodes     (mod H124SG   the detection
+                                                                    Kendalland    ARBO;the transfer
+                                                                                            diameter:  of the  sEMGinter-electrodes
+                                                                                                           10 mm;       signal by wireless      modality.
+                                                                                                                                            distance:   20
+                                 The sEMG
+                                 mm;     Kendall,signal    was Germany)
+                                                      Donau,     acquired atequipped1000 Hz,with amplified
+                                                                                                        a probe (gain:   2000,
+                                                                                                                    (probe       impedance
+                                                                                                                              mass:    8.5 g, BTSandInc.,
+                                                                                                                                                      the
+                                  commonItaly)
+                                 Milano,     rejection    mode ratiothe
+                                                    that permitted         of the   equipment
+                                                                               detection    and the      >1015 Ω//0.2
+                                                                                                    aretransfer             pF and
+                                                                                                                   of the sEMG         60/10
+                                                                                                                                    signal  byHz   92 dB,
+                                                                                                                                                 wireless
+                                  respectively)    and   driven    to  a  wireless     electromyographic         system
+                                 modality. The sEMG signal was acquired at 1000 Hz, amplified (gain: 2000, impedance      (FREEEMG         300,  BTS Inc.,
+                                  Milano,   Italy)  that   digitized    (1000     Hz)   and  filtered   (filter type:
+                                 and the common rejection mode ratio of the equipment are >1015 Ω//0.2 pF and 60/10 Hz  IV-order    Butterworth     filter,
+                                  band-pass
+                                 92             15–350 Hz)
+                                     dB, respectively)          thedriven
+                                                              and   raw sEMG          signals. The
+                                                                              to a wireless            electrodes were system
+                                                                                                 electromyographic          placed on     the dominant
+                                                                                                                                      (FREEEMG       300,
+                                 BTS Inc., Milano, Italy) that digitized (1000 Hz) and filtered (filter type:movement
+                                  limb.   Each   attempt      lasted   5   s, and    three  attempts       were   completed      for  each      IV-order
+                                  interspersed by
+                                 Butterworth           3 min
+                                                   filter,      of passive
+                                                            band-pass          recovery
+                                                                             15–350     Hz)[24,28].
+                                                                                              the raw   ForsEMG
+                                                                                                             all muscles,
+                                                                                                                     signals.theThe
+                                                                                                                                  operators    provided
+                                                                                                                                      electrodes    were
+                                  strong  standardized       verbal  encouragement.          In  line  with   previous
+                                 placed on the dominant limb. Each attempt lasted 5 s, and three attempts were completed  procedures,     the electrodes
+                                 were
+                                 for     placed
+                                      each        on the dominant
+                                            movement         interspersed  limbby[25,28,30].
+                                                                                    3 min of passive recovery [24,28]. For all muscles, the
+Sports 2023, 11, 64                                                                                           5 of 11
+
+
+
+
+                      2.6. Data Analysis
+                           The sEMG signals from both the peak value recorded during the maximum voluntary
+                      isometric activation and from the ascending and descending phases of each exercise were
+                      analyzed in the time domain, using a 25-ms mobile window for the computation of the root
+                      mean square (RMS). For the maximum voluntary isometric excitation, the average of the
+                      RMS corresponding to the central 2 s was considered. During each exercise, the RMS was
+                      calculated and averaged over the 2 s of the ascending and descending phase. To identify
+                      the ascending and the descending phase, the sEMG was synchronized with an integrated
+                      camera (VixtaCam 30 Hz, BTS Inc., Milano, Italy) that provided the duration of each
+                      phase [24,25,30]. Such a duration was used to mark the start and end of each phase while
+                      analyzing the sEMG signal. The sEMG data were averaged, excluding the first and the last
+                      repetition of each set, to achieve a more consistent technique and decrease the interference
+                      of fatigue [33]. Afterward, the sEMG RMS of each muscle during each exercise was
+                      normalized (nRMS) for its respective maximum voluntary isometric excitation [24,25,28,30]
+                      and inserted into the data analysis.
+
+                      2.7. Statistical Analysis
+                           The statistical analysis was performed using statistical software (SPSS vers. 28.0, IBM,
+                      Armonk, NY, USA). The normality of data was checked using the Shapiro–Wilk test and all
+                      distributions were normal (p > 0.05). Descriptive statistics (participants = 10) are shown as
+                      the mean (SD). The differences in the nRMS were separately calculated for the biceps brachii,
+                      brachioradialis, and anterior deltoid using a handgrip (3 levels: supination, pronation, and
+                      neutral) × phase (2 levels: ascending and descending phase) repeated-measures analysis of
+                      variance (ANOVA-RM). Multiple comparisons were adjusted using Bonferroni’s correction
+                      and reported as mean difference (SD). Significance was set at α < 0.05. The magnitude of
+                      the interactions was calculated using partial eta squared (ηp 2 ) and interpreted as trivial
+                      (up to 0.009), small (0.010 to 0.059), medium (0.060 to 0.139), and large (≥0.140) [34]. The
+                      pairwise differences are reported with Cohen’s d effect size (ES), which was interpreted
+                      according to Hopkins’ recommendations: 0.00–0.19: trivial; 0.20–0.59: small: 0.60–1.19:
+                      moderate; 1.20–1.99: large; ≥2.00: very large [35].
+
+                      3. Results
+                            Figure 3 shows the EMG recorded in the biceps brachii. A significant and large hand-
+                      grip × phase interaction was observed (F2,18 = 19.040, p < 0.001, ηp 2 = 0.679). During
+                      the ascending phase, a greater nRMS was observed with the supinated compared to the
+                      pronated [+19(7)%, p < 0.001, ES: 2.60] and to the neutral handgrip [+12(9)%, p = 0.006,
+                      ES: 1.24]. Moreover, a greater nRMS was observed with the neutral handgrip compared to
+                      the pronated condition [+7(3)%, p < 0.001, ES: 2.39]. During the descending phase, no sig-
+                      nificant differences emerged in nRMS between the three handgrips (p > 0.05). nRMS during
+                      the ascending phase was greater compared to the descending phase of the corresponding
+                      handgrip variation (p < 0.001 in all comparisons, ES: 5.84 to 7.73).
+                            Figure 4 shows the EMG recorded in brachioradialis. No handgrip × phase interaction
+                      was observed (F2,18 = 0.072, p = 0.931, ηp 2 = 0.008). Significant and large main effects were
+                      found for handgrip (F2 = 14.954, p < 0.001, ηp 2 = 0.624) and phase (F1 = 35.299, p < 0.001,
+                      ηp 2 = 0.725). During the ascending phase, nRMS was greater with the supinated compared
+                      to the pronated [+5(4)%, p = 0.007, ES: 1.01] and neutral handgrip [+6(5)%, p = 0.004,
+                      ES: 1.10]. No significant differences were found between the three handgrips during
+                      the descending phase (p > 0.05). nRMS during the ascending phase was always greater
+                      compared to the descending phase of the corresponding handgrip modality (p < 0.001 in
+                      all comparisons, ES: 3.03 to 5.35).
+SportsSports 11, 64
+       2023,2023, 11, x FOR PEER REVIEW                                                                                                6 of 12           6 of 11
+
+
+
+
+                                       Figure     Average
+                                       Figure3.3.Average (N (N
+                                                            = 10)=normalized
+                                                                  10) normalized   rootsquare
+                                                                             root mean   mean(nRMS)
+                                                                                               square
+                                                                                                    for(nRMS)   forbrachii
+                                                                                                        the biceps  the biceps
+                                                                                                                           duringbrachii
+                                                                                                                                  the    during the
+    Sports 2023, 11, x FOR PEER REVIEW three different handgrips in the ascending and descending phase. b: p < 0.05 vs. pronation, c: 7p of 12
+                                                                                                                                         < 0.05
+                                       three different handgrips in the ascending and descending phase. b: p < 0.05 vs. pronation, c: p < 0.05
+                                       vs. neutral, *: p < 0.05 vs. the descending phase.
+                                       vs. neutral, *: p < 0.05 vs. the descending phase.
+                                             Figure 4 shows the EMG recorded in brachioradialis. No handgrip × phase
+                                       interaction was observed (F2,18 = 0.072, p = 0.931, ηp2 = 0.008). Significant and large main
+                                       effects were found for handgrip (F2 = 14.954, p < 0.001, ηp2 = 0.624) and phase (F1 = 35.299,
+                                       p < 0.001, ηp2 = 0.725). During the ascending phase, nRMS was greater with the supinated
+                                       compared to the pronated [+5(4)%, p = 0.007, ES: 1.01] and neutral handgrip [+6(5)%, p =
+                                       0.004, ES: 1.10]. No significant differences were found between the three handgrips during
+                                       the descending phase (p > 0.05). nRMS during the ascending phase was always greater
+                                       compared to the descending phase of the corresponding handgrip modality (p < 0.001 in
+                                       all comparisons, ES: 3.03 to 5.35).
+
+
+
+
+                                       Figure
+                                      Figure 4. 4.  Average
+                                                Average     (N =(N
+                                                                 10)=normalized
+                                                                        10) normalized    root
+                                                                                   root mean   mean
+                                                                                             square   square
+                                                                                                    (nRMS)  for(nRMS)     for the brachioradialis
+                                                                                                                the brachioradialis during the     during the
+                                      three
+                                       threedifferent
+                                              differenthandgrips
+                                                           handgripsin theinascending and descending
+                                                                              the ascending          phase. b: pphase.
+                                                                                             and descending     < 0.05 vs.
+                                                                                                                        b:pronation, c: p pronation,
+                                                                                                                            p < 0.05 vs.  < 0.05     c: p < 0.05
+                                      vs. neutral, *: p < 0.05 vs. the descending phase.
+                                       vs. neutral, *: p < 0.05 vs. the descending phase.
+                                           Figure 5 shows the EMG recorded in the anterior deltoid. No handgrip × phase
+                                      interaction was observed (F2,18 = 2.601, p = 0.102, ηp2 = 0.224), while significant and large
+                                      main effects were found for handgrip (F2 = 26.880, p < 0.001, ηp2 = 0.675) and phase (F1 =
+                                      39.327, p < 0.001, ηp2 = 0.774). In the ascending phase, nRMS was greater with the pronated
+                                      and neutral handgrip compared to the supinated condition [+6(3)% and +9(2)%, p < 0.001
+                                      for both comparisons, ES: 2.07 and 3.18, respectively]. Interestingly, during the
+                                      descending phase, a greater nRMS was found in the pronated condition compared to the
+Sports 2023, 11, 64                                                                                                                 7 of 11
+
+
+
+
+                                        Figure 5 shows the EMG recorded in the anterior deltoid. No handgrip × phase
+                                   interaction was observed (F2,18 = 2.601, p = 0.102, ηp 2 = 0.224), while significant and large
+                                   main effects were found for handgrip (F2 = 26.880, p < 0.001, ηp 2 = 0.675) and phase
+                                   (F1 = 39.327, p < 0.001, ηp 2 = 0.774). In the ascending phase, nRMS was greater with the
+                                   pronated and neutral handgrip compared to the supinated condition [+6(3)% and +9(2)%,
+                                   p < 0.001 for both comparisons, ES: 2.07 and 3.18, respectively]. Interestingly, during the
+                                   descending phase, a greater nRMS was found in the pronated condition compared to the
+                                   supinated handgrip [+5(4)%, p = 0.020, ES: 1.02]. Likewise, in the anterior deltoid, regardless
+Sports 2023, 11, x FOR PEER REVIEW                                                                                         8 of 12
+                                   of the handgrip variation, the nRMS in the ascending phase was greater compared to the
+                                   descending phase (p < 0.001 in all comparisons, ES: 2.38 to 3.34).
+
+
+
+
+                                 Figure5.
+                                Figure      Average (N == 10)
+                                         5. Average       10)normalized
+                                                               normalizedroot
+                                                                           rootmean
+                                                                                meansquare (nRMS)
+                                                                                      square (nRMS)for for
+                                                                                                       anterior deltoid
+                                                                                                           anterior     during
+                                                                                                                    deltoid     the three
+                                                                                                                            during    the
+                                three different
+                                 different      handgrips
+                                            handgrips in thein  the ascending
+                                                              ascending       and descending
+                                                                         and descending phase.phase.  a: p vs.
+                                                                                               a: p < 0.05 < 0.05 vs. supination;
+                                                                                                               supination;         *: p vs.
+                                                                                                                           *: p < 0.05  <
+                                0.05 vs. the descending
+                                 the descending phase.   phase.
+
+                                4.4.Discussion
+                                    Discussion
+                                       Theaim
+                                      The  aimofofthe
+                                                   thecurrent
+                                                       currentstudy
+                                                                 studywas
+                                                                        wastotoanalyze,
+                                                                                analyze,ininaagroup
+                                                                                               groupofofcompetitive
+                                                                                                         competitivebodybuilders,
+                                                                                                                       bodybuilders,
+                                 the level of excitation   of the biceps brachii  and  brachioradialis    during  the ascending
+                                the level of excitation of the biceps brachii and brachioradialis during the ascending and        and
+                                 descending   phase   of the  biceps curl performed    with  three  different handgrips
+                                descending phase of the biceps curl performed with three different handgrips (supinated,  (supinated,
+                                 pronated, and
+                                pronated,   and neutral)
+                                                 neutral) keeping
+                                                            keepingconstant
+                                                                      constantthe inter-hand
+                                                                                the inter-hand distance.  TheThe
+                                                                                                  distance.   results show
+                                                                                                                  results   that that
+                                                                                                                          show   both
+                                 biceps  brachii and  brachioradialis   exhibited  greater  levels of excitation with
+                                both biceps brachii and brachioradialis exhibited greater levels of excitation with thethe supinated
+                                 comparedcompared
+                                supinated    to the pronated     and neutral
+                                                         to the pronated   andhandgrip.      Moreover,
+                                                                                 neutral handgrip.        the lowest
+                                                                                                      Moreover,       biceps biceps
+                                                                                                                  the lowest  brachii
+                                brachii excitation was found with the forearm pronated, while the excitation was
+                                 excitation was  found   with  the forearm  pronated,  while   the excitation of brachioradialis   of
+                                 similar in the neutral and pronated condition. These differences appeared only during the
+                                brachioradialis was similar in the neutral and pronated condition. These differences
+                                 ascending phase, while no difference was visible during the descending phase. Interestingly,
+                                appeared only during the ascending phase, while no difference was visible during the
+                                 the anterior deltoid exhibited greater excitation with a pronated and neutral than the
+                                descending phase. Interestingly, the anterior deltoid exhibited greater excitation with a
+                                 supinated handgrip. Regardless of the handgrip, the level of muscle excitability was greater
+                                pronated and neutral than the supinated handgrip. Regardless of the handgrip, the level
+                                 in the three muscles during the ascending than in the descending phase. The supinated
+                                of muscle excitability was greater in the three muscles during the ascending than in the
+                                descending phase. The supinated seems to excite the elbow flexors more than the neutral
+                                and pronated handgrip while requiring less stabilization of the glenohumeral joint.
+                                      Before exploring the literature, deepening some anatomical characteristics of the
+                                muscles examined here may provide some support in explaining our results. The biceps
+Sports 2023, 11, 64                                                                                           8 of 11
+
+
+
+
+                      seems to excite the elbow flexors more than the neutral and pronated handgrip while
+                      requiring less stabilization of the glenohumeral joint.
+                            Before exploring the literature, deepening some anatomical characteristics of the mus-
+                      cles examined here may provide some support in explaining our results. The biceps brachii
+                      is the largest anterior muscle of the arm and originates with two heads from the scapula and
+                      inserts with a common tendon to the tuberosity of the radius. While performing the biceps
+                      curl: (i) flexes the elbow and supinate or stabilizes the forearm towards the supination,
+                      and (ii) flexes or stabilizes the humeral head anteriorly. Brachioradialis originates from the
+                      humeral supracondylar crest and lateral epicondyle and inserts into the styloid process of
+                      the radius. It flexes the elbow and keeps the forearm in a neutral position. Although not
+                      examined here because only detectable through wire electrodes, brachialis also has a key
+                      role in elbow flexion. Brachialis is the most powerful flexor of the forearm and, unlike the
+                      biceps brachii and brachioradialis, does not insert on the radius, therefore not participating
+                      in the forearm supination.
+                            The novel aspect of this study is the inclusion of the pronated handgrip to compare
+                      the excitation of the elbow flexors while performing the biceps curl, while previous studies
+                      have limited the comparison to the supinated vs. neutral or semi-supinated handgrip. As
+                      concerns the biceps brachii, the excitation was supinated > neutral > pronated throughout
+                      the ascending phase. Although a straight comparison with previous studies cannot be
+                      made, we recently observed that both dynamic and stable supination increased the biceps
+                      brachii excitation while comparing a series of upper limb exercises [6], and interestingly
+                      dynamic supination appeared even more effective than a forearm in a stable supinated
+                      position [36] In line, a slightly greater excitation of the biceps brachii was seen in the
+                      supinated handgrip using the straight barbell compared a semi-supinated handgrip using
+                      the EZ barbell [13]. In contrast, other authors did not find any difference between the two,
+                      albeit the different load and population may have affected the results [10,14]. Overall, the
+                      biceps brachii seem more excited with the increase in forearm supination. This could also
+                      suggest a higher degree of tension of the biceps brachii long head tendon, which would
+                      confer greater stabilization at the level of the humerus head. Notwithstanding, the SENIAM
+                      recommendations for the location of the electrodes on the biceps brachii do not permit
+                      separating the short and the long head [32,37], so the results refer to the biceps brachii as
+                      a whole.
+                            Surprisingly, brachioradialis showed greater excitability with the supinated grip than
+                      with the neutral and pronated grip, with no difference between these two. Such out-
+                      comes may be in contrast with the general idea that biceps curl with a neutral handgrip
+                      should increase the role of brachioradialis. This anecdotal belief has been questioned in
+                      previous studies, where no difference was observed comparing the straight vs. the EZ
+                      barbell [10,14]. However, it should be noticed that the handgrip position of the EZ barbell
+                      is rather semi-supinated than neutral, maybe not enough to elicit any difference. In the
+                      first instance, as previously shown when comparing different variations of the same exer-
+                      cise, a muscle in a more lengthened position results in a greater amplitude of the sEMG
+                      signal [8,12,24,28,38,39]. As in the present case, brachioradialis is more lengthened using
+                      the supinated than the neutral grip. Nevertheless, one may expect that this should also
+                      occur for the pronated grip, where the brachioradialis is lengthened as well. However,
+                      the pronated grip is expected to require greater wrist stabilization, especially towards the
+                      wrist extension, so as to involve further muscles such as the extensor carpi and other wrist
+                      extensors. Such a synergy may have advantaged the lifting of the external load, possibly
+                      making unnecessary an over-excitation of the brachioradialis.
+                            Even though the biceps curl was performed without a dynamic arm flexion, the
+                      anterior deltoid must stabilize the glenohumeral joint during the whole movement. Both
+                      the pronated and neutral showed greater excitation compared to the supinated handgrip.
+                      When considering the whole between-muscle synergy, this might have been compensation
+                      for the lower excitation of the biceps brachii, especially its long head, to stabilize the
+                      humeral head. This behavior is in apparent contradiction with recent results that found
+Sports 2023, 11, 64                                                                                                9 of 11
+
+
+
+
+                      greater excitation of the anterior deltoid with the straight compared to the EZ-barbell [13].
+                      However, to better accommodate the anatomical valgus of the elbow with the EZ-barbell,
+                      the inter-hand distance must be shorter than with the straight barbell. This may have led to
+                      a greater external rotation of the humerus with a greater lengthening of the anterior deltoid
+                      fibers, thus possibly promoting an increase in its excitation [13,38,39].
+                           The descending phase showed overall lower excitation for all muscles compared to the
+                      ascending phase, as previously observed in this kind of study [13,24–28]. The descending
+                      phase corresponds to the eccentric contraction for all the muscles examined, and it is
+                      well known that active lengthening makes a greater force exertion and, consequently, a
+                      greater external load [21,40,41]. This may depend on both neural [15–17] and structural
+                      factors [42–44] that favor eccentric rather than concentric force exertion. Therefore, a given
+                      load is less demanding during the descending than ascending phase. Interestingly the
+                      between-variation differences in biceps brachii and brachioradialis excitation observed
+                      during the ascending disappeared during the descending phase, while the anterior deltoid
+                      was still more excited during the pronated handgrip. As a whole, it is possible the motor
+                      control used for the descending phase shifted toward greater stabilization of the humeral
+                      head so to explain the behavior of the anterior deltoid. This appears to consent to a similar
+                      biceps brachii and brachioradialis intervention once the humerus is stabilized.
+                           The present investigation comes with some acknowledged limitations. First, the
+                      excitation of the flexor and extensor carpi was not recorded and would have helped
+                      to interpret the load stabilization during the three biceps curl variations [45]. Second,
+                      the pectoralis major was not examined, so more information about the humerus head
+                      stabilization is needed. Third, the present results refer to the present population and
+                      sample size and the detailed technique we used; hence they should not be generalized.
+                      Last, the biceps curl encompasses further variations to be investigated.
+
+                      5. Conclusions
+                           The supinated handgrip elicited the greatest excitation for both biceps brachii and
+                      brachioradialis during the ascending phase, while no between-handgrip difference was
+                      found during the descending phase. The anterior deltoid was more excited during the
+                      pronated and neutral than the supinated handgrip, and the pronated was still greater than
+                      the supinated handgrip during the descending phase. Lastly, regardless of the handgrip,
+                      the ascending excited all three muscles more than the descending phase.
+                           When providing some practical application, the diversification of the stimuli using
+                      different handgrips should be considered when aiming to reinforce the upper limb muscles.
+                      This may imply a combination of both neuromuscular and mechanical stress that may assist
+                      the overload progression or just the variation of the training session. Interestingly, one
+                      may also perform the ascending or descending phase together, as in traditional resistance
+                      training, or separately to take advantage of the distinct neural and mechanical patterns.
+
+                      Author Contributions: Conceptualization, G.C., F.E. and E.C.; methodology, G.T., N.T., R.P. and
+                      S.L.; formal analysis, G.T.; data curation, G.T. and S.L.; writing—original draft preparation, G.C.;
+                      writing—review and editing, G.C., G.T., S.L., N.T., R.P., F.E. and E.C. All authors have read and
+                      agreed to the published version of the manuscript.
+                      Funding: This research received no external funding.
+                      Institutional Review Board Statement: This study was conducted in accordance with the Declaration
+                      of Helsinki and approved by the Ethics Committee of the Università degli Studi di Milano (protocol
+                      code CE 27/17 approved June 2017).
+                      Informed Consent Statement: Informed consent was obtained from all subjects involved in this
+                      study. Written informed consent has been obtained from the patient(s) to publish this paper.
+                      Data Availability Statement: Data are available on request to the corresponding author.
+                      Acknowledgments: The authors are grateful to the participants that volunteered for the present
+                      investigation.
+Sports 2023, 11, 64                                                                                                                 10 of 11
+
+
+
+
+                                   Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Suchomel, T.J.; Nimphius, S.; Bellon, C.R.; Stone, M.H. The Importance of Muscular Strength: Training Considerations. Sports
+      Med. 2018, 48, 765–785. [CrossRef]
+2.    Duchateau, J.; Stragier, S.; Baudry, S.; Carpentier, A. Strength Training: In Search of Optimal Strategies to Maximize Neuromuscular
+      Performance. Exerc. Sport Sci. Rev. 2021, 49, 2–14. [CrossRef]
+3.    Morton, R.W.; Colenso-Semple, L.; Phillips, S.M. Training for strength and hypertrophy: An evidence-based approach. Curr. Opin.
+      Physiol. 2019, 10, 90–95. [CrossRef]
+4.    Nunes, J.P.; Jacinto, J.L.; Ribeiro, A.S.; Mayhew, J.L.; Nakamura, M.; Capel, D.M.G.; Santos, L.R.; Santos, L.; Cyrino, E.S.; Aguiar,
+      A.F. Placing greater torque at shorter or longer muscle lengths? Effects of cable vs. barbell preacher curl training on muscular
+      strength and hypertrophy in young adults. Int. J. Environ. Res. Public Health 2020, 17, 5859. [CrossRef]
+5.    Moon, J.; Shin, I.; Kang, M.; Kim, Y.; Lee, K.; Park, J.; Kim, K.; Hong, D.; Koo, D.; O’Sullivan, D. The effect of shoulder flexion
+      angles on the recruitment of upper-extremity muscles during isometric contraction. J. Phys. Ther. Sci. 2013, 25, 1299–1301.
+      [CrossRef]
+6.    Cools, A.M.; Borms, D.; Cottens, S.; Himpe, M.; Meersdom, S.; Cagnie, B. Rehabilitation exercises for athletes with biceps
+      disorders and SLAP lesions: A continuum of exercises with increasing loads on the biceps. Am. J. Sports Med. 2014, 42, 1315–1322.
+      [CrossRef]
+7.    Yasuda, T.; Loenneke, J.; Ogasawara, R.; Abe, T. Influence of continuous or intermittent blood flow restriction on muscle activation
+      during low-intensity multiple sets of resistance exercise. Acta Physiol. Hung. 2013, 100, 419–426. [CrossRef]
+8.    Oliveira, L.F.; Matta, T.T.; Alves, D.S.; Garcia, M.A.C.; Vieira, T.M.M. Effect of the shoulder position on the biceps brachii EMG in
+      different dumbbell curls. J. Sports Sci. Med. 2009, 8, 24–29.
+9.    Ha, S.-Y.; Shin, D. The effects of curl-up exercise in terms of posture and muscle contraction direction on muscle activity and
+      thickness of trunk muscles. J. Back Musculoskelet. Rehabil. 2020, 33, 857–863. [CrossRef]
+10.   Marcolin, G.; Panizzolo, F.A.; Petrone, N.; Moro, T.; Grigoletto, D.; Piccolo, D.; Paoli, A. Differences in electromyographic activity
+      of biceps brachii and brachioradialis while performing three variants of curl. PeerJ 2018, 6, e5165. [CrossRef]
+11.   Naito, A. Electrophysiological studies of muscles in the human upper limb: The biceps brachii. Anat. Sci. Int. 2004, 79, 11–20.
+      [CrossRef]
+12.   Oliveira, A.S.; Gonçalves, M. Positioning during resistance elbow flexor exercise affects electromyographic activity, heart rate,
+      and perceived exertion. J. Strength Cond. Res. 2009, 23, 854–862. [CrossRef]
+13.   Coratella, G.; Tornatore, G.; Longo, S.; Esposito, F. Bilateral Biceps Curl Shows Distinct Biceps Brachii and Anterior Deltoid
+      Excitation Comparing Straight vs. EZ Barbell Coupled with Arms Flexion/No-Flexion. J. Funct. Morphol. Kinesiol. 2023, 8, 13.
+      [CrossRef]
+14.   Bagchi, A.; Raizada, S. A comparative electromyographical analysis of biceps brachii and brachioradialis during eight different
+      types of biceps curl. Indian J. Public Health Res. Dev. 2019, 10, 730–735. [CrossRef]
+15.   Enoka, R.M. Eccentric contraction require unique activation strategies by the nervous system. J. Appl. Physiol. 1996, 81, 2339–2346.
+      [CrossRef]
+16.   Duchateau, J.; Enoka, R.M. Neural control of shortening and lengthening contractions: Influence of task constraints. J. Physiol.
+      2008, 586, 5853–5864. [CrossRef]
+17.   Duchateau, J.; Enoka, R.M. Neural control of lengthening contractions. J. Exp. Biol. 2016, 219, 197–204. [CrossRef]
+18.   Coratella, G.; Chemello, A.; Schena, F. Muscle damage and repeated bout effect induced by enhanced eccentric squats. J. Sports
+      Med. Phys. Fit. 2016, 56, 1540–1546.
+19.   Coratella, G.; Bertinato, L. Isoload vs isokinetic eccentric exercise: A direct comparison of exercise-induced muscle damage and
+      repeated bout effect. Sport Sci. Health 2015, 11, 87–96. [CrossRef]
+20.   Gibala, M.J.; MacDougall, J.D.; Tarnopolsky, M.A.; Stauber, W.T.; Elorriaga, A. Changes in human skeletal muscle ultrastructure
+      and force production after acute resistance exercise. J. Appl. Physiol. 1995, 78, 702–708. [CrossRef]
+21.   Coratella, G.; Beato, M.; Bertinato, L.; Milanese, C.; Venturelli, M.; Schena, F. Including the Eccentric Phase in Resistance Training
+      to Counteract the Effects of Detraining in Women: A Randomized Controlled Trial. J. Strength Cond. Res. 2022, 36, 3023–3031.
+      [CrossRef]
+22.   Coratella, G.; Milanese, C.; Schena, F. Unilateral eccentric resistance training: A direct comparison between isokinetic and
+      dynamic constant external resistance modalities. Eur. J. Sport Sci. 2015, 15, 720–726. [CrossRef]
+23.   Maeo, S.; Takahashi, T.; Takai, Y.; Kanehisa, H. Trainability of Muscular Activity Level during Maximal Voluntary Co-Contraction:
+      Comparison between Bodybuilders and Nonathletes. PLoS ONE 2013, 8, e79486. [CrossRef]
+24.   Coratella, G.; Tornatore, G.; Longo, S.; Esposito, F.; Cè, E. An electromyographic analysis of lateral raise variations and frontal
+      raise in competitive bodybuilders. Int. J. Environ. Res. Public Health 2020, 17, 6015. [CrossRef]
+25.   Coratella, G.; Tornatore, G.; Caccavale, F.; Longo, S.; Esposito, F.; Cè, E. The Activation of Gluteal, Thigh, and Lower Back Muscles
+      in Different Squat Variations Performed by Competitive Bodybuilders: Implications for Resistance Training. Int. J. Environ. Res.
+      Public Health 2021, 18, 772. [CrossRef]
+Sports 2023, 11, 64                                                                                                                  11 of 11
+
+
+
+
+26.   Coratella, G.; Tornatore, G.; Longo, S.; Esposito, F.; Cè, E. An electromyographic analysis of Romanian, step-Romanian, and
+      stiff-leg deadlift: Implication for resistance training. Int. J. Environ. Res. Public Health 2022, 19, 1903. [CrossRef]
+27.   Coratella, G.; Tornatore, G.; Longo, S.; Esposito, F. Front vs Back and Barbell vs Machine Overhead Press : An Electromyographic
+      Analysis and Implications For Resistance Training. Front. Physiol. 2022, 13, 825880. [CrossRef]
+28.   Coratella, G.; Tornatore, G.; Longo, S.; Esposito, F.; Cè, E. Specific prime movers’ excitation during free-weight bench press
+      variations and chest press machine in competitive bodybuilders. Eur. J. Sport Sci. 2020, 20, 571–579. [CrossRef]
+29.   Coratella, G. Appropriate reporting of exercise variables in resistance training protocols: Much more than load and number of
+      repetitions. Sports Med.-Open 2022, 8, 99. [CrossRef]
+30.   Coratella, G.; Tornatore, G.; Longo, S.; Borrelli, M.; Doria, C.; Esposito, F.; Cè, E. The Effects of Verbal Instructions on Lower Limb
+      Muscles’ Excitation in Back-Squat. Res. Q. Exerc. Sport 2020, 93, 429–435. [CrossRef]
+31.   Kompf, J.; Arandjelović, O. Understanding and Overcoming the Sticking Point in Resistance Exercise. Sports Med. 2016, 46,
+      751–762. [CrossRef]
+32.   Hermens, H.J.; Freriks, B.; Disselhorst-Klug, C.; Rau, G. Development of recommendations for SEMG sensors and sensor
+      placement procedures. J. Electromyogr. Kinesiol. 2000, 10, 361–374. [CrossRef]
+33.   Marri, K.; Swaminathan, R. Analyzing the influence of curl speed in fatiguing biceps brachii muscles using sEMG signals and
+      multifractal detrended moving average algorithm. In Proceedings of the 2016 38th Annual International Conference of the IEEE
+      Engineering in Medicine and Biology Society (EMBC), Orlando, FL, USA, 16–20 August 2016; Volume 2016, pp. 3658–3661.
+      [CrossRef]
+34.   Cohen, J. Statistical Power Analysis for the Behavioral Sciences, 2nd ed.; Lawrence Erlbaum Associates: Mahwah, NJ, USA, 1988.
+35.   Hopkins, W.G.; Marshall, S.W.; Batterham, A.M.; Hanin, J. Progressive Statistics for Studies in Sports Medicine and Exercise
+      Science. Med. Sci. Sports Exerc. 2009, 41, 3–13. [CrossRef]
+36.   Borms, D.; Ackerman, I.; Smets, P.; Van Den Berge, G.; Cools, A.M. Biceps Disorder Rehabilitation for the Athlete. Am. J. Sports
+      Med. 2017, 45, 642–650. [CrossRef]
+37.   Hermens, H.J.; Freriks, B.; Merletti, R.; Stegeman, D.; Blok, J.; Rau, G.; Disselhorst-Klug, C.; Hägg, G. European Recommendations
+      for Surface ElectroMyoGraphy Results of the SENIAM project. Roessingh Res. Dev. 2000, 10, 361–374.
+38.   Escamilla, R.F.; Yamashiro, K.; Paulos, L.; Andrews, J.R. Shoulder muscle activity and function in common shoulder rehabilitation
+      exercises. Sports Med. 2009, 39, 663–685. [CrossRef]
+39.   Alves, D.; Matta, T.; Oliveira, L. Effect of shoulder position on triceps brachii heads activity in dumbbell elbow extension exercises.
+      J. Sports Med. Phys. Fit. 2018, 58, 1247–1252. [CrossRef]
+40.   Coratella, G.; Schena, F. Eccentric resistance training increases and retains maximal strength, muscle endurance, and hypertrophy
+      in trained men. Appl. Physiol. Nutr. Metab. 2016, 41, 1184–1189. [CrossRef]
+41.   Coratella, G.; Galas, A.; Campa, F.; Pedrinolla, A.; Schena, F.; Venturelli, M. The Eccentric Phase in Unilateral Resistance Training
+      Enhances and Preserves the Contralateral Knee Extensors Strength Gains After Detraining in Women: A Randomized Controlled
+      Trial. Front. Physiol. 2022, 13, 788473. [CrossRef]
+42.   Herzog, W. Mechanisms of enhanced force production in lengthening (eccentric) muscle contractions. J. Appl. Physiol. 2014, 116,
+      1407–1417. [CrossRef]
+43.   Herzog, W. Why are muscles strong, and why do they require little energy in eccentric action? J. Sport Health Sci. 2018, 7, 255–264.
+      [CrossRef]
+44.   Herzog, W.; Powers, K.; Johnston, K.; Duvall, M. A new paradigm for muscle contraction. Front. Physiol. 2015, 6, 174. [CrossRef]
+45.   Hill, E.; Housh, T.; Smith, C.; Schmidt, R.; Johnson, G. Muscle-and mode-specific responses of the forearm flexors to fatiguing,
+      concentric muscle actions. Sports 2016, 4, 47. [CrossRef]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

@@ -1,4 +1,4 @@
-ï»¿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@
       .title{font-weight:750;font-size:13px}.subtitle{color:var(--muted);font-size:12px;margin-top:2px;line-height:1.35}
       .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
       .btn,select{border:1px solid var(--border);background:var(--btn);color:var(--text);padding:7px 10px;border-radius:12px;font-weight:650;font-size:12px}.btn{cursor:pointer}.btn:hover{background:var(--btnHover)}
-      select,option,optgroup{background:#111827;color:var(--text)} .status{color:var(--muted);font-size:12px;white-space:nowrap}
+      select,option,optgroup{background:#111827;color:var(--text)} .status{color:var(--muted);font-size:12px;white-space:normal;max-width:220px;line-height:1.25;text-align:right}
       .main{display:grid;grid-template-columns:minmax(250px,29vw) 1fr;min-height:0}
       .left{border-right:1px solid var(--border);background:var(--panel2);backdrop-filter:blur(12px);padding:10px 10px 12px;overflow:auto}
       .sectionTitle{font-weight:750;font-size:12px;margin:4px 4px 10px;color:var(--muted)}
@@ -60,10 +60,10 @@
     <script>
       const COLORS={biceps:'#60a5fa',others:'#f59e0b',long:'#a855f7',short:'#22c55e',activation:'#ef4444',presence:'#14b8a6'};
       const MODES={
-        subpops:{label:'Biceps unit specializations',subtitle:'This is the clearest summary of the main finding: the biceps did not act like one uniform muscle.',hint:'In this paper, the sampled biceps pool contained many flexion+supination â€œsummingâ€ units and a smaller flexion-only set. The paper also cites earlier related biceps work showing medial long-head supination-only units.',overlay:'Hover = class count or evidence marker',yLabel:'Observed units / evidence',categories:['Flexion + supination units','Flexion-only units','Supination-only units'],series:[{name:'Observed in this paper',color:COLORS.long,values:[18,5,0],errors:[0,0,0],note:'Current van Zuylen paper: 18 summing units and 5 flexion-only units were directly reported.'},{name:'Supported by earlier related biceps work',color:COLORS.presence,values:[0,0,1],errors:[0,0,0],note:'This paper discusses prior ter Haar Romeny biceps recordings showing medial long-head supination-only units; that class was not directly sampled here.'}]},
+        subpops:{label:'Biceps unit specializations',subtitle:'This is the clearest summary of the main finding: the biceps did not act like one uniform muscle.',hint:'In this paper, the sampled biceps pool contained many flexion+supination “summing” units and a smaller flexion-only set. The paper also cites earlier related biceps work showing medial long-head supination-only units.',overlay:'Hover = class count or evidence marker',yLabel:'Observed units / evidence',categories:['Flexion + supination units','Flexion-only units','Supination-only units'],series:[{name:'Observed in this paper',color:COLORS.long,values:[18,5,0],errors:[0,0,0],note:'Current van Zuylen paper: 18 summing units and 5 flexion-only units were directly reported.'},{name:'Supported by earlier related biceps work',color:COLORS.presence,values:[0,0,1],errors:[0,0,0],note:'This paper discusses prior ter Haar Romeny biceps recordings showing medial long-head supination-only units; that class was not directly sampled here.'}]},
         regional:{label:'Regional biceps task map',subtitle:'Regional interpretation from the paper text: lateral long head behaved differently from the sampled short head, and prior related work placed supination-only units more medially.',hint:'This is a study-based map of where different task-specialized biceps motor-unit patterns were found. It is meant to show the flexion-vs-supination specialization visually.',overlay:'Hover = qualitative task pattern (1 = present)',yLabel:'Pattern present (0 or 1)',categories:['Long head lateral','Short head sampled here','Long head medial (earlier work)'],series:[{name:'Flexion-linked pattern',color:COLORS.activation,values:[1,1,0],errors:[0,0,0],note:'Flexion-only units were consistently lateral long head; summing units were also flexion-active.'},{name:'Supination-linked pattern',color:COLORS.presence,values:[0,1,1],errors:[0,0,0],note:'Supination-linked behavior was present in summing units and in the medial long-head supination-only units discussed from earlier related biceps studies.'}]},
-        contribution:{label:'Biceps contribution (%)',subtitle:'Table 2 estimated relative contribution of the biceps to flexion and supination torques at 100Â° and 130Â° elbow angles.',hint:'The biceps contributes more to flexion at 130Â°, but less to supination at 130Â°.',overlay:'Hover = reported contribution percentage',yLabel:'Relative contribution (%)',categories:['Flexion 100Â°','Flexion 130Â°','Supination 100Â°','Supination 130Â°'],series:[{name:'Biceps contribution',color:COLORS.biceps,values:[38,43,35,26],errors:[0,0,0,0],note:'Exact Table 2 values.'}]},
-        threshold:{label:'Biceps recruitment threshold vs elbow angle',subtitle:'Figure 14-based reconstruction of normalized biceps recruitment thresholds. The paper normalized each series to 1.0 at 100Â°.',hint:'Biceps flexion recruitment threshold drops away from 100Â°, meaning relatively greater biceps activation is needed/seen as the elbow moves toward flexion or extension. Supination threshold stays much flatter.',overlay:'Hover = normalized relative threshold (Fig. 14 reconstruction)',yLabel:'Relative recruitment threshold',categories:['70Â°','100Â°','130Â°','160Â°'],series:[{name:'Biceps flexion threshold',color:COLORS.biceps,values:[0.86,1.00,0.76,0.63],errors:[0.05,0.05,0.05,0.05],note:'Approximate from Fig. 14A; normalized to 100Â° = 1.'},{name:'Biceps supination threshold',color:COLORS.others,values:[0.98,1.00,1.06,1.05],errors:[0.05,0.05,0.05,0.05],note:'Approximate from Fig. 14B; normalized to 100Â° = 1.'}]}
+        contribution:{label:'Biceps contribution (%)',subtitle:'Table 2 estimated relative contribution of the biceps to flexion and supination torques at 100° and 130° elbow angles.',hint:'The biceps contributes more to flexion at 130°, but less to supination at 130°.',overlay:'Hover = reported contribution percentage',yLabel:'Relative contribution (%)',categories:['Flexion 100°','Flexion 130°','Supination 100°','Supination 130°'],series:[{name:'Biceps contribution',color:COLORS.biceps,values:[38,43,35,26],errors:[0,0,0,0],note:'Exact Table 2 values.'}]},
+        threshold:{label:'Biceps recruitment threshold vs elbow angle',subtitle:'Figure 14-based reconstruction of normalized biceps recruitment thresholds. The paper normalized each series to 1.0 at 100°.',hint:'Biceps flexion recruitment threshold drops away from 100°, meaning relatively greater biceps activation is needed/seen as the elbow moves toward flexion or extension. Supination threshold stays much flatter.',overlay:'Hover = normalized relative threshold (Fig. 14 reconstruction)',yLabel:'Relative recruitment threshold',categories:['70°','100°','130°','160°'],series:[{name:'Biceps flexion threshold',color:COLORS.biceps,values:[0.86,1.00,0.76,0.63],errors:[0.05,0.05,0.05,0.05],note:'Approximate from Fig. 14A; normalized to 100° = 1.'},{name:'Biceps supination threshold',color:COLORS.others,values:[0.98,1.00,1.06,1.05],errors:[0.05,0.05,0.05,0.05],note:'Approximate from Fig. 14B; normalized to 100° = 1.'}]}
       };
 
       const canvas=document.getElementById('canvas'),ctx=canvas.getContext('2d');
@@ -71,6 +71,7 @@
       const modeSel=document.getElementById('mode'),btnFit=document.getElementById('btnFit'),btnReset=document.getElementById('btnReset'),btnShowAll=document.getElementById('btnShowAll'),btnHideAll=document.getElementById('btnHideAll');
       let mode='subpops',visible={},zoomX=1,panX=0,drag=null,activeSeries=null,layout=null;
       Object.entries(MODES).forEach(([k,v])=>{const o=document.createElement('option');o.value=k;o.textContent=v.label;modeSel.appendChild(o);});
+      modeSel.value=mode;
       function initVisible(){ for(const s of MODES[mode].series){ if(!(s.name in visible)) visible[s.name]=true; } }
       function seriesShown(){ return MODES[mode].series.filter(s=>visible[s.name]); }
       function maxY(){ const vals=[]; for(const s of seriesShown()){ for(let i=0;i<s.values.length;i++) vals.push((s.values[i]||0)+(s.errors?.[i]||0)); } return Math.max(1.1,...vals)*1.18; }
@@ -85,7 +86,7 @@
       function updateTooltip(ev){
         const p=pointerPos(ev), hit=hitBar(p);
         if(!hit){ tooltip.style.display='none'; return; }
-        tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.category}</div><div>${MODES[mode].yLabel}: <strong>${hit.value.toFixed(2)}</strong>${MODES[mode].yLabel.includes('%')?'%':''}</div>${hit.error?`<div>SEM/SD display: Â±${hit.error.toFixed(2)}</div>`:''}<div>${hit.note}</div>`;
+        tooltip.innerHTML=`<div><strong>${hit.series}</strong></div><div class="muted">${hit.category}</div><div>${MODES[mode].yLabel}: <strong>${hit.value.toFixed(2)}</strong>${MODES[mode].yLabel.includes('%')?'%':''}</div>${hit.error?`<div>SEM/SD display: ±${hit.error.toFixed(2)}</div>`:''}<div>${hit.note}</div>`;
         tooltip.style.display='block';
         const tipW = tooltip.offsetWidth || 210;
         const tipH = tooltip.offsetHeight || 80;
@@ -101,8 +102,12 @@
       stage.addEventListener('pointerdown',e=>{ drag={x:e.clientX,panX}; stage.classList.add('is-dragging'); stage.setPointerCapture(e.pointerId); });
       stage.addEventListener('pointermove',e=>{ updateTooltip(e); if(!drag) return; const cats=MODES[mode].categories.length; const span=Math.max(1,cats/zoomX); const pxPerCat=(layout?.plot.w||stage.clientWidth)/span; panX=drag.panX-(e.clientX-drag.x)/Math.max(1,pxPerCat); draw(); updateTooltip(e); });
       stage.addEventListener('pointerup',e=>{ drag=null; stage.classList.remove('is-dragging'); try{stage.releasePointerCapture(e.pointerId);}catch{} });
-      stage.addEventListener('pointerleave',()=>tooltip.style.display='none'); window.addEventListener('resize',resize);
+      stage.addEventListener('pointerleave',()=>tooltip.style.display='none'); window.addEventListener('resize',resize); window.addEventListener('load',()=>{ requestAnimationFrame(()=>requestAnimationFrame(resize)); setTimeout(resize,120); }); if('ResizeObserver' in window){ new ResizeObserver(()=>resize()).observe(stage); }
       renderLegend(); resize();
     </script>
   </body>
 </html>
+
+
+
+
